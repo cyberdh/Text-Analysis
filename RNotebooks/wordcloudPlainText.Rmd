@@ -1,4 +1,4 @@
-## Top Ten Words in Hamlet and Twelfth Night
+## Wordcloud of Top 75 Words in Charlotte Bronte's Jane Eyre
 ***
 Using the text of Jane Eyre from Project Gutenberg, we will plot the top 75 words in the novel. [http://www.gutenberg.org/cache/epub/1260/pg1260.txt]
 
