@@ -1,0 +1,105 @@
+## Top Ten Words in Hamlet and Twelfth Night
+***
+Using texts from the MIT Moby Shakespeare corpus, this tutorial finds the top ten most frequently used words in text and Twelfth Night, without including speaker names (see ALL CAPS lines below) or the words ACT and SCENE. 
+
+***
+
+### Global parameters 
+#### Set working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac. It contains all the other R scripts, texts, notebooks, and results. If you have branched the github, simply note where you have save the folder. If you are on a PC, you will need to use an absolute path such as "C:Users:XXX."
+```{r}
+setwd("~/Desktop/RAnalysis/rNotebooks") 
+```
+
+#### Include necessary packages for notebook
+```{r}
+library(knitr)
+library(markdown)
+library(rmarkdown)
+```
+
+#### Load data (plaintext file), telling the computer that it is formatted by line breaks  
+```{r}
+text.v <- scan("~/Desktop/RAnalysis/plainText/hamlet.txt", what="character", sep="\n")
+```
+
+***   
+### Prepare text data
+#### Collapse text into one string, leaving spaces " " between words 
+```{r}
+text.v <- paste(text.v, collapse="  ")
+```
+
+***
+#### Split (_strsplit_) big string into separate words
+```{r}
+text.words <- strsplit(text.v, "\\W")
+```
+
+***
+#### Simplify items by reducing the list to a vector 
+```{r}
+text.word.v <- unlist(text.words)
+```
+
+***
+#### Eliminate blanks left by punctuation; overwrite "text.word.v"
+```{r}
+not.blanks.v <- which(text.word.v != "")
+text.word.v <- text.word.v[not.blanks.v]
+```
+
+***
+#### Eliminate all caps words including speaker names, ACT, and SCENE; save as "text.final.word.v" (this process is unique to drama)
+```{r}
+not.caps<-which(toupper(text.word.v)!=text.word.v)
+text.final.word.v<-text.word.v[not.caps]
+```
+
+***
+#### Convert text string to all lower-case letters
+```{r}
+text.lower.v <- tolower(text.final.word.v)
+```
+
+***   
+### Analysis
+#### Number of unique words in the text
+```{r}
+length(unique(text.lower.v))
+```
+
+***    
+#### Create a sorted table of “contingency” word types and their corresponding frequencies.
+```{r}
+text.freqs.t <- table(text.lower.v)
+sorted.text.freqs.t <- sort(text.freqs.t, decreasing=TRUE)
+```
+
+***   
+#### Calculate whether text conforms to Zipf’s Law: _the frequency of any word in a corpus is inversely proportional to its “rank” or position in the overall frequency distribution_.
+```{r}
+sorted.text.rel.freqs.t <- 100*(sorted.text.freqs.t/sum(sorted.text.freqs.t))
+```
+
+***    
+#### Plot the result
+```{r eval=FALSE, fig.width=8, fig.height=6}
+plot(sorted.text.rel.freqs.t[1:10], type="b", lwd=2, col="blue", col.lab="red", ylim= c(0,4.0), main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Percentage of Speech", xaxt="n",)
+axis(1,1:10, labels=names(sorted.text.rel.freqs.t[1:10]))
+
+# Note: if your graph begins higher than 4 percent, you must change the 4.0 value in the ylim= c(0,4.0) argument to see the entire graph. Deleting this argument will output the entire graph relative to the frequency percentage. The 4 simply allows users of this specific notebook to equally compare the top ten graphs of text and Twelfth Night. 
+```
+
+***
+
+##### The resulting line graph shows the top ten most frequent words throughout the entire text of Hamlet. "The" is the most frequent word, making up just over 3 percent of the text.
+
+![](img/hamletTopTen.png) 
+
+##### The resulting line graph from imposing the same test on Twelfth Night, shows the similaries and differences between the two texts and their most frequent words.
+
+![](img/twelfthNightTopTen.png) 
+
+
+***
+Acknowledgments: Code adapted from Matthew Jockers' _Text Analysis with R for Students of Literature_.
