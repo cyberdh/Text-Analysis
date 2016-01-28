@@ -53,5 +53,5 @@ wordcloud(corpus,random.order=FALSE,scale=c(3,.1),rot.per=0,
 
 ##### Voila!
 
-![](img/wordcloudJaneEyre.png) 
+![](images/wordcloudJaneEyre.png) 
 
