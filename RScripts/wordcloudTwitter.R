@@ -10,9 +10,6 @@ tweetlist <- sapply(tweets, function(x) x$text)
 #Strip URLS
 tweetlist=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweetlist)
 
-#strip @mentions and @usernames
-tweetlist=gsub("@(.*)", "", tweetlist)
-
 #Strip punctuation
 tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 
