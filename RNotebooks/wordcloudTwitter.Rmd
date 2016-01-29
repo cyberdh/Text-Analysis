@@ -1,6 +1,6 @@
-## Wordcloud of Top 75 Words in Charlotte Bronte's Jane Eyre
+## Wordcloud of Top 100 Words in tweets using the hashtag #blizzard2016
 ***
-Using 320 tweets with the hashtag #snowzilla, we will create a wordcloud of the top words used to describe Winter Storm Jonas.
+Using 3200 tweets with the hashtag #blizzard2016 from January 24, 2016, we will create a wordcloud of the top words used to describe Winter Storm Jonas.
 
 ***
 
@@ -28,7 +28,7 @@ library(RColorBrewer)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 ***
 ```{r}
-load(file = "snowzilla.RData")
+load(file = "blizzard2016v2.RData")
 ```
 
 ***   
@@ -48,9 +48,6 @@ Next we want to strip the URLs from our tweets. Using "gsub" to replace URLS in 
 tweetlist=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweetlist)
 ```
 
-```{r basicconsole}
-tweetlist[1:10]
-```
 ***
 Now we will go on to do the same with mentions, usernames.
 ***
@@ -77,7 +74,7 @@ words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 Now it's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist; here we are using qdap's word list and specifying that we wish to use the top 100 words from E.B. Fry's top 1000 words. Note that if we were to change the argument to "Top1000Words," we'd eliminate about 90% of our text! Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "snowzilla."
 ***
 ```{r}
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "snowzilla"))
+words=rm_stopwords(words,c(Top100Words,"rt", "amp", "blizzard2016"))
 ```
 
 ***
@@ -104,12 +101,13 @@ words=names(words)
 ```
 
 ***
-Having removed unwanted items, it's now time to ditch the empty elements.
+Plot the wordcloud! There are a number of arguments you can customize: "random.order" is false so that words are plotted in order of decreasing frequency; "scale"" indicates the size of the words; "rot.per" lets you customize the proportion of words that are rotated 90 degrees; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
 ***
 ```{r}
-words=words[lapply(words,length)>0]
+wordcloud(words,freqs,scale=c(3,.7),max.words=100, rot.per=0, 
+          colors=brewer.pal(8, "Dark2"))
 ```
 #### Voila!
 
-![](images/wordcloudJaneEyre.png) 
+![](images/blizzard2016.png) 
 

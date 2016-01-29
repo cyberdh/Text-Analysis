@@ -4,7 +4,7 @@ library(RColorBrewer)
 
 setwd("~/Desktop/R/Text_Analysis/data/twitter/")
 
-load(file = "snowzilla.RData")
+load(file = "blizzard2016v2.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS
@@ -17,7 +17,7 @@ tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 
 # #Remove common words
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "snowzilla"))
+words=rm_stopwords(words,c(Top100Words,"rt", "amp", "blizzard2016"))
 
 #Get rid of empty elements
 words=words[lapply(words,length)>0]
@@ -30,10 +30,6 @@ words=sort(table(words),decreasing=T)
 freqs=as.vector(words)
 words=names(words)
 
-#add color to the word cloud
-pal <- brewer.pal(10, "Spectral")
-
-
-wordcloud(words,freqs,scale=c(4,.5),min.freq=1,max.words=75, rot.per=0, 
-          colors=pal)
+wordcloud(words,freqs,scale=c(2.5,.7),min.freq=3,max.words=100, rot.per=0, 
+          colors=brewer.pal(8, "Dark2"))
 
