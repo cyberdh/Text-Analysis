@@ -86,7 +86,7 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 
 
 # Algorithm Testing
-sample = c("You're awesome and I love you", "I hate and hate and hate. So angry. Die!", "Impressed and amazed: you are peerless in your achievement of unparalleled mediocrity.")
+sample = c("This ice cream is the best! I love this flavor!", "I am so angry at the terrible weather today. Frustrated.", "Wow, spectacular, I wish I could be as perfect as you.")
 sampleResult = score.sentiment(sample, pos.words, neg.words)
 sampleResult
 
