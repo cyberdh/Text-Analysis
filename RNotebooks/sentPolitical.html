@@ -169,13 +169,17 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')</code></pre>
 <div id="implement-the-sentiment-scoring-algorithm" class="section level3">
 <h3>Implement the sentiment scoring algorithm</h3>
 <hr />
-<p>Here is where the magic happens - let’s create the algorithm! To begin a function, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words. The proges</p>
-<pre class="r"><code>score.sentiment = function(tweets, pos.words, neg.words)
+<p>Here is where the magic happens - let’s create the algorithm! To begin a function which will iterate over all of the elements in the specified object, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words.</p>
+<p>We will then require the plyr and stringr packages. The plyr package splits, combines, and applies data (the laply function used below comes with this package) and the stringr package which eases string operations (we will use str_split below, which is included with the stringr package).</p>
+<p>This function takes in an argument (tweets for us), normalizes all of the text (including removing emojis which is important for tweets), splits the tweets into separate words to analyze, compares the tweet words to the positive and negative dictionaries, returns a TRUE if the word is in the dictionary and FALSE if it is not, the trues and falses are summed up for each tweet (this is the score of the tweet), and finally, the tweet’s score and its text are returned as a data frame for ease of plotting.</p>
+<pre class="r"><code>score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
   require(plyr)
   require(stringr)
   
+  #figure out the score for each tweet specifically
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
+    #normalize tweet text
     tweet = gsub('[[:punct:]]', '', tweet)
     tweet = gsub('[[:cntrl:]]', '', tweet)
     tweet = gsub('\\d+', '', tweet)
@@ -185,11 +189,11 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')</code></pre>
     
     tweet.lower = tolower(tweet)
     
-    
+    #split list into separate words
     word.list = str_split(tweet.lower, '\\s+')
     words = unlist(word.list)
     
-    #compare our words to the dictionaries of positive and negative terms
+    #compare our words to the dictionaries of positive and negative terms using match function
     pos.matches = match(words, pos.words)
     neg.matches = match(words, neg.words)
     
@@ -201,8 +205,9 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')</code></pre>
     score = sum(pos.matches) - sum(neg.matches)
     
     return(score)
-  }, pos.words, neg.words)
+  }, pos.words, neg.words, .progress = .progress)
   
+  #compile the scores and text of tweets into a data frame for plotting
   scores.df = data.frame(score=scores, text = tweets)
   return(scores.df)
 }</code></pre>
@@ -210,7 +215,7 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')</code></pre>
 <div id="algorithm-testing" class="section level4">
 <h4>Algorithm Testing</h4>
 <p>Whenever you create a function (or algorithm), it is best to test it on some sample data to ensure it behaves as you expect. Let’s create a sample list of emotional sentences and save it as “sample”.</p>
-<pre class="r"><code>sample = c(&quot;You're awesome and I love you&quot;, &quot;I hate and hate and hate. So angry. Die!&quot;, &quot;Impressed and amazed: you are peerless in your achievement of unparalleled mediocrity.&quot;)</code></pre>
+<pre class="r"><code>sample = c(&quot;This ice cream is the best! I love this flavor!&quot;, &quot;I am so angry at the terrible weather today. Frustrated.&quot;, &quot;Wow, spectacular, I wish I could be as perfect as you.&quot;)</code></pre>
 <hr />
 <p>We already did the hard part by building our score.sentiment function earlier. Here, we just need to tell the algorithm what to use as arguments! We need to put our sample data in as the “tweets” argument, pos.words as the “pos.words”&quot; argument, and neg.words as the “neg.words” argument!</p>
 <p>Lets also save the result of running the algorithm as an object called sample.result.</p>
@@ -219,14 +224,10 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')</code></pre>
 <hr />
 <p>Did it work?</p>
 <pre class="r"><code>sample.result</code></pre>
-<pre><code>##   score
-## 1     2
-## 2    -5
-## 3     4
-##                                                                                     text
-## 1                                                          You're awesome and I love you
-## 2                                               I hate and hate and hate. So angry. Die!
-## 3 Impressed and amazed: you are peerless in your achievement of unparalleled mediocrity.</code></pre>
+<pre><code>##   score                                                     text
+## 1     2          This ice cream is the best! I love this flavor!
+## 2    -3 I am so angry at the terrible weather today. Frustrated.
+## 3     3   Wow, spectacular, I wish I could be as perfect as you.</code></pre>
 <p>It worked! Now we can be sure our algorithm is behaving as we would expect. Lets score our Twitter data since we are confident in our function-creating abilities…</p>
 <hr />
 <hr />
@@ -337,7 +338,7 @@ trump.plot = trump.plot + theme_bw()</code></pre>
 <div id="voila" class="section level4">
 <h4>Voila!</h4>
 <hr />
-<p>Acknowledgements:</p>
+<p>Acknowledgements: This algorithm was adapted from Jeffrey Breen’s Mining Twitter for Airline Consumer Sentiment article. You can find it here: <a href="http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment" class="uri">http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment</a>.</p>
 <ul>
 <li>Liu, Minqing Hu and Junsheng Cheng. “Opinion Observer: Analyzing and Comparing Opinions on the Web.” Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.</li>
 </ul>

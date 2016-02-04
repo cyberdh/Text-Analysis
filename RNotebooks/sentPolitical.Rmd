@@ -113,14 +113,20 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
 
 ***
 
-Here is where the magic happens - let's create the algorithm! To begin a function, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words. The proges
+Here is where the magic happens - let's create the algorithm! To begin a function which will iterate over all of the elements in the specified object, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words. 
+
+We will then require the plyr and stringr packages. The plyr package splits, combines, and applies data (the laply function used below comes with this package) and the stringr package which eases string operations (we will use str_split below, which is included with the stringr package).
+
+This function takes in an argument (tweets for us), normalizes all of the text (including removing emojis which is important for tweets), splits the tweets into separate words to analyze, compares the tweet words to the positive and negative dictionaries, returns a TRUE if the word is in the dictionary and FALSE if it is not, the trues and falses are summed up for each tweet (this is the score of the tweet), and finally, the tweet's score and its text are returned as a data frame for ease of plotting.
 ```{r}
-score.sentiment = function(tweets, pos.words, neg.words)
+score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
   require(plyr)
   require(stringr)
   
+  #figure out the score for each tweet specifically
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
+    #normalize tweet text
     tweet = gsub('[[:punct:]]', '', tweet)
     tweet = gsub('[[:cntrl:]]', '', tweet)
     tweet = gsub('\\d+', '', tweet)
@@ -130,11 +136,11 @@ score.sentiment = function(tweets, pos.words, neg.words)
     
     tweet.lower = tolower(tweet)
     
-    
+    #split list into separate words
     word.list = str_split(tweet.lower, '\\s+')
     words = unlist(word.list)
     
-    #compare our words to the dictionaries of positive and negative terms
+    #compare our words to the dictionaries of positive and negative terms using match function
     pos.matches = match(words, pos.words)
     neg.matches = match(words, neg.words)
     
@@ -146,18 +152,20 @@ score.sentiment = function(tweets, pos.words, neg.words)
     score = sum(pos.matches) - sum(neg.matches)
     
     return(score)
-  }, pos.words, neg.words)
+  }, pos.words, neg.words, .progress = .progress)
   
+  #compile the scores and text of tweets into a data frame for plotting
   scores.df = data.frame(score=scores, text = tweets)
   return(scores.df)
 }
+
 ```
 
 ***
 #### Algorithm Testing
 Whenever you create a function (or algorithm), it is best to test it on some sample data to ensure it behaves as you expect. Let's create a sample list of emotional sentences and save it as "sample".
 ```{r}
-sample = c("You're awesome and I love you", "I hate and hate and hate. So angry. Die!", "Impressed and amazed: you are peerless in your achievement of unparalleled mediocrity.")
+sample = c("This ice cream is the best! I love this flavor!", "I am so angry at the terrible weather today. Frustrated.", "Wow, spectacular, I wish I could be as perfect as you.")
 
 ```
 ***
