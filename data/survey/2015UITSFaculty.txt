@@ -1,0 +1,151 @@
+1. Knowledge base can be improved. There is "stale" information there that makes finding up to date applicable guidance more difficult.
+2. It would help to have detailed guidance for routine tasks on knowledge base. Sometimes I feel as though I am the 200th person asking how to do something, but that IT support is satisfied with making every single person contact them to do something that everyone needs to do. For example, updating the license on SAS requires the user to notice the message and then contact (somebody? where?) to get the script to update the license code. It would be much more efficient if these sorts of things were "pushed out" by IT, rather than "pulled in" by every individual user.
+3. With respect to security--I get it. However the security policy revolves around information types that are N/A for most users. If you want everyone to encrypt their systems, then make everyone do it. But don't tell users it is because they have social security numbers or credit card numbers on their PCs when they don't. Also, be consistent. If my PC laptop is a threat, then so are: 1) my home desktop, 2) my smartphone, 3) my tablet, and 4) my colleagues' Apple machines, because we are all doing the same things on all devices (accessing email, Oncourse, and library servers). We are academics. Consistent and coherent security principles matter to us if you want buy-in.
+4. Wireless access is awful. I would say that I am unable to access iusecure wireless in the B-school at least 50% of the time. I end up using eduroam. I don't understand why it is, I only know this is the way it is.
+5. The printing situation is arcane. For class I must print paper copies on my local printer, give the master to staff who fill out and print a blue form, and then carry the paper packet to the basement. Once there, the paper forms are used to create copies, which are periodically retrieved by staff. Wouldn't electronic transmission, routing, and processing through the network make so much more sense? As in, I fill out an online form, attach a electronic pdf, specify number of copies, route to staff to approve, route to basement to print. Staff can see where in the process are particular jobs, and so on. As is, many faculty print class handouts on local printers because it is easier. This can't be cost effective.
+6. I appreciate that the construction and moves have created a great deal of additional work and that staff are trying hard. My feedback on this survey reflects overall satisfaction relative to my "ideal." Given the realities of the last year, I shower IT with praise and understanding for getting through it.
+
+1) Pages.iu.edu need to support some kind of CMS.
+2) Improve Wifi coverage, it is spotty even inside the buildings.
+
+Canvas is cumbersome and has taken hours of extra work. There are way too many stages to each process, it is NOT intuitive, and does not enable me to do things I need to do. Oncourse was hardly smooth or slick but it had all the necessary functions. The Canvas system frustrates me, my students, and my graduate assistants, giving us more work, less ease, and prohibiting numerous functions we all expect.
+One is equally laborious. It may look slick on the surface but is anything but when it comes to ease of use.
+Similarly the phone and email services do not seem to be able to find people at IU, so a separate web search is needed to find numbers and email addresses. These sorts of basic functions should be the starting point for this kind of technology.
+
+Change the encryption triggers in emails. My emails are encrypted too often. Every time I update my textbook and send a chapter on [IRD], the email gets encrypted and the recipients usually can't figure out how to open it.
+
+Consultation on basic software such as MS Office
+
+Happy with UITS services!
+
+I work at IU campus children's center:
+--wireless connections are better but they still go out a lot which makes it difficult to use our tablets because everything that we need to access has to be stored on the T-Drive which cannot be accessed without that connection (I connect to the base weekly to make sure it is updated)
+--my other issue is with Kuli for our p-card statements. It used to take me 5 minutes to reconcile and turn in. Now with all the scanning and logging in it takes me 20 minutes. That is precious planning time for me when I can be prepping for my class, communicating with parents, and working on all the projects I can't do in the classroom because I need to supervise the children. Part of this is due to the above issue because if we get kicked off our tablets, I then have to wait for one of the three slow desktops that 9 other people are trying to use in that same time period. I am one of the few who will still use the tablets so most of them are just sitting there. I find them quite useful when they work but my colleagues are not patient enough to fully explore.
+
+I would prefer to be able to add programs or change settings on my office computer without having to call someone in to do it for me. I really do understand the difference between a virus and a program that I have sought out and find the extra step both inconvenient and unneeded. For example, I was given an ebook to review by a research institute but couldn't download the viewer so I was unable to read it.
+
+I'd like to see more WAPs on campus with less restrictions on use (i.e., WAPs in dorms should be accessible to university employees while in the buildings). The lack of bandwidth adversely impacted one of our survey research projects because students were frustrated with the inability to log in and authenticate, and the incredibly slow speeds once they were in. I'd also like to see improvements in wireless access outdoors since student events are often the best place for survey recruitment.
+
+I'd really like to be free of wired connections in the classroom. I want to come to class, use my own laptop - where files, web site links, passwords, etc. - are, and then use my wireless connection to access the projector. Same for a tablet or phone.
+
+Increase or eliminate the email quota for faculty!!! It is ridiculous that students have 10X larger accounts than faculty.
+
+IT-28 means moving servers to the data center. It would be nice if someone had figured out how we are supposed to pay for this.
+
+Love IU technology! But.....the Kuali system for IRB is very strange and not at all user friendly. It's design is so awkward it makes me dread doing IRB submissions. Sorry.....I actually embrace technology but in this case I'd like to go back to paper. thanks.
+
+Make canvas a hotlink on classroom computers in Firefox
+
+No.
+
+None, UITS does a great job.
+
+Over the past year, classroom technologies have gotten noticeably more standardized and reliable across the many classrooms on campus. Please continue work to standardize these systems and improve their reliability and ease of use for instructors. Nothing is more frustrating that coming into a classroom ten minutes before a class, and having to diagnose why the computer/projector isn't working. We instructors don't have the time or interest or expertise to dig into the details. I definitely don't want to "reset" the computer or whatever just before a class. At those times, I am interacting with students as my primary job.
+
+Personal professional webpages for faculty
+
+Please be sure to check hardware/software compatibility for the plotters, before putting them into the library. I feel this is an oversight with management of putting out a system that does not function correctly, and puts undue pressure on the consultants tying to figure out a system, that should have been checked.
+
+Shorter survey, please. Sorry I got started.
+
+Stronger wifi connection (IU Secure)!
+
+Superb supercomputer Big Red 2 and Karst are very much critical for my atmospheric modelling research.
+
+Support for linux
+
+Support for online teaching is not strong. There are many issues with Adobe Connect that have not been satisfactorily resolved - to the point that I am contracting with an outside vendor to provide Adobe Connect.
+
+The amount of info and services is overwhelming to an average user like myself. I know I don't take advantage of the possibilities because of the overwhelm and the daunting task of making sense and getting up to speed. Help. Make it simpler. Please.
+
+UITS seems focused on providing core services -- email, storage, LMS, etc. I would like UITS to expand into providing programing support for departments wanting to implement innovative projects. High-end infrastructure is available, such as streaming, but UITS provides little to no support to departments who do not have resources or expertise, but wish to implement these services. Something as simple as example code for using tools such as hsi and htar, or streaming servers which might help a resourceful person figure out how to use the tools.
+
+wireless in Sycamore is still unreliable
+
+You are not particularly customer service oriented. Things like the Cyrus migration are ridiculous - faculty business e-mail should be automatically moved. The time away from research and teaching needed to learn how to shift email from one server to another on the part of a large number of faculty hurts the teaching and research mission of IU and makes IU a less attractive place to current and new faculty. 
+You need to learn to think about things from a faculty perspective - not that computer security isn't important - just that implementing it should not interfere greatly with the primary duties of the faculty.
+
+You need a better wireless system; in my experience the current IU Secure network is very slow and unresponsive, in offices and in the classrooms.
+
+Better coverage for stable wireless, especially on mobile devices
+Integrated and understandable strategy for secure data storage of moderate size data sets
+Usable system for IRB documentation and approval
+
+More scientific programming support. Big Red 2 is only great if I can use it.
+
+No -- everything I need is already provided for.
+
+In general, search functionality in UITS space is not good. For example, when the classroom computers default to the UITS web page, there is no link to Oncourse on the new page. When you try to use the new pages and are looking for a software program to install, the search takes you to information ABOUT the program and not the program download site itself. I get the sense that design is done by folks who live too deeply inside the system and don't understand or get sufficient input from everyday users.
+
+Desktop research computing is not sufficient in power, memory, graphics. The "new" computers are nearly obsolete when received, and replacements every four years are appreciated but completely insufficient. My computer is my laboratory. External funds usually prohibit purchasing computers, so I am stuck with what someone who doesn't do my job thinks I need.
+
+support that can actually fix something would be nice.
+
+Canvas was rolled out before it was ready and that is unfair to instructors. We work hard and deserve something at least as good as Oncourse or better. Canvas does not include student photos and hasn't allowed us to easily upload grades. And the UITS helpdesk is not helpful with these issues. Furthermore Canvas documentation is extremely poor.
+
+More classrooms like in Cedar Hall, please.
+
+While UITS can surely improve on specific services, I have great respect and appreciation for the staff and the work they do. My life at IU would be impossible without them! UITS is critical for my teaching and research and support of my IT environment in general ...
+
+No additional thoughts here.
+
+I find it disturbing that, when one opens a web browser on the IU computers in classrooms etc., the page to which it opens is UITS--not the University website, NOT the libraries--the computer service. This, I think reflects UITS arrogant sense that we all should genuflect at its ubiquitous presence, its overbearing insistence on what it considers "security", and its supposed magnificence among US universities. In fact, it has consistently provided sub-par services (Oncourse is rubbish, except for the ability to generate mass emails to students--an essential and very basic service--and as storage for reading assignments; Peoplesoft is an opaque maze of bureaucratese, and Onestart a pain in the neck to use). As for IU's vaunted computing power, I find the supercomputers uninteresting, and am surprised when small projects in the digital humanities can't find the fund for programmers or in one case even a server ... the project administrator in one center has had to buy space on an off-campus sever because UITS could not provide him with one that fit his modest needs. And this has affected negatively two research projects with which I am associated, to the point where I am considering contracting with a competing university for my own research. Is this what IU wants to be known for--an institution whose faculty go elsewhere to have their computing needs met? So I have had no reason
+
+I was very disappointed to see so many computers removed from the Information Commons. Many students rely on these, and they should be easy to access. I dislike the number of decisions that appear to be made based on the assumption that everyone has a portable smart device. I find this highly problematic for financially disadvantaged students.
+
+Stop churn. You put in systems, you rip out systems, you send chirpy emails about how we can invest our time in learning new systems--time that is supposed to come from where? Don't get me wrong. I love technology and adopt new technology when IT DOES SOMETHING I NEED TO DO OR DO BETTER. Coolness is not a motivator for me. Utility is. I find myself a forced adopter to many of your new technologies, which don't seem better than the old technologies. I've never figured out how to make the phone work--it took me a huge amount of time to realize that the mothership landing noise was actually the phone--so I use my cell now for my university business and stay logged out of the phone. Maddening.
+
+A few wishes - 1. A storage system for continuous backups of desktop computers via Time Machine or CrashPlan or the equivalent (my understanding is that we aren't allowed to backup to the Cloud which means backing up to local harddrives which isn't very satisfying). 2. An RFS-like file sharing system but faster and more stable with the ability to have multiple accounts mounted at the same time. 3. Cordless phones!!
+
+
+Canvas and email storage limits are my main complaints. Canvas is supposed to be an upgrade but instead it's just different and it lacks some of the better features of Oncourse, like iRubric. Email storage limits of 2G for faculty are ridiculous, especially given the near unlimited storage for most other things.
+
+Chemistry ITG staff is very helpful in resolving all computer and network-related issues as well as facilitating research activity in our lab by assuring smooth and uninterrupted operation of analythical instruments.
+
+Currently, on the Thunderbird e-mail systems, one cannot delete (or move to a new electronic location) unwanted e-mail messages. This has gone on for about a week or so now. It is the result of an ``upgrade'' of some system used by UITS. But the fact that this problem persists after several days, seems to indicate bad judgement or professional incompetence with respect to the task of carrying out the upgrade. The UITS should either not do such an upgrade at all, or else do it correctly, without damaging the functioning of standard e-mail systems such as Thunderbird. The piling up of unwanted e-mail messages is not the worst thing that can happen, but it certainly does not promote confidence in the professional competence of UITS.
+
+Despite any gripes -- we have awesome technology services on this campus! Thank you!
+
+Great infrastructure and low level support.
+
+Great job -- thank you for all that you do!
+
+Great staff on the 5-6789 number!!!! Always competent and pleasant.
+
+I am admittedly spoiled. Within the Kelley School of Business, I have an AMAZING IT support group. The contrast between their performance and the general performance of non-Kelley UITS is significant, and I'm afraid UITS suffers a lot by comparison.
+
+I appreciate the IT-centric campus. I am also excited for current and future efforts to bring supercomputing to researchers who aren't completely comfortable with UNIX. The obstacles to using the supercomputers in the regular course of research are daunting, even if the support is there and willing to help. Even for those of us comfortable with scientific programming.
+
+I don't think UITS understands the purpose of the university.
+
+I feel that some UITS personnel are outstanding but some, especially those on the helpdesk for Canvas, are not helpful at all. Being told that something doesn't work correctly without any kind of apology is not helpful. We deserve better! The person who works at Wells library on Canvas transition, however, is GREAT. She actually helps.
+
+I have used UITS for years (decades?) and staff have been unfailingly patient and helpful. I really appreciate the 24/7 nature of the support.
+
+I once received a notice that I have cancelled a workshop when I did not. I called and e-mailed but didn't get any response.
+
+just gave them in the last box ...
+
+Lync system is spotty at best. Many times my system will alert me to an incoming call but when I pick up, the phone doesn't answer the call and the call goes to voicemail or disconnects. It also doesn't ring at all sometimes and notifies me of a missed call instead of ringing to my phone despite my status saying available.
+
+NA
+
+Please understand that I am now retired and do NOT utilize very much the many options which UITS has to offer!
+
+Policy on faculty using specialty software on UITS Classroom machines needs to loosen up. It constrains what faculty can teach using these systems.
+
+see previous box
+
+Thank you for all your help on the help line!
+
+Thank you to the technology support employees. I always get the help I need. I also wanted to thank you to the classroom technology specialists.They are quick to help!
+
+Thanks for getting the wifi to work better in Ballantine. It was pretty bad for a couple of weeks, but now seems largely reliable.
+
+The wireless network in some areas are rather unreliable â€“ in others it works fine but it can be very frustrating when IUSecure disconnects or clogs randomly. Fortunately, AT&T's service may replace that for a short time, although the later is very slow but at least it works where IUSecure does not.
+
+There are serious deficiencies in Canvas, particularly in its Gradebook and Attendance features. Do we have sufficient influence over Instructure to rectify these? Some of the complaints that appear on Canvas forums are years old and have not been addressed.
+
+We have been somewhat frustrated in [IRD] getting a project done via UITS, but disregarding that, UITS has been pretty good. Our local UITS guys (based in our building) are absolutely wonderful and a fantastic resource.
+
+We have had a lot of trouble with using The Geometers Sketchpad on computers in STCs this spring.

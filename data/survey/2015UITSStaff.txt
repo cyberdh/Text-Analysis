@@ -1,0 +1,274 @@
+1- Glad to see OTP to Duo migration and hope this will include TouchID feature when authenticating from compatible iOS devices.
+2- Faster guest Wi-Fi access would be appreciated for our visiting guests.
+3- Glad to see unlimited IU Box accounts, but SharePoint continues to be woefully outdated.
+4- Support more mobile apps! Shame about the "official" Outlook app, which looked so promising, but I certainly understand why it was pulled Anything that enhances mobile computing, however, is always appreciated!
+
+3D printing on Bloomington campus and not just Indianapolis campus.
+
+A virtually unlimited unread inbox for traveling IU faculty and staff
+Perhaps a clinic for hands-on security improvement
+Large volume, high speed, short-term, data/device backup (again, for (before) travel)
+Faster VPN
+Faster workstations in the student technology centers, some are painfully slow
+
+Certain IMU locations drop and loose internet/wifi connection.
+
+Class on how to read IU email via smart phones using a pass phrase
+
+Don't appreciate the way in which most of the new software and systems are implemented and rolled out. Very displeased with the implementation specifically of Lync phones.
+
+Every time I need help, the IT dept was very helpful. one person that stands out particularly is [IRD] that works IT at Teter.
+
+For my computer help needs, I depend 100% on the Jacobs School of Music IT Department. Occasionally I call the UITS number, but I am rarely able to explain to them my problem, let alone get help from them. It is usually about Outlook or an Excel issue, and I am just not satisfied with their help, generally. I have too little time to take advantage of classes. I would like to take advantage of the online classes, and have signed up for them. It has always turned out that I had too much work at the time, and had to drop out. I think I'm not a good survey respondent. I am always happy with MUSIC IT, and [IRD] in a couple of years. Recently UITS REwired our old building, and everything does move more quickly and smoothly. Thank you!
+
+Generally speaking, I'm fairly satisfied with UITS' services. The one place that I think needs improvement (probabaly because I work w/ them fairly frequently) is Telecom. I often feel like we are "speaking" a different language which makes it difficult for me to describe my question/issue and to then understand the answer. The staff are very friendly and nice but it would be helpful if they "spoke" in layman's terms and explained more thoroughly. The transition to Lync and VOIP phones is a good example; I've finally cobbled together a partial understanding of how to manage phone numbers, phone assignments and phone moves, but it has taken several years -- through talking and emailing with Telecom staff multiple times, reading KB and associated documents.
+In general, I feel that UITS does not do enough usability testing on their services and documents to make sure that they are easy to use and understandable.
+Finally, I'm filling out this survey on the day of the DUO rollout; I honestly have to say that I was not surprised that it failed. I do not understand why UITS did not test the system and implementation on a weekend or on a weekday w/ volunteers. I'm sure that many departments and individuals would have participated. This reinforces the feeling that UITS pushes out technology without adequate preparation and testing.
+
+Go back to the other phone system...
+
+I absolutely despise the lync phone system. nothing but trouble, inconvenience and time-consuming. Bad impression to the public calling into it.
+
+I do not like the new One.iu.edu. It is extremely difficult to use for administrative purposes. The "app" function may appeal to the students, but it is very difficult to use for administrative functions.
+
+I feel like there are so many systems that you offer but a medium grade user has difficulty figuring them out so it is frustrating. I would like super simple video tutorials on all the services you offer and how to set them up on our devices. Thanks for your interest.
+
+I feel that sometimes the support people don't read through the support ticket thoroughly as I have had to explain things repeatedly.
+
+I got very little support when I started working here. It was a vastly inferior level of support than I got at my previous university. No support with the phone, lync, or my computer. It seems like professional staff should be setup for success with these things. I figured it out on my own but...
+
+I hate that the Lynx phone system requires that the computer be logged in before you can use it. The translater/ for the lynx system is terrible (the conversion of voice mail to text).
+DEFINATELY NEED more technical support for Peoplesoft system (Human Resources). Tired of fighting for resources.
+
+I often get emails encrypted that should not have been encrypted - they do not in any way contain information that should be secure. I think it would be good if UITS could improve their system so that it just targeted the correct emails that need to be encrypted. I have brought this up with staff over the phone before but without receiving a solution.
+I do not like the fact that the lync phones at a reception point log out every hour and it seems to be impossible to program the phones to stop doing this - it's quite an inconvenience. Transferring a call on these reception phones is also unnecessarily cumbersome. The old land-line phone was much easier to use.
+
+I submitted a survey about the wireless services in our buildings recently. The wireless network is not very good in our seminar room buildings. 
+CITO services most of our computers so I don't have much contact with UITS.
+I don't like that the lync phones turn off when my computer is logged out or locked but there's nothing you can do about that.
+
+I think the phone service for departments could be enhanced. There is a lack of overall training and understanding how the new phones work and what they are capable of doing.
+
+I think UITS does a great job trying to offer services to all varieties and types of users on campus. They seem to anticipate needs before the general users even know they need these services. Thanks for the great work.
+
+I think UITS does a splendid job.
+
+I think vast improvements need to be made to IU Secure. I realize that the challenges offered by having a broad wireless network are different than a personal wi-fi spot at home, but all across the country, the ONLY place I have wireless issues is with IU Secure. I have sought help several times and the fixes only seem to be temporary.
+
+I wish Lync had more emoji options.
+
+I would like for their to be email updates (opt-in) notifying us when key services are down. Over the weekend our group was effected by the CAS issue. It would have been extremely helpful to know about it during the issue rather than after the fact.
+
+I'm surprised at the number of weak spots for wireless all over campus. We report 'dead' areas as much as possible.
+
+IT training for advanced Word use (advanced macros, building blocks, etc)
+
+It's getting harder to understand where UITS has responsibility and authority especially as it relates to security and guidelines. It seems like when we have questions about how we should be "sharing" certain types of restricted and critical data, UITS doesn't want to say "it's OK to use IU email for restricted data" for example. With so much uncertainty about data security, we need someone to stand up and advise IU about what to do and not to do.
+
+IU Secure can be hard to connect to from mac devices. It also often doesn't work well in Eigenmann, where my office is. I also think that outlook is rather clunky on a mac (the laptop my center provided--not my choice). Finally, I wish that there was a way to archive my email account so that it would be available on multiple devices, not just my office desktop. I have to be mobile a lot for work.
+
+IU Secure wireless has been extremely unreliable in Wells Library and other locations on campus this year.
+
+Maxwell hall has an amazing IT team that works with us! Very satisfied with Z and [IRD]!
+
+Merge all the service providers into one. I get bumped from UITS to HelpNet and HelpNet to UITS all the time. I thought we were all IU???
+
+More info or help on using the Cloud and not just be directed to another website. More one on one training help would be useful in many instances.
+
+More wireless access points.
+
+Need MORE support and information regarding IT elements of credit card processing and security. perceived lack of available, knowledgeable resources.
+
+No
+
+Part of my job requires that tax forms be sent to me via fax, so a secure fax system would be helpful. Right now visitors are unable to fax forms back to me because it is unsecure.
+
+Phones that don't require desktop PC to be on.
+
+Please find a better web server than Outlook web. It's terrible and clunky to use.
+Lync is an awful telephone service. May be better for texting, but is annoying and difficult to use as phone. Can't be used for Duo tokens.
+
+Speaking from one perspective it seems UITS introduces many new projects very bullish to entities outside UITS. Very short timelines seem to be dictated with very little, if any, input from dependent entities. Based on the level of support received during the project one could easily venture to say that skill level and staffing of UITS on these projects are not sufficient for the demanded timelines. I am sure you have heard about these challenges before and I know that these are not always easy problems to solve especially in an economy where there is high demand for IT professionals. I appreciate the other areas where UITS seems to be excelling at such as their committed to on-line IT training resources, community of practices, and technical training. These have definitely been valuable and I hope these great resources will continue to be available.
+
+Thanks for all of your help over the past 18 years!
+
+The CBI has many existing issues. There is potential for great features here (the Tableau server install at IU is fantastic for instance but unfortunately existing UITS policies/practices do not align with actually being able to share reports in it).
+
+The introduction of the New Polycom integrated telephones has been trying. This system is very "buggy". In my position I answer the phones all day and receive and transfer calls routinely all day. This new phone system has been very frustrating to use and I am now happy with it.
+
+The IT-28 policy mitigates the risk of a weakened position for UITS within the University's power structure, but not much else.
+
+The KB very often does not have answers to my questions or uses terminology that I don't know so that my search yields no results. Perhaps you can institute some sort of metadata of terms that unsophisticated users might use? I find the phone system clunky to use. I have difficulty finding my messages and resort to listening to them through e-mail.
+
+The long passphrase requirement is stupid. I have to think of a logical sentence to remember something that long, which undermines the security of a password. I also don't like being forced to change it every x number of months because the requirements are so ridiculous.
+
+the Lync system has several bugs.....
+
+the phones are junk
+
+The training and preparation for the use of systems is non-existent or not readily available. The university makes changes and doesn't tell anyone about the changes and presumes a level of sophistication that is unwarranted. Faculty and staff spend hours accommodating UITS innovations that are unwanted.
+
+The wifi in Wells is horrible.
+
+This was a "service-oriented" survey, but it seems most IT system decisions are made more from the UITS/security/administration point-of-view, than the user and business-processes being supported...though we do see improvements. We have some older or cheaper systems in certain places (due to budgets), but then we disproportionately spend many many staff hours is creating workarounds, or troubleshooting (ie net cost).
+UITS systems are pretty impressive, yet in prior places I've worked, the customer/user was in charge of the projects, with IT as a teammate-
+
+Training on the Lync system. No one seems to know much about this system, and there is no training offered that folks seem to be aware of.
+Thorough training on the phone system, and training on software upgrades when they are loaded on your computer. Most folks simply teach themselves through trial and error. This is not efficient and software nor the phone system are fully utilized as the result of lack of training.
+Other corporations that I have worked for provided training as new items were rolled out to users. This was wonderful training, and employees always felt informed and fully competent to use new products. A UITS training institute, whereby training was offered virtually or otherwise to folks would be wonderful - again, specific to use of the software as installed or updated on our computers, and thorough training on the phone/Lync system would be much appreciated.
+
+UITS has been making a number of changes over the past year that include new technologies that haven't been fully tested or implemented. This has put a lot of pressure on departments to drop their current priorities in order to make changes required by UITS. SQR conversion, CHE migration, and Onestart-to-One migration take significant time to complete.
+Given that the initial impetus for One.iu.edu appears to be student-oriented, I would recommend that staff-related administrative systems be allowed to remain on OneStart rather than pushing all of those systems to One.
+One.iu.edu doesn't currently have CAS authentication, forcing all the apps that use it to put CAS authentication into their apps.
+SQR conversion was implemented without having robust tools ready to go, and roles and permissions were frustratingly poorly implemented.
+
+We've experienced several phone related issues in our department. The response time was not acceptable.
+
+Wireless connections seem to be going down a lot in our buildings
+
+wireless is very poor
+
+Would love server space to create and run java applications.
+
+You may have this already, but a list of students that can assist in home installations or setups on all levels. List their expertise and service charges
+
+Wish there were some sort of counseling services for employees wishing to expand their technical knowledge, i.e. direct them to and provide training in areas for which their is interest. Would like very much to learn how to create websites, but have little idea how/where to start. Thanks.
+
+(1) UITS staff help with software and programming (such as creating and troubleshooting complex Access databases), because few departments can afford an IT staff support person on the payroll. And typically, a department's general support staff don't have the resources to take on yet another responsibility. (2) Better coordination between schools' IT services (such as CITO) and UITS. If the university is moving away from file servers and toward cloud-based storage, then the school IT service staff should be assisting with that migration. Investing a lot of time in further securing files on CITO servers (something my department has been asked to do) when the servers are slated to be discontinued does not make sense. Thank you for soliciting feedback.
+
+Fantastic job!!
+
+As a full-time staff member, I would say more advanced or second level training in Microsoft (Excel and Word) and research software (SPSS, SAS, STATA) than novice and very basic. As a part-time graduate student, I would appreciate more information on IUAnyWare and IUWare - what's the difference, which is is best for x software or purpose, etc. For both of these systems, I have technical issues with.
+
+I think Lync phones are dangerous and do not allow for good planning in emergency situations. In fact, we're screwed in emergency situations. Also, there are lots of bugs. I never know who is calling because the name that shows up on my computer is not the person calling.
+
+The one single thing that I believe would be extraordinarily useful to IT Pros all across campus, would simply be to include a detailed section in IT Notices (view-able only to IT Pros) that explains how an issue was resolved. Rather than "Exchange issue resolved", it would be useful to see how the actual issue was resolved. In this way, one could better identify certain issues within independently managed departments; it would allow one to say "Okay, the fix applied to exchange is definitely something that would affect your issue in Outlook, so you should see that it is now working correctly." This is just one example, but I'm sure whomever is reading this will be able to see that this sort of transparency would allow for better service to end users and more overall cooperation and satisfaction with independently managed departments.
+
+I think that the IU Call Center should always be staffed by Bloomington people rather than switching to IUPUI operators (when a person calls 855-4848)
+
+No
+
+Thank you for including me in this survey.
+
+I really appreciate all of the new changes being made (one iu, etc.) including the aesthetic presented with these, as well as the streamlining of all of our systems. However, the largest issue is STAIRS not working many times throughout the week, as this is something we use daily when advising our students and creating schedules for them. My hope is that these issues will be resolved swiftly, and AdRx will be updated so we can eliminate STAIRS as a need in the near future. Thank you for your time & help!
+
+None
+
+Would like to utilize i-Pad for multi functional device(texting, work orders,etc). Have had no success accomplishing this task with UITS.
+
+1. Wish wireless network in my building was better. My mobile phone is off network a lot, not stable.
+2. Wish staff get printing allowance at STC supported labs. Often times I had to print out at IMU or other places for work; and couldn't do so. If staff had small allowance, that would have been great.
+3. If we could have bigger Outlook mail storage space. 2GB fills up quickly.
+Overall, great service. Thank you.
+
+No
+
+An area of Central/Enterprise GIS expertise within UITS would be an asset to the University. With the richness of IU data--attaching to GIS as a tool for visual analysis and planning is powerful. Wondering how IU's Enterprise IT compares with colleague universities in terms of GIS expertise.
+
+Access to live feed of TV channels via network.
+
+Share more information on UITS financials
+
+Visual Studio 2015 Professional, please.
+
+The IU List services for group e-mails is not friendly.
+
+The KB used to be easier to find what you needed. Various things in the KB are now very hard to find, even if you know exactly what you're looking for. This makes front-line support struggle as well, since they use the KB to get most answers.
+
+My only real issue is with the Lync phone system. If you have a job where you sit at your desk and wait for phone calls, this system has it's merit. Messages that are left are indecipherable in sentence form, but it makes for some laughs when you play back the actual message.
+
+Since UITS changed their website it is impossible to find things that I used to use a lot. I feel like they're trying to hide all information and want me to go "fish" for it. You change things with no notification and I walk in on a Monday and everything is different on various websites especially the home page!
+
+Better wireless service both coverage and dependability
+
+No
+
+No more additional, UITS can not do the ones they have very well. Don't screw up others. The phone system is not usable and a cruel joke.
+
+Always very helpful, quick to respond, friendly and well trained; great people. Hate the new phone system, btw; clumsy, difficult to use, far more complicated than necessary.
+
+Appreciate the IT support that is provided.
+
+decisions like iiBasic service being retired. Our shop had demand for a cheaper alternative. We formulated a plan for our school wide VM lifecycle policy based on the II-basic pricing that gives each faculty up to 2 VMs. For ~100 faculty (and various associated class VMs) that has the potential to cost us 100*2*$160 = $32K/year.
+There was lots of input during the IT-28 review from various units asking for a cheaper VM option. UITS responded with a service that we embraced. Now, to have it retired without any discussion whatsoever leaves us disappointed. If there had been some discussion and we (as well as other campus units) had an opportunity to let them know how we are using the service (and plan to use it in the future) then it may have impacted the decision.
+
+Every time I call the help desk (which thankfully isn't often), the representatives are always very patient, helpful and friendly.
+
+Fantastic Job!!
+
+I couldn't make outgoing phone calls for a period of 20 minutes this morning which is a first time, random occurrence. I think it would be great if UITS Telecom had a faster response time and consistently responded. I feel like my requests sometimes fall into limbo. I also think that DUO should've been rolled out on the weekend. You could've solicited managers for volunteers. I know you piloted Duo with RSTS but you should've extended it to others (but perhaps you did). In HR, Research and Financial Services we rely heavily on the tokens which are an essential part of our job. I think with the UITS http://itnotices.iu.edu/default.aspx site you should enable notifications so that we can elect to "follow" issues as updates happen.
+
+I have worked in [IRD] and [IRD] as [IRD]. I have also worked at [IRD]. When at [IRD] I was always puzzled by the self-congratulatory attitude of management. Working in [IRD], I knew most of my customers were not happy with UITS. Speaking with co-workers I knew that my customers were not unique. I knew that [IRD] was not one of the best places I had worked in [IRD]. I knew that the majority of my co-workers felt the same. Yet the UITS PR folks frequently referred to surveys to demonstrate how wonderful things were. Now that I have had an opportunity to complete this survey I understand how the PR folk can do that. There is one question about administrative systems buried in among all the other things UITS does. Some things UITS does do well and those they don't are easily ignored in the context of those that they do. There are things that are done as standard practices in other IT organizations the are not done at UITS that would improve the quality of administrative services. I was amazed that in my tenure at [IRD] I never had one annual performance review. I was amazed that there is very little in the way of documentation for standard procedures. I was amazed that there is no continuous improvement process to identify root causes, identify solutions and prevent recurrences. When I left [IRD] there was no exit interview, another common standard practice. I could have asked for one, but why bother? Nothing says 'We're not interested in improving things' better than making a departing employee ask for an exit interview. Trying to work with the Business Intelligence tools as been difficult, partly because the Knowledge Base is not complete and what is available is often incorrect due to false starts and a failure to revise outdated documents. The amount of turnover within the UITS BI team has apparently created problems as well.
+
+I think the service provided at IU is fantastic! I think it's great that many of the trainings are accessible through lynda and adobe connect!
+
+I think UITS is a great technology research center.
+
+I would have rated all of my 4's as 4.5's if that were possible. The stuff I use for work suits my needs upwards of 90% of the time. But sometimes things are slow/nonworking for no outwardly apparent reason (though admittedly I'm not an expert), and sometimes it's a little frustrating to be unable to download things (or install Firefox/Chrome updates on my own).
+
+I would love a MAC supported environment. So much better!!
+
+Keep it up, champ.
+
+mp
+
+My boss has had problems with video bridge connections using all of the 22,23, and 24 bridges when having meetings with multiple participants connecting. The availability of this technology is wonderful and it is great when it works properly but very frustrating when it does not.
+
+N/A
+
+no
+
+No.
+
+None
+
+None
+
+None
+
+Overall very satisified with the system in place and the security means. I realize there are numerous resources available throught UITS and I only use a fraction of the services that are available.
+
+please read my previous comment. Wish this survey had go back option to edit previous entries
+
+Recently a group of Students from a local middle school, in partnership with the School of Ed, toured the CIB. We received rave reviews from this visit and wanted to pass along our thanks for such a great and rewarding experience.
+
+Refreshing to see the UITS Staff list on the web! https://uits.iu.edu/staff It has been a point of frustration for years to find names of UITS staff members along with area or responsibility. When IU staff work together across functional areas to solve administrative challenges, it is beneficial for the greater good to be known and accountable within our areas of expertise. We are each others customers.
+
+SharePoint should've been updated a couple of years ago.
+
+Some of the shared computer labs are rather dirty, making it uncomfortable to be in them or to hold classes/sessions/trainings in them with others.
+
+Stop referring to IU KB articles when responding to customer issues and, instead, pick up the phone and SPEAK WITH him/her directly. In addition, be proactive with suggestions related to a customer's issues. UITS exists as a support organization and often is viewed as a power-grabbing enterprise building organization.
+
+Telling someone to use the exchange on the we4b because you can't fix the outlook problems is not a solution to the problem
+
+Thanks for the Pluralsight efforts.
+
+The Excel training courses are wonderful!
+
+The IT department in our office is amazing!
+
+The IU List group e-mail system is not user friendly.
+
+The key to IU's great support is it's documentation, there should be one place where all resources are searchable, that place should be the KB or some other system that indexes all of these pages.
+
+The Staff that comes to our building to work on our computers are the best example of customer service at the university. Kudos to all of these people and there efforts.
+
+The translation of information from V/M to e-mail messages leaves a great deal to be desired. I frequently just have to call the person who left the initial V/M back because the translation makes no sense.
+
+Try doing some training on basic systems like "Lync" which is extremely painful to use and I'm not sure of its capabilities because I don't have an intuitive mind for computers which is all computer developers seem to say - oh you don't need training it is intuitive.
+
+UITS has a tough job serving the campus needs, overall I feel they do the best they can with the resources they have.
+One comment about the phone system- I believe it is a safety/security risk to have so many phones linked to the computer system and unavailable unless logged in. First, in a time of crisis the dependability of this communication system is vulnerable. Second, if an immediate threat is present there may not be time to log into the system. Puts too much reliance on cell phones that have proven to be problematic in a major events.
+
+UITS presentation over the phone and in person could be improved. Their people skills are lacking. Of course, their email/computer communication responses are excellent.
+
+Very satisfied with UITS
+
+We need better customer service from the SDA.
+
+When major upgrades are performed (i.e. rewiring buildings) the communication to end user Building Mgmt., and ownership of issues by UITS is dreadful.
+
+Wireless in buildings has vasty improved. Discontinuing II basic without input shows that UITS is not about Service but about inflated ego's and marking territories.
+
+Would like more help with WCMS problems.
