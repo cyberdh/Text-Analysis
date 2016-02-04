@@ -165,7 +165,9 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 #### Algorithm Testing
 Whenever you create a function (or algorithm), it is best to test it on some sample data to ensure it behaves as you expect. Let's create a sample list of emotional sentences and save it as "sample".
 ```{r}
-sample = c("This ice cream is the best! I love this flavor!", "I am so angry at the terrible weather today. Frustrated.", "Wow, spectacular, I wish I could be as perfect as you.")
+sample = c("This ice cream is the best! I love this flavor!", 
+           "I am so angry at the terrible weather today. Frustrated.", 
+           "Wow, spectacular, I wish I could be as perfect as you.")
 
 ```
 ***

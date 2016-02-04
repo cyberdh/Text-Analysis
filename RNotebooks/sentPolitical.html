@@ -215,7 +215,9 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')</code></pre>
 <div id="algorithm-testing" class="section level4">
 <h4>Algorithm Testing</h4>
 <p>Whenever you create a function (or algorithm), it is best to test it on some sample data to ensure it behaves as you expect. Let’s create a sample list of emotional sentences and save it as “sample”.</p>
-<pre class="r"><code>sample = c(&quot;This ice cream is the best! I love this flavor!&quot;, &quot;I am so angry at the terrible weather today. Frustrated.&quot;, &quot;Wow, spectacular, I wish I could be as perfect as you.&quot;)</code></pre>
+<pre class="r"><code>sample = c(&quot;This ice cream is the best! I love this flavor!&quot;, 
+           &quot;I am so angry at the terrible weather today. Frustrated.&quot;, 
+           &quot;Wow, spectacular, I wish I could be as perfect as you.&quot;)</code></pre>
 <hr />
 <p>We already did the hard part by building our score.sentiment function earlier. Here, we just need to tell the algorithm what to use as arguments! We need to put our sample data in as the “tweets” argument, pos.words as the “pos.words”&quot; argument, and neg.words as the “neg.words” argument!</p>
 <p>Lets also save the result of running the algorithm as an object called sample.result.</p>
