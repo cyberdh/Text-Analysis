@@ -8,14 +8,14 @@ library(plyr)
 library(ggplot2)
 
 # Global Parameters
-setwd("~/Documents/IU/CyberDH/Text_Analysis/RNotebooks")
+setwd("~/Desktop/R/Text_Analysis/data/twitter/")
 
 
 # Load Data
-clinton.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetsclinton.RData")
-cruz.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetscruz.RData")
-sanders.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetssanders.RData")
-trump.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetstrump.RData")
+clinton.tweets <- readRDS("tweetsclinton.RData")
+cruz.tweets <- readRDS("tweetscruz.RData")
+sanders.tweets <- readRDS("tweetssanders.RData")
+trump.tweets <- readRDS("tweetstrump.RData")
 
 
 # Inspect Data
@@ -41,8 +41,8 @@ trump.text = laply(trump.tweets, function(t) t$getText())
 # open RAR Extractor Free and choose your settings, then drag downloaded .rar file to the Extractor
 #   icon and it will unzip to the location you specified in settings
 
-lex.pos = scan('opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('../opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('../opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # add words using the c() [combine] function
 pos.words = c(lex.pos, 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
@@ -101,7 +101,6 @@ cruz.result = score.sentiment(cruz.text, pos.words, neg.words)
 sanders.result = score.sentiment(sanders.text, pos.words, neg.words)
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
 
-
 # Peeking at results (run each of the following four lines one at a time)
 head(clinton.result)
 
@@ -113,10 +112,14 @@ head(trump.result)
 
 
 # Plotting Twitter Data
-clinton.plot = qplot(clinton.result$score, main = "Sentiment of @HillaryClinton on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-cruz.plot = qplot(cruz.result$score, main = "Sentiment of @tedcruz on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-sanders.plot = qplot(sanders.result$score, main = "Sentiment of @BernieSanders on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-trump.plot = qplot(trump.result$score, main = "Sentiment of @realDonaldTrump on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+clinton.plot = qplot(clinton.result$score, xlim=(c(-7,7)),
+                     main = "Sentiment of @HillaryClinton on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+cruz.plot = qplot(cruz.result$score, xlim=(c(-7,7)),
+                  main = "Sentiment of @tedcruz on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+sanders.plot = qplot(sanders.result$score, xlim=(c(-7,7)),
+                     main = "Sentiment of @BernieSanders on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+trump.plot = qplot(trump.result$score, xlim=(c(-7,7)),
+                   main = "Sentiment of @realDonaldTrump on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 
 clinton.plot = clinton.plot + theme_bw()
 cruz.plot = cruz.plot + theme_bw()
