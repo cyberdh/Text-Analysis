@@ -45,7 +45,7 @@ lex.pos = scan('../opinionLexicon/positive-words.txt', what='character', comment
 lex.neg = scan('../opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # add words using the c() [combine] function
-pos.words = c(lex.pos, "congrats', 'congratulations', 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
+pos.words = c(lex.pos, 'congrats', 'congratulations', 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
 neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
 
 # Implement Sentiment Scoring Algorithm
