@@ -5,6 +5,7 @@
 library(devtools)
 library(twitteR)
 library(plyr)
+require(stringr)
 library(ggplot2)
 
 # Global Parameters
@@ -51,8 +52,6 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
 # Implement Sentiment Scoring Algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
-  require(plyr)
-  require(stringr)
   
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
     #normalize tweet text

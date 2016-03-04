@@ -124,9 +124,7 @@ This function takes in an argument (tweets for us), normalizes all of the text (
 ```{r}
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
-  require(plyr)
-  require(stringr)
-  
+
   #figure out the score for each tweet specifically
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
     #normalize tweet text
