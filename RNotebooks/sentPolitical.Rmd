@@ -11,19 +11,41 @@ Set working directory by pointing to the location on your computer where you hav
 Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Desktop/R/Text_Analysis/RNotebooks")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/RNotebooks")
 ```
 
 ***
-Include necessary packages for notebook [Let's start enumerating why each package is included.]
+#### Include necessary packages for notebook 
+
+R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts. By calling library(packagename) they will be automatically loaded and ready to use.
+
+The first three packages are used to render the RNotebook you are currently viewing:
+
+knitr - Creates a formatted report from the script provided
+
+markdown - a package used to render textual documents from plain text to others such as R and XML
+
+rmarkdown - similar to markdown but specifically to render R documents
+
+
+The next four packages are used within the sentiment analysis script:
+
+twitteR - this is a fun little package that allows the user to search twitter for tweets containing certain words/phrases or by certain people, check out [this post](https://themepacific.com/how-to-generate-api-key-consumer-token-access-key-for-twitter-oauth/994/) for information on setting up an API key to access tweets
+
+plyr - this package splits, combines, and applies data (the laply function used below while instantiating the algorithm comes with this package)
+
+stringr - eases string operations (we will use str_split also while instantiating the algorithm, which is included with the stringr package).
+
+ggplot2 - a great package that renders a range of plots to display information, we will use this package to create our ultimate plots
 
 ```{r}
 library(knitr)
 library(markdown)
 library(rmarkdown)
-library(devtools)
+
 library(twitteR)
 library(plyr)
+library(stringr)
 library(ggplot2)
 ```
 
@@ -39,10 +61,10 @@ Hint 2: Another popular naming convention is to list the type of object with the
 
 ***
 ```{r}
-clinton.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetsclinton.RData")
-cruz.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetscruz.RData")
-sanders.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetssanders.RData")
-trump.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetstrump.RData")
+clinton.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetsclinton.RData")
+cruz.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetscruz.RData")
+sanders.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetssanders.RData")
+trump.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetstrump.RData")
 ```
 ***   
 
@@ -94,8 +116,8 @@ Now we are all set! Let's load in some postivity (and negativity, I guess...)!
 
 This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 ```{r}
-lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 ```
 
@@ -116,15 +138,17 @@ neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
 
 Here is where the magic happens - let's create the algorithm! To begin a function which will iterate over all of the elements in the specified object, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words. 
 
-We will then require the plyr and stringr packages. The plyr package splits, combines, and applies data (the laply function used below comes with this package) and the stringr package which eases string operations (we will use str_split below, which is included with the stringr package).
-
 This function takes in an argument (tweets for us), normalizes all of the text (including removing emojis which is important for tweets), splits the tweets into separate words to analyze, compares the tweet words to the positive and negative dictionaries, returns a TRUE if the word is in the dictionary and FALSE if it is not, the trues and falses are summed up for each tweet (this is the score of the tweet), and finally, the tweet's score and its text are returned as a data frame for ease of plotting.
 
-[Explain regular expressions.]
+Hint: You may notice some odd expressions in the first few lines of the scores function: they are called regular expressions (or, regex). Regular expressions allow the user to match on certain patterns throughout the entire text. In this case, we are matching on punctuation, control characters (or invisible, non-printing characters), and digits, in the effort to strip out unnecessary characters that do not provide sentiment valence. Check out [this CRAN page](https://stat.ethz.ch/R-manual/R-devel/library/base/html/regex.html) for more information about using regex in R.
 ```{r}
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> origin/master
   #figure out the score for each tweet specifically
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
     #normalize tweet text

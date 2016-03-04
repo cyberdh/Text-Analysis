@@ -2,21 +2,21 @@
 # Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
 # To be used in conjunction with the CyberDH RNotebook tutorial found on Github > CyberDH > Text_Analysis.
 
-library(devtools)
+
 library(twitteR)
 library(plyr)
 require(stringr)
 library(ggplot2)
 
 # Global Parameters
-setwd("~/Desktop/R/Text_Analysis/data/twitter/")
+setwd("~/Documents/IU/CyberDH/Text_Analysis")
 
 
 # Load Data
-clinton.tweets <- readRDS("tweetsclinton.RData")
-cruz.tweets <- readRDS("tweetscruz.RData")
-sanders.tweets <- readRDS("tweetssanders.RData")
-trump.tweets <- readRDS("tweetstrump.RData")
+clinton.tweets <- readRDS("data/twitter/tweetsclinton.RData")
+cruz.tweets <- readRDS("data/twitter/tweetscruz.RData")
+sanders.tweets <- readRDS("data/twitter/tweetssanders.RData")
+trump.tweets <- readRDS("data/twitter/tweetstrump.RData")
 
 
 # Inspect Data
@@ -42,8 +42,8 @@ trump.text = laply(trump.tweets, function(t) t$getText())
 # open RAR Extractor Free and choose your settings, then drag downloaded .rar file to the Extractor
 #   icon and it will unzip to the location you specified in settings
 
-lex.pos = scan('../opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('../opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # add words using the c() [combine] function
 pos.words = c(lex.pos, 'congrats', 'congratulations', 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
