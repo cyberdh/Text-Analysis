@@ -45,7 +45,6 @@ ggplot2 - a great package that renders a range of plots to display information, 
 library(knitr)
 library(markdown)
 library(rmarkdown)
-
 library(twitteR)
 library(plyr)
 library(stringr)
@@ -64,10 +63,10 @@ Hint 2: Another popular naming convention is to list the type of object with the
 
 ***
 ```{r}
-clinton.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetsclinton.RData")
-cruz.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetssanders.RData")
-sanders.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetstrump.RData")
-trump.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetscruz.RData")
+  clinton.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetsclinton.RData")
+  cruz.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetssanders.RData")
+  sanders.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetstrump.RData")
+  trump.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetscruz.RData")
 ```
 ***   
 
@@ -119,8 +118,8 @@ Now we are all set! Let's load in some postivity (and negativity, I guess...)!
 
 This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 ```{r}
-lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+  lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+  lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 ```
 
