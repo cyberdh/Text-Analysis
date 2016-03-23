@@ -4,7 +4,7 @@ library(RColorBrewer)
 
 setwd("~/Desktop/R/Text_Analysis/data/twitter/")
 
-load(file = "brussels.RData")
+load(file = "brusselsALL.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS

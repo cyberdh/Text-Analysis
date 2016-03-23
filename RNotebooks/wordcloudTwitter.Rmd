@@ -1,6 +1,9 @@
-## Wordcloud of Top 100 Words in tweets using the hashtag #blizzard2016
+---
+output: pdf_document
+---
+## Wordcloud of Top 100 Words in tweets using the keyword "brussels"
 ***
-Using 3200 tweets with the hashtag #blizzard2016 from January 24, 2016, we will create a wordcloud of the top words used to describe Winter Storm Jonas.
+Using 3200 tweets with the hashtag #brussels from March 23, 2016, we will create a wordcloud of the top words used to describe Winter Storm Jonas.
 
 ***
 
@@ -28,7 +31,7 @@ library(RColorBrewer)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 ***
 ```{r}
-load(file = "blizzard2016v2.RData")
+load(file = "~/Desktop/R/Text_Analysis/data/twitter/brussels.RData")
 ```
 
 ***   
@@ -104,10 +107,8 @@ words=names(words)
 Plot the wordcloud! There are a number of arguments you can customize: "random.order" is false so that words are plotted in order of decreasing frequency; "scale"" indicates the size of the words; "rot.per" lets you customize the proportion of words that are rotated 90 degrees; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
 ***
 ```{r}
-wordcloud(words,freqs,scale=c(3,.7),max.words=100, rot.per=0, 
+plot = wordcloud(words,freqs,scale=c(3,.7),max.words=100, rot.per=0, 
           colors=brewer.pal(8, "Dark2"))
 ```
-#### Voila!
 
-![](images/blizzard2016.png) 
 
