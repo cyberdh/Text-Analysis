@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 ## Simple Sentiment Analysis for Twitter
 ***
 Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
@@ -11,7 +14,7 @@ Set working directory by pointing to the location on your computer where you hav
 Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Documents/IU/CyberDH/Text_Analysis/RNotebooks")
+setwd("~/Desktop/R/Text_Analysis/RNotebooks")
 ```
 
 ***
@@ -61,10 +64,10 @@ Hint 2: Another popular naming convention is to list the type of object with the
 
 ***
 ```{r}
-clinton.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetsclinton.RData")
-cruz.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetscruz.RData")
-sanders.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetssanders.RData")
-trump.tweets <- readRDS("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/tweetstrump.RData")
+clinton.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetsclinton.RData")
+cruz.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetssanders.RData")
+sanders.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetstrump.RData")
+trump.tweets <- readRDS("~/Desktop/R/Text_Analysis/data/twitter/tweetscruz.RData")
 ```
 ***   
 
@@ -116,8 +119,8 @@ Now we are all set! Let's load in some postivity (and negativity, I guess...)!
 
 This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 ```{r}
-lex.pos = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 ```
 
@@ -144,11 +147,7 @@ Hint: You may notice some odd expressions in the first few lines of the scores f
 ```{r}
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> origin/master
   #figure out the score for each tweet specifically
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
     #normalize tweet text
@@ -300,7 +299,7 @@ trump.plot
 
 Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
-* Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.
+Reference: Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.
 
 
 
