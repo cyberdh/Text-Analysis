@@ -1,9 +1,10 @@
 name: Twitter
 account: ghthomas
 server: beta.rstudioconnect.com
-appId: 694
-bundleId: 1219
+appId: 697
+bundleId: 1228
 url: https://beta.rstudioconnect.com/ghthomas/Twitter/
-when: 1458841272.1456
+when: 1458842631.54636
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: brussels.RData|helpers.R

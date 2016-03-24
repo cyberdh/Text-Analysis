@@ -1,6 +1,7 @@
 library(wordcloud)
 library(qdap)
 library(RColorBrewer)
+library(twitteR)
 
 setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/Twitter")
 
@@ -29,7 +30,13 @@ words=unlist(words,recursive = FALSE)
 words=sort(table(words),decreasing=T)
 freqs=as.vector(words)
 words=names(words)
+
+write.csv(words, file = "words.csv", row.names = FALSE)
+write.csv(freqs, file = "freqs.csv", row.names = FALSE)
+
 cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
+
+class(freqs)
 
 
 

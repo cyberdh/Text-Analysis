@@ -3,9 +3,6 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
-setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/Twitter")
-source("helpers.R")
-
 ui <- fluidPage(
   titlePanel("Twitter Conversation on the Brussels Attack"),
   
@@ -30,6 +27,14 @@ ui <- fluidPage(
 )
 
 server <- function(input, output) {
+  
+  
+  words <- read.csv("words.csv", sep= ",")
+  freqs <- read.csv("freqs.csv", sep= ",")
+  
+  class(freqs)
+  
+  cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
   wordcloud_rep <- repeatable(wordcloud)
   
   output$plot <- renderPlot({
