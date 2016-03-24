@@ -3,6 +3,8 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
+source("helpers.R")
+
 ui <- fluidPage(
   titlePanel("Twitter Conversation on the Brussels Attack"),
   
@@ -11,7 +13,7 @@ ui <- fluidPage(
       helpText("This interactive plot shows the most frequently tweeted words in reference to the Brussels attack on March 22, 2016"),
       sliderInput("freq", 
                   label = "Minimum frequency of words:",
-                  min = 1, max = 100, value = 3),
+                  min = 1, max = 1020, value = 3),
 
       sliderInput("range", 
                   label = "Number of Words:",
@@ -28,17 +30,10 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   
-  
-  words <- read.csv("words.csv", sep= ",")
-  freqs <- read.csv("freqs.csv", sep= ",")
-  
-  class(freqs)
-  
-  cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
   wordcloud_rep <- repeatable(wordcloud)
   
   output$plot <- renderPlot({
-    wordcloud_rep(words,freqs,scale=c(5,1.25),min.freq=input$freq,max.words=input$range, rot.per=0, 
+    wordcloud_rep(words,freqs,scale=c(4,1),min.freq=input$freq,max.words=input$range, rot.per=0, 
                   colors=cols)
   })
   

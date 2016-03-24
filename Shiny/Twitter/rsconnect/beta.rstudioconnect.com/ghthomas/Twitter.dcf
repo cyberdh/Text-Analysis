@@ -1,10 +1,10 @@
 name: Twitter
 account: ghthomas
 server: beta.rstudioconnect.com
-appId: 697
-bundleId: 1228
+appId: 698
+bundleId: 1230
 url: https://beta.rstudioconnect.com/ghthomas/Twitter/
-when: 1458842631.54636
+when: 1458844452.03272
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: brussels.RData|helpers.R
+ignoredFiles: freqs.csv|helper.R|words.csv

@@ -3,8 +3,6 @@ library(qdap)
 library(RColorBrewer)
 library(twitteR)
 
-setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/Twitter")
-
 load(file = "brussels.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
@@ -18,7 +16,7 @@ tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 
 # #Remove common words
-words=rm_stopwords(words,c(Top100Words,"rt", "amp"))
+words=rm_stopwords(words,c(Top100Words,"rt", "amp", "brussels"))
 
 #Get rid of empty elements
 words=words[lapply(words,length)>0]
