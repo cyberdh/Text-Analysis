@@ -1,0 +1,9 @@
+name: Twitter
+account: ghthomas
+server: beta.rstudioconnect.com
+appId: 694
+bundleId: 1219
+url: https://beta.rstudioconnect.com/ghthomas/Twitter/
+when: 1458841272.1456
+asMultiple: FALSE
+asStatic: FALSE
