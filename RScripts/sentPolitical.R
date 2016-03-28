@@ -6,11 +6,12 @@
 library(twitteR)
 library(plyr)
 require(stringr)
-library(ggplot2)
 
 # Global Parameters
-setwd("~/Documents/IU/CyberDH/Text_Analysis")
+setwd("~/Desktop/R/Text_Analysis/")
 
+#Source Multiplot Function
+source("RScripts/multiplot.R")
 
 # Load Data
 clinton.tweets <- readRDS("data/twitter/tweetsclinton.RData")
@@ -112,28 +113,23 @@ head(trump.result)
 
 # Plotting Twitter Data
 clinton.plot = qplot(clinton.result$score, xlim=(c(-7,7)),
-                     main = "Sentiment of @HillaryClinton on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+                     main = "Sentiment of @HillaryClinton on Twitter", 
+                     xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 cruz.plot = qplot(cruz.result$score, xlim=(c(-7,7)),
-                  main = "Sentiment of @tedcruz on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+                  main = "Sentiment of @tedcruz on Twitter",
+                  xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 sanders.plot = qplot(sanders.result$score, xlim=(c(-7,7)),
                      main = "Sentiment of @BernieSanders on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 trump.plot = qplot(trump.result$score, xlim=(c(-7,7)),
                    main = "Sentiment of @realDonaldTrump on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-
-clinton.plot = clinton.plot + theme_bw()
-cruz.plot = cruz.plot + theme_bw()
-sanders.plot = sanders.plot + theme_bw()
-trump.plot = trump.plot + theme_bw()
+clinton.plot = clinton.plot 
+cruz.plot = cruz.plot
+sanders.plot = sanders.plot
+trump.plot = trump.plot
 
 
 # Run each of the following four lines one at a time to view all plots. Can also export the plot to the right
-clinton.plot
-
-cruz.plot
-
-sanders.plot
-
-trump.plot
+multiplot(clinton.plot, sanders.plot, trump.plot, cruz.plot, cols=2)
 
 
 #########
