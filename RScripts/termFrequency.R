@@ -44,11 +44,10 @@ class(word.dispersion)
 
 word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
 colnames(word.dispersion.df)[1] <- "num"
-colnames(word.dispersion.df)[0] <- "play" #this line also does nothing!
+rownames(word.dispersion.df)
 
 barplot(word.dispersion.df$num,
         xlab = "Plays", ylab = "Frequency",
         main = "Use of 'love' in Five Shakespeare Plays")
-axis(1,1:5, labels=names(word.dispersion.df[1]) # This line doesn't work!!!
-
+axis(1,1:5,rownames(word.dispersion.df))
 
