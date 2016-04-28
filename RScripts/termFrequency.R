@@ -46,8 +46,9 @@ word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
 colnames(word.dispersion.df)[1] <- "num"
 rownames(word.dispersion.df)
 
-barplot(word.dispersion.df$num,
-        xlab = "Plays", ylab = "Frequency",
-        main = "Use of 'love' in Five Shakespeare Plays")
-axis(1,1:5,rownames(word.dispersion.df))
+mids <- barplot(word.dispersion.df$num,
+         ylab = "Frequency",
+        main = "Use of 'love' in Five Shakespeare Plays", xaxt="n")
+axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
+text(mids, 0, word.dispersion.df$num ,cex=1,pos=3) 
 
