@@ -48,7 +48,7 @@ rownames(word.dispersion.df)
 
 mids <- barplot(word.dispersion.df$num,
          ylab = "Frequency",
-        main = "Use of 'love' in Five Shakespeare Plays", xaxt="n")
+        main = "Use of 'love' in Five Shakespeare Plays", xaxt="n", col = c("lightblue", "mistyrose", "lavender","palegreen","lemonchiffon"))
 axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
-text(mids, 0, word.dispersion.df$num ,cex=1,pos=3) 
+text(mids, 0, word.dispersion.df$num ,cex=1, pos=3) 
 
