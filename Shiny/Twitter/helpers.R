@@ -3,6 +3,11 @@ library(qdap)
 library(RColorBrewer)
 library(twitteR)
 
+<<<<<<< Updated upstream
+=======
+setwd("~/Desktop/R/Text_Analysis/Shiny/Twitter")
+
+>>>>>>> Stashed changes
 load(file = "brussels.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
@@ -29,12 +34,7 @@ words=sort(table(words),decreasing=T)
 freqs=as.vector(words)
 words=names(words)
 
-write.csv(words, file = "words.csv", row.names = FALSE)
-write.csv(freqs, file = "freqs.csv", row.names = FALSE)
 
-cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
-
-class(freqs)
 
 
 
