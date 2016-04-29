@@ -4,7 +4,7 @@ library(RColorBrewer)
 
 setwd("~/Desktop/R/Text_Analysis/data/twitter/")
 
-load(file = "bruxelles.RData")
+tweets <- readRDS(file = "princeTweets.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS
@@ -17,7 +17,7 @@ tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 
 # #Remove common words
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "easter", "https"))
+words=rm_stopwords(words,c(Top100Words,"rt", "amp", "prince", "princes", "https", "too","los"))
 
 #Get rid of empty elements
 words=words[lapply(words,length)>0]
