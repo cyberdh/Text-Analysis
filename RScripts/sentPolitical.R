@@ -2,10 +2,10 @@
 # Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
 # To be used in conjunction with the CyberDH RNotebook tutorial found on Github > CyberDH > Text_Analysis.
 
-
 library(twitteR)
 library(plyr)
-require(stringr)
+library(stringr)
+library(ggplot2)
 
 # Global Parameters
 setwd("~/Desktop/R/Text_Analysis/")
@@ -43,17 +43,18 @@ trump.text = laply(trump.tweets, function(t) t$getText())
 # open RAR Extractor Free and choose your settings, then drag downloaded .rar file to the Extractor
 #   icon and it will unzip to the location you specified in settings
 
-lex.pos = scan('data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
-# add words using the c() [combine] function
-pos.words = c(lex.pos, 'congrats', 'congratulations', 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
-neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
+#add words using the c() [combine] function
+pos.words = c(lex.pos, 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
+neg.words = c(lex.neg, 'outnumbered','defeat', 'halt')
 
 # Implement Sentiment Scoring Algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
   
+  #figure out the score for each tweet specifically
   scores = laply(tweets, function(tweet, pos.words, neg.words) {
     #normalize tweet text
     tweet = gsub('[[:punct:]]', '', tweet)
@@ -101,6 +102,11 @@ cruz.result = score.sentiment(cruz.text, pos.words, neg.words)
 sanders.result = score.sentiment(sanders.text, pos.words, neg.words)
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
 
+clinton.result$candidate = 'Hillary Clinton'
+cruz.result$candidate = 'Ted Cruz'
+sanders.result$candidate = 'Bernie Sanders'
+trump.result$candidate = 'Donald Trump'
+
 # Peeking at results (run each of the following four lines one at a time)
 head(clinton.result)
 
@@ -110,8 +116,7 @@ head(sanders.result)
 
 head(trump.result)
 
-
-# Plotting Twitter Data
+#Plotting Twitter Data
 clinton.plot = qplot(clinton.result$score, xlim=(c(-7,7)),
                      main = "Sentiment of @HillaryClinton on Twitter", 
                      xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
@@ -119,18 +124,14 @@ cruz.plot = qplot(cruz.result$score, xlim=(c(-7,7)),
                   main = "Sentiment of @tedcruz on Twitter",
                   xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 sanders.plot = qplot(sanders.result$score, xlim=(c(-7,7)),
-                     main = "Sentiment of @BernieSanders on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+                    main = "Sentiment of @BernieSanders on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 trump.plot = qplot(trump.result$score, xlim=(c(-7,7)),
                    main = "Sentiment of @realDonaldTrump on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-clinton.plot = clinton.plot 
-cruz.plot = cruz.plot
-sanders.plot = sanders.plot
-trump.plot = trump.plot
 
 
-# Run each of the following four lines one at a time to view all plots. Can also export the plot to the right
+
+# Call the multiplot function to view all the candidates together.
 multiplot(clinton.plot, sanders.plot, trump.plot, cruz.plot, cols=2)
-
 
 #########
 
