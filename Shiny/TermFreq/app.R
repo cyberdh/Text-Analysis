@@ -9,7 +9,7 @@ ui <- fluidPage(
       helpText("This interactive plot shows how frequent certain words appear in each text throughout a section of the Shakespeare Drama Corpus."),
       selectInput(inputId = "word_choice",
                   label = "Choose a word:",
-                  choices = c("love", "death", "father", "power", "heaven", "good", "bad"),
+                  choices = c("love", "death", "father", "power", "heaven", "good", "bad", "king", "queen"),
                   selected = "love")
       
     ),
@@ -23,16 +23,14 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observe({
-  setwd("~/Documents/IU/CyberDH/")
-  input.dir <- "Text_Analysis/data/shakesFreqs"
-  files.v <- dir(input.dir, "\\.txt$")
+  files.v <- dir("\\.txt$")
   
   
-  find.dispersion <- function(files.v, input.dir){
+  find.dispersion <- function(files.v){
     text.word.vector.l <- list()
     #loop over the files
     for(i in 1:length(files.v)) {
-      text.v <- scan(paste(input.dir, files.v[i], sep="/"), what="character", sep="\n")
+      text.v <- scan(files.v[i], what="character", sep="\n")
       
       
       text.lower.v<-tolower(text.v)
@@ -62,7 +60,7 @@ server <- function(input, output) {
   }
   
   # run function and store result in list object 
-  word.dispersion <- find.dispersion(files.v, input.dir)
+  word.dispersion <- find.dispersion(files.v)
   
   class(word.dispersion)
   
