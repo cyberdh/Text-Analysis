@@ -23,14 +23,16 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observe({
-  files.v <- dir("\\.txt$")
-  
-  
-  find.dispersion <- function(files.v){
-    text.word.vector.l <- list()
-    #loop over the files
-    for(i in 1:length(files.v)) {
-      text.v <- scan(files.v[i], what="character", sep="\n")
+   # setwd("~/Documents/IU/CyberDH/Text_Analysis/data/") #Set directory path for your environment 
+    library(ggplot2)
+   # input.dir <- "shakesFreqs"
+   files.v <- dir(pattern= "\\.txt$")
+
+    find.dispersion <- function(files.v){
+      text.word.vector.l <- list()
+      #loop over the files
+      for(i in 1:length(files.v)) {
+        text.v <- scan(files.v[i], what="character", sep="\n")
       
       
       text.lower.v<-tolower(text.v)

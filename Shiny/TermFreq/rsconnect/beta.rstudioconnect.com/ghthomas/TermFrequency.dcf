@@ -2,8 +2,8 @@ name: TermFrequency
 account: ghthomas
 server: beta.rstudioconnect.com
 appId: 844
-bundleId: 1555
+bundleId: 1568
 url: https://beta.rstudioconnect.com/ghthomas/TermFrequency/
-when: 1461887978.70421
+when: 1461945296.75862
 asMultiple: FALSE
 asStatic: FALSE
