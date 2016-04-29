@@ -14,7 +14,10 @@ Set working directory by pointing to the location on your computer where you hav
 Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Desktop/R/Text_Analysis/RNotebooks")
+setwd("~/Desktop/R/Text_Analysis/")
+
+#Source Multiplot Function
+source("RScripts/multiplot.R")
 ```
 
 ***
@@ -269,30 +272,8 @@ trump.plot = qplot(trump.result$score, xlim=(c(-7,7)),
                    main = "Sentiment of @realDonaldTrump on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
 
 
-clinton.plot = clinton.plot + theme_bw()
-cruz.plot = cruz.plot + theme_bw()
-sanders.plot = sanders.plot + theme_bw()
-trump.plot = trump.plot + theme_bw()
+multiplot(clinton.plot, sanders.plot, trump.plot, cruz.plot, cols=2)
 ```
-***
-
-Output each plot!
-
-```{r}
-clinton.plot
-```
-```{r}
-cruz.plot
-```
-```{r}
-sanders.plot
-```
-```{r}
-trump.plot
-```
-
-***
-
 
 #### Voila!
 
