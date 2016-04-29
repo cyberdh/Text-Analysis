@@ -2,7 +2,7 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
-setwd("~/Desktop/R/Text_Analysis/data/twitter/")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/")
 
 tweets <- readRDS(file = "princeTweets.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
