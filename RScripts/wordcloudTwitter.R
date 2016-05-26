@@ -2,9 +2,9 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
-setwd("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/")
+setwd("~/Desktop/R/Text_Analysis/data/twitter/")
 
-tweets <- readRDS(file = "princeTweets.RData")
+load("electionMay03.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS
@@ -17,7 +17,7 @@ tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 
 # #Remove common words
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "prince", "princes", "https", "too","los"))
+words=rm_stopwords(words,c(Top100Words,"rt", "amp", "election2016"))
 
 #Get rid of empty elements
 words=words[lapply(words,length)>0]
@@ -32,6 +32,6 @@ words=names(words)
 cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
 
 
-wordcloud(words,freqs,scale=c(3,1),min.freq=3,max.words=100, rot.per=0, 
+wordcloud(words,freqs,scale=c(3,1),min.freq=3,max.words=50, rot.per=0, 
           colors=cols)
 
