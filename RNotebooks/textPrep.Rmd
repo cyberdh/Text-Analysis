@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: pdf_document
 ---
 ## Beginning Text Preparation
 ***
@@ -17,7 +17,7 @@ Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac. It
 Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Documents/IU/CyberDH/Text_Analysis/RNotebooks")
+setwd("~/Desktop/R/Text_Analysis/RNotebooks")
 ```
 
 ***
@@ -63,7 +63,7 @@ The third argument "sep" specified as "backslash" + "n" which is the way to code
 So putting everything together, this line reads in JaneEyre.txt, and separates the text into a character vector by line.
 
 ```{r}
-text <- scan("~/Documents/IU/CyberDH/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+text <- scan("~/Desktop/R/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 The final, crucial aspect of this line is the assignment. "<-" assigns whatever results on the right side of the arrow into the variable specified on the left side. Some programming languages use "=" instead of the arrow. R will also acknowledge this, but using the arrow is best practice.
@@ -71,7 +71,7 @@ The final, crucial aspect of this line is the assignment. "<-" assigns whatever 
 Here, we have named that variable "text" since it holds the text with which we are working. However, you can name this variable whatever you would like. This line will give the exact same result, although it is best to name the variable in relation to what it holds:
 
 ```{r}
-potatoes <- scan("~/Documents/IU/CyberDH/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+potatoes <- scan("~/Desktop/R/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 Now that we have the text saved as a variable, we can reuse that variable simply by calling "text" instead of the entire scan line again. The next few commands will use "text" to explore the data.
