@@ -119,7 +119,7 @@ There are many more ways to inspect parts of data (check out the CRAN), but thes
 
 The above commands are a few tips and tricks to get you started with R. Similar to R's extensibility with packages, the R user community has great resouces for learners. The [CRAN FAQ](https://cran.r-project.org/) and the [CRAN Manual](https://cran.r-project.org/doc/manuals/R-intro.pdf) answers quite a few questions about R and its uses.
 
-Googling the issue, function, or object name with "r" will return extremely helpful resources. If a pdf from cran.r-project.org appears, there you will find extensive documentation and examples for that function, etc. and other related resources. Similarly, any result from r-bloggers.com will most likely be helpful.
+Googling the issue, function, or object name with "r" will return extremely helpful resources. If a PDF from cran.r-project.org appears, there you will find extensive documentation and examples for that function, etc. and other related resources. Similarly, any result from r-bloggers.com will most likely be helpful. For any other issues, Stack Overflow is helpful to find answers to common questions as well as ask your own.
 
 The rest of the IU tutorials explain some methods for textual analysis using R. If you are ready to dive in, click on one to begin!
 
