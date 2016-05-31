@@ -3,8 +3,11 @@
 #Set the working directory
 setwd("~/Desktop/R/Text_Analysis/data/shakespeareFolger/")
 
+
 #Call libraries used in the script
-library(tm)
+#library(wordcloud)
+#library(tm)
+#library(Rcolorbrewer)
 
 #Read in the text 
 text_raw<-scan("Hamlet.txt", what="character", sep="\n")
