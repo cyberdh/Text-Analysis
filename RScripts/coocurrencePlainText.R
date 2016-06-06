@@ -22,5 +22,5 @@ corpus <- tm_map(corpus, stripWhitespace)
 
 dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
-findAssocs(dtm, "father", .6)
+findAssocs(dtm, "love", .6)
 
