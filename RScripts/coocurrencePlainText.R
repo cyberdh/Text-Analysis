@@ -4,7 +4,7 @@ library(tm)
 library(RWeka)
 
 #Set the working directory
-setwd("~/Desktop/R/Text_Analysis/data/")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/data/")
 
 #Read in the text 
 #text_raw<-scan("Hamlet.txt", what="character", sep="\n")
