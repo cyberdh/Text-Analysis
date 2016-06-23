@@ -1,10 +1,7 @@
 #Top Ten Words in Hamlet, Curated Stopwords Removed
 
 #Set the working directory
-setwd("~/Documents/IU/CyberDH/Text_Analysis/data/shakespeareFolger/")
-
-
-<<<<<<< HEAD
+setwd("~/Desktop/R/Text_Analysis/data/shakespeareFolger/")
 
 #Call libraries used in the script
 library(tm)
@@ -12,7 +9,7 @@ library(tm)
 
 #Read in the text 
 text_raw<-scan("MidsummerNightsDream.txt", what="character", sep="\n")
-=======
+
 #Call libraries used in the script
 library(tm)
 
@@ -24,7 +21,6 @@ library(tm)
 
 #Read in the text 
 text_raw<-scan("Othello.txt", what="character", sep="\n")
->>>>>>> origin/master
 
 #Create a corpus 
 corpus <- Corpus(VectorSource(text_raw))
@@ -41,6 +37,7 @@ dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 
 
-plot(head(freq, 100), type="b", lwd=2, col="blue", col.lab="red", main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n",)
+plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
+     main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n",)
 axis(1,1:10, labels=names(head(freq, 10)))
 
