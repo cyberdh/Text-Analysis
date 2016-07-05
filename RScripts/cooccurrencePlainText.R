@@ -28,3 +28,4 @@ findAssocs(dtm, "father", .6)
 
 findAssocs(dtm, "love", .6)
 
+class(freq)
