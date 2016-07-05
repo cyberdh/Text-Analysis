@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 ## Wordcloud of Top 75 Words in Charlotte Bronte's Jane Eyre
 ***
 Using the text of Jane Eyre from Project Gutenberg, we will plot the top 75 words in the novel. [http://www.gutenberg.org/cache/epub/1260/pg1260.txt]
@@ -9,7 +12,7 @@ Using the text of Jane Eyre from Project Gutenberg, we will plot the top 75 word
 Set working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac. It contains all the other R scripts, texts, notebooks, and results. If you have branched the github, simply note where you have save the folder. If you are on a PC, you will need to use an absolute path such as "C:Users:XXX."
 ***
 ```{r}
-setwd("~/Desktop/R/Text_Analysis/data/bronte")
+setwd("~/Desktop/R/Text_Analysis/RNotebooks/")
 ```
 
 ***
@@ -28,7 +31,7 @@ library(RColorBrewer)
 Load data (plaintext file), telling the computer that it is formatted by line breaks  
 ***
 ```{r}
-text_raw<-scan("janeEyre.txt", what="character", sep="\n")
+text_raw<-scan("~/Desktop/R/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 ***   
@@ -61,5 +64,4 @@ wordcloud(corpus,random.order=FALSE,scale=c(3,.1),rot.per=0,
 
 #### Voila!
 
-![](images/wordcloudJaneEyre.png) 
 

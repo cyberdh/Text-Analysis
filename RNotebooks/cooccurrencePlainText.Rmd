@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 
 ## Co-Occurrence of Words in the Shakespeare Drama Corpus
 ***
@@ -12,7 +15,7 @@ Set working directory by pointing to the location on your computer where you hav
 Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Documents/IU/CyberDH/Text_Analysis/RNotebooks")
+setwd("~/Desktop/R/Text_Analysis/RNotebooks")
 ```
 
 ***
@@ -51,7 +54,7 @@ library(RWeka)
 #### Create a corpus 
 
 ```{r}
-corpus <- Corpus(DirSource("~/Documents/IU/CyberDH/Text_Analysis/data/shakespeareFolger"))
+corpus <- Corpus(DirSource("~/Desktop/R/Text_Analysis/data/shakespeareFolger"))
 ```
 
 ***
