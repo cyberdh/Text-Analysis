@@ -1,26 +1,12 @@
 #Top Ten Words in Hamlet, Curated Stopwords Removed
+#Call libraries used in the script
+library(tm)
 
 #Set the working directory
 setwd("~/Desktop/R/Text_Analysis/data/shakespeareFolger/")
 
-#Call libraries used in the script
-library(tm)
-
-
 #Read in the text 
-text_raw<-scan("MidsummerNightsDream.txt", what="character", sep="\n")
-
-#Call libraries used in the script
-library(tm)
-
-#Call libraries used in the script
-#library(wordcloud)
-#library(tm)
-#library(Rcolorbrewer)
-
-
-#Read in the text 
-text_raw<-scan("Othello.txt", what="character", sep="\n")
+text_raw<-scan("Hamlet.txt", what="character", sep="\n")
 
 #Create a corpus 
 corpus <- Corpus(VectorSource(text_raw))
