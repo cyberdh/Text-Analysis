@@ -1,7 +1,7 @@
 #Wordcloud of Top 75 Words in Jane Eyre
 
 #Set the working directory
-setwd("~/Desktop/R/Text_Analysis/data/bronte")
+setwd("~/Desktop/R/Text_Analysis/data/Shakespearefolger/")
 
 
 #Call libraries used in the script
@@ -10,7 +10,7 @@ setwd("~/Desktop/R/Text_Analysis/data/bronte")
 #library(Rcolorbrewer)
 
 #Read in the text 
-text_raw<-scan("janeEyre.txt", what="character", sep="\n")
+text_raw<-scan("Hamlet.txt", what="character", sep="\n")
 
 #Create a corpus 
 corpus <- Corpus(VectorSource(text_raw))

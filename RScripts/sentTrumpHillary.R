@@ -14,14 +14,12 @@ library(plyr)
 library(stringr)
 library(ggplot2)
 library(reshape2)
+library(tm)
 
-
-
-  
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/realdonaldtrump2016-07-07.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillaryclinton2016-07-07.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -81,14 +79,7 @@ df.result <- data.frame(x = trump.result, y = hillary.result)
 
 ggplot(melt(df.result), aes(value, fill = variable)) + geom_histogram(position = "dodge")
 
-
-
-
-
-
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
 #Reference: Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.
-
-
 

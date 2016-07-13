@@ -16,8 +16,6 @@ Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choo
 ```{r}
 setwd("~/Desktop/R/Text_Analysis/")
 
-#Source Multiplot Function
-source("RScripts/multiplot.R")
 ```
 
 ***
@@ -52,6 +50,7 @@ library(twitteR)
 library(plyr)
 library(stringr)
 library(ggplot2)
+library(reshape2)
 ```
 
 ***
@@ -213,6 +212,8 @@ Again, we have already created our function, we just need to tell it what to ana
 ```{r}
 orlando.result = score.sentiment(orlando.text, pos.words, neg.words)
 pulse.result = score.sentiment(pulse.text, pos.words, neg.words)
+
+df.result <- data.frame(x = orlando.result, y = pulse.result)
 ```
 
 ***
@@ -240,14 +241,7 @@ Below the histograms of our results are plotted on the same graph
 
 ```{r}
 # Plotting Twitter Data
-p1 <- hist(orlando.result$score, xlab="Sentiment Score", ylab="Number of Tweets") 
-p2 <- hist(pulse.result$score, xlab="Sentiment Score", ylab="Number of Tweets")  
-plot( p1, col=rgb(0,0,1,1/4), ylim=c(0,2500))  # first histogram
-plot( p2, col=rgb(1,0,0,1/4), ylim=c(0,2500), xlab="Sentiment Score", ylab="Number of Tweets", add=T)  # second
-col=c(rgb(0,0,1,1/4), rgb(1,0,0,1/4))
-legend(2, 1500, legend=c("orlando", "pulse"),
-       fill=col, cex=0.8)
-title("Shooting at Pulse LGBT Nightclub in Orlando")
+ggplot(melt(df.result), aes(value, fill = variable)) + geom_histogram(position = "dodge")
 ```
 
 #### Voila!

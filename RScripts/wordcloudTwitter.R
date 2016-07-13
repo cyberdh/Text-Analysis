@@ -8,7 +8,7 @@ load("orlando2016-06-16.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS
-tweetlist=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweetlist)
+tweetlist=rm_url(tweetlist, extract = FALSE)
 
 #Strip punctuation
 tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
