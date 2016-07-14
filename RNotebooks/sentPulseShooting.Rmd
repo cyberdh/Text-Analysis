@@ -246,7 +246,7 @@ ggplot(melt(df.result), aes(value, fill=variable)) +
   geom_histogram(position = "dodge", binwidth = .5 ) + xlab("Sentiment Score") + 
   ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning 'Orlando' vs 'Pulse'") + 
   scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + 
-  scale_fill_manual(legend_title, values=c("yellow","green"), labels = c("Orlando", "Pulse"))
+  scale_fill_manual(legend_title, values=c("orange","purple"), labels = c("Orlando", "Pulse"))
 ```
 
 #### Voila!
