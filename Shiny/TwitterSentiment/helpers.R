@@ -1,4 +1,7 @@
-setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/")
+
+#Source Multiplot Function
+source("RScripts/multiplot.R")
 
 # Include necessary packages
 library(twitteR)
@@ -65,6 +68,6 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 }
 
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
-clinton.result = score.sentiment(hillary.text, pos.words, neg.words)
+hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
-both.result <- data.frame(x = trump.result, y = clinton.result)
+df.result <- data.frame(x = trump.result, y = hillary.result)

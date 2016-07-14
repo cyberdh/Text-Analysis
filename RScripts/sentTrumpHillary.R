@@ -77,7 +77,27 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-ggplot(melt(df.result), aes(value, fill=variable) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton")) 
+write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
+write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
+write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
+
+ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
+
+
+
+trump <- read.csv(file="~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment/TrumpResultDF.csv",head=TRUE,sep=",")
+clinton <- read.csv(file="~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment/ClintonResultDF.csv",head=TRUE,sep=",")
+both <- read.csv(file="~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment/BothResultDF.csv",head=TRUE,sep=",")
+
+ggplot(melt(both), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
+
+
+class(trump)
+
+
+
+
+
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 

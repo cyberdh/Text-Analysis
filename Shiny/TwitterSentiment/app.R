@@ -10,7 +10,7 @@
 setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment")
 
 library(shiny)
-source("helpers.R")
+# source("helpers.R")
 
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(
@@ -34,23 +34,23 @@ ui <- shinyUI(fluidPage(
 # Define server logic required to draw a histogram
 server <- shinyServer(function(input, output) {
    
-   output$plot <- renderPlot({
+  trump <- read.csv(file="TrumpResultDF.csv",head=TRUE,sep=",")
+  clinton <- read.csv(file="ClintonResultDF.csv",head=TRUE,sep=",")
+  both <- read.csv(file="BothResultDF.csv",head=TRUE,sep=",")
+  
+  output$plot <- renderPlot({
       if (input$data_set == "Donald Trump") {
-        plot(ggplot(melt(trump.result), aes(value, fill=variable) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")) )
+        ggplot(melt(trump), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
       }
      else if (input$data_set == "Hillary Clinton") {
-       plot(ggplot(melt(clinton.result), aes(value, fill=variable) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @HillaryClinton")) )
+       ggplot(melt(clinton), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
      }
      else if (input$data_set == "Compare both candidates") {
-       plot(ggplot(melt(both.result), aes(value, fill=variable) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @HillaryClinton")) )
+       ggplot(melt(both), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
      }
-
-     
- 
-     
-
    })
 })
+
 
 # Run the application 
 shinyApp(ui = ui, server = server)
