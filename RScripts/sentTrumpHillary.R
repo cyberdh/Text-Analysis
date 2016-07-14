@@ -30,8 +30,9 @@ lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt
 
 # Add words relevant to our corpus using the combine c() function:
   
-pos.words = c(lex.pos)
-neg.words = c(lex.neg)
+pos.words = c(lex.pos, "qualified", "imwithher","blacklivesmatter", "maga", "unitedwestand")
+neg.words = c(lex.neg, "controversial", "corrupt", "crooked", "unfit", "casino", "fuck", "criminal", "bankruptcy", 
+              "classified", "racist", "lying", "nevertrump", "isis", "neverhillary", "nazi" )
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -75,9 +76,14 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
 hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
-df.result <- data.frame(x = trump.result, y = hillary.result)
 
-ggplot(melt(df.result), aes(value, fill=variable) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") 
+df.result <- data.frame(x = trump.result, y = hillary.result)
+ggplot(melt(df.result), aes(value, fill=variable)) + 
+  geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + 
+  ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
+  xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
+
+
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
