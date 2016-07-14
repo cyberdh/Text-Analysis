@@ -3,7 +3,7 @@
 
 # Global parameters 
   
-setwd("~/Documents/IU/CyberDH/Text_Analysis/")
+setwd("~/Desktop/R/Text_Analysis/")
 
 #Source Multiplot Function
 source("RScripts/multiplot.R")
@@ -16,16 +16,16 @@ library(ggplot2)
 library(reshape2)
 
 # Load data 
-load("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Documents/IU/CyberDH/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
-lex.pos = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
   
@@ -75,19 +75,13 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
 hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
-df.result <- data.frame(x = trump.result, y = hillary.result)
+df.result <- data.frame(x = trump.result)
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream:RScripts/sentTrump.R
-ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge")
-=======
-ggplot(melt(df.result), aes(value)) + geom_histogram(position = "dodge", fill="red")
->>>>>>> Stashed changes
-       + xlab("Sentiment Score") + ylab("Number of Tweets")
-       + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")
-=======
-ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton")
->>>>>>> Stashed changes:RScripts/sentTrumpDensity.R
+ggplot(melt(df.result), aes(value)) + geom_histogram(position = "dodge", binwidth = .5, fill="red") +
+  xlab("Sentiment Score") + ylab("Number of Tweets") +
+  scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) +
+  ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")
+
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
