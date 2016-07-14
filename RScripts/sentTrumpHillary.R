@@ -76,6 +76,7 @@ trump.result = score.sentiment(trump.text, pos.words, neg.words)
 hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
+<<<<<<< Updated upstream
 
 write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
 write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
@@ -96,6 +97,13 @@ class(trump)
 
 
 
+=======
+legend_title <- "Candidate"
+ggplot(melt(df.result), aes(value, fill=variable)) + 
+  geom_histogram(position = "dodge", binwidth = .5 ) + xlab("Sentiment Score") + 
+  ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
+  xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + scale_fill_manual(legend_title, values=c("red","blue"))
+>>>>>>> Stashed changes
 
 
 

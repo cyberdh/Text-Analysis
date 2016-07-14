@@ -1,13 +1,11 @@
-#Wordcloud of Top 75 Words in Jane Eyre
+#Wordcloud of Top 75 Words in Hamlet
 
 #Set the working directory
 setwd("~/Desktop/R/Text_Analysis/data/Shakespearefolger/")
 
-
 #Call libraries used in the script
-#library(wordcloud)
-#library(tm)
-#library(Rcolorbrewer)
+library(wordcloud)
+library(tm)
 
 #Read in the text 
 text_raw<-scan("Hamlet.txt", what="character", sep="\n")

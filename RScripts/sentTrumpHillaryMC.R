@@ -5,21 +5,31 @@
   
 setwd("~/Desktop/R/Text_Analysis/")
 
-#Source Multiplot Function
-source("RScripts/multiplot.R")
-
 # Include necessary packages
 library(twitteR)
-library(plyr)
 library(stringr)
 library(ggplot2)
 library(reshape2)
 library(tm)
+library(doMC)
+registerDoMC(15)
 
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
+a <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
+b <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-08.RData")
+c <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump/2016-07-09.RData")
+d <- load("~/Desktop/Text_Analysis//data/twitter/trump/realdonaldtrump2016-07-10.RData")
+e <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+f <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-12.RData")
+rbind(a,b,c,d,e,f)
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
+g< - load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
+h <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-08.RData")
+i <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-09.RData")
+j <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-10.RData")
+k <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
+l <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-12.RData")
+rbind(g,h,i,j,k,l)
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -39,7 +49,7 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
   
   #figure out the score for each tweet specifically
-  scores = laply(tweets, function(tweet, pos.words, neg.words) {
+  scores = laply(tweets, function(tweet, pos.words, neg.words, .parallel=TRUE) {
     #normalize tweet text
     tweet = gsub('[[:punct:]]', '', tweet)
     tweet = gsub('[[:cntrl:]]', '', tweet)
@@ -76,8 +86,8 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
 hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
-
 df.result <- data.frame(x = trump.result, y = hillary.result)
+
 ggplot(melt(df.result), aes(value, fill=variable)) + 
   geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + 
   ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 

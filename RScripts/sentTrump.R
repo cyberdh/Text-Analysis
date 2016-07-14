@@ -77,8 +77,12 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:RScripts/sentTrump.R
 ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge")
+=======
+ggplot(melt(df.result), aes(value)) + geom_histogram(position = "dodge", fill="red")
+>>>>>>> Stashed changes
        + xlab("Sentiment Score") + ylab("Number of Tweets")
        + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")
 =======
