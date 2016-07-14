@@ -19,9 +19,9 @@ library(reshape2)
 
   
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/realdonaldtrump2016-07-07.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillaryclinton2016-07-07.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-07.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -32,9 +32,9 @@ lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt
 
 # Add words relevant to our corpus using the combine c() function:
   
-pos.words = c(lex.pos, "qualified", "imwithher","blacklivesmatter")
+pos.words = c(lex.pos, "qualified", "imwithher","blacklivesmatter", "maga")
 neg.words = c(lex.neg, "controversial", "corrupt", "crooked", "unfit", "casino", "fuck", "criminal", "bankruptcy", 
-              "classified", "racist", "lying" )
+              "classified", "racist", "lying", "nevertrump", "isis" )
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -80,9 +80,7 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-ggplot(melt(df.result), aes(value, fill = variable)) + geom_histogram(position = "dodge")
-
-
+ggplot(melt(df.result), aes(value, fill = variable)) + geom_histogram(position = "dodge") + geom_density(alpha=.2, fill="#FF6666") + 
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 

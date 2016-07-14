@@ -4,7 +4,7 @@ library(tm)
 library(RWeka)
 
 #Set the working directory
-setwd("~/Documents/IU/CyberDH/Text_Analysis/data/")
+setwd("~/Desktop/R/Text_Analysis/data/")
 
 #Read in the text 
 #text_raw<-scan("Hamlet.txt", what="character", sep="\n")
@@ -26,6 +26,6 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 findAssocs(dtm, "father", .6)
 
 
-findAssocs(dtm, "love", .6)
+findAssocs(dtm, "thou", .6)
 
 class(freq)

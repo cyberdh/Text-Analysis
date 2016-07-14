@@ -77,7 +77,7 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-ggplot(melt(df.result), aes(value, fill = variable)) + geom_histogram(position = "dodge")
+ggplot(melt(df.result), aes(value, fill=variable) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") 
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
