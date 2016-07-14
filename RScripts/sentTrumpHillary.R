@@ -74,11 +74,9 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-#write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
-#write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
-#write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
-
-#ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
+write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
+write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
+write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
 
 legend_title <- "Candidate"
 ggplot(melt(df.result), aes(value, fill=variable)) + 
@@ -86,9 +84,6 @@ ggplot(melt(df.result), aes(value, fill=variable)) +
   ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
   xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + 
   scale_fill_manual(legend_title, values=c("red","blue"), labels = c("Trump", "Clinton"))
-
-
-
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
