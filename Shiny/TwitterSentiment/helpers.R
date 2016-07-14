@@ -1,12 +1,4 @@
-
-# Simple Sentiment Analysis for Twitter
-
-# Global parameters 
-  
-setwd("~/Documents/IU/CyberDH/Text_Analysis/")
-
-#Source Multiplot Function
-source("RScripts/multiplot.R")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment")
 
 # Include necessary packages
 library(twitteR)
@@ -14,13 +6,14 @@ library(plyr)
 library(stringr)
 library(ggplot2)
 library(reshape2)
+library(tm)
 
 # Load data 
-load("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+load("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Documents/IU/CyberDH/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
+load("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
 hillary.text = sapply(tweets, function(x) x$text)
- 
+
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
@@ -28,10 +21,9 @@ lex.pos = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/positiv
 lex.neg = scan('~/Documents/IU/CyberDH/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
-  
-pos.words = c(lex.pos, "qualified", "imwithher","blacklivesmatter", "maga", "unitedwestand")
-neg.words = c(lex.neg, "controversial", "corrupt", "crooked", "unfit", "casino", "fuck", "criminal", "bankruptcy", 
-              "classified", "racist", "lying", "nevertrump", "isis", "neverhillary" )
+
+pos.words = c(lex.pos)
+neg.words = c(lex.neg)
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -73,19 +65,6 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 }
 
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
-hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
+clinton.result = score.sentiment(hillary.text, pos.words, neg.words)
 
-df.result <- data.frame(x = trump.result, y = hillary.result)
-
-<<<<<<< Updated upstream:RScripts/sentTrump.R
-ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge")
-       + xlab("Sentiment Score") + ylab("Number of Tweets")
-       + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")
-=======
-ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton")
->>>>>>> Stashed changes:RScripts/sentTrumpDensity.R
-
-#Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
-
-#Reference: Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.
-
+both.result <- data.frame(x = trump.result, y = clinton.result)
