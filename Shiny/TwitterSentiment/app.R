@@ -45,10 +45,10 @@ server <- shinyServer(function(input, output) {
   
   output$plot <- renderPlot({
       if (input$data_set == "Donald Trump") {
-        ggplot(melt(trump), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(trump$x.score, n=14))
+        ggplot(melt(trump), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5, fill = "red") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(trump$x.score, n=14))
       }
      else if (input$data_set == "Hillary Clinton") {
-       ggplot(melt(clinton), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(clinton$x.score, n=14))
+       ggplot(melt(clinton), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5, fill = "blue") + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(clinton$x.score, n=14))
      }
      else if (input$data_set == "Compare both candidates") {
        ggplot(melt(both), aes(value, fill=variable)) + geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(both$x.score, n=14))
