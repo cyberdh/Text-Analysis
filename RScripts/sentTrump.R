@@ -15,13 +15,10 @@ library(stringr)
 library(ggplot2)
 library(reshape2)
 
-
-
-  
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/realdonaldtrump2016-07-07.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillaryclinton2016-07-07.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -32,8 +29,9 @@ lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt
 
 # Add words relevant to our corpus using the combine c() function:
   
-pos.words = c(lex.pos)
-neg.words = c(lex.neg)
+pos.words = c(lex.pos, "qualified", "imwithher","blacklivesmatter", "maga", "unitedwestand")
+neg.words = c(lex.neg, "controversial", "corrupt", "crooked", "unfit", "casino", "fuck", "criminal", "bankruptcy", 
+              "classified", "racist", "lying", "nevertrump", "isis", "neverhillary" )
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -79,12 +77,9 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-ggplot(melt(df.result), aes(value, fill = variable)) + geom_histogram(position = "dodge") + xlab("Sentiment") + ylab("Number of Tweets") + ggtitle("Sentiment of Tweets Mentioning Donald Trump and Hillary Clinton")
-
-
-
-
-
+ggplot(melt(df.result), aes(value, fill=variable)) + geom_histogram(position = "dodge")
+       + xlab("Sentiment Score") + ylab("Number of Tweets")
+       + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
