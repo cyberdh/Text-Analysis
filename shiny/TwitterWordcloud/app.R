@@ -4,7 +4,7 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
-#setwd("~/Desktop/R/Text_Analysis/Shiny/Twitter")
+# setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterWordcloud")
 
 source("helpers.R")
 
@@ -17,7 +17,7 @@ ui <- fluidPage(
       helpText("This interactive plot shows the most frequently tweeted words in reference to the shooting at the Pulse Nightclub"),
       sliderInput("freq", 
                   label = "Minimum frequency of words:",
-                  min = 1, max = 400, value = 3),
+                  min = 1, max = 450, value = 3),
 
       sliderInput("range", 
                   label = "Number of Words:",
@@ -40,7 +40,7 @@ server <- function(input, output) {
   
   output$plot <- renderPlot({
 
-    wordcloud_rep(words,freqs,scale=c(5,1),max.words=75, rot.per=0, 
+    wordcloud_rep(words,freqs, scale=c(5,1), min.freq = input$freq, max.words=input$range, rot.per=0, 
                      colors=brewer.pal(8, "Dark2"))
   })
   

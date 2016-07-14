@@ -1,10 +1,10 @@
-name: Twitter
+name: TwitterWordcloud
 account: ghthomas
 server: beta.rstudioconnect.com
-appId: 698
-bundleId: 2531
-url: https://beta.rstudioconnect.com/ghthomas/Twitter/
-when: 1468510183.90455
+appId: 1284
+bundleId: 2535
+url: https://beta.rstudioconnect.com/ghthomas/TwitterWordcloud/
+when: 1468510426.49214
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: #keydh 2016-06-24 .RData|brussels.RData|freqs.csv|orlando2016-06-16.RData|princeTweets.RData|pulseFreqs.csv|pulseWords.csv|words.csv

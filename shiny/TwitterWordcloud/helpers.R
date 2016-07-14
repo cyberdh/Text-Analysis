@@ -4,7 +4,7 @@ library(RColorBrewer)
 library(twitteR)
 
 
-# setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/Twitter")
+# setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterWordcloud")
 
 
 load(file = "pulse2016-06-16.RData")
