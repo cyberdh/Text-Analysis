@@ -75,7 +75,7 @@ server <- function(input, output) {
   
   output$plot <- renderPlot({
     par(mar=c(15, 4.1, 4.1, 2.1))
-    title <- paste("Use of '", input$word_choice, "' in Five Shakespeare Plays")
+    title <- paste("Use of '", input$word_choice, "' in Eight Shakespeare Plays")
     mids <- barplot(word.dispersion.df$num,
                     ylab = "Frequency",
                     main = (title), xaxt="n", col = c("lightblue", "mistyrose", "lavender","darkseagreen1","lemonchiffon", "lightsalmon", "plum", "slategray1"))
