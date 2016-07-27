@@ -26,66 +26,40 @@ server <- function(input, output) {
    # setwd("~/Documents/IU/CyberDH/Text_Analysis/data/") #Set directory path for your environment 
     library(ggplot2)
    # input.dir <- "shakesFreqs"
-   files.v <- dir(pattern= "\\.txt$")
-
-    find.dispersion <- function(files.v){
-      text.word.vector.l <- list()
-      #loop over the files
-      for(i in 1:length(files.v)) {
-        text.v <- scan(files.v[i], what="character", sep="\n")
-      
-      
-      text.lower.v<-tolower(text.v)
-      text.words.v<-strsplit(text.lower.v, "\\W")
-      text.word.v<-unlist(text.words.v)
-      not.blanks.v <- which(text.word.v != "")
-      text.word.v <- text.word.v[not.blanks.v]
-      
-      text.position.v <- seq(1:length(text.word.v))
-      love.v <- which(text.word.v == input$word_choice)
-      w.count.v <- rep(NA, length(text.position.v))
-      w.count.v[love.v] <- 1
-      sum.occurences <- sum(w.count.v, NA, na.rm = TRUE)
-      
-      
-      
-      #use the index id from the viles.v vector as the "name" in the list
-      text.word.vector.l[[files.v[i]]] <- sum.occurences
-    }
-    return(text.word.vector.l)
-  }
+   
+  love.dispersion.df <- read.table(file = "loveDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(love.dispersion.df)[1] <- "num"
   
-  show.files <- function(file.name.v){
-    for(i in 1:length(file.name.v)){
-      cat(i, file.name.v[i], "\n", sep=" ")
-    }
-  }
+  death.dispersion.df <- read.table(file = "deathDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(death.dispersion.df)[1] <- "num"
   
-  # run function and store result in list object 
-  word.dispersion <- find.dispersion(files.v)
+  father.dispersion.df <- read.table(file = "fatherDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(father.dispersion.df)[1] <- "num"
   
-  class(word.dispersion)
+  heaven.dispersion.df <- read.table(file = "heavenDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(heaven.dispersion.df)[1] <- "num"
   
-  word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
-  colnames(word.dispersion.df)[1] <- "num"
-  rownames(word.dispersion.df)
+  power.dispersion.df <- read.table(file = "powerDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(power.dispersion.df)[1] <- "num"
+  
+  good.dispersion.df <- read.table(file = "goodDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(good.dispersion.df)[1] <- "num"
+  
+  bad.dispersion.df <- read.table(file = "badDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(bad.dispersion.df)[1] <- "num"
+  
+  king.dispersion.df <- read.table(file = "kingDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(king.dispersion.df)[1] <- "num"
+  
+  queen.dispersion.df <- read.table(file = "queenDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(queen.dispersion.df)[1] <- "num"
+  
+  
   
   
   
   
   output$plot <- renderPlot({
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    par(mar=c(15, 4.1, 4.1, 2.1))
-    title <- paste("Use of '", input$word_choice, "' in Eight Shakespeare Plays")
-    mids <- barplot(word.dispersion.df$num,
-                    ylab = "Frequency",
-                    main = (title), xaxt="n", col = c("lightblue", "mistyrose", "lavender","darkseagreen1","lemonchiffon", "lightsalmon", "plum", "slategray1"))
-    axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
-    text(mids, 0, word.dispersion.df$num ,cex=1, pos=3, las=2) 
->>>>>>> parent of b96c90d... resolving conflicts (hopefully)
-
     if (input$word_choice == "love") {
       par(mar=c(15, 4.1, 4.1, 2.1))
       mids <- barplot(love.dispersion.df$num,
@@ -159,19 +133,6 @@ server <- function(input, output) {
       text(mids, 0, queen.dispersion.df$num ,cex=1, pos=3) 
     }
 
-<<<<<<< HEAD
-=======
-    par(mar=c(15, 4.1, 4.1, 2.1))
-    title <- paste("Use of '", input$word_choice, "' in Eight Shakespeare Plays")
-    mids <- barplot(word.dispersion.df$num,
-                    ylab = "Frequency",
-                    main = (title), xaxt="n", col = c("lightblue", "mistyrose", "lavender","darkseagreen1","lemonchiffon", "lightsalmon", "plum", "slategray1"))
-    axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
-    text(mids, 0, word.dispersion.df$num ,cex=1, pos=3, las=2) 
->>>>>>> parent of b44e3fb... Merge remote-tracking branch 'origin/master'
-=======
-
->>>>>>> parent of b96c90d... resolving conflicts (hopefully)
   }, height=650)
   
   })
