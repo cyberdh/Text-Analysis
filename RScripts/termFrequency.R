@@ -1,4 +1,4 @@
-setwd("~/Desktop/R/") #Set directory path for your environment 
+setwd("~/Documents/IU/CyberDH/") #Set directory path for your environment 
 library(ggplot2)
 input.dir <- "Text_Analysis/data/shakesFreqs/"
 files.v <- dir(input.dir, "\\.txt$")
@@ -43,6 +43,17 @@ word.dispersion <- find.dispersion(files.v, input.dir)
 class(word.dispersion)
 
 word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
+
+# write.csv(word.dispersion.df, file = "~/Desktop/loveDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/deathDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/fatherDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/powerDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/heavenDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/goodDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/badDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/kingDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/queenDF.csv")
+
 colnames(word.dispersion.df)[1] <- "num"
 rownames(word.dispersion.df)
 

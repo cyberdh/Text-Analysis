@@ -6,7 +6,7 @@ library(RColorBrewer)
 
 # setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterWordcloud")
 
-source("helpers.R")
+# source("helpers.R")
 
 
 ui <- fluidPage(
@@ -33,6 +33,16 @@ ui <- fluidPage(
 )
 
 server <- function(input, output) {
+  
+  library(wordcloud)
+  library(qdap)
+  library(RColorBrewer)
+  
+  wordsDF <- read.csv(file="pulseWords.csv",head=TRUE,sep=",")
+  freqsDF <- read.csv(file="pulseFreqs.csv",head=TRUE,sep=",")
+  
+  words <- as.vector(as.matrix(wordsDF))
+  freqs <- as.vector(as.matrix(freqsDF))
   
   cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
 

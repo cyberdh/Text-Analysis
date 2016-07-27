@@ -90,7 +90,7 @@ df.result <- data.frame(x = trump.result, y = hillary.result)
 
 ggplot(melt(df.result), aes(value, fill=variable)) + 
   geom_histogram(position = "dodge", binwidth = .5) + xlab("Sentiment Score") + 
-  ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
+  ylab("Number of Tweets") + ggtitle("Sentiment Scoring of a Week's Worth of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
   xlim(c(-7,7)) + scale_x_continuous(breaks=pretty(df.result$x.score, n=14))
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 

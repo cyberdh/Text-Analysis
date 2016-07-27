@@ -4,7 +4,7 @@ library(tm)
 library(RWeka)
 
 #Set the working directory
-setwd("~/Desktop/R/Text_Analysis/data/")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/data/")
 
 #Read in the text 
 #text_raw<-scan("Hamlet.txt", what="character", sep="\n")
@@ -23,9 +23,20 @@ corpus <- tm_map(corpus, stripWhitespace)
 dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 
+# dtmMatrix <- as.matrix(dtm)
+
+# write.csv(dtmMatrix, file = "~/Desktop/coDTM.csv")
+
+
+# dtm <- read.csv(file="~/Desktop/coDTM.csv",head=FALSE,sep=",")
+
+# tmDTM <- tm::as.DocumentTermMatrix(slam::as.simple_triplet_matrix(dtm), weighting = tm::weightTf)
+
 findAssocs(dtm, "father", .6)
 
 
 findAssocs(dtm, "thou", .6)
 
-class(freq)
+
+
+
