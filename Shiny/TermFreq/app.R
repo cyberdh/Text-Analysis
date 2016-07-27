@@ -23,39 +23,43 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observe({
-
+   # setwd("~/Documents/IU/CyberDH/Text_Analysis/data/") #Set directory path for your environment 
     library(ggplot2)
-    love.dispersion.df <- read.table(file = "loveDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(love.dispersion.df)[1] <- "num"
-    
-    death.dispersion.df <- read.table(file = "deathDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(death.dispersion.df)[1] <- "num"
-    
-    father.dispersion.df <- read.table(file = "fatherDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(father.dispersion.df)[1] <- "num"
-    
-    power.dispersion.df <- read.table(file = "powerDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(power.dispersion.df)[1] <- "num"
-    
-    heaven.dispersion.df <- read.table(file = "heavenDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(heaven.dispersion.df)[1] <- "num"
-    
-    good.dispersion.df <- read.table(file = "goodDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(good.dispersion.df)[1] <- "num"
-    
-    bad.dispersion.df <- read.table(file = "badDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(bad.dispersion.df)[1] <- "num"
-    
-    king.dispersion.df <- read.table(file = "kingDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(king.dispersion.df)[1] <- "num"
-    
-    queen.dispersion.df <- read.table(file = "queenDF.csv", row.names = 1,head=TRUE,sep=",")
-    colnames(queen.dispersion.df)[1] <- "num"
-
+   # input.dir <- "shakesFreqs"
+   
+  love.dispersion.df <- read.table(file = "loveDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(love.dispersion.df)[1] <- "num"
+  
+  death.dispersion.df <- read.table(file = "deathDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(death.dispersion.df)[1] <- "num"
+  
+  father.dispersion.df <- read.table(file = "fatherDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(father.dispersion.df)[1] <- "num"
+  
+  heaven.dispersion.df <- read.table(file = "heavenDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(heaven.dispersion.df)[1] <- "num"
+  
+  power.dispersion.df <- read.table(file = "powerDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(power.dispersion.df)[1] <- "num"
+  
+  good.dispersion.df <- read.table(file = "goodDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(good.dispersion.df)[1] <- "num"
+  
+  bad.dispersion.df <- read.table(file = "badDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(bad.dispersion.df)[1] <- "num"
+  
+  king.dispersion.df <- read.table(file = "kingDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(king.dispersion.df)[1] <- "num"
+  
+  queen.dispersion.df <- read.table(file = "queenDF.csv", row.names = 1, head=TRUE, sep=",")
+  colnames(queen.dispersion.df)[1] <- "num"
+  
+  
+  
+  
   
   
   output$plot <- renderPlot({
-
     if (input$word_choice == "love") {
       par(mar=c(15, 4.1, 4.1, 2.1))
       mids <- barplot(love.dispersion.df$num,
@@ -135,5 +139,3 @@ server <- function(input, output) {
 }
 
 shinyApp(ui = ui, server = server)
-
-

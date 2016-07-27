@@ -18,7 +18,7 @@ find.dispersion <- function(files.v, input.dir){
     text.word.v <- text.word.v[not.blanks.v]
     
     text.position.v <- seq(1:length(text.word.v))
-    love.v <- which(text.word.v == "love")
+    love.v <- which(text.word.v == "queen")
     w.count.v <- rep(NA, length(text.position.v))
     w.count.v[love.v] <- 1
     sum.occurences <- sum(w.count.v, NA, na.rm = TRUE)
@@ -42,17 +42,20 @@ word.dispersion <- find.dispersion(files.v, input.dir)
 
 class(word.dispersion)
 
-word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
 
-# write.csv(word.dispersion.df, file = "~/Desktop/loveDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/deathDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/fatherDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/powerDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/heavenDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/goodDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/badDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/kingDF.csv")
-# write.csv(word.dispersion.df, file = "~/Desktop/queenDF.csv")
+word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
+#write.csv(word.dispersion.df, file = "~/Desktop/loveDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/deathDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/fatherDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/heavenDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/powerDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/badDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/goodDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/kingDF.csv")
+#write.csv(word.dispersion.df, file = "~/Desktop/queenDF.csv")
+
+
+
 
 colnames(word.dispersion.df)[1] <- "num"
 rownames(word.dispersion.df)
