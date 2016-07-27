@@ -13,21 +13,22 @@ library(ggplot2)
 library(reshape2)
 library(tm)
 
-# Load data <-- browse through our twitter data to find scrapings to try
-load("~/Desktop/R/Text_Analysis/data/twitter/orlando2016-06-16.RData")
-orlando.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/pulse2016-06-16.RData")
-pulse.text = sapply(tweets, function(x) x$text)
+# Load data 
+load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+trump.text = sapply(tweets, function(x) x$text)
+load("~/Desktop/R/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
+hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
-#This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* 
+#This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
 lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
 lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
-pos.words = c(lex.pos, "prayers", "thoughts", "family", "LGBT", "gay", "pride")
-neg.words = c(lex.neg, "ISIS", "gun", "abuser", "omar", "matteen")
+  
+pos.words = c(lex.pos)
+neg.words = c(lex.neg)
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -77,14 +78,12 @@ write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
 write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
 write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
 
-#Create a legend for the plot
-legend_title <- "Search Term"
-#Create a histogram; parameter to experiment with include the number of breaks and colors
+legend_title <- "Candidate"
 ggplot(melt(df.result), aes(value, fill=variable)) + 
   geom_histogram(position = "dodge", binwidth = .5 ) + xlab("Sentiment Score") + 
-  ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning 'Orlando' vs 'Pulse'") + 
+  ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
   scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + 
-  scale_fill_manual(legend_title, values=c("orange","purple"), labels = c("Orlando", "Pulse"))
+  scale_fill_manual(legend_title, values=c("red","blue"), labels = c("Trump", "Clinton"))
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
