@@ -55,13 +55,6 @@ server <- function(input, output) {
   
   
   output$plot <- renderPlot({
-    par(mar=c(15, 4.1, 4.1, 2.1))
-    title <- paste("Use of '", input$word_choice, "' in Eight Shakespeare Plays")
-    mids <- barplot(word.dispersion.df$num,
-                    ylab = "Frequency",
-                    main = (title), xaxt="n", col = c("lightblue", "mistyrose", "lavender","darkseagreen1","lemonchiffon", "lightsalmon", "plum", "slategray1"))
-    axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
-    text(mids, 0, word.dispersion.df$num ,cex=1, pos=3, las=2) 
 
     if (input$word_choice == "love") {
       par(mar=c(15, 4.1, 4.1, 2.1))
@@ -135,7 +128,6 @@ server <- function(input, output) {
       axis(1, at=mids, rownames(queen.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
       text(mids, 0, queen.dispersion.df$num ,cex=1, pos=3) 
     }
-
 
   }, height=650)
   
