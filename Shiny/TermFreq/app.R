@@ -75,6 +75,16 @@ server <- function(input, output) {
   
   output$plot <- renderPlot({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    par(mar=c(15, 4.1, 4.1, 2.1))
+    title <- paste("Use of '", input$word_choice, "' in Eight Shakespeare Plays")
+    mids <- barplot(word.dispersion.df$num,
+                    ylab = "Frequency",
+                    main = (title), xaxt="n", col = c("lightblue", "mistyrose", "lavender","darkseagreen1","lemonchiffon", "lightsalmon", "plum", "slategray1"))
+    axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
+    text(mids, 0, word.dispersion.df$num ,cex=1, pos=3, las=2) 
+>>>>>>> parent of b96c90d... resolving conflicts (hopefully)
 
     if (input$word_choice == "love") {
       par(mar=c(15, 4.1, 4.1, 2.1))
@@ -149,6 +159,7 @@ server <- function(input, output) {
       text(mids, 0, queen.dispersion.df$num ,cex=1, pos=3) 
     }
 
+<<<<<<< HEAD
 =======
     par(mar=c(15, 4.1, 4.1, 2.1))
     title <- paste("Use of '", input$word_choice, "' in Eight Shakespeare Plays")
@@ -158,6 +169,9 @@ server <- function(input, output) {
     axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
     text(mids, 0, word.dispersion.df$num ,cex=1, pos=3, las=2) 
 >>>>>>> parent of b44e3fb... Merge remote-tracking branch 'origin/master'
+=======
+
+>>>>>>> parent of b96c90d... resolving conflicts (hopefully)
   }, height=650)
   
   })
