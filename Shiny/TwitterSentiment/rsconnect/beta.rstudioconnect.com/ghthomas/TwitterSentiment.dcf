@@ -1,0 +1,9 @@
+name: TwitterSentiment
+account: ghthomas
+server: beta.rstudioconnect.com
+appId: 1358
+bundleId: 2685
+url: https://beta.rstudioconnect.com/content/1358/
+when: 1469460229.36386
+asMultiple: FALSE
+asStatic: FALSE

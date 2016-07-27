@@ -74,9 +74,9 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
-write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
-write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
+# write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
+# write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
+# write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
 
 legend_title <- "Candidate"
 ggplot(melt(df.result), aes(value, fill=variable)) + 

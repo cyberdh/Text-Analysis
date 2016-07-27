@@ -7,7 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
-setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment")
+# setwd("~/Documents/IU/CyberDH/Text_Analysis/Shiny/TwitterSentiment")
 
 library(twitteR)
 library(plyr)

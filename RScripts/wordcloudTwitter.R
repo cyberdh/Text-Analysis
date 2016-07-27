@@ -2,13 +2,13 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
-setwd("~/Desktop/R/Text_Analysis/data/twitter/")
+setwd("~/Documents/IU/CyberDH/Text_Analysis/data/twitter/")
 
-load("orlando2016-06-16.RData")
+load(file = "pulse2016-06-16.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS
-tweetlist=rm_url(tweetlist, extract = FALSE)
+tweetlist=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweetlist)
 
 #Strip punctuation
 tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
@@ -17,7 +17,7 @@ tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 
 # #Remove common words
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "orlando", "https"))
+words=rm_stopwords(words,c(Top100Words,"rt", "amp", "https", "pulse"))
 
 #Get rid of empty elements
 words=words[lapply(words,length)>0]
@@ -29,9 +29,13 @@ words=unlist(words,recursive = FALSE)
 words=sort(table(words),decreasing=T)
 freqs=as.vector(words)
 words=names(words)
+
+# write.csv(words, file = "~/Desktop/pulseWords.csv")
+# write.csv(freqs, file = "~/Desktop/pulseFreqs.csv")
+
+
 cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
 
 
-wordcloud(words,freqs,scale=c(3,1),min.freq=3,max.words=50, rot.per=0, 
-          colors=cols)
+wordcloud(words,freqs,scale=c(3,1),min.freq=3,max.words=50, rot.per=0, colors=cols)
 
