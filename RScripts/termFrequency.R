@@ -44,11 +44,15 @@ class(word.dispersion)
 
 word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
 
-
-write.csv(word.dispersion.df, file = "~/Desktop/loveDF.csv")
-
-
-
+# write.csv(word.dispersion.df, file = "~/Desktop/loveDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/deathDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/fatherDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/powerDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/heavenDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/goodDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/badDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/kingDF.csv")
+# write.csv(word.dispersion.df, file = "~/Desktop/queenDF.csv")
 
 colnames(word.dispersion.df)[1] <- "num"
 rownames(word.dispersion.df)
