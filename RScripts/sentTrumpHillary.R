@@ -14,9 +14,9 @@ library(reshape2)
 library(tm)
 
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/trump2016-07-28.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/hillary2016-07-28.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -27,8 +27,8 @@ lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt
 
 # Add words relevant to our corpus using the combine c() function:
   
-pos.words = c(lex.pos)
-neg.words = c(lex.neg)
+pos.words = c(lex.pos, 'imwithher', 'maga', 'america', 'makeamericagreatagain', 'first', 'hillaryforamerica', 'hillary4america', 'imwithyou', 'strongertogether')
+neg.words = c(lex.neg, 'crooked', 'crookedhillary', 'drumpf', 'dumptrump', 'demagogue', 'prejudice', 'racist', 'thedonald', 'mock')
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -74,16 +74,18 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
-write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
-write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
+#Ignore--these are files to make the Shiny app run faster
+#write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
+#write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
+#write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
 
 legend_title <- "Candidate"
-ggplot(melt(df.result), aes(value, fill=variable)) + 
+p <- ggplot(melt(df.result), aes(value, fill=variable)) + 
   geom_histogram(position = "dodge", binwidth = .5 ) + xlab("Sentiment Score") + 
   ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
   scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + 
   scale_fill_manual(legend_title, values=c("red","blue"), labels = c("Trump", "Clinton"))
+print(p)
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
