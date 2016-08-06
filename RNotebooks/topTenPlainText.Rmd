@@ -70,11 +70,10 @@ corpus <- Corpus(VectorSource(text_raw))
 #### Clean the corpus
 
 To clean the corpus in this example, we are using the tm package's built in tools to:
-1) lowercase all words, 
-2) Build a stopword list that uses a standard English list concatenated with an Early Modern list that has words like "hath" and "thy" in it.
-4) remove punctuation
-5) strip out any whitespace between words 
-6) converts the corpus object to a Plain Text document
+1) lowercase all words so that "Lake" and "lake" are recognized as the same string, 
+2) build a stopword list that uses a standard English list concatenated with an Early Modern list that has words like "hath" and "thy" in it,
+4) remove punctuation as it is not germane to this analysis
+5) strip out any whitespace between words to get rid of empty elements
 
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
@@ -87,7 +86,6 @@ myStopWords <- scan("~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt", wh
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
-corpus <- tm_map(corpus, PlainTextDocument)
 ```
 
 ***
