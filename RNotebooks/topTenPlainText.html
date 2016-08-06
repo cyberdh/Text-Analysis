@@ -167,8 +167,10 @@ library(tm)</code></pre>
 #Add early modern stopwords by u adding &quot;myStopWords&quot; to line 19
 myStopWords &lt;- scan(&quot;~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt&quot;, what=&quot;character&quot;, sep=&quot;\n&quot;)
 corpus &lt;- tm_map(corpus, removeWords, c(stopwords(&quot;SMART&quot;), myStopWords))
-corpus &lt;- tm_map(corpus, removeWords, stopwords(&quot;SMART&quot;))
-corpus &lt;- tm_map(corpus, removeWords, c(&quot;tis&quot;, &quot;hath&quot;))
+#To change the stopword list, use other dictionaries available with the tm package
+#Add early modern stopwords by u adding &quot;myStopWords&quot; to line 19
+myStopWords &lt;- scan(&quot;~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt&quot;, what=&quot;character&quot;, sep=&quot;\n&quot;)
+corpus &lt;- tm_map(corpus, removeWords, c(stopwords(&quot;SMART&quot;), myStopWords))
 corpus &lt;- tm_map(corpus, removePunctuation)
 corpus &lt;- tm_map(corpus, stripWhitespace)
 corpus &lt;- tm_map(corpus, PlainTextDocument)</code></pre>
