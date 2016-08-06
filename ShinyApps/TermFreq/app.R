@@ -24,7 +24,7 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   observe({
-   # setwd("~/Documents/IU/CyberDH/Text_Analysis/data/") #Set directory path for your environment 
+   # setwd("~/Desktop/R/Text_Analysis/data/") #Set directory path for your environment 
     library(ggplot2)
    # input.dir <- "shakesFreqs"
    

@@ -1,7 +1,9 @@
 ---
-output: pdf_document
+output:
+  html_document: default
+  pdf_document: default
 ---
-## Top Ten Most Frequent Words in the Shakespeare Drama Corpus
+## Top Ten Most Frequent Words in the Hamlet
 ***
 The following script finds the ten most frequent words in Shakespeare's Hamlet. Many times top ten analyses are used to find the top ten words overall, but this particular script strips out stopwords so the resulting top ten words shed light on the top ten thematic words in the text.
 
@@ -77,6 +79,9 @@ To clean the corpus in this example, we are using the tm package's built in tool
 
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
+#Add early modern stopwords by u adding "myStopWords" to line 19
+myStopWords <- scan("~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removeWords, stopwords("SMART"))
 corpus <- tm_map(corpus, removeWords, c("tis", "hath"))
 corpus <- tm_map(corpus, removePunctuation)
