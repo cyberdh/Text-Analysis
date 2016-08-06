@@ -162,9 +162,9 @@ library(tm)</code></pre>
 </div>
 <div id="clean-the-corpus" class="section level4">
 <h4>Clean the corpus</h4>
-<p>To clean the corpus in this example, we are using the tm package’s built in tools to: 1) lowercase all words, 2) remove stopwords (“a” “an” “the”), 3) remove any other words the tm package might not consider a stopword (here Shakespeare’s use of “tis” and “hath” would not appear in the modern English stopword list) 4) remove punctuation 5) strip out any whitespace between words 6) converts the corpus object to a Plain Text document</p>
+<p>To clean the corpus in this example, we are using the tm package’s built in tools to: 1) lowercase all words, 2) Build a stopword list that uses a standard English list concatenated with an Early Modern list that has words like “hath” and “thy” in it. 4) remove punctuation 5) strip out any whitespace between words 6) converts the corpus object to a Plain Text document</p>
 <pre class="r"><code>corpus &lt;- tm_map(corpus, content_transformer(tolower))
-#Add early modern stopwords by u adding &quot;myStopWords&quot; to line 19
+#Add early modern stopwords by adding &quot;myStopWords&quot; 
 myStopWords &lt;- scan(&quot;~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt&quot;, what=&quot;character&quot;, sep=&quot;\n&quot;)
 corpus &lt;- tm_map(corpus, removeWords, c(stopwords(&quot;SMART&quot;), myStopWords))
 #To change the stopword list, use other dictionaries available with the tm package
