@@ -73,7 +73,7 @@ To clean the corpus in this example, we are using the tm package's built in tool
 1) lowercase all words so that "Lake" and "lake" are recognized as the same string, 
 2) build a stopword list that uses a standard English list concatenated with an Early Modern list that has words like "hath" and "thy" in it,
 4) remove punctuation as it is not germane to this analysis
-5) strip out any whitespace between words to get rid of empty elements
+5) strip out any whitespace between words to get rid of empty elements.
 
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
