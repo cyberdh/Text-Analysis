@@ -33,11 +33,11 @@ markdown - a package used to render textual documents from plain text to others 
 rmarkdown - similar to markdown but specifically to render R documents
 
 
-The next two packages are used within the co-occurrence script:
+The next package is used within the co-occurrence script:
 
 tm - this package provides tools (functions) for performing various types of text mining. In this script, we will use tm to performing text cleaning in order to have uniform data for analysis. Check out [this link](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for the documentation!
 
-RWeka - another package providing tools for 
+ 
 
 
 ```{r}
@@ -45,7 +45,6 @@ library(knitr)
 library(markdown)
 library(rmarkdown)
 library(tm)
-library(RWeka)
 ```
 
 
@@ -64,14 +63,14 @@ corpus <- Corpus(DirSource("~/Desktop/R/Text_Analysis/data/shakespeareFolger"))
 To clean the corpus in this example, we are using the tm package's built in tools to:
 1) lowercase all words, 
 2) remove stopwords ("a" "an" "the"), 
-3) remove any other words the tm package might not consider a stopword (here Shakespeare's use of "tis" and "hath" would not appear in the modern English stopword list)
+3) remove any other words the tm package might not consider a stopword by using the earlyModernStopword.txt file found in the data folder.
 4) remove punctuation
 5) strip out any whitespace between words 
 
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removeWords, stopwords("SMART"))
-corpus <- tm_map(corpus, removeWords, c("tis", "hath"))
+myStopWords <- scan("~/Desktop/Text_Analysis-master/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
@@ -94,7 +93,7 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 
 #### Results
 
-Finally, we use the tm function findAssocs to find the top ten associations with any word we choose. The example below is the word "father" but you can choose any word as you are learning, or can even have multiple lines returning multiple associations (uncomment the line below the "father" association line)
+Finally, we use the tm function findAssocs to find the top ten associations with any word we choose. NOTE: for this to work, you must first click the "Source" button in the source box and then run the findAssocs script in the Console on the bottom left in RStudio. It must be done in that order. It is recommended that you just comment out the findAssocs function in the Source box and copy and paste it into the Console box just below it. If you try to run the findAssocs script in the Source box on the top left, you will see no results. The example below is the word "father" but you can choose any word as you are learning, or can even have multiple lines returning multiple associations (uncomment the line below the "father" association line)
 
 ```{r}
 findAssocs(dtm, "father", .6)
