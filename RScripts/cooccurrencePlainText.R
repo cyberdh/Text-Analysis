@@ -1,47 +1,34 @@
-#Top Ten Words in Hamlet, Curated Stopwords Removed
+#Top Ten Word Co-occurrence, Curated Stopwords Removed
 
+library(knitr)
+library(markdown)
+library(rmarkdown)
+library(NLP)
 library(tm)
-library(igraph)
+
 
 #Set the working directory
 setwd("~/Desktop/R/Text_Analysis/data/")
 
-#Read in the text 
-#text_raw<-scan("Hamlet.txt", what="character", sep="\n")
 
 #Create a corpus 
-corpus <- Corpus(DirSource("shakespeareFolger"))
+corpus <- Corpus(DirSource("~/Desktop/R/Text_Analysis/data/shakespeareFolger/"))
 
 #Clean the corpus
 corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
-#Add early modern stopwords by u adding "myStopWords" to line 19
+#Add early modern stopwords
 myStopWords <- scan("~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
-#corpus <- tm_map(corpus, PlainTextDocument)
-#￼# keep a copy of corpus to use later as a dictionary for stem
-# completion
-#corpusCopy <- corpus
-# stem words
-#myCorpus <- tm_map(corpus, stemDocument)
-# stem completion
-#myCorpus <- tm_map(corpus, content_transformer(stemCompletion), dictionary = corpusCopy, lazy=TRUE)
-termDocMatrix <- TermDocumentMatrix(corpus, control = list(wordLengths = c(1, Inf)))
-termDocMatrix <- as.matrix(termDocMatrix)
-# change it to a Boolean matrix
-termDocMatrix[termDocMatrix>=1] <- 1
-# transform into a term-term adjacency matrix
-termMatrix <- termDocMatrix %*% t(termDocMatrix)
-# build a graph from the above matrix
-g <- graph.adjacency(termMatrix, weighted=T, mode = "undirected")
-# remove loops
-g <- simplify(g)
-# set labels and degrees of vertices
-V(g)$label <- V(g)$name
-V(g)$degree <- degree(g)
-# set seed to make the layout reproducible
-set.seed(3952)
-layout1 <- layout.fruchterman.reingold(g)
-plot(g, layout=layout1)
+
+#Create matrix using DocumentTermMatrix function and saving it as "dtm"
+dtm <- DocumentTermMatrix(corpus)
+
+#Find overall frequency 
+freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
+
+#Find results: NOTE: for this to work, you must first click the "Source" button in the source box and then run the findAssocs script in the Console on the bottom left in RStudio. It must be done in that order.
+findAssocs(dtm, "father", .6)
+#findAssocs(dtm, "love", .6)
