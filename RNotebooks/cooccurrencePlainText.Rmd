@@ -33,17 +33,19 @@ markdown - a package used to render textual documents from plain text to others 
 rmarkdown - similar to markdown but specifically to render R documents
 
 
-The next package is used within the co-occurrence script:
+The next packages are used within the co-occurrence script:
+
+NLP - Natural language processing package. Provides basic classes and methods for Natural Language Processing.
 
 tm - this package provides tools (functions) for performing various types of text mining. In this script, we will use tm to performing text cleaning in order to have uniform data for analysis. Check out [this link](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for the documentation!
 
- 
 
 
 ```{r}
 library(knitr)
 library(markdown)
 library(rmarkdown)
+library(NLP)
 library(tm)
 ```
 
@@ -70,7 +72,7 @@ To clean the corpus in this example, we are using the tm package's built in tool
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removeWords, stopwords("SMART"))
-myStopWords <- scan("~/Desktop/Text_Analysis-master/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("~/Desktop/R/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
