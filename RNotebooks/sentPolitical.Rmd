@@ -7,7 +7,7 @@ Using 16,000 tweets directed at or written by the top four 2016 presidential can
 
 ***
 
-### Global parameters 
+#### Global parameters 
 ***
 Set working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac. It contains all the other R scripts, texts, notebooks, and results. If you have branched the Github, simply note where you have save the folder. If you are on a PC, you will need to use an absolute path such as "C:Users:XXX."
 
@@ -25,9 +25,11 @@ source("RScripts/multiplot.R")
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts. By calling library(packagename) they will be automatically loaded and ready to use.
 
-The first three packages are used to render the RNotebook you are currently viewing:
+The first four packages are used to render the RNotebook you are currently viewing:
 
 knitr - Creates a formatted report from the script provided
+
+formatR - Works with knitr to keep the R code tidy and more readable. Here we use it with the global opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE) following the knitr library to keep the code lines from running off the pdf page.
 
 markdown - a package used to render textual documents from plain text to others such as R and XML
 
@@ -46,6 +48,8 @@ ggplot2 - a great package that renders a range of plots to display information, 
 
 ```{r}
 library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE)
+library(formatR)
 library(markdown)
 library(rmarkdown)
 library(twitteR)
