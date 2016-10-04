@@ -1,7 +1,5 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
+output: pdf_document
 ---
 ## Top Ten Most Frequent Words in the Hamlet
 ***
@@ -16,7 +14,7 @@ Set working directory by pointing to the location on your computer where you hav
 Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Desktop/R/Text_Analysis/RNotebooks")
+setwd("~/Desktop/R/Text_Analysis/")
 ```
 
 ***
@@ -25,9 +23,11 @@ setwd("~/Desktop/R/Text_Analysis/RNotebooks")
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts. By calling library(packagename) they will be automatically loaded and ready to use.
 
-The first three packages are used to render the RNotebook you are currently viewing:
+The first four packages are used to render the RNotebook you are currently viewing:
 
 knitr - Creates a formatted report from the script provided
+
+formatR - Works with knitr to keep the R code tidy and more readable. Here we use it with the global opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE) following the knitr library to keep the code lines from running off the pdf page.
 
 markdown - a package used to render textual documents from plain text to others such as R and XML
 
@@ -41,6 +41,8 @@ tm - this package provides tools (functions) for performing various types of tex
 
 ```{r}
 library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE)
+library(formatR)
 library(markdown)
 library(rmarkdown)
 library(tm)
