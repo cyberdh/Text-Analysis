@@ -22,6 +22,8 @@ Include necessary packages for notebook
 
 ```{r}
 library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE)
+library(formatR)
 library(markdown)
 library(rmarkdown)
 library(devtools)
@@ -224,7 +226,7 @@ To visualize the sentiment of these particular comments, we will use the plottin
 
 Below, we impose the "Black and White" theme on the plots
 
-```{r}
+```{r, tidy=TRUE, tidy.opts=list(width.cutoff=35)}
 faculty.plot = qplot(faculty.result$score, main = "Sentiment of Faculty for UITS Survey", xlab= "Valence of Sentiment (Comment Score)", ylab="Count (Comments)", xlim=c(-10, 10), ylim=c(0, 50))
 staff.plot = qplot(staff.result$score, main = "Sentiment of Staff for UITS Survey", xlab= "Valence of Sentiment (Comment Score)", ylab="Count (Comments)", xlim=c(-10, 10), ylim=c(0, 50))
 grad.plot = qplot(grad.result$score, main = "Sentiment of Graduate Students for UITS Survey", xlab= "Valence of Sentiment (Comment Score)", ylab="Count (Comments)", xlim=c(-10, 10), ylim=c(0, 50))
