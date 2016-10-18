@@ -9,7 +9,7 @@ Using the text of Jane Eyre from Project Gutenberg, we will plot the top 75 word
 
 ### Global parameters 
 ***
-Set working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac as an example. It contains all the other R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
+Set working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "R" on the Desktop on a Mac as an example. It contains all the other R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
 OR
 
