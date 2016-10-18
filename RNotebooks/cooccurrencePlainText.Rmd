@@ -10,9 +10,11 @@ The following co-occurrence script aims to discover the semantic proximity of tw
 
 #### Global parameters 
 ***
-In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen the "R" directory on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:Users:XXX." (with the quotes this time!)
+In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen the "R" directory on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
+
 OR
-If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working.
+
+If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
 setwd("~/Desktop/R/Text_Analysis/RNotebooks")
@@ -38,7 +40,9 @@ The next packages are used within the co-occurrence script:
 NLP - Natural language processing package. Provides basic classes and methods for Natural Language Processing.
 
 tm - this package provides tools (functions) for performing various types of text mining. In this script, we will use tm to performing text cleaning in order to have uniform data for analysis. Check out [this link](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for the documentation!
+
 OR
+
 If you are using RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages.
 
 ```{r}
