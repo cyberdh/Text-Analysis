@@ -9,10 +9,14 @@ Using 5000 tweets with the hashtag #pulse from June 16, 2016, we will create a w
 
 ### Global parameters 
 ***
-Set working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac. It contains all the other R scripts, texts, notebooks, and results. If you have branched the github, simply note where you have save the folder. If you are on a PC, you will need to use an absolute path such as "C:Users:XXX."
+In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
+
+OR
+
+If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
 ***
 ```{r}
-setwd("~/Desktop/R/Text_Analysis/data/twitter/")
+setwd("~/Desktop/Text-Analysis/data/twitter/")
 ```
 
 ***
@@ -31,7 +35,7 @@ library(RColorBrewer)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 ***
 ```{r}
-load(file = "~/Desktop/R/Text_Analysis/data/twitter/pulse2016-06-16.RData")
+load(file = "~/Desktop/Text-Analysis/data/twitter/pulse2016-06-16.RData")
 ```
 
 ***   
