@@ -6,18 +6,17 @@ output: pdf_document
 In order to perform text analysis, there are a few R commands you should have up your sleeve. Some of the commands help get you set up and locate all of the files in your corpora. Other commands can be used throughout the programming process to check on your algorithm and make sure everything looks the way you think it should. Learning the following commands will give you a brief introduction to R while also setting you up with a solid toolkit to begin programming.
 
 ***
-#### Set Working Directory
+#### Global parameters
+In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
-Your working directory is the folder from which you will be pulling your texts.
+OR
 
-Set your working directory by pointing to the location on your computer where you have stored the files. The syntax for R is as follows: "setwd" followed by a set of parentheses () and double quotes "". Between the double quotes is the path to your directory.
+If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
 
-Below, we have chosen to Save the folder "RAnalysis" on the Desktop on a Mac. It contains all the other R scripts, texts, notebooks, and results. If you have branched the IU Text Analysis Github, simply note where you have save the folder. If you are on a PC, you will need to use an absolute path such as "C:Users:XXX."
-
-Hint: Can't figure out your syntax? Click Session > Set Working Directory > Choose Directory, then select the Text_Analysis directory in which you are working. This will set your working directory in the console below while you are working here, but make sure to copy the path into the "setwd" command below to keep the directory constant if you close this script and reopen later.
+HINT: Your working directory is the folder from which you will be pulling your texts.
 ***
 ```{r}
-setwd("~/Desktop/R/Text_Analysis/RNotebooks")
+setwd("~/Desktop/Text-Analysis/RNotebooks")
 ```
 
 ***
@@ -63,7 +62,7 @@ The third argument "sep" specified as "backslash" + "n" which is the way to code
 So putting everything together, this line reads in JaneEyre.txt, and separates the text into a character vector by line.
 
 ```{r}
-text <- scan("~/Desktop/R/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+text <- scan("~/Desktop/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 The final, crucial aspect of this line is the assignment. "<-" assigns whatever results on the right side of the arrow into the variable specified on the left side. Some programming languages use "=" instead of the arrow. R will also acknowledge this, but using the arrow is best practice.
@@ -71,7 +70,7 @@ The final, crucial aspect of this line is the assignment. "<-" assigns whatever 
 Here, we have named that variable "text" since it holds the text with which we are working. However, you can name this variable whatever you would like. This line will give the exact same result, although it is best to name the variable in relation to what it holds:
 
 ```{r}
-potatoes <- scan("~/Desktop/R/Text_Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+potatoes <- scan("~/Desktop/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 Now that we have the text saved as a variable, we can reuse that variable simply by calling "text" instead of the entire scan line again. The next few commands will use "text" to explore the data.
@@ -119,7 +118,7 @@ There are many more ways to inspect parts of data (check out the CRAN), but thes
 
 The above commands are a few tips and tricks to get you started with R. Similar to R's extensibility with packages, the R user community has great resouces for learners. The [CRAN FAQ](https://cran.r-project.org/) and the [CRAN Manual](https://cran.r-project.org/doc/manuals/R-intro.pdf) answers quite a few questions about R and its uses.
 
-Googling the issue, function, or object name with "r" will return extremely helpful resources. If a PDF from cran.r-project.org appears, there you will find extensive documentation and examples for that function, etc. and other related resources. Similarly, any result from r-bloggers.com will most likely be helpful. For any other issues, Stack Overflow is helpful to find answers to common questions as well as ask your own.
+Googling the issue, function, or object name with "r" will return helpful resources. If a PDF from cran.r-project.org appears, there you will find extensive documentation and examples for that function, etc. and other related resources. Similarly, any result from r-bloggers.com will most likely be helpful. For any other issues, Stack Overflow is helpful to find answers to common questions as well as ask your own.
 
 The rest of the IU tutorials explain some methods for textual analysis using R. If you are ready to dive in, click on one to begin!
 
