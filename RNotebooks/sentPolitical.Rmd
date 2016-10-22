@@ -1,20 +1,21 @@
 ---
 output: pdf_document
 ---
+
 ## Simple Sentiment Analysis for Twitter
 ***
-Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
 
-***
+Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
 
 #### Global parameters 
 ***
+
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
 OR
 
 If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
-***
+
 ```{r}
 setwd("~/Desktop/Text-Analysis/")
 
@@ -22,9 +23,8 @@ setwd("~/Desktop/Text-Analysis/")
 source("RScripts/multiplot.R")
 ```
 
-***
-
 #### Include necessary packages for notebook 
+***
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -52,7 +52,7 @@ plyr - this package splits, combines, and applies data (the laply function used 
 stringr - eases string operations (we will use str_split also while instantiating the algorithm, which is included with the stringr package).
 
 ggplot2 - a great package that renders a range of plots to display information, we will use this package to create our ultimate plots
-***
+
 ```{r}
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE)
@@ -65,54 +65,56 @@ library(stringr)
 library(ggplot2)
 ```
 
-***
-
 ### Load data 
 ***
+
 This each .RData object is a curated set of tweets grabbed from Twitter using the TwitteR package. The tweets orginially return as a list, which was then saved as the .RData object you see here. We load the .RData files into our environment using readRDS and save them into a variable we can use later. 
 
 Hint 1: The names of the variables can be anything (happiness, rainbows, cats), but usually, you want to name them using terms to indicate what the variable holds. Here we use clinton.tweets to represent the tweets associated with @HillaryClinton on Twitter, and so on for the others. The period (.) between "clinton" and "tweets" does not serve any purpose other than to separate the two terms for ease of reading. 
 
 Hint 2: Another popular naming convention is to list the type of object with the name, for example clinton.tweets.l since this object is a list. This convention helps when manipulating the data later.
 
-***
 ```{r}
   clinton.tweets <- readRDS("~/Desktop/Text-Analysis/data/twitter/tweetsclinton.RData")
   cruz.tweets <- readRDS("~/Desktop/Text-Analysis/data/twitter/tweetssanders.RData")
   sanders.tweets <- readRDS("~/Desktop/Text-Analysis/data/twitter/tweetstrump.RData")
   trump.tweets <- readRDS("~/Desktop/Text-Analysis/data/twitter/tweetscruz.RData")
 ```
-***   
 
 #### Inspect Data
-Before preparing the data for analysis, let us first see what we are working with. For tutorial purposes, we will look at the first: clinton.tweets, but feel free to use the same commands to inspect any of the variables we have created. This step is a good idea to ensure you know what you are ultimately analyzing. For example, if you find that the length is zero, you may have to go back and reload or re-grab the data.
-
 ***
 
+Before preparing the data for analysis, let us first see what we are working with. For tutorial purposes, we will look at the first: clinton.tweets, but feel free to use the same commands to inspect any of the variables we have created. This step is a good idea to ensure you know what you are ultimately analyzing. For example, if you find that the length is zero, you may have to go back and reload or re-grab the data.
+
 Class describes the type of object. In this case, we grabbed tweets using the TwitteR package, which results in a list:
+
 ```{r}
 class(clinton.tweets)
 ```
-***
+
 Length shows how many elements the object has. We grabbed 4,000 tweets (specified while using the TwitteR package), so our list is made up of 4,000 elements. An element here is a tweet!
+
 ```{r}
 length(clinton.tweets)
 ```
-***
+
 We can also look at individual elements - Lets see what the first (most recent) tweet is...
+
 ```{r}
 clinton.tweets[1]
 ```
-***
+
 Or perhaps you would like to see the first few elements:
+
 ```{r}
 head(clinton.tweets)
 ```
 
 There are many more ways to inspect parts of data (check out the CRAN), but these quick checks are helpful while manipulating and trimming the data pre-analysis.
 
-***
 #### Extract Text
+***
+
 Since we grabbed our data from Twitter, there is metadata included in the tweet list such as retweet, favorite, and reply information. For sentiment analysis, we just need the text. The following line extracts the text from each tweet in the list and saves the new list of just text as [candidate_name].text.
 
 ```{r}
@@ -124,9 +126,6 @@ trump.text = laply(trump.tweets, function(t) t$getText())
 
 Now we are all set! Let's load in some postivity (and negativity, I guess...)!
 
-***
-***   
-
 ### Loading the Opinion Lexicons to Determine Sentiment
 ***
 
@@ -137,19 +136,14 @@ This is an essential step for sentiment analysis. These text documents from Hu a
 
 ```
 
-***
-
 Add words relevant to our corpus using the combine c() function:
+
 ```{r}
 pos.words = c(lex.pos, 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
 neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
 ```
 
-***
-***
-
 ### Implement the sentiment scoring algorithm
-
 ***
 
 Here is where the magic happens - let's create the algorithm! To begin a function which will iterate over all of the elements in the specified object, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words. 
@@ -157,6 +151,7 @@ Here is where the magic happens - let's create the algorithm! To begin a functio
 This function takes in an argument (tweets for us), normalizes all of the text (including removing emojis which is important for tweets), splits the tweets into separate words to analyze, compares the tweet words to the positive and negative dictionaries, returns a TRUE if the word is in the dictionary and FALSE if it is not, the trues and falses are summed up for each tweet (this is the score of the tweet), and finally, the tweet's score and its text are returned as a data frame for ease of plotting.
 
 Hint: You may notice some odd expressions in the first few lines of the scores function: they are called regular expressions (or, regex). Regular expressions allow the user to match on certain patterns throughout the entire text. In this case, we are matching on punctuation, control characters (or invisible, non-printing characters), and digits, in the effort to strip out unnecessary characters that do not provide sentiment valence. Check out [this CRAN page](https://stat.ethz.ch/R-manual/R-devel/library/base/html/regex.html) for more information about using regex in R.
+
 ```{r}
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 {
@@ -198,16 +193,17 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 
 ```
 
-***
 #### Algorithm Testing
+***
+
 Whenever you create a function (or algorithm), it is best to test it on some sample data to ensure it behaves as you expect. Let's create a sample list of emotional sentences and save it as "sample".
+
 ```{r}
 sample = c("This ice cream is the best! I love this flavor!", 
            "I am so angry at the terrible weather today. Frustrated.", 
            "Wow, spectacular, I wish I could be as perfect as you.")
 
 ```
-***
 
 We already did the hard part by building our score.sentiment function earlier. Here, we just need to tell the algorithm what to use as arguments! We need to put our sample data in as the "tweets" argument, pos.words as the "pos.words"" argument, and neg.words as the "neg.words" argument! 
 
@@ -217,8 +213,6 @@ Lets also save the result of running the algorithm as an object called sample.re
 sample.result = score.sentiment(sample, pos.words, neg.words)
 ```
 
-***
-
 Did it work?
 
 ```{r}
@@ -227,12 +221,9 @@ sample.result
 
 It worked! Now we can be sure our algorithm is behaving as we would expect. Lets score our Twitter data since we are confident in our function-creating abilities...
 
-***
-***
-
 ### Scoring Twitter Data
-
 ***
+
 Again, we have already created our function, we just need to tell it what to analyze. We will use our [candidate].text objects as the "tweets" argument and save each as an object called [candidate].result to plot a little later.
 ```{r}
 clinton.result = score.sentiment(clinton.text, pos.words, neg.words)
@@ -240,8 +231,6 @@ cruz.result = score.sentiment(cruz.text, pos.words, neg.words)
 sanders.result = score.sentiment(sanders.text, pos.words, neg.words)
 trump.result = score.sentiment(trump.text, pos.words, neg.words)
 ```
-
-***
 
 Lets peek at the results to see if it is still working...
 
@@ -257,12 +246,8 @@ head(sanders.result)
 ```{r}
 head(trump.result)
 ```
-***
-***
 
 ### Plotting Twitter Data
-
-
 ***
 
 To visualize the sentiment of these particular tweets, we will use the plotting system ggplot2 and its quick plot (qplot) functionality. The qplot function takes an object, which is the score from our tweets, then you can specify other parts of the plot. For example, we have titled our plots "Sentiment of [candidate's twitter handle] on Twitter," labeled the x-axis "Valence of Sentiment (Tweet Score)," and labeled the y-axis "Count (Tweets)." These were all saved as [candidate].plot objects to use later.
@@ -287,7 +272,6 @@ multiplot(clinton.plot, sanders.plot, trump.plot, cruz.plot, cols=2)
 ```
 
 #### Voila!
-
 ***
 
 Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 

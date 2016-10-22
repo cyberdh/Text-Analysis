@@ -1,27 +1,27 @@
 ---
 output: pdf_document
 ---
+
 ## Top Ten Most Frequent Words in the Hamlet
 ***
-The following script finds the ten most frequent words in Shakespeare's Hamlet. Many times top ten analyses are used to find the top ten words overall, but this particular script strips out stopwords so the resulting top ten words shed light on the top ten thematic words in the text.
 
-***
+The following script finds the ten most frequent words in Shakespeare's Hamlet. Many times top ten analyses are used to find the top ten words overall, but this particular script strips out stopwords so the resulting top ten words shed light on the top ten thematic words in the text.
 
 #### Global parameters 
 ***
+
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
 OR
 
 If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
-***
+
 ```{r}
 setwd("~/Desktop/Text-Analysis/")
 ```
 
-***
-
 #### Include necessary packages for notebook 
+***
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -43,7 +43,7 @@ rmarkdown - similar to markdown but specifically to render R documents
 The next package is used within the top ten frequency script:
 
 tm - this package provides tools (functions) for performing various types of text mining. In this script, we will use tm to performing text cleaning in order to have uniform data for analysis. Check out [this link](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for the documentation!
-***
+
 ```{r}
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE)
@@ -53,27 +53,26 @@ library(rmarkdown)
 library(tm)
 ```
 
+#### Scan in the text
 ***
 
-#### Scan in the text
-
 Uses R's "scan" function to read in the text and is then saved as a variable called "text_raw"
+
 ```{r}
 text_raw<-scan("~/Desktop/Text-Analysis/data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 ```
 
+#### Save the text as a corpus object
 ***
 
-#### Save the text as a corpus object
-
 The "Corpus" function from tm reads in the vector we scanned earlier and saves it as a corpus object.
+
 ```{r}
 corpus <- Corpus(VectorSource(text_raw))
 ```
 
-***
-
 #### Clean the corpus
+***
 
 To clean the corpus in this example, we are using the tm package's built in tools to:
 1) lowercase all words so that "Lake" and "lake" are recognized as the same string, 
@@ -94,9 +93,8 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
 
-***
-
 #### Processing
+***
 
 After the corpus has been cleaned, we can now begin to process the text. The next step uses the DocumentTermMatrix() function again from the tm package. This function creates a matrix where each document is a row and the terms in the text make up the columns, saved here as "dtm." The rest of the matrix consists of the frequencies for each term within each document.
 
@@ -111,6 +109,7 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 ```
 
 #### Results
+***
 
 Finally, we can plot and view the data as a line graph with the top ten words along the x-axis and the frequency of appearance along the y-axis. 
 
@@ -119,12 +118,3 @@ plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
      main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n",)
 axis(1,1:10, labels=names(head(freq, 10)))
 ```
-
-
-
-
-
-
-
-
-

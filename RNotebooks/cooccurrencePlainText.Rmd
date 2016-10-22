@@ -6,8 +6,6 @@ output: pdf_document
 ***
 The following co-occurrence script aims to discover the semantic proximity of two words throughout the Shakespeare Drama Corpus. At the end, it will take in a word of the user's choice and find the top ten closest terms by proximity. 
 
-***
-
 #### Global parameters 
 ***
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
@@ -15,15 +13,13 @@ In your terminal or command prompt, launch R by typing "R" (without quotes) and 
 OR
 
 If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
-***
+
 ```{r}
 setwd("~/Desktop/Text-Analysis/RNotebooks")
 ```
 
-***
-
 #### Include necessary packages for notebook 
-
+***
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -45,7 +41,7 @@ The next packages are used within the co-occurrence script:
 NLP - Natural language processing package. Provides basic classes and methods for Natural Language Processing.
 
 tm - this package provides tools (functions) for performing various types of text mining. In this script, we will use tm to performing text cleaning in order to have uniform data for analysis. Check out [this link](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for the documentation!
-***
+
 ```{r}
 library(knitr)
 library(markdown)
@@ -54,18 +50,15 @@ library(NLP)
 library(tm)
 ```
 
-
-***
-
 #### Create a corpus 
+***
 
 ```{r}
 corpus <- Corpus(DirSource("~/Desktop/Text-Analysis/data/shakespeareFolger"))
 ```
 
-***
-
 #### Clean the corpus
+***
 
 To clean the corpus in this example, we are using the tm package's built in tools to:
 1) lowercase all words, 
@@ -82,9 +75,8 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
 
-***
-
 #### Processing
+***
 
 After the corpus has been cleaned, we can now begin to process the text. The next step uses the DocumentTermMatrix() function again from the tm package. This function creates a matrix where each document is a row and the terms in the text make up the columns, saved here as "dtm." The rest of the matrix consists of the frequencies for each term within each document.
 
@@ -99,6 +91,7 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 ```
 
 #### Results
+***
 
 Finally, we use the tm function findAssocs to find the top ten associations with any word we choose. NOTE: for this to work, you must first click the "Source" button in the source box and then run the findAssocs script in the Console on the bottom left in RStudio. It must be done in that order. It is recommended that you just comment out the findAssocs function in the Source box and copy and paste it into the Console box just below it. If you try to run the findAssocs script in the Source box on the top left, you will see no results. The example below is the word "father" but you can choose any word as you are learning, or can even have multiple lines returning multiple associations (uncomment the line below the "father" association line)
 
@@ -106,12 +99,3 @@ Finally, we use the tm function findAssocs to find the top ten associations with
 findAssocs(dtm, "father", .6)
 #findAssocs(dtm, "love", .6)
 ```
-
-
-
-
-
-
-
-
-
