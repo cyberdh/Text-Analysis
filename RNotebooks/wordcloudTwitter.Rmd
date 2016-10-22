@@ -1,34 +1,34 @@
 ---
 output: pdf_document
 ---
+
 ## Wordcloud of Top 100 Words in tweets using the keyword "pulse"
 ***
-Using 5000 tweets with the hashtag #pulse from June 16, 2016, we will create a wordcloud of the top words used to describe the tragedy.
 
-***
+Using 5000 tweets with the hashtag #pulse from June 16, 2016, we will create a wordcloud of the top words used to describe the tragedy.
 
 ### Global parameters 
 ***
+
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
 OR
 
 If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
-***
+
 ```{r}
 setwd("~/Desktop/Text-Analysis/data/twitter/")
 ```
 
-***
-
 #### Include necessary packages for notebook 
+***
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
 OR
 
 If you are using RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages.
-***
+
 ```{r}
 library(knitr)
 library(markdown)
@@ -38,99 +38,91 @@ library(qdap)
 library(RColorBrewer)
 ```
 
-***
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
-***
+
 ```{r}
 load(file = "~/Desktop/Text-Analysis/data/twitter/pulse2016-06-16.RData")
 ```
 
-***   
 ####Prepare text data
+***
+
 While it seems logical to use tm (text mining package) again to create our wordcloud, there is a bug in the library that causes it to fail with this kind of data when run on a mac. Instead, we will take the opportunity to process the data in a different way.
 
 First we are going to take the list of 5000 tweets created when we grabbed the file above and convert it into a character vector, grabbing only the text. The "sapply" function to traverse the list "tweets" applying a function "x" which grabs the text. 
-***
+
 ```{r}
 tweetlist <- sapply(tweets, function(x) x$text)
 ```
-***
+
 Let's look at the first few tweets:
+
 ```{r}
 head(tweetlist)
 ```
-***
+
 Next we want to strip the URLs from our tweets. Using "gsub" to replace URLS in our list with any of the characters below with nothing (""), our tweetlist is now free of them. Notice that the "|" is used to created a concatenated "http..." or "https..." with wild cards (*) for text after the hypertext transfer protocol.
-***
+
 ```{r}
 tweetlist=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweetlist)
 ```
 
-***
 Now we will go on to do the same with mentions, usernames. There may be times when you want to keep these (for example #blacklivesmatter is driven by some central tweeters in the community, including including DeRay Mckesson (@deray), Johnetta Elzie (@nettaaaaaaaa), Shaun King (@shaunking), Daniel Jose Older (@djolder), Bassem Masri (@bassem_masri), and others.
-***
+
 ```{r}
 tweetlist=gsub("@(.*)", "", tweetlist)
 ```
 
-***
 Now we will go on to do the same with anything that is NOT alphanumeric such as punctuation, and, more importantly for tweets, emojis.
-***
+
 ```{r}
 tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
 ```
-***
 
-***
 Let's look at the cleaned tweelist.
+
 ````{r}
 head(tweetlist)
 ````
-***
+
 Now it's time to split (_strsplit_) the big string into separate words (\\W+), an argument from perl.
+
 ```{r}
 words <-strsplit(tweetlist, "\\W+", perl=TRUE)
 head(words)
 ```
 
-***
 It's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist; here we are using qdap's word list and specifying that we wish to use the top 100 words from E.B. Fry's top 1000 words. Note that if we were to change the argument to "Top1000Words," we'd eliminate about 90% of our text! Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "pulse."
-***
+
 ```{r}
 words=rm_stopwords(words,c(Top100Words,"rt", "amp", "pulse"))
 ```
 
-***
 Having removed unwanted items, it's now time to ditch the empty elements."lapply" returns a list of the same length as tweelist, each element of which is the result of applying the argument "length>0" to each element.
-***
+
 ```{r}
 words=words[lapply(words,length)>0]
 head(words)
 ```
 
-***
 Currently, we have a list of items (our original tweets) that contain a list of the words used in that tweet. For our wordcloud, we would simply like a list of words.
-***
+
 ```{r}
 words=unlist(words,recursive = FALSE)
 head(words)
 ```
 
-***
 Next we'd like to create a table of these words in descending order of use. For plotting purposes, we also need to create a vector (a sequence of data elements of the same type) of frequencies and keep just the words from the tweets in that list.
-***
+
 ```{r}
 words=sort(table(words),decreasing=T)
 freqs=as.vector(words)
 words=names(words)
 ```
 
-***
 Plot the wordcloud! There are a number of arguments you can customize: "random.order" is false so that words are plotted in order of decreasing frequency; "scale"" indicates the size of the words; "rot.per" lets you customize the proportion of words that are rotated 90 degrees; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
-***
+
 ```{r}
 plot = wordcloud(words,freqs,scale=c(3,.7),max.words=75, rot.per=0, 
           colors=brewer.pal(8, "Dark2"))
 ```
-
-
