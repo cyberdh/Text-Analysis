@@ -23,9 +23,14 @@ source("RScripts/multiplot.R")
 ```
 
 ***
+
 #### Include necessary packages for notebook 
 
-R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts. By calling library(packagename) they will be automatically loaded and ready to use.
+R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
+
+OR
+
+If you are using RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages.
 
 The first four packages are used to render the RNotebook you are currently viewing:
 
@@ -47,7 +52,7 @@ plyr - this package splits, combines, and applies data (the laply function used 
 stringr - eases string operations (we will use str_split also while instantiating the algorithm, which is included with the stringr package).
 
 ggplot2 - a great package that renders a range of plots to display information, we will use this package to create our ultimate plots
-
+***
 ```{r}
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=50), tidy=TRUE)

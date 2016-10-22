@@ -20,13 +20,18 @@ setwd("~/Desktop/Text-Analysis/RNotebooks")
 ```
 
 ***
-#### Install Packages
 
-R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. 
+#### Include necessary packages for notebook 
 
-To install any package, you can click Tools > Install Packages, begin typing the package you wish to install, select the package name, and click Install. To use the Console in RStudio, you can put your cursor at the carrot and type the following (with any package name substituting for "knitr":
+R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
-install.packages("knitr")
+OR
+
+If you are using RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages.
+***
+```{r}
+library(knitr)
+```
 
 ***
 #### Load Packages
