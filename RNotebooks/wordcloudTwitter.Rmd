@@ -1,14 +1,13 @@
 ---
 output: pdf_document
 ---
-
-## Wordcloud of Top 100 Words in tweets using the keyword "pulse"
 ***
+## Wordcloud of Top 100 Words in tweets using the keyword "pulse"
 
 Using 5000 tweets with the hashtag #pulse from June 16, 2016, we will create a wordcloud of the top words used to describe the tragedy.
 
-### Global parameters 
 ***
+### Global parameters 
 
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
@@ -20,8 +19,8 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 setwd("~/Desktop/Text-Analysis/data/twitter/")
 ```
 
-#### Include necessary packages for notebook 
 ***
+#### Include necessary packages for notebook 
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -44,8 +43,8 @@ Load data (this time a curated set of tweets grabbed using the twitterR library 
 load(file = "~/Desktop/Text-Analysis/data/twitter/pulse2016-06-16.RData")
 ```
 
-####Prepare text data
 ***
+###Prepare text data
 
 While it seems logical to use tm (text mining package) again to create our wordcloud, there is a bug in the library that causes it to fail with this kind of data when run on a mac. Instead, we will take the opportunity to process the data in a different way.
 
