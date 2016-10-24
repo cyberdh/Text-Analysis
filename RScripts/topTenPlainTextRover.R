@@ -17,7 +17,7 @@ corpus <- Corpus(VectorSource(text_raw))
 corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
 #Add early modern stopwords by u adding "myStopWords
-myStopWords <- scan("~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("~/Desktop/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords, "belv", "feth", "beau", "aria", "1724", "ang", "flor", "wou", "fred"))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)

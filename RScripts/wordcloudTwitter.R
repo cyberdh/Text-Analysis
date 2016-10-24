@@ -2,9 +2,9 @@ library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
-setwd("~/Desktop/R/Text_Analysis/data/twitter/")
+setwd("~/Desktop/Text-Analysis/data/twitter/")
 
-load("~/Desktop/R/Text_Analysis/data/twitter/hillary2016-07-28.RData")
+load("~/Desktop/Text-Analysis/data/twitter/hillary2016-07-28.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS

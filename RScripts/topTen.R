@@ -3,7 +3,7 @@
 library(tm)
 
 #Set the working directory
-setwd("~/Desktop/R/Text_Analysis/data/shakespeareFolger")
+setwd("~/Desktop/Text-Analysis/data/shakespeareFolger")
 
 #Read in the text 
 text_raw<-scan("Hamlet.txt", what="character", sep="\n")
@@ -15,7 +15,7 @@ corpus <- Corpus(VectorSource(text_raw))
 corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
 #Add early modern stopwords by u adding "myStopWords
-myStopWords <- scan("~/Desktop/R/Text_Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("~/Desktop/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
