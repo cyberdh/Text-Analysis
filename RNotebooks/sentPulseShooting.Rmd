@@ -2,12 +2,13 @@
 output: pdf_document
 ---
 
-## Simple Sentiment Analysis for Twitter
 ***
+## Simple Sentiment Analysis for Twitter
+
 Using 10,000 tweets directed at or written about the shooting at the Pulse Nightclub on June 12, 2016 we will create plots to analyze the sentiment of Twitter users using two different search parameters.
 
-### Global parameters 
 ***
+### Global parameters 
 
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
@@ -20,8 +21,8 @@ setwd("~/Desktop/Text-Analysis/")
 
 ```
 
-#### Include necessary packages for notebook 
 ***
+### Include necessary packages for notebook 
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -63,8 +64,9 @@ library(ggplot2)
 library(reshape2)
 ```
 
-### Load data 
 ***
+### Load data 
+
 This each .RData object is a curated set of tweets grabbed from Twitter using the TwitteR package. The tweets orginially return as a list, which was then saved as the .RData object you see here. We load the .RData files into our environment using readRDS and save them into a variable we can use later. 
 
 Hint 1: The names of the variables can be anything (happiness, rainbows, cats), but usually, you want to name them using terms to indicate what the variable holds. Here we use clinton.tweets to represent the tweets associated with @HillaryClinton on Twitter, and so on for the others. The period (.) between "clinton" and "tweets" does not serve any purpose other than to separate the two terms for ease of reading. 
@@ -78,8 +80,8 @@ Hint 2: Another popular naming convention is to list the type of object with the
   pulse.text = sapply(tweets, function(x) x$text)
 ```
 
-#### Inspect Data
 ***
+### Inspect Data
 
 Before preparing the data for analysis, let us first see what we are working with. For tutorial purposes, we will look at the first: clinton.tweets, but feel free to use the same commands to inspect any of the variables we have created. This step is a good idea to ensure you know what you are ultimately analyzing. For example, if you find that the length is zero, you may have to go back and reload or re-grab the data.
 
@@ -109,8 +111,8 @@ head(orlando.text)
 
 There are many more ways to inspect parts of data (check out the CRAN), but these quick checks are helpful while manipulating and trimming the data pre-analysis.
 
-### Loading the Opinion Lexicons to Determine Sentiment
 ***
+### Loading the Opinion Lexicons to Determine Sentiment
 
 This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 ```{r}
@@ -126,8 +128,8 @@ pos.words = c(lex.pos, "prayers", "thoughts", "family", "LGBT", "gay", "pride")
 neg.words = c(lex.neg, "ISIS", "gun", "abuser", "omar", "matteen")
 ```
 
-### Implement the sentiment scoring algorithm
 ***
+### Implement the sentiment scoring algorithm
 
 Here is where the magic happens - let's create the algorithm! To begin a function which will iterate over all of the elements in the specified object, we need to give it a name - score.sentiment sounds good. First, we set the name of our function equal to function(). Then, we fill the parenthesis with our arguments. Here, we want an argument for the tweets (our data we gathered), our positive words, and our negative words. 
 
@@ -176,10 +178,11 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 
 ```
 
-#### Algorithm Testing
 ***
+### Algorithm Testing
 
 Whenever you create a function (or algorithm), it is best to test it on some sample data to ensure it behaves as you expect. Let's create a sample list of emotional sentences and save it as "sample".
+
 ```{r}
 sample = c("This ice cream is the best! I love this flavor!", 
            "I am so angry at the terrible weather today. Frustrated.", 
@@ -203,8 +206,8 @@ sample.result
 
 It worked! Now we can be sure our algorithm is behaving as we would expect. Lets score our Twitter data since we are confident in our function-creating abilities...
 
-### Scoring Twitter Data
 ***
+### Scoring Twitter Data
 
 Again, we have already created our function, we just need to tell it what to analyze. We will use our [candidate].text objects as the "tweets" argument and save each as an object called [candidate].result to plot a little later.
 ```{r}
@@ -223,8 +226,8 @@ head(orlando.result)
 head(pulse.result)
 ```
 
-### Plotting Twitter Data
 ***
+### Plotting Twitter Data
 
 To visualize the sentiment of these particular tweets, we will use the plotting system ggplot2 and its quick plot (qplot) functionality. The qplot function takes an object, which is the score from our tweets, then you can specify other parts of the plot. For example, we have titled our plots "Sentiment of [candidate's twitter handle] on Twitter," labeled the x-axis "Valence of Sentiment (Tweet Score)," and labeled the y-axis "Count (Tweets)." These were all saved as [candidate].plot objects to use later.
 
@@ -240,12 +243,9 @@ ggplot(melt(df.result), aes(value, fill=variable)) +
   scale_fill_manual(legend_title, values=c("orange","purple"), labels = c("Orlando", "Pulse"))
 ```
 
-### Voila!
 ***
+### Voila!
 
 Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 
 Reference: Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing and Comparing Opinions on the Web." Proceedings of the 14th International World Wide Web conference (WWW-2005), May 10-14, 2005, Chiba, Japan.
-
-
-

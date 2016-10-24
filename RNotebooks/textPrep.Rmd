@@ -2,13 +2,13 @@
 output: pdf_document
 ---
 
-## Beginning Text Preparation
 ***
+### Beginning Text Preparation
 
 In order to perform text analysis, there are a few R commands you should have up your sleeve. Some of the commands help get you set up and locate all of the files in your corpora. Other commands can be used throughout the programming process to check on your algorithm and make sure everything looks the way you think it should. Learning the following commands will give you a brief introduction to R while also setting you up with a solid toolkit to begin programming.
 
-#### Global parameters
 ***
+### Global parameters
 
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
@@ -22,8 +22,8 @@ HINT: Your working directory is the folder from which you will be pulling your t
 setwd("~/Desktop/Text-Analysis/RNotebooks")
 ```
 
-#### Include necessary packages for notebook 
 ***
+### Include necessary packages for notebook 
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -35,8 +35,8 @@ If you are using RStudio, packages can be installed by navigating to Tools in th
 library(knitr)
 ```
 
-#### Load Packages
 ***
+### Load Packages
 
 In order to access the packages you have installed within the environment in which you are currently working, you must load them at the beginning of your script. To load packages, use the library() command (see code below).
 
@@ -56,8 +56,8 @@ library(rmarkdown)
 
 To perform topic modeling, you may load MALLET or tm. For data visualization, a popular package is ggplot2, or perhaps hclust to create a cluster dendrogram. You can peruse the various contributed packages [here](https://cran.r-project.org/web/packages/available_packages_by_name.html). The tutorials included in the R Toolkit will instruct you which packages to install and load.
 
-#### Load data 
 ***
+### Load data 
 
 Now you are ready to start looking at your data! First, you must load it into your environment. The scan() function will do this for you. If you want to load just one text into your environment, here is the syntax:
 
@@ -81,8 +81,8 @@ potatoes <- scan("~/Desktop/Text-Analysis/data/bronte/janeEyre.txt", what="chara
 
 Now that we have the text saved as a variable, we can reuse that variable simply by calling "text" instead of the entire scan line again. The next few commands will use "text" to explore the data.
 
-#### R Objects
 ***
+### R Objects
 
 R is distinct from other programming languages in that it handles objects a little differently. Throughout text analysis, you will need to massage your text and textual data by changing it into various kinds of objects which make things easier. Check out [this tutorial](https://www.nealgroothuis.name/introduction-to-data-types-and-objects-in-r/) by Neal Groothuis which simply explains the various types of data objects. Since some kinds of objects prohibit certain actions, a simple way to check the type of object you are currently working with is class(). For example, the code below shows that the class of the Jane Eyre "text" is a character vector, which we would assume since that is what we specified while loading it in.
 
@@ -90,8 +90,8 @@ R is distinct from other programming languages in that it handles objects a litt
 class(text)
 ```
 
-#### Data Inspection
 ***
+### Data Inspection
 
 Just as you may want to verify the type of the object with which you are working, you may want to view it from other angles to make sure the data is formed as you expect.
 
@@ -121,8 +121,8 @@ tail(text)
 
 There are many more ways to inspect parts of data (check out the CRAN), but these quick checks are helpful while manipulating the data and debugging the inevitable issues you will encounter while developing your script.
 
-#### Explore
 ***
+### Explore
 
 The above commands are a few tips and tricks to get you started with R. Similar to R's extensibility with packages, the R user community has great resouces for learners. The [CRAN FAQ](https://cran.r-project.org/) and the [CRAN Manual](https://cran.r-project.org/doc/manuals/R-intro.pdf) answers quite a few questions about R and its uses.
 

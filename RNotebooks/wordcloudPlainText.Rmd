@@ -1,14 +1,13 @@
 ---
 output: pdf_document
 ---
-
-## Wordcloud of Top 75 Words in Charlotte Bronte's Jane Eyre
 ***
+## Wordcloud of Top 75 Words in Charlotte Bronte's Jane Eyre
 
 Using the text of Jane Eyre from Project Gutenberg, we will plot the top 75 words in the novel. [http://www.gutenberg.org/cache/epub/1260/pg1260.txt]
 
-### Global parameters 
 ***
+### Global parameters 
 
 In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:\Users\XXX" (with the quotes this time!).
 
@@ -20,8 +19,8 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 setwd("~/Desktop/Text-Analysis/RNotebooks/")
 ```
 
-#### Include necessary packages for notebook 
 ***
+#### Include necessary packages for notebook 
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
@@ -44,8 +43,9 @@ Load data (plaintext file), telling the computer that it is formatted by line br
 text_raw<-scan("~/Desktop/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
-####Prepare text data
 ***
+####Prepare text data
+
 The tm library works with a "corpus," which can represent a single text, many texts, and even different types of inputs, such as CSV files. In this case, we only have one text in our corpus, but will follow tm's naming conventions for the variables.
 
 ```{r}
@@ -69,5 +69,5 @@ wordcloud(corpus,random.order=FALSE,scale=c(3,.1),rot.per=0,
           max.words=75,colors=brewer.pal(8, "Dark2"))
 ```
 
-#### Voila!
 ***
+### Voila!
