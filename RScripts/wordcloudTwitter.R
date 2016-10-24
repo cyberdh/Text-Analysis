@@ -1,7 +1,9 @@
+#Call libraries used in the script 
 library(wordcloud)
 library(qdap)
 library(RColorBrewer)
 
+#Set the working directory
 setwd("~/Desktop/Text-Analysis/data/twitter/")
 
 load("~/Desktop/Text-Analysis/data/twitter/hillary2016-07-28.RData")
