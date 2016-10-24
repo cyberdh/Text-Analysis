@@ -1,13 +1,12 @@
 #Top Ten Words in Hamlet, Curated Stopwords Removed
 #Call libraries used in the script
-#Set the working directory
-setwd("~/Desktop/R/Text_Analysis/data/shakespeareFolger/")
-
-#Call libraries used in the script
 library(tm)
 
+#Set the working directory
+setwd("~/Desktop/R/Text_Analysis/data/shakespeareFolger")
+
 #Read in the text 
-text_raw<-scan("KingLear.txt", what="character", sep="\n")
+text_raw<-scan("Hamlet.txt", what="character", sep="\n")
 
 #Create a corpus 
 corpus <- Corpus(VectorSource(text_raw))
@@ -25,11 +24,19 @@ corpus <- tm_map(corpus, PlainTextDocument)
 dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 
-#Remix ideas: 1) Play around with the number of word on the chart by changing it from "10"
-# 2) Don't forget the adjust your plot's title if you have changed the input text
-# 3) Look the frequency of all the words in the corpus by typing "freq" into the console
-plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red", main="Lear, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n",)
-axis(1,1:10, cex=.5, labels=names(head(freq, 10)))
+#Remix ideas: 
+#1) Play around with the number of word on the chart
+#by changing it from "10"
+# 2) Don't forget the adjust your plot's title if you have changed
+#the input text
+# 3) Look the frequency of all the words in the corpus by typing
+#"freq" into the console
+plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
+     main="Top Ten Words in Hamlet", xlab="Top Ten Words", 
+     ylab="Number of Occurences", xaxt="n")
+axis(1,1:10, labels=names(head(freq, 10)))
+
+write.csv(head(freq, 10), file = "~/Desktop/Hamlet.csv")
 
 
 

@@ -14,9 +14,9 @@ library(reshape2)
 library(tm)
 
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/trump2016-07-28.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/TrumpOct4.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillary2016-07-28.RData")
+load("~/Desktop/R/Text_Analysis/data/twitter/HillaryOct4.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -28,7 +28,7 @@ lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt
 # Add words relevant to our corpus using the combine c() function:
   
 pos.words = c(lex.pos, 'imwithher', 'maga', 'america', 'makeamericagreatagain', 'first', 'hillaryforamerica', 'hillary4america', 'imwithyou', 'strongertogether')
-neg.words = c(lex.neg, 'crooked', 'crookedhillary', 'drumpf', 'dumptrump', 'demagogue', 'prejudice', 'racist', 'thedonald', 'mock', 'xenophobic')
+neg.words = c(lex.neg, 'crooked', 'crookedhillary', 'drumpf', 'dumptrump', 'demagogue', 'prejudice', 'racist', 'thedonald', 'mock', 'xenophobic', 'trump', 'bitch', 'fuck', 'taxes', 'tax', 'deny', 'denying', 'cunt')
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -75,15 +75,15 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
 #Ignore--these are files to make the Shiny app run faster
-#write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
-#write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
-#write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
+write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
+write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
+write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
 
 legend_title <- "Candidate"
 p <- ggplot(melt(df.result), aes(value, fill=variable)) + 
   geom_histogram(position = "dodge", binwidth = .5 ) + xlab("Sentiment Score") + 
   ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
-  scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + 
+  scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + xlim(c(-7,7)) +
   scale_fill_manual(legend_title, values=c("red","blue"), labels = c("Trump", "Clinton"))
 print(p)
 

@@ -1,6 +1,6 @@
-setwd("~/Documents/IU/CyberDH/") #Set directory path for your environment 
+setwd("~/Desktop/R/") #Set directory path for your environment 
 library(ggplot2)
-input.dir <- "Text_Analysis/data/shakesFreqs/"
+inputDirectory <- "Text_Analysis/data/shakesFreqs/"
 files.v <- dir(input.dir, "\\.txt$")
 
 
@@ -8,7 +8,7 @@ find.dispersion <- function(files.v, input.dir){
   text.word.vector.l <- list()
   #loop over the files
   for(i in 1:length(files.v)) {
-    text.v <- scan(paste(input.dir, files.v[i], sep="/"), what="character", sep="\n")
+    text.v <- scan(paste(inputDirectory, files.v[i], sep="/"), what="character", sep="\n")
     
     
     text.lower.v<-tolower(text.v)
@@ -62,7 +62,7 @@ rownames(word.dispersion.df)
 
 mids <- barplot(word.dispersion.df$num,
          ylab = "Frequency",
-        main = "Use of 'love' in Five Shakespeare Plays", xaxt="n", col = c("lightblue", "mistyrose", "lavender","palegreen","lemonchiffon"))
+        main = "Use of 'love' in Eight Shakespeare Plays", xaxt="n", col = c("lightblue", "mistyrose", "lavender","palegreen","lemonchiffon", "coral", "skyblue", "darkolivegreen1"))
 axis(1, at=mids, rownames(word.dispersion.df), tick=FALSE, xpd = TRUE, las=2)
 text(mids, 0, word.dispersion.df$num ,cex=1, pos=3) 
 

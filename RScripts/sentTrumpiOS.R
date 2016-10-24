@@ -7,17 +7,18 @@ setwd("~/Desktop/R/Text_Analysis/")
 
 # Include necessary packages
 library(twitteR)
-library(plyr)
-library(stringr)
-library(ggplot2)
-library(reshape2)
-library(tm)
+library(purrr)
+library(dplyr)
 
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/trump2016-07-28.RData")
-trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter/hillary2016-07-28.RData")
-hillary.text = sapply(tweets, function(x) x$text)
+load(url("http://varianceexplained.org/files/trump_tweets_df.rda"))
+
+library(tidyr)
+
+tweets <- trump_tweets_df %>%
+  select(id, statusSource, text, created) %>%
+  extract(statusSource, "source", "Twitter for (.*?)<") %>%
+  filter(source %in% c("iPhone", "Android"))
  
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
