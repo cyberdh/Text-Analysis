@@ -6,6 +6,7 @@ library(RColorBrewer)
 #Set the working directory
 setwd("~/Desktop/Text-Analysis/data/twitter/")
 
+
 load("~/Desktop/Text-Analysis/data/twitter/hillary2016-07-28.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
