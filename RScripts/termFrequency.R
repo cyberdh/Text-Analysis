@@ -1,5 +1,9 @@
-setwd("~/Desktop/R/") #Set directory path for your environment 
+#Set the working directory
+setwd("~/Desktop/") #Set directory path for your environment 
+
+#Call libraries used in the script 
 library(ggplot2)
+
 inputDirectory <- "Text_Analysis/data/shakesFreqs/"
 files.v <- dir(input.dir, "\\.txt$")
 
