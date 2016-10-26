@@ -3,7 +3,7 @@
 
 # Global parameters 
   
-setwd("~/Desktop/R/Text_Analysis/")
+setwd("~/Desktop/Text-Analysis/")
 
 #Source Multiplot Function
 source("RScripts/multiplot.R")
@@ -16,16 +16,16 @@ library(ggplot2)
 library(reshape2)
 
 # Load data 
-load("~/Desktop/R/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/R/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
+load("~/Desktop/Text-Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
-lex.pos = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Desktop/R/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('~/Desktop/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('~/Desktop/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
   
