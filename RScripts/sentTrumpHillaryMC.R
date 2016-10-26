@@ -3,7 +3,7 @@
 
 # Global parameters 
   
-setwd("~/Desktop/R/Text_Analysis/")
+setwd("~/Desktop/Text-Analysis/")
 
 # Include necessary packages
 library(twitteR)
@@ -15,20 +15,20 @@ library(doMC)
 registerDoMC(15)
 
 # Load data 
-a <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
-b <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-08.RData")
-c <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump/2016-07-09.RData")
-d <- load("~/Desktop/Text_Analysis//data/twitter/trump/realdonaldtrump2016-07-10.RData")
-e <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
-f <- load("~/Desktop/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-12.RData")
+a <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
+b <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-08.RData")
+c <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump/2016-07-09.RData")
+d <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-10.RData")
+e <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+f <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-12.RData")
 rbind(a,b,c,d,e,f)
 trump.text = sapply(tweets, function(x) x$text)
-g< - load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
-h <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-08.RData")
-i <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-09.RData")
-j <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-10.RData")
-k <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
-l <- load("~/Desktop/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-12.RData")
+g< - load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
+h <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-08.RData")
+i <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-09.RData")
+j <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-10.RData")
+k <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
+l <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-12.RData")
 rbind(g,h,i,j,k,l)
 hillary.text = sapply(tweets, function(x) x$text)
  
