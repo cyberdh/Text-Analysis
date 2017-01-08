@@ -8,9 +8,16 @@ output: pdf_document
 In order to perform text analysis, there are a few R commands you should have up your sleeve. Some of the commands help get you set up and locate all of the files in your corpora. Other commands can be used throughout the programming process to check on your algorithm and make sure everything looks the way you think it should. Learning the following commands will give you a brief introduction to R while also setting you up with a solid toolkit to begin programming.
 
 ***
+### Loading files from Github to Karst
+
+Since we will be using Karst as the example for our file paths and other elements in these R notebooks, many of you may want to save these files to Karst to make following along a bit easier. To do this you will need a Karst account if you do not already have one. Indiana University students, faculty, staff, and sponsored affiliates can request a Karst account. Steps on how to do so can be found [here](https://kb.iu.edu/d/bezu#account). Once you have your account, you'll want to download the Text-Analysis folder and then upload it to Karst. Information on how to access your Karst account can be found [here](https://kb.iu.edu/d/bezu#access).
+
+
+
+***
 ### Global parameters
 
-In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:/Users/XXX" (with the quotes this time!).
+In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" in the Cyber DH account on the Karst super-computer here at Indiana University. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you save it to your personal Karst folder, it will most likely look very similar to the example below. You start in the "N" or "gpfs" directory, either one will work and the default directory Karst starts you in seems to vary by user. We will be using "N" in our examples. From here you go to the "home" directory, and this is true for "N" or "gpfs." Now you find the first letter of your username, and using cyberdh as an example, we go to "c" (and yes the case of the letters matter as "N" is different than "n"). Then we look for the second letter in the username, which is "y" for our purposes here. Then you find your full username, which for us is "cyberdh" and then you should see a folder named "Karst". This is where the similarities might end as it now depends on where you saved your "Text-Analysis" folder. The final path should look similar to this: "/N/home/x/x/xxxxxxx/Karst/Text-Analysis" (with the quotes now). Alternatively, if you are on a PC, you will need to use an absolute path such as "C:/Users/XXX" (with the quotes again). If you decide to save it to a Mac you can use a relative path such as "~/Desktop/XXX" (also with the quotes again).
 
 OR
 
@@ -19,7 +26,7 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 HINT: Your working directory is the folder from which you will be pulling your texts.
 
 ```{r}
-setwd("~/Desktop/Text-Analysis/RNotebooks")
+setwd("N/home/c/y/cyberdh/Text-Analysis/data")
 ```
 
 ***
@@ -68,7 +75,7 @@ The third argument "sep" specified as "backslash" + "n" which is the way to code
 So putting everything together, this line reads in JaneEyre.txt, and separates the text into a character vector by line.
 
 ```{r}
-text <- scan("~/Desktop/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+text <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 The final, crucial aspect of this line is the assignment. "<-" assigns whatever results on the right side of the arrow into the variable specified on the left side. Some programming languages use "=" instead of the arrow. R will also acknowledge this, but using the arrow is best practice.
@@ -76,7 +83,7 @@ The final, crucial aspect of this line is the assignment. "<-" assigns whatever 
 Here, we have named that variable "text" since it holds the text with which we are working. However, you can name this variable whatever you would like. This line will give the exact same result, although it is best to name the variable in relation to what it holds:
 
 ```{r}
-potatoes <- scan("~/Desktop/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+potatoes <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
 ```
 
 Now that we have the text saved as a variable, we can reuse that variable simply by calling "text" instead of the entire scan line again. The next few commands will use "text" to explore the data.
