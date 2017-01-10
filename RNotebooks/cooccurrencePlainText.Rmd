@@ -9,14 +9,16 @@ The following co-occurrence script aims to discover the semantic proximity of tw
 ***
 #### Global parameters 
 
-In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" on the Desktop of a Mac as an example. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you are on a PC, you will need to use an absolute path such as "C:/Users/XXX" (with the quotes this time!).
+In your terminal or command prompt, launch R by typing "R" (without quotes) and pressing Enter. Next, set the working directory by pointing to the location on your computer where you have stored the files. Below, we have chosen to Save the folder "Text-Analysis" in the Cyber DH account on the Karst super-computer here at Indiana University. It contains the R scripts, texts, notebooks, and results. If you have cloned the Github repository, simply point to where you have saved the folder. If you save it to your personal Karst folder, it will most likely look very similar to the example below. You start in the "N" or "gpfs" directory, either one will work and the default directory Karst starts you in seems to vary by user. We will be using "N" in our examples. From here you go to the "home" directory, and this is true for "N" or "gpfs." Now you find the first letter of your username, and using cyberdh as an example, we go to "c" (and yes the case of the letters matter as "N" is different than "n"). Then we look for the second letter in the username, which is "y" for our purposes here. Then you find your full username, which for us is "cyberdh" and then you should see a folder named "Karst". This is where the similarities might end as it now depends on where you saved your "Text-Analysis" folder. The final path should look similar to this: "/N/home/x/x/xxxxxxx/Karst/Text-Analysis" (with the quotes now). Alternatively, if you are on a PC, you will need to use an absolute path such as "C:/Users/XXX" (with the quotes again). If you decide to save it to a Mac you can use a relative path such as "~/Desktop/XXX" (also with the quotes again).
 
 OR
 
 If you are using RStudio, click Session in the menu bar > Set Working Directory > Choose Directory, then select the Text-Analysis directory in which you are working. This will set your working directory in the console pane, but make sure to copy the path into the source pane above to keep the directory constant if you close this script and reopen later.
 
+HINT: Your working directory is the folder from which you will be pulling your texts.
+
 ```{r}
-setwd("~/Desktop/Text-Analysis/RNotebooks")
+setwd("N/home/c/y/cyberdh/Text-Analysis/data")
 ```
 ***
 #### Include necessary packages for notebook 
@@ -54,7 +56,7 @@ library(tm)
 #### Create a corpus 
 
 ```{r}
-corpus <- Corpus(DirSource("~/Desktop/Text-Analysis/data/shakespeareFolger"))
+corpus <- Corpus(DirSource("N/home/c/y/cyberdh/Text-Analysis/data/shakespeareFolger"))
 ```
 
 ***
@@ -71,7 +73,7 @@ To clean the corpus in this example, we are using the tm package's built in tool
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removeWords, stopwords("SMART"))
-myStopWords <- scan("~/Desktop/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("N/home/c/y/cyberdh/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
