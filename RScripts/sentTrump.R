@@ -18,7 +18,7 @@ library(reshape2)
 # Load data 
 load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter//hillary/hillaryclinton2016-07-11.RData")
+load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
