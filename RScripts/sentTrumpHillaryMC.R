@@ -3,7 +3,7 @@
 
 # Global parameters 
   
-setwd("~/Desktop/Text-Analysis/")
+setwd("/N/home/c/y/cyberdh/Karst/Text_Analysis/")
 
 # Include necessary packages
 library(twitteR)
@@ -15,28 +15,28 @@ library(doMC)
 registerDoMC(15)
 
 # Load data 
-a <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
-b <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-08.RData")
-c <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump/2016-07-09.RData")
-d <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-10.RData")
-e <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
-f <- load("~/Desktop/Text-Analysis/data/twitter/trump/realdonaldtrump2016-07-12.RData")
+a <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-07.RData")
+b <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-08.RData")
+c <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump/2016-07-09.RData")
+d <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-10.RData")
+e <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-11.RData")
+f <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/trump/realdonaldtrump2016-07-12.RData")
 rbind(a,b,c,d,e,f)
 trump.text = sapply(tweets, function(x) x$text)
-g< - load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
-h <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-08.RData")
-i <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-09.RData")
-j <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-10.RData")
-k <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
-l <- load("~/Desktop/Text-Analysis/data/twitter/hillary/hillaryclinton2016-07-12.RData")
+g< - load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-07.RData")
+h <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-08.RData")
+i <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-09.RData")
+j <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-10.RData")
+k <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-11.RData")
+l <- load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/hillary/hillaryclinton2016-07-12.RData")
 rbind(g,h,i,j,k,l)
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
-lex.pos = scan('~/Desktop/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Desktop/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('/N/home/c/y/cyberdh/Karst/Text_Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('/N/home/c/y/cyberdh/Karst/Text_Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
   
