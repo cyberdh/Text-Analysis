@@ -1,5 +1,5 @@
 #Set the working directory
-setwd("~/Desktop/") #Set directory path for your environment 
+setwd("/N/home/c/y/cyberdh/Karst/Text_Analysis/") #Set directory path for your environment 
 
 #Call libraries used in the script 
 library(ggplot2)
@@ -48,15 +48,15 @@ class(word.dispersion)
 
 
 word.dispersion.df <- do.call(rbind.data.frame, word.dispersion)
-#write.csv(word.dispersion.df, file = "~/Desktop/loveDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/deathDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/fatherDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/heavenDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/powerDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/badDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/goodDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/kingDF.csv")
-#write.csv(word.dispersion.df, file = "~/Desktop/queenDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/loveDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/deathDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/fatherDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/heavenDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/powerDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/badDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/goodDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/kingDF.csv")
+#write.csv(word.dispersion.df, file = "/N/home/c/y/cyberdh/Karst/Text_Analysis/queenDF.csv")
 
 
 
