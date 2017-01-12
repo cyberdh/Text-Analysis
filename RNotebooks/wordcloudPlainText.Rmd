@@ -42,7 +42,7 @@ library(RColorBrewer)
 Load data (plaintext file), telling the computer that it is formatted by line breaks  
 
 ```{r}
-text_raw<-scan("/N/home/c/y/cyberdh/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+text_raw<-scan("/N/home/c/y/cyberdh/Text-Analysis/data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 ```
 
 ***
