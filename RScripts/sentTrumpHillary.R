@@ -3,7 +3,7 @@
 
 # Global parameters 
   
-setwd("~/Desktop/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
 # Include necessary packages
 library(twitteR)
@@ -14,16 +14,16 @@ library(reshape2)
 library(tm)
 
 # Load data 
-load("~/Desktop/Text-Analysis/data/twitter/TrumpOct4.RData")
+load("~/Text-Analysis/data/twitter/TrumpOct4.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Desktop/Text-Analysis/data/twitter/HillaryOct4.RData")
+load("~/Text-Analysis/data/twitter/HillaryOct4.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
-lex.pos = scan('~/Desktop/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Desktop/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('~/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('~/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
   
@@ -75,9 +75,9 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
 #Ignore--these are files to make the Shiny app run faster
-write.csv(trump.result, file = "~/Desktop/TrumpResultDF.csv")
-write.csv(hillary.result, file = "~/Desktop/ClintonResultDF.csv")
-write.csv(df.result, file = "~/Desktop/BothResultDF.csv")
+write.csv(trump.result, file = "~/TrumpResultDF.csv")
+write.csv(hillary.result, file = "~/ClintonResultDF.csv")
+write.csv(df.result, file = "~/BothResultDF.csv")
 
 legend_title <- "Candidate"
 p <- ggplot(melt(df.result), aes(value, fill=variable)) + 
