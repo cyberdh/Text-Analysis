@@ -3,7 +3,7 @@
 library(tm)
 
 #Set the working directory
-setwd("~/Desktop/Text-Analysis/data/shakespeareFolger")
+setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/shakespeareFolger")
 
 #Read in the text 
 text_raw<-scan("Hamlet.txt", what="character", sep="\n")
@@ -15,7 +15,7 @@ corpus <- Corpus(VectorSource(text_raw))
 corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
 #Add early modern stopwords by u adding "myStopWords
-myStopWords <- scan("~/Desktop/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
@@ -36,7 +36,7 @@ plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
      ylab="Number of Occurences", xaxt="n")
 axis(1,1:10, labels=names(head(freq, 10)))
 
-write.csv(head(freq, 10), file = "~/Desktop/Hamlet.csv")
+write.csv(head(freq, 10), file = "/N/home/c/y/cyberdh/Karst/Text-Analysis/Hamlet.csv")
 
 
 

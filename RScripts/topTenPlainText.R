@@ -1,7 +1,7 @@
 #Top Ten Words in Hamlet, Curated Stopwords Removed
 #Call libraries used in the script
 #Set the working directory
-setwd("~/Desktop/Text-Analysis/data/shakespeareFolger/")
+setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/shakespeareFolger/")
 
 #Call libraries used in the script
 library(tm)
@@ -16,7 +16,7 @@ corpus <- Corpus(VectorSource(text_raw))
 corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
 #Add early modern stopwords by u adding "myStopWords
-myStopWords <- scan("~/Desktop/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
