@@ -4,10 +4,10 @@ library(qdap)
 library(RColorBrewer)
 
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/")
+setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/twitter/")
 
 
-load("/N/home/c/y/cyberdh/Karst/Text_Analysis/data/twitter/HillaryOct4.RData")
+load("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/twitter/HillaryOct4.RData")
 tweetlist <- sapply(tweets, function(x) x$text)
 
 #Strip URLS
