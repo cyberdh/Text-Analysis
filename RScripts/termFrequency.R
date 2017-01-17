@@ -4,7 +4,7 @@ setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/") #Set directory path for your e
 #Call libraries used in the script 
 library(ggplot2)
 
-inputDirectory <- "Text-Analysis/data/shakesFreqs/"
+input.dir <- "/N/home/c/y/cyberdh/Karst/Text-Analysis/data/shakesFreqs/"
 files.v <- dir(input.dir, "\\.txt$")
 
 
@@ -12,7 +12,7 @@ find.dispersion <- function(files.v, input.dir){
   text.word.vector.l <- list()
   #loop over the files
   for(i in 1:length(files.v)) {
-    text.v <- scan(paste(inputDirectory, files.v[i], sep="/"), what="character", sep="\n")
+    text.v <- scan(paste(input.dir, files.v[i], sep="/"), what="character", sep="\n")
     
     
     text.lower.v<-tolower(text.v)
