@@ -22,7 +22,7 @@ find.dispersion <- function(files.v, input.dir){
     text.word.v <- text.word.v[not.blanks.v]
     
     text.position.v <- seq(1:length(text.word.v))
-    love.v <- which(text.word.v == "queen")
+    love.v <- which(text.word.v == "love")
     w.count.v <- rep(NA, length(text.position.v))
     w.count.v[love.v] <- 1
     sum.occurences <- sum(w.count.v, NA, na.rm = TRUE)
