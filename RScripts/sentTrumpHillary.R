@@ -2,12 +2,9 @@
 # Simple Sentiment Analysis for Twitter
 
 # Global parameters 
-  
-<<<<<<< HEAD
-setwd("~/Text-Analysis/")
-=======
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
->>>>>>> origin/master
+
+
+setwd("/N/home/k/l/klosteda/Karst/Text-Analysis/")
 
 # Include necessary packages
 library(twitteR)
@@ -18,32 +15,21 @@ library(reshape2)
 library(tm)
 
 # Load data 
-<<<<<<< HEAD
-load("~/Text-Analysis/data/twitter/TrumpOct4.RData")
+load("data/twitter/TrumpOct4.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("~/Text-Analysis/data/twitter/HillaryOct4.RData")
-=======
-load("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/twitter/TrumpOct4.RData")
-trump.text = sapply(tweets, function(x) x$text)
-load("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/twitter/HillaryOct4.RData")
->>>>>>> origin/master
+load("data/twitter/HillaryOct4.RData")
 hillary.text = sapply(tweets, function(x) x$text)
- 
+
 # Loading the Opinion Lexicons to Determine Sentiment
 #This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the tweet. If the algorithm runs across the word "love" in a tweet, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
-<<<<<<< HEAD
-lex.pos = scan('~/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('~/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
-=======
-lex.pos = scan('/N/home/c/y/cyberdh/Karst/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('/N/home/c/y/cyberdh/Karst/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
->>>>>>> origin/master
+lex.pos = scan('data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 # Add words relevant to our corpus using the combine c() function:
-  
-pos.words = c(lex.pos, 'imwithher', 'maga', 'america', 'makeamericagreatagain', 'first', 'hillaryforamerica', 'hillary4america', 'imwithyou', 'strongertogether')
-neg.words = c(lex.neg, 'crooked', 'crookedhillary', 'drumpf', 'dumptrump', 'demagogue', 'prejudice', 'racist', 'thedonald', 'mock', 'xenophobic', 'trump', 'bitch', 'fuck', 'taxes', 'tax', 'deny', 'denying', 'cunt', 'pussy', 'russia', 'russian', 'wikileaks')
+
+pos.words = c(lex.pos)
+neg.words = c(lex.neg)
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -89,22 +75,15 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result, y = hillary.result)
 
-#Ignore--these are files to make the Shiny app run faster
-<<<<<<< HEAD
-write.csv(trump.result, file = "~/TrumpResultDF.csv")
-write.csv(hillary.result, file = "~/ClintonResultDF.csv")
-write.csv(df.result, file = "~/BothResultDF.csv")
-=======
-write.csv(trump.result, file = "/N/home/c/y/cyberdh/Karst/Text-Analysis/TrumpResultDF.csv")
-write.csv(hillary.result, file = "/N/home/c/y/cyberdh/Karst/Text-Analysis/ClintonResultDF.csv")
-write.csv(df.result, file = "/N/home/c/y/cyberdh/Karst/Text-Analysis/BothResultDF.csv")
->>>>>>> origin/master
+write.csv(trump.result, file = "TrumpResultDF.csv")
+write.csv(hillary.result, file = "ClintonResultDF.csv")
+write.csv(df.result, file = "BothResultDF.csv")
 
 legend_title <- "Candidate"
 p <- ggplot(melt(df.result), aes(value, fill=variable)) + 
   geom_histogram(position = "dodge", binwidth = .5 ) + xlab("Sentiment Score") + 
   ylab("Number of Tweets") + ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump and @HillaryClinton") + 
-  scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + xlim(c(-7,7)) +
+  scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) + 
   scale_fill_manual(legend_title, values=c("red","blue"), labels = c("Trump", "Clinton"))
 print(p)
 
