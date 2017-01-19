@@ -4,13 +4,13 @@ library(qdap)
 library(RColorBrewer)
 
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/twitter/")
+setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
 
 
 <<<<<<< HEAD
-load("~/Desktop/Text-Analysis/data/twitter/pulse2016-06-16.RData")
+load("data/twitter/pulse2016-06-16.RData")
 =======
-load("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/twitter/HillaryOct4.RData")
+load("data/twitter/HillaryOct4.RData")
 >>>>>>> origin/master
 tweetlist <- sapply(tweets, function(x) x$text)
 
