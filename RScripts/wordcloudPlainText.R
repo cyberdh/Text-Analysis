@@ -1,7 +1,7 @@
 #Wordcloud of Top 75 Words in Hamlet
 
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/shakespeareFolger")
+setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
 
 #Call libraries used in the script
 library(wordcloud)
@@ -10,13 +10,13 @@ library(tm)
 #Create a corpus -- this creates a wordcloud of the entire Shakesperean corpus
 # corpus <- Corpus(DirSource("shakespeareFolger"))
 # Hamlet Only
-text_raw<-scan("Hamlet.txt", what="character", sep="\n")
+text_raw<-scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 
 #Clean the corpus
 corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
 #Add early modern stopwords by u adding "myStopWords
-myStopWords <- scan("/N/home/c/y/cyberdh/Karst/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
