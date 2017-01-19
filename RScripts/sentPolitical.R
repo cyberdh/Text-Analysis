@@ -43,8 +43,8 @@ trump.text = laply(trump.tweets, function(t) t$getText())
 # open RAR Extractor Free and choose your settings, then drag downloaded .rar file to the Extractor
 #   icon and it will unzip to the location you specified in settings
 
-lex.pos = scan('/N/home/c/y/cyberdh/Karst/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('/N/home/c/y/cyberdh/Karst/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 #add words using the c() [combine] function
 pos.words = c(lex.pos, 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
