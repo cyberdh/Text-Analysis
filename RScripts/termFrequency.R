@@ -4,7 +4,7 @@ setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/") #Set directory path for your e
 #Call libraries used in the script 
 library(ggplot2)
 
-input.dir <- "/N/home/c/y/cyberdh/Karst/Text-Analysis/data/shakesFreqs/"
+input.dir <- "data/shakesFreqs/"
 files.v <- dir(input.dir, "\\.txt$")
 
 
