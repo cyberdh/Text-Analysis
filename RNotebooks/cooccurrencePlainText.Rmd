@@ -18,7 +18,7 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 HINT: Your working directory is the folder from which you will be pulling your texts.
 
 ```{r}
-setwd("/N/home/c/y/cyberdh/Text-Analysis/data/")
+setwd("/N/home/c/y/cyberdh/Text-Analysis/")
 ```
 ***
 #### Include necessary packages for notebook 
@@ -56,7 +56,7 @@ library(tm)
 #### Create a corpus 
 
 ```{r}
-corpus <- Corpus(DirSource("/N/home/c/y/cyberdh/Text-Analysis/data/shakespeareFolger/"))
+corpus <- Corpus(DirSource("data/shakespeareFolger/"))
 ```
 
 ***
@@ -73,7 +73,7 @@ To clean the corpus in this example, we are using the tm package's built in tool
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removeWords, stopwords("SMART"))
-myStopWords <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/earlyModernStopword.txt", what="character", sep="\n")
+myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
