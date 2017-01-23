@@ -18,7 +18,7 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 HINT: Your working directory is the folder from which you will be pulling your data.
 
 ```{r}
-setwd("/N/home/c/y/cyberdh/Text-Analysis/RNotebooks")
+setwd("/N/home/c/y/cyberdh/Text-Analysis/")
 ```
 
 ***
@@ -42,7 +42,7 @@ library(RColorBrewer)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 
 ```{r}
-load(file = "/N/home/c/y/cyberdh/Text-Analysis/data/twitter/pulse2016-06-16.RData")
+load(file = "data/twitter/pulse2016-06-16.RData")
 ```
 
 ***
