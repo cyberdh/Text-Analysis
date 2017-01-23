@@ -26,7 +26,7 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 HINT: Your working directory is the folder from which you will be pulling your texts.
 
 ```{r}
-setwd("N/home/c/y/cyberdh/Text-Analysis/data")
+setwd("N/home/c/y/cyberdh/Text-Analysis/")
 ```
 
 ***
@@ -72,10 +72,10 @@ The first argument is the filename (or path if the file resides in a different d
 The second argument "what" specified as type "character" will read the text in as a character vector. 
 The third argument "sep" specified as "backslash" + "n" which is the way to code line breaks in R.
 
-So putting everything together, this line reads in JaneEyre.txt, and separates the text into a character vector by line.
+So putting everything together, this line reads in Hamlet.txt, and separates the text into a character vector by line.
 
 ```{r}
-text <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+text <- scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 ```
 
 The final, crucial aspect of this line is the assignment. "<-" assigns whatever results on the right side of the arrow into the variable specified on the left side. Some programming languages use "=" instead of the arrow. R will also acknowledge this, but using the arrow is best practice.
@@ -83,7 +83,7 @@ The final, crucial aspect of this line is the assignment. "<-" assigns whatever 
 Here, we have named that variable "text" since it holds the text with which we are working. However, you can name this variable whatever you would like. This line will give the exact same result, although it is best to name the variable in relation to what it holds:
 
 ```{r}
-potatoes <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/bronte/janeEyre.txt", what="character", sep="\n")
+potatoes <- scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 ```
 
 Now that we have the text saved as a variable, we can reuse that variable simply by calling "text" instead of the entire scan line again. The next few commands will use "text" to explore the data.
