@@ -53,10 +53,10 @@ Hint 1: The names of the variables can be anything (happiness, rainbows, cats), 
 Hint 2: Another popular naming convention is to list the type of object with the name, for example faculty.text.l since this object is a list. This convention helps when manipulating the data later.
 
 ```{r}
-faculty.text <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/survey/2015UITSFaculty.txt", what = "character", sep="\n")
-staff.text <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/survey/2015UITSStaff.txt", what = "character", sep="\n")
-grad.text <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/survey/2015UITSGrad.txt", what = "character", sep="\n")
-undergrad.text <- scan("/N/home/c/y/cyberdh/Text-Analysis/data/survey/2015UITSUndergrad.txt", what = "character", sep="\n")
+faculty.text <- scan("data/survey/2015UITSFaculty.txt", what = "character", sep="\n")
+staff.text <- scan("data/survey/2015UITSStaff.txt", what = "character", sep="\n")
+grad.text <- scan("data/survey/2015UITSGrad.txt", what = "character", sep="\n")
+undergrad.text <- scan("data/survey/2015UITSUndergrad.txt", what = "character", sep="\n")
 ```
    
 ***
@@ -97,8 +97,8 @@ Now we are all set! Let's load in some postivity (and negativity, I guess...)!
 This is an essential step for sentiment analysis. These text documents from Hu and Liu, 2004* are filled with positive and negative words, respectively. The algorithm we will write next will check these documents to score each word in the survey feedback. If the algorithm runs across the word "love" in the text, it will check the positive-words.txt file, find "love" is included, and score the word with a +1. More on that in a second...
 
 ```{r}
-lex.pos = scan('/N/home/c/y/cyberdh/Text-Analysis/data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
-lex.neg = scan('/N/home/c/y/cyberdh/Text-Analysis/data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
+lex.pos = scan('data/opinionLexicon/positive-words.txt', what='character', comment.char = ';')
+lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 ```
 
 Add words relevant to our corpus using the combine c() function:
