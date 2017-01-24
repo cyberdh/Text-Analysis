@@ -8,9 +8,12 @@ library(wordcloud)
 library(tm)
 
 #Create a corpus -- this creates a wordcloud of the entire Shakesperean corpus
-corpus <- Corpus(DirSource("data/shakespeareFolger"))
+#corpus <- Corpus(DirSource("data/shakespeareFolger"))
 # Hamlet Only
 text_raw<-scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
+
+#Create corpus from Hamlet only
+corpus <- Corpus(VectorSource(text_raw))
 
 #Clean the corpus
 corpus <- tm_map(corpus, content_transformer(tolower))
