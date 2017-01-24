@@ -16,7 +16,7 @@ corpus <- tm_map(corpus, content_transformer(tolower))
 #To change the stopword list, use other dictionaries available with the tm package
 #Add early modern stopwords by u adding "myStopWords
 myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
-corpus <- tm_map(corpus, removeWords, c(stopwords("SMART"), myStopWords, "belv", "feth", "beau", "aria", "1724", "ang", "flor", "wou", "fred"))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords, "belv", "feth", "beau", "aria", "1724", "ang", "flor", "wou", "fred"))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, PlainTextDocument)
@@ -32,7 +32,7 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 # 3) Look the frequency of all the words in the corpus by typing
 #"freq" into the console
 plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
-     main="Top Ten Words in Aphra Behn's The Rover", xlab="Top Ten Words", 
+     main="Top Ten Words in Hamlet", xlab="Top Ten Words", 
      ylab="Number of Occurences", xaxt="n")
 axis(1,1:10, labels=names(head(freq, 10)))
 
