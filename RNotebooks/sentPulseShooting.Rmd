@@ -246,9 +246,11 @@ ggplot(melt(df.result), aes(value, fill=variable)) +
 ```
 
 ***
-### Voila!
+### Results
 
 ![Sent Pulse Shooting results](./result-imgs/sentPulseShooting.png)
+
+### Voila!
 
 Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
 

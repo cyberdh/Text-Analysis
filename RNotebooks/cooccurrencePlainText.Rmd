@@ -104,3 +104,6 @@ findAssocs(dtm, "father", .6)
 ```
 
 ![CoOccurrence Plain Text results](./result-imgs/cooccurrencePlainText.png)
+
+***
+### Voila!
