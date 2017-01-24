@@ -102,3 +102,5 @@ Finally, we use the tm function findAssocs to find the top ten associations with
 findAssocs(dtm, "father", .6)
 #findAssocs(dtm, "love", .6)
 ```
+
+![CoOccurence Plain Text results](./result-imgs/cooccurencePlainText.png)
