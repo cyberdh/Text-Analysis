@@ -103,4 +103,4 @@ findAssocs(dtm, "father", .6)
 #findAssocs(dtm, "love", .6)
 ```
 
-![CoOccurence Plain Text results](./result-imgs/cooccurrencePlainText.png)
+![CoOccurrence Plain Text results](./result-imgs/cooccurrencePlainText.png)
