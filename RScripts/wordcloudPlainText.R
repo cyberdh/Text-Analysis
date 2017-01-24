@@ -12,7 +12,7 @@ library(tm)
 # Hamlet Only
 text_raw<-scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 
-#Create corpus from only Hamlet 
+#Create corpus from Hamlet only 
 corpus <- Corpus(VectorSource(text_raw))
 
 #Clean the corpus
