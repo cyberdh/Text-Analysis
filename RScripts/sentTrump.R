@@ -16,9 +16,9 @@ library(ggplot2)
 library(reshape2)
 
 # Load data 
-load("data/twitter/trump/realdonaldtrump2016-07-11.RData")
+load("data/twitter/TrumpOct4.RData")
 trump.text = sapply(tweets, function(x) x$text)
-load("data/twitter/hillary/hillaryclinton2016-07-11.RData")
+load("data/twitter/HillaryOct4.RData")
 hillary.text = sapply(tweets, function(x) x$text)
  
 # Loading the Opinion Lexicons to Determine Sentiment
@@ -77,10 +77,11 @@ hillary.result = score.sentiment(hillary.text, pos.words, neg.words)
 
 df.result <- data.frame(x = trump.result)
 
-ggplot(melt(df.result), aes(value)) + geom_histogram(position = "dodge", binwidth = .5, fill="red") +
+p <- ggplot(melt(df.result), aes(value)) + geom_histogram(position = "dodge", binwidth = .5, fill="red") +
   xlab("Sentiment Score") + ylab("Number of Tweets") +
   scale_x_continuous(breaks=pretty(df.result$x.score, n=14)) +
   ggtitle("Sentiment Scoring of Tweets Mentioning @RealDonaldTrump")
+  print(p)
 
 
 #Acknowledgements: This algorithm was adapted from Jeffrey Breen's Mining Twitter for Airline Consumer Sentiment article. You can find it here: http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment. 
