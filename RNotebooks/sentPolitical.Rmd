@@ -274,7 +274,7 @@ multiplot(clinton.plot, sanders.plot, trump.plot, cruz.plot, cols=2)
 ```
 
 ***
-### Resutls
+### Results
 
 ![Sent Political results](./result-imgs/sentPolitical.png)
 
