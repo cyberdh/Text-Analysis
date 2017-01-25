@@ -25,5 +25,5 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, PlainTextDocument)
 
-wordcloud(corpus,random.order=FALSE,scale=c(3,.5),rot.per=0,
-          max.words=55,colors=brewer.pal(8, "Dark2"))
+wordcloud(corpus,random.order=FALSE,scale=c(4,1),rot.per=0,
+          max.words=75,colors=brewer.pal(8, "Dark2"))
