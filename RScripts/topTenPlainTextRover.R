@@ -30,7 +30,7 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 # 2) Don't forget the adjust your plot's title if you have changed the input text
 # 3) Look the frequency of all the words in the corpus by typing "freq" into the console
 plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
-     main="Aphra Behn's The Rover", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n")
+     main="Shakespeare's Hamlet", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n")
 axis(1,1:10, labels=names(head(freq, 10)))
 
 
