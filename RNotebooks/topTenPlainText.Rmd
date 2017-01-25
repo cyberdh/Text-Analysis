@@ -118,3 +118,5 @@ plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red",
      main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n",)
 axis(1,1:10, labels=names(head(freq, 10)))
 ```
+
+![Top Ten Plain Text results](./result-imgs/topTenPlainText.png)
