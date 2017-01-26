@@ -61,69 +61,39 @@ Let's look at the first few tweets:
 ```{r}
 head(tweets_text)
 ```
-
-Next we want to strip the URLs from our tweets. Using "gsub" to replace URLS in our list with any of the characters below with nothing (""), our tweetlist is now free of them. Notice that the "|" is used to created a concatenated "http..." or "https..." with wild cards (*) for text after the hypertext transfer protocol.
-
+Now we need to turn the character vector into a corpus:
 ```{r}
-tweets_text=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweets_text)
+corpus <- Corpus(VectorSource(tweets_text))
+```
+Next, we need to convert the text to UTF-8 as sometimes the program has difficulty reading the characters:
+```{r}
+corpus <- tm_map(corpus,
+                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                 mc.cores=1)
+```
+Now we need to convert all the text to lower case, so that "Clinton" and "clinton" are not seen as seperate words.
+```{r}
+corpus <- tm_map(corpus, content_transformer(tolower))
+```
+Now we need to remove all punctuation so that only alphanumeric characters are read:
+```{r}
+corpus <- tm_map(corpus, content_transformer(removePunctuation))
+```
+You may also wish to eliminate numbers, especially if they skew your results any, however, numbers may also be important, so that is why this one is optional:
+```{r}
+corpus <- tm_map(corpus, content_transformer(removeNumbers))
 ```
 
-Now we will go on to do the same with mentions, usernames. There may be times when you want to keep these (for example #blacklivesmatter is driven by some central tweeters in the community, including including DeRay Mckesson (@deray), Johnetta Elzie (@nettaaaaaaaa), Shaun King (@shaunking), Daniel Jose Older (@djolder), Bassem Masri (@bassem_masri), and others.
+It's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist and will be doing the same again. Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "pulse."
 
 ```{r}
-tweetlist=gsub("@(.*)", "", tweetlist)
+corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"), 'rt', 'amp', 'pulse', 'https', 'marketing', 'hillary', 'dont'))
 ```
 
-Now we will go on to do the same with anything that is NOT alphanumeric such as punctuation, and, more importantly for tweets, emojis.
+Plot the wordcloud! There are a number of arguments you can customize: "scale"" indicates the size of the words; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
 
 ```{r}
-tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
+wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
 ```
 
-Let's look at the cleaned tweelist.
-
-````{r}
-head(tweetlist)
-````
-
-Now it's time to split (_strsplit_) the big string into separate words (\\W+), an argument from perl.
-
-```{r}
-words <-strsplit(tweetlist, "\\W+", perl=TRUE)
-head(words)
-```
-
-It's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist; here we are using qdap's word list and specifying that we wish to use the top 100 words from E.B. Fry's top 1000 words. Note that if we were to change the argument to "Top1000Words," we'd eliminate about 90% of our text! Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "pulse."
-
-```{r}
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "pulse"))
-```
-
-Having removed unwanted items, it's now time to ditch the empty elements."lapply" returns a list of the same length as tweelist, each element of which is the result of applying the argument "length>0" to each element.
-
-```{r}
-words=words[lapply(words,length)>0]
-head(words)
-```
-
-Currently, we have a list of items (our original tweets) that contain a list of the words used in that tweet. For our wordcloud, we would simply like a list of words.
-
-```{r}
-words=unlist(words,recursive = FALSE)
-head(words)
-```
-
-Next we'd like to create a table of these words in descending order of use. For plotting purposes, we also need to create a vector (a sequence of data elements of the same type) of frequencies and keep just the words from the tweets in that list.
-
-```{r}
-words=sort(table(words),decreasing=T)
-freqs=as.vector(words)
-words=names(words)
-```
-
-Plot the wordcloud! There are a number of arguments you can customize: "random.order" is false so that words are plotted in order of decreasing frequency; "scale"" indicates the size of the words; "rot.per" lets you customize the proportion of words that are rotated 90 degrees; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
-
-```{r}
-plot = wordcloud(words,freqs,scale=c(3,.7),max.words=75, rot.per=0, 
-          colors=brewer.pal(8, "Dark2"))
-```
+VOILA!
