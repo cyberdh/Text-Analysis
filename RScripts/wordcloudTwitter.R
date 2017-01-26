@@ -5,7 +5,7 @@ library(RColorBrewer)
 library(twitteR)
 
 #Set the working directory
-setwd("~/Text-Analysis/")
+setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
 
 #load file with saved tweets
 load("data/twitter/HillaryOct4.RData")
