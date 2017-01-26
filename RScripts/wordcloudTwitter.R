@@ -1,44 +1,30 @@
 #Call libraries used in the script 
 library(wordcloud)
-library(qdap)
+library(tm)
 library(RColorBrewer)
+library(twitteR)
 
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
-
-<<<<<<< HEAD
-load("data/twitter/pulse2016-06-16.RData")
-=======
+#load file with saved tweets
 load("data/twitter/HillaryOct4.RData")
->>>>>>> origin/master
-tweetlist <- sapply(tweets, function(x) x$text)
 
-#Strip URLS
-tweetlist=rm_url(tweetlist, extract = FALSE)
+tweets_text <- sapply(tweets, function(x) x$text)
 
-#Strip punctuation
-tweetlist=gsub( "[^[:alnum:] ]", "", tweetlist )
+corpus <- Corpus(VectorSource(tweets_text))
 
-#Split into words
-words <-strsplit(tweetlist, "\\W+", perl=TRUE)
-
-# #Remove common words
-words=rm_stopwords(words,c(Top100Words,"rt", "amp", "pulse", "https", "marketing"))
-
-#Get rid of empty elements
-words=words[lapply(words,length)>0]
-
-#Flatten the list of lists
-words=unlist(words,recursive = FALSE)
-
-#Convert to a sorted frequency table
-words=sort(table(words),decreasing=T)
-freqs=as.vector(words)
-words=names(words)
-cols <- colorRampPalette(brewer.pal(12,"Paired"))(500)
+corpus <- tm_map(corpus,
+                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                 mc.cores=1)
+corpus <- tm_map(corpus, content_transformer(tolower))
+corpus <- tm_map(corpus, content_transformer(removePunctuation))
+corpus <- tm_map(corpus, content_transformer(removeNumbers))
+corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"), 'rt', 'amp', 'pulse', 'https', 'marketing', 'hillary', 'dont'))
 
 
-wordcloud(words,freqs,scale=c(3,1),min.freq=3,max.words=50, rot.per=0, 
-          colors=cols)
 
+wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
+
+# Ackowledgements: Much of the algorithm was acquired from a blog by Hanxue Lee called "Flummoxed by IT." The title of this blog entry is "Twitter Word Cloud Using R." The blog can be found at http://flummox-engineering.blogspot.com/2016/03/twitter-word-cloud-using-r.html. This blog was posted March 11, 2016.
+# Reference: Hanxue Lee. (2016, March 11). Twitter Word Cloud Using R. Retrieved from http://flummox-engineering.blogspot.com/2016/03/twitter-word-cloud-using-r.html                           
