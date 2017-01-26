@@ -42,7 +42,7 @@ library(RColorBrewer)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 
 ```{r}
-load(file = "data/twitter/HillaryOct4.RData")
+load(file = "data/twitter/pulse2016-06-16.RData")
 ```
 
 ***
@@ -87,7 +87,7 @@ corpus <- tm_map(corpus, content_transformer(removeNumbers))
 It's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist and will be doing the same again. Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "pulse."
 
 ```{r}
-corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"), 'rt', 'amp', 'pulse', 'https', 'marketing', 'hillary', 'dont'))
+corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"), 'rt', 'amp', 'pulse', 'https', 'marketing'))
 ```
 
 Plot the wordcloud! There are a number of arguments you can customize: "scale"" indicates the size of the words; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
