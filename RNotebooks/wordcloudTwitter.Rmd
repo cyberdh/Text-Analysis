@@ -35,14 +35,14 @@ library(knitr)
 library(markdown)
 library(rmarkdown)
 library(wordcloud)
-library(qdap)
+library(tm)
 library(RColorBrewer)
 ```
 
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 
 ```{r}
-load(file = "data/twitter/pulse2016-06-16.RData")
+load(file = "data/twitter/HillaryOct4.RData")
 ```
 
 ***
@@ -53,19 +53,19 @@ While it seems logical to use tm (text mining package) again to create our wordc
 First we are going to take the list of 5000 tweets created when we grabbed the file above and convert it into a character vector, grabbing only the text. The "sapply" function to traverse the list "tweets" applying a function "x" which grabs the text. 
 
 ```{r}
-tweetlist <- sapply(tweets, function(x) x$text)
+tweets_text <- sapply(tweets, function(x) x$text)
 ```
 
 Let's look at the first few tweets:
 
 ```{r}
-head(tweetlist)
+head(tweets_text)
 ```
 
 Next we want to strip the URLs from our tweets. Using "gsub" to replace URLS in our list with any of the characters below with nothing (""), our tweetlist is now free of them. Notice that the "|" is used to created a concatenated "http..." or "https..." with wild cards (*) for text after the hypertext transfer protocol.
 
 ```{r}
-tweetlist=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweetlist)
+tweets_text=gsub("(f|ht)(tp)(s?)(://)(.*)[.|/](.*)", "", tweets_text)
 ```
 
 Now we will go on to do the same with mentions, usernames. There may be times when you want to keep these (for example #blacklivesmatter is driven by some central tweeters in the community, including including DeRay Mckesson (@deray), Johnetta Elzie (@nettaaaaaaaa), Shaun King (@shaunking), Daniel Jose Older (@djolder), Bassem Masri (@bassem_masri), and others.
