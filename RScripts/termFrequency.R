@@ -1,5 +1,5 @@
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/") #Set directory path for your environment 
+setwd("~/Text-Analysis/") #Set directory path for your environment 
 
 #Call libraries used in the script 
 library(ggplot2)
