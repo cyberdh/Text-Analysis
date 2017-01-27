@@ -95,5 +95,8 @@ Plot the wordcloud! There are a number of arguments you can customize: "scale"" 
 ```{r}
 wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
 ```
+***
+###Results
 
+![Wordcloud Twitter](./result-imgs/wordCloudTwitter.png)
 VOILA!
