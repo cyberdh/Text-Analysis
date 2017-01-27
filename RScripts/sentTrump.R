@@ -3,7 +3,7 @@
 
 # Global parameters 
   
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
 #Source Multiplot Function
 source("RScripts/multiplot.R")
