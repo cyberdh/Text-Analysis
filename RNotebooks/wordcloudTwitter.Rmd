@@ -99,4 +99,5 @@ wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8,
 ###Results
 
 ![Wordcloud Twitter](./result-imgs/wordCloudTwitter.png)
-VOILA!
+
+###VOILA!
