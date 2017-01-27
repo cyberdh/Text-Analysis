@@ -3,7 +3,7 @@
 library(tm)
 
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
 #Read in the text 
 text_raw<-scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
