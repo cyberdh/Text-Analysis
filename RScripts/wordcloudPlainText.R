@@ -1,7 +1,7 @@
 #Wordcloud of Top 75 Words in Hamlet
 
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
 #Call libraries used in the script
 library(wordcloud)
