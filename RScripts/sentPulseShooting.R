@@ -1,4 +1,3 @@
-
 # Simple Sentiment Analysis for Twitter
 
 # Global parameters 
@@ -80,8 +79,8 @@ pulse.result = score.sentiment(pulse.text, pos.words, neg.words)
 # Plotting Twitter Data
 p1 <- hist(orlando.result$score, xlab="Sentiment Score", ylab="Number of Tweets") 
 p2 <- hist(pulse.result$score, xlab="Sentiment Score", ylab="Number of Tweets")  
-plot( p1, col=rgb(0,0,1,1/4), ylim=c(0,2500))  # first histogram
-plot( p2, col=rgb(1,0,0,1/4), ylim=c(0,2500), xlab="Sentiment Score", ylab="Number of Tweets", main = "Shooting at Pulse LGBT Nightclub in Orlando", add=T)
+plot( p1, col=rgb(0,0,1,1/4), ylim=c(0,2500), xlab="Sentiment Score", ylab="Number of Tweets", main = "Shooting at Pulse LGBT Nightclub in Orlando")  # first histogram
+plot( p2, col=rgb(1,0,0,1/4), ylim=c(0,2500), add = T)
 col=c(rgb(0,0,1,1/4), rgb(1,0,0,1/4))
 legend(2, 1500, legend=c("orlando", "pulse"),
 fill=col, cex=0.8)
