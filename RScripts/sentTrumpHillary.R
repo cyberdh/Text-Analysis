@@ -4,7 +4,7 @@
 # Global parameters 
 
 
-setwd("/N/home/k/l/klosteda/Karst/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
 # Include necessary packages
 library(twitteR)
