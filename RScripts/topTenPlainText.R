@@ -1,7 +1,7 @@
 #Top Ten Words in Hamlet, Curated Stopwords Removed
 #Call libraries used in the script
 #Set the working directory
-setwd("/N/home/c/y/cyberdh/Karst/Text-Analysis/")
+setwd("~/Text-Analysis/")
 
 #Call libraries used in the script
 library(tm)
