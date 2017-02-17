@@ -16,7 +16,7 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 HINT: Your working directory is the folder from which you will be pulling your data.
 
 ```{r}
-setwd("/N/home/c/y/cyberdh/Text-Analysis/RNotebooks")
+setwd("~/Text-Analysis/")
 ```
 
 ***
@@ -53,12 +53,13 @@ The tm library works with a "corpus," which can represent a single text, many te
 corpus <- Corpus(VectorSource(text_raw))
 ```
 
-One of the great things about using tm is that it has many text cleaning functions built into it. Here we have removed extra white space, transformed all the text to lower case, removed stopwords, and removed punctuation. It is possible to simply use an "english" (or other language) stopword list, but I have found the SMART list to be more complete. For example, "said" is on the SMART stopword list but not on the standard "english" list. 
+One of the great things about using tm is that it has many text cleaning functions built into it. Here we have removed extra white space, transformed all the text to lower case, removed stopwords, and removed punctuation. It is possible to simply use an "english" (or other language) stopword list, but I have found the SMART list to be more complete. For example, "said" is on the SMART stopword list but not on the standard "english" list. Since we are analyzing Shakespeare we also created our own Early Modern English stopword list. While the SMART list is more complete, it does not work well with the Early Modern list, so for the purposes of this notebook, we recommend you use the "english" stopword list. 
 
 ```{r}
+myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
-corpus <- tm_map(corpus, removeWords, stopwords("SMART"))
 corpus <- tm_map(corpus, removePunctuation)
 ```
 
