@@ -18,7 +18,7 @@ If you are using RStudio, click Session in the menu bar > Set Working Directory 
 HINT: Your working directory is the folder from which you will be pulling your data.
 
 ```{r}
-setwd("/N/home/c/y/cyberdh/Text-Analysis/")
+setwd("~/Text-Analysis/")
 ```
 
 ***
