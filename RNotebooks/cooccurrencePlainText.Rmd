@@ -63,14 +63,16 @@ To clean the corpus in this example, we are using the tm package's built in tool
 2) remove stopwords ("a" "an" "the"), 
 3) remove any other words the tm package might not consider a stopword by using the earlyModernStopword.txt file found in the data folder.
 4) remove punctuation
-5) strip out any whitespace between words 
+5) strip out any whitespace between words
+6) return corpus to Plain Text
 
 ```{r}
 corpus <- tm_map(corpus, content_transformer(tolower))
-corpus <- tm_map(corpus, removeWords, stopwords("english"))
 myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
+corpus <- tm_map(corpus, PlainTextDocument)
 ```
 
 ***
