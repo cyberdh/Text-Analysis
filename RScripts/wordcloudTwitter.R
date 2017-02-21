@@ -8,7 +8,7 @@ library(twitteR)
 setwd("~/Text-Analysis/")
 
 #load file with saved tweets
-load("data/twitter/pulse2016-06-16.RData")
+load("data/twitter/HillaryOct4.RData")
 
 tweets_text <- sapply(tweets, function(x) x$text)
 
@@ -20,7 +20,7 @@ corpus <- tm_map(corpus,
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, content_transformer(removePunctuation))
 corpus <- tm_map(corpus, content_transformer(removeNumbers))
-corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"), 'rt', 'amp', 'pulse', 'https', 'marketing', 'hillary', 'dont'))
+corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
 
 
 
