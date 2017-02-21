@@ -1,10 +1,6 @@
 ---
 output: pdf_document
 ---
-***
-## Wordcloud of Top 100 Words in tweets using the keyword "pulse"
-
-Using 5000 tweets with the hashtag #pulse from June 16, 2016, we will create a wordcloud of the top words used to describe the tragedy.
 
 ***
 ### Global parameters 
@@ -25,9 +21,7 @@ setwd("~/Text-Analysis/")
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
-OR
-
-If you are using RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages.
+In RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages. Or in the bottom right panel click on the "packages" tab and then click on "install."
 
 ```{r}
 library(knitr)
@@ -41,7 +35,7 @@ library(RColorBrewer)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 
 ```{r}
-load(file = "data/twitter/pulse2016-06-16.RData")
+load(file = "data/twitter/HillaryOct4.RData")
 ```
 
 ***
@@ -86,7 +80,7 @@ corpus <- tm_map(corpus, content_transformer(removeNumbers))
 It's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist and will be doing the same again. Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "pulse."
 
 ```{r}
-corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"), 'rt', 'amp', 'pulse', 'https', 'marketing'))
+corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
 ```
 
 Plot the wordcloud! There are a number of arguments you can customize: "scale"" indicates the size of the words; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
