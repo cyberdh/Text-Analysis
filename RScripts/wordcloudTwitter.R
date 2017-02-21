@@ -8,7 +8,7 @@ library(twitteR)
 setwd("~/Text-Analysis/")
 
 #load file with saved tweets
-load("data/twitter/HillaryOct4.RData")
+load("data/twitter/pulse2016-06-16.RData")
 
 tweets_text <- sapply(tweets, function(x) x$text)
 
