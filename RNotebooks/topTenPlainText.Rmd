@@ -114,4 +114,4 @@ barplot(head(freq, 10), ylim=c(0,250), col=c("red", "orange","yellow","green4","
      main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="s")
 ```
 
-![Top Ten Plain Text results](./result-imgs/topTenPlainTxt.png)
+![Top Ten Plain Text results](./result-imgs/topTenPlainTxtBar.png)
