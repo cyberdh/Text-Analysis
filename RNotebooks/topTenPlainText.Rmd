@@ -25,7 +25,7 @@ setwd("~/Text-Analysis/")
 
 R's extensibility comes in large part from packages. Packages are groups of functions, data, and algorithms that allow users to easily carry out processes without recreating the wheel. Some packages are included in the basic installation of R, others created by R users are available for download. Make sure to have the following packages installed before beginning so that they can be accessed while running the scripts.
 
-In RStudio, packages can be installed by navigating to Tools in the menu bar > Install Packages.
+In R Studio, packages can be installed by navigating to Tools in the menu bar > Install Packages. Or in the bottom right panel click on the "packages" tab and then click on "install."
 
 The first four packages are used to render the RNotebook you are currently viewing:
 
