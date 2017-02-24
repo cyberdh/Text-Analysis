@@ -6,6 +6,7 @@ setwd("~/Text-Analysis/")
 #Call libraries used in the script
 library(tm)
 
+
 #Read in the text 
 text_raw<-scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 
@@ -28,8 +29,8 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 #Remix ideas: 1) Play around with the number of word on the chart by changing it from "10"
 # 2) Don't forget the adjust your plot's title if you have changed the input text
 # 3) Look the frequency of all the words in the corpus by typing "freq" into the console
-plot(head(freq, 10), type="b", lwd=2, col="blue", col.lab="red", main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="n",)
-axis(1,1:10, cex=.5, labels=names(head(freq, 10)))
+barplot(head(freq, 10), ylim=c(0,250), col=c("red3", "orange3","yellow3","green3","blue3","darkorchid3","darkred", "darkorange", "gold", "darkgreen"), col.lab="red",
+     main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="s")
 
 
 
