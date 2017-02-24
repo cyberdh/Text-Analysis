@@ -70,6 +70,6 @@ wordcloud(corpus,random.order=FALSE,scale=c(3,.1),rot.per=0,
 ***
 ### Results
 
-![Wordcloud Plain Text results](./result-imgs/wordCloudPlainText.png)
+![Wordcloud Plain Text results](./result-imgs/wordcloudPlainText.png)
 
 ### Voila!
