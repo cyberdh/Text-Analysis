@@ -110,8 +110,8 @@ freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 Finally, we can plot and view the data as a line graph with the top ten words along the x-axis and the frequency of appearance along the y-axis. 
 
 ```{r}
-barplot(head(freq, 10), ylim=c(0,250), col=c("red", "orange","yellow","green4","blue","darkorchid","darkred", "darkorange3", "gold", "darkolivegreen"), col.lab="red",
+barplot(head(freq, 10), ylim=c(0,250), col=c("red3", "orange3","yellow3","green3","blue3","darkorchid3","darkred", "darkorange", "gold", "darkgreen"), col.lab="red",
      main="Hamlet, Entire Play", xlab="Top Ten Words", ylab="Number of Occurences", xaxt="s")
 ```
 
-![Top Ten Plain Text results](./result-imgs/topTenPlainTxtBar.png)
+![Top Ten Plain Text results](./result-imgs/topTenPlainTxtBar2.png)
