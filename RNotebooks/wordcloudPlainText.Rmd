@@ -50,7 +50,7 @@ The tm library works with a "corpus," which can represent a single text, many te
 corpus <- Corpus(VectorSource(text_raw))
 ```
 
-One of the great things about using tm is that it has many text cleaning functions built into it. Here we have removed extra white space, transformed all the text to lower case, removed stopwords, and removed punctuation. It is possible to simply use an "english" (or other language) stopword list, but I have found the SMART list to be more complete. For example, "said" is on the SMART stopword list but not on the standard "english" list. Since we are analyzing Shakespeare we also created our own Early Modern English stopword list. While the SMART list is more complete, it does not work well with the Early Modern list, so for the purposes of this notebook, we recommend you use the "english" stopword list. 
+One of the great things about using tm is that it has many text cleaning functions built into it. Here we have removed extra white space, transformed all the text to lower case, removed stopwords, removed punctuation, and converted it to plain text. It is possible to use an "english" (or other language) stopword list, but we have found the SMART list to be more complete, for example, "said" is on the SMART stopword list but not on the standard "english" list. However, since we are analyzing Shakespeare we also created our own Early Modern English stopword list, and, while the SMART list is more complete, it does not work well with the Early Modern list, so for the purposes of this notebook, we recommend you use the "english" stopword list in conjunction with the Early Modern English stopword list. 
 
 ```{r}
 myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
@@ -58,6 +58,7 @@ corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removePunctuation)
+corpus <- tm_map(corpus, PlainTextDocument)
 ```
 
 Plot the wordcloud! There are a number of arguments you can customize: "random.order" is false so that words are plotted in order of decreasing frequency; "scale"" indicates the size of the words; "rot.per" lets you customize the proportion of words that are rotated 90 degrees; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
