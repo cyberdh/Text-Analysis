@@ -74,9 +74,9 @@ Hint 2: Another popular naming convention is to list the type of object with the
 
 ```{r}
   clinton.tweets <- readRDS("data/twitter/tweetsclinton.RData")
-  cruz.tweets <- readRDS("data/twitter/tweetssanders.RData")
-  sanders.tweets <- readRDS("data/twitter/tweetstrump.RData")
-  trump.tweets <- readRDS("data/twitter/tweetscruz.RData")
+  cruz.tweets <- readRDS("data/twitter/tweetscruz.RData")
+  sanders.tweets <- readRDS("data/twitter/tweetssanders.RData")
+  trump.tweets <- readRDS("data/twitter/tweetstrump.RData")
 ```
 
 ***
@@ -138,7 +138,7 @@ Add words relevant to our corpus using the combine c() function:
 
 ```{r}
 pos.words = c(lex.pos, 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
-neg.words = c(lex.neg, 'lose', 'losing', 'defeat', 'halt')
+neg.words = c(lex.neg, 'outnumbered', 'lose', 'losing', 'defeat', 'halt')
 ```
 
 ***
