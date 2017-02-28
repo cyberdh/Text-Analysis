@@ -30,6 +30,7 @@ library(rmarkdown)
 library(wordcloud)
 library(tm)
 library(RColorBrewer)
+library(twitteR)
 ```
 
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
