@@ -47,8 +47,8 @@ lex.pos = scan('data/opinionLexicon/positive-words.txt', what='character', comme
 lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comment.char = ';')
 
 #add words using the c() [combine] function
-pos.words = c(lex.pos, 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
-neg.words = c(lex.neg, 'outnumbered','defeat', 'halt')
+pos.words = c(lex.pos, 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
+neg.words = c(lex.neg, 'outnumbered', 'lose', 'losing', 'defeat', 'halt')
 
 # Implement Sentiment Scoring Algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
@@ -92,8 +92,8 @@ score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
 
 # Algorithm Testing
 sample = c("This ice cream is the best! I love this flavor!", "I am so angry at the terrible weather today. Frustrated.", "Wow, spectacular, I wish I could be as perfect as you.")
-sampleResult = score.sentiment(sample, pos.words, neg.words)
-sampleResult
+sample.result = score.sentiment(sample, pos.words, neg.words)
+sample.result
 
 
 # Scoring Twitter Data
