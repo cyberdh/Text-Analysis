@@ -6,6 +6,7 @@ setwd("~/Text-Analysis/")
 #Call libraries used in the script
 library(wordcloud)
 library(tm)
+library(RColorBrewer)
 
 #Create a corpus -- this creates a wordcloud of the entire Shakesperean corpus
 #corpus <- Corpus(DirSource("data/shakespeareFolger"))
