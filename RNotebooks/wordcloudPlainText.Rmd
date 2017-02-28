@@ -63,7 +63,7 @@ corpus <- tm_map(corpus, removePunctuation)
 Plot the wordcloud! There are a number of arguments you can customize: "random.order" is false so that words are plotted in order of decreasing frequency; "scale"" indicates the size of the words; "rot.per" lets you customize the proportion of words that are rotated 90 degrees; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
 
 ```{r}
-wordcloud(corpus,random.order=FALSE,scale=c(3,.1),rot.per=0,
+wordcloud(corpus,random.order=FALSE,scale=c(4,1),rot.per=0,
           max.words=75,colors=brewer.pal(8, "Dark2"))
 ```
 
