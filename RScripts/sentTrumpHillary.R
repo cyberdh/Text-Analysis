@@ -28,8 +28,8 @@ lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comme
 
 # Add words relevant to our corpus using the combine c() function:
 
-pos.words = c(lex.pos)
-neg.words = c(lex.neg)
+pos.words = c(lex.pos, 'imwithher', 'maga', 'america', 'makeamericagreatagain', 'first', 'hillaryforamerica', 'hillary4america', 'imwithyou', 'strongertogether')
+neg.words = c(lex.neg, 'crooked', 'crookedhillary', 'drumpf', 'dumptrump', 'demagogue', 'prejudice', 'racist', 'thedonald', 'mock', 'xenophobic', 'trump', 'bitch', 'fuck', 'taxes', 'tax', 'deny', 'denying', 'cunt', 'pussy', 'russia', 'russian', 'wikileaks')
 
 # Implement the sentiment scoring algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
