@@ -117,16 +117,19 @@ head(sanders.result)
 head(trump.result)
 
 #Plotting Twitter Data
-clinton.plot = qplot(clinton.result$score, xlim=(c(-7,7)),
+clinton.plot = qplot(clinton.result$score, fill=I("blue"), xlim=(c(-7,7)), 
                      main = "Sentiment of @HillaryClinton on Twitter", 
-                     xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-cruz.plot = qplot(cruz.result$score, xlim=(c(-7,7)),
+                     xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)") 
+cruz.plot = qplot(cruz.result$score, fill=I("red"), xlim=(c(-7,7)),
                   main = "Sentiment of @tedcruz on Twitter",
                   xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-sanders.plot = qplot(sanders.result$score, xlim=(c(-7,7)),
-                    main = "Sentiment of @BernieSanders on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
-trump.plot = qplot(trump.result$score, xlim=(c(-7,7)),
-                   main = "Sentiment of @realDonaldTrump on Twitter", xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+sanders.plot = qplot(sanders.result$score, fill=I("darkgreen"), xlim=(c(-7,7)),
+                    main = "Sentiment of @BernieSanders on Twitter", 
+                    xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+trump.plot = qplot(trump.result$score, fill=I("darkorange"), xlim=(c(-7,7)),
+                   main = "Sentiment of @realDonaldTrump on Twitter", 
+                   xlab= "Valence of Sentiment (Tweet Score)", ylab="Count (Tweets)")
+
 
 
 
