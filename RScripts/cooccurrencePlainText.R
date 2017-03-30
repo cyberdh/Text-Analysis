@@ -23,10 +23,11 @@ corpus <- tm_map(corpus, PlainTextDocument)
 
 #Create matrix using DocumentTermMatrix function and saving it as "dtm"
 dtm <- DocumentTermMatrix(corpus)
+dtms <- removeSparseTerms(dtm, 0.2)
 
 #Find overall frequency 
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
 
 #Find results: NOTE: for this to work, you must first click the "Source" button in the source box and then run the findAssocs script in the Console on the bottom left in RStudio. It must be done in that order.
-findAssocs(dtm, "father", .6)
-#findAssocs(dtm, "love", .6)
+findAssocs(dtms, "father", .6)
+#findAssocs(dtms, "love", .6)
