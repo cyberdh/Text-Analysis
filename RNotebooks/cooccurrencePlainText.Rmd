@@ -78,16 +78,21 @@ corpus <- tm_map(corpus, PlainTextDocument)
 ***
 #### Processing
 
-After the corpus has been cleaned, we can now begin to process the text. The next step uses the DocumentTermMatrix() function again from the tm package. This function creates a matrix where each document is a row and the terms in the text make up the columns, saved here as "dtm." The rest of the matrix consists of the frequencies for each term within each document.
+After the corpus has been cleaned, we can now begin to process the text. The next step uses the DocumentTermMatrix() function again from the tm package. This function creates a matrix where each document is a row and the terms in the text make up the columns, saved here as "dtm." The rest of the matrix consists of the frequencies for each term within each document. 
 
 ```{r}
 dtm <- DocumentTermMatrix(corpus)
 ```
-
-Once we've created the Document-Term Matrix, we need to find the overall frequency of each term across the corpus. Here, we get the sums of the columns (colSums) within the Document-Term Matrix and save it as a sorted numeric vector called "freq."
+After we create the DocumentTermMatrix we need to remove sparse terms, another from the tm package. This helps eliminate things appearing to co-occure when in reality they simply co-locate. An example being the word "squirrel" appears to co-occure with the word "love" in Shakespeare's plays at a .69 rate. Well, Shakespeare only uses the word "squirrel" three times, and love appears near it two of the three times. Basically, by removing sparse terms we eliminate these false co-occurence rates.  
 
 ```{r}
-freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
+dtms <- removeSparseTerms(dtm, 0.5)
+```
+
+Once we've created the Document-Term Matrix and removed sparse terms, we need to find the overall frequency of each term across the corpus. Here, we get the sums of the columns (colSums) within the Document-Term Matrix and save it as a sorted numeric vector called "freq."
+
+```{r}
+freq <- sort(colSums(as.matrix(dtms)), decreasing = TRUE)
 ```
 
 ***
