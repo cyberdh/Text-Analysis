@@ -101,8 +101,8 @@ freq <- sort(colSums(as.matrix(dtms)), decreasing = TRUE)
 Finally, we use the tm function findAssocs to find the top ten associations with any word we choose. NOTE: for this to work, you must first click the "Source" button in the source box and then run the findAssocs script in the Console on the bottom left in RStudio. It must be done in that order. It is recommended that you just comment out the findAssocs function in the Source box and copy and paste it into the Console box just below it. If you try to run the findAssocs script in the Source box on the top left, you will see no results. The example below is the word "father" but you can choose any word as you are learning, or can even have multiple lines returning multiple associations (uncomment the line below the "father" association line)
 
 ```{r}
-findAssocs(dtm, "father", .6)
-#findAssocs(dtm, "love", .6)
+findAssocs(dtms, "father", .6)
+#findAssocs(dtms, "love", .6)
 ```
 
 ![CoOccurrence Plain Text results](./result-imgs/cooccurrencePlainText.png)
