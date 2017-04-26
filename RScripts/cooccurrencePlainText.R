@@ -19,14 +19,13 @@ myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
-corpus <- tm_map(corpus, PlainTextDocument)
 
 #Create matrix using DocumentTermMatrix function and saving it as "dtm"
 dtm <- DocumentTermMatrix(corpus)
-dtms <- removeSparseTerms(dtm, 0.2)
+dtms <- removeSparseTerms(dtm, 0.5)
 
 #Find overall frequency 
-freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
+freq <- sort(colSums(as.matrix(dtms)), decreasing = TRUE)
 
 #Find results: NOTE: for this to work, you must first click the "Source" button in the source box and then run the findAssocs script in the Console on the bottom left in RStudio. It must be done in that order.
 findAssocs(dtms, "father", .6)
