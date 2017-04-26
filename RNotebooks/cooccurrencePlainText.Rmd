@@ -83,7 +83,7 @@ After the corpus has been cleaned, we can now begin to process the text. The nex
 ```{r}
 dtm <- DocumentTermMatrix(corpus)
 ```
-After we create the DocumentTermMatrix we need to remove sparse terms, another from the tm package. This helps eliminate things appearing to co-occure when in reality they simply co-locate. An example being the word "squirrel" appears to co-occure with the word "love" in Shakespeare's plays at a .69 rate. Well, Shakespeare only uses the word "squirrel" three times, and love appears near it two of the three times. Basically, by removing sparse terms we eliminate these false co-occurence rates.  
+After we create the DocumentTermMatrix we need to remove sparse terms, another function from the tm package. This helps eliminate sparse terms that appeare to co-occure when in reality they do not. An example being the word "squirrel" appears to co-occure with the word "love" in Shakespeare's plays at a .69 rate. Well, Shakespeare only uses the word "squirrel" three times, and "love" appears near "squirrel" in two of the three plays (thus the 69% rate). Basically, by removing sparse terms we eliminate these false co-occurences. The 0.5 eliminates terms that appear 0 times in 50% of the documents. So the higher your percentage, the fewer terms are removed. If you choose 0.8, you are removing terms that appear 0 times in 80% of the documents, which means the term only needs to appear 1 time in 20% of the documents to remain in the dtms.   
 
 ```{r}
 dtms <- removeSparseTerms(dtm, 0.5)
