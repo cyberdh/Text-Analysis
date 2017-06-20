@@ -1,4 +1,4 @@
-#Top Ten Word Co-occurrence, Curated Stopwords Removed
+#Word Correlation, Curated Stopwords Removed
 
 library(NLP)
 library(tm)
