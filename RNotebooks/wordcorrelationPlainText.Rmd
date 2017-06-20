@@ -4,7 +4,7 @@ output: pdf_document
 ***
 ## Correlation of Words in the Shakespeare Drama Corpus
 
-The following word correlation script aims to discover the semantic proximity of two words throughout the Shakespeare Drama Corpus. At the end, it will take in a word of the user's choice and find the top ten words that correlate using pearson's correlation coefficient. 
+The following word correlation script aims to discover the semantic proximity of two words throughout the Shakespeare Drama Corpus. At the end, it will take in a word of the user's choice and find the words that correlate above your chosen rate (here it is .6) using pearson's correlation coefficient. 
 
 ***
 #### Global parameters 
