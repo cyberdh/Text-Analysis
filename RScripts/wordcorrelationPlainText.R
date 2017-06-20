@@ -22,7 +22,8 @@ corpus <- tm_map(corpus, stripWhitespace)
 
 #Create matrix using DocumentTermMatrix function and saving it as "dtm"
 dtm <- DocumentTermMatrix(corpus)
-dtms <- removeSparseTerms(dtm, 0.5)
+#remove sparse terms. If a word is absent from 40% of the chunks, it will be removed. 
+dtms <- removeSparseTerms(dtm, 0.4)
 
 #Find overall frequency 
 freq <- sort(colSums(as.matrix(dtms)), decreasing = TRUE)
