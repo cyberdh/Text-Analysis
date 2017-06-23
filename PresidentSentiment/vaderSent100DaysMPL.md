@@ -1,3 +1,6 @@
+# Vader Sentiment Analysis of First 100 Days of the Trump Administration
+
+For more information about how Vader works behind the scenes see here: https://github.com/cjhutto/vaderSentiment
 
 #### Load Packages
 
