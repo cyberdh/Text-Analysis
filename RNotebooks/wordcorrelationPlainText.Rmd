@@ -33,7 +33,7 @@ markdown - a package used to render textual documents from plain text to others 
 rmarkdown - similar to markdown but specifically to render R documents
 
 
-The next packages are used within the co-occurrence script:
+The next packages are used within the word correlation script:
 
 NLP - Natural language processing package. Provides basic classes and methods for Natural Language Processing.
 
