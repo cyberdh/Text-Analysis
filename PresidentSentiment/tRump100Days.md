@@ -13,6 +13,23 @@ library(twitteR)
 library(ggplot2)
 ```
 
+    Loading required package: NLP
+    
+    Attaching package: ‘twitteR’
+    
+    The following object is masked from ‘package:plyr’:
+    
+        id
+    
+    
+    Attaching package: ‘ggplot2’
+    
+    The following object is masked from ‘package:NLP’:
+    
+        annotate
+    
+
+
 #### Set working Directory
 
 
