@@ -62,8 +62,7 @@ corpus <- Corpus(VectorSource(tweets_text))
 Next, we need to convert the text to UTF-8 as sometimes the program has difficulty reading the characters:
 ```{r}
 corpus <- tm_map(corpus,
-                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
-                 mc.cores=1)
+                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')))
 ```
 Now we need to convert all the text to lower case, so that "Clinton" and "clinton" are not seen as seperate words.
 ```{r}
@@ -71,17 +70,17 @@ corpus <- tm_map(corpus, content_transformer(tolower))
 ```
 Now we need to remove all punctuation so that only alphanumeric characters are read:
 ```{r}
-corpus <- tm_map(corpus, content_transformer(removePunctuation))
+corpus <- tm_map(corpus, removePunctuation)
 ```
 You may also wish to eliminate numbers, especially if they skew your results any, however, numbers may also be important, so that is why this one is optional:
 ```{r}
-corpus <- tm_map(corpus, content_transformer(removeNumbers))
+corpus <- tm_map(corpus, removeNumbers)
 ```
 
 It's time to remove stopwords. In our plain text wordcloud, we used tm's options for a wordlist and will be doing the same again. Concatenated onto the list are common twitter words not yet eliminated such at "rt" (retweet), "amp" (&), and our search term "pulse."
 
 ```{r}
-corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
 ```
 
 Plot the wordcloud! There are a number of arguments you can customize: "scale"" indicates the size of the words; "max.words" controls how many words show up in the wordcloud; and we've used the library "RColorBrewer" to give us access to some predefined palettes. Note that if you change the palette, you need to tell the argument how many colors are in the new palette. 
