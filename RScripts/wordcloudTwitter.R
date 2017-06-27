@@ -15,12 +15,11 @@ tweets_text <- sapply(tweets, function(x) x$text)
 corpus <- Corpus(VectorSource(tweets_text))
 
 corpus <- tm_map(corpus,
-                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
-                 mc.cores=1)
+                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')))
 corpus <- tm_map(corpus, content_transformer(tolower))
-corpus <- tm_map(corpus, content_transformer(removePunctuation))
-corpus <- tm_map(corpus, content_transformer(removeNumbers))
-corpus <- tm_map(corpus, content_transformer(removeWords), c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
+corpus <- tm_map(corpus, removePunctuation)
+corpus <- tm_map(corpus, removeNumbers)
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
 
 
 
