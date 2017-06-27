@@ -36,7 +36,7 @@ library(twitteR)
 Load data (this time a curated set of tweets grabbed using the twitterR library and API authentication, then saved with the .RData extension)
 
 ```{r}
-load(file = "data/twitter/HillaryOct4.RData")
+load("data/twitter/HillaryOct4.RData")
 ```
 
 ***
