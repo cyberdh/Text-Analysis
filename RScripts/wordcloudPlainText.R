@@ -1,11 +1,7 @@
 #Wordcloud of Top 75 Words in Hamlet
 
 #Set the working directory
-<<<<<<< Updated upstream
 setwd("~/Text-Analysis/")
-=======
-setwd("~/Desktop/Text-Analysis/")
->>>>>>> Stashed changes
 
 #Call libraries used in the script
 library(wordcloud)
@@ -28,12 +24,7 @@ myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
-corpus <- tm_map(corpus, PlainTextDocument)
-
-dtm <- DocumentTermMatrix(corpus)
-freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
-write.csv(freq, file = "~/Desktop/R/Text_AnalysisNotGIT/ShinyApps/HamletWordcloud/hamletFreq.csv")
-write.csv(names(head(freq)), file="~/Desktop/R/Text_AnalysisNotGIT/ShinyApps/HamletWordcloud/hamletWords.csv")
+#corpus <- tm_map(corpus, PlainTextDocument)
 
 wordcloud(corpus,random.order=FALSE,scale=c(4,1),rot.per=0,
           max.words=75,colors=brewer.pal(8, "Dark2"))
