@@ -2,7 +2,7 @@
 #Call libraries used in the script
 #Set the working directory
 setwd("~/Text-Analysis/")
-
+options(mc.cores = 1)
 #Call libraries used in the script
 library(tm)
 
