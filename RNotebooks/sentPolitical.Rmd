@@ -233,16 +233,16 @@ trump.result = score.sentiment(trump.text, pos.words, neg.words)
 Lets peek at the results to see if it is still working...
 
 ```{r}
-head(clinton.result)
+tail(clinton.result)
 ```
 ```{r}
-head(cruz.result)
+tail(cruz.result)
 ```
 ```{r}
-head(sanders.result)
+tail(sanders.result)
 ```
 ```{r}
-head(trump.result)
+tail(trump.result)
 ```
 
 ***
