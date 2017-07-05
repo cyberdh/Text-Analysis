@@ -40,7 +40,7 @@ load("data/twitter/HillaryOct4.RData")
 ```
 
 ***
-###Prepare text data
+### Prepare text data
 
 While it seems logical to use tm (text mining package) again to create our wordcloud, there is a bug in the library that causes it to fail with this kind of data when run on a mac. Instead, we will take the opportunity to process the data in a different way.
 
