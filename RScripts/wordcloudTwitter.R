@@ -15,7 +15,7 @@ tweets_text <- sapply(tweets, function(x) x$text)
 corpus <- Corpus(VectorSource(tweets_text))
 
 corpus <- tm_map(corpus,
-                 content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')))
+                 content_transformer(function(x) iconv(x, 'ASCII', UTF-8', sub='')))
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeNumbers)
