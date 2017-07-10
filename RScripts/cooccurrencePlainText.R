@@ -40,4 +40,4 @@ words_summarized <- nearby_words %>%
 write.csv(words_summarized, file = "ChooseAnyNameYouWant.csv")
 print(words_summarized)
 
-#Much of this code was derived from David Robinson on stackoverflow who created the tidytext and fuzzyjoin packages in R.
+#Much of this code was derived from David Robinson on stackoverflow who helped create the tidytext and fuzzyjoin packages in R.
