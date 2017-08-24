@@ -17,10 +17,9 @@ corpus <- Corpus(VectorSource(tweets_text))
 corpus <- tm_map(corpus,
                  content_transformer(function(x) iconv(x, 'ASCII', UTF-8', sub='')))
 corpus <- tm_map(corpus, content_transformer(tolower))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeNumbers)
-corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'hillary', 'dont'))
-
 
 
 wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
