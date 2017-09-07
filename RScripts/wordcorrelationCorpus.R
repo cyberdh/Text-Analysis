@@ -1,14 +1,15 @@
 #Word Correlation, Curated Stopwords Removed
-#Set the working directory
-setwd("~/Text-Analysis/")
 
-#load necessary packages
 library(NLP)
 library(tm)
 
-#Create a corpus
-text_raw <- scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
-corpus <- Corpus(VectorSource(text_raw))
+
+#Set the working directory
+setwd("~/Text-Analysis/")
+
+
+#Create a corpus 
+corpus <- Corpus(DirSource("data/shakespeareFolger/"))
 
 #Clean the corpus
 corpus <- tm_map(corpus, content_transformer(tolower))
@@ -19,13 +20,9 @@ corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 
-chunk.size <- 500
-x <- seq_along(corpus)
-text.chunks <- split(corpus, ceiling(x/chunk.size))
 
-corpus.chunk <- Corpus(VectorSource(text.chunks))
 #Create matrix using DocumentTermMatrix function and saving it as "dtm"
-dtm <- DocumentTermMatrix(corpus.chunk)
+dtm <- DocumentTermMatrix(corpus)
 #remove sparse terms. If a word is absent from 40% of the chunks, it will be removed. 
 dtms <- removeSparseTerms(dtm, 0.4)
 
