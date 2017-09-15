@@ -6,6 +6,8 @@ setwd("~/Text-Analysis/")
 library(NLP)
 library(tm)
 
+options(mc.cores=1)
+
 #Create a corpus
 text_raw <- scan("data/shakespeareFolger/Hamlet.txt", what="character", sep="\n")
 corpus <- Corpus(VectorSource(text_raw))
