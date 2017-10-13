@@ -1,0 +1,3783 @@
+
+                STAR TREK: THE NEXT GENERATION 
+                              
+                           "Legacy" 
+                          #40274-180 
+                              
+                          Written by 
+                          Joe Menosky 
+                              
+                          Directed by 
+                        Robert Scheerer 
+
+
+THE WRITING CREDITS MAY NOT BE FINAL AND SHOULD NOT BE USED
+FOR PUBLICITY OR ADVERTISING PURPOSES WITHOUT FIRST CHECKING
+WITH THE TELEVISION LEGAL DEPARTMENT.
+
+Copyright 1990 Paramount Pictures Corporation. All Rights
+Reserved. This script is not for publication or
+reproduction. No one is authorized to dispose of same. If
+lost or destroyed, please notify the Script Department.
+
+                        FINAL DRAFT
+ 
+                      AUGUST 20, 1990
+ 
+
+
+             STAR TREK: "Legacy" - 8/20/90 - CAST 
+
+                STAR TREK: THE NEXT GENERATION 
+                           "Legacy" 
+
+                             CAST                               
+                              
+                PICARD             HAYNE
+                RIKER              ISHARA YAR
+                DATA               COALITION MAN #1
+                BEVERLY            TAN TSU
+                TROI               
+                GEORDI             
+                WORF               
+                                   Non-Speaking
+                                   VARIOUS TURKANANS
+                O'BRIEN            
+                                   COALITION MEMBERS
+                                   ALLIANCE MEMBERS
+                Non-Speaking       
+                SUPERNUMERARIES    
+
+             STAR TREK: "Legacy" - 8/20/90 - SETS 
+
+                STAR TREK: THE NEXT GENERATION 
+                           "Legacy" 
+                               
+                             SETS 
+
+            INTERIORS                  EXTERIORS
+          
+            USS ENTERPRISE             USS ENTERPRISE
+              MAIN BRIDGE
+              OBSERVATION LOUNGE       FREIGHTER ARCOS
+              ENGINEERING
+              TRANSPORTER ROOM         TURKANA FOUR
+              CORRIDORS                  CITY (MATTE)
+              CAPTAIN'S READY ROOM
+              PICARD'S QUARTERS
+              TEN-FORWARD
+              SICKBAY
+          
+            TURKANA FOUR
+              TUNNEL ENTRANCE
+              MISC. TUNNELS & ADJOINING CORRIDORS
+              ALLIANCE POWER GENERATOR
+              ALLIANCE CHAMBERS
+              ARCOS ESCAPE POD
+
+      STAR TREK: "Legacy" - REV. 8/30/90 - PRONUNCIATION 
+
+                STAR TREK: THE NEXT GENERATION 
+                           "Legacy" 
+                             
+                      PRONUNCIATION GUIDE 
+
+                CAMUS                  CAM-us
+                CHROMOSOMES            KROH-mah-sohms
+                ISHARA                 ish-ARE-uh
+                MYO-GRAPHIC SCANNER    MY-oh graph-ic
+                SOMATIC                so-MAT-ic
+                SYNTHALE               SYNTH-ale
+                TAN TSU                tahn tsoo
+                TELLURIDAN             tel-LUR-i-done
+                TURKANA                tur-KAH-nuh
+                VAGRA TWO              VAY-gra 2
+
+
+         STAR TREK: "Legacy" - REV. 9/24/90 - TEASER         1.
+
+                STAR TREK: THE NEXT GENERATION                  
+                           "Legacy"                                
+                            TEASER                              
+
+	FADE IN:
+
+A1	EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	Travelling at standard warp.
+
+B1	INT. RIKER'S QUARTERS
+
+	RIKER, DATA, TROI and WORF are playing five-card draw
+	poker, Riker dealing. Riker and Data have similarly
+	large piles of chips in front of them. It looks like
+	Troi and Worf are down to mortgaging the farm. Worf
+	stares at his hand -- his poker face leaves a lot to
+	be desired.
+
+					WORF
+				(scowls)
+			One.
+
+					RIKER
+				(baiting him)
+			Worf. Are you trying to fill
+			another inside straight?
+
+	Worf grunts.
+
+					RIKER
+				(continuing)
+			Don't say I didn't warn you.
+
+	Riker deals him a card. Worf takes a look and folds.
+
+					WORF
+			Pah.
+
+					TROI
+				(to Riker)
+			I fold.
+
+
+        STAR TREK: "Legacy" - REV. 9/24/90 - TEASER        1A.
+
+B1	CONTINUED:
+
+	Riker looks at Data, who carefully adds two chips,
+	followed by three more.
+
+					DATA
+			I will raise you three.
+
+					RIKER
+			No cards?
+
+	Riker reacts as Data answers with an utterly unreadable
+	look.
+
+					RIKER
+				(to others)
+			Best poker face I've ever seen.
+
+	Riker stares at Data for a beat.
+
+					RIKER
+			Dealer takes two.
+
+	Riker deals himself two cards. Stares at them for a
+	moment. Adds five chips to the pile. Then five more.
+	He looks at Data.
+
+					RIKER
+				(continuing)
+			Raise you ten.
+
+	Without hesitation, Data counts out ten chips, then
+	twenty more.
+
+					DATA
+			I will see your bet, and raise
+			you twenty.
+
+	Riker smiles.
+
+					RIKER
+			Data. Are you sitting on a full
+			house or a flush?
+
+					DATA
+			It will cost you twenty to make
+			that determination, Sir.
+
+        STAR TREK: "Legacy" - REV. 9/18/90 - TEASER        1B.
+
+B1	CONTINUED: (2)
+
+	Riker stares at him for a few beats. Smiles and tosses
+	in his cards.
+
+					RIKER
+			Dealer folds.
+
+	Data calmly pulls in the chips. Both Troi and Worf
+	push back from the table -- finished for the night.
+	Troi looks at the chips in front of Riker and Data,
+	now even more evenly matched.
+
+					TROI
+				(teasingly)
+			You two have successfully split
+			the evening between yourselves.
+
+					WORF
+			I suspect conspiracy. But far
+			be it for me to accuse my superior
+			officers.
+
+	Riker laughs. Looks at Data.
+
+					RIKER
+			It's getting harder to bluff you,
+			Data. You've learned this game
+			well.
+
+					DATA
+			Yes sir, I believe I have.
+
+	Riker reshuffles the deck of cards, considering Data
+	as he does so.
+
+					RIKER
+			Tell you what.
+
+	He fans out the cards on the table. Troi and Worf
+	stick around to see what he's up to, as Riker pushes
+	his entire pile of winnings towards Data.
+
+					RIKER
+				(continuing)
+			I'll bet you I can find a card
+			that you bury anywhere in this
+			deck. And furthermore, I'll make
+			you help me do it.
+
+	Data considers the challenge for a moment.
+
+        STAR TREK: "Legacy" - REV. 9/18/90 - TEASER        1C.
+
+B1	CONTINUED: (3)
+
+					TROI
+			Careful, Data.
+
+					DATA
+			Your guidance is much valued,
+			Counsellor. However...
+
+	Data pushes his chips into the betting pot. Troi
+	laughs. Data selects a card.
+
+					RIKER
+			Don't let me see it.
+
+	Data pulls it up towards his face. Troi and Worf
+	adjust their positions to be behind Data, so that they
+	too can see the card.
+
+C1	CLOSE UP THE CARD
+
+	The Jack of Hearts.
+
+					RIKER (O.S.)
+			Now lose it in the deck.
+
+D1	RESUME
+
+	Data does so, and Riker quickly shuffles and plops the
+	deck right down in front of Data.
+
+					RIKER
+			Cut the deck into two halves.
+
+	Data does so, making two halves. Riker takes one half
+	away, discarding it.
+
+					RIKER
+				(continuing)
+			Again.
+
+	Data again makes two halves with what's left. Riker
+	again takes one away.
+
+					RIKER
+				(continuing)
+			Once more.
+
+	Same procedure.
+
+        STAR TREK: "Legacy" - REV. 9/18/90 - TEASER        1D.
+
+D1	CONTINUED:
+
+					RIKER
+				(continuing)
+			How many cards are left?
+
+	Data fans them slightly, counting as he does so.
+
+					DATA
+			Eleven.
+
+					RIKER
+			Pick five.
+
+	Data does so.
+
+					RIKER
+				(continuing)
+			Throw them away.
+
+	Data puts them aside. Six remain in front of them.
+
+					RIKER
+				(continuing)
+			Choose three.
+
+	Data does so.
+
+					RIKER
+				(continuing)
+			Now pick one of those.
+
+	Data picks one.
+
+					RIKER
+				(continuing)
+			Turn it over.
+
+	Data does so -- it is the Jack of Hearts. Troi and
+	Worf appear astonished.
+
+					RIKER
+				(knowing the answer)
+			Is that your card?
+
+					TROI
+			Incredible.
+
+	Riker smiles and moves to pull the large pile of chips
+	towards his side of the table.
+
+        STAR TREK: "Legacy" - REV. 9/18/90 - TEASER        1E.
+
+D1	CONTINUED: (2)
+
+					DATA
+			You surreptitiously placed the
+			edge of your left thumb onto the
+			card immediately after I inserted
+			it back into the deck. When you
+			divided the deck to reshuffle,
+			you kept that card on top. You
+			thus were able to have me either
+			discard or save depending on the
+			card's location, which you
+			followed at each step. Until we
+			were left with one -- the card
+			I originally chose.
+
+	Riker scowls, beaten. Data reaches his arms out and
+	starts pulling the pile of chips towards his side.
+
+					DATA
+			Sir, I think under the
+			circumstances...
+
+					PICARD'S COM VOICE
+			Picard to Riker.
+
+					RIKER
+				(to com)
+			Captain?
+
+					PICARD'S COM VOICE
+			We've received a distress call.
+			Changing course to intercept...
+
+1    EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	Speeding at high warp through space.
+
+					PICARD (V.O.)
+			Captain's log, stardate 44215.2.
+			The Enterprise has bypassed its
+			scheduled archaelogical survey
+			of Camus Two in response to a
+			distress call from a Federation
+			freighter. The Arcos has assumed
+			an emergency orbit around Turkana
+			Four, birthplace of our late
+			comrade Tasha Yar.
+
+        STAR TREK: "Legacy" - REV. 9/18/90 - TEASER        1F.
+
+2    INT. BRIDGE
+
+	PICARD, RIKER, DATA, WORF and TROI at their stations.
+	A supernumerary is at the Conn.
+
+					DATA
+			We will enter the Turkana system
+			in eleven minutes, Captain.
+
+					PICARD
+			Engine status.
+
+					DATA
+			Stable. But we have maintained
+			warp factor nine for longer than
+			is recommended.
+
+	Picard notes Data's report with a nod.
+
+					WORF
+			Subspace message from the Arcos.
+			Their transmitter is failing, sir.
+			Audio only.
+
+					PICARD
+			Let's hear it.
+
+         STAR TREK: "Legacy" - REV. 8/28/90 - TEASER         2.
+
+2    CONTINUED:
+
+	Worf touches a control and the voice of crewman TAN TSU
+	is heard on audio, fuzzing in and out of a rough
+	transmission.
+
+					TAN TSU'S VOICE
+			Enterprise, this is Tan Tsu, Arcos
+			engineer. Estimate five minutes
+			till warp drive containment
+			breach.
+
+	A small explosion can be heard in the background,
+	momentarily disrupting the audio. It returns with even
+	less quality than before.
+
+					TAN TSU'S VOICE
+				(continuing)
+			Make that three minutes. Thanks
+			for trying, Enterprise...
+
+	The transmission fritzes out completely. Picard
+	reacts, turns to the supernumerary.
+
+					PICARD
+			Warp nine-point-three, Ensign.
+
+	The supernumerary works the controls. The ship hums
+	around them.
+
+					PICARD
+			How much time?
+
+					DATA
+			Seven minutes and fifteen seconds
+			will bring us within transporter
+			range.
+
+					PICARD
+			Go to warp nine-point-six.
+
+	The supernumerary touches the controls.
+
+3
+thru	OMITTED
+4
+
+5    EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	Flashing at warp speed across a field of stars.
+
+         STAR TREK: "Legacy" - REV. 8/28/90 - TEASER         3.
+
+6    INT. BRIDGE
+
+	Data at his instruments.
+
+					DATA
+			Entering the Turkana System,
+			Captain.
+
+					PICARD
+				(to com)
+			Mister O'Brien, prepare to lock
+			onto the two crewmen.
+
+					O'BRIEN'S COM VOICE
+			Aye, Captain.
+
+6A   OMITTED
+
+6B   INT. BRIDGE
+
+	Picard glances at the Conn.
+
+					PICARD
+			Drop to impulse.
+
+	The ensign at Conn takes the ship out of warp.
+
+					DATA
+			Visual contact.
+
+					RIKER
+				(to com)
+			Get them out of there, O'Brien.
+
+7    INSERT VIEWSCREEN (OPTICAL)
+
+	A field of stars and a reddish planet, Turkana Four.
+	We're close enough to barely make out in the far
+	distance, a ship in orbit around the planet. As we
+	watch, the ship explodes in what from this distance,
+	looks like a delicate, silent, flash of color.
+
+					RIKER
+			O'Brien, status!
+
+         STAR TREK: "Legacy" - REV. 8/27/90 - TEASER         4.
+
+7A   INT. TRANSPORTER ROOM
+
+	O'Brien at the instrument panel.
+
+					O'BRIEN
+				(to com)
+			There's nothing to lock onto,
+			Commander.
+
+8    INT. BRIDGE (OPTICAL)
+
+	The bridge crew reacts.
+
+					DATA
+			I am reading an ion trail
+			characteristic of a freighter
+			escape pod.
+
+	Data continues working his instrument panel. Worf is
+	working his controls as well.
+
+					WORF
+				(to Picard)
+			Unable to establish contact.
+
+					PICARD
+			It could have been damaged by the
+			explosion. They may have been
+			incapable of maintaining orbit.
+
+					RIKER
+			Let's hope they stay clear of the
+			colony.
+
+	Data looks up from his instruments.
+
+					DATA
+			That is exactly where the ion
+			trail leads, Commander.
+
+					PICARD
+			Hail the colony.
+
+         STAR TREK: "Legacy" - REV. 8/28/90 - TEASER         5.
+
+8    CONTINUED:
+
+	A beat. Riker looks concerned.
+
+					WORF
+			I've been trying to, Captain...
+			No response.
+
+					RIKER
+				(to Picard)
+			There haven't been reliable
+			communications since the
+			government fell apart.
+
+					DATA
+			The last Federation vessel to
+			attempt contact was the Potemkin
+			six years ago. They were warned
+			that anyone transporting down to
+			the colony would be killed.
+
+	A beat.
+
+					PICARD
+			Ready your away team, Number One.
+
+	Picard stares with concern at the red planet on the
+	viewscreen in front of him.
+
+									FADE OUT.
+
+                         END OF TEASER                          
+
+         STAR TREK: "Legacy" - REV. 9/5/90 - ACT ONE         6.
+
+                            ACT ONE                             
+
+	FADE IN:
+
+9    OMITTED
+
+9A   EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	in orbit.
+
+					PICARD (V.O.)
+			Captain's log, supplemental. We
+			are in orbit above Turkana Four,
+			an Earth colony that severed
+			relations with the Federation
+			nearly fifteen years ago. I am
+			concerned about sending an away
+			team, but if we are to discover
+			the fate of the two missing
+			Federation crewmen, I see no
+			alternative.
+
+10   INT. TRANSPORTER ROOM (OPTICAL)
+
+	Riker, Data and Worf are entering the transporter room.
+	O'Brien is at his controls. Beverly is waiting for
+	them, medical kit in hand. Worf seems concerned with
+	her presence.
+
+					DATA
+			The surface settlement appears
+			to be all but destroyed. Sensors
+			show that the colonists now live
+			in structures that extend nearly
+			three kilometers beneath the city.
+
+					RIKER
+			Have you located the escape pod's
+			landing point, Chief?
+
+					O'BRIEN
+			Yessir... three hundred meters
+			beyond the colony perimeter...
+
+	Riker nods. Worf turns to him.
+
+					WORF
+				(re: Beverly)
+			Sir, we can anticipate a violent
+			response to our presence.
+					(MORE)
+
+        STAR TREK: "Legacy" - REV. 9/5/90 - ACT ONE        6A.
+
+10   CONTINUED:
+
+					WORF (Cont'd)
+			Perhaps the Doctor should wait
+			here for our signal.
+
+					BEVERLY
+				(an edge)
+			I appreciate the concern. But
+			I think it's exaggerated.
+
+					WORF
+			Doctor, the colony is completely
+			lawless. Lieutenant Yar spoke
+			of rape gangs...
+
+					BEVERLY
+			Mister Worf, I can handle myself.
+
+					RIKER
+				(a decision)
+			She's coming. The Arcos crewmen
+			may require immediate medical
+			assistance.
+
+	Worf nods. Riker pulls his phaser, adjusts the
+	setting.
+
+					RIKER
+			Phasers on maximum stun.
+
+	The away team members step onto the transporter pads
+	and take out their phasers, adjusting the settings.
+	When they are set, with phasers in firing position --
+
+        STAR TREK: "Legacy" - REV. 8/30/90 - ACT ONE        7.
+
+10   CONTINUED: (2)
+
+					RIKER
+				(continuing)
+			Energize.
+
+	O'Brien works the controls and the away team
+	DEMATERIALIZES.
+
+11   EXT. TURKANA FOUR CITY - DAY - MATTE SHOT (OPTICAL)
+
+	of a bombed-out 24th century version of the South
+	Bronx.
+
+12   INT. ENTRANCE TO TUNNEL
+
+	A wide, partially fallen-in tunnel. The away team
+	ENTERS cautiously from outside, phasers ready. Data is
+	reading his tricorder.
+
+					DATA
+			The dispersion trail continues
+			in this direction.
+
+	He stops to double-check his readings. Then turns
+	slightly with the tricorder, pointing with it.
+
+					DATA
+				(continuing)
+			The concentration gradient
+			definitely increases along this
+			vector.
+
+	He indicates a direction.
+
+					DATA
+				(continuing)
+			The escape pod was apparently
+			moved into the tunnels ahead of
+			us.
+
+	WORKMEN walk by carrying several cannisters. They give
+	the away team half-a-look, avoid them, and go on with
+	their business. Several CIVILIAN-LOOKING INDIVIDUALS
+	approach from the other direction, again giving the
+	away team a wide berth and attempting no contact. It
+	suggests a city street. Pedestrian traffic.
+
+	The Federation officers seem surprised, and lower their
+	phasers. Riker glances towards Worf.
+
+        STAR TREK: "Legacy" - REV. 8/30/90 - ACT ONE        8.
+
+12   CONTINUED:
+
+					RIKER
+			Not the response we expected.
+
+					BEVERLY
+			Maybe things have changed here.
+
+	Suddenly, all hell breaks loose around them. Alarms go
+	off; the three workmen dive for cover; FOUR COALITION
+	MEN and ONE COALITION WOMAN in their early to
+	mid-twenties come hurrying around a corner.
+
+	One is carrying a small crate in his arms, one of the
+	others has a phaser, the remaining three carry
+	nightstick-looking devices. The garments worn by three
+	of them are torn in several places, as if in a fight
+	that just happened. One of the men looks seriously
+	injured, though still on his feet and moving; his shirt
+	is torn across his chest. In the flurry of activity,
+	we may notice a diamond-shaped bright orange/yellow
+	solid glow, about an inch in diameter, on a spot under
+	their garments just below the collar bone.
+
+	They stop dead in their tracks, completely surprised at
+	the sight of the away team directly in front of them,
+	phasers now raised. The newcomers assume a ready
+	stance with their weapons. The injured man slumps to
+	his knees. Beverly goes to assist. She begins to
+	examine the wounds.
+
+					MAN #1
+			Identify yourselves.
+
+					RIKER
+			We're from the Federation Starship
+			Enterprise. We tracked two
+			crewmen to this area. Do you know
+			anything about them?
+
+					MAN #1
+			Possibly.
+
+	The others in his group are glancing anxiously around.
+
+					RIKER
+			What do you mean?
+
+					MAN #1
+			It depends on what you have to
+			offer in return.
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT ONE        9.
+
+12A
+thru	OMITTED
+12B
+
+12C  ANGLE ON THE WOUNDED MAN
+
+	as his diamond-shaped orange/yellow glow suddenly
+	pulses beneath the skin -- right where his shirt has
+	been ripped open. Almost as one body, the group
+	suddenly turn towards a corridor opening. The other
+	Coalition members are pulsing as well.
+
+					MAN #1
+			They found us.
+
+12D  RIKER AND WORF
+
+	react to the pulsing, glance at each other.
+
+					WORF
+				(to Riker, re: the glow)
+			Proximity detectors. I've seen
+			them used on Manu Three.
+
+	A beat later we hear shouting and a couple of phasers
+	firing from the corridor.
+
+					MAN #1
+				(to Riker)
+			Follow me.
+
+	He and his group take off down an opposite corridor.
+	Riker pauses for a moment, makes a decision.
+
+					RIKER
+			Come on.
+
+	The away team follows quickly after them.
+
+	(NOTE: re the detectors: whenever a gang member is in
+	foreign territory, it glows. When an enemy begins to
+	approach, it pulses.)
+
+13   INT. TUNNEL INTERSECTION (OPTICAL)
+
+	A spare, meeting ground area, with a few crates serving
+	as objects to sit on or lean against -- a very casual
+	guerrilla look.
+
+	HAYNE, late-twenties, tough, charming and charismatic,
+	is checking out the contents of the box his men just
+	stole.
+
+        STAR TREK: "Legacy" - REV. 8/23/90 - ACT ONE        9A.
+
+13   CONTINUED:
+
+	The away team stands in front of him, surrounded in
+	the background by several male and female Coalition
+	members who don't appear particularly threatened by
+	their appearance. Since the members are back in their
+	own territory, the orange/yellow glows are no longer
+	activated, and are therefore invisible. Man #1 is
+	near Hayne.
+
+        STAR TREK: "Legacy" - REV. 8/28/90 - ACT ONE        10.
+
+13   CONTINUED: (2)
+
+					HAYNE
+				(to Riker)
+			The Alliance is holding your men
+			hostage, Commander Riker, not
+			us. You can expect a ransom
+			demand...
+
+					RIKER
+			The Alliance?
+
+					HAYNE
+			Our good friends.
+
+	Some of his comrades give a low laugh. Hayne pulls
+	out of the box a bottle of what looks like liquor.
+
+					HAYNE
+				(to his gang)
+			Our "good friends" are going to
+			be upset when they realize we took
+			their last crate of Telluridan
+			synthale.
+
+	More laughter. Riker looks impatient.
+
+					RIKER
+			Maybe it would be easier if I
+			contacted the authorities.
+
+					HAYNE
+				(flash of anger)
+			We are the "authorities."
+
+	Hayne quickly recovers his cool. Sets down the bottle
+	and picks up one of the nightstick weapons, called a
+	STUNSTICK, pointing it at a schematic wall-hanging of
+	the city below the ground. The city is shaped like a
+	sunken pyramid with the base at the lowest depth.
+
+					HAYNE
+				(continuing)
+			The Coalition -- our cadre -- runs
+			this side of the city. The
+			Alliance controls the other. Take
+			your choice.
+
+					RIKER
+			Are you offering to help?
+
+        STAR TREK: "Legacy" - REV. 8/30/90 - ACT ONE        11.
+
+13   CONTINUED: (3)
+
+					HAYNE
+				(nodding)
+			In return for some...
+			consideration. Phasers are in
+			short supply down here. A
+			starship isn't going to miss a
+			few.
+
+	Worf grunts with distrust.
+
+					WORF
+			That is no better than a ransom
+			demand.
+
+					HAYNE
+			No matter what you give the
+			Alliance, they'll eventually kill
+			your crewmen anyway. With our
+			help there's at least a chance
+			you'll get them back alive.
+
+	A beat. Hayne senses their hesitation.
+
+					HAYNE
+			All we're asking for is help in
+			maintaining our defense. We're
+			trying to keep the peace.
+
+	Riker glances at the stolen crate, looks doubtful.
+
+					RIKER
+			Everything we've seen suggests
+			otherwise.
+
+	Hayne indicates the crate with a dismissive gesture.
+
+					HAYNE
+			A prank. The proximity implants
+			prevent either side from doing
+			any serious damage.
+
+	Hayne taps the spot just below the center of his collar
+	bone. Then he indicates the map.
+
+					HAYNE
+				(continuing)
+			They warn us when an enemy is
+			approaching.
+
+        STAR TREK: "Legacy" - REV. 8/30/90 - ACT ONE        12.
+
+13   CONTINUED: (4)
+
+					WORF
+			Then why do you need more phasers?
+
+					HAYNE
+			The Alliance just discovered a
+			large cache of weapons. I just
+			want to make things even.
+			Preserve the peace.
+
+					BEVERLY
+			You keep using the word "peace."
+			We've heard a different version
+			of life on Turkana Four.
+
+					HAYNE
+				(bristling)
+			Ancient history.
+				(a beat)
+			Where did you hear that?
+
+					DATA
+			A former crewmember was born here.
+
+	Hayne considers that for a moment.
+
+					HAYNE
+			Where's he now?
+
+					DATA
+			She was killed in the line of
+			duty.
+
+					HAYNE
+				(shrugs)
+			That's as good a way to die as
+			any.
+
+	Hayne has inadvertently hit a nerve, but Riker does
+	his best to hide it.
+
+					HAYNE
+				(continuing)
+			As I said -- ancient history.
+			This is now. And your men are
+			in trouble.
+
+        STAR TREK: "Legacy" - REV. 8/23/90 - ACT ONE        13.
+
+13   CONTINUED: (5)
+
+					RIKER
+			We'll return to the Enterprise
+			and consider your proposal.
+
+	Hayne nods his acceptance. Then steps over and hands
+	the bottle of synthale to Riker.
+
+					HAYNE
+			A gift for your Captain.
+
+	Data quickly scans it with the tricorder, finding
+	nothing amiss. Riker touches his insignia.
+
+					RIKER
+			Riker to Enterprise. Energize.
+
+	The away team DISAPPEARS into the transporter beam.
+	When they're gone, Hayne turns to his second-in-
+	command.
+
+					HAYNE
+			I want everything there is to
+			know about the starship
+			Enterprise.
+
+14   INT. BRIDGE
+
+	Picard is examining the bottle from the colony; the
+	away team is back and standing nearby. Bridge crew
+	consists of Riker, Data, Worf, Beverly, Troi, and a
+	supernumerary at the Conn.
+
+					RIKER
+				(re: the bottle)
+			According to Hayne, the Coalition
+			and the Alliance raid each other
+			for supplies -- much of it
+			non-essential.
+
+					PICARD
+			Why?
+
+					WORF
+			A battle exercise.
+
+					RIKER
+				(nodding)
+			Their defenses apparently prevent
+			deep strikes into each other's
+			territory. Minor skirmishes are
+			all that's left.
+
+        STAR TREK: "Legacy" - REV. 8/27/90 - ACT ONE        14.
+
+14   CONTINUED:
+
+					PICARD
+			"Coalition", "Alliance" -- it all
+			sounds so reasonable. But you've
+			described the behavior of urban
+			street thugs. We certainly won't
+			trade weapons for the crewmen.
+				(beat)
+			How do you suggest we deal with
+			them?
+
+	Picard sets down the bottle.
+
+					RIKER
+			We have to tell them something.
+
+					WORF
+			No promises. No denials.
+
+					PICARD
+				(nods in agreement)
+			For now, Hayne's Coalition is our
+			only safe access to the colony.
+			Let's keep the door open and see
+			where it leads.
+
+	Worf glances down at his instrument panel.
+
+					WORF
+			Captain. Transmission from
+			Turkana Four. Coming in on a
+			secure channel.
+
+					PICARD
+				(surprised)
+			On screen.
+
+15   INSERT VIEWSCREEN (OPTICAL)
+
+	A close shot of Hayne in the same location. A young
+	woman, ISHARA, is standing next to and slightly behind
+	him. She is early to mid-twenties, blonde, slender,
+	athletic and attractive.
+
+        STAR TREK: "Legacy" - REV. 8/23/90 - ACT ONE        15.
+
+15   CONTINUED:
+
+					HAYNE
+			Hello, Enterprise. Commander
+			Riker, would you introduce me to
+			your Captain?
+
+16   INT. BRIDGE - CONTINUOUS
+
+	Riker glances at Picard, then toward the viewscreen.
+
+					PICARD
+				(to Hayne)
+			I'm Captain Jean-Luc Picard.
+
+17   INCLUDE VIEWSCREEN (OPTICAL)
+
+	Hayne nods acknowledgement -- as one equal to another.
+
+					HAYNE
+			I have someone here you might like
+			to meet.
+
+	Ishara steps forward.
+
+					HAYNE
+				(continuing)
+			This is Ishara... Ishara Yar.
+
+	A beat as Ishara stares straight out from the
+	viewscreen.
+
+					ISHARA
+			Tasha was my sister.
+
+	OFF the Bridge crew's stunned reaction.
+
+									FADE OUT.
+
+                        END OF ACT ONE                          
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO        16.
+
+                            ACT TWO                             
+
+	FADE IN:
+
+18   INT. BRIDGE
+
+	The crew is staring at the viewscreen.
+
+19   ANGLE ON VIEWSCREEN (INTERCUT AS NEEDED) (OPTICAAL)
+
+	Hayne and Ishara looking at the crew.
+
+					HAYNE
+			There's an old saying, Captain.
+			"The enemy of my enemy is my
+			friend." I've decided it's in
+			my best interest to help you get
+			your men back.
+
+					PICARD
+			With nothing from us in return?
+
+					HAYNE
+			You could be forced into paying
+			my adversary a ransom in weapons.
+			I'll do anything I can to avoid
+			that possibility.
+
+					PICARD
+			What do you propose?
+
+					HAYNE
+				(indicating Ishara)
+			Ishara will be our liaison.
+
+					ISHARA
+			I know Alliance territory. I can
+			help you with a rescue plan.
+
+	A beat.
+
+					PICARD
+			One moment.
+
+	Picard signals Worf to mute the channel.
+
+					WORF
+			Mute.
+
+        STAR TREK: "Legacy" - REV. 8/28/90 - ACT TWO        17.
+
+20   RESUME BRIDGE
+
+	As Picard turns to his officers.
+
+					PICARD
+			Reactions?
+
+					WORF
+			I do not trust him.
+
+					RIKER
+			She could be a fake. We mentioned
+			that a former member of the crew
+			had come from the colony.
+
+					BEVERLY
+				(nodding)
+			All Hayne had to do was search
+			through whatever their database
+			had on Starfleet to come up with
+			Tasha's name.
+
+					PICARD
+			Counsellor?
+
+					TROI
+			He's being deceptive, and he's
+			clearly hoping to manipulate us.
+			As for the young woman's identity,
+			I can't tell.
+
+	Picard considers for a moment, makes a decision.
+
+					PICARD
+			Regardless, this is an option we
+			cannot neglect. We'll continue
+			on other fronts as they present
+			themselves. For now, let's see
+			what she has to say.
+
+	Picard turns to Worf, who touches his panel.
+
+					WORF
+			Open.
+
+21   INSERT VIEWSCREEN (INTERCUT AS NEEDED) (OPTICAL)
+
+	Hayne and Ishara.
+
+					PICARD
+			I've decided to accept your
+			proposal.
+
+       STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO       17A.
+
+21   CONTINUED:
+
+					HAYNE
+			Thank you.
+
+	He glances from Ishara back to Picard.
+
+					HAYNE
+				(continuing)
+			Good luck.
+
+	OFF Picard's stone serious face.
+
+        STAR TREK: "Legacy" - REV. 8/30/90 - ACT TWO        18.
+
+22   INT. TRANSPORTER ROOM (OPTICAL)
+
+	CLOSE ON Ishara, MATERIALIZING on the transporter pad.
+
+	Data is waiting for her when she steps off. She takes
+	note of his appearance.
+
+					DATA
+			Welcome to the Enterprise, Ishara.
+			I am Commander Data.
+
+					ISHARA
+			You're not human.
+
+					DATA
+			I am an android.
+
+	Ishara glances at him.
+
+					ISHARA
+			Built for fighting... ?
+
+					DATA
+				(reacts)
+			On what do you base that
+			assumption?
+
+					ISHARA
+			A cybernetic device serving on
+			a starship...
+
+					DATA
+			The Enterprise is not a ship of
+			war. It is a ship of
+			exploration.
+
+	This doesn't particularly intrigue her -- in fact, she
+	seems on the whole somewhat emotionally disconnected.
+	NOT HARSH -- just missing something. Though there is
+	an undercurrent of woundedness or vulnerability beneath
+	it all that she does her best to hide.
+
+					ISHARA
+			The first thing to do is help you
+			map the colony.
+				(takes out chip)
+			This is a general grid of the
+			tunnel systems. I can fill in
+			the specific details from memory.
+
+       STAR TREK: "Legacy" - REV. 8/30/90 - ACT TWO       18A.
+
+22   CONTINUED:
+
+					DATA
+			My orders are to escort you to
+			the Observation Lounge. We will
+			proceed from there.
+
+	She nods assent, and they head for the door.
+
+23   INT. CORRIDOR
+
+	Data and Ishara are walking away from the transporter
+	room.
+
+					DATA
+			Your sister never spoke of you.
+
+					ISHARA
+			That's not surprising.
+
+	Data glances at her.
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO        19.
+
+23   CONTINUED:
+
+					DATA
+			It is surprising to me. Tasha
+			and I spent much time together
+			in the course of our duties. We
+			had a considerable number of
+			conversations.
+
+	Ishara studies him for a moment.
+
+					ISHARA
+			Did she talk at all about the
+			colony?
+
+					DATA
+			Only to say that she was lucky
+			to have escaped.
+
+					ISHARA
+				(matter of factly)
+			It wasn't luck. It was cowardice.
+
+	Data looks surprised.
+
+					DATA
+			"Cowardice" is a term that I have
+			never heard applied to Tasha.
+
+	She glances at him -- a shift of the head and a look
+	in her eyes that Data seems to recognize. She picks
+	up on it.
+
+					ISHARA
+			Is something wrong?
+
+					DATA
+			No. It is just that for a
+			moment, the expression on your
+			face was reminiscent of your
+			sister.
+
+	This seems to strike a place of vulnerability in her,
+	but she covers it immediately, turning away from him,
+	and speaking in her even, unemotional tone.
+
+					ISHARA
+			It's been fifteen years. I don't
+			even remember what she looked
+			like...
+
+24   INT. OBSERVATION LOUNGE
+
+	The door slides open and Data ENTERS with Ishara.
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO        20.
+
+24A  ANGLE ON THE SENIOR STAFF
+
+	Waiting in the room. Picard, Riker, Troi, Geordi,
+	Beverly. They can't help but stare at her for a couple
+	of silent beats -- almost as if looking for some sign
+	of Tasha.
+
+24B  RESUME
+
+	Ishara reacts to their gaze.
+
+					ISHARA
+			You don't believe I'm Tasha's
+			sister.
+
+					PICARD
+			We have considered that
+			possibility.
+
+					ISHARA
+			I'm not surprised. You can
+			sample my DNA if you like.
+
+					BEVERLY
+			Thank you, I will.
+
+	Picard indicates a chair.
+
+					PICARD
+			Please. Sit down.
+
+	Ishara takes a seat, Data does the same. Troi studies
+	her carefully, trying to get a sense of her.
+
+					PICARD
+			Perhaps it would help if you gave
+			us some idea of what we're dealing
+			with on Turkana Four. Our last
+			information describes a colony
+			in complete disarray.
+
+					ISHARA
+			It started falling apart almost
+			thirty years ago. There were
+			dozens of factions. They fought
+			until the city above ground was
+			in ruins.
+
+					RIKER
+			The Coalition and the Alliance
+			are all that's left?
+
+       STAR TREK: "Legacy" - REV. 8/27/90 - ACT TWO       20A.
+
+24B  CONTINUED:
+
+					ISHARA
+				(nodding)
+			We were the two strongest
+			factions... When the government
+			couldn't stop the violence, they
+			gave us police powers. The
+			proximity detectors were
+			originally designed by the
+			government to keep us under
+			control.
+
+					PICARD
+			Apparently, that part of the plan
+			didn't succeed very well.
+
+					ISHARA
+			No. After a few months, we
+			didn't need the government any
+			more.
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO        21.
+
+24B  CONTINUED: (2)
+
+					GEORDI
+			Tasha left you in the middle of
+			all that?
+
+	A beat. Ishara's voice grows quieter.
+
+					ISHARA
+			She didn't abandon me, if that's
+			what you mean. Tasha asked me
+			to go with her. But I had
+			already joined the Coalition.
+			They were my family.
+
+	The group reacts to her admission. She looks at
+	Picard, voice still quiet, doing her best to hide her
+	difficulty with this subject.
+
+					ISHARA
+				(continuing, to Picard)
+			Captain, we don't have a lot of
+			time. Maybe we should get
+			started.
+
+	Before Picard can respond, the COM comes on.
+
+					WORF'S COM VOICE
+			Incoming transmission from the
+			colony, Captain.
+
+					PICARD
+			On screen.
+
+25   INSERT WALLSCREEN (OPTICAL)
+
+	TAN TSU, one of the missing crewmen, is facing the
+	viewer. He looks a bit bruised and battered from the
+	crash.
+
+					TAN TSU
+				(strained)
+			Enterprise, I'm being held by the
+			Turkana Four Alliance. I've been
+			instructed to say that you have
+			twenty hours to make reparations
+			for Federation intrusion into this
+			colony.
+				(a beat)
+			Or my pilot and I will be killed.
+
+       STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO       21A.
+
+25   CONTINUED:
+
+					BEVERLY
+				(to screen)
+			Ask them if we can at least send
+			a medical --
+
+	The screen goes blank.
+
+        STAR TREK: "Legacy" - REV. 8/29/90 - ACT TWO        22.
+
+26   INT. OBSERVATION LOUNGE - CONTINUOUS
+
+					ISHARA
+			Take that threat seriously,
+			Captain. They'll torture them
+			and then they'll kill them. My
+			cadre has never recovered a
+			hostage alive from the Alliance.
+
+	She has everyone's attention.
+
+					ISHARA
+				(continuing)
+			Your crewmen could be held in any
+			number of places. The Alliance
+			has two main headquarters and
+			thirteen ancillary bases of
+			operation. All underground. All
+			heavily guarded.
+
+					GEORDI
+			If I could get to the myographic
+			scanner...
+
+					ISHARA
+			What's that?
+
+					DATA
+			A sensing device on the escape
+			pod. It monitors the bio-electric
+			signatures of the crew. In the
+			event they get separated from the
+			pod.
+
+					GEORDI
+			I could install a booster on the
+			device that would relay its
+			signals to the Enterprise. Then
+			we could track the men from up
+			here.
+
+					PICARD
+			Unfortunately, we don't know where
+			the escape pod is.
+
+					ISHARA
+			Level Three-C, Section
+			five-four-seven.
+				(a smile off their
+				 surprise)
+			We have our sources.
+
+        STAR TREK: "Legacy" - REV. 8/27/90 - ACT TWO        23.
+
+27   INT. ENGINEERING - C.U. ON TABLE MONITOR
+
+	A schematic computer display version of the map we saw
+	in Coalition headquarters.
+
+					ISHARA (O.S)
+			Access tunnels are here...
+
+28   PULL BACK TO INCLUDE
+
+	Riker, Data, Geordi, Worf and Ishara gathered around
+	a large flat screen, as Ishara indicates various
+	locations. She seems much more comfortable now that
+	they are deep in "work" mode.
+
+					ISHARA
+			... and here.
+
+	They lean back from the table screen.
+
+					RIKER
+				(pointing)
+			We could transport an away team
+			right into this intersection...
+
+					ISHARA
+			Don't underestimate them,
+			Commander. They'll be ready for
+			that... I've seen them use this
+			kind of strategy before.
+
+	Riker gives her a questioning look.
+
+					ISHARA
+				(continuing)
+			I know it looks isolated and
+			easily accessible... But my guess
+			is they have hundreds of men on
+			the levels above and below
+			waiting for you to make your
+			move.
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO        24.
+
+28   CONTINUED:
+
+	A beat.
+
+					WORF
+			We'll need a diversion.
+
+					GEORDI
+			Transport a couple of photon
+			grenades into the adjoining
+			chambers. At minimum intensity
+			it wouldn't kill anybody, just
+			shake them up a lot.
+
+					RIKER
+			That won't give us enough time.
+			We need something that'll occupy
+			them long enough for you to
+			install the relay.
+
+	A beat. Ishara indicates the map.
+
+					ISHARA
+			Transport me into this corridor.
+			My magnetic implant will set off
+			the defense alarms. They'll
+			think it's a raid by the
+			Coalition.
+
+					RIKER
+			Too dangerous. We've seen what
+			those tunnels look like. You
+			could easily be cut off from the
+			rest of us.
+				(to Worf)
+			Worf, if we --
+
+					ISHARA
+			-- Commander Riker.
+				(beat)
+			I was ordered to assist you in
+			any way possible. That doesn't
+			mean "as long as it's safe, or
+			convenient."
+
+	Riker can't help but be impressed by her courage --
+	but he's still hesitant.
+
+					ISHARA
+				(continuing)
+			If you had the time, we could come
+			up with another plan.
+					(MORE)
+
+        STAR TREK: "Legacy" - REV. 8/30/90 - ACT TWO        25.
+
+28   CONTINUED: (2)
+
+					ISHARA (Cont'd)
+			But you don't. Right now, I'm
+			your best option.
+
+	Riker glances at the others.
+
+					DATA
+			She would have to be armed,
+			Commander.
+
+	Riker considers.
+
+					RIKER
+			I want to discuss this with the
+			Captain.
+				(to Data)
+			Mister Data, take Ishara to see
+			Doctor Crusher.
+
+	Ishara nods her assent.
+
+28A  INT. SICKBAY
+
+	Ishara is sitting on a diagnostic bed as Beverly slowly
+	brushes an instrument over the inside of the young
+	woman's arm. (NOTE: The instrument does touch the
+	skin) Data is standing nearby.
+
+					ISHARA
+			You have Tasha's DNA on file?
+
+					BEVERLY
+			The ship's computer does.
+				(re: Ishara's arm)
+			There's always some
+			differentiation in the somatic
+			chromosomes -- but it's not enough
+			to affect the results.
+
+	Beverly finishes with the instrument.
+
+					BEVERLY
+				(to Data)
+			It'll take me a few hours to run
+			the isomorphic comparison.
+
+	Dr. Crusher steps away, heading towards the lab.
+
+					ISHARA
+				(to Data)
+			That wasn't too bad.
+
+       STAR TREK: "Legacy" - REV. 8/30/90 - ACT TWO       25A.
+
+28A  CONTINUED:
+
+	A beat as Ishara glances around the Sickbay.
+
+					ISHARA
+				(continuing; evenly)
+			So, all that's left of my sister
+			is a file in a computer...
+
+					DATA
+			Tasha exists in our memories as
+			well.
+
+					ISHARA
+			How did she die?
+
+					DATA
+			Lieutenant Yar was killed on Vagra
+			Two by a malevolent entity.
+
+					ISHARA
+			In battle?
+
+					DATA
+			No... she was killed as a
+			demonstration of the creature's
+			power. Without provocation.
+
+					ISHARA
+				(sad laugh)
+			That's not how I intend to die.
+
+	The door opens and Riker ENTERS.
+
+					RIKER
+			The Captain approves. You're
+			with us.
+
+	Off her reaction.
+
+29   INT. CHAMBER - ESCAPE POD
+
+	A half-fallen down tunnel area similar to what the away
+	team saw earlier. A slender, three-meter-long, heavily-
+	damaged escape pod is in the center of the area,
+	guarded by TWO ALLIANCE MEN AND ONE ALLIANCE WOMAN,
+	mid-twenties, armed with one phaser and two stunsticks.
+
+29A  ANGLE ON RIKER, DATA, WORF, AND GEORDI
+
+	Hidden behind a projection, having just transported
+	down.
+
+       STAR TREK: "Legacy" - REV. 8/30/90 - ACT TWO       25B.
+
+29A  CONTINUED:
+
+					RIKER
+				(touches insignia,
+				 quietly)
+			Enterprise, we're in position.
+
+29B  INT. ADJOINING CORRIDOR (OPTICAL)
+
+	A beat on a silent, deserted tunnel. Ishara suddenly
+	MATERIALIZES, phaser drawn. As soon as the Transporter
+	beam clears, the implant beneath her collar bone begins
+	to glow its characteristic bright orange/yellow.
+	Simultaneously, a piercing alarm goes off in the tunnel
+	around her.
+
+29C  INT. CHAMBER - ESCAPE POD (OPTICAL)
+
+	The Alliance guards at the pod appear dumbfounded at
+	the alarm wailing distantly offscreen. It is followed
+	by a second. And a third.
+
+	Three more Alliance members come running in from
+	adjoining tunnels, confused about what's happening.
+
+	The female guard motions to them to follow her, and
+	they all run toward the alarms, weapons ready, leaving
+	the two male guards behind at the pod.
+
+	Riker, Data and Worf simultaneously come out from
+	behind a slight wall and stun the two remaining men.
+	Geordi steps out carrying a toolkit-sized box of
+	equipment.
+
+	They all head straight for the escape pod. When they
+	get there, Riker, Data, and Worf stand guard as Geordi
+	reaches underneath with the equipment.
+
+30   INT. ADJOINING CORRIDOR
+
+	Alarms are blaring. Ishara moves around a projection,
+	phaser at ready.
+
+        STAR TREK: "Legacy" - REV. 9/5/90 - ACT TWO        26.
+
+30   CONTINUED:
+
+	She turns slightly to her left, sensing something as
+	the orange/yellow diamond glow below her collar bone
+	suddenly begins to pulse. She immediately runs in the
+	opposite direction.
+
+	As she disappears around a corner, the four Alliance
+	members arrive from the left.
+
+	They cautiously move forward. One of the Alliance
+	members pauses at the corner and shifts towards the
+	left -- a diamond shape below his collar bone suddenly
+	pulses GREEN. (As with Ishara, his shirt is open
+	enough at the neck to expose the spot. The other
+	Alliance members are pulsing GREEN beneath their
+	shirts.)
+
+	He silently indicates the others to fan out as they
+	head after her, splitting up behind the various low
+	walls and projections and debris as they do so.
+
+31   INT. CHAMBER - ESCAPE POD - ON GEORDI
+
+	as he works beneath the pod. There is a sudden
+	crackling noise.
+
+					GEORDI
+			Damn!
+
+					RIKER (O.S.)
+			Geordi -- what's taking so long?
+
+32   INCLUDE RIKER, DATA AND WORF
+
+	As Geordi looks up momentarily from the work.
+
+					GEORDI
+			There's a lot of damage here...
+			The myographic scanner is
+			operational, but the power source
+			is fluctuating.
+
+					RIKER
+			Can you fix it?
+
+					GEORDI
+			I can try to run a shunt from the
+			convertor.
+
+        STAR TREK: "Legacy" - REV. 9/5/90 - ACT TWO        26A.
+
+32   CONTINUED:
+
+					RIKER
+			How long will that take?
+
+					GEORDI
+				(shrugs)
+			Ten minutes?
+
+					RIKER
+			Do it.
+
+	Geordi gets back to work. Riker is aware of the
+	distant alarms.
+
+					RIKER
+				(touches insignia)
+			O'Brien! Lock onto Ishara and
+			get her out of here!
+
+33   INT. TRANSPORTER
+
+	O'Brien is desperately working the controls.
+
+					O'BRIEN
+				(to com)
+			There's a transformer substation
+			directly above the chamber she
+			just entered. It's masking her
+			signal.
+
+        STAR TREK: "Legacy" - REV. 8/28/90 - ACT TWO        27.
+
+34   INT. CHAMBER - ESCAPE POD
+
+					RIKER
+				(touches insignia)
+			Standby!
+				(to others)
+			Stay here and cover La Forge.
+
+					WORF
+				(concerned)
+			Commander --
+
+					RIKER
+			That's an order. Return to the
+			ship when you're finished here.
+			I'll signal for transport as soon
+			as I can.
+
+	Riker takes off for a corridor.
+
+35   INT. ADJOINING CORRIDOR (OPTICAL)
+
+	Ishara is creeping along behind a series of
+	projections, the alarms blaring around her. She
+	suddenly stops dead in her tracks, as her implant
+	pulses orange/yellow. She whips around -- the guard
+	has just stepped from behind a low wall. Ishara aims
+	her phaser too late -- the guard swings his stunstick,
+	which lets out a bright, crackling arc flash that hits
+	Ishara across the ribcage, sending her flying across
+	the floor, her phaser fire rainbowing across the air
+	as she goes.
+
+	The guard quickly advances as Ishara tries in a daze to
+	struggle to her feet, reaching her and aiming the
+	stunstick right at her face -- only to fall to the
+	ground, stunned by a phaser blast.
+
+36   INCLUDE RIKER (OPTICAL)
+
+	As he starts to hurry across to Ishara -- and is
+	suddenly fired upon by two men from behind a
+	projection. Riker returns fire continuously, as a
+	still dazed Ishara attempts to stand. He reaches her
+	and hauls the barely conscious woman into the next
+	tunnel -- touching his insignia with his free hand as
+	he goes.
+
+					RIKER
+			Energize!
+
+        STAR TREK: "Legacy" - REV. 8/24/90 - ACT TWO        28.
+
+37   INT. TRANSPORTER ROOM
+
+	O'Brien is working the controls. Data, Worf and
+	Geordi are waiting expectantly.
+
+38   ANGLE ON TRANSPORTER (OPTICAL)
+
+	Riker and Ishara RE-MATERIALIZE, Ishara now completely
+	limp in his arms.
+
+									FADE OUT.
+
+                        END OF ACT TWO                          
+
+       STAR TREK: "Legacy" - REV. 8/27/90 - ACT THREE       29.
+
+                           ACT THREE                            
+
+	FADE IN:
+
+39   INT. PICARD'S QUARTERS
+
+	Picard is going over a technical report. The door
+	chimes.
+
+					PICARD
+			Come.
+
+	The door opens and Riker ENTERS.
+
+					PICARD
+				(continuing)
+			How is she?
+
+					RIKER
+			A couple of cracked ribs, but
+			she'll be all right.
+
+					PICARD
+			Doctor Crusher just called me with
+			the results of her DNA comparison.
+			Ishara is Tasha's sister.
+
+					RIKER
+			After what she did for us down
+			there, I wouldn't doubt that for
+			a minute.
+
+					PICARD
+				(a beat)
+			You took some unnecessary personal
+			risks, Number One.
+
+	Riker pauses for a moment before answering.
+
+					RIKER
+			We lost Tasha on an away mission,
+			under my command. The thought
+			of the same thing happening to
+			her sister...
+
+	Picard nods sympathetically.
+
+					PICARD
+			That's an emotional response,
+			Will. We can't afford that.
+
+       STAR TREK: "Legacy" - REV. 9/24/90 - ACT THREE       30.
+
+39   CONTINUED:
+
+					RIKER
+			Understood, Captain.
+
+	A beat as Riker waits, then Picard nods, dismissed.
+
+					PICARD
+			Commander...
+
+	Riker pauses at the door...
+
+					PICARD
+			Well done.
+
+	Riker grins, acknowledging... EXITS.
+
+39A  INT. SICKBAY
+
+	Ishara is sitting on a diagnostic bed, as Beverly runs
+	a rectangular device that looks vaguely like a medical
+	version of a phaser over the side of Ishara's ribcage.
+
+					BEVERLY
+			I've fused the bone tissue along
+			both fractures.
+
+	She takes the instrument down. The door slides open
+	and Picard ENTERS.
+
+					BEVERLY
+				(continuing)
+			The muscles around the area will
+			be weak for a day or so -- but
+			you shouldn't feel any pain.
+
+	Beverly nods to him as she heads offscreen towards the
+	other end of Sickbay. Picard looks at Ishara.
+
+      STAR TREK: "Legacy" - REV. 9/20/90 - ACT THREE      30A.
+
+39A  CONTINUED:
+
+					PICARD
+			I wanted to thank you personally
+			for what you did for us down at
+			the colony. It was... more than
+			I expected.
+
+					ISHARA
+				(darker)
+			I don't run away when things get
+			tough, like some people do...
+			like my sister did...
+
+	A beat as Picard and her look at each other.
+
+					PICARD
+			Let me tell you about your sister.
+			The first time I met Tasha Yar,
+			she was making her way through
+			a Carnelian mine field to reach
+			a wounded colonist.
+
+	Ishara seems taken aback by the story.
+
+					PICARD
+				(continuing)
+			Her ship had responded to their
+			distress call, as had mine. When
+			it was all over, I requested that
+			Tasha be assigned to the
+			Enterprise.
+				(smiling)
+			Her ship's captain owed me a
+			favor.
+
+	Picard pauses a moment.
+
+					PICARD
+				(continuing)
+			In the months that followed, Tasha
+			never once failed to put the
+			safety of the crew before her own.
+				(beat)
+			She died doing the same.
+
+	Ishara stares at him, then looks away -- she doesn't
+	know what to say.
+
+					PICARD
+			I'm sorry you never knew the woman
+			Tasha became. I think you might
+			have been proud of her.
+					(MORE)
+
+      STAR TREK: "Legacy" - REV. 9/18/90 - ACT THREE      30B.
+
+39A  CONTINUED: (2)
+
+					PICARD (Cont'd)
+				(beat)
+			And she of you.
+
+	A beat, and Picard turns and EXITS. Stay on Ishara's
+	face for a couple of moments as she considers his
+	words.
+
+40   INT. BRIDGE - SCIENCE STATION
+
+	Ishara, now wearing more Federation-style than
+	cadre-style clothing, is working with Data at a
+	computer screen. He is sitting in front of it, she is
+	standing next to him, guiding the process over his
+	shoulder.
+
+41   CLOSE ON THE COMPUTER SCREEN (OPTICAL)
+
+	displaying the schematic map of the underground city
+	we've seen before. Far more of the details are now
+	filled in.
+
+42   RESUME
+
+	Data indicates a curiously-shaped room next to a large
+	chamber.
+
+					DATA
+			What is this structure?
+
+					ISHARA
+			A main fusion source -- there's
+			one next to each of the Alliance
+			headquarters. It powers all their
+			defensive systems.
+
+       STAR TREK: "Legacy" - REV. 8/29/90 - ACT THREE       31.
+
+43   CLOSE ON THE COMPUTER SCREEN (OPTICAL)
+
+	Data touches a control, causing the map to display a
+	series of small concentric circles over the spot,
+	symbolically suggestive of a radiating power source.
+
+44   RESUME
+
+	Ishara again points to the map.
+
+					ISHARA
+			This chamber is accessed from the
+			level below. Entry points are
+			evenly spaced along this wall
+			every twenty-five meters.
+
+	Data again touches a control. Ishara looks up, taking
+	in the sight of the bridge for a few moments. She's
+	curious in spite of herself.
+
+					ISHARA
+			Data... Where was Tasha's post?
+
+	Data seems a little surprised that she is asking about
+	her sister, given her previous reluctance about the
+	subject.
+
+					DATA
+			The Tactical Station -- where
+			Lieutenant Worf is now.
+
+	Worf has noticed Ishara's attention. He nods his
+	acknowledgement. Ishara smiles in return. She seems
+	to be starting to fit in. She turns back to Data,
+	again curious in spite of herself.
+
+					ISHARA
+			Did Tasha have many friends here?
+
+					DATA
+			Yes. She was especially close
+			to Commander Riker and Lieutenant
+			Worf. And to myself.
+
+					ISHARA
+				(surprised)
+			Are you able to have friends?
+
+	Data looks up from the task in front of him.
+
+					DATA
+			Yes.
+
+           STAR TREK: "Legacy" - REV. 8/29/90 - ACT THREE           32.
+
+44   CONTINUED:
+
+					ISHARA
+			But you don't have feelings, do
+			you?
+
+					DATA
+			Not as such. However, perhaps
+			even among humans, friendship is
+			sometimes less an emotional
+			response, and more a sense of
+			familiarity.
+
+					ISHARA
+				(understanding)
+			You can become used to someone.
+
+					DATA
+			Exactly. As I experience certain
+			sensory input patterns, my mental
+			pathways become accustomed to
+			them. The inputs eventually are
+			anticipated. And even "missed"
+			when absent. When something once
+			expected is no longer there.
+
+	A quiet beat. This may be the first time in ten years
+	Ishara has allowed herself to feel the loss.
+
+					ISHARA
+				(softly)
+			Like my sister.
+
+					DATA
+			Yes. Like your sister.
+
+	OFF the quiet look on Ishara's face.
+
+45   INT. ENGINEERING
+
+	Geordi, Worf, Data, Riker, and Ishara are poring over
+	the schematic map of the underground city.
+
+					GEORDI
+			They've been moved so far
+			underground that it took awhile
+			to pinpoint their signatures.
+
+	He indicates a place on the map.
+
+					GEORDI
+				(continuing)
+			The men are here. Next to one
+			of the Alliance headquarters.
+
+           STAR TREK: "Legacy" - REV. 8/24/90 - ACT THREE           33.
+
+46   INSERT SCHEMATIC MAP (OPTICAL)
+
+	which shows the pyramid-shaped underground series of
+	levels and chambers.
+
+	Geordi is pointing to a chamber close to Alliance
+	headquarters deep in their territory, located near the
+	edge of the pyramid shape's base.
+
+					GEORDI (O.S.)
+				(continuing)
+			And that's about two kilometers
+			of solid granite above them.
+
+47   RESUME
+
+					RIKER
+			So much for the transporter.
+
+					GEORDI
+			Not necessarily. We could use
+			the ship's phasers to cut a shaft
+			through the bedrock to this
+			storage tunnel here.
+
+47A  INSERT SCHEMATIC MAP (OPTICAL)
+
+	Geordi's hand indicates a line starting from just
+	outside the surface settlement and heading straight
+	down through the ground to a chamber near the one he
+	previously indicated.
+
+					GEORDI (O.S.)
+			With a clear path through the
+			rock, we'd be able to transport
+			down to the tunnel. That would
+			put us close enough to get to the
+			crewmen.
+
+	Geordi's finger traces out the steps on the map.
+
+47B  RESUME
+
+					GEORDI
+				(continuing)
+			It would take me a few hours to
+			adjust the phasers for drilling.
+
+	Riker indicates the map.
+
+           STAR TREK: "Legacy" - REV. 8/24/90 - ACT THREE           34.
+
+47B  CONTINUED:
+
+					RIKER
+			It's a maze around there...
+
+					ISHARA
+				(nodding)
+			I spent a lot of time in that
+			section before they took it over.
+			There are blind tunnels and dead
+			ends that don't even show up on
+			this map.
+
+					WORF
+			We don't have much choice.
+
+					ISHARA
+			If it wasn't for my implant
+			setting off all the alarms, I
+			could guide you to your men.
+
+	A beat.
+
+					DATA
+			We could remove the implant.
+
+	Ishara shakes her head.
+
+					ISHARA
+			It has a micro-explosive inside
+			that detonates on contact with
+			air. When you join a cadre, you
+			join for life.
+
+	Data considers this a moment.
+
+					DATA
+			A small force field containing
+			xenon or another inert gas could
+			be placed over the incision site.
+			The explosive could thereby be
+			safely disarmed at the same time
+			it is removed.
+
+	For once with respect to strategy, Ishara seems to hold
+	back, a hesitant look on her face. Riker picks up on
+	it.
+
+					RIKER
+			It's more than just a tactical
+			device to you, isn't it? It's
+			part of your identity.
+
+           STAR TREK: "Legacy" - REV. 8/27/90 - ACT THREE           35.
+
+47B  CONTINUED: (2)
+
+	She doesn't answer, seems to be struggling with the
+	issue.
+
+					RIKER
+				(continuing)
+			This is something you'll have to
+			decide for yourself, Ishara.
+			Think about it while we're waiting
+			for Geordi.
+
+	She nods, still obviously unsure.
+
+48
+thru	OMITTED
+49
+
+50   INT. TEN-FORWARD
+
+	Data and Ishara are at a table, next to a window
+	showing the stars outside. An already-drained glass
+	is in front of Ishara.
+
+					ISHARA
+			Our parents were killed in some
+			crossfire just after I was born.
+			Some people took care of us for
+			a few months... Then one day we
+			came home and they were gone.
+			So Tasha took care of me. And
+			when I got old enough, I joined
+			the Coalition.
+
+					DATA
+			And Tasha did not?
+
+					ISHARA
+			My sister hated the cadres.
+			Blamed them for our parents death.
+			For everything. She refused to
+			join. And she left as soon as
+			she had the chance.
+
+	A beat.
+
+           STAR TREK: "Legacy" - REV. 8/27/90 - ACT THREE           36.
+
+50   CONTINUED:
+
+					ISHARA
+				(continuing, doubtful)
+			I always thought she was weak for
+			doing that...
+
+	Ishara seems to be struggling with an unavoidable
+	conclusion.
+
+					ISHARA
+				(continuing)
+			But maybe I was wrong. Maybe
+			she made the right choice.
+
+	Ishara indicates the ship around them.
+
+					ISHARA
+				(continuing)
+			To work together for something
+			besides killing... to be close
+			to someone without having to
+			protect your back.
+
+					DATA
+			You find that appealing?
+
+	She smiles at his innocent choice of words.
+
+					ISHARA
+			Very appealing. You're a perfect
+			example. I hardly even know you
+			Data, but already I completely
+			trust you. I even consider you
+			my friend.
+
+					DATA
+			Thank you. I would like to
+			consider you my friend, Ishara.
+
+	She grows quiet, filled with a deep sense of regret.
+
+					ISHARA
+			If I had known about this place
+			fifteen years ago, things might've
+			been different.
+
+	She stares at Data's open face for a long beat.
+
+           STAR TREK: "Legacy" - REV. 8/24/90 - ACT THREE           37.
+
+50   CONTINUED: (2)
+
+					ISHARA
+				(continuing)
+			Maybe it's not too late.
+
+	OFF Data's intrigued look.
+
+51   INT. READY ROOM
+
+	Picard is standing with Data and Troi.
+
+					DATA
+			Ishara is willing to have the
+			implant removed.
+
+					PICARD
+			Very good. You may inform Doctor
+			Crusher.
+
+					DATA
+			She also expressed a desire to
+			leave the colony. She hopes
+			to apply to the Academy and
+			eventually join Starfleet.
+
+	Picard is completely taken aback. Troi is
+	particularly disturbed.
+
+					PICARD
+			Does she understand the magnitude
+			of these decisions?
+
+					DATA
+			She claims to, Captain.
+
+					PICARD
+			Her courage certainly speaks in
+			her favor. But Ishara's personal
+			history concerns me.
+
+					DATA
+			Did her sister not come from the
+			very same environment, Sir?
+
+           STAR TREK: "Legacy" - REV. 8/27/90 - ACT THREE           38.
+
+51   CONTINUED:
+
+					PICARD
+			Tasha never joined one of these
+			gangs. Doesn't that suggest a
+			fundamental difference between
+			the two of them?
+
+					DATA
+			I do not know. But I do know that
+			often for humans, decisions made
+			in youth only hold true for youth.
+
+	Impressed by Data's reasoning, Picard turns to Troi,
+	who shakes her head, concerned.
+
+					TROI
+			I get a sense of ambiguity from
+			her. Her loyalties are clearly
+			divided, Captain, no matter what
+			she may say.
+
+					PICARD
+			Are you suggesting we deny her
+			an escape from this environment,
+			Counselor?
+
+					TROI
+			No... I'm just not convinced she
+			really wants to escape. It is
+			the only way of life she's ever
+			known.
+
+					PICARD
+			Ultimately, it is her decision
+			to make, not ours...
+				(beat)
+			Certainly nothing would please
+			me more than to see another
+			officer named Yar in the service
+			of Starfleet... Mister Data,
+			proceed with the rescue as
+			discussed...
+
+	Data acknowledges with a nod, then starts for the door.
+
+					TROI
+			Data?
+
+           STAR TREK: "Legacy" - REV. 8/24/90 - ACT THREE           39.
+
+51   CONTINUED: (2)
+
+					DATA
+				(turning back)
+			Yes, Counselor?
+
+					TROI
+			You seem so strong in your
+			support. I'm curious...
+
+					DATA
+			We must free the crewmen. She
+			appears to be our best hope of
+			doing so. Also, individuals
+			worthy of Starfleet training are
+			somewhat rare.
+
+	A beat.
+
+					DATA
+				(continuing)
+			In addition...
+
+	He pauses, seeming to search for the correct words.
+
+					DATA
+				(continuing)
+			I have become used to her.
+
+52   INT. BRIDGE - SCIENCE STATION
+
+	Data has arrived moments ago to where Ishara has been
+	working at the station. She looks incredibly pleased.
+
+					ISHARA
+			Thank you, Data.
+
+					DATA
+			You are welcome. Doctor Crusher
+			is expecting you in Sickbay.
+
+	She smiles, seems almost amazed.
+
+					ISHARA
+			It's all so different...
+
+					DATA
+			To what are you referring?
+
+           STAR TREK: "Legacy" - REV. 8/24/90 - ACT THREE           40.
+
+52   CONTINUED:
+
+					ISHARA
+			On the colony, nobody does
+			anything for anyone else unless
+			they have something to gain from
+			it.
+
+					DATA
+			But I do have something to gain.
+			Your continued presence on this
+			ship.
+
+	She smiles hugely in response. Then suddenly looks
+	concerned.
+
+					DATA
+				(continuing)
+			Is something wrong?
+
+					ISHARA
+			I have to tell Hayne and the
+			others. I owe it to them.
+				(a ragged breath)
+			Guess I ought to get it over with.
+
+	A beat. Data picks up on her uncomfortableness.
+
+					DATA
+			If you desire privacy, you may
+			use the observation lounge.
+
+					ISHARA
+			That would probably make things
+			a little easier.
+
+	She turns towards the exit, then turns back and steps
+	over to him, kissing him quickly and self-consciously
+	on the cheek, before taking off again.
+
+53   INT. OBSERVATION LOUNGE
+
+	Ishara is looking at the viewscreen.
+
+53A  INSERT VIEWSCREEN (OPTICAL)
+
+	Hayne's image stares back at her.
+
+					HAYNE
+			Report?
+
+           STAR TREK: "Legacy" - REV. 8/24/90 - ACT THREE           41.
+
+53B  RESUME
+
+	Ishara pauses before answering, trying to hide from
+	him how surprisingly difficult it is for her to
+	continue.
+
+					ISHARA
+			It's working.
+
+	OFF the intense uncertainty on her face.
+
+									FADE OUT.
+
+                       END OF ACT THREE                         
+
+            STAR TREK: "Legacy" - REV. 8/30/90 - ACT FOUR           42.
+
+                           ACT FOUR                             
+
+	FADE IN:
+
+54   EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	In orbit above the colony at Turkana Four.
+
+					PICARD (V.O.)
+			Captain's log, stardate 44225.3.
+			Doctor Crusher has removed
+			Ishara's magnetic implant,
+			enabling the young woman to guide
+			our rescue attempt.
+
+55   INT. SICKBAY
+
+	Ishara is awake and healthy-looking, on her back on
+	a diagnostic bed, as Beverly runs a last series of
+	checks to see if her indications are all positive.
+	Beverly watches the wall monitors.
+
+					PICARD (V.O.)
+				(continuing)
+			Without my intending it, she has
+			virtually become an active member
+			of the crew.
+
+					BEVERLY
+			Cardiovascular functions normal.
+			Metabolism, immunity, all other
+			vital signs excellent.
+				(to Ishara)
+			How do you feel?
+
+	Ishara sits up, hanging her legs off the edge of the
+	bed.
+
+56   INCLUDE DATA
+
+	standing nearby.
+
+					ISHARA
+			Better than I've ever felt.
+
+	She means it more than just physically. Ishara smiles
+	at Data.
+
+					ISHARA
+				(continuing)
+			Thanks for staying with me.
+
+            STAR TREK: "Legacy" - REV. 8/30/90 - ACT FOUR           43.
+
+56   CONTINUED:
+
+	Data nods in response.
+
+					BEVERLY
+			You might want this... It was
+			a part of your life for a long
+			time.
+
+	Beverly hands Ishara the implant -- a blue, flat, one-
+	inch-long crystalline device -- it's surprisingly
+	beautiful and almost jewel-like. Ishara stares at it
+	for a long moment, turning it over in her hand. She
+	gives it to Data.
+
+					ISHARA
+			You keep it, Data. So you won't
+			forget me.
+
+	He accepts it, but looks puzzled.
+
+					DATA
+			Have you reconsidered your
+			decision to stay with us?
+
+	She shakes her head, no...
+
+					ISHARA
+			Just in case something goes wrong
+			down there...
+
+57   INT. CORRIDOR
+
+	Worf and Ishara walking quickly along. Worf looks
+	towards her with affection.
+
+					WORF
+			I understand you wish to join
+			Starfleet.
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FOUR           44.
+
+57   CONTINUED:
+
+					ISHARA
+			Someday... If I'm lucky.
+
+					WORF
+			On that day, it is we who will
+			be "lucky."
+
+	She smiles at the compliment as they reach the
+	transporter room door.
+
+57A  INT. TRANSPORTER ROOM
+
+	Riker and Data are conferring with O'Brien as the door
+	opens and Worf and Ishara ENTER.
+
+					PICARD'S COM VOICE
+			Picard to Riker. Is your away
+			team ready?
+
+					RIKER
+				(to com)
+			Waiting for your signal, Captain.
+
+	Riker, Data, Worf and Ishara head for the transporter
+	pads, pulling their phasers as they do so.
+
+58   INT. BRIDGE
+
+	Picard is watching the planet on the viewscreen.
+	Geordi is at his station, leaned over his instruments.
+
+					PICARD
+			Status, Mister La Forge.
+
+					GEORDI
+			Phasers in alignment and ready
+			to fire.
+
+					PICARD
+			How far must we penetrate to
+			safely allow transporter function?
+
+					GEORDI
+			One point six kilometers.
+
+	A beat.
+
+					PICARD
+			Fire phasers.
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FOUR            45.
+
+58   CONTINUED:
+
+					GEORDI
+			Aye, Sir.
+
+	Geordi touches the panel.
+
+59
+thru	OMITTED
+60
+
+61   EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	The phasers fire in a single beam down towards the
+	planet.
+
+62   EXT. TURKANA FOUR COLONY (OPTICAL)
+
+	Same MATTE SHOT as previously, with a phaser beam
+	continuously striking perpendicular to the ground just
+	outside the city proper.
+
+63   INT. BRIDGE
+
+	Picard watching Geordi as Geordi watches his
+	instruments.
+
+					GEORDI
+			One point three kilometers. One
+			point four. One point five. One
+			point six.
+				(to Picard)
+			Deep enough for transport, Sir.
+
+					PICARD
+			Cease fire.
+
+					PICARD
+				(to com)
+			Picard to O'Brien, Energize.
+
+64
+thru	OMITTED
+65
+
+66   INT. TURKANA FOUR - ISOLATED TUNNEL (OPTICAL)
+
+	The away team of Riker, Data, Worf and Ishara beams
+	into an isolated tunnel in which there are a few
+	scattered storage cannisters and containers. Ishara
+	immediately takes the lead.
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FOUR            46.
+
+66   CONTINUED:
+
+					ISHARA
+			This way.
+
+	She quickly starts to move out. Worf steps to the
+	fore, slowing her down as he checks the way ahead of
+	them.
+
+					WORF
+			Caution is indicated.
+
+					ISHARA
+			We're near the heart of the
+			Alliance. Security is minimal
+			here. They aren't expecting
+			anybody this far in.
+
+	Worf and Riker exchange a glance. Worf nods his
+	acceptance of Ishara's argument. She keeps going, the
+	rest of the team following quickly behind her.
+
+67   INT. TUNNEL
+
+	The away team pauses at a confusing series of openings.
+
+					RIKER
+			Ishara?
+
+	A beat.
+
+					ISHARA
+			Follow me.
+
+	She heads for an opening, hesitating.
+
+					WORF
+			Are you certain?
+
+					ISHARA
+			No, I'm not.
+
+	She stops.
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FOUR           46A.
+
+67   CONTINUED:
+
+					ISHARA
+			I was here. But it was a long
+			time ago. I'm trying to remember...
+			there have been changes...
+
+	She looks around for a few more moments, makes a
+	decision.
+
+					ISHARA
+			It's through here.
+
+	She guides them towards one of the openings.
+
+68   FOLLOW (OPTICAL)
+
+	as Ishara leads the away team through an opening, past
+	a couple of turns, to a place where they can see a
+	secure-looking door, and one Alliance man standing
+	guard nearby.
+
+					ISHARA
+			Your men are behind that door.
+
+	Riker glances at the others, 'Let's do it... ' he moves
+	stealthily into a forward position... and when the
+	guard reacts to his movement, he fires -- the guard
+	collapses, stunned. The away team rushes the door.
+	Riker and Worf fire point-blank at the door when they
+	get there, knocking it over.
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FOUR           47.
+
+68   CONTINUED:
+
+	Riker, Data and Worf dive into the room. Ishara
+	remains outside and on guard.
+
+69   INT. CHAMBER (OPTICAL)
+
+	A nondescript chamber. Riker, Data and Worf find Tan
+	Tsu and the other crewman on their feet, hands bound
+	together with some high-tech looking restraints.
+
+					RIKER
+			Hold out your hands.
+
+	The crewmen comply as Riker fires a phaser blast at
+	one of the restraints.
+
+70   INT. TUNNEL (OPTICAL)
+
+	Ishara glances back towards the chamber, then
+	immediately and with intent, heads away from the room,
+	clearly pursuing her own agenda.
+
+	As she approaches a tunnel opening, a guard suddenly
+	appears from within the tunnel, shocked to find her
+	there. She blasts him with her phaser, winging him.
+
+	Injured, the man falls to the ground, but manages with
+	his last remaining strength to fire his phaser up at
+	a small metal panel on the wall several meters away,
+	before passing out. The panel answers with an
+	ear-shattering alarm.
+
+	Ishara, clearly distressed by the alarm, continues
+	running the direction she was headed, disappearing into
+	the tunnel.
+
+71   INT. CHAMBER
+
+	Riker frees the last crewman as all react to the sudden
+	alarm.
+
+					RIKER
+			Let's get moving.
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FOUR            48.
+
+72   INT. TUNNEL
+
+	The away team and crewmen come flying out of the room
+	-- Ishara is nowhere to be seen.
+
+					RIKER
+			Where is she?
+
+	This is just what he didn't want to happen. Worf
+	spots the wounded and unconscious guard across the
+	tunnel.
+
+					WORF
+			Commander, look.
+
+	Riker sees the guard.
+
+					RIKER
+			What the hell happened here?
+
+					WORF
+			She probably tried to draw their
+			fire. It triggered the alarm.
+
+					RIKER
+				(nodding)
+			Worf, get these men back to the
+			Enterprise.
+				(to Data)
+			Data, you're with me. She can't
+			be far.
+
+	Worf hurries the crewmen out the way they came as Riker
+	and Data split up and head towards the two tunnels
+	opposite.
+
+73   INT. TUNNEL OUTSIDE POWER GENERATOR (OPTICAL)
+
+	One Alliance guard is standing outside what looks like
+	a room-sized power generator. He appears edgy about
+	the distant alarm. Ishara steps from around a
+	projection, phaser raised. The guard has a second to
+	register complete surprise at her presence before she
+	blasts him away.
+
+	She moves quickly to the generator, fires her phaser
+	at a panel, which falls away, revealing the control
+	devices underneath. She quickly steps forward and
+	manipulates the controls. In response, the generator
+	begins a slowly escalating hum.
+
+					DATA (O.S.)
+			Ishara.
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FOUR           48A.
+
+74   INCLUDE DATA
+
+	standing several yards away. He lowers his phaser,
+	puzzled at her actions.
+
+					DATA
+				(continuing)
+			What are you doing?
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FOUR            49.
+
+74   CONTINUED:
+
+	She turns and faces him -- doesn't answer. He looks
+	from her to the generator with its increasingly shrill
+	sound.
+
+					DATA
+				(continuing)
+			The fusion generator is
+			overloading.
+				(turns to her)
+			You are attempting to disable the
+			defense system. For what reason?
+			We have rescued the crewmen.
+
+					ISHARA
+			I don't care about your crewmen.
+			We have three thousand troops
+			waiting at the perimeter. When
+			the defenses go down, they'll come
+			in. The Alliance will fall.
+
+	A beat.
+
+					DATA
+			The Federation will be responsible
+			for the resulting deaths. I
+			cannot allow that.
+
+					ISHARA
+			You don't have a choice.
+
+					DATA
+			That is not true.
+
+	He steps forward.
+
+					ISHARA
+			I don't want to kill you, Data.
+
+	She looks like she genuinely doesn't. But she clicks
+	the setting on her phaser, aiming straight at his
+	chest.
+
+					ISHARA
+				(continuing)
+			But I will.
+
+									FADE OUT.
+
+                        END OF ACT FOUR                         
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FIVE           50.
+
+                           ACT FIVE                             
+
+	FADE IN:
+
+75   INT. TUNNEL OUTSIDE POWER GENERATOR
+
+	Ishara's phaser is trained on Data; Ishara is
+	positioned between Data and the increasingly
+	overloading generator.
+
+					DATA
+				(re: the generator)
+			We will both be destroyed in the
+			explosion.
+
+					ISHARA
+			The Coalition's been all I've
+			had for fifteen years. They've
+			given me a life. I don't mind
+			dying for them.
+				(a beat)
+			But you won't have to if you get
+			out of here right now.
+
+	Data doesn't move.
+
+					DATA
+			Was this your intention from the
+			beginning?
+
+					ISHARA
+			We never could have gotten this
+			deep into Alliance territory
+			without your help.
+
+					DATA
+			Our help was not deliberate. You
+			deceived us.
+
+	She seems defensive, as though feeling some guilt about
+	what's happened.
+
+					ISHARA
+			What's the difference? You got
+			what you came for. Why should
+			you care about what we do?
+
+	A beat as Data seems to come to a conclusion about
+	something.
+
+            STAR TREK: "Legacy" - REV. 9/5/90 - ACT FIVE            51.
+
+75   CONTINUED:
+
+					DATA
+			Your friendship with me was part
+			of the deception, was it not?
+
+	Her silence is her answer. She is not proud of it.
+
+					DATA
+				(continuing)
+			You misled me at each step. And
+			yet I was completely unaware.
+
+					ISHARA
+			That doesn't matter now! None
+			of it does!
+				(desperately)
+			Get out of here, Data. Please.
+
+	The generator suddenly increases its hum exponentially.
+
+					ISHARA
+				(continuing)
+			Now.
+
+					DATA
+				(re: the generator)
+			My duty requires me to intercede.
+
+	And it all happens very quickly -- as he starts to step
+	forward...
+
+					ISHARA
+			Stop...
+
+	She clasps both hands on the phaser, tenses for firing
+	--
+
+					RIKER (O.S.)
+			Ishara!
+
+76   INCLUDE RIKER (OPTICAL)
+
+	Stepping from behind a projection, phaser raised.
+	Ishara immediately fires at Riker, missing as he ducks
+	back behind the projection, giving Data the split
+	second he needs to raise his phaser and fire at her.
+
+	Ishara crumples, stunned by Data's phaser.
+
+	Data rushes to the generator and starts working the
+	controls under the exposed panel. Riker goes to
+	Ishara, crouches down to see if she's alright.
+
+            STAR TREK: "Legacy" - REV. 9/18/90 - ACT FIVE           52.
+
+76   CONTINUED:
+
+					RIKER
+			What was she doing?
+
+	Data steps back from the generator as its humming whine
+	begins to subside.
+
+					DATA
+			Disabling the detection system
+			so her forces could attack.
+
+	Riker picks up Ishara's phaser as she starts to regain
+	consciousness. He stares at Data.
+
+					RIKER
+			Set to kill.
+
+	OFF Data's neutral expression as he continues to
+	process everything.
+
+76A  EXT. ENTERPRISE
+
+	In orbit around Turkana Four.
+
+76B  INT. CORRIDOR
+
+	A security man is standing guard outside crew's
+	quarters. Worf approaches, stands in front of the door
+	-- it slides open.
+
+76C  ANGLE ON ISHARA
+
+	sitting inside the room, like a prisoner awaiting her
+	fate.
+
+76D  INCLUDE WORF
+
+	who seems barely able to tolerate her presence.
+
+					WORF
+			The Captain wants to see you on
+			the bridge.
+
+	Ishara stands, leaves the room and joins Worf, as the
+	door slides shut behind her. Worf heads up the
+	corridor, Ishara falling into step beside him. They
+	continue for a few beats.
+
+            STAR TREK: "Legacy" - REV. 9/18/90 - ACT FIVE          52A.
+
+76D  CONTINUED:
+
+					ISHARA
+			What's going to happen to me?
+
+					WORF
+			That is Captain Picard's decision.
+				(beat)
+			If the captain were Klingon, you
+			would be executed.
+
+	Worf avoids looking at her, but Ishara glances up at
+	him. Again, Ishara's voice is subdued -- she's not
+	arguing, just trying to give an account of herself.
+
+					ISHARA
+			Sometimes a warrior must use
+			deception in the service of her
+			cause.
+				(beat, quietly)
+			If anyone on this ship should know
+			that, it's you.
+
+	They reach the turbolift. Worf stares at her.
+
+					WORF
+			Such a warrior must also be
+			prepared to suffer the
+			consequences.
+
+	Worf coldly turns away. Hold for a beat on Ishara's
+	face.
+
+77   INT. BRIDGE
+
+	The turbolift opens. Worf and Ishara step out and
+	cross towards the center of the bridge, where Picard is
+	facing the viewscreen. There is a vast coolness
+	towards her from everyone -- in extreme contrast to
+	the last time we saw them all together.
+
+	All are facing the viewscreen.
+
+					PICARD
+			Your strategy failed.
+
+78   INSERT VIEWSCREEN (INTERCUT AS NEEDED) (OPTICAL)
+
+	A clearly-disappointed but not the least bit apologetic
+	Hayne is facing them. Any sense of his disarming
+	personality is gone.
+
+            STAR TREK: "Legacy" - REV. 9/18/90 - ACT FIVE          52B.
+
+78   CONTINUED:
+
+					HAYNE
+			It was a calculated risk. You
+			gave us an opportunity we couldn't
+			ignore.
+				(a beat)
+			Are you hurt, Ishara?
+
+					ISHARA
+			No.
+
+            STAR TREK: "Legacy" - REV. 8/28/90 - ACT FIVE           53.
+
+78   CONTINUED:
+
+					HAYNE
+				(to Picard)
+			I want her returned immediately.
+
+					RIKER
+				(angered)
+			You're not in a position to
+			dictate to anybody. She attacked
+			two Federation officers.
+
+					HAYNE
+			You have no jurisdiction here!
+
+					RIKER
+			Don't talk about legal rights.
+			Your jurisdiction is based
+			entirely on the threat of
+			violence.
+
+	A beat as Hayne realizes he isn't convincing anybody.
+
+					HAYNE
+			You have your crewmen back. Isn't
+			that enough?
+
+	Picard and Ishara are looking at each other -- a silent
+	moment between them.
+
+					PICARD
+			Commander Data, escort Ishara to
+			the transporter toom.
+
+	Riker and other officers react with surprise. Picard
+	turns back to the viewscreen.
+
+					HAYNE
+			Thank you, Captain.
+
+	Picard doesn't acknowledge Hayne's response in any way
+	whatsoever.
+
+					PICARD
+			Close the channel.
+
+	Worf does so, as Data stands and goes to Ishara.
+
+	In silence, Ishara turns with Data and they both head
+	for the turbolift, entering it, and leaving the Bridge.
+
+	Everyone turns to Picard.
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FIVE          53A.
+
+78   CONTINUED: (2)
+
+					RIKER
+			You're far more charitable than
+			I would have been, Captain.
+
+	Picard pauses for a moment, glances around the room.
+	There's a sadness in his voice.
+
+					PICARD
+			I understand your feelings, Number
+			One. I share them. But perhaps
+			the fault lies in ourselves. We
+			were so eager to embrace her.
+			Each of us, myself included,
+			wanted to see something of Tasha
+			in her sister. We saw more than
+			what was there.
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FIVE           54.
+
+79   INT. CORRIDOR
+
+	Data and Ishara are walking, not looking at each other.
+
+					ISHARA
+			You haven't said one word to me.
+
+					DATA
+			What do you wish to talk about?
+
+	She looks at him -- decides not to pursue it. They
+	continue walking straight ahead.
+
+80   INT. TRANSPORTER ROOM
+
+	Data and Ishara are standing in front of the
+	transporter units.
+
+					ISHARA
+			I did what I had to. I'm sorry
+			if I hurt you in the process.
+
+					DATA
+				(reminding her)
+			I am an android. It is not
+			possible for me to be injured
+			in that fashion.
+
+81   ANGLE ON THE TRANSPORTER CHIEF
+
+	As he finishes setting the controls.
+
+					O'BRIEN
+			Whenever you're ready.
+
+82   RESUME DATA AND ISHARA (OPTICAL)
+
+	Data and Ishara look at each other for a couple of
+	silent moments.
+
+            STAR TREK: "Legacy" - REV. 8/28/90 - ACT FIVE           55.
+
+82   CONTINUED:
+
+	Ishara steps onto a transporter pad and turns to face
+	him, unable to keep the sadness out of her voice.
+
+					ISHARA
+			You know, I wasn't always lying
+			to you, Data. The time we spent
+			talking... it was the closest
+			thing to friendship I've ever had.
+				(a beat)
+			If that means anything to you.
+
+	No response.
+
+					DATA
+			Energize.
+
+	The Transporter beam appears, Ishara DEMATERIALIZES
+	into it and is gone.
+
+83   EXT. SPACE - THE ENTERPRISE (OPTICAL)
+
+	travelling at impulse speed through space.
+
+84   INT. RIKER'S QUARTERS
+
+	Riker is working on a report.
+
+					RIKER
+			Come in.
+
+	The door slides open and Data ENTERS. Riker is a
+	little puzzled by the visit, but is pleasantly
+	accommodating.
+
+					RIKER
+				(continuing)
+			Data. Come in, come in.
+
+					DATA
+			Commander.
+
+	Data steps forward, as Riker stands to greet him.
+
+					RIKER
+			What's on your mind?
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FIVE           56.
+
+84   CONTINUED:
+
+					DATA
+			Recent events have left me
+			puzzled, Sir.
+				(off Riker's look)
+			It has been days since Ishara
+			left. And yet, my thoughts seem
+			to dwell on her. Almost as if
+			I were experiencing a feedback
+			loop in my mnemonic network.
+
+	Riker frowns at the subject... still trying to figure
+	it out for himself.
+
+					RIKER
+			I know what you mean.
+
+					DATA
+			It is curious that I was so easily
+			misled.
+
+					RIKER
+			Make that "we."
+
+					DATA
+			Yes sir.
+
+	Riker considers him for a moment, seems to soften a
+	bit. How does he explain it to Data when he doesn't
+	quite understand it himself?
+
+					RIKER
+			Data, in every trust is the
+			possibility of betrayal. I don't
+			think you were prepared for that.
+
+					DATA
+			Were you prepared?
+
+	Riker takes a beat, shakes his head, sighs.
+
+					RIKER
+			I'm not sure anybody ever is.
+
+	Data considers this.
+
+					DATA
+			Then is it better not to trust?
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FIVE          56A.
+
+84   CONTINUED: (2)
+
+					RIKER
+				(continuing)
+			Without trust, there can be no
+			friendship, no closeness. None
+			of the emotional bonds that make
+			us what we are.
+
+					DATA
+			And yet you put yourself at risk.
+
+					RIKER
+			Every single time. Love itself
+			is a leap of faith.
+
+	Data absorbs this.
+
+            STAR TREK: "Legacy" - REV. 8/29/90 - ACT FIVE           57.
+
+84   CONTINUED: (3)
+
+					DATA
+			So, a prerequisite for love is
+			accepting the risk of betrayal.
+
+	Riker is a little surprised by Data's conclusion.
+
+					RIKER
+			That's an interesting point of
+			view, Data. Maybe you're right.
+
+	A moment between them as Data glances away, still
+	seeming to process these thoughts. Rikers's voice is
+	quiet.
+
+					RIKER
+				(continuing)
+			The emotions we experience when
+			someone we believe in turns away
+			-- they're the most painful a
+			person can feel.
+				(a beat)
+			We believed in her, Data...
+
+	Data thinks about this.
+
+					DATA
+			Yes. Perhaps I am fortunate to
+			be spared the emotional
+			consequences.
+
+					RIKER
+				(gently)
+			Perhaps...
+
+	Data nods his thanks. FOLLOW Data as he turns and goes
+	out the door.
+
+85   OMITTED
+
+86   INT. CORRIDOR
+
+	The door closes behind him as Data takes few steps then
+	pauses.
+
+	He waits for a moment, then raises his closed hand. He
+	opens it, revealing Ishara's jewel-like implant resting
+	on his palm.
+
+            STAR TREK: "Legacy" - REV. 8/27/90 - ACT FIVE           58.
+
+86   CONTINUED:
+
+	Data stares at it for several silent moments, his face
+	completely unreadable.
+
+									FADE OUT.
+
+                        END OF ACT FIVE                         
+
+                            THE END                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
