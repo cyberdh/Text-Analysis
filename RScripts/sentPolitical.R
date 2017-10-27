@@ -2,6 +2,7 @@
 # Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
 # To be used in conjunction with the CyberDH RNotebook tutorial found on Github > CyberDH > Text_Analysis.
 
+library(tm)
 library(twitteR)
 library(plyr)
 library(stringr)
@@ -49,6 +50,10 @@ lex.neg = scan('data/opinionLexicon/negative-words.txt', what='character', comme
 #add words using the c() [combine] function
 pos.words = c(lex.pos, 'win', 'prove', 'beat', 'endorse', 'endorses', 'exciting', 'vote', 'wins', 'support', 'supports', 'help', 'winner')
 neg.words = c(lex.neg, 'outnumbered', 'lose', 'losing', 'defeat', 'halt')
+
+#Remove words that might skew the results. Use combine c() function if you have more than one word:
+pos.words <- removeWords(pos.words, 'trump')
+#neg.words <- removeWords(neg.words, c('issue', 'issues', 'problem', 'problems'))
 
 # Implement Sentiment Scoring Algorithm
 score.sentiment = function(tweets, pos.words, neg.words, .progress='none')
