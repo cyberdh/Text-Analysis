@@ -1,11 +1,12 @@
+#Set the working directory
+setwd("~/Text-Analysis/")
+
 #Call libraries used in the script 
 library(wordcloud)
 library(tm)
 library(RColorBrewer)
 library(twitteR)
 
-#Set the working directory
-setwd("~/Text-Analysis/")
 
 #load file with saved tweets
 tweets <- read.csv("data/twitter/tweetsclinton.csv")
