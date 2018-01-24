@@ -1,0 +1,998 @@
+			-- You were like a brother to
+			me. We played in the park near
+			the lake.
+			Of course -- Every summer you
+			came to Bergerac!
+			You used to make swords out of
+			the reeds -- And when you cut
+			your hand, you would run to
+			me, and I would say --
+			"Let me see --"
+			Oh! How did you do that?
+			"Playing" near the Porte de
+			Nesle.
+			And how many were against you?
+			No more than a hundred.
+			Tell me!
+			No... Let it go. You tell me
+			what you were going to say. Do
+			you dare?
+			I do dare... I love someone.
+			Ah!
+			But he does not know.
+			Ah!
+			Not yet. He is proud, noble,
+			brave and beautiful --
+			Beautiful!
+			What's the matter?
+			He is in the Guards?
+			Since this morning. Baron
+			Christien de Neuvillette. In your
+			own regiment.
+			Ah...
+			Promise to be his friend.
+			I promise.
+			And never let him fight a duel.
+			God forbid.
+			Oh, I love you.
+			I must go now. You never told
+			me what happened last night.
+			And tell him to write me. A
+			hundred men against one. To
+			write, remember. A hundred men!
+			What courage!
+			Oh... I have done better since...
+			Bravo.
+			Wonderful.
+			Lieutenant Barclay's performance
+			was superficially adequate but
+			clearly not rooted in The Method
+			approach. As a result, his
+			customary anxiety was evident.
+			I do not understand why...
+			-- Because it's polite, Data.
+			Not a bad showing after only six
+			weeks of lessons.
+			Not a bad showing period.
+			I... we have a very... patient
+			teacher.
+			There's an opening in my
+			workshop... Worf.
+			Well done.
+			Thank... thank you...
+			Counselor...
+			You've come a long way, Reg.
+			After... more rehearsals than I
+			can count.
+			I don't just mean your acting
+			ability. It takes a great deal
+			of courage to put yourself on
+			display like that.
+			You think so...
+			There was a time when nothing
+			could have dragged you onto a
+			stage in front of an audience.
+			You've made tremendous progress.
+			I... I guess...
+			Don't you think so?
+			Well...
+			I still feel more... more
+			comfortable playing somebody else.
+			Maybe all this is no better than
+			escaping into a holodeck fantasy.
+			I disagree. This isn't fantasy
+			-- it's theatre. You used to
+			withdraw into the holodeck. You
+			isolated yourself inside your own
+			imagination, avoiding contact with
+			real people.
+			Look at yourself now... and look
+			at all the other people you're
+			with... you're not just acting,
+			you're inter-acting. Give
+			yourself some credit, Mister
+			Barclay!
+			Maybe... you're right.
+			Captain's log, stardate 44704.2.
+			We have arrived at the Argus
+			Array, the remote subspace
+			telescope at the very edge of
+			Federation space.
+			The unmanned structure
+			mysteriously stopped relaying its
+			data nearly two months ago.
+			The fusion reactors that power
+			the array are extremely unstable.
+			The risk of overload is high.
+			What about the computer systems?
+			They do not seem to be functioning
+			at all.
+			Captain! I am picking up an
+			unidentified device! One point
+			eight kilometers from the array!
+			Onscreen.
+			Magnify.
+			Some kind of probe. I'll bet
+			that's what damaged the array.
+			Is it emitting any signals,
+			Lieutenant?
+			Negative, sir. I show no
+			activity.
+			Mister La Forge, why don't you
+			go out and take a closer look.
+			Aye, sir.
+			Mister Barclay, report to
+			Main Shuttlebay.
+			Enterprise, this is Shuttle Five,
+			in position. Ready to begin
+			short-range scan.
+			Proceed, Shuttle Five.
+			Let's start with the passive high
+			res series.
+			Electromagnetic band?
+			Give it a try.
+			I'm picking up visual wavelengths
+			only. Between forty-five...
+			forty-five hundred and seven
+			thousand angstroms.
+			Try the neutron densitometer.
+			Nothing.
+			Hmmmm. Doesn't seem to want to
+			give up any secrets. Let's go
+			to active scan.
+			No... No modulation.
+			You are definitely not from our
+			neighborhood.
+			Increase to three point zero.
+			Commander?
+			Yeah, Reg?
+			Thanks for... for assigning me
+			to this mission.
+			Don't mention it. You're one of
+			my top engineers. It's about time
+			you started to do the interesting
+			stuff.
+			This is why I'm in Starfleet.
+			Still no modulation.
+			Hit it with the positron emission.
+			What was that?
+			Our computer is down!
+			Reg! Reg!
+			Captain's log, supplemental. An
+			intense energy surge from the
+			alien probe has severly disabled
+			the shuttle's onboard computer.
+			The away team has been transported
+			directly to Sickbay.
+			Any indication of the probe's
+			energy source, Data?
+			No sir. Power emissions do not
+			match any known radiation
+			patterns. We have not encountered
+			this technology before.
+			Very well. Isolate the probe and
+			place it in tow. We'll take it
+			to Science Station Four-Oh-Two
+			in the Kohlan system...
+			Captain. The probe has begun to
+			move. It is approaching the
+			Enterprise.
+			Shields up!
+			Aye, sir.
+			There was enough energy in that
+			flash to overload your optic
+			nerves. It knocked you
+			unconscious.
+			My VISOR must have filtered it
+			out.
+			Exactly.
+			Well, there's no apparent retinal
+			damage and the cornea looks fine.
+			But I'm still waiting for the full
+			sero-amino readout. I'll call
+			you when it comes in.
+			You shouldn't have to... wait so
+			long for the results...
+			What do you mean?
+			Couldn't you use a global mode
+			in your scanner... It would be
+			a lot faster.
+			That's not possible.
+			These are human cells we're
+			talking about, not isolinear
+			circuits.
+			You'd better stick to engineering.
+			The cells have a... an
+			electromagnetic signature... just
+			like a circuit element does...
+			Conceptually, it should work...
+			with a few adjustments...
+			I could set it up for you if you'd
+			like...
+			Probe now closing at fifteen
+			point three meters per second.
+			Collision course.
+			Captain, sensors are reading no
+			particulate emissions or subspace
+			field distortions.
+			Then how is it able to move?
+			The method of propulsion is
+			unknown.
+			Ensign, take us away from it.
+			One quarter impulse.
+			Aye, Sir.
+			The probe is matching our speed
+			and course.
+			Captain, an energy field is
+			forming around the device.
+			Intensity is three point two
+			terawatts, and increasing.
+			Sir, the shuttlecraft shields did
+			not provide sufficent protection
+			for its computer. Our computer
+			may also be vulnerable. I
+			recommend withdrawal to a safe
+			distance.
+			Ensign Anaya, full about, go to
+			one-half impulse.
+			One-half impulse.
+			The probe is following.
+			Options, Number One?
+			We can't use photon torpedoes.
+			An explosion this close to the
+			ship could cripple us.
+			Sir, recommend full phasers.
+			Proceed.
+			Firing phasers.
+			No effect, Captain.
+			The probe's field intensity is
+			continuing to build... we are in
+			danger, Captain...
+			Riker to La Forge. Can you
+			increase phaser power?
+			Attempting to now, Commander.
+			Isolate phasers eighty through
+			one twenty and shunt all plasma...
+			... to the emitters, yessir, I'm
+			already on it... ready.
+			Captain! Phasers are as hot as
+			we can make them!
+			Mister Worf.
+			Aye, sir.
+			Nothing.
+			Go to warp two.
+			Aye, sir.
+			Warp two.
+			The probe is still with us, sir.
+			At warp two?
+			Yessir.
+			Captain. The probe's energy
+			output is overloading our shields.
+			Failure anticipated in forty-seven
+			seconds.
+			I'm willing to entertain
+			suggestions...
+			Captain! We're dropping to
+			impulse.
+			Commander, warp power has been
+			transferred to the shield grid.
+			Barclay, what are you doing?
+			Lieutenant Barclay to Captain
+			Picard. You can fire photon
+			torpedos. Maximum yield, full
+			spread.
+			We're too close.
+			Our shields will hold.
+			La Forge?
+			I don't know how Barclay did it,
+			but shield strength has been
+			increased by over three hundred
+			percent. It should be enough.
+			Mister Worf. Photon torpedos.
+			Maximum yield, full spread.
+			Aye.
+			Thank you, Mister Barclay...
+			You're welcome, Captain. Barclay
+			out.
+			I'm sorry if I overstepped my
+			authority.
+			Don't mention it...
+			Captain's log, stardate 44705.3.
+			The Enterprise has destroyed the
+			alien probe. But now we are left
+			with the difficult task of
+			repairing the Argus Telescope.
+			Failure to do so would represent
+			an irreplaceable scientific loss.
+			Mister Barclay.
+			... Everyone's still trying to
+			figure out exactly how you did
+			it.
+			It... it just occurred to me that
+			I could set up a frequency
+			harmonic between the deflector
+			and the shield grid... using the
+			warp field generator as a power
+			flow anti-attenuator and that of
+			course naturally created an
+			amplification of the inherent
+			energy output. (TECH?)
+			Uh huh.
+			Nice job.
+			Mister Barclay, I'm glad you could
+			join us.
+			Your report, Mister La Forge.
+			Each of the telescope's subspace
+			antenna clusters is powered by
+			its own fusion reactor. But a
+			single computer controls them all.
+			So, all eighteen reactors were
+			affected when the computer was
+			damaged... ?
+			They're starting to overload, and
+			could eventually go critical.
+			If that happens, the explosion
+			would destroy the Array. And I
+			wouldn't want to be next door if
+			that happens.
+			A standard isolation procedure
+			would be advisable.
+			I agree. We'll cut off each
+			reactor from the damaged control
+			system and repair them one by one.
+			How long will that take?
+			Two, three weeks -- at least.
+			Alright then, Mister La Forge --
+			I don't agree.
+			We could repair all the reactors
+			simultaneously instead of one by
+			one.
+			Simultaneously? All eighteen?
+			Yessir.
+			But the Argus computer is
+			inoperable.
+			Not entirely. The core memory
+			is still intact. We could program
+			a completely new control system.
+			That is an interesting suggestion,
+			Lieutenant. However, such an
+			approach would require more time
+			than our original plan, at least
+			seven weeks.
+			-- I can have it ready in two
+			days.
+			What?
+			If you could assist me in the
+			morning, Commander...
+			Sure, Reg.
+			The moon -- yes, that will be my
+			home. My paradise. I shall find
+			there, all the souls I love --
+			Socrates, Galileo...
+			"But what the devil is he doing
+			among us?"
+			Philosopher. Scientist. Poet,
+			musician, duellist -- Here lies
+			Hercule-Savinien De Cyrano de
+			Bergerac.
+			I would not have you weep any
+			less for that charming, good,
+			handsome Christien. I only ask
+			this: that as the great cold
+			surrounds my bones, you allow a
+			double meaning to your mourning
+			veil. And when your tears fall
+			for him, some few will be... for
+			me.
+			That was... a real improvement.
+			Thank you, Doctor. Same time day
+			after tomorrow?
+			Same time...
+			May I join you?
+			Of course. Please... Sit down,
+			Counselor.
+			Hard at work?
+			Getting prepared for tomorrow's
+			meeting in Engineering. We're
+			planning our repair strategy.
+			I enjoyed the scene you just
+			performed.
+			You're a very forgiving audience.
+			Not at all.
+			I thought you were brilliant.
+			You've... changed.
+			Is that a professional opinion?
+			Pure observation.
+			It's true. I can't explain it.
+			But in the last few days I've
+			found a confidence that I never
+			knew was there.
+			I'm proud of you, Reg... and I'm
+			glad for you, too.
+			Well, I'd better be going.
+			Must you?
+			I... think so...
+			Wouldn't you like to take a walk
+			with me through the arboretum?
+			The zalnias should be in bloom...
+			Reg, as your former counselor...
+			I... don't think it would be
+			appropriate...
+			-- I don't need a counselor. What
+			I need is the company of a
+			charming, intelligent woman.
+			Goodnight, Mister Barclay.
+			Where's Lieutenant Barclay?
+			I stopped by his quarters on my
+			way over. He wasn't there.
+			Computer, location of Lieutenant
+			Barclay.
+			Holodeck Three.
+			G sub I J of t as t approaches
+			infinity...
+			That's G of t over G-naught.
+			So it is, so it is.
+			I still don't see how you can
+			incorporate the quantum principle
+			into general relativity without
+			adjusting the cosmological
+			constant a lot more than you're
+			doing here.
+			If we increase the value as you
+			suggest, we must face the
+			possibility of twenty-six
+			dimensions, instead of ten!
+			I'm not sure if I'm ready for
+			that.
+			I certainly am not.
+			But if this semiset was curved
+			into the subatomic, the infinities
+			might cancel each other out.
+			Gruss Gott. They just might.
+			We had a meeting at Oh-seven
+			hundred...
+			I'm sorry, Commander.
+			Thank you, Professor.
+			End program.
+			What was that all about?
+			I had some ideas late last
+			night... I needed to consult the
+			computer about some quantum
+			electrodynamic calculations. A
+			holodeck Einstein program seemed
+			like the best way. I guess I went
+			a little overboard.
+			A little? Most of the stuff on
+			that blackboard was way out of
+			my league. Yours too.
+			Not really. I just never thought
+			along those lines before. It's
+			all pretty evident now... I'm sure
+			if you put your mind to it --
+			-- Ever since our run-in with the
+			probe, something's been different
+			about you.
+			Because I'm starting to behave
+			a little more like the rest of
+			the crew? With confidence in what
+			I'm doing?
+			You just spent the entire night
+			arguing Grand Unification Theories
+			with Albert Einstein!
+			Yes, but --
+			-- Something's happened to you,
+			Reg. We can't ignore that.
+			I've finally become the person
+			I've always wanted to be. Do we
+			have to ask why?
+			Yeah, I think we do...
+			Incredible. The production of
+			neurotransmitters in your brain
+			has jumped by over five hundred
+			percent. Pre and postsynaptic
+			membranes have increased their
+			permeability to match it.
+			I couldn't even guess at an I.Q.
+			level.
+			Probably somewhere between twelve
+			hundred and fourteen fifty.
+			But that isn't all.
+			The corpus callosum -- the
+			connecting bridge between the two
+			sides of the brain. It's so
+			active that the hemispheres have
+			essentially become one.
+			So it's not just raw intelligence
+			we're talking about.
+			Creativity, imagination,
+			resourcefulness, inspiration --
+			it's all been enhanced.
+			Lieutenant, you are the most
+			advanced human being who has ever
+			lived.
+			Captain's log; supplemental.
+			Apparently as a result of his
+			exposure to the alien probe,
+			Lieutenant Barclay has gained an
+			extraordinary new level of
+			intelligence. The question now
+			is -- how are we to deal with it?
+			We could confine him to his
+			quarters.
+			How can we do that? What's he
+			done? You're talking about
+			locking him up for being too
+			smart.
+			If he's under an alien influence,
+			doesn't that put us all at risk?
+			Not necessarily. For all we know
+			it could be more like a simple
+			allergic reaction to a bee
+			sting...
+			Has Mister Barclay done anything
+			that could be considered
+			potentially threatening?
+			He did make a pass at me last
+			night.
+			A good one.
+			I wouldn't exactly call that a
+			threat.
+			No, but it's definitely unusual
+			behavior for Barclay.
+			He taught violin technique at the
+			music school last night.
+			I didn't know Barclay even played
+			the violin.
+			He didn't... until last night.
+			Look... if we want to save the
+			Array, we need Barclay... It's
+			as simple as that...
+			Until he does something more
+			menacing than what's been
+			described -- I see no reason why
+			we should prevent him from
+			continuing his work.
+			Larson to Commander La Forge.
+			Go ahead, Lieutenant.
+			We're having trouble containing
+			reactor nine, sir. It's starting
+			to chain.
+			I'll be right there.
+			You said he made a pass... you
+			forgot to mention whether it was
+			successful or not...
+			Thermal levels up one hundred
+			seventy seven percent. Comparable
+			increase in neutron emissions.
+			Is the interface between our
+			computer and the Array still in
+			operation?
+			Yes.
+			But our computer is just too slow
+			to direct the repairs; the
+			parameters are changing too
+			quickly for it to keep up.
+			We'll have to try a remote
+			shutdown from here.
+			Transmitting commands to the Array
+			now, Sir. Starting close down
+			sequence.
+			Brower, increase the intake of
+			liquid Helium Three into the
+			reactor wall. We've got to cool
+			it off.
+			Transmitting commands...
+			Thermal levels increasing!
+			What happened?
+			Unclear... the interface isn't
+			fast enough.
+			Commander La Forge! Overload
+			indications on Argus generator
+			Five...
+			Seven and Fourteen.
+			Damn.
+			Can't do anything from here...
+			I've got to have a better
+			interface...
+			La Forge to Bridge. We're looking
+			at a cascade reactor failure on
+			the Argus.
+			I don't think we're gonna pull
+			this one out.
+			Reactor Nine will reach critical
+			in ten minutes, forty three
+			seconds. The subsequent explosion
+			will create a chain reaction along
+			the entire length of the Array.
+			La Forge. You've got ten minutes.
+			Ensign, standby for a jump to warp
+			two.
+			Yes, Sir.
+			Mister Worf, Red Alert.
+			Aye, Commander.
+			Computer.
+			Standing by.
+			Begin new program. Create as
+			follows: Work station chair.
+			Create a standard alpha-numeric
+			console positioned for left hand.
+			... Now, an iconic display console
+			positioned for right hand.
+			Tie both consoles into the
+			Enterprise main computer core,
+			utilizing a neural scan interface.
+			There is no such device on file.
+			No problem. Here's how you build
+			it...
+			Argus Reactor Nine is twenty-eight
+			seconds to critical.
+			Let's get out of here.
+			Warp two, Ensign.
+			Yes, Sir.
+			Helm is not responding.
+			Captain! We have lost computer
+			control!
+			What?
+			Twelve seconds to critical, Sir...
+			Go to manual.
+			I'm attempting to, sir... but
+			it's...
+			There's not enough time...
+			The computer is coming back on
+			line, sir.
+			Captain, the Argus reactors are
+			shutting down.
+			We are no longer in danger.
+			What happened?
+			Unknown, sir...
+			La Forge, what did you do?
+			Wasn't me, sir.
+			Computer, how were the Argus
+			reactors shut down?
+			A neural interface was created
+			to expedite the repairs.
+			Barclay?
+			Computer! Respond.
+			I am responding, sir. I'm sorry
+			if I caused you any alarm. It
+			was necessary in order to secure
+			the Array.
+			Barclay?
+			Yes, Commander...
+			It's me...
+			I was only trying to help. Our
+			computer was too slow to
+			compensate for the overload on
+			the Array. So I created an
+			interface that communicated my
+			thoughts directly to the central
+			processing unit.
+			Exactly what does that mean?
+			My body is as you see it here.
+			But much of my higher brain
+			functions and memory have been
+			transferred to the starboard
+			computer core.
+			Mister Barclay, please remove
+			yourself from the computer system
+			and leave the holodeck.
+			I'm afraid I can't, Sir.
+			Why is that?
+			My primary cerebral functions
+			are now operating almost entirely
+			from within the computer. They
+			have expanded to such a degree
+			that it would be impossible to
+			return to the confines of my
+			human brain.
+			Any attempt to do so would mean
+			my death.
+			That's it.
+			I disconnected the visual and
+			audio pickups. We can talk
+			without being monitored by...
+			the computer...
+			By Barclay.
+			Report, Commander.
+			It's now almost impossible to tell
+			where Barclay ends and the
+			computer begins. He's actually
+			rewriting the isolinear chips each
+			time he extends himself a little
+			further.
+			How do we get him out of there?
+			We don't. Not without killing
+			him.
+			This is an intolerable
+			situation... I have no wish to
+			harm him, but we cannot allow
+			Mister Barclay to continue to act
+			as the ship's computer... I don't
+			care how smart he is.
+			Lieutenant Barclay has not yet
+			extended himself into the
+			Engineering subsystems. It may
+			be possible to establish an ODN
+			bypass directly to the Bridge.
+			That won't give us control of
+			the ship.
+			No... But we would have access
+			to the propulsion systems. Enough
+			to get us to the nearest
+			Starbase.
+			How long would it take to set
+			it up?
+			A few hours.
+			Make it so.
+			Should we... discuss this with
+			Barclay, Captain?
+			I think not.
+			Commander La Forge?
+			Yeah, Reg?
+			I thought you would be in your
+			quarters.
+			Just catching up on some work.
+			That level-3 diagnostic we
+			talked about.
+			How're you doing?
+			I wish I could convey to you what
+			it's like for me now. What I've
+			become...
+			Give it a try.
+			I can conceive almost infinite
+			possibilities, and can fully
+			explore each of them in a
+			nanosecond. I perceive the
+			universe as a single equation,
+			and it is so simple, I...
+			understand...
+			Understand?
+			...everything.
+			Do you understand how this
+			happened to you?
+			I believe it is a gift... that
+			I have been chosen to fulfill a
+			great purpose...
+			Uh huh.
+			Do you suppose all this has
+			changed the way people think about
+			me?
+			I'll be honest with you. We don't
+			know what to think.
+			I've been concerned about that.
+			But soon everyone will
+			understand what I can do for
+			humanity.
+			They will... ?
+			We have always perceived the
+			maximum speed of the Enterprise
+			as a function of warp... but I
+			know now there are no limits...
+			We will explore new worlds that
+			we could never before have reached
+			in our lifetime. I will take us
+			to them...
+			Captain! I am picking up a
+			subspace distortion.
+			Mister Data?
+			This disturbance is the result
+			of a highly charged graviton field
+			emanating from our warp nacelles.
+			It is creating a severe bias in
+			the subspace continuum.
+			Lieutenant Barclay, are you
+			responsible for this graviton
+			field disturbance?
+			Yessir, I'm altering subspace
+			in a way that's never been
+			conceived of before. I'm fairly
+			certain it will allow us to travel
+			half-way across the galaxy in a
+			matter of only...
+			Mister Barclay, I'd like you to
+			hold off on this experiment for
+			now.
+			Captain, if you'd only allow
+			me...
+			Lieutenant, this is a direct
+			order. Discontinue whatever it
+			is you're doing.
+			I really would rather not, sir.
+			I'm positive you'll be pleased
+			with the result once I've
+			finished.
+			Audio is disconnected. We may
+			speak freely.
+			How soon before the ODN bypass
+			is in place?
+			I have been monitoring Commander
+			La Forge's progress. It will
+			be operational in approximately
+			seventeen minutes.
+			Captain, let me go to the
+			holodeck. Try to talk to him.
+			Sir, the subspace distortion is
+			continuing to increase...
+			Hello, Deanna.
+			Reg...
+			I'm sorry that we can't take that
+			walk in the Arboretum.
+			So am I.
+			Reg, you've frightened everyone...
+			I can't imagine that is your
+			intent.
+			Young children are sometimes
+			frightened of the world. That
+			doesn't mean their parents should
+			let them stay in their cribs.
+			Are we children to you, now?
+			I can see so much more than you
+			are capable of. You should trust
+			that.
+			Deanna, I've always wanted to earn
+			your respect.
+			You've got it... From all of us.
+			We don't need any more convincing.
+			Please obey the Captain's
+			orders... stop whatever you're
+			doing...
+			You must trust me...
+			How are we to trust an officer
+			who doesn't follow orders... ?
+			Trust me...
+			The Captain will do everything
+			in his power to stop you.
+			Picard to La Forge. Status?
+			Ready now, Captain.
+			Proceed.
+			Acknowledged.
+			Commander?
+			What.
+			You're too late.
+			Captain, the ODN bypass to the
+			Bridge has been blocked. We have
+			not regained control of the
+			propulsion systems.
+			Barclay!
+			Yes, Commander Riker?
+			Shut that thing down!
+			Captain. We are going in.
+			Mister Barclay!
+			Respond at once!
+			Audio is disconnected.
+			Lieutenant, take a security team
+			to Holodeck Three.
+			Disconnect Mister Barclay from
+			the computer.
+			Aye, Captain.
+			I want you to know, Lieutenant
+			Worf, that I understand your duty
+			in this matter...
+			Phasers. Maximum setting
+			... and that I in no way will take
+			your actions personally.
+			The conduits.
+			Fire.
+			La Forge! Initiate stabilization
+			procedure!
+			Resetting stabilizers to match
+			subspace flow matrix... stand
+			by...
+			Mister Data... ?
+			We are experiencing a quantum
+			level oscillation delay...
+			Doubling in intensity, every
+			twelve point three seconds...
+			He is protected by a force
+			field... we could not disconnect
+			him.
+			Data, how long can we take this?
+			Bio-cellular disruption is
+			imminent.
+			Sir!
+			Where are we, Ensign?
+			Unless something is wrong with
+			the sensors... We're almost
+			thirty thousand light years from
+			where we were.
+			The center of the galaxy.
+			Sir, our heading has been altered.
+			Approaching a planetary cluster.
+			Captain, all systems are back
+			under helm control. The computer
+			has resumed normal functioning.
+			Captain!
+			Emotive. Electro-chemical
+			stimulus-response.
+			Cranial plate.
+			Bipedal locomotion. Endoskeletal.
+			Contiguous external integument.
+			I am Jean-Luc Picard, Captain of
+			the Federation Starship
+			Enterprise.
+			Hierarchical collective command
+			structure!
+			Who are you?
+			Interrogative.
+			Yes. I am interrogative... And
+			I would appreciate an
+			explanation...
+			I believe I can help with that,
+			Captain.
+			Mister Barclay. I thought it
+			would be fatal if you left the
+			holodeck.
+			The Cytherians have reintegrated
+			me, sir.
+			Cytherians.
+			The probe was designed to instruct
+			outsiders on how to reach this
+			system. But the technologies
+			aren't always compatible. It
+			failed with the Argus computer,
+			and with the computer on the
+			shuttle. But it was able to
+			reprogram... me.
+			What do you want of us?
+			The same as you.
+			Mister Barclay... ?
+			You both have the same mission,
+			Captain...
+			Mission... ?
+			Yessir. The Cytherians are
+			exploring the galaxy just as we
+			are... The difference is they
+			never leave their home -- they
+			bring others here. They only wish
+			an exchange of knowledge...
+			They want to know us.
+			Captain's log, stardate 44721.9.
+			The Cytherians have returned the
+			Enterprise to Federation space.
+			We bring back knowledge of their
+			race that will take our scholars
+			decades to examine. Lieutenant
+			Barclay is apparently no worse
+			for his experience.
+			How much do you remember?
+			I can still remember doing
+			everything -- I just can't
+			remember how or why.
+			And how do you feel now?
+			Smaller...
+			Just plain old Barclay, huh...
+			It always seems to come back to
+			that, doesn't it..
+			Most everyone has a moment in
+			their lives when they exceed their
+			own limits... achieve what seems
+			to be impossible...
+			The tricky part is what happens
+			afterwards.
+			You almost always feel a sense
+			of loss. But it's possible to
+			carry something of that experience
+			through the rest of your life --
+			in ways that you're not even aware
+			of now.
+			I... I think I see what you're
+			saying...
+			Either way, you're an important
+			part of this crew.
+			In fact, I could use your help
+			tackling that level-3
+			diagnostic...
+			Sure...
+			Excuse me, Commander... but I
+			believe Mister Barclay and I had
+			a date scheduled for a walk in
+			the Arboretum... ?
+			The diagnostic can wait. See you
+			later...
+			You don't... don't have to do
+			this, you know...
+			I know.
+			May I?
+			Checkmate in nine moves.
+			I didn't know you played chess.
+			I don't.
