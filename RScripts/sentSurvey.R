@@ -2,14 +2,13 @@
 # Using comments from the 2017 UITS Survey.
 # To be used in conjunction with the CyberDH RNotebook tutorial found on Github > CyberDH > Text_Analysis.
 
+# Global Parameters
+setwd("~/Text-Analysis/")
+
 library(tm)
 library(plyr)
 library(stringr)
 library(ggplot2)
-
-# Global Parameters
-setwd("~/Text-Analysis/")
-
 
 
 # Load Data
