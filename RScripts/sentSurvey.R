@@ -1,5 +1,5 @@
 # Simple Sentiment Analysis
-# Using 16,000 tweets directed at or written by the top four 2016 presidential candidates post-Iowa Caucus: Hillary Clinton, Ted Cruz, Bernie Sanders, and Donald Trump, we will create plots to analyze the sentiment of Twitter users related to the four candidates.
+# Using comments from the 2017 UITS Survey.
 # To be used in conjunction with the CyberDH RNotebook tutorial found on Github > CyberDH > Text_Analysis.
 
 library(tm)
