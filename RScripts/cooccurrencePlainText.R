@@ -31,7 +31,7 @@ nearby_words <- all_words %>%
 
 words_summarized <- nearby_words %>%
   group_by(word) %>%
-  #group_by(focus_word, word)
+  #group_by(focus_term, word)
   summarize(number = n(),
             maximum_distance = max(distance),
             minimum_distance = min(distance),
