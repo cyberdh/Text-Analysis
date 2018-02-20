@@ -21,7 +21,7 @@ myStopWords <- scan("data/earlyModernStopword.txt", what="character", sep="\n")
 corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords))
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
-corpus <- tm_map(corpus, PlainTextDocument)
+#corpus <- tm_map(corpus, PlainTextDocument)
 
 dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
