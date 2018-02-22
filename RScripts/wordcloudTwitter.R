@@ -9,7 +9,7 @@ library(twitteR)
 
 
 #load file with saved tweets
-tweets <- read.csv("data/twitter/tweetsclinton.csv")
+tweets <- read.csv("data/twitter/neverAgain.csv")
 
 #convert to utf-8
 corpus <- iconv(tweets$text, to = "utf-8")
@@ -30,7 +30,7 @@ removeURL <- function(x) gsub("http[[:alnum:]]*", "", x)
 corpus <- tm_map(corpus, content_transformer(removeURL))
                                      
 #remove stopwords
-corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp', 'rt', 'marketing', 'hillary', 'dont', 'hillaryclinton'))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp', 'rt', 'neveragain', 'dont'))
 
 #plot wordcloud
 wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
