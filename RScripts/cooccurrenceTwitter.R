@@ -16,8 +16,8 @@ library(stringr)
 #Set the working directory
 setwd("~/Text-Analysis/")
 #load file with saved tweets
-tweets <- read.csv("data/twitter/trumpCvilleAug12-15.csv", header = T)
-myStopWords <- c("rt", "amp", "trump", "trumps")
+tweets <- read.csv("data/twitter/neverAgain.csv", header = T)
+myStopWords <- c("rt", "amp", "neveragain")
 
 corpus <- iconv(tweets$text, to = "utf-8")
 corpus <- Corpus(VectorSource(corpus))
@@ -42,7 +42,7 @@ all_words <- data_frame(text = mycorpus) %>%
   filter(!word %in% tm::stopwords("en"))
 
 nearby_words <- all_words %>%
-  filter(word == "white") %>%
+  filter(word == "nra") %>%
   #filter(word %in% c("father", "good")) %>%
   select(focus_term = word, focus_position = position) %>%
   difference_inner_join(all_words, by = c(focus_position = "position"), max_dist = 5) %>%
