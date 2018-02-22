@@ -33,7 +33,7 @@ corpus <- tm_map(corpus, content_transformer(removeURL))
 corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp', 'rt', 'neveragain', 'dont'))
 
 #plot wordcloud
-wordcloud(corpus, min.freq=10, max.words=100, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
+wordcloud(corpus, min.freq=10, max.words=75, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
 
 # Ackowledgements: Much of the algorithm was acquired from a blog by Hanxue Lee called "Flummoxed by IT." The title of this blog entry is "Twitter Word Cloud Using R." The blog can be found at http://flummox-engineering.blogspot.com/2016/03/twitter-word-cloud-using-r.html. This blog was posted March 11, 2016.
 # Reference: Hanxue Lee. (2016, March 11). Twitter Word Cloud Using R. Retrieved from http://flummox-engineering.blogspot.com/2016/03/twitter-word-cloud-using-r.html                           
