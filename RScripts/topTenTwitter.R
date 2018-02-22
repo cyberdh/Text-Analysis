@@ -9,10 +9,7 @@ library(twitteR)
 
 
 #Read in the text 
-#text_raw<-scan("data/twitter/tweetsclinton.txt", what="character", sep="\n")
-tweets <- read.csv("data/twitter/trumpCvilleAug12-15.csv")
-#load("data/twitter/HillaryOct4.RData")
-
+tweets <- read.csv("data/twitter/neverAgain.csv")
 
 #Create a corpus 
 corpus <- iconv(tweets$text, to = "utf-8")
@@ -28,7 +25,7 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 removeURL <- function(x) gsub("http[[:alnum:]]*", "", x)
 corpus <- tm_map(corpus, content_transformer(removeURL))
-corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords, 'amp','rt','http', 'https','httpstc','httpst','httpstco', 'marketing', 'trump', 'trumps', 'dont', 'just', 'realdonaldtrump'))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords, 'amp','rt','neveragain','dont'))
 
 dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
@@ -44,7 +41,7 @@ labNames <- head(freqDF$words, 10)
 # 3) Look the frequency of all the words in the corpus by typing "freq" into the console
 
 par(mar=c(8,5,3,1))
-x <- barplot(head(freq,10), ylim=c(0,5000), col=c("red3", "orange3","yellow3","green3","blue3","darkorchid3","darkred", "darkorange", "gold", "darkgreen"), col.lab="black",
+x <- barplot(head(freq,10), ylim=c(0,8000), col=c("red3", "orange3","yellow3","green3","blue3","darkorchid3","darkred", "darkorange", "gold", "darkgreen"), col.lab="black",
      main="Tweet Word Frequency", xlab="", ylab="Number of Occurences", xaxt="n")
 axis(2, at=x, labels=TRUE)
 text(x, par("usr")[3], srt=45, adj=c(1.1,1.5), xpd = TRUE, labels = labNames, cex=.9)
