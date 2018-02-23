@@ -1,5 +1,4 @@
 #Call libraries used in the script 
-library(wordcloud)
 library(tm)
 library(RColorBrewer)
 library(topicmodels)
