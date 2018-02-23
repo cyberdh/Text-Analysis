@@ -22,7 +22,7 @@ unzip(zipF,exdir=outDir)
 
 #load file with saved tweets
 tweets <- read.csv("data/twitter/neverAgainSnippet.csv", header = T)
-myStopWords <- c("rt", "amp", "neveragain")
+myStopWords <- c("rt", "amp")
 
 corpus <- iconv(tweets$text, to = "utf-8")
 corpus <- Corpus(VectorSource(corpus))
