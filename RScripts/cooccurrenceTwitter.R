@@ -1,14 +1,8 @@
 #Call libraries used in the script 
 library(tm)
-library(RColorBrewer)
-library(topicmodels)
-library(plyr)
-library(twitteR)
 library(dplyr)
 library(tidytext)
 library(fuzzyjoin)
-library(SnowballC)
-library(stringr)
 
 
 
