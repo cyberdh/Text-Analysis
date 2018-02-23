@@ -39,5 +39,5 @@ words_summarized <- nearby_words %>%
   arrange(desc(number))
 write.csv(words_summarized, file = "ChooseAnyNameYouWant.csv")
 print(words_summarized)
-
+#NOTE: The term of interest counts itself, and so the numbers for your chosen word are inflated.
 #Much of this code was derived from David Robinson on stackoverflow who helped create the tidytext and fuzzyjoin packages in R.
