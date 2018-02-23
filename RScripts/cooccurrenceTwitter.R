@@ -56,6 +56,7 @@ words_summarized <- nearby_words %>%
             average_distance = mean(distance)) %>%
   arrange(desc(number))
 print(head(words_summarized, 12))
+#NOTE: The term of interest counts itself, and so the numbers for your chosen word are inflated.
 
 #plot average_distance to barplot
 names <- head(words_summarized$word, 11)
