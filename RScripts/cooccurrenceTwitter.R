@@ -22,7 +22,7 @@ unzip(zipF,exdir=outDir)
 
 #load file with saved tweets
 tweets <- read.csv("data/twitter/neverAgainSnippet.csv", header = T)
-myStopWords <- c("rt", "amp", "neveragain")
+myStopWords <- c("rt", "amp")
 
 corpus <- iconv(tweets$text, to = "utf-8")
 corpus <- Corpus(VectorSource(corpus))
@@ -47,7 +47,7 @@ all_words <- data_frame(text = mycorpus) %>%
   filter(!word %in% tm::stopwords("en"))
 
 nearby_words <- all_words %>%
-  filter(word == "nra") %>%
+  filter(word == "neveragain") %>%
   #filter(word %in% c("father", "good")) %>%
   select(focus_term = word, focus_position = position) %>%
   difference_inner_join(all_words, by = c(focus_position = "position"), max_dist = 5) %>%
