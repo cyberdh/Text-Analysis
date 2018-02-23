@@ -1,4 +1,4 @@
-#Top Ten Words in Hamlet, Curated Stopwords Removed
+#Top Ten Words #NeverAgain, Curated Stopwords Removed
 #Call libraries used in the script
 #Set the working directory
 setwd("~/Text-Analysis/")
