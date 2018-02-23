@@ -7,6 +7,10 @@ library(tm)
 library(RColorBrewer)
 library(twitteR)
 
+#unzip file
+zipF<- "data/twitter/neverAgain.csv.zip"
+outDir<-"data/twitter"
+unzip(zipF,exdir=outDir)
 
 #load file with saved tweets
 tweets <- read.csv("data/twitter/neverAgain.csv")
