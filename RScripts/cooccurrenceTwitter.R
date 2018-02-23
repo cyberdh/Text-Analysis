@@ -15,6 +15,12 @@ library(stringr)
 
 #Set the working directory
 setwd("~/Text-Analysis/")
+
+#unzip file
+zipF<- "data/twitter/neverAgain.csv.zip"
+outDir<-"data/twitter"
+unzip(zipF,exdir=outDir)
+
 #load file with saved tweets
 tweets <- read.csv("data/twitter/neverAgain.csv", header = T)
 myStopWords <- c("rt", "amp", "neveragain")
