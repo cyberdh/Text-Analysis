@@ -13,7 +13,7 @@ outDir<-"data/twitter"
 unzip(zipF,exdir=outDir)
 
 #Read in the text 
-tweets <- read.csv("data/twitter/neverAgain.csv")
+tweets <- read.csv("data/twitter/neverAgainSnippet.csv")
 
 #Create a corpus 
 corpus <- iconv(tweets$text, to = "utf-8")
