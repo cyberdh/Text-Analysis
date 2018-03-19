@@ -43,6 +43,11 @@ nearby_words <- all_words %>%
   difference_inner_join(all_words, by = c(focus_position = "position"), max_dist = 5) %>%
   mutate(distance = abs(focus_position - position))
 
+# based on the observation that the distance of a focus word to itself is 0,
+# we simply remove it by applying the following filter
+
+nearby_words = filter(nearby_words, distance != 0)
+
 words_summarized <- nearby_words %>%
   group_by(word) %>%
   #group_by(focus_term, word) %>%
@@ -68,4 +73,5 @@ print(p)
 
 #Save table to csv file for more detailed data 
 write.csv(words_summarized, file = "ChooseAnyNameYouWant.csv")
+#NOTE: In this code, the counting starts with the word at the 0 position and counts out from there. So 0 position is word 1 up to your specified distance. The code does not start counting with the word immediately preceding and  the word immediately following the word at the 0 position.
 #Much of this code was derived from David Robinson on stackoverflow who created the tidytext and fuzzyjoin packages in R.
