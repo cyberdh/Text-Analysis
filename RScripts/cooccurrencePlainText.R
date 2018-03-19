@@ -43,5 +43,8 @@ words_summarized <- nearby_words %>%
   arrange(desc(number))
 write.csv(words_summarized, file = "ChooseAnyNameYouWant.csv")
 print(words_summarized)
-#NOTE: In this code, the counting starts with the word at the 0 position and counts out from there. So 0 position is word 1 up to your specified distance. The code does not start counting with the word immediately preceding and  the word immediately following the word at the 0 position.
+#NOTE: In this code, the counting starts with the word at the 0 position and counts out from there. So 0 position is word 1 up
+# to your specified distance. The code does not start counting with the word immediately preceding and  the word immediately
+# following the word at the 0 position.
+
 #Much of this code was derived from David Robinson on stackoverflow who helped create the tidytext and fuzzyjoin packages in R.
