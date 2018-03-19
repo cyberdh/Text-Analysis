@@ -9,10 +9,6 @@ library(fuzzyjoin)
 #Set the working directory
 setwd("~/Text-Analysis/")
 
-#unzip file
-zipF<- "data/twitter/neverAgain.csv.zip"
-outDir<-"data/twitter"
-unzip(zipF,exdir=outDir)
 
 #load file with saved tweets
 tweets <- read.csv("data/twitter/neverAgainSnippet.csv", header = T)
