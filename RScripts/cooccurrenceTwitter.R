@@ -73,5 +73,8 @@ print(p)
 
 #Save table to csv file for more detailed data 
 write.csv(words_summarized, file = "ChooseAnyNameYouWant.csv")
-#NOTE: In this code, the counting starts with the word at the 0 position and counts out from there. So 0 position is word 1 up to your specified distance. The code does not start counting with the word immediately preceding and  the word immediately following the word at the 0 position.
+#NOTE: In this code, the counting starts with the word at the 0 position and counts out from there. So 0 position is word 1 up
+# to your specified distance. The code does not start counting with the word immediately preceding and  the word immediately
+# following the word at the 0 position.
+
 #Much of this code was derived from David Robinson on stackoverflow who created the tidytext and fuzzyjoin packages in R.
