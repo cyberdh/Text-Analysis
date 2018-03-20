@@ -9,9 +9,13 @@ library(fuzzyjoin)
 #Set the working directory
 setwd("~/Text-Analysis/")
 
+#unzip file
+zipF<- "data/twitter/neverAgain.csv.zip"
+outDir<-"data/twitter"
+unzip(zipF,exdir=outDir)
+load file with saved tweets
 
-#load file with saved tweets
-tweets <- read.csv("data/twitter/neverAgainSnippet.csv", header = T)
+tweets <- read.csv("data/twitter/neverAgain.csv", header = T)
 myStopWords <- c("rt", "amp")
 
 corpus <- iconv(tweets$text, to = "utf-8")
