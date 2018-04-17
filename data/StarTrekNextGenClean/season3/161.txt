@@ -45,7 +45,7 @@
 			to a significant temperature
 			reduction. We could be looking
 			at our own ice age.
-			Commander La Forge, is there any
+			Commander LaForge, is there any
 			way the Enterprise might be able
 			to coax this satellite back where
 			it belongs... ?
@@ -353,7 +353,7 @@
 			me.
 			You are hereby assigned to Q for
 			the remainder of his stay...
-			escort him to Mister La Forge in
+			escort him to Mister LaForge in
 			Engineering...
 			Can I have a Starfleet uniform...
 			What are you looking at?
@@ -687,7 +687,7 @@
 			Q.
 			I am only stating a fact,
 			Counselor.
-			Mister La Forge, your status?
+			Mister LaForge, your status?
 			I've been putting together a
 			program to extend the forward
 			lobe of our warp field. The field
@@ -702,7 +702,7 @@
 			in fourteen minutes...
 			Mister Data, escort Q to
 			Engineering...
-			You will assist Mister La Forge.
+			You will assist Mister LaForge.
 			Mister Worf, hail the Bre'el Four
 			science station.
 			Picard really thinks I can't cut
@@ -756,7 +756,7 @@
 			Captain, sensors are reading
 			increased energy output from the
 			Calamarain...
-			La Forge to bridge. The moon has
+			LaForge to bridge. The moon has
 			reached its minimum orbital
 			distance... it's time, Captain...
 			We'll have to lower shields...
@@ -769,7 +769,7 @@
 			Q, everybody already knows what
 			they're going to do, except for
 			you... now here's what I need...
-			La Forge, obviously my knowledge
+			LaForge, obviously my knowledge
 			and experience exceed yours...
 			by about a billion times... so
 			if you'll just step aside

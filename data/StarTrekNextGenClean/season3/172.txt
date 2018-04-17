@@ -187,14 +187,14 @@
 			Adding preprocessors to the
 			neutrino counters boosted
 			efficiency by eleven percent.
-			Of course, Commander La Forge and
+			Of course, Commander LaForge and
 			Commander Data did most of the
 			work...
 			Not so fast, Wesley.
 			Preprocessing the data with an
 			optical chip was your idea.
 			Correct, sir. Although Commander
-			La Forge and I designed the chip,
+			LaForge and I designed the chip,
 			Ensign Crusher derived the
 			equations governing its operation.
 			The point is, you've completed
@@ -678,7 +678,7 @@
 			a message.
 			Mister Worf, I want continual
 			monitoring of all Ferengi subspace
-			frequencies. Mister La Forge,
+			frequencies. Mister LaForge,
 			can you extend our sensor range?
 			If I narrow the band and tie in
 			long-range sensors to the subspace

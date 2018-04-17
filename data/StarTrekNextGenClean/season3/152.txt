@@ -6,7 +6,7 @@
 			Our mission is to resupply the
 			outpost and repair their
 			malfunctioning reactor.
-			Report, Mister La Forge.
+			Report, Mister LaForge.
 			We've finished replicating the
 			parts they need.
 			What I don't understand is why
@@ -708,7 +708,7 @@
 			observation post and depart, I
 			must make one last visit to
 			Mintaka Three.
-			Now, Mister La Forge.
+			Now, Mister LaForge.
 			What is it?
 			A place where we could watch your
 			people.

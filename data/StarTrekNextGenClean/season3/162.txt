@@ -40,7 +40,7 @@
 			to create Krieger Waves, a
 			potentially valuable new power
 			source.
-			Welcome back, Mister La Forge.
+			Welcome back, Mister LaForge.
 			Where's Commander Riker?
 			Still on the station, sir. Doctor
 			Apgar wanted a word with him.
@@ -93,7 +93,7 @@
 			station?
 			No, sir.
 			Number One... ?
-			Commander La Forge suggested this
+			Commander LaForge suggested this
 			was not an entirely routine
 			mission...
 			It's a long story, Captain...
@@ -218,12 +218,12 @@
 			return shortly with our witnesses.
 			Data, escort the chief inspector
 			to Transporter Room Three.
-			Mister La Forge, Ensign Crusher,
+			Mister LaForge, Ensign Crusher,
 			we are going to recreate the
 			research station on the Holodeck.
 			I want you to work with Mister
 			Data on the preparations. In
-			addition, Mister La Forge, you
+			addition, Mister LaForge, you
 			and Commander Riker will give the
 			computer detailed depositions on
 			everything you heard and saw while
@@ -265,7 +265,7 @@
 			Run the simulation.
 			Doctor Apgar? I'm Commander
 			William Riker; Lieutenant
-			Commander Geordi La Forge.
+			Commander Geordi LaForge.
 			My assistant Tayna... well, let's
 			get on with it, shall we?
 			Don't be in such a hurry, dear...
@@ -280,7 +280,7 @@
 			prepared...
 			All right... then why don't you
 			give me the overview of your
-			research while Mister La Forge
+			research while Mister LaForge
 			and your assistant look at the
 			experimental data...
 			Fine. Whatever. I must say,
@@ -330,7 +330,7 @@
 			on the planet...
 			I won't hear of such a thing.
 			Commander, I insist you and Mister
-			La Forge stay with us.
+			LaForge stay with us.
 			I hardly think --
 			I know you'd prefer to be alone
 			with your important work... but
@@ -387,7 +387,7 @@
 			I didn't see Doctor Apgar again
 			until the following morning when
 			he asked to see me alone.
-			Commander La Forge returned to
+			Commander LaForge returned to
 			the Enterprise...
 			Resume program.
 			I suppose if I make a formal
@@ -531,7 +531,7 @@
 			Go on, I'll be right in...
 			Doctor Apgar? I'm Commander
 			William Riker; Lieutenant
-			Commander Geordi La Forge.
+			Commander Geordi LaForge.
 			My assistant Tayna... well, let's
 			get on with it, shall we?
 			Don't be in such a hurry, dear.
@@ -553,7 +553,7 @@
 			Frankly, neither am I.
 			But I find this all fascinating,
 			don't you?
-			Mister La Forge, why don't you
+			Mister LaForge, why don't you
 			go over the doctor's experimental
 			data...
 			Later on, you can give me an
@@ -591,7 +591,7 @@
 			you the progress we've been
 			making.
 			I'd appreciate it if Commander
-			La Forge and I could stay here
+			LaForge and I could stay here
 			until the Enterprise returns.
 			It's a little inconvenient --
 			It might help accelerate the
@@ -877,7 +877,7 @@
 			happened at all?
 			I don't understand.
 			Allow me, with the help of Mister
-			La Forge, to explain. computer,
+			LaForge, to explain. computer,
 			load Manua Program One, time code
 			fourteen-four-one...
 			Play program.
@@ -1059,10 +1059,10 @@
 			anyone's talking about.
 			Nor should you, Mrs. Apgar.
 			We have arranged a demonstration
-			to illustrate. Mister La Forge,
+			to illustrate. Mister LaForge,
 			I believe it is almost time is
 			it not?
-			Computer, load program, La Forge
+			Computer, load program, LaForge
 			One... coordinate auto-engage time
 			sequence.
 			The next discharge from the field

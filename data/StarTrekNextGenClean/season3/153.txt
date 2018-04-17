@@ -80,7 +80,7 @@
 			That's an order.
 			Picard to Bridge.
 			Yes, Captain.
-			Assign Commander La Forge to lead
+			Assign Commander LaForge to lead
 			another Away Team to the digsite.
 			I want to know why this
 			happened...
@@ -249,7 +249,7 @@
 			as keenly as we felt the death
 			of those close to us, our history
 			would've been a lot less bloody.
-			La Forge to Riker...
+			LaForge to Riker...
 			You're back, Geordi...
 			Yessir, and we've brought back
 			a souvenier...
@@ -668,7 +668,7 @@
 			she's trying to take Jeremy off
 			the ship again.
 			Acknowledged.
-			Engineering, this is La Forge.
+			Engineering, this is LaForge.
 			Shut down power to all
 			Transporters. I'm on my way...
 			Lieutenant Worf, to Transporter
@@ -680,7 +680,7 @@
 			Energy force has left Transporter
 			Room Three... security alert, all
 			decks...
-			La Forge, the intruder may try
+			LaForge, the intruder may try
 			to reinstate Transporter power.
 			Understood, Commander...
 			Bridge, release security

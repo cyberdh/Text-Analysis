@@ -132,7 +132,7 @@
 			That's my theory. I'll see if
 			it holds up tomorrow.
 			I've reviewed your personnel...
-			I'll be assigning Mister La Forge
+			I'll be assigning Mister LaForge
 			and Mister Data to accompany me
 			on the away team...
 			I've... already assigned them to
@@ -249,7 +249,7 @@
 			have been warned... Ops will
 			continue to monitor long range
 			sensors... I've assigned Data,
-			La Forge and Mister Crusher to
+			LaForge and Mister Crusher to
 			work with Commander Shelby.
 			Very good, Number One. You've
 			covered all the bases. As usual.
@@ -452,7 +452,7 @@
 			stations...
 			Commander Shelby, status of
 			defense preparations?
-			Mister La Forge has a plan to
+			Mister LaForge has a plan to
 			modulate shield nutation...
 			hopefully, that'll hold them off
 			for awhile.
@@ -603,7 +603,7 @@
 			screen against their sensors,
 			sir...
 			Prepare to take us in, Mister
-			Crusher. Now. Mister La Forge,
+			Crusher. Now. Mister LaForge,
 			prepare to reverse engines, full
 			stop.
 			The Borg ship is continuing
@@ -623,7 +623,7 @@
 			Borg's beam breaks contact...
 			Freeze picture.
 			Take a close look, Commander...
-			Mister La Forge?
+			Mister LaForge?
 			There's a two percent power drop,
 			just for an instant... but it's
 			system-wide... The phaser
@@ -789,7 +789,7 @@
 			Status of shields.
 			Back to forty-eight percent,
 			Captain.
-			Mister La Forge, I may have to
+			Mister LaForge, I may have to
 			take us out of the nebula... I'll
 			need all the power you can give
 			me.
@@ -893,7 +893,7 @@
 			We'll find a way to bring them
 			out of warp...
 			Ensign Crusher... continue to
-			assist Mister La Forge...
+			assist Mister LaForge...
 			Commander Shelby, you will take
 			the bridge and coordinate with
 			Starfleet... Data, Worf, Doctor

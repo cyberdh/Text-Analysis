@@ -489,8 +489,8 @@
 			Very well, then. Mister Crusher
 			all stop.
 			Aye, sir.
-			Commander La Forge.
-			La Forge here.
+			Commander LaForge.
+			LaForge here.
 			Geordi -- how long to restore
 			shields?
 			Working on it. Computer,
@@ -501,7 +501,7 @@
 			reroute would compromise
 			operational safety limits.
 			To hell with the limits.
-			Override. Authorization La Forge
+			Override. Authorization LaForge
 			theta two-nine-nine-seven.
 			Rerouting structural integrity
 			power supply.
@@ -509,7 +509,7 @@
 			balance.
 			Nope, too much. We gotta do it
 			manually.
-			La Forge to bridge.
+			LaForge to bridge.
 			Go ahead.
 			Captain, I'm trying to feed the
 			inner grid by stealing some power
@@ -731,7 +731,7 @@
 			diagnostic.
 			Port sensor array remains offline.
 			Damn.
-			Riker to La Forge. How's it
+			Riker to LaForge. How's it
 			coming?
 			Not great... I think all the
 			control processors are shot.
@@ -743,7 +743,7 @@
 			element thirty-two only.
 			Well, the good news is that we
 			have partial long range sensors.
-			La Forge to bridge.
+			LaForge to bridge.
 			Riker here.
 			I'm picking up another echo on
 			the long-range sensor display
