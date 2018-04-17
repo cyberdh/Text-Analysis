@@ -176,7 +176,7 @@
 			normally... it's slow work. If
 			we can nail down this shield
 			generator problem, I agree with
-			La Forge... we should be at
+			LaForge... we should be at
 			operating capacity in two or three
 			hours...
 			Good.
@@ -520,7 +520,7 @@
 			fluctuations from the Borg ship...
 			looks like they're getting ready
 			to increase power...
-			Stand-by, La Forge...
+			Stand-by, LaForge...
 			The saucer section... it's a
 			sitting duck...
 			Prepare to draw their fire...
@@ -810,7 +810,7 @@
 			You heard me. A collision
 			course.
 			Yessir.
-			Mister La Forge, prepare to go
+			Mister LaForge, prepare to go
 			to warp power...
 			Sleep.
 			Data, he's regaining

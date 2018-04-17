@@ -263,7 +263,7 @@
 			situation here... we'll start a
 			search after we've dealt with it.
 			Aye, sir.
-			Mister La Forge, prepare to launch
+			Mister LaForge, prepare to launch
 			the construction module. Let's
 			get this over with as fast as we
 			can.
@@ -636,7 +636,7 @@
 			When I start firing -- you better
 			do your part.
 			First Officer's log, supplemental.
-			Mister La Forge has diverted
+			Mister LaForge has diverted
 			power from auxiliary fusion
 			generators in an attempt to
 			stabilize the tractor beam. This
@@ -652,7 +652,7 @@
 			rotating the output of the
 			auxiliary reactors, but it should
 			still give us the power we need.
-			Proceed, Mister La Forge.
+			Proceed, Mister LaForge.
 			Increasing to three-quarters
 			impulse.
 			Shearing force at one hundred

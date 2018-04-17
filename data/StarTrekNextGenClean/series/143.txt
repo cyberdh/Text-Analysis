@@ -179,7 +179,7 @@
 			It is broken.
 			Sensors indicate engineering
 			problems.
-			Lieutentant La Forge to bridge...
+			Lieutentant LaForge to bridge...
 			They have experienced total
 			guidance system failure and they
 			have less than twenty-four hours' reserve
@@ -269,7 +269,7 @@
 			All right. Let's get these
 			repairs made so we can all be on
 			our way.
-			First officer to La Forge...
+			First officer to LaForge...
 			Aye, Commander. Ready for
 			transport.
 			Proceed.
@@ -297,7 +297,7 @@
 			Fellas... why don't you show me
 			where your guidance system is?
 			He is smart.
-			Commander... Lieutenant La Forge
+			Commander... Lieutenant LaForge
 			is on an alien ship?
 			Yes. We're rendering assistance
 			to some curious throwbacks.
@@ -306,7 +306,7 @@
 			genuine curiosity.
 			Commander... Those aliens... what
 			they feel is not helplessness
-			... Lieutenant La Forge is in great
+			... Lieutenant LaForge is in great
 			danger!
 			Danger... great danger...
 			Can you be more specific,
@@ -353,7 +353,7 @@
 			Actually, any first year
 			engineering intern could do the
 			same thing--
-			Lieutenant La Forge, this is
+			Lieutenant LaForge, this is
 			Commander Riker...
 			Yes, Commander. Go ahead.
 			Are you all right?
@@ -437,7 +437,7 @@
 			excuse me...
 			One to beam aboard--
 			Hey!
-			Transporter room, beam La Forge
+			Transporter room, beam LaForge
 			over immediately.
 			Aye... negative response, sir!
 			Try again!
@@ -465,7 +465,7 @@
 			Sensors at maximum sensitivity.
 			Sensors at maximum.
 			Phasers ready, sir.
-			Hold fire. Lieutenant La Forge
+			Hold fire. Lieutenant LaForge
 			is on that ship.
 			Were you ever married?
 			My career always came first. I
@@ -637,12 +637,12 @@
 			But why would they go through
 			the charade of needing our help?
 			For the sole purpose of making
-			Lieutenant La Forge their prisoner.
+			Lieutenant LaForge their prisoner.
 			Options?
 			Tactically speaking, we have
 			three choices: we can negotiate,
 			attack, or simply abandon
-			Lieutenant La Forge.
+			Lieutenant LaForge.
 			You don't want to be late for your
 			exams, Ensign.
 			I've still got some time, sir.
@@ -799,7 +799,7 @@
 			Klingons, just about anybody they
 			ever came in contact with.
 			We like to be smart.
-			Confirmed, Lieutenant La Forge.
+			Confirmed, Lieutenant LaForge.
 			They steal technology.
 			But they lack the ability to use
 			it properly.
@@ -835,7 +835,7 @@
 			You can make us strong.
 			It's not something I like to talk
 			about --
-			Lieutenant La Forge.
+			Lieutenant LaForge.
 			Worf... my old friend.
 			Any classified weapons knowledge
 			you share with your captors will
@@ -984,7 +984,7 @@
 			They are smart.
 			We are not strong.
 			Drop your shields and let us
-			transport Lieutenant La Forge
+			transport Lieutenant LaForge
 			immediately.
 			Shields are down.
 			Transporter Room. One to beam

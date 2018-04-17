@@ -210,7 +210,7 @@
 			Affirmative, Number One. Are you
 			ready?
 			We are.
-			La Forge, set in warp
+			LaForge, set in warp
 			one-point-five.
 			Warp one-point-five.
 			Engage!
@@ -837,7 +837,7 @@
 			Engineering to bridge, we're
 			ready.
 			On my order, Mister Data... Mister
-			La Forge...
+			LaForge...
 			Engage!
 			It's not happening... not
 			enough...
@@ -870,7 +870,7 @@
 			Our next assignment is on this
 			heading?
 			Yes, sir.
-			Mister Data, Mister La Forge...
+			Mister Data, Mister LaForge...
 			Increase to warp five. Same
 			heading.
 			Warp five, sir.

@@ -8,7 +8,7 @@
 			-- we will be hosting a special
 			guest.
 			You wanted to see me, Captain?
-			Yes, Mister La Forge. It seems
+			Yes, Mister LaForge. It seems
 			that the exemplary nature of your
 			work has caught the attention of
 			Starfleet Command.
@@ -74,7 +74,7 @@
 			Starfleet record.
 			We all fall in love with our
 			fantasies, from time to time,
-			La Forge...
+			LaForge...
 			You've got it wrong, Guinan. I'm
 			not necessarily expecting anything
 			romantic. I just know that,
@@ -86,8 +86,8 @@
 			Hi!
 			I mean... welcome aboard, Doctor
 			Brahms. I'm Lieutenant Commander
-			Geordi La Forge. Chief Engineer.
-			La Forge. So you're the one who's
+			Geordi LaForge. Chief Engineer.
+			LaForge. So you're the one who's
 			fouled up my engine design.
 			... the matter/anti-matter ratio
 			has been changed... the mixture
@@ -290,7 +290,7 @@
 			Impulse engines at full power.
 			No change in our position.
 			Red Alert!
-			Commander La Forge, prepare to
+			Commander LaForge, prepare to
 			initiate the warp drive.
 			Sorry, Captain... there's too much
 			inteference to form a warp field.
@@ -387,7 +387,7 @@
 			Please. Sit down. Would you like
 			anything to drink?
 			No, thank you.
-			Commander La Forge... if I seem
+			Commander LaForge... if I seem
 			to you somewhat... unyielding...
 			in my views -- it's because I care
 			so very much about my work.
@@ -526,7 +526,7 @@
 			Maybe we could collaborate.
 			Writing is one of your strong
 			points.
-			Commander La Forge... ever since
+			Commander LaForge... ever since
 			I came on board, there's been
 			something a little peculiar in
 			your attitude. You seem to know
@@ -611,7 +611,7 @@
 			do to another -- she didn't live
 			up to your expectations.
 			Take a hard look through your
-			VISOR, La Forge... see her for
+			VISOR, LaForge... see her for
 			who she really is... not what you
 			want her to be.
 			The lifeform's patterns are
@@ -675,7 +675,7 @@
 			been able to temporarily stabilize
 			our power systems.
 			How long before the power drain
-			becomes critical, Mister La Forge?
+			becomes critical, Mister LaForge?
 			If it continues to increase at
 			the current rate, six, seven
 			hours, maybe...
@@ -726,8 +726,8 @@
 			of. Do you have a file on all
 			the work you've done?
 			Sure. It's in the computer --
-			Picard to La Forge...
-			La Forge here...
+			Picard to LaForge...
+			LaForge here...
 			Commander, I need to see you on
 			the Bridge.
 			Yes, sir, be right there.
@@ -847,7 +847,7 @@
 			If Data's right, it would have
 			an ample supply of food.
 			Agreed.
-			Mister La Forge, are you ready
+			Mister LaForge, are you ready
 			to separate our guest from the
 			hull?
 			Ready, Captain.
@@ -868,7 +868,7 @@
 			All decks go to emergency
 			condition seven. Life support
 			and critical operations only.
-			Mister La Forge, what is your
+			Mister LaForge, what is your
 			status?
 			I'm sorry, Captain... the bay's
 			been completely depressurized,
@@ -936,7 +936,7 @@
 			If we're gradual enough, it won't
 			be a shock. Hopefully it'll just
 			lose interest.
-			La Forge to Bridge...
+			LaForge to Bridge...
 			Go ahead.
 			Doctor Brahms and I have a plan,
 			Captain.
@@ -968,7 +968,7 @@
 			Captain -- the creatures are
 			accelerating their approach...
 			they're changing color!
-			Mister La Forge --
+			Mister LaForge --
 			Just a little more time,
 			Captain--!
 			Nudge it down... toward
@@ -984,7 +984,7 @@
 			Captain.
 			Bring the engines on line. And
 			take us out of here.
-			Mister La Forge... Doctor
+			Mister LaForge... Doctor
 			Brahms... congratulations. You
 			have weaned the baby.
 			Good work.
@@ -1029,9 +1029,9 @@
 			holodeck?
 			Not so different... not so
 			different at all.
-			Worf to La Forge... there's an
+			Worf to LaForge... there's an
 			incoming message on subspace for
 			Doctor Brahms...
 			My husband...
-			Acknowledged, Worf. La Forge
+			Acknowledged, Worf. LaForge
 			out.

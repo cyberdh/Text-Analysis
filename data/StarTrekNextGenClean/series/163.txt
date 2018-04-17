@@ -194,7 +194,7 @@
 			evacuate the ship.
 			I think we can do it. I'll have
 			to get to Engineering...
-			La Forge to damage control team
+			LaForge to damage control team
 			alpha. Meet me on Engineering
 			level three.
 			Thanks...
@@ -209,7 +209,7 @@
 			On screen, Mister Data.
 			Go ahead, Commander
 			We've stabilized life support,
-			Captain. Mister La Forge is
+			Captain. Mister LaForge is
 			working on restoring the main
 			power couplings but it'll take
 			time. Things are a real mess over
@@ -327,7 +327,7 @@
 			twenty years of war.
 			I'm not getting any kind of ready
 			condition on the impulse engines,
-			La Forge...
+			LaForge...
 			Acknowledged, Commander... some
 			of the engine control processors
 			went off-line. And there's

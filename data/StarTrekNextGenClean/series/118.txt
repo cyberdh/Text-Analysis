@@ -169,7 +169,7 @@
 			Wesley!
 			Sir, the energy beam is
 			originating from Aldea.
-			Shields up. La Forge, contact
+			Shields up. LaForge, contact
 			Commander Riker. Worf, check
 			all other decks.
 			Shields inoperable, sir. All
@@ -1040,6 +1040,6 @@
 			Sorry, sir. She just wanted to
 			give you a present for bringing
 			her back to her mommy.
-			Mister La Forge, out of orbit.
+			Mister LaForge, out of orbit.
 			Warp five.
 			Yes, sir. Certainly, sir.

@@ -1,5 +1,5 @@
 			Personal log, Chief Engineer
-			Geordi La Forge, Stardate 44885.5.
+			Geordi LaForge, Stardate 44885.5.
 			I am en route to Risa to attend
 			an artificial intelligence
 			seminar. Captain Picard has
@@ -116,7 +116,7 @@
 			matter clearly falls within his
 			jurisdiction.
 			As you wish.
-			Welcome, Mister La Forge. We've
+			Welcome, Mister LaForge. We've
 			waited a long time to meet you.
 			I can tell you've gone to a lot
 			of trouble.
@@ -144,7 +144,7 @@
 			He will be unable to ignore it.
 			His galvanic skin response has
 			increased nine percent. It seems
-			Commander La Forge, like many
+			Commander LaForge, like many
 			humans, has a low tolerance for
 			watching others suffer.
 			Why... are you doing this?
@@ -161,7 +161,7 @@
 			incapable of maintaining control
 			of his own responses... watch as
 			I change the stimuli again...
-			Once our work is done, La Forge
+			Once our work is done, LaForge
 			will act normally... totally
 			unaware of his conditioning. The
 			perfect tool for our purpose.
@@ -169,7 +169,7 @@
 			evidence of what you are doing
 			to him?
 			None, Commander. That is why we
-			chose La Forge. The utilization
+			chose LaForge. The utilization
 			of his pre-existing neural
 			implants makes our work impossible
 			to detect.
@@ -232,7 +232,7 @@
 			Humans perhaps. What matters is,
 			you acted that day as a true
 			Klingon.
-			Where are we, Mister La Forge?
+			Where are we, Mister LaForge?
 			In Ten Forward.
 			Who is that man sitting over
 			there?
@@ -253,7 +253,7 @@
 			Then do as I asked. Resume
 			program.
 			Chief?
-			Good, Mister La Forge. Very good.
+			Good, Mister LaForge. Very good.
 			Why don't you enjoy a drink with
 			your friends?
 			Mind if I join you guys?
@@ -262,7 +262,7 @@
 			Captain's Log, Stardate 44896.9.
 			We are orbiting Krios, awaiting
 			our first meeting with the Klingon
-			Governor. Commander La Forge has
+			Governor. Commander LaForge has
 			rejoined the Enterprise from Risa.
 			Welcome back, Geordi. How was
 			the seminar?
@@ -285,13 +285,13 @@
 			emphasize that you did enjoy
 			yourself. I see how that could
 			be considered quite amusing.
-			Commander La Forge...
+			Commander LaForge...
 			Permission to come aboard, sir.
 			Granted. Welcome back.
 			Ambassador Kell, this is my Chief
 			Engineer.
 			Commander...
-			Mister La Forge has been attending
+			Mister LaForge has been attending
 			a seminar...
 			.. on artificial intelligence on
 			Risa...
@@ -508,7 +508,7 @@
 			Initiate protocol three six four
 			dash B.
 			Verify priority clearance.
-			Recognize La Forge theta-two-nine-nine-seven.
+			Recognize LaForge theta-two-nine-nine-seven.
 			Acknowledged. Power has been
 			rerouted through auxiliary
 			replicator system.
@@ -564,7 +564,7 @@
 			consulting the High Council.
 			How long do we have?
 			A few hours at most.
-			Mister La Forge, your
+			Mister LaForge, your
 			recommendations?
 			It might be possible to locate
 			the point of origin by tracing
@@ -589,7 +589,7 @@
 			There... that's not a replicator
 			energy pattern... trace it...
 			Cargo Bay Four.
-			La Forge to Worf. Security to
+			LaForge to Worf. Security to
 			Cargo Bay Four.
 			I've run a level-1 diagnostic.
 			As far as I can tell, the unit
@@ -689,7 +689,7 @@
 			to convince him.
 			Qapla', Picard.
 			Qapla'.
-			Come in, Mister La Forge.
+			Come in, Mister LaForge.
 			The investigation is moving
 			faster than we expected. You are
 			in danger of being exposed.
@@ -705,7 +705,7 @@
 			of Starfleet, in support of
 			Kriosian independence.
 			I understand.
-			La Forge to O'Brien.
+			LaForge to O'Brien.
 			O'Brien?
 			Go ahead, Commander, what can I
 			do for you?
@@ -818,7 +818,7 @@
 			The shuttle has been subjected
 			to stress consistent with a
 			tractor beam.
-			Commander La Forge?
+			Commander LaForge?
 			What can I do for you, Chief?
 			Could you take a look at the
 			pattern buffers? Considering
@@ -840,16 +840,16 @@
 			diagnostic on the phase
 			transition coils.
 			Right, Commander.
-			Data to La Forge.
+			Data to LaForge.
 			Report, please.
 			Geordi... come in...
 			Computer... present location of
-			Commander La Forge?
+			Commander LaForge?
 			Cargo Bay Four.
 			Data to Lieutenant Worf.
 			Priority One.
 			Go ahead.
-			Take Commander La Forge into
+			Take Commander LaForge into
 			custody immediately.
 			Sir?
 			That is an order.
@@ -866,7 +866,7 @@
 			continue to check each one's
 			alibi...
 			Q'ac ken ta'vak!
-			La Forge!
+			LaForge!
 			Get him out of here.
 			Arming our enemies is not enough.
 			The Federation would murder me
@@ -875,7 +875,7 @@
 			this... I would.
 			I think I can help, Captain...
 			I have been able to determine that
-			Commander La Forge was abducted
+			Commander LaForge was abducted
 			by Romulans while en route to
 			Risa. It is likely that they
 			somehow forced him into taking
@@ -892,7 +892,7 @@
 			believe are carrying direct
 			commands to his brain.
 			I have surmised that Commander
-			La Forge was conditioned by the
+			LaForge was conditioned by the
 			Romulans -- a process referred
 			to historically, and somewhat
 			inaccurately, as brainwashing.
@@ -901,7 +901,7 @@
 			The Romulans have always wanted
 			to destroy the alliance between
 			the Federation and the Klingons.
-			Had Mister La Forge killed you,
+			Had Mister LaForge killed you,
 			Governor, I think you would agree,
 			they might very well have
 			succeeded.
@@ -912,7 +912,7 @@
 			in close proximity to the VISOR.
 			Then you're suggesting that a
 			Romulan accomplice was in close
-			proximity to La Forge whenever
+			proximity to LaForge whenever
 			he received the signals...
 			Yes, sir, I am.
 			This Romulan accomplice... who
@@ -920,7 +920,7 @@
 			I have narrowed the list of
 			possibilities to two people...
 			the only two people who were with
-			Commander La Forge all three times
+			Commander LaForge all three times
 			a transmission was recorded.
 			Captain Picard and Ambassador
 			Kell.

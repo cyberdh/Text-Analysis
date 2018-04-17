@@ -32,7 +32,7 @@
 			Data. It just means, you know,
 			uh oh, something's wrong...
 			There is something wrong?
-			Commander La Forge had a big date
+			Commander LaForge had a big date
 			with Christy tonight. He's been
 			working on the perfect program
 			for days. Looks like it ended
@@ -275,7 +275,7 @@
 			without instruments for a
 			change... you might surprise
 			yourself.
-			Mister La Forge, report to
+			Mister LaForge, report to
 			Engineering...
 			On my way, Commander.
 			Save my seat, Guinan.
@@ -287,7 +287,7 @@
 			Sir, there's no response.
 			Increase speed to warp one.
 			Engines are not responding, sir.
-			Mister La Forge, I need warp power
+			Mister LaForge, I need warp power
 			now!
 			Matter/anti-matter mixture ratio
 			settings at optimum balance...
@@ -405,7 +405,7 @@
 			Federation Starship Enterprise,
 			Galaxy class. Heading: Subspace.
 			Author: Leah Brahms.
-			Geordi La Forge. How ya doin,
+			Geordi LaForge. How ya doin,
 			Doc...
 			Yeah, down to work. You're
 			absolutely right.
@@ -524,12 +524,12 @@
 			crystal facet, we could do it...
 			we could hold our own. Leah,
 			you're beautiful.
-			La Forge to Picard....
+			LaForge to Picard....
 			Go ahead.
 			Captain, we've found a way to
 			extend the matter/anti-matter
 			energy supplies.
-			Well done, Mister La Forge.
+			Well done, Mister LaForge.
 			Geordi, can you give us enough
 			energy to get us out of here?
 			Sorry, Commander... we haven't
@@ -669,7 +669,7 @@
 			designers -- we never get out in
 			space.
 			You're there now.
-			Commander La Forge to the bridge.
+			Commander LaForge to the bridge.
 			On my way, Commander.
 			Don't go anywhere.
 			I mean, computer -- save program.
@@ -710,7 +710,7 @@
 			phasers will supply the
 			assimilators with what they need
 			most -- energy.
-			Mister La Forge, alternative
+			Mister LaForge, alternative
 			suggestions?
 			Maybe down the road, Captain...
 			But we can't overload the
@@ -720,7 +720,7 @@
 			neighbor's ship a thousand years
 			ago. May our decisions meet with
 			more success than theirs.
-			Mister La Forge, you will return
+			Mister LaForge, you will return
 			to Engineering and continue your
 			efforts without delay. Mister
 			Worf, prepare the phasers.
@@ -763,7 +763,7 @@
 			Down to twenty-six minutes.
 			If we resist, we die. If we don't
 			resist, we die.
-			Mister La Forge, have we shut down
+			Mister LaForge, have we shut down
 			all non-essential energy usage?
 			Yes, Captain. In fact, I need
 			to get some back... I'm running
@@ -780,7 +780,7 @@
 			Holodeck Three program is
 			reinstated.
 			Your best suggestion in an hour,
-			Mister La Forge. Picard out.
+			Mister LaForge. Picard out.
 			Computer, resume Holodeck Three
 			program.
 			Enter when ready.
@@ -859,7 +859,7 @@
 			This is the only way...
 			I think so, Captain.
 			Come.
-			Any word from La Forge?
+			Any word from LaForge?
 			He's come up with something that
 			might give us a chance. If we
 			agree to stay out of it.
@@ -909,7 +909,7 @@
 			ask the captain to turn the ship
 			over to a computer.
 			It's all we've got.
-			Picard to La Forge.
+			Picard to LaForge.
 			Captain... two minutes... give
 			me just two minutes....
 			There is another way, Captain...
@@ -961,7 +961,7 @@
 			Make it ready.
 			I've run the simulations... If
 			you want me to take Conn...
-			No, Mister La Forge. You've done
+			No, Mister LaForge. You've done
 			your job. Now I must do mine.
 			I relieve you, Mister Crusher.
 			Yes, sir.

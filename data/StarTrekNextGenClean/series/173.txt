@@ -26,7 +26,7 @@
 			Well, see you around.
 			I have much to teach you about
 			women.
-			Mister La Forge, report to
+			Mister LaForge, report to
 			Transporter Room three.
 			What's this all about, Commander?
 			Sensors have discovered a small
@@ -68,7 +68,7 @@
 			We need to design a virus that
 			can infiltrate his cell structure
 			and boost his ATP production.
-			What about Commander La Forge...
+			What about Commander LaForge...
 			he's waiting in the diagnostic
 			center.
 			I want you to give him a full

@@ -57,7 +57,7 @@
 			heat bleed away into space.
 			That's ridiculous!
 			That's what I say, sir.
-			Sir, Lieutenant La Forge in the
+			Sir, Lieutenant LaForge in the
 			crew quarters. Something in here.
 			Hello!
 			Riker to Captain, I have a report
@@ -119,7 +119,7 @@
 			Lieutenant.
 			Sickbay to Bridge...
 			Picard here. Go ahead, Doctor.
-			I'm confining Lieutenant La Forge
+			I'm confining Lieutenant LaForge
 			to Sickbay until further notice.
 			Do we have a problem, Doctor?
 			I don't know yet.
@@ -146,12 +146,12 @@
 			Perhaps she will look it up.
 			You can depend on it.
 			Geordi!
-			Security! Lieutenant La Forge
+			Security! Lieutenant LaForge
 			just left Sickbay while my back
 			was turned. It's important we
 			find him.
 			Security team alert, pick up
-			Lieutenant La Forge who left
+			Lieutenant LaForge who left
 			Sickbay moments ago.
 			Captain, anything further?
 			Affirmative. Make it a ship-wide
@@ -215,7 +215,7 @@
 			now. All right?
 			Captain's log, supplemental. I
 			am concerned that away team member
-			Lieutenant La Forge has been taken
+			Lieutenant LaForge has been taken
 			to Sickbay. The report: "unusual
 			behavior."
 			... and then we got him down to

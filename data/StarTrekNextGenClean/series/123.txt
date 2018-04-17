@@ -22,7 +22,7 @@
 			all systems on line and direct
 			full power to the shields.
 			All sections secure.
-			Lieutenant La Forge?
+			Lieutenant LaForge?
 			Course set.
 			Half impulse.
 			Half impulse, aye.
@@ -55,7 +55,7 @@
 			If we are to investigate this
 			unusual solar activity -- we must
 			get closer.
-			Mister La Forge, move us closer.
+			Mister LaForge, move us closer.
 			We'll be pushing our deflectors
 			to the limit, but we'll get a good
 			look at this phenomenon.
@@ -1025,7 +1025,7 @@
 			Doctor, it was not an easy
 			decision.
 			I just hope it was the right one.
-			Mister La Forge, take us out of
+			Mister LaForge, take us out of
 			orbit.
 			Aye, sir. Course laid in.
 			Engage.

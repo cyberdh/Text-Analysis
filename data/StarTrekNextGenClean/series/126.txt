@@ -155,10 +155,10 @@
 			Aye -- laying in the course now.
 			Captain, those coordinates will
 			take us to the Neutral Zone.
-			That's correct Mister La Forge, warp
+			That's correct Mister LaForge, warp
 			factor eight.
 			Warp eight.
-			Engage. Mister La Forge, you have
+			Engage. Mister LaForge, you have
 			the bridge.
 			Two Federation outposts in Sector
 			three-zero have been destroyed.
@@ -1246,8 +1246,8 @@
 			direction. Our mission is to go
 			forward and it has just begun.
 			Set velocity at warp six, Mister
-			La Forge.
+			LaForge.
 			Aye, sir... warp six.
 			There is still much to do... and
 			still so much to learn.
-			Mister La Forge... Engage.
+			Mister LaForge... Engage.

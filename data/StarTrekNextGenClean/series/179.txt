@@ -864,7 +864,7 @@
 			Approaching Starbase One-Three-
 			Three, Captain...
 			Slow to ten meters per second.
-			Mister La Forge, prepare for
+			Mister LaForge, prepare for
 			precision station-keeping.
 			Acknowledged. Readying thrusters.
 			There... there it is...

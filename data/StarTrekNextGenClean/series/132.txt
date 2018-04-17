@@ -264,7 +264,7 @@
 			And our chief medical officer,
 			Katherine Pulaski.
 			Doctor.
-			This is Lieutenant La Forge.
+			This is Lieutenant LaForge.
 			Pleased to meet you, sir.
 			What is that you're wearing?
 			A VISOR. It modifies the
@@ -575,7 +575,7 @@
 			Can you fix it?
 			Can it be fixed?
 			We must calm him.
-			Lieutenant La Forge. See what
+			Lieutenant LaForge. See what
 			you can learn about this. If it's
 			possible to repair it, I need to
 			know.
@@ -843,7 +843,7 @@
 			Take us out of orbit.
 			Come.
 			Sir?
-			Yes, Mister La Forge, something on
+			Yes, Mister LaForge, something on
 			your mind?
 			Sir, I know my VISOR gives me a
 			unique way of seeing that's
@@ -855,7 +855,7 @@
 			To be special we don't need to
 			do a damned thing. Just be what
 			we are.
-			There's only one Geordi La Forge.
+			There's only one Geordi LaForge.
 			And I wouldn't want to run my ship
 			without him.
 			All right!

@@ -38,7 +38,7 @@
 			UP THERE...
 			Four minutes to beam-up, sir.
 			Where is he? Wait here...
-			La Forge to Riker... La Forge to
+			LaForge to Riker... LaForge to
 			Worf...
 			HEY...
 			GEORDI...
@@ -51,7 +51,7 @@
 			surface of Galorndon Core, a
 			Federation planet.
 			We have recovered one survivor.
-			Lieutenant Commander La Forge
+			Lieutenant Commander LaForge
 			did not report back with the away
 			team and is still missing on the
 			surface.
@@ -811,7 +811,7 @@
 			interference prevents an accurate
 			reading.
 			But it is a likely hypothesis,
-			Number One. If Mister La Forge
+			Number One. If Mister LaForge
 			located a second survivor...
 			Hail the Romulan ship, Lieutenant.
 			Aye, sir.
@@ -857,7 +857,7 @@
 			Leave hailing frequencies open.
 			Yes, sir.
 			Mister O'Brien. Transport Mister
-			La Forge and the Romulan directly
+			LaForge and the Romulan directly
 			to the bridge.
 			Aye, sir. Energizing.
 			Security team to bridge.
@@ -893,14 +893,14 @@
 			escort your ship back to the
 			Neutral Zone, Commander.
 			That is acceptable.
-			Mister La Forge, it's good to have
+			Mister LaForge, it's good to have
 			you back.
 			I have Centurion Bochra to thank,
 			sir.
 			Your vision is returning...
 			Yeah, gradually. Your heart
 			rate's slowing down.
-			Mister La Forge, Mister Worf --
+			Mister LaForge, Mister Worf --
 			escort our guest to Transporter
 			Room One.
 			Aye, sir.
@@ -911,7 +911,7 @@
 			It was not in my power to save
 			him.
 			He was a loyal officer.
-			Lieutenant Commander La Forge.
+			Lieutenant Commander LaForge.
 			Centurion Bochra.
 			You're not what I expected of a
 			Federation officer.

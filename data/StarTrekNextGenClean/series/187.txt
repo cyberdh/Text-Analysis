@@ -505,7 +505,7 @@
 			star system. Look for a ship or
 			a base of operations -- anything
 			large enough to generate that
-			power... Mister La Forge,
+			power... Mister LaForge,
 			accompany Doctor Clark back to
 			the science station... see if
 			you can trace the origin of the
@@ -698,7 +698,7 @@
 			Captain, we weren't expecting you
 			here.
 			Neither was I.
-			La Forge to Enterprise.
+			LaForge to Enterprise.
 			Go ahead.
 			Worf, the Captain's here... You
 			better beam him back on board...
@@ -716,7 +716,7 @@
 			Did you say a uniform?
 			I did.
 			Aye, sir...
-			La Forge and Doctor Clark have
+			LaForge and Doctor Clark have
 			made no headway... Worf and
 			Commander Riker have not picked
 			up anything on their scans...
@@ -1101,13 +1101,13 @@
 			further evidence to present before
 			I render judgment?
 			I believe my associate, Mister
-			La Forge is bringing me that very
+			LaForge is bringing me that very
 			information... If I may have a
 			recess...
 			Hi, Data.
 			Hi, Geordi. A one hour recess
 			is granted.
-			Mister La Forge, my reputation
+			Mister LaForge, my reputation
 			as a litigator, not to mention
 			my soul, is in serious jeopardy...
 			Well, whatever's been going on

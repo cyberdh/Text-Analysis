@@ -9,7 +9,7 @@
 			possibility of survivors...
 			Ready to begin orbit of Angel One,
 			Captain.
-			Make it so, Mister La Forge. What
+			Make it so, Mister LaForge. What
 			kind of place is this, Data?
 			Angel One is a class M planet,
 			supporting carbon-based flora and
@@ -353,7 +353,7 @@
 			The away team has requested that
 			we scan the planet surface for
 			traces of platinum.
-			Have Mister La Forge break fixed
+			Have Mister LaForge break fixed
 			orbit and initiate a search
 			pattern.
 			Aye, Captain.
@@ -381,7 +381,7 @@
 			I think I may sneeze...
 			A Klingon sneeze?!
 			Only kind I know.
-			Lieutenant La Forge -- you have
+			Lieutenant LaForge -- you have
 			command until further notice.
 			Please make the proper entries
 			in the ship's log.
@@ -449,7 +449,7 @@
 			Welcome. I've been expecting you.
 			Picard to bridge.
 			Pardon me.
-			La Forge here, Captain.
+			LaForge here, Captain.
 			Status report, please.
 			Eighty-two more reported cases
 			of the virus, sir. Doctor Crusher
@@ -471,7 +471,7 @@
 			I'm sure half the ship knows that
 			by now. Report to Sickbay.
 			Engineering to bridge.
-			La Forge here.
+			LaForge here.
 			Sir, the computer won't accept
 			the variant climate controls
 			Doctor Crusher wants in the
@@ -717,7 +717,7 @@
 			through the entire ship's
 			contingent. Attempts to develop
 			an innoculant have so far ended
-			in failure. Lieutenant La Forge
+			in failure. Lieutenant LaForge
 			still has the Conn pending your
 			return.
 			What about the Romulans in the

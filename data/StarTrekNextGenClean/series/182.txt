@@ -199,7 +199,7 @@
 			The computer has been slow all
 			morning. A processing
 			accelerator is down.
-			Commander La Forge is running a
+			Commander LaForge is running a
 			Level-1 diagnostic to isolate
 			the problem.
 			Geordi...
@@ -648,7 +648,7 @@
 			Mom was beautiful, wasn't she?
 			Yes...
 			Dad... what's wrong?
-			La Forge to Riker.
+			LaForge to Riker.
 			Riker here.
 			Captain... please come to the
 			Bridge.
@@ -672,7 +672,7 @@
 			... for thirty hours... ? It's
 			never taken you more than four.
 			You're not capable of that kind of
-			incompetence, La Forge.
+			incompetence, LaForge.
 			But, sir...
 			Where did you get that scar?
 			In combat, sir.

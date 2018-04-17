@@ -137,7 +137,7 @@
 			Captain Picard... I think I need
 			a full briefing before we go any
 			further.
-			Commander Data... La Forge... I'll
+			Commander Data... LaForge... I'll
 			admit I'm glad I don't have to
 			do your job... good luck.
 			Excuse me, Doctor...
@@ -492,7 +492,7 @@
 			more serious? What if lives are
 			lost? Can you afford not to act?
 			Engineering to Captain Picard...
-			Yes, Mister La Forge...
+			Yes, Mister LaForge...
 			Sir, could you come to Engineering
 			right away? We've got something
 			interesting to show you.

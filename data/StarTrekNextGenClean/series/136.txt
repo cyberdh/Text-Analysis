@@ -128,7 +128,7 @@
 			Captain, we've laid in a course
 			for Daled Four. We will remain
 			on impulse power until Lieutenant
-			La Forge completes his
+			LaForge completes his
 			adjustments.
 			Status report on our passengers,
 			Lieutenant Worf. Did the
@@ -586,7 +586,7 @@
 			Come with me.
 			Energy depletion level.
 			Zero.
-			La Forge to bridge.
+			LaForge to bridge.
 			Yes, Lieutenant?
 			I have just completed the final
 			adjustments. Thank you for giving

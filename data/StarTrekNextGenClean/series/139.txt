@@ -161,7 +161,7 @@
 			I am going to have to connect
 			to the Enterprise in order to
 			activate the shuttle's systems.
-			Lieutenant La Forge -- report to
+			Lieutenant LaForge -- report to
 			Shuttle Bay Two.
 			I'm on my way.
 			Number One, I'll be in Sickbay.
@@ -628,10 +628,10 @@
 			out what it is? What is its
 			intent?
 			Engineering, transfer to bridge.
-			Lieutenant La Forge.
+			Lieutenant LaForge.
 			Yes, sir.
 			See if you can get us out of here,
-			Mister La Forge. Maximum warp.
+			Mister LaForge. Maximum warp.
 			Aye, sir.
 			I have set velocity to warp nine.
 			Engage.

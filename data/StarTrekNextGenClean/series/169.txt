@@ -76,7 +76,7 @@
 			normal to me...
 			Dammit..
 			I... I don't understand...
-			La Forge to Engineering... I'll
+			LaForge to Engineering... I'll
 			need more people in Cargo Bay
 			Five... anyone you can spare.
 			Out.
@@ -497,7 +497,7 @@
 			"Just shy"... sounds like
 			nothing serious, doesn't it...
 			You can't know.
-			O'Brien to La Forge.
+			O'Brien to LaForge.
 			Go ahead.
 			I need you in Transporter Room
 			Three, Commander.
@@ -707,7 +707,7 @@
 			Captain. I am not certain why.
 			They seem to be working properly
 			now.
-			Picard to La Forge.
+			Picard to LaForge.
 			Go ahead, Captain.
 			Any explanation for the injector
 			problem?
@@ -765,7 +765,7 @@
 			to the diagnostic commands.
 			I... think we should drop out of
 			warp.
-			La Forge to bridge.
+			LaForge to bridge.
 			Go ahead, Commander.
 			Recommend we go to impulse power
 			sir.
@@ -795,7 +795,7 @@
 			Aye, Commander...
 			Recommendations.
 			I'll let you know as soon as we
-			have some. La Forge out.
+			have some. LaForge out.
 			Okay, this ship will start tearing
 			itself apart in fifteen minutes...
 			I want every idea on the table...
@@ -912,7 +912,7 @@
 			using it.
 			And one of those canisters was
 			broken.
-			La Forge to bridge. We have a
+			LaForge to bridge. We have a
 			working theory, Captain...
 			There's a chance we picked up some
 			Invidium from a broken canister
@@ -938,7 +938,7 @@
 			invidium... down to minus two
 			hundred degrees Celsius, it'll
 			become inert.
-			La Forge to bridge. Invidium is
+			LaForge to bridge. Invidium is
 			confirmed.
 			Recommend we flood the injector
 			pathway conduit with liquid

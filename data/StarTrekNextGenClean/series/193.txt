@@ -118,7 +118,7 @@
 			Lieutenant?
 			Negative, sir. I show no
 			activity.
-			Mister La Forge, why don't you
+			Mister LaForge, why don't you
 			go out and take a closer look.
 			Aye, sir.
 			Mister Barclay, report to
@@ -248,7 +248,7 @@
 			The probe's field intensity is
 			continuing to build... we are in
 			danger, Captain...
-			Riker to La Forge. Can you
+			Riker to LaForge. Can you
 			increase phaser power?
 			Attempting to now, Commander.
 			Isolate phasers eighty through
@@ -283,7 +283,7 @@
 			spread.
 			We're too close.
 			Our shields will hold.
-			La Forge?
+			LaForge?
 			I don't know how Barclay did it,
 			but shield strength has been
 			increased by over three hundred
@@ -321,7 +321,7 @@
 			Nice job.
 			Mister Barclay, I'm glad you could
 			join us.
-			Your report, Mister La Forge.
+			Your report, Mister LaForge.
 			Each of the telescope's subspace
 			antenna clusters is powered by
 			its own fusion reactor. But a
@@ -342,7 +342,7 @@
 			system and repair them one by one.
 			How long will that take?
 			Two, three weeks -- at least.
-			Alright then, Mister La Forge --
+			Alright then, Mister LaForge --
 			I don't agree.
 			We could repair all the reactors
 			simultaneously instead of one by
@@ -552,7 +552,7 @@
 			described -- I see no reason why
 			we should prevent him from
 			continuing his work.
-			Larson to Commander La Forge.
+			Larson to Commander LaForge.
 			Go ahead, Lieutenant.
 			We're having trouble containing
 			reactor nine, sir. It's starting
@@ -586,7 +586,7 @@
 			What happened?
 			Unclear... the interface isn't
 			fast enough.
-			Commander La Forge! Overload
+			Commander LaForge! Overload
 			indications on Argus generator
 			Five...
 			Seven and Fourteen.
@@ -594,7 +594,7 @@
 			Can't do anything from here...
 			I've got to have a better
 			interface...
-			La Forge to Bridge. We're looking
+			LaForge to Bridge. We're looking
 			at a cascade reactor failure on
 			the Argus.
 			I don't think we're gonna pull
@@ -604,7 +604,7 @@
 			seconds. The subsequent explosion
 			will create a chain reaction along
 			the entire length of the Array.
-			La Forge. You've got ten minutes.
+			LaForge. You've got ten minutes.
 			Ensign, standby for a jump to warp
 			two.
 			Yes, Sir.
@@ -645,7 +645,7 @@
 			We are no longer in danger.
 			What happened?
 			Unknown, sir...
-			La Forge, what did you do?
+			LaForge, what did you do?
 			Wasn't me, sir.
 			Computer, how were the Argus
 			reactors shut down?
@@ -727,7 +727,7 @@
 			Should we... discuss this with
 			Barclay, Captain?
 			I think not.
-			Commander La Forge?
+			Commander LaForge?
 			Yeah, Reg?
 			I thought you would be in your
 			quarters.
@@ -806,7 +806,7 @@
 			How soon before the ODN bypass
 			is in place?
 			I have been monitoring Commander
-			La Forge's progress. It will
+			LaForge's progress. It will
 			be operational in approximately
 			seventeen minutes.
 			Captain, let me go to the
@@ -842,7 +842,7 @@
 			Trust me...
 			The Captain will do everything
 			in his power to stop you.
-			Picard to La Forge. Status?
+			Picard to LaForge. Status?
 			Ready now, Captain.
 			Proceed.
 			Acknowledged.
@@ -873,7 +873,7 @@
 			your actions personally.
 			The conduits.
 			Fire.
-			La Forge! Initiate stabilization
+			LaForge! Initiate stabilization
 			procedure!
 			Resetting stabilizers to match
 			subspace flow matrix... stand

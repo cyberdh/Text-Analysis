@@ -144,7 +144,7 @@
 			two-zero-five.
 			Federation space.
 			Bring us to within five kilometers
-			of the scout. Mister La Forge,
+			of the scout. Mister LaForge,
 			prepare to extend our shields
 			around that ship.
 			Captain, at that range, the
@@ -260,7 +260,7 @@
 			Well at least he's given us the
 			chance to get a look at some
 			Romulan technology.
-			Mister La Forge, you will head
+			Mister LaForge, you will head
 			the away team over to the scout.
 			Commander, you and Counselor Troi
 			will conduct Setal's
@@ -598,7 +598,7 @@
 			Probe on course. Sensors are
 			functioning...
 			Coordinate your analysis with
-			Mister La Forge... I want your
+			Mister LaForge... I want your
 			report with dispatch...
 			I don't know, Data... my gut tells
 			me we oughta believe what this
@@ -846,7 +846,7 @@
 			the strength, location and
 			tactical plans for the Romulan
 			fleet.
-			Mister La Forge, he is prepared
+			Mister LaForge, he is prepared
 			to give you data regarding
 			engines, weapons and cloaking
 			systems on the warbird class

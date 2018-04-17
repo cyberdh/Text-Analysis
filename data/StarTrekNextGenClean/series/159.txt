@@ -104,7 +104,7 @@
 			We appreciate the warning, Prime
 			Minister. We will keep you posted
 			on our progress.
-			Mister La Forge, how far and how
+			Mister LaForge, how far and how
 			fast can that transport ship
 			travel?
 			Without warp drive, there's no
@@ -625,7 +625,7 @@
 			deck thirty-six.
 			How the hell did he manage that?
 			He's headed for Engineering.
-			Riker to La Forge.
+			Riker to LaForge.
 			Engineering -- respond.
 			Sir -- someone in Engineering is
 			attempting to override the

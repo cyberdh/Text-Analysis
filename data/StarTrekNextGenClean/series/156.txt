@@ -297,7 +297,7 @@
 			possible to determine that it's
 			safe.
 			If we're satisfied, Data, you
-			and Commander La Forge will enter
+			and Commander LaForge will enter
 			the wormhole tommorrow.
 			Just a moment of discomfort for
 			a good cause, DaiMon.
@@ -361,7 +361,7 @@
 			That's exactly what I intend to
 			do. And I strongly suggest you
 			stay out of our way.
-			Tell Data and La Forge to do
+			Tell Data and LaForge to do
 			themselves a favor and stay out
 			of their way.
 			Captain Picard, please come to
@@ -403,7 +403,7 @@
 			Ferengi pod is moving into
 			position, Captain...
 			Ferengi pod, this is Lieutenant
-			Commander La Forge in the
+			Commander LaForge in the
 			Enterprise shuttle.
 			This is Doctor Arridor, go ahead.
 			Would you care to take the point,

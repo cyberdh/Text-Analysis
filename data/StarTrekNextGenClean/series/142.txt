@@ -39,7 +39,7 @@
 			and I just forgot I had it in my
 			hand...
 			I'll finish it over here.
-			Lieutenant La Forge, it won't
+			Lieutenant LaForge, it won't
 			happen again.
 			Actually it's my fault, sir...
 			Yes, I'm aware of how often you
@@ -670,7 +670,7 @@
 			of your illusions.
 			Oh, no. This is as real as your
 			"so called" life gets.
-			This is Lieutenant La Forge, Captain.
+			This is Lieutenant LaForge, Captain.
 			We have been able to restore power
 			to the shields.
 			Very good.
@@ -801,7 +801,7 @@
 			It's continuing to regenerate
 			itself.
 			Let's see if we can outrun it.
-			Lietenant La Forge, I want maximum
+			Lietenant LaForge, I want maximum
 			warp for as long as you can hold
 			it.
 			Yes, sir.
@@ -844,7 +844,7 @@
 			Engineering.
 			Go ahead.
 			You've got all we can give you.
-			I understand, Lieutenant La Forge.
+			I understand, Lieutenant LaForge.
 			Captain -- the enemy vessel is
 			firing on us.
 			There are no reports of any damage
