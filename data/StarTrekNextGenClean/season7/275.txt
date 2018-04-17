@@ -355,7 +355,7 @@
 			Now we're on the right track!
 			Ladies and Gentlemen... we are on
 			our way!
-			Picard to La Forge. What's going
+			Picard to LaForge. What's going
 			on? We just went into warp...
 			We've lost engine and helm control
 			again, sir... but this time,
@@ -572,7 +572,7 @@
 			Get a team down there immediately.
 			I want to know what's going on.
 			Aye, sir.
-			La Forge to Bridge...
+			LaForge to Bridge...
 			Picard here... what's going on?
 			I wish I could tell you...
 			That man said he was "laying a
@@ -600,7 +600,7 @@
 			What's happening?
 			An earthquake... ?
 			Deanna!
-			La Forge to Data -- stop what
+			LaForge to Data -- stop what
 			you're doing!
 			Acknowledged...
 			Data... I think we should get
@@ -871,7 +871,7 @@
 			at all.
 			Well, we have to give it a try.
 			The nebula or the pulsar? It's
-			your choice, Mister La Forge.
+			your choice, Mister LaForge.
 			I think we should go for the
 			nebula.
 			Very well. Begin the torpedo

@@ -439,7 +439,7 @@
 			simulation holds long enough.
 			Very well. Let's try it.
 			Monitor the situation closely,
-			Mister La Forge.
+			Mister LaForge.
 			Keep an open com link with the
 			Holodeck so you can be apprised of
 			any problems.
@@ -498,7 +498,7 @@
 			Look...
 			Do not worry... it is an omen...
 			What does it mean?
-			This is the sign of... La Forge.
+			This is the sign of... LaForge.
 			It is a message to travellers...
 			It is said that when these lines
 			appear and disappear in a pool of
@@ -690,7 +690,7 @@
 			others...
 			Thank you, Seer...
 			It'll be dark in a few hours...
-			Can you tell Mister La Forge to
+			Can you tell Mister LaForge to
 			create a suitable campsite for us
 			a few kilometers from here?
 			What's the matter?
@@ -778,7 +778,7 @@
 			We are in synchronous orbit above
 			the beam-down site, sir.
 			Good.
-			Mister La Forge. How much longer
+			Mister LaForge. How much longer
 			before we can transport the
 			Boraalans?
 			A few more hours, sir... but we've

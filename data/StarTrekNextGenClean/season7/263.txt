@@ -412,9 +412,9 @@
 			Array...
 			They've destroyed it, sir.
 			Bridge to Engineering. Status,
-			Mister La Forge?
+			Mister LaForge?
 			This is Ensign Hayes, sir.
-			Commander La Forge has been taken
+			Commander LaForge has been taken
 			to Sickbay with plasma burns...
 			There's serious damage to the
 			secondary plasma conduit... but I
@@ -556,7 +556,7 @@
 			Yes... yes. In Engineering. I
 			felt a wave of dizziness... and
 			when I looked up, you and
-			Commander La Forge were on the
+			Commander LaForge were on the
 			opposite side of the room.
 			Captain Picard was gone.
 			I thought I had blacked out for a
@@ -580,7 +580,7 @@
 			Everyone was at my birthday
 			party... then I was with
 			Counselor Troi... then Commander
-			La Forge entered...
+			LaForge entered...
 			Geordi was in all three locations.
 			And he was near me in each case,
 			just before I noticed the
@@ -588,7 +588,7 @@
 			Do you think there is a
 			connection?
 			It is possible. We should speak
-			with Commander La Forge.
+			with Commander LaForge.
 			Doctor, is Geordi well enough to
 			answer some questions?
 			I'm afraid not, Data. Geordi's

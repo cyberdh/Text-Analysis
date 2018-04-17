@@ -457,7 +457,7 @@
 			a way to reverse what's happened
 			to Data, I think we're going to
 			need that link to do it.
-			Mister La Forge, continue to scan
+			Mister LaForge, continue to scan
 			the Archive. Try to find some way
 			to access it. In the meantime,
 			I'll see what I can learn from
@@ -625,7 +625,7 @@
 			But whatever the intent behind the
 			process, I don't want this ship
 			transformed into an alien city.
-			Mister La Forge, do you have any
+			Mister LaForge, do you have any
 			ideas?
 			We still haven't been able to cut
 			off that beam... but I've managed
@@ -857,7 +857,7 @@
 			Archive where Korgano's moon
 			symbol is by itself and not paired
 			with Masaka's.
-			Mister La Forge, access the
+			Mister LaForge, access the
 			transformation program.
 			When you're ready, input the
 			symbol.
@@ -944,7 +944,7 @@
 			I'm afraid it will take some time
 			to explain.
 			Captain's Log, Stardate 47612.4.
-			Commander La Forge has managed to
+			Commander LaForge has managed to
 			disable the alien transformation
 			program. Starfleet will send an
 			archaeological team to study the

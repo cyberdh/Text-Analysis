@@ -151,7 +151,7 @@
 			Oh, they're out there... they're
 			just waiting to see what you're
 			going to do.
-			Mister La Forge?
+			Mister LaForge?
 			There's an awful lot of ionizing
 			radiation in this system, Captain.
 			That, combined with the sheer
@@ -1025,7 +1025,7 @@
 			Captain's Log: Stardate 47457.1.
 			We have been trapped inside the
 			asteroid for over eight hours.
-			Mister Data and Commander La Forge
+			Mister Data and Commander LaForge
 			inform me that they are nearly
 			ready to engage the cloak.
 			Commander, I've routed the impulse
@@ -1048,7 +1048,7 @@
 			through this asteroid...
 			The cloak failed. And half the
 			ship materialized in solid rock.
-			La Forge to Bridge. The cloak is
+			LaForge to Bridge. The cloak is
 			on-line and ready to begin phase
 			sequencing.
 			Proceed, Number One.

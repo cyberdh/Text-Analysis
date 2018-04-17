@@ -150,16 +150,16 @@
 			But to be honest, I don't think
 			another week would make any
 			difference.
-			I'll tell Commander La Forge...
+			I'll tell Commander LaForge...
 			Mister Data, I need a word with
-			Commander La Forge.
+			Commander LaForge.
 			Yes, Sir.
 			I will be on the Bridge.
 			I've just spoken to Starfleet.
 			The Hera is missing.
 			Missing... ?
 			What about my mother... ?
-			Captain La Forge has disappeared
+			Captain LaForge has disappeared
 			along with the rest of her crew...
 			-- I saw your father last week and
 			your sister about ten days before
@@ -668,7 +668,7 @@
 			Can we get those shuttles close
 			enough without putting them in
 			danger?
-			Mister La Forge.
+			Mister LaForge.
 			I suppose so.
 			Yes. As long as you keep them
 			above the troposphere, they'll be
@@ -735,7 +735,7 @@
 			Nearly impossible, Sir.
 			Proceed with the shuttle plan.
 			Captain --
-			-- Mister La Forge. Stay here for
+			-- Mister LaForge. Stay here for
 			a moment.
 			Geordi, I'm not unsympathetic
 			about what you're going through.
@@ -917,7 +917,7 @@
 			Thanks, Data.
 			We're getting close...
 			Thank god...
-			La Forge.
+			LaForge.
 			Yes, Captain?
 			Stop your descent and prepare to
 			disengage the interface.
@@ -1002,7 +1002,7 @@
 			atmosphere.
 			I'll turn the ship around and come
 			back as soon as we're --
-			La Forge! What happened?
+			LaForge! What happened?
 			The atmosphere is getting more
 			turbulent. It's overloading the
 			systems.
@@ -1023,7 +1023,7 @@
 			He's going to make it.
 			Captain's Log, supplemental. We
 			have succeeded in disengaging
-			Mister La Forge from the interface
+			Mister LaForge from the interface
 			and are en route to Starbase four-nine-five.
 			You disobeyed my direct order, and
 			you put yourself in grave danger.

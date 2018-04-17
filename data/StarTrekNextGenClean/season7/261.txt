@@ -327,7 +327,7 @@
 			Somehow I don't think they're
 			going to let us beam over and ask
 			them...
-			Mister La Forge, how are you
+			Mister LaForge, how are you
 			coming with that com link?
 			Almost ready, sir...
 			We can give it a try.
@@ -448,7 +448,7 @@
 			Enough?
 			Commander Kaplan just sent me this
 			on subspace.
-			"La Forge. I've got Intrepid's
+			"LaForge. I've got Intrepid's
 			power conversion level up to
 			ninety-seven-point-one percent.
 			Maybe you should try cleaning your
@@ -518,7 +518,7 @@
 			No sir.
 			All decks... security alert!
 			We are being boarded...
-			La Forge to Bridge... we've got
+			LaForge to Bridge... we've got
 			intruders in Main Engineering...
 			We need a security team down
 			here...
@@ -578,7 +578,7 @@
 			signal markers... You hid them in
 			debris fields... You mined the
 			Corridor.
-			Mister La Forge, how long do you
+			Mister LaForge, how long do you
 			estimate it will take to restore
 			the engines?
 			Their verteron pulse overloaded
@@ -614,7 +614,7 @@
 			We will, Doctor. Part of our job
 			is to maintain an open mind...
 			even under these circumstances.
-			Mister La Forge, take them to
+			Mister LaForge, take them to
 			Engineering and get the core back
 			on-line.
 			Yes, sir.
@@ -1011,7 +1011,7 @@
 			standing-by on all decks.
 			Our course to the Fleming is
 			plotted and laid in, sir.
-			Mister La Forge... whenever you're
+			Mister LaForge... whenever you're
 			ready...
 			Aye-aye, sir.
 			Initiating warp pulse... now.
@@ -1100,7 +1100,7 @@
 			Is everyone off the Fleming?
 			The last of the crew has been
 			beamed aboard, sir.
-			All right, Mister La Forge. Get
+			All right, Mister LaForge. Get
 			us out of here.
 			Yes, sir... I'm phase matching the
 			deflector shield now...
@@ -1117,7 +1117,7 @@
 			We were unable to maintain contact
 			with the distortion wave, sir...
 			we are still within the rift.
-			What went wrong, Mister La Forge?
+			What went wrong, Mister LaForge?
 			The speed differential between us
 			and the wave was too high, sir...
 			the shock of the impact threw us

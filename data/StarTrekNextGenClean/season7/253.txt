@@ -657,7 +657,7 @@
 			information about a process called
 			metaphasic shielding --
 			I know about that research.
-			Commander La Forge was developing
+			Commander LaForge was developing
 			a program that would implement
 			metaphasic properties...
 			How far along was he?
@@ -754,7 +754,7 @@
 			We'll have to take that chance.
 			Good luck, Commander.
 			There you are, Brother. Have you
-			made any progress with La Forge?
+			made any progress with LaForge?
 			It is too early to tell if the
 			nano-cortical fibers have
 			performed their function.
@@ -959,7 +959,7 @@
 			Captain's Log, Stardate 47025.4.
 			We have returned to Federation
 			Space and are en route to Starbase
-			two-nine-five. Mister La Forge
+			two-nine-five. Mister LaForge
 			remains under Doctor Crusher's
 			care.
 			Enter.

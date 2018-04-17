@@ -15,7 +15,7 @@
 			conduit. I must ask you to stop.
 			Be quiet!
 			Captain's Log, Stardate 47225.7.
-			Commander La Forge has completed
+			Commander LaForge has completed
 			the installation of our new warp
 			core. We are preparing to test
 			its capabilities.
@@ -71,7 +71,7 @@
 			When I have a nightmare, sometimes
 			I can't shake that weird feeling
 			for days...
-			Commander La Forge!
+			Commander LaForge!
 			Speaking of nightmares...
 			I just finished recalibrating the
 			starboard EPS module.
@@ -110,7 +110,7 @@
 			myself. Thanks.
 			When I first woke up from my
 			nightmare, there --
-			Bridge to Commander La Forge.
+			Bridge to Commander LaForge.
 			What's our status?
 			We're ready to bring the core on-line,
 			Captain. Stand by.
@@ -119,7 +119,7 @@
 			sequence...
 			It's a beauty, isn't it? Now
 			let's see how fast she can run...
-			La Forge to Bridge. Warp power at
+			LaForge to Bridge. Warp power at
 			your discretion, Captain.
 			Acknowledged.
 			Ensign Russell, plot a course to
@@ -133,10 +133,10 @@
 			but I think I've fixed it...
 			Ready, sir.
 			Very well. Ensign Russell?
-			Mister La Forge?
+			Mister LaForge?
 			Stand by, Captain...
 			I will take the warp engines off-line.
-			La Forge to Bridge. I'm sorry,
+			LaForge to Bridge. I'm sorry,
 			Captain. We're going to have to
 			reconfigure the plasma conduit.
 			It's going to take a few hours at
@@ -353,7 +353,7 @@
 			Good. I'll expect you soon.
 			Nakamura out.
 			I think he's on to you, sir.
-			La Forge to Bridge.
+			LaForge to Bridge.
 			Go ahead, Geordi.
 			We've just started her up, sir.
 			All systems are holding steady...
@@ -616,7 +616,7 @@
 			But you said you shut down your
 			dream program...
 			That is correct.
-			Mister La Forge?
+			Mister LaForge?
 			We've run every possible
 			diagnostic on Data's positronic
 			net... but we can't find anything

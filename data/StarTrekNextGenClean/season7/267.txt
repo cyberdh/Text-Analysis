@@ -347,7 +347,7 @@
 			We would need to boost the gain on
 			the confinement beam by at least
 			seven percent.
-			Mister La Forge?
+			Mister LaForge?
 			I'm on it, sir.
 			Try it now...
 			The pod is still too far away...
@@ -636,7 +636,7 @@
 			Good night, everybody.
 			Good night.
 			What I find curious is that when
-			Commander La Forge saw that the
+			Commander LaForge saw that the
 			technique I was proposing was more
 			efficient, he seemed... annoyed.
 			Of course he was.
