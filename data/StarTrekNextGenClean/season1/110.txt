@@ -208,7 +208,7 @@
 			This is my first officer,
 			Commander Riker...
 			And Counselor Troi. Second
-			Officer Data; Lieutenant La Forge;
+			Officer Data; Lieutenant LaForge;
 			security officers, Lieutenant Yar
 			and Lieutenant Worf; Ensign
 			Crusher.
@@ -291,7 +291,7 @@
 			mentioned, Captain. A gift in
 			honor of that occasion. Look at
 			that ship closely.
-			Enlarge please, La Forge.
+			Enlarge please, LaForge.
 			It... it is the Stargazer. My old
 			ship, but how... where did you find
 			it?
@@ -463,7 +463,7 @@
 			Kazago. I thought the Ferengi
 			always made a profit on things.
 			Set sub-warp speed for towing,
-			La Forge.
+			LaForge.
 			Starfleet has responded to our
 			request, sir. A tug will
 			rendezvous with us and tow the
@@ -571,7 +571,7 @@
 			my belated honesty will be taken
 			into account by Starfleet when
 			judging...
-			La Forge, open hailing frequencies.
+			LaForge, open hailing frequencies.
 			Open, sir.
 			I'll take it in the Ready Room.
 			A secure channel, Geordi.

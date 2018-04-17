@@ -293,7 +293,7 @@
 			No.
 			No?
 			Why don't you sit at Ops? Next
-			to Lieutenant La Forge.
+			to Lieutenant LaForge.
 			Sir?
 			Sir?
 			Is the whole ship deaf?!
@@ -679,7 +679,7 @@
 			It was not meant as a joke!
 			The tongue slipped!
 			Riker to Commander Data,
-			Lieutenant La Forge. Report to
+			Lieutenant LaForge. Report to
 			the Transporter Room for away
 			party duty.
 			First officer to captain. Ready

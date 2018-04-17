@@ -43,7 +43,7 @@
 			Pegos Minor sector.
 			That far?
 			Yes, sir.
-			Lieutenant La Forge, set
+			Lieutenant LaForge, set
 			coordinates for that sector.
 			Shields at full power.
 			Aye, sir. Coordinates laid in.
@@ -59,7 +59,7 @@
 			point two. Manheim out.
 			I can't get through, Captain.
 			Turn it off. Lay in a course for
-			those coordinates, La Forge. Warp
+			those coordinates, LaForge. Warp
 			eight.
 			Aye, sir. Plotted and laid in.
 			Estimated arrival four hours,
@@ -194,7 +194,7 @@
 			Captain, my sensors are picking
 			up what appears to be a small
 			planet.
-			Mister La Forge, standard orbit.
+			Mister LaForge, standard orbit.
 			Give me a visual.
 			Aye, sir.
 			Viewscreen on.

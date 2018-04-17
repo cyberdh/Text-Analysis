@@ -354,7 +354,7 @@
 			before. It's exactly as it should
 			be.
 			Spill it!
-			La Forge to bridge.
+			LaForge to bridge.
 			Riker here.
 			I can't find the captain, sir.
 			I told you, he's in the Holodeck.
@@ -688,7 +688,7 @@
 			the Enterprise. We demand that
 			you --
 			Cut that off!
-			Lieutenant La Forge to bridge.
+			Lieutenant LaForge to bridge.
 			Riker here.
 			Is everything all right, sir?
 			We felt quite a surge down here

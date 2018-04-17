@@ -22,7 +22,7 @@
 			For which side?
 			Both.
 			We are nearing the planet Minos.
-			Standard orbit, Mister La Forge.
+			Standard orbit, Mister LaForge.
 			Aye, sir. Standard orbit.
 			Whatever happened to the Drake,
 			happened quickly, otherwise
@@ -295,7 +295,7 @@
 			Doctor Crusher, this is the
 			Captain. Meet me in Transporter
 			Room Three.
-			Mister La Forge, you have command
+			Mister LaForge, you have command
 			of the bridge.
 			Aye, sir.
 			Whatever happens below, your
@@ -401,7 +401,7 @@
 			shields can't stand up to it much
 			longer.
 			Captain's log, stardate 41798.25.
-			Lieutenant J.G. Geordi La Forge
+			Lieutenant J.G. Geordi LaForge
 			in temporary command.
 			Orbiting the planet Minos, we are
 			under attack.
@@ -447,7 +447,7 @@
 			I'll compute the optimum spread
 			of phasers and photon torpedoes
 			to hit it.
-			Lieutenant La Forge.
+			Lieutenant LaForge.
 			Geordi -- I know you want to do
 			what's best for the Enterprise.
 			So do I. Now... the best thing...
@@ -743,7 +743,7 @@
 			Done.
 			Number One!
 			Here, sir. That was close.
-			Lieutenant La Forge.
+			Lieutenant LaForge.
 			It's great to hear your voice,
 			Captain. We're a little busy
 			right now. I'll get right back

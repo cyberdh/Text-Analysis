@@ -80,7 +80,7 @@
 			Okay, hold this relay off-line
 			while...
 			Security to Sensor Maintenance.
-			La Forge here.
+			LaForge here.
 			We're making a close sensor pass
 			on an unusual object, Geordi.
 			Any problems?
@@ -94,7 +94,7 @@
 			Any readings indicating matter
 			there?
 			Negative, Captain. Energy only.
-			La Forge to Sickbay. Medical
+			LaForge to Sickbay. Medical
 			emergency in Sensor Maintenance
 			Room!
 			Repeat -- medical emergency!
@@ -616,7 +616,7 @@
 			Malfunctioning? You're wrong --
 			Look again.
 			Sir, I ---
-			Mister La Forge?
+			Mister LaForge?
 			There's nothing wrong with the
 			helm now. Everything is -- just
 			as it should be, sir.
@@ -799,7 +799,7 @@
 			to certify the captain's
 			incapacity.
 			Approaching the "cloud," sir.
-			Very well, Mister La Forge. Bring
+			Very well, Mister LaForge. Bring
 			us to within ten thousand
 			kilometers and hold us there.
 			Aye, sir.
@@ -896,7 +896,7 @@
 			Give me a choice, then.
 			Still no readings, no sign of
 			anything.
-			Mister La Forge, it's time to
+			Mister LaForge, it's time to
 			set a course for Parliament. Warp
 			eight.
 			We're really leaving him... ?

@@ -24,7 +24,7 @@
 			Identify.
 			Listed as Delphi Ardu, sir.
 			Eleven planets, unexplored.
-			Stay with them, La Forge.
+			Stay with them, LaForge.
 			Sensors read a power surge on
 			their last maneuver, Captain.
 			They are dropping to sub-warp
@@ -166,7 +166,7 @@
 			I like the sound of that. Has a
 			nice historical ring to it.
 			Engineering?
-			Join La Forge "down below", Number
+			Join LaForge "down below", Number
 			One. Without our warp capacity,
 			we're just one big floating
 			target.
@@ -204,7 +204,7 @@
 			Yes, Data. That seems a
 			reasonable assumption.
 			Engineering?!
-			Bottom line, La Forge.
+			Bottom line, LaForge.
 			Not good, sir. The Ferengi
 			forcefield that holds this ship
 			compensates...
@@ -253,7 +253,7 @@
 			All systems ready, Captain. And
 			communication's restored to
 			Engineering.
-			Excellent, La Forge.
+			Excellent, LaForge.
 			Let's throw them off guard.
 			Lieutenant Yar. Open hailing
 			frequencies.
@@ -277,7 +277,7 @@
 			Glad the Academy still teaches
 			the strategy of Sun Tzu...
 			Let's hope that delay proves out,
-			La Forge.
+			LaForge.
 			Point-three-hundred milliseconds,
 			sir.
 			We'll blast full power into warp

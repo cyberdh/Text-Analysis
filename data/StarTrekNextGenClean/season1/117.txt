@@ -93,7 +93,7 @@
 			Enterprise. This is Lieutenant
 			Commander Data, Counselor Troi,
 			Lieutenant Yar and Lieutenant
-			La Forge.
+			LaForge.
 			This is Bjorn Bensen, Chief
 			Engineer, and Arthur Malencon,
 			our Hydraulics Specialist,
@@ -284,7 +284,7 @@
 			They are off!
 			Data, what's happening?
 			Too much to explain.
-			La Forge to Enterprise. We have
+			LaForge to Enterprise. We have
 			a problem!
 			Open the door!
 			STAY OUT! It is under control.
@@ -562,7 +562,7 @@
 			It generates enough energy to
 			interfere with surrounding
 			systems.
-			Mr. La Forge -- can we see into
+			Mr. LaForge -- can we see into
 			the lab yet?
 			Negative, Captain. But, reducing
 			backup to the quarantine seal
@@ -829,7 +829,7 @@
 			photoelectric.
 			Okay, let's see if darkness will
 			neutralize them. Kill the lights
-			in the lab, Mr. La Forge. We can
+			in the lab, Mr. LaForge. We can
 			at least do that.
 			Sorry, Captain, can't do it by
 			remote.

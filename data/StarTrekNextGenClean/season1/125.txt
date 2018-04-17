@@ -23,7 +23,7 @@
 			Yes. Very humorous indeed.
 			Hysterical, in fact.
 			What's our e.t.a. at Pacifica,
-			Mister La Forge?
+			Mister LaForge?
 			Twenty two hours, fourteen
 			minutes.
 			Increase to warp six.
@@ -363,7 +363,7 @@
 			three-five-one mark four.
 			Approaching Sector sixty-three,
 			sir.
-			Slow to impulse, Mister La Forge.
+			Slow to impulse, Mister LaForge.
 			Aye sir, slowing to impulse.
 			Sensors beginning to pick up small
 			objects, Captain.
@@ -471,7 +471,7 @@
 			remaining bridge crew of our
 			situation.
 			Approaching Earth, sir.
-			Standard orbit, Mister La Forge.
+			Standard orbit, Mister LaForge.
 			Standard orbit, sir.
 			Any word from Starfleet Command,
 			Mister Data?
@@ -707,7 +707,7 @@
 			aperitif.
 			It's good that you're here. He
 			slipped and hit his head.
-			This is Lieutenant La Forge in
+			This is Lieutenant LaForge in
 			Guest Quarter Sixteen. We have
 			a possible medical emergency.
 			Your Doctor Crusher is most

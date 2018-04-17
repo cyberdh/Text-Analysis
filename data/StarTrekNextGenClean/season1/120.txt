@@ -9,7 +9,7 @@
 			involved. They are asking if we
 			can investigate.
 			Answer "affirmative."
-			Lieutenant La Forge, lay in the
+			Lieutenant LaForge, lay in the
 			course.
 			Captain, I have no reports of any
 			Federation ships in that area.
@@ -64,7 +64,7 @@
 			Send this to Starfleet. We are
 			entering the Neutral Zone.
 			Get us in a little closer, Mister
-			La Forge. Stay sharp everyone.
+			LaForge. Stay sharp everyone.
 			It's Talarian.
 			Any life signs?
 			Nothing yet.
@@ -91,7 +91,7 @@
 			area.
 			Aye, sir.
 			Data, Geordi. Let's go.
-			Lieutenant La Forge, are we close
+			Lieutenant LaForge, are we close
 			enough to use the Visual Acuity
 			transmitter?
 			We can try it, sir.
@@ -132,7 +132,7 @@
 			Set phasers on stun.
 			Let's be ready for anything.
 			Energize.
-			La Forge to Enterprise.
+			LaForge to Enterprise.
 			This is the Enterprise.
 			Captain, I am switching on the
 			transmitter.
