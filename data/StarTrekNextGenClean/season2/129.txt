@@ -8,7 +8,7 @@
 			hold this position and wait.
 			Yes, Commander?
 			Is there a problem? Chief
-			Engineer La Forge called for me.
+			Engineer LaForge called for me.
 			"Urgent!"
 			Oh, of course.
 			He's over there with the Victory.
@@ -66,7 +66,7 @@
 			Computer -- select at random a
 			mystery by Sir Arthur Conan Doyle,
 			where I will play Sherlock Holmes
-			and Lieutenant La Forge will be
+			and Lieutenant LaForge will be
 			Doctor Watson.
 			Program complete -- you may enter.
 			Excellent.
@@ -681,7 +681,7 @@
 			The override protocol has been
 			initiated.
 			On whose authority?
-			Lieutenant Geordi La Forge.
+			Lieutenant Geordi LaForge.
 			Me?
 			Tell me again -- exactly what
 			happened.

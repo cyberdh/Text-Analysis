@@ -100,7 +100,7 @@
 			sector three-five mark seven.
 			Signal is very weak, sir. Audio
 			only.
-			Pipe it through, Mister La Forge.
+			Pipe it through, Mister LaForge.
 			... Mayday! Mayday! This is
 			-- questing emergency assistance.
 			Outer hull breached
@@ -135,7 +135,7 @@
 			Aye sir.
 			The transport may be a bit tricky.
 			I'd like you to handle it, Mister
-			La Forge.
+			LaForge.
 			Understood, Captain.
 			Assemble an away team, Number One.
 			Include whatever medical
@@ -1041,7 +1041,7 @@
 			kill him on the spot -- put him
 			out of his blind misery.
 			You win -- no need to act rashly.
-			Mister La Forge, you and the rest
+			Mister LaForge, you and the rest
 			of the bridge crew will vacate
 			immediately.
 			I'll blast anyone who attempts

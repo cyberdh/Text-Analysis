@@ -87,7 +87,7 @@
 			Finished, just waiting to insert
 			the modules.
 			Number One.
-			Lieutenant La Forge says we will
+			Lieutenant LaForge says we will
 			be able to engage the warp drive
 			within the hour.
 			Mister Data, when we receive a
@@ -140,7 +140,7 @@
 			but here on the Enterprise...
 			Sit down, Captain. You better
 			listen to this.
-			Lieutenant La Forge, status
+			Lieutenant LaForge, status
 			report.
 			The containment area is completed,
 			the last of the modules are being
@@ -304,7 +304,7 @@
 			get out.
 			Good, Lieutenant. Very good
 			indeed.
-			How's it coming, Mister La Forge?
+			How's it coming, Mister LaForge?
 			It will be just a little while
 			longer. I want to go over it
 			again in more detail.
@@ -672,7 +672,7 @@
 			Where?
 			L-seven-three.
 			Bridge, this is Cargo Deck Five.
-			Yes, Lieutenant La Forge.
+			Yes, Lieutenant LaForge.
 			There is a malfunction in the
 			containment area.
 			How serious?
@@ -691,7 +691,7 @@
 			return to impulse, we would know
 			for sure.
 			Impulse velocity.
-			Report, Mister La Forge.
+			Report, Mister LaForge.
 			There's no change. It wasn't the
 			warp drive.
 			Permission to leave the bridge.

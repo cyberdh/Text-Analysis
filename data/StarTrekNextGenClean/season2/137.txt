@@ -303,7 +303,7 @@
 			Transmitting what?
 			Unknown, sir.
 			Engineering.
-			La Forge.
+			LaForge.
 			Progress on your matter/antimatter
 			scan?
 			Everything continues to check
@@ -386,7 +386,7 @@
 			So far they are random, but
 			perhaps early symptoms of what
 			happened to the Yamato.
-			La Forge!
+			LaForge!
 			Lieutenant, are you making any
 			progress toward a solution to our
 			problems?
@@ -436,7 +436,7 @@
 			the probe which scanned the
 			Yamato.
 			Shields up. Ready the tractor
-			beam. Lieutenant La Forge, I'm
+			beam. Lieutenant LaForge, I'm
 			about to assist you in your
 			research. A probe has been
 			launched from Iconia. I intend
@@ -455,7 +455,7 @@
 			Worf, target phasers!
 			Phasers locked on target.
 			Fire!
-			Mister La Forge, are you all right?
+			Mister LaForge, are you all right?
 			Yes, sir, and thank you for
 			trusting me. If that thing had
 			managed to scan us, we would have
@@ -1039,7 +1039,7 @@
 			Now, Mister Data, warp speed please
 			-- just in case Taris's engineer
 			is not as efficient as Lieutenant
-			La Forge.
+			LaForge.
 			Yes, sir.
 			Captain, sensors picking up a
 			large explosion on the surface

@@ -135,7 +135,7 @@
 			Welcome aboard, Captain Okona.
 			I'm Commander Riker.
 			If you turn over the inoperative
-			part to Lieutenant La Forge he'll
+			part to Lieutenant LaForge he'll
 			begin repairs.
 			I'd be most happy to do the work
 			myself, I'm sort of a "hands on"
@@ -146,7 +146,7 @@
 			I think that could be arranged...
 			Here you are, Lieutenant. I leave
 			it in your capable hands.
-			No, this is Lieutenant La Forge,
+			No, this is Lieutenant LaForge,
 			I'm only an ensign.
 			Well ensigns have names, don't
 			they?
@@ -203,7 +203,7 @@
 			The stress test shows that you
 			tend to push it beyond its
 			designed capabilities.
-			Lieutenant La Forge, I've never
+			Lieutenant LaForge, I've never
 			been told that I'm somewhat
 			reckless in a kinder, or more
 			gentlemanly manner; but since the
@@ -790,7 +790,7 @@
 			questions.
 			Looks like an excellent job.
 			You're quite a craftsman
-			Lieutenant La Forge. How soon
+			Lieutenant LaForge. How soon
 			will it be finished?
 			What's the rush? I thought you
 			liked it here.
