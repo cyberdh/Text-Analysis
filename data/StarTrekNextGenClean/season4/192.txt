@@ -90,10 +90,10 @@
 			Yeah, I know.
 			Well, if anybody's gonna figure
 			this out, it'll be the Leitjen
-			and La Forge Show, right? We
+			and LaForge Show, right? We
 			always made a good team...
 			A helluva team...
-			Commander La Forge, Commander
+			Commander LaForge, Commander
 			Leijten, report to the Bridge.
 			We have a fix on the missing
 			shuttle.
@@ -161,7 +161,7 @@
 			Ready an away team, Number One.
 			Geordi, Data, Worf...
 			And Commander Leijten.
-			Commander Leijten, La Forge, check
+			Commander Leijten, LaForge, check
 			the shuttle... Worf, Data, you've
 			got the perimeter.
 			It's the shuttle pod Mendez stole
@@ -174,7 +174,7 @@
 			Susanna, report.
 			Fan out. Let's find her.
 			Susanna?
-			La Forge to Leijten...
+			LaForge to Leijten...
 			Over here...
 			Where have you been?
 			Mendez... Brevelle... they're
@@ -186,7 +186,7 @@
 			I'm not picking up anything...
 			Where are you going?
 			Susanna... ?
-			La Forge to Enterprise, medical
+			LaForge to Enterprise, medical
 			emergency, two to Sickbay.
 			Do I look as bad as I feel?
 			You look fine... now.
@@ -226,7 +226,7 @@
 			Data has a preliminary report...
 			if you feel up to it...
 			Sure... what're we waiting for?
-			Doctor... what about La Forge?
+			Doctor... what about LaForge?
 			I gave him a complete bioscan.
 			Everything says he's in perfect
 			shape.
@@ -414,7 +414,7 @@
 			out in Sickbay... or try to learn
 			what it is that's got you... and
 			maybe stop it?
-			All right, Mister La Forge...
+			All right, Mister LaForge...
 			proceed with your investigation.
 			But report to Doctor Crusher for
 			another bioscan at the start of
@@ -426,7 +426,7 @@
 			One to transport.
 			I want to make another sweep of
 			the perimeter. Mendez, Brevelle,
-			start at Building Two. La Forge,
+			start at Building Two. LaForge,
 			you and I will begin at Four.
 			Okay, computer...
 			Analyze audio elements from time
@@ -548,7 +548,7 @@
 			Understood. Run simulation.
 			I want to make another sweep of
 			the perimeter. Mendez, Brevelle,
-			start at Building Two. La Forge,
+			start at Building Two. LaForge,
 			you and I will begin at Four.
 			It's happening too fast.
 			Freeze program.
@@ -557,7 +557,7 @@
 			fourteen five eight.
 			Freeze.
 			Computer... remove Leijten...
-			Remove La Forge...
+			Remove LaForge...
 			... and now remove Mendez...
 			Computer, using vector analysis,
 			identify the source of this
@@ -617,10 +617,10 @@
 			I'd better get Geordi in here.
 			Very good, Doctor. Keep us
 			advised.
-			Crusher to La Forge...
+			Crusher to LaForge...
 			Computer, locate Commander La
 			Forge.
-			Commander La Forge is not on board
+			Commander LaForge is not on board
 			the Enterprise.
 			Bridge, the Computer says Geordi
 			isn't on board... ? Is that
@@ -693,7 +693,7 @@
 			What about the high resolution
 			EM scans?
 			We are adjusting the sensors to
-			read Commander La Forge's
+			read Commander LaForge's
 			absorption spectrum... but it
 			will take several hours.
 			Geordi doesn't have several hours.
@@ -772,9 +772,9 @@
 			Susanna...
 			I'm here, Geordi. So's Doctor
 			Crusher and Captain Picard.
-			Lieutenant Commander La Forge
+			Lieutenant Commander LaForge
 			reporting for duty, Captain.
-			Welcome back, Mister La Forge.
+			Welcome back, Mister LaForge.
 			This species... can we communicate
 			with them?
 			No. They act on instinct alone.

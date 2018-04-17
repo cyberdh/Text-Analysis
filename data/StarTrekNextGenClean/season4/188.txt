@@ -489,7 +489,7 @@
 			I am unable to answer that
 			question, Captain.
 			Data, would you consent to being
-			examined by Commander La Forge?
+			examined by Commander LaForge?
 			As you wish, Captain.
 			Come.
 			Please escort Commander Data to
@@ -615,7 +615,7 @@
 			staring back at me from behind
 			my own eyes.
 			As if my own face was a mask.
-			La Forge to Captain Picard.
+			LaForge to Captain Picard.
 			Yes, Geordi.
 			I found something, sir.
 			Hello, Worf.
@@ -734,7 +734,7 @@
 			cooperate because he believes he
 			is acting in the best interests
 			of the Enterprise.
-			La Forge to Captain Picard.
+			LaForge to Captain Picard.
 			Yes, Geordi.
 			Our probe's approaching the
 			planet, sir.

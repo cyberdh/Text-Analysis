@@ -292,7 +292,7 @@
 			Computer, has anyone entered my
 			quarters in the last twelve hours
 			other than myself or Commander
-			La Forge?
+			LaForge?
 			Negative.
 			That's pretty strange... we should
 			report a possible unauthorized
@@ -738,17 +738,17 @@
 			Captain.
 			Captain! Explosive decompression
 			on Deck Thirty-seven!
-			Bridge to La Forge... damage
+			Bridge to LaForge... damage
 			report.
 			We're showing damage between decks
 			-- we haven't localized it yet.
 			Thorne!
-			La Forge to Bridge... a cryogenic
+			LaForge to Bridge... a cryogenic
 			control conduit just blew out on
 			us. I almost lost a man...
 			Full stop!
 			Yes, Sir --
-			La Forge to Bridge...
+			LaForge to Bridge...
 			Yes, Commander?
 			I think we have some structural
 			damage between Decks Thirty-Six
@@ -924,7 +924,7 @@
 			re-established.
 			Nine-point-four million kilometers
 			to the perimeter.
-			Mister La Forge, I am still having
+			Mister LaForge, I am still having
 			difficulty controlling the
 			shuttlecraft.
 			Yes, sir, your krellide storage

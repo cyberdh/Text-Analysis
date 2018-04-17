@@ -257,7 +257,7 @@
 			No others within sensor range...
 			Picard to Engineering...
 			... the system is clear, Mister
-			La Forge.
+			LaForge.
 			Final pre-launch diagnostic.
 			Level Five.
 			All systems verified.

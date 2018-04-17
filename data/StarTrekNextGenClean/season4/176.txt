@@ -824,8 +824,8 @@
 			staggered approach vectors
 			bearing zero, one hundred twenty,
 			and two hundred forty degrees.
-			Riker to La Forge.
-			La Forge here, sir.
+			Riker to LaForge.
+			LaForge here, sir.
 			Geordi, the Talarians are moving
 			into attack posture. Classic
 			triangular envelopment.

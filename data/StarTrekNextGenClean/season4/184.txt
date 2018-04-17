@@ -159,7 +159,7 @@
 			impulse...
 			Whatever's pulling us sure isn't
 			in a hurry...
-			Picard to La Forge.
+			Picard to LaForge.
 			Go ahead, Captain.
 			If your engines are functional,
 			we'll attempt to break free.
@@ -181,7 +181,7 @@
 			Full impulse... rotate heading
 			in five degree increments.
 			Aye, sir.
-			La Forge?
+			LaForge?
 			There's nothing wrong down here!
 			The engines are fine!
 			Integrity field stress now
@@ -575,7 +575,7 @@
 			for you.
 			That isn't true.
 			Isn't it?
-			La Forge to Riker...
+			LaForge to Riker...
 			Go ahead, Geordi...
 			We're ready to attempt a
 			controlled overload jump to warp
@@ -603,7 +603,7 @@
 			Warning. Differential stress
 			will exceed --
 			Engines disengaged, sir.
-			La Forge, report...
+			LaForge, report...
 			The energy we wanted to transfer
 			to the nacelles was absorbed by
 			the graviton wake instead. It
@@ -990,7 +990,7 @@
 			Increasing by fifty percent.
 			They're slowing.
 			Graviton wake field collapsing.
-			Mister La Forge, take us out of
+			Mister LaForge, take us out of
 			here.
 			My pleasure, sir.
 			Course two nine five, mark two

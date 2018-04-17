@@ -97,7 +97,7 @@
 			if you're not going to talk to
 			me...
 			Back so soon, Mister Data?
-			La Forge to bridge.
+			LaForge to bridge.
 			Go ahead, Commander.
 			We've completed our dilithium
 			vector calibrations, sir. You're
@@ -134,7 +134,7 @@
 			Evacuate bridge. Deck one life
 			support failure in ten seconds.
 			Reassemble in Engineering.
-			La Forge, let's get a diagnostic
+			LaForge, let's get a diagnostic
 			sweep underway...
 			Evacuate bridge. Deck one life
 			support failure in five seconds.
@@ -199,7 +199,7 @@
 			communications.
 			Acknowledged.
 			He is on the Bridge, sir.
-			Commander La Forge, prepare for
+			Commander LaForge, prepare for
 			saucer separation.
 			Sir, we're at Warp nine-three!
 			I'm aware of the risks, Ensign.
@@ -737,7 +737,7 @@
 			We have control of sensors, life
 			support and auxiliary power,
 			Captain. Nothing more.
-			The code, Mister La Forge?
+			The code, Mister LaForge?
 			We can't even locate the file
 			address. At least that would tell
 			us how many digits we're talking
@@ -773,7 +773,7 @@
 			be tough without the main
 			computer, but we could network
 			a few tricorders together.
-			Try, Mister La Forge.
+			Try, Mister LaForge.
 			Yes, sir.
 			You did what you had to do? What
 			kind of answer is that?
@@ -883,7 +883,7 @@
 			They're sure this is going to
 			work?
 			Nobody knows the Transporters
-			better than O'Brien and La Forge.
+			better than O'Brien and LaForge.
 			They tell me they've managed more
 			than a little sleight of hand with
 			our authorization codes.

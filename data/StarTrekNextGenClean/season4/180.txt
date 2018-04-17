@@ -547,7 +547,7 @@
 			just entered. It's masking her
 			signal.
 			Standby!
-			Stay here and cover La Forge.
+			Stay here and cover LaForge.
 			Commander --
 			That's an order. Return to the
 			ship when you're finished here.
@@ -829,7 +829,7 @@
 			Picard to Riker. Is your away
 			team ready?
 			Waiting for your signal, Captain.
-			Status, Mister La Forge.
+			Status, Mister LaForge.
 			Phasers in alignment and ready
 			to fire.
 			How far must we penetrate to
