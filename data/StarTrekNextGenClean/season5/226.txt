@@ -288,7 +288,7 @@
 			There is no immediate threat.
 			Take an away team.
 			Worf...
-			Riker to La Forge. Meet the away
+			Riker to LaForge. Meet the away
 			team in transporter room three...
 			Aye, sir...
 			Commander...
@@ -986,7 +986,7 @@
 			Go ahead.
 			Beam me up.
 			Stand by.
-			Proceed, Mister La Forge.
+			Proceed, Mister LaForge.
 			I've modified this tricorder to
 			interface with the subspace
 			generator... It should allow me

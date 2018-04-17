@@ -72,7 +72,7 @@
 			Just teasing, Commander.
 			Ogawa to Doctor Crusher.
 			Go ahead.
-			Commander La Forge needs you in
+			Commander LaForge needs you in
 			sickbay.
 			On my way.
 			At first I thought the catwalk
@@ -260,7 +260,7 @@
 			Me too...
 			Ogawa to Doctor Crusher.
 			Go ahead.
-			Commander La Forge needs you in
+			Commander LaForge needs you in
 			sickbay.
 			On my way.
 			At first I thought the catwalk
@@ -441,7 +441,7 @@
 			Wait.
 			Crusher to sickbay.
 			Sickbay here.
-			Is Commander La Forge there?
+			Is Commander LaForge there?
 			No, Doctor, he's not.
 			Wait a minute -- he just came in.
 			You wanted to see me, Doctor?
@@ -488,8 +488,8 @@
 			for anything unusual.
 			Aye, sir.
 			Keep me advised.
-			Crusher to Commander La Forge.
-			La Forge here.
+			Crusher to Commander LaForge.
+			LaForge here.
 			I just heard what sounded like...
 			voices in my room. But there's
 			no one here.
@@ -769,7 +769,7 @@
 			three-of-a-kind?
 			Ogawa to Doctor Crusher.
 			Go ahead.
-			Commander La Forge needs you in
+			Commander LaForge needs you in
 			sickbay.
 			On my way.
 			At first I thought the catwalk
@@ -852,8 +852,8 @@
 			We've got a dekyon field
 			fluctuation on deck nine, section
 			twenty-eight...
-			Crusher to Commander La Forge.
-			La Forge here.
+			Crusher to Commander LaForge.
+			LaForge here.
 			I just heard what sounded like...
 			voices in my room. But there's
 			no one here.

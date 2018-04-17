@@ -193,7 +193,7 @@
 			There is nothing to fear...
 			Father...
 			I am not fearful.
-			Commander La Forge... you?
+			Commander LaForge... you?
 			I don't think so. Thanks anyway.
 			I have rarely encountered such
 			squeamish people! Doctor
@@ -466,7 +466,7 @@
 			a severely decreased histamine
 			count. Both Will and Deanna show
 			normal levels.
-			I've asked Commander La Forge to
+			I've asked Commander LaForge to
 			conduct a shipwide diagnostic
 			for any other agents which could
 			produce that electropathic

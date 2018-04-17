@@ -88,7 +88,7 @@
 			Mister Data, notify security to
 			prepare a detention cell.
 			Bridge to engineering.
-			La Forge here.
+			LaForge here.
 			We're bringing a Borg survivor
 			on board. We'll need to
 			neutralize the homing signal --
@@ -160,7 +160,7 @@
 			the files we downloaded after your
 			experience, sir. I think I could
 			manage it.
-			Mister La Forge... do you have
+			Mister LaForge... do you have
 			enought knowledge of Borg
 			programming to alter the pathways
 			to the root command structure?
@@ -361,7 +361,7 @@
 			we can access the force field
 			through this console.
 			Ready?
-			La Forge to transporter room three.
+			LaForge to transporter room three.
 			We're ready here.
 			We are standing by, Commander.
 			Energize.
@@ -659,7 +659,7 @@
 			experiment involved killing them.
 			I would suggest you unattach
 			yourself from the Borg, Mister
-			La Forge.
+			LaForge.
 			Aye, Captain.
 			Come.
 			Guinan... please, come in.
@@ -681,10 +681,10 @@
 			by him?
 			Surprised...
 			Yes. Did you know he has a name?
-			La Forge gave it to him. His
+			LaForge gave it to him. His
 			name's Hugh. And he's lonely.
 			I don't know what made me go see
-			him. La Forge told me I should,
+			him. LaForge told me I should,
 			but I said no.
 			And then... I found myself
 			standing there, staring at him.

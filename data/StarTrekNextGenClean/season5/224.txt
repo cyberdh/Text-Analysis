@@ -50,7 +50,7 @@
 			replication.
 			All right.
 			Geordi, you and Ro.
-			La Forge to Brossmer. Two people,
+			LaForge to Brossmer. Two people,
 			one piece of equipment to beam
 			aboard.
 			Aye, sir.
@@ -224,7 +224,7 @@
 			By all means.
 			Captain --
 			I have a personal favor to ask.
-			I considered Commander La Forge
+			I considered Commander LaForge
 			to be my best friend. I feel it
 			is my responsibility to plan and
 			conduct the memorial service.
@@ -251,7 +251,7 @@
 			addressed before we install it.
 			Aye, sir.
 			Thank you.
-			La Forge...
+			LaForge...
 			Ro -- boy, am I glad to see you...
 			and I'm really glad you can see
 			me.
@@ -347,7 +347,7 @@
 			may be affected by prolonged
 			exposure. When I return I will
 			devise a method to eradicate them.
-			La Forge to Ensign Ro...
+			LaForge to Ensign Ro...
 			Thanks for the ride.
 			I'm here to say goodbye.
 			There are a lot of what appear
@@ -373,7 +373,7 @@
 			Me, too.
 			In fact... I might like to say
 			a few words.
-			You knew La Forge longer than
+			You knew LaForge longer than
 			any of us.
 			Actually, I was thinking more
 			of Ensign Ro...
@@ -404,7 +404,7 @@
 			going to need your help.
 			Lieutenant, I am planning a
 			memorial service for Commander
-			La Forge and Ensign Ro. I would
+			LaForge and Ensign Ro. I would
 			like you to participate.
 			What kind of service?
 			Captain Picard asked me to arrange
@@ -754,7 +754,7 @@
 			stronger beam.
 			Deck Ten.
 			I've been thinking about the first
-			time I met Geordi La Forge. He
+			time I met Geordi LaForge. He
 			was a young officer assigned to
 			pilot me on an inspection tour...
 			I made some off-hand remark about
@@ -882,7 +882,7 @@
 			Aye, sir.
 			Data -- Can you see me?
 			Of course.
-			La Forge to engineering. Take
+			LaForge to engineering. Take
 			the warp engines off-line until
 			further notice.
 			There's a muon wave build-up in

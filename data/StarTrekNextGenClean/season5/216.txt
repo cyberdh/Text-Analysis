@@ -30,7 +30,7 @@
 			Still nothing. Well... I'll get
 			a dynoscanner and try again.
 			Worf!
-			La Forge to sickbay! Medical
+			LaForge to sickbay! Medical
 			emergency in cargo bay three!
 			What... happened?
 			The containers you were checking
@@ -845,7 +845,7 @@
 			while we drop off survivors from
 			the Denver.
 			Good.
-			I understand Mister La Forge has
+			I understand Mister LaForge has
 			reported a minor fluctuation in
 			the starboard warp coil.
 			I've scheduled a stress simulation

@@ -120,7 +120,7 @@
 			emitters... we'll use them to
 			chart the null space.
 			Chart it?
-			Commander La Forge wants to get
+			Commander LaForge wants to get
 			an idea of how big this pocket
 			is. He thinks the rate of energy
 			absorption will be linked to its
@@ -290,7 +290,7 @@
 			Delta four-point-four by point
 			five.
 			It's working. I think we'll be
-			able to give Commander La Forge
+			able to give Commander LaForge
 			the information he needs.
 			Delta four-point-five by point
 			seven...
@@ -647,7 +647,7 @@
 			us all directly to sickbay.
 			I'll notify Doctor Crusher to be
 			standing by.
-			La Forge to bridge...
+			LaForge to bridge...
 			Picard here...
 			We're ready to initiate shuttle
 			prelaunch sequence.

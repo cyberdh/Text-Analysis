@@ -110,7 +110,7 @@
 			even have full crews yet.
 			But we could probably pick up
 			seven... maybe eight more ships.
-			Mister La Forge, will we be able
+			Mister LaForge, will we be able
 			to implement your tachyon
 			detection grid with twenty ships?
 			It's possible...
@@ -375,7 +375,7 @@
 			Thank you, sir.
 			You heard the Captain, everyone.
 			We're ready, sir.
-			Mister La Forge, how long do you
+			Mister LaForge, how long do you
 			think it will take the Romulans
 			to detect the tachyon field once
 			it's activated?

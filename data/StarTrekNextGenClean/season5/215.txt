@@ -354,7 +354,7 @@
 			Position security teams at both
 			entrances...
 			Yes sir.
-			Mister La Forge, shut down all
+			Mister LaForge, shut down all
 			computer access in Ten
 			Forward...
 			I can't, Captain. They've already
@@ -564,7 +564,7 @@
 			a hostage no matter where I am.
 			We all are. I must find out who
 			we are dealing with...
-			If La Forge and Ro can attempt
+			If LaForge and Ro can attempt
 			a rescue in short order, proceed
 			with it. If they can't... I'll
 			provide you with another
@@ -682,7 +682,7 @@
 			the circle if it's going to
 			work...
 			We're halfway home...
-			La Forge to Crusher. How's it
+			LaForge to Crusher. How's it
 			going?
 			I think I've come up with an
 			idea for a containment field.
@@ -810,7 +810,7 @@
 			Picard to bridge. Abort
 			immediately.
 			As you say, Captain...
-			Riker to La Forge, return to the
+			Riker to LaForge, return to the
 			bridge.
 			Are you prepared to cooperate?
 			Yes.
@@ -910,7 +910,7 @@
 			safe passage from Ten Forward to
 			the cargo bay.
 			Understood, Captain.
-			Mister La Forge, Doctor...
+			Mister LaForge, Doctor...
 			Aye, sir...
 			Transporter controls are being
 			transferred...
@@ -936,7 +936,7 @@
 			Security teams, stand by.
 			They're heading through section
 			five...
-			Mister La Forge, Doctor --
+			Mister LaForge, Doctor --
 			they'll be at their destination
 			in less than a minute...
 			They've stopped at deck eighteen,

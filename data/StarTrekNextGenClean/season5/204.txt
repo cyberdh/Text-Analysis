@@ -95,8 +95,8 @@
 			Melona colony. But the
 			disturbance in the atmosphere is
 			increasing.
-			Bridge to La Forge...
-			La Forge here, Captain.
+			Bridge to LaForge...
+			LaForge here, Captain.
 			Are you picking up readings from
 			Melona?
 			Yes, sir. Something strange is
@@ -666,7 +666,7 @@
 			nearest starbase to dispatch a
 			crew.
 			Aye, sir.
-			Mister La Forge, make certain we
+			Mister LaForge, make certain we
 			are still picking up the gamma
 			radiation pattern of the Entity.
 			Yes, sir.

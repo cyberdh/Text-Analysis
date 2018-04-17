@@ -527,7 +527,7 @@
 			I'm glad.
 			You wouldn't believe what's
 			happening in engineering.
-			Commander La Forge and the
+			Commander LaForge and the
 			others... they're crazy about
 			this new game.
 			Game?
@@ -699,7 +699,7 @@
 			Only two people on board know
 			enough about Data to have done
 			something like this. Commander
-			La Forge... and my mother.
+			LaForge... and my mother.
 			Why would one of them do this to
 			him?
 			Maybe there's more going on here
@@ -733,7 +733,7 @@
 			even the captain.
 			I'm supposed to be on duty in
 			engineering. I've gotta get back
-			before Commander La Forge
+			before Commander LaForge
 			suspects something.
 			When you get there, start
 			accessing the codes for the
@@ -761,7 +761,7 @@
 			Starship Endeavor. Resume
 			distribution of the device aboard
 			that vessel.
-			Commander La Forge and Counselor
+			Commander LaForge and Counselor
 			Troi... take a shuttle to
 			Starbase Sixty-seven. Distribute
 			the device to all starships
@@ -802,7 +802,7 @@
 			Computer, shut down all
 			transporter systems and shuttle
 			bays.
-			Mister La Forge?
+			Mister LaForge?
 			I can't track him, sir. He's
 			done something to the internal
 			security sensors. I'll try

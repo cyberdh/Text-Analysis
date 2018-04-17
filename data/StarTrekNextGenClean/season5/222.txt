@@ -160,7 +160,7 @@
 			a reading on the particle flux.
 			Aye, sir.
 			I was thinking more along the
-			lines of "The La Forge Nebula."
+			lines of "The LaForge Nebula."
 			Sounds sort of majestic, don't
 			you think?
 			Based on those selections, I would
@@ -194,7 +194,7 @@
 			to see. Go back to our quarters
 			right now.
 			But Daddy...
-			Bridge to La Forge. Our speed
+			Bridge to LaForge. Our speed
 			is still dropping.
 			I'm increasing power to the
 			impulse engines... but forward
@@ -256,7 +256,7 @@
 			of the gaseous matter, see what
 			it tells us...
 			Agreed. Collect your sample,
-			Mister La Forge. We'll proceed
+			Mister LaForge. We'll proceed
 			-- with caution.
 			Dismissed.
 			What's in here?
@@ -573,7 +573,7 @@
 			still present, but it has
 			stabilized.
 			Bridge to Commander Riker... check
-			with Mister La Forge... see if
+			with Mister LaForge... see if
 			he's found anything in that matter
 			sample from the nebula.
 			On my way, sir.
@@ -993,7 +993,7 @@
 			Notify all sections we'll be
 			leaving the area in one hour.
 			Sir?
-			Mister La Forge, I want you to
+			Mister LaForge, I want you to
 			drive the warp engines to full
 			power, and direct a flow of energy
 			out into the nebula.

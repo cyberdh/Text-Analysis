@@ -917,8 +917,8 @@
 			Captain, we've dropped to warp
 			five-point-seven.
 			Picard to engineering.
-			La Forge here...
-			What's happening, Mister La Forge?
+			LaForge here...
+			What's happening, Mister LaForge?
 			We're slowing down.
 			The parasites must've gotten into
 			the primary warp controller, sir.
@@ -997,7 +997,7 @@
 			Well done...
 			Mister Worf... coordinate your
 			teams with Doctor Crusher and
-			Commander La Forge... assess
+			Commander LaForge... assess
 			damage and injury.
 			Aye, Captain.
 			Captain's log, stardate 45733.6.

@@ -447,7 +447,7 @@
 			Ship's Counselor, Lieutenant
 			Commander Deanna Troi.
 			Chief Engineer... Lieutenant
-			Commander Geordi La Forge.
+			Commander Geordi LaForge.
 			Security Chief... Lieutenant Worf.
 			Helm Officer... Ensign Ro Laren.
 			Commander MacDuff... Please see
@@ -699,7 +699,7 @@
 			become available. It would be
 			too dangerous to attempt treatment
 			without them.
-			Mister La Forge?
+			Mister LaForge?
 			Data and I ran into some trouble
 			accessing the medical file areas
 			in the computer. But with a

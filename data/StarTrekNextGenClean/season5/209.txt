@@ -7,7 +7,7 @@
 			very well create a phenomenon not
 			unlike the nuclear winters of
 			twenty-first-century Earth.
-			Commander La Forge has begun work
+			Commander LaForge has begun work
 			on a plan that would counteract
 			the devastation.
 			I'm afraid the numbers coming in
@@ -37,7 +37,7 @@
 			within three hundred kilometers
 			of it.
 			A bit close for coincidence.
-			Mister La Forge?
+			Mister LaForge?
 			Yes, sir.
 			Would a delay of an hour affect
 			your plans?
@@ -448,7 +448,7 @@
 			well, it won't take more than
 			twenty bore sites.
 			Let's hope all goes well.
-			La Forge to Commander Riker. How
+			LaForge to Commander Riker. How
 			are you doing?
 			We're ready when you are, Geordi.
 			All we need's an open channel
@@ -610,13 +610,13 @@
 			Both epicenters are beneath the
 			two southernmost drill sites,
 			Captain.
-			Is La Forge still down there?
+			Is LaForge still down there?
 			Yes, sir.
 			Find him.
 			We've also got some volcanic
 			activity... pretty severe.
 			Magnify.
-			La Forge here, Captain. Moseley
+			LaForge here, Captain. Moseley
 			and I are on our way back to his
 			lab.
 			Are you alright?
@@ -682,7 +682,7 @@
 			aesthetics, I try to limit myself
 			to ten or less.
 			Only four today?
-			I am assisting Commander La Forge
+			I am assisting Commander LaForge
 			in the analysis of an extremely
 			complex calculation. It demands
 			a great deal of my concentration.
@@ -705,7 +705,7 @@
 			when I'll be... heading back.
 			Bridge to Commander Data.
 			Yes, Worf.
-			Commander La Forge is hailing you
+			Commander LaForge is hailing you
 			from the surface, sir.
 			Patch it through, please.
 			Have you rerun the phase reversal
@@ -717,7 +717,7 @@
 			We'll keep running the numbers
 			down here. You better inform the
 			captain... of the good news and
-			the bad news. La Forge out.
+			the bad news. LaForge out.
 			Which do you suppose he's going
 			to want to hear first?
 			The good news.
@@ -766,7 +766,7 @@
 			Yes, it would. It would be quite
 			a shame.
 			So what's your dilemma?
-			Mister La Forge has a possible
+			Mister LaForge has a possible
 			solution. The margin of error
 			is extremely critical, but if it's
 			successful, there's no more
@@ -959,7 +959,7 @@
 			second.
 			Doctor Moseley's computers can
 			accomplish the same task, sir.
-			But Commander La Forge would be
+			But Commander LaForge would be
 			better able to anticipate
 			unexpected variances.
 			Geordi, you know better than
@@ -971,7 +971,7 @@
 			permission to remain on the
 			surface.
 			Permission granted.
-			La Forge remained below.
+			LaForge remained below.
 			Good luck, Commander.
 			Thank you, sir.
 			The deflector dish has been
@@ -983,8 +983,8 @@
 			Phasers firing.
 			Activating shield invertors...
 			now!
-			Mister La Forge?
-			La Forge here. Still breathing,
+			Mister LaForge?
+			LaForge here. Still breathing,
 			Captain.
 			Particulate levels are right where
 			they're supposed to be... and the

@@ -398,8 +398,8 @@
 			Attacking?
 			Temba. His arms wide.
 			I'll go along with that.
-			Riker to La Forge.
-			La Forge here.
+			Riker to LaForge.
+			LaForge here.
 			How close are we on the
 			transporter?
 			About two hours -- maybe three.
@@ -420,8 +420,8 @@
 			hand to the Tamarians. But that's
 			a chance we've got to take.
 			Agreed.
-			La Forge. Proceed.
-			We're on it. La Forge out.
+			LaForge. Proceed.
+			We're on it. LaForge out.
 			Riker to transporter room one.
 			O'Brien here, Commander.
 			Stand by, Mister O'Brien...
@@ -446,13 +446,13 @@
 			thermal input coefficient to one
 			hundred fifty-percent.
 			Increasing now...
-			Status, La Forge.
+			Status, LaForge.
 			We're almost there, Commander.
 			Shunt the overload to the phase
 			transition sequencers in
 			transporter one.
 			Yes, sir.
-			La Forge to O'Brien.
+			LaForge to O'Brien.
 			Go ahead, Commander.
 			Confirm phase sequencer linkage.
 			Link confirmed. Ready whenever
@@ -477,7 +477,7 @@
 			No --
 			I've got a piece of him Commander.
 			But that's all...
-			La Forge, boost the confinement
+			LaForge, boost the confinement
 			beam!
 			One fifty-seven over standard.
 			It's as solid as it'll go,
@@ -713,8 +713,8 @@
 			He may be dead, sir.
 			If we know it -- so do the
 			Tamarians.
-			Riker to La Forge.
-			La Forge here.
+			Riker to LaForge.
+			LaForge here.
 			I need those phasers --
 			Sir -- sensors are tracking the
 			entity. It is approaching Captain
@@ -727,7 +727,7 @@
 			Nine meters and closing...
 			Commander...
 			Six meters...
-			La Forge to bridge. You have
+			LaForge to bridge. You have
 			phasers!
 			Fire!
 			Their particle beam emitters are

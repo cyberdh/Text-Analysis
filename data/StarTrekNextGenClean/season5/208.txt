@@ -482,7 +482,7 @@
 			Anything from Gowron?
 			Nosir. But after your tailor is
 			done, would you join me in the
-			cargo bay... La Forge has made
+			cargo bay... LaForge has made
 			some progress on those metal
 			fragments...
 			These two still have to report
@@ -738,7 +738,7 @@
 			tanks.
 			Ensign, align the Enterprise so
 			we'll appear to be one of the
-			abandoned ships. Mister La Forge,
+			abandoned ships. Mister LaForge,
 			when we're in position, shut down
 			engines and all systems except
 			sensors and life support.
@@ -823,7 +823,7 @@
 			the surface-to-ship transport has
 			begun...
 			Bring the engines back on line,
-			Mister La Forge... And restore
+			Mister LaForge... And restore
 			all systems to normal.
 			Aye, sir.
 			He's powering up engines, sir --

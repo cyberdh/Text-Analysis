@@ -117,7 +117,7 @@
 			that you and Geordi return to the
 			ship.
 			Agreed.
-			La Forge...
+			LaForge...
 			I'm locked onto Commander Data
 			and the boy, sir. I'll energize
 			as soon as they've cleared the
@@ -157,7 +157,7 @@
 			like me to get you something to
 			eat?
 			Counselor, I must join Commander
-			La Forge in engineering. If you
+			LaForge in engineering. If you
 			will excuse me --
 			Timothy, would you like Data to
 			stay a little bit longer?
@@ -355,13 +355,13 @@
 			the upper tiers before you have
 			completed the lower.
 			Observe.
-			La Forge to Data.
+			LaForge to Data.
 			Data here.
 			I need your help with the shield
 			modulators.
 			I will join you in a moment,
 			Geordi. Data out.
-			Commander La Forge requires my
+			Commander LaForge requires my
 			assistance.
 			Incredible.
 			How come you can do that?
@@ -835,7 +835,7 @@
 			go below... get out of everyone's
 			way, okay... ?
 			No...
-			Riker to La Forge. Can you give
+			Riker to LaForge. Can you give
 			me more power to the shields?
 			Stand by...
 			That's what they kept saying --
@@ -859,7 +859,7 @@
 			Structural overpressure is
 			exceeding one hundred eighty
 			percent.
-			La Forge...
+			LaForge...
 			I don't understand. That should
 			have been enough.
 			We could run the shield grid
@@ -877,7 +877,7 @@
 			forty-seven seconds. Without
 			additional power to the shields,
 			the outer hull will not hold...
-			La Forge...
+			LaForge...
 			Warp transfer to the shields
 			complete. That's as strong as
 			they're gonna get.

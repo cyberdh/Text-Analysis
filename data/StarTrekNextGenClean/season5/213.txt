@@ -30,7 +30,7 @@
 			themselves on a deserted planet?
 			I'm pretty sure they know we're
 			here...
-			Mister La Forge?
+			Mister LaForge?
 			I'm picking up deep E-M
 			readings... looks like wave
 			emissions from an obsolete
@@ -254,7 +254,7 @@
 			I'll be glad to show it to you
 			if there's time...
 			Yes, of course, the fragment...
-			Hannah, Commander La Forge has
+			Hannah, Commander LaForge has
 			brought all the studies of the
 			stellar core fragment done aboard
 			his ship...
@@ -267,7 +267,7 @@
 			I've worked up a few schematics
 			based on gravimetric potentials
 			and deflector energy allocation...
-			Mister La Forge... Troi and I
+			Mister LaForge... Troi and I
 			will return to the Enterprise...
 			when you reach a conclusion, let
 			us know...
@@ -391,7 +391,7 @@
 			I look forward to it.
 			Energize.
 			Captain's log, stardate 45472.8.
-			Commander La Forge and Hannah
+			Commander LaForge and Hannah
 			Bates of the Genome Colony have
 			spent nearly three days trying
 			to find a way to adjust the path
@@ -747,7 +747,7 @@
 			Losing life-support systems on
 			decks five through nine.
 			Evacuation procedures initiated.
-			Mister La Forge...
+			Mister LaForge...
 			Hold on, Captain...
 			Shipwide life-support failure in
 			fifteen seconds...
@@ -756,7 +756,7 @@
 			degrees...
 			Termination of all life-support
 			in five seconds...
-			Now, Mister La Forge...
+			Now, Mister LaForge...
 			One-point-one-eight...
 			Yessir.
 			Shutting down all tractor
