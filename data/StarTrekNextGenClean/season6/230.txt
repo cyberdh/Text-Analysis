@@ -433,7 +433,7 @@
 			diapers. I'd think you'd be
 			grateful for a little help.
 			Then I'll leave ye to work, Mister
-			La Forge.
+			LaForge.
 			... "in the way"... used to be
 			Engineers had a little respect
 			for each other... used to matter
@@ -486,7 +486,7 @@
 			space travel --
 			You're a psychologist.
 			Among other things.
-			La Forge sent you here, didn't
+			LaForge sent you here, didn't
 			he? I may be old, but I'm not
 			crazy.
 			Geordi didn't send me and I know
@@ -616,7 +616,7 @@
 			Computer, shut this bloody thing
 			off. It's time I acted my age.
 			Come.
-			Mister La Forge, I understand that
+			Mister LaForge, I understand that
 			the Jenolen conducted an extensive
 			survey of the Dyson sphere before
 			it crashed. Have we been able
@@ -721,7 +721,7 @@
 			still nothing.
 			Bunch of old useless, garbage...
 			What?
-			I said it's old, Mister La Forge.
+			I said it's old, Mister LaForge.
 			It can't handle the interface of
 			your power converter.
 			This equipment was designed for
@@ -764,8 +764,8 @@
 			I haven't seen one of those in
 			a long time... but I might have
 			something similar.
-			La Forge to Enterprise.
-			La Forge to Enterprise, come in
+			LaForge to Enterprise.
+			LaForge to Enterprise, come in
 			please.
 			Interference?
 			No...
@@ -995,8 +995,8 @@
 			That's it. Let's go! Full
 			impulse.
 			Sir. There is an audio message
-			from Commander La Forge.
-			This is La Forge, do you read me,
+			from Commander LaForge.
+			This is LaForge, do you read me,
 			Enterprise?
 			We read you, go ahead Commander.
 			Understood.
@@ -1004,7 +1004,7 @@
 			The plasma intercooler's gone.
 			The engines are overheating.
 			I've lost helm control...
-			La Forge to Enterprise. Captain,
+			LaForge to Enterprise. Captain,
 			we won't be able to move this ship
 			out of the way when you get
 			here... you're going to have to

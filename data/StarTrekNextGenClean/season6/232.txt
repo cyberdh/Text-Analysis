@@ -236,7 +236,7 @@
 			-- I can't slow the reaction...
 			Temperature increase is at one
 			hundred six percent... and rising.
-			La Forge To Bridge!
+			LaForge To Bridge!
 			Picard, here.
 			We're heading for a core breach!
 			We're going to have to try and
@@ -1048,7 +1048,7 @@
 			to be enough... the reactor's gone
 			into overload...
 			Can you correct the problem?
-			La Forge is trying to stabilize
+			LaForge is trying to stabilize
 			the unit now. We'll stay as long
 			as possible... there are thousands
 			of people in the area, and if that
@@ -1061,7 +1061,7 @@
 			the interference and beam them
 			out of there.
 			Aye, sir.
-			Captain, La Forge is trying a
+			Captain, LaForge is trying a
 			neutrino infusion. There's a
 			chance it'll smother the
 			reaction...

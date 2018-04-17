@@ -78,7 +78,7 @@
 			a radically new mining technology.
 			So far the project has been
 			fraught with problems, and is well
-			behind schedule. Mister La Forge
+			behind schedule. Mister LaForge
 			has been assigned to evaluate the
 			situation.
 			Doctor Farallon. The original
@@ -136,11 +136,11 @@
 			I've used these on a limited
 			basis... I think they've earned
 			a try...
-			Enterprise to Commander La Forge.
+			Enterprise to Commander LaForge.
 			I am reading significant power
 			fluctuations from the station
 			core. Please report.
-			La Forge here... there's been a
+			LaForge here... there's been a
 			malfunction in one of the power
 			grids...
 			... we're losing particle stream
@@ -177,7 +177,7 @@
 			If it doesn't work, we'll still
 			have time to shut down the
 			fountain...
-			Enterprise to La Forge... what
+			Enterprise to LaForge... what
 			is your situation?
 			Unchanged for the moment... but
 			we're working on it...
@@ -186,7 +186,7 @@
 			The confinement field is at full
 			strength... particle flux
 			steady... all power levels normal.
-			Commander La Forge, please report.
+			Commander LaForge, please report.
 			We're fine, Data. The power grid
 			has been fully restored.
 			How were you able to accomplish
@@ -317,7 +317,7 @@
 			on a limited basis, but I think
 			they're ready to be used on a
 			larger scale.
-			Mister La Forge, what are your
+			Mister LaForge, what are your
 			thoughts?
 			I guess the only risk... is
 			falling even further behind.
@@ -355,10 +355,10 @@
 			the same tasks. I would
 			characterize the unit's
 			performance as excellent.
-			I hope Commander La Forge and
+			I hope Commander LaForge and
 			Captain Picard agree with you.
 			I am confident that they will.
-			Commander La Forge is an excellent
+			Commander LaForge is an excellent
 			--
 			It didn't finish sealing the
 			plasma conduit.
@@ -443,7 +443,7 @@
 			of self-preservation?
 			Of course not.
 			Lieutenant Pierson to Commander
-			La Forge... sir, could you join
+			LaForge... sir, could you join
 			us in the systems monitor room?
 			On my way.
 			Computer... perform a level one
@@ -875,11 +875,11 @@
 			He was over there, near the
 			impeller control.
 			I'll get him, sir.
-			Mister La Forge!
+			Mister LaForge!
 			Stand by to transport.
 			Captain -- you'll be trapped here
 			--
-			Mister La Forge... Mister La
+			Mister LaForge... Mister La
 			Forge!
 			Geordi, are you all right?
 			I'm okay... I only caught the edge
@@ -890,7 +890,7 @@
 			Is everyone all right?
 			We're fine, sir.
 			But Captain Picard and Commander
-			La Forge are still on the station.
+			LaForge are still on the station.
 			Kelso, can you get them off?
 			I've been trying, sir... I can't
 			establish a pattern lock...
@@ -1115,7 +1115,7 @@
 			station core.
 			Kelso -- energize.
 			Aye, sir.
-			Mister La Forge...
+			Mister LaForge...
 			What are they up to?
 			Those look like power-taps of some
 			kind...

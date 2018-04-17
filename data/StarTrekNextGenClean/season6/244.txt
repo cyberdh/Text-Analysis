@@ -75,7 +75,7 @@
 			The computer needs your
 			authorization to disable command
 			functions during the baryon sweep.
-			Are we ready, Mister La Forge?
+			Are we ready, Mister LaForge?
 			Almost. I've requested some
 			additional field diverters for the
 			computer core and the Bridge and
@@ -195,7 +195,7 @@
 			Geordi! Deanna! I don't believe
 			you've met our host.
 			Allow me to introduce Commander
-			Geordi La Forge, Counselor Deanna
+			Geordi LaForge, Counselor Deanna
 			Troi. This is Commander
 			Hutchinson.
 			Hutch.

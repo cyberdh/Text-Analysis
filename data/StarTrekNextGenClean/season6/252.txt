@@ -135,7 +135,7 @@
 			Shields are back to full power,
 			Captain.
 			Very good.
-			Mister La Forge?
+			Mister LaForge?
 			They're gone, sir. Our sensors
 			indicate there was some kind of
 			subspace distortion just before
@@ -766,7 +766,7 @@
 			Can you tell who's on board?
 			It is... the Borg prisoner... and
 			Commander Data.
-			Mister La Forge, can we follow
+			Mister LaForge, can we follow
 			them into the conduit?
 			We got a good reading on the
 			tachyon pulse they sent. We might
@@ -795,7 +795,7 @@
 			Bring us to the shuttle's last
 			known coordinates.
 			Shields up... weapons ready.
-			Mister La Forge?
+			Mister LaForge?
 			I'm energizing the matrix...
 			emitting tachyons in the lower
 			bandwidth.
@@ -932,9 +932,9 @@
 			Who's manning the command post?
 			Wallace and Towles.
 			Ready?
-			Anything, Mister La Forge?
+			Anything, Mister LaForge?
 			Nothing, sir.
-			Mister La Forge, what if we
+			Mister LaForge, what if we
 			modified one of our phasers to
 			send out a luvetric pulse? It
 			might cause a resonance

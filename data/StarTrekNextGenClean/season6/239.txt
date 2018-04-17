@@ -650,7 +650,7 @@
 			Unknown.
 			Computer -- access internal
 			records for Station forty-seven.
-			Authorization La Forge Theta Nine
+			Authorization LaForge Theta Nine
 			Nine Two.
 			Perform a command function trace
 			on the instructions to delete the

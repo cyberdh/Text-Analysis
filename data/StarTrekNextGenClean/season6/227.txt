@@ -833,7 +833,7 @@
 			Yeah, but --
 			It is imperative that we do not.
 			I will explain later.
-			La Forge to Riker -- hold your
+			LaForge to Riker -- hold your
 			fire!
 			The binary message left by the
 			Captain is not entirely clear.
@@ -881,7 +881,7 @@
 			point is -- it's the right choice.
 			I have more books to write... your
 			Captain has a job to do here...
-			Mister La Forge... brief him on
+			Mister LaForge... brief him on
 			what he'll need to do.
 			I'm glad I have the chance to
 			thank you.
@@ -902,7 +902,7 @@
 			This thing put me down in the
 			middle of Market Street. It took
 			forever to get here...
-			Sir, Commander La Forge has
+			Sir, Commander LaForge has
 			completed the re-configuration
 			of the photon torpedoes.
 			If Clemens got back, the Captain
@@ -914,7 +914,7 @@
 			minutes.
 			Yes, Commander.
 			No time for chit-chat, sir...
-			According to Mister La Forge --
+			According to Mister LaForge --
 			who did get your message by the
 			way -- a frequency setting of
 			point-oh-four-seven on your phaser

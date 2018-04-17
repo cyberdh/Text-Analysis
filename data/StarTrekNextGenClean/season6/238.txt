@@ -47,7 +47,7 @@
 			orientation systems.
 			London's greatest detective...
 			Freeze program.
-			La Forge to Barclay...
+			LaForge to Barclay...
 			Barclay here.
 			Reg, something went wrong with the
 			Holodeck program again.
@@ -609,7 +609,7 @@
 			quite see how it's going to work.
 			Keep at it -- I need to be able to
 			tell him that we're making
-			progress. Mister La Forge...
+			progress. Mister LaForge...
 			Do you have any idea how Moriarty
 			was able to take control of the
 			ship?
@@ -783,7 +783,7 @@
 			the Transporter...
 			But then I saw you working the
 			PADD with your left hand.
-			Commander La Forge is right-handed.
+			Commander LaForge is right-handed.
 			A similar malfunction
 			occurred in the Sherlock Holmes
 			program I was running before
@@ -808,7 +808,7 @@
 			the real Commander Riker, he would
 			have given our location as
 			Holodeck Three.
-			Mister La Forge, will you excuse
+			Mister LaForge, will you excuse
 			us please?
 			Data... who is real here?
 			You and I are real, as is
@@ -876,7 +876,7 @@
 			levels...
 			I have nothing to lose,
 			Commander...
-			Mister La Forge... start working
+			Mister LaForge... start working
 			on the problem.
 			Core temperature is dropping...
 			Computer, resume program.

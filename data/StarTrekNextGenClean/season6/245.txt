@@ -664,13 +664,13 @@
 			How long before the storm reaches
 			the outpost?
 			Seventeen minutes.
-			La Forge to Bridge.
+			LaForge to Bridge.
 			Go ahead.
 			The ionization from the storm is
 			interfering with the transporters.
 			I'm compensating, but it's slowing
 			things down.
-			Keep at it, Mister La Forge.
+			Keep at it, Mister LaForge.
 			Riker to Daren.
 			Daren, here. Go ahead, Commander.
 			You've got less than nine minutes
@@ -722,8 +722,8 @@
 			your positions until we finish the
 			evacuation of the colony. Picard
 			out.
-			Picard to La Forge.
-			La Forge here.
+			Picard to LaForge.
+			LaForge here.
 			Keep a signal lock on all
 			perimeter team members.
 			Captain, the storm's interference

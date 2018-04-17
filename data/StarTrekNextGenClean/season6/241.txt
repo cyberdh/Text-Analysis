@@ -679,7 +679,7 @@
 			Can I help you, Mister Picard?
 			Worf...
 			This is not for me. You should
-			take it to Commander La Forge in
+			take it to Commander LaForge in
 			Engineering.
 			What's happened... ?
 			Is something wrong?
@@ -807,7 +807,7 @@
 			you're a good officer.
 			Just not -- one who stands out.
 			Look... why don't I talk to
-			Commander La Forge... maybe
+			Commander LaForge... maybe
 			there's something in Engineering.
 			But... command?
 			Well... we'll see.
@@ -819,7 +819,7 @@
 			All right, Q. Enough of this.
 			You've made your point.
 			Q... ?
-			La Forge to Lieutenant Picard.
+			LaForge to Lieutenant Picard.
 			I'm still waiting for your final
 			sensor usage log.
 			I'm on my way, sir.

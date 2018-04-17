@@ -50,7 +50,7 @@
 			Alert. I want to be ready for
 			anything.
 			Captain's Log, Stardate 46944.2.
-			Commander Data, Mister La Forge,
+			Commander Data, Mister LaForge,
 			Counselor Troi and I are en route
 			to the Enterprise, after attending
 			a three day conference on the
@@ -281,7 +281,7 @@
 			Check the hull integrity.
 			It does not appear to be affected.
 			See if you can move us away from
-			the disturbance, Mister La Forge.
+			the disturbance, Mister LaForge.
 			Aye sir.
 			Lateral thrusters on-line...
 			Data, plot a course away from the
@@ -383,7 +383,7 @@
 			time, just like they are.
 			Then we've got to find a way to
 			stay unfrozen...
-			Mister La Forge... what about a
+			Mister LaForge... what about a
 			subspace forcefield like the one
 			we used on Devidia Two? Could
 			something like that protect us
@@ -460,8 +460,8 @@
 			determine the cause of the power
 			surge. I'll be in Transporter
 			Room Three.
-			Picard to La Forge.
-			La Forge here, sir.
+			Picard to LaForge.
+			LaForge here, sir.
 			Lock onto our signals. I want you
 			to beam Counselor Troi to --
 			I'd rather not, Captain. We've
@@ -559,7 +559,7 @@
 			Captain, what's wrong?
 			My head... dizzy... I can't...
 			No!
-			Troi to La Forge. Get us out of
+			Troi to LaForge. Get us out of
 			here, now!
 			It looks like you weren't
 			completely protected from the
@@ -668,7 +668,7 @@
 			It looks like they were trying to
 			stop whatever was happening
 			here...
-			Mister La Forge -- from where you
+			Mister LaForge -- from where you
 			are can you determine what's
 			happening on the Romulan Bridge?
 			I think so...

@@ -114,7 +114,7 @@
 			has increased by twenty-six
 			percent.
 			Inform Astrophysics that the new
-			La Forge sensor array is on-line
+			LaForge sensor array is on-line
 			and awaiting major scientific
 			discoveries.
 			Yes sir.
@@ -184,7 +184,7 @@
 			anything.
 			Aye sir.
 			Maybe we should pick this up
-			in the morning, Mister La Forge
+			in the morning, Mister LaForge
 			-- get a fresh start.
 			And would you do me a favor?
 			Stop by my quarters at oh-seven
@@ -193,7 +193,7 @@
 			Sure. Goodnight.
 			Goodnight.
 			Who is it?
-			Commander La Forge.
+			Commander LaForge.
 			Good morning, sir.
 			Morning? I just went to bed...
 			Sir -- it's oh seven hundred
@@ -305,7 +305,7 @@
 			explosion... then my VISOR cuts
 			out twice... now you lose an
 			hour... all in the Cargo Bay...
-			La Forge to Engineering -- I want
+			LaForge to Engineering -- I want
 			a diagnostic team to Cargo Bay
 			Two immediately.
 			On our way, sir.
@@ -570,7 +570,7 @@
 			know if anyone goes on or off this
 			ship.
 			Aye sir.
-			Mister La Forge, Mister Data --
+			Mister LaForge, Mister Data --
 			I believe if we find the source
 			of those tetryon emissions, we
 			may also find our missing
@@ -715,7 +715,7 @@
 			effects. It might be risky.
 			It's a risk I'm willing to take.
 			Make it so.
-			Mister La Forge -- begin work on
+			Mister LaForge -- begin work on
 			a homing device.
 			It should be enough to ward off
 			their neuro-sedative for about

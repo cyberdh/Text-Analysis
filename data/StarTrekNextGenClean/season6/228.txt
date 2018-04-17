@@ -99,7 +99,7 @@
 			transport, Reg. Anyone would have
 			been apprehensive in that
 			situation.
-			Tell that to Commander La Forge
+			Tell that to Commander LaForge
 			and the rest of the Away Team...
 			I'm sure they understand. As soon
 			as you feel up to it, you can
@@ -279,7 +279,7 @@
 			Riker join me in my Ready Room
 			as soon as he's on board.
 			Aye sir.
-			La Forge to Transporter Room
+			LaForge to Transporter Room
 			Three.
 			I'm ready to go.
 			Stand by, Commander.
@@ -553,7 +553,7 @@
 			We've got everything under control
 			here.
 			I'll do that, sir. Thank you.
-			La Forge to Counselor Troi.
+			LaForge to Counselor Troi.
 			Go ahead, Commander.
 			Counselor... do you have a minute?
 			Lieutenant Barclay, I've been
@@ -573,7 +573,7 @@
 			myself out. That's a perfectly
 			normal thing to be doing, isn't
 			it?
-			Commander La Forge said you seemed
+			Commander LaForge said you seemed
 			very nervous this morning.
 			I'm always nervous. Everyone
 			knows that.
@@ -640,7 +640,7 @@
 			those ionic fluctuations... ?
 			I guess so... but if you don't
 			mind my asking, sir... what for?
-			I need to... Commander La Forge
+			I need to... Commander LaForge
 			wants some tricorder readings of
 			those fluctuations.
 			We can do it from right here.
@@ -705,7 +705,7 @@
 			got to believe me. I wouldn't
 			have called you in here if I
 			weren't absolutely certain.
-			Commander La Forge, get Chief
+			Commander LaForge, get Chief
 			O'Brien -- take the Transporter
 			system apart piece by piece if
 			you have to.
@@ -744,7 +744,7 @@
 			It might. I'll need to run a
 			base-pair correlation to look for
 			signs of DNA break-down.
-			Sir... Commander La Forge and I
+			Sir... Commander LaForge and I
 			were planning to recreate the
 			circumstances of the explosion
 			on the Yosemite... that might

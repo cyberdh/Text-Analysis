@@ -551,7 +551,7 @@
 			Ya'll must be mistaken.
 			There, Data, You did it again.
 			Did whut?
-			Mister La Forge -- perhaps you
+			Mister LaForge -- perhaps you
 			should take Mister Data to
 			Engineering. See if you can find
 			the problem.
@@ -620,7 +620,7 @@
 			And in two hours, he's going to
 			try to kill you.
 			Howdy, Commander.
-			Mister La Forge... what have you
+			Mister LaForge... what have you
 			found?
 			Well... we figure parts of my
 			memory structure...
