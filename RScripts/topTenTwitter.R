@@ -4,8 +4,10 @@
 setwd("~/Text-Analysis/")
 
 #Call libraries used in the script
+library(NLP)
 library(tm)
-library(twitteR)
+library(dplyr)
+library(tidytext)
 
 #unzip file
 zipF<- "data/twitter/neverAgain.csv.zip"
