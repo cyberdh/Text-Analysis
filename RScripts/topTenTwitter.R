@@ -29,7 +29,7 @@ corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, stripWhitespace)
 removeURL <- function(x) gsub("http[[:alnum:]]*", "", x)
 corpus <- tm_map(corpus, content_transformer(removeURL))
-corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords, 'amp','rt','neveragain','dont'))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"), myStopWords, 'amp','rt','neveragain','dont', 'emma4change', 'xokarminox'))
 
 dtm <- DocumentTermMatrix(corpus)
 freq <- sort(colSums(as.matrix(dtm)), decreasing = TRUE)
