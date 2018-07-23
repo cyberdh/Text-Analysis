@@ -34,7 +34,7 @@ removeURL <- function(x) gsub("http[[:alnum:]]*", "", x)
 corpus <- tm_map(corpus, content_transformer(removeURL))
                                      
 #remove stopwords
-corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp', 'rt', 'neveragain', 'dont'))
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"),'amp', 'rt', 'neveragain', 'dont', 'emmachange', 'xokarminox', 'will', 'see'))
 
 #plot wordcloud
 wordcloud(corpus, min.freq=10, max.words=75, scale=c(4,1), colors=brewer.pal(8, "Dark2"))
