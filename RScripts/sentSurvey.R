@@ -128,7 +128,7 @@ abline(v = 0-.5, col = "black", lwd = 2)
 facMean <- mean(faculty.result$score)
 facSD <- sd(faculty.result$score)
 fa= list( bquote(Mean== .(facMean)), bquote(SD== .(facSD) ) )
-legend("topright", c("Faculty", "Mean", "Zero", sapply(fa, as.expression)) , col = c("darkblue", "purple", "black", "white","white"), lwd=c(8, 4, 4,1,1), cex=.5, pt.cex=.5)
+legend("topright", c("Faculty", "Mean", "Zero", sapply(fa, as.expression)) , col = c("darkblue", "purple", "black", "white","white"), lwd=c(8, 4, 4,1,1), cex=.8, pt.cex=.5)
 #legend('topleft', legend=sapply(fa, as.expression))
 
 p2 = hist(staff.result$score, col = "darkred", ylim = c(0,80),xlim=c(-17,17),
@@ -140,7 +140,7 @@ abline(v = 0-.5, col = "black", lwd = 2)
 stfMean <- mean(staff.result$score)
 stfSD <- sd(staff.result$score)
 st= list( bquote(Mean== .(stfMean)), bquote(SD== .(stfSD) ) )
-legend("topright", c("Staff", "Mean", "Zero", sapply(st, as.expression)) , col = c("darkred", "purple", "black", "white", "white"), lwd=c(8, 4, 4), cex=.5, pt.cex=.5)
+legend("topright", c("Staff", "Mean", "Zero", sapply(st, as.expression)) , col = c("darkred", "purple", "black", "white", "white"), lwd=c(8, 4, 4), cex=.8, pt.cex=.5)
 #legend('topleft', legend=sapply(st, as.expression))
 
 p3 = hist(grad.result$score, col = "darkorange", ylim =c(0,80),xlim=c(-17,17),
@@ -152,7 +152,7 @@ abline(v = 0-.5, col = "black", lwd = 2)
 grdMean <- mean(grad.result$score)
 grdSD <- sd(grad.result$score)
 g= list( bquote(Mean== .(grdMean)), bquote(SD== .(grdSD) ) )
-legend("topright", c("Grad", "Mean", "Zero", sapply(g, as.expression)) , col = c("darkorange", "purple", "black", "white", "white"), lwd=c(8, 4, 4), cex=.5, pt.cex=.5)
+legend("topright", c("Grad", "Mean", "Zero", sapply(g, as.expression)) , col = c("darkorange", "purple", "black", "white", "white"), lwd=c(8, 4, 4), cex=.8, pt.cex=.5)
 #legend('topleft', legend=sapply(g, as.expression))
 
 p4 = hist(undergrad.result$score, col = "darkgreen", ylim = c(0,80),xlim=c(-17,17),
@@ -164,7 +164,7 @@ abline(v = 0-.5, col = "black", lwd = 2)
 ugrdMean <- mean(undergrad.result$score)
 ugrdSD <- sd(undergrad.result$score)
 ug= list( bquote(Mean== .(ugrdMean)), bquote(SD== .(ugrdSD) ) )
-legend("topright", c("Undergrad", "Mean", "Zero", sapply(ug, as.expression)) , col = c("darkgreen", "purple", "black", "white", "white"), lwd=c(8, 4, 4), cex=.5, pt.cex=.5)
+legend("topright", c("Undergrad", "Mean", "Zero", sapply(ug, as.expression)) , col = c("darkgreen", "purple", "black", "white", "white"), lwd=c(8, 4, 4), cex=.8, pt.cex=.5)
 #legend('topleft', legend=sapply(ug, as.expression))
 
 
