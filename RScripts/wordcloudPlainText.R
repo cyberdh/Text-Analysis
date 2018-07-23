@@ -1,4 +1,4 @@
-#Wordcloud of Top 75 Words in Hamlet
+#Wordcloud of Top 75 Words in Star Trek: The Next Generation
 
 #Set the working directory
 setwd("~/Text-Analysis/")
@@ -8,12 +8,12 @@ library(wordcloud)
 library(tm)
 library(RColorBrewer)
 
-#Create a corpus -- this creates a wordcloud of the entire Shakesperean corpus
-#corpus <- Corpus(DirSource("data/shakespeareFolger"))
-# Hamlet Only
+#Create a corpus -- this creates a wordcloud of the entire STNG series
+#corpus <- Corpus(DirSource("data/StarTrekNextGenClean/series"))
+# A single episode only
 text_raw<-scan("data/StarTrekNextGenClean/series/277.txt", what="character", sep="\n")
 
-#Create corpus from Hamlet only 
+#Create corpus from single episode 
 corpus <- Corpus(VectorSource(text_raw))
 
 #Clean the corpus
