@@ -6,7 +6,7 @@ options(mc.cores = 1)
 #Call libraries used in the script
 library(tm)
 
-#Creat a corpus -- this creates a wordcloiud of the entire STNG series
+#Creat a corpus -- this creates a corpus of the entire STNG series
 #corpus <- Corpus(DirSource("data/StarTrekNextGenClean/series"))
 
 #Read in the text of a single episode 
