@@ -3,7 +3,6 @@
 # To be used in conjunction with the CyberDH RNotebook tutorial found on Github > CyberDH > Text_Analysis.
 
 library(tm)
-library(twitteR)
 library(plyr)
 library(stringr)
 library(ggplot2)
