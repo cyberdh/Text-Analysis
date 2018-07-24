@@ -13,7 +13,7 @@ Second, you will need to install the R kernel so that Jupyter Notebook can run R
 Jupyter Notebook automatically displays all the files and folders in your home directory (which is your Karst directory under your username on Karst and varies on a Mac or PC), so make sure you save the repository in your home directory. Open the Text-Analysis folder and then open the RNotebooks folder and choose the .ipynb file of your choice.
 
 
-### PLEASE NOTE: These notebooks were written for use on Karst, the supercomputer at Indiana University. Karst currently uses R 3.3.1 and so the code in these notebooks may have issues with newer or older verisons of R.
+#### Please note: The code in this repo is intended for use on Karst, the supercomputer at Indiana University. Karst is a Linux system and uses R version 3.3.1 and so some of this code may need to be altered if you are using a different version on another computer.
 
 =========================
 
