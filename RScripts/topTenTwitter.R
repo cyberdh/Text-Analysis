@@ -19,7 +19,7 @@ tweets <- read.csv("data/twitter/neverAgain.csv")
 
 #Create a corpus 
 corpus <- iconv(tweets$text, to = "utf-8")
-corpus <- Corpus(VectorSource(corpus))
+corpus <- VCorpus(VectorSource(corpus))
 
 corpus <- tm_map(corpus, function(x) iconv(x, "ASCII", "UTF-8", sub=""))
 
