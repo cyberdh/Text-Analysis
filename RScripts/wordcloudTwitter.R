@@ -17,7 +17,7 @@ tweets <- read.csv("data/twitter/neverAgain.csv")
 
 #convert to utf-8
 corpus <- iconv(tweets$text, to = "utf-8")
-corpus <- Corpus(VectorSource(corpus))
+corpus <- VCorpus(VectorSource(corpus))
 
 #read any non-utf-8 characters as ASCII
 corpus <- tm_map(corpus,
