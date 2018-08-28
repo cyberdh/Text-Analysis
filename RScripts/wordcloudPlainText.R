@@ -9,12 +9,12 @@ library(tm)
 library(RColorBrewer)
 
 #Create a corpus -- this creates a wordcloud of the entire STNG series
-#corpus <- Corpus(DirSource("data/StarTrekNextGenClean/series"))
+#corpus <- VCorpus(DirSource("data/StarTrekNextGenClean/series"))
 # A single episode only
 text_raw<-scan("data/StarTrekNextGenClean/series/277.txt", what="character", sep="\n")
 
 #Create corpus from single episode 
-corpus <- Corpus(VectorSource(text_raw))
+corpus <- VCorpus(VectorSource(text_raw))
 
 #Clean the corpus
 corpus <- tm_map(corpus, content_transformer(tolower))
