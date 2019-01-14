@@ -1,1013 +1,1013 @@
-			Captain's log, stardate 45429.3.
-			While on a mapping survey of
-			sector two-two-one-three-nine, we
-			are conveying a delegation of
-			Ullians to Kaldra Four. These
-			telepathic historians conduct their
-			research by retrieving long-forgotten
-			memories.
-			It's a chipped cup, off-white...
-			with a crack in it... I can see
-			it... but I can't remember
-			anything else about it...
-			When you see it... do you hear
-			any sounds?
-			No... I don't think so... wait,
-			yes...
-			Humming...
-			Someone's humming...
-			A woman.
-			Yes... but I don't know who it
-			is...
-			Try to touch the cup.
-			It has a sharp edge where it's
-			chipped.
-			Is there anything inside the cup?
-			A liquid... dark...
-			Like tea...
-			It's not hot...
-			Bitter...
-			There's something else in the
-			cup...
-			Yes... with a wooden handle...
-			A spoon...
-			No... It's more delicate than
-			that.
-			Reach for it.
-			It's a brush! An ink brush.
-			I hear that humming again.
-			Keep listening to it, and hold
-			out the brush. See if someone
-			takes it from you.
-			It's Obachan! My grandmother.
-			She's doing brush writing. I
-			remember it now!
-			She used that cup for cleaning
-			the brush, and it was my job to
-			fill it with water and bring it
-			to the table.
-			I'd sit beside her and watch the
-			most beautiful characters come
-			from that brush. And the whole
-			time, she'd be humming to herself.
-			It's like it was yesterday.
-			You remember such vivid details...
-			it's remarkable.
-			For years I've seen that old cup
-			in my memory... but I could never
-			recall what it was or why it was
-			important.
-			Thank you.
-			You're very welcome, young lady.
-			Perhaps someone else would care
-			to try?
-			You, madam... you're thinking of
-			that first childhood kiss.
-			Wouldn't you like to remember
-			more about it?
-			Father, you know you're not
-			supposed to probe someone's
-			memories unless they've given you
-			permission.
-			You're right... but sometimes with
-			a beautiful woman -- I can't help
-			myself.
-			What about you, Commander? Any
-			memories you feel like digging
-			up?
-			None that I'd want to share with
-			an audience.
-			I'd better be going... it's
-			getting late.
-			Captain's log, supplemental.
-			Reports of the Ullians' remarkable
-			feats have piqued my interest.
-			I have invited the senior staff
-			to a Captain's Dinner in honor
-			of our guests.
-			It is perplexing to me that the
-			Ullians' ability to retrieve
-			memory is so sought after. If
-			an event is important enough to
-			be recovered... why would it have
-			been forgotten?
-			It's not quite the same for us
-			as it is for you, Data. You
-			record every second of every event
-			in your life...
-			That is correct.
-			And if you want to recall any one
-			of those seconds, you just access
-			the proper memory circuit.
-			My understanding of the Human
-			brain suggests that the process
-			is the same for you.
-			Each memory is encoded in chains
-			of molecules, and when you want
-			to retrieve it, you simply access
-			the proper RNA sequence.
-			Well, yeah, that's true...
-			Then in what way is it different?
-			Sometimes... There are memories
-			we just can't tap into. For
-			instance... I have no recollection
-			of what I did on my last birthday.
-			Birthdays are important
-			occasions... you'd think I'd
-			remember how I spent the day.
-			But I can't even remember where
-			I was.
-			Deck two. On the other hand --
-			I remember everything about the
-			time I got my first pet... a
-			Circassian cat. I was eight. I
-			remember how funny he looked...
-			how excited I was... it's as if
-			it happened last week.
-			Perhaps you remember the pleasant
-			memories and forget the unpleasant
-			ones?
-			Well, not really. Sometimes the
-			bad memories are the most intense
-			of all.
-			It would seem there is no
-			predictable pattern to Human
-			memory.
-			It would seem.
-			This "library" of ours has been
-			in the planning stages for years
-			-- a collection of the retrieved
-			memories of races from many
-			different star systems --
-			What my son means to say is --
-			we think of ourselves as
-			"archaeologists of the mind." We
-			believe that the history of a
-			world is contained in the personal
-			experiences of its people.
-			Rather like the ancient oral
-			historians of Earth.
-			Exactly. The library we propose
-			will be a vast storehouse of these
-			individual memories.
-			Sounds like quite a project...
-			how long will it take to finish
-			your studies on Kaldra?
-			Many months. We have been working
-			for years, and have surveyed only
-			eleven planets in eight star
-			systems.
-			But it's our way of life. We
-			wouldn't want to do anything else.
-			Captain, Mister Tarmin gave us
-			a demonstration of his abilities
-			this afternoon. It's fascinating.
-			Perhaps you'd like to resurrect
-			some memories...
-			I'd be happy to probe your
-			recollections, Captain. Most
-			people find it an enjoyable
-			experience.
-			I'm sure. However, I don't think
-			I'm a particularly good candidate
-			--
-			I'm sure you'd be ideal. And you
-			must have some intriguing
-			memories...
-			We won't be on your ship for long.
-			This might be your last
-			opportunity...
-			Yes, well...
-			Tarmin, you mustn't influence
-			people. They must come to you
-			willingly.
-			I have found... over the years...
-			that there are many who want the
-			experience of memory retrieval...
-			but who need some encouragement
-			in order to come forward.
-			You, Mister Worf? I would love
-			to explore Klingon memories.
-			Klingons do not allow themselves
-			to be "probed."
-			There is nothing to fear...
-			Father...
-			I am not fearful.
-			Commander LaForge... you?
-			I don't think so. Thanks anyway.
-			I have rarely encountered such
-			squeamish people! Doctor
-			Crusher... Commander Riker... ?
-			Mister Tarmin, are all Ullians
-			able to read memories?
-			No, my dear. The technique
-			requires special training. It
-			is a serious commitment.
-			It takes years of study. Tarmin
-			is the most proficient of our
-			group.
-			Once Jev spent two days with a
-			contingent of elderly Gentons.
-			He couldn't get a thing from them.
-			I worked with them for one hour
-			and recovered a missing fragment
-			of the Gentonian trade wars.
-			Excuse me.
-			Exactly how long will it be before
-			we reach Kaldra, Captain?
-			Mister Data?
-			Four days, eleven hours, sir.
-			Jev...
-			I'm sorry. I'm being rude.
-			No, not at all...
-			My father finds it amusing to
-			demean me in public. I reach the
-			point where I don't want to hear
-			any more.
-			It's not easy having an
-			overbearing parent. Believe me,
-			I know how you feel.
-			Oh, yes... I was told you were
-			an empath.
-			I can't read Ullians. But, I
-			do know a certain Betazoid mother
-			who is a great deal like your
-			father.
-			Deck eight. I've learned to
-			remind myself that my mother and
-			I are two separate individuals.
-			Deck sixteen. And have you had
-			much success with this approach,
-			Counselor?
-			No... but I keep reminding myself.
-			Good night.
-			Good night, Counselor. And thank
-			you.
-			Have you stopped thinking about
-			us?
-			Hot chocolate.
-			Have you stopped thinking about
-			us?
-			Will...
-			We have to talk about this...
-			Imzadi... we can't... not when
-			we're serving on the same ship...
-			Have you stopped thinking about
-			us? Just answer that...
-			I can't stop thinking about you...
-			No... don't...
-			Have you stopped thinking about
-			us?
-			Will... we mustn't do this...
-			No, Will --
-			Imzadi...
-			No, don't...
-			I can't stop thinking about
-			you...
-			Imzadi...
-			Don't do this... !
-			Have you stopped thinking about
-			us?
-			No... no... no...
-			Captain's log, stardate 45430.9.
-			Counselor Troi has fallen into
-			a deep coma. After a thorough
-			examination, Doctor Crusher has
-			been unable to find any sign of
-			illness or infection.
-			Any change, Doctor?
-			No. I'm still getting unusual
-			neurotransmitter readings in the
-			diencephalon... but they might
-			be a result of the coma...
-			Can you bring her out of it?
-			I've tried standard revival
-			techniques... she doesn't
-			respond. Until I know what caused
-			this, I don't want to try anything
-			more extreme.
-			Do we know what she was doing when
-			this happened?
-			No. She was found in her quarters
-			this morning when she didn't show
-			up for an appointment.
-			She was dressed for bed... but
-			the bed wasn't slept in.
-			Who was the last person to speak
-			with her?
-			She left the dinner last night
-			with one of the Ullians.
-			I'll talk to him.
-			I'll check the biofilter readings
-			from the Ullians' transporter logs.
-			It's possible they could still be
-			carrying some harmful organism.
-			Commander, ask if they would
-			consent to examinations -- just
-			to be certain.
-			May I join you?
-			Commander... of course...
-			Something's wrong...
-			Counselor Troi is ill.
-			I'm sorry to hear it...
-			More than ill... she's in a coma.
-			Doctor Crusher doesn't know what's
-			causing it or how to treat her.
-			When did it happen?
-			Apparently some time last night.
-			That's why I wanted to talk to
-			you... you may have been the last
-			person to see her. Did you go
-			with her into her quarters?
-			Are you suggesting I behaved
-			improperly, Commander?
-			Not at all... I'm just trying to
-			trace her steps.
-			We talked briefly -- in a
-			turbolift. She got off at deck
-			eight. I did not go with her.
-			Jev -- I'm not accusing you of
-			anything.
-			Did she mention feeling ill?
-			No. She seemed fine.
-			She has a wonderful sense of
-			humor.
-			If you have no objection, Doctor
-			Crusher would like to examine you
-			and your group...
-			To what end?
-			She'd like to eliminate the
-			possibility that one of you might
-			be carrying some organism that
-			was harmful to Deanna.
-			I'm not implying that you've done
-			anything intentional. I am just
-			trying to get to the bottom of
-			a mystery...
-			We have nothing to hide. If you
-			wish to spend time examining us...
-			Fine. Thank you.
-			Deanna... I don't know if you can
-			hear me.
-			I've heard doctors say that even
-			when someone's in a coma, they
-			may be able to hear when people
-			talk to them... that it might
-			even help stimulate the brain
-			and speed the healing...
-			In fact, I think you did that for
-			me once, when I was in pretty
-			bad shape...
-			So I just thought... maybe it
-			would help to hear a friendly
-			voice...
-			... even if you don't know you're
-			hearing it.
-			We've been busy mapping the
-			sector... it's pretty routine.
-			So far the most unusual thing
-			we've seen is a binary star
-			system... I finished that
-			personnel review we were working
-			on... you can check it over when
-			you...
-			... wake up.
-			I miss you. So don't stay away
-			too long, okay?
-			Will... ?
-			Will... I promise I'll let you
-			know the minute she regains
-			consciousness.
-			I know...
-			There's nothing you can do here.
-			You're going to wear yourself
-			out...
-			Right...
-			It's late... go to bed.
-			That's an order.
-			Keller is still in there!
-			Out, out, out! Let's go!
-			Antimatter injection breach.
-			Evacuate immediately.
-			Ensign Keller, can you hear me?
-			Yes, sir...
-			Come on, move it!
-			Commander, I need to bring that
-			door down!
-			Keller, can you get to a Jeffries
-			Tube?
-			Ensign Keller, answer me.
-			You killed her.
-			Keller is still in there!
-			Commander, radiation levels are
-			critical -- we've gotta seal it
-			off.
-			She was right behind me!
-			Bring down the door!
-			Out, out out! Let's go!
-			Keller is still in there.
-			Keller is still in there.
-			Riker to transporter room three.
-			Prepare to beam Ensign Keller out
-			of the engine room.
-			I can't lock onto her signal,
-			Commander.
-			Keller is still in there.
-			Keller is still in there.
-			You killed her.
-			Ensign Keller, answer me.
-			You killed her.
-			I've gotta get the isolation door
-			down!
-			Keller is still in there.
-			Bring down the door!
-			You killed her.
-			You killed her.
-			You killed her.
-			I need that door down!
-			Keller is still in there.
-			You killed her.
-			Bridge to Commander Riker...
-			Commander, do you read me?
-			Picard to Commander Riker, answer
-			please.
-			Computer, locate Commander Riker.
-			Commander Riker is in his
-			quarters.
-			On my way, sir.
-			Medical log, stardate 45431.7.
-			Commander Riker is the second
-			officer who has fallen into an
-			unexplained coma. I have examined
-			the Ullians and ruled out the
-			possibility that they carry a
-			harmful organism.
-			I compared Deanna's brain scan
-			to one I took during her last
-			physical. There is a
-			difference... this time there's
-			a trace of electropathic activity.
-			And Commander Riker?
-			I found the same pattern. If I
-			didn't know better, I'd think they
-			had Iresine Syndrome. It's the
-			only medical condition that would
-			produce that pattern.
-			What is Iresine Syndrome?
-			A very rare neurological disorder
-			first diagnosed in the
-			twenty-third century. It's
-			characterized by an identical
-			electropathic residue.
-			Then why discount the possibility
-			that it's responsible for their
-			comas?
-			Iresine is always accompanied by
-			a severely decreased histamine
-			count. Both Will and Deanna show
-			normal levels.
-			I've asked Commander LaForge to
-			conduct a shipwide diagnostic
-			for any other agents which could
-			produce that electropathic
-			pattern.
-			Counselor Troi and Commander Riker
-			were in perfect health -- until
-			the Ullians got here.
-			It would be wise to quarantine
-			the aliens.
-			I believe it's premature to take
-			that kind of action. We have no
-			real evidence linking these comas
-			to the Ullians.
-			That's true. But there is
-			something curious...
-			The electropathic residue I
-			discovered is located in the
-			thalamus. That's the area of the
-			cerebral cortex which involves
-			memory function.
-			I've been accused of putting
-			people to sleep with one too many
-			stories, Captain... but this is
-			the first time it's been suggested
-			that I might be responsible for
-			someone's coma.
-			I mean no disrespect, sir. But
-			we are faced with an alarming
-			situation...
-			Why do you suspect us, Captain?
-			Suspect is perhaps too strong a
-			word. I am simply trying to
-			determine what has caused two of
-			my officers to fall into comas.
-			You've already examined us...
-			we aren't carrying anything
-			harmful...
-			But in further study of the
-			victims, I noticed some abnormal
-			patterns in the area of the brain
-			which involves memory.
-			In light of your particular
-			telepathic abilities, it does
-			raise the question...
-			Captain... it's not our wish to
-			obstruct you. What would you
-			like?
-			If I could do further examinations
-			tomorrow... perhaps monitor you
-			during a memory probe...
-			Scrutiny does not frighten us.
-			We will be happy to cooperate,
-			Doctor.
-			Thank you. I'll contact you
-			tomorrow morning.
-			You're the only person on board
-			who's undergone a memory probe
-			by the Ullians. I'd like to do
-			a neurological work-up... see
-			if I can detect any residual
-			effect.
-			I'm happy to help...
-			Doctor Martin will monitor your
-			vital signs while I do the scan.
-			Have you had any unusual symptoms
-			since the probe? Headaches?
-			Dizziness?
-			No, nothing like that. It was
-			a wonderful experience...
-			Electrical activity is normal...
-			CPK levels are normal... the
-			hippocampus is stable... and the
-			thalamus...
-			... the thalamus is normal.
-			There's no indication at all of
-			the electropathic residue.
-			Is that good?
-			You're fine, Keiko. But we're
-			no closer to solving this mystery.
-			Computer, locate the electropathic
-			pattern described in medical
-			database four-delta-one.
-			Electropathic pattern located.
-			Okay, we're gonna track down any
-			possible cause of that brain
-			pattern. First, what are the
-			medical conditions that might
-			account for it?
-			Iresine Syndrome is a cause of
-			the electropathic pattern.
-			Right. And Doctor Crusher's
-			already eliminated that. How many
-			nonmedical forces or substances
-			might cause the pattern?
-			There are twenty-two nonmedical
-			agents.
-			Okay. And how many of those are
-			present on the Enterprise?
-			None is present on the Enterprise.
-			Are the ship's sensors calibrated
-			to detect all those agents?
-			All agents are scanned by the
-			sensors.
-			Okay. Let's start with the
-			chemical substances. Name them.
-			Ferrazene, hylanatine, dardilion,
-			chrysimite, and manzene.
-			Ferrazene has a complex molecular
-			structure... it breaks down into
-			bilenium and tarrisite. Do the
-			sensors scan for those?
-			Ship's sensors scan for both
-			compounds.
-			And are they present on the
-			Enterprise?
-			Bilenium and tarrisite are not
-			present.
-			Do any of the substances break
-			down into by-products that are
-			not scanned for?
-			Dardilion contains the byproduct
-			nilizene. Sensors do not
-			routinely scan for that substance.
-			Well, this isn't a routine
-			situation. Scan for nilizene.
-			There is no nilizene on the
-			Enterprise.
-			Why did I know you were going to
-			say that?
-			Okay. Let's move on to
-			nonchemical agents.
-			Anything more I can do for you?
-			No, thanks. I was just doing some
-			reading on Iresine Syndrome. If
-			a new strain has developed, that
-			might explain the normal histamine
-			count.
-			Any luck?
-			Not so far.
-			Okay. I'll see you tomorrow.
-			You shouldn't remember him like
-			this.
-			You don't have to do this...
-			It's important to me. I have to
-			see him.
-			It's good of you to come with me.
-			It's the least I can do...
-			You shouldn't remember him like
-			this.
-			I have to face the fact that he's
-			gone.
-			I have to see him.
-			You shouldn't remember him like
-			this...
-			It's good of you to come with me.
-			It's the least I can do...
-			You don't have to do this...
-			It's important to me.
-			You shouldn't remember him like
-			this...
-			It's the least I can do...
-			I've spent two hours having a cozy
-			chat with the computer. I've
-			checked everything I can think
-			of -- any possible agent that
-			might cause that electropathic
-			pattern.
-			I would assume from the tone of
-			your voice that you were
-			unsuccessful.
-			Didn't find a thing.
-			And the Doctor's not gonna like
-			hearing that --
-			Emergency medical team to Doctor
-			Crusher's office immediately.
-			Doctor Crusher had me working on
-			a shipwide diagnostic. I'd gone
-			to give her the results when I
-			found her.
-			Did your scans provide any
-			insights into these comas?
-			None. I checked and
-			cross-checked... they were just
-			dead ends.
-			We seem to have eliminated all
-			known factors that could have
-			caused the comas -- except for
-			the Ullians.
-			Mister Data, I want you to
-			investigate those eleven planets
-			the Ullians have visited. See
-			if there have been any reports
-			of unexplained comas.
-			Yes, Captain.
-			In the meantime, we must consider
-			restricting them to their
-			quarters. As a precautionary
-			measure...
-			If one of them is behind this...
-			will keeping telepaths in their
-			quarters prevent it from happening
-			again?
-			What else can we do? Station a
-			guard? Set up a force field?
-			I don't know if those would be
-			any more effective...
-			Sickbay to Captain Picard.
-			Picard here...
-			Sir... Counselor Troi has regained
-			consciousness.
-			I'm on my way.
-			It's like waking up from a
-			nightmare... but not remembering
-			what it was about.
-			What's the last thing you do
-			remember?
-			My hair... I was brushing my hair.
-			And then... ?
-			I don't know... just... waking
-			up here...
-			Why do I feel so frightened? What
-			happened to me?
-			We were hoping you could tell us.
-			How long have I been here?
-			Three days.
-			Three days... ?
-			You were the first. The next day
-			Commander Riker fell into a
-			similar coma... and last night
-			-- Doctor Crusher.
-			What is going on here... ?
-			We aren't certain.
-			It may be... that there is some
-			unusual effect produced by the
-			Ullians' telepathic activity.
-			I'm going to talk to them. In
-			the meantime, you're to stay here
-			and recuperate. And if you
-			remember anything about what
-			happened to you... let me know
-			immediately.
-			What are you suggesting, Captain?
-			That you voluntarily confine
-			yourself to quarters. At least
-			until we unravel this mystery.
-			We're to be prisoners?
-			Father...
-			Please don't think of it that way.
-			We have done everything we can
-			think of to explain these comas.
-			We've performed physical
-			examinations and neurological
-			scans... we have conducted a
-			shipwide diagnostic, looking for
-			viruses and parasites and
-			infestations...
-			We have investigated every
-			possible cause we can imagine.
-			And we have found nothing --
-			nothing -- to explain the comas.
-			The only variable we cannot
-			eliminate... is your presence
-			on this ship.
-			In light of these efforts, I ask
-			you to understand my request.
-			And to honor it.
-			Captain... our history indicates
-			that we do not adversely affect
-			the people we contact.
-			I know that.
-			Then... are you implying an
-			intentional assault?
-			I am simply trying to consider
-			all possibilities.
-			Surely you would give us the
-			chance to prove that we are
-			innocent?
-			If that is possible, of course.
-			Then... I would propose doing a
-			memory probe of Counselor Troi.
-			You've said she doesn't remember
-			what happened to her before she
-			lapsed into unconsciousness. I
-			could retrieve that memory...
-			There's a possibility it could
-			explain the coma -- and prove us
-			innocent.
-			I'm sorry. But I cannot subject
-			the Counselor to a potentially
-			dangerous procedure.
-			And I will not be a party to any
-			of these proceedings.
-			Jev is making a reasonable
-			request, Captain. If we're to
-			be accused, surely we're entitled
-			to a defense.
-			Tarmin did a memory probe on
-			another of your crew... Has she
-			suffered any ill effects?
-			No...
-			And neither will Counselor Troi.
-			Please... have as many people
-			present as you like to guarantee
-			her safety... but give us this
-			chance to vindicate ourselves.
-			I will discuss the matter with
-			the Counselor.
-			Well, that's it for Melina Two.
-			No unexplained comas during the
-			time the Ullians were working
-			there. We're striking out
-			everywhere.
-			We have yet to receive
-			transmissions from the two planets
-			of the Nel system. Perhaps they
-			will show different results.
-			Maybe...
-			Or maybe... we're not checking
-			for the right thing.
-			Please clarify.
-			We didn't look into the comas
-			that were explained.
-			Why would we do that?
-			Remember what Doctor Crusher said
-			right after Counselor Troi became
-			unconscious? That it looked
-			exactly like Iresine syndrome
-			except for the histamine count?
-			Yes.
-			Maybe not every medical facility
-			is as careful as Doctor Crusher.
-			Maybe it's easier to give a quick
-			diagnosis to something than to
-			keep hunting for the real cause.
-			You are checking for instances
-			of Iresine Syndrome...
-			Right... and correlating them with
-			visits by the Ullians --
-			-- and there we are.
-			Two cases of Iresine Syndrome on
-			Hurada Three -- right at the time
-			Tarmin and his group was there.
-			Let's try the other planets. I
-			think we may have something.
-			Counselor, I want to reiterate...
-			if you have any doubts about this
-			procedure, you don't have to
-			go through with it.
-			I want to do it, Captain.
-			Something awful happened to me...
-			and I can't even remember what
-			it was.
-			Very well.
-			Counselor... what's the last thing
-			you remember that night?
-			Brushing my hair...
-			Would you get your hairbrush?
-			Tell me about brushing your
-			hair... do you do it every night?
-			Yes... when I'm ready for bed...
-			What is it?
-			Someone... touching my hair...
-			Someone's with you in the room?
-			No... I'm alone. No one's there.
-			I get some hot chocolate...
-			Something's happening...
-			I'm alone in my quarters... and
-			I'm remembering something from
-			a few years ago...
-			Go back... into that memory...
-			you said someone was touching
-			your hair... ?
-			Yes... and...
-			It's Will Riker... that's right...
-			I was thinking of him...
-			Remembering a time when you were
-			with him...
-			Yes... after a poker game...
-			It's a pleasant memory... stay
-			with it...
-			... but now he's hurting me...
-			no...
-			You're frightened...
-			I want him to stop...
-			It's not Will... somebody's taken
-			his place...
-			Someone else is there? Who is
-			it?
-			No... no... he shouldn't be
-			there... why is he there? No...
-			no... he's hurting me...
-			Can you see his face... ?
-			Yes...
-			Imzadi...
-			No... stop... you're hurting me...
-			Who is it? Who's doing this to
-			you?
-			It's Tarmin... it's your father!
-			Captain's log, stardate 45433.2.
-			We have set a course for Starbase
-			Four-forty, where the Ullians will
-			disembark and return to their home
-			planet.
-			Inad and I have contacted our home
-			planet. If you want to prosecute
-			my father, the authorities there
-			will support you.
-			I'm not sure we have any legal
-			basis for prosecution... memory
-			invasion simply isn't a crime
-			we've ever had to contend with.
-			According to what I've just
-			learned... it was a practice that
-			was abolished on our world
-			centuries ago.
-			What would motivate someone like
-			your father to commit such an act?
-			I don't know. A perverse source
-			of pleasure... a way to exercise
-			control over another... ?
-			Your father claims -- quite
-			strenuously -- that he is
-			innocent.
-			My father has never been one to
-			admit that he's wrong.
-			But it's hard to believe he would
-			be capable of this.
-			This must be very hard for you.
-			I am told... that the punishment
-			for this crime is quite severe.
-			We are monitoring his telepathic
-			activity. You have my assurance
-			that he won't assault anyone
-			else.
-			I am sorry for this, Captain.
-			Picard to Data.
-			Yes, Captain.
-			How's your search coming?
-			We have uncovered several cases,
-			sir, but we have not yet completed
-			our search.
-			We'll want to inform the medical
-			personnel on those planets that
-			we have discovered the true nature
-			of the comas. I'm sure they would
-			appreciate knowing what really
-			happened.
-			We will keep searching, sir.
-			We just got the transmission from
-			the Nel system. No mention of
-			Iresine Syndrome... but there are
-			two unexplained comas on one
-			planet... none on the other.
-			And were the Ullians present?
-			Checking their mission logs...
-			That's funny...
-			What is it?
-			On stardates 45321 and 45323, when
-			the comas occurred... Tarmin was
-			on his home planet.
-			He wasn't anywhere near the Nel
-			system.
-			Come in.
-			Hello, Jev.
-			We'll be reaching the starbase
-			soon. I wanted to say good-bye...
-			and to apologize again for my
-			father.
-			There's no need... you're not
-			responsible for what he did.
-			Before all this happened... I had
-			hoped we might become friends.
-			We still can...
-			After what he's put you through?
-			Maybe you can forget... I'm not
-			sure I can.
-			You are so lovely...
-			I have to go. Good-bye.
-			Jev... you're upset. Would you
-			like to talk?
-			No...
-			You'd feel better if you did...
-			Why do you have to be so nice...
-			So lovely...
-			What... what's happening... ?
-			It's happening again...
-			You are so beautiful... so
-			fragile...
-			It was you... it was always you...
-			Have you stopped thinking about
-			us?
-			No...
-			Imzadi...
-			Imzadi...
-			No -- no --
-			No -- I won't let you!
-			Let go of her!
-			Counselor, are you hurt?
-			No... why... why did you come
-			here? How did you know?
-			We discovered two instances of
-			unexplained comas on Nel Three
-			while the Ullians were there...
-			but Tarmin was not part of the
-			group. A closer examination
-			revealed that only one Ullian was
-			present at all incidents of coma
-			-- Jev.
-			Captain's log, stardate 45435.8.
-			Doctor Crusher and Commander Riker
-			regained consciousness while we
-			were en route to the Ullian home
-			world. The slow process of their
-			recovery has begun.
-			I have asked that the finest
-			physicians on my world meet with
-			you all upon our return... to help
-			you in your healing process.
-			They have been in contact with
-			us already. Thank you...
-			It has been three centuries since
-			anyone was treated for this...
-			this form of rape. But there are
-			medical records from that era...
-			It was a time of great violence
-			among my people... a time we
-			thought we had left far behind.
-			That this could happen now...
-			is unimaginable.
-			Earth was once a violent planet,
-			too. At times, the chaos seemed
-			to threaten the very fabric of
-			life.
-			Like you, we have evolved. We've
-			learned to find better ways to
-			handle our conflicts.
-			But no one would deny that a seed
-			of violence remains in every one
-			of us. The potential for it is
-			always there. We must learn to
-			recognize it... because that
-			violence is capable of consuming
-			each of us. Just as it consumed
-			your son.
+Captain's log, stardate 45429.3.
+While on a mapping survey of
+sector two-two-one-three-nine, we
+are conveying a delegation of
+Ullians to Kaldra Four. These
+telepathic historians conduct their
+research by retrieving long-forgotten
+memories.
+It's a chipped cup, off-white...
+with a crack in it... I can see
+it... but I can't remember
+anything else about it...
+When you see it... do you hear
+any sounds?
+No... I don't think so... wait,
+yes...
+Humming...
+Someone's humming...
+A woman.
+Yes... but I don't know who it
+is...
+Try to touch the cup.
+It has a sharp edge where it's
+chipped.
+Is there anything inside the cup?
+A liquid... dark...
+Like tea...
+It's not hot...
+Bitter...
+There's something else in the
+cup...
+Yes... with a wooden handle...
+A spoon...
+No... It's more delicate than
+that.
+Reach for it.
+It's a brush! An ink brush.
+I hear that humming again.
+Keep listening to it, and hold
+out the brush. See if someone
+takes it from you.
+It's Obachan! My grandmother.
+She's doing brush writing. I
+remember it now!
+She used that cup for cleaning
+the brush, and it was my job to
+fill it with water and bring it
+to the table.
+I'd sit beside her and watch the
+most beautiful characters come
+from that brush. And the whole
+time, she'd be humming to herself.
+It's like it was yesterday.
+You remember such vivid details...
+it's remarkable.
+For years I've seen that old cup
+in my memory... but I could never
+recall what it was or why it was
+important.
+Thank you.
+You're very welcome, young lady.
+Perhaps someone else would care
+to try?
+You, madam... you're thinking of
+that first childhood kiss.
+Wouldn't you like to remember
+more about it?
+Father, you know you're not
+supposed to probe someone's
+memories unless they've given you
+permission.
+You're right... but sometimes with
+a beautiful woman -- I can't help
+myself.
+What about you, Commander? Any
+memories you feel like digging
+up?
+None that I'd want to share with
+an audience.
+I'd better be going... it's
+getting late.
+Captain's log, supplemental.
+Reports of the Ullians' remarkable
+feats have piqued my interest.
+I have invited the senior staff
+to a Captain's Dinner in honor
+of our guests.
+It is perplexing to me that the
+Ullians' ability to retrieve
+memory is so sought after. If
+an event is important enough to
+be recovered... why would it have
+been forgotten?
+It's not quite the same for us
+as it is for you, Data. You
+record every second of every event
+in your life...
+That is correct.
+And if you want to recall any one
+of those seconds, you just access
+the proper memory circuit.
+My understanding of the Human
+brain suggests that the process
+is the same for you.
+Each memory is encoded in chains
+of molecules, and when you want
+to retrieve it, you simply access
+the proper RNA sequence.
+Well, yeah, that's true...
+Then in what way is it different?
+Sometimes... There are memories
+we just can't tap into. For
+instance... I have no recollection
+of what I did on my last birthday.
+Birthdays are important
+occasions... you'd think I'd
+remember how I spent the day.
+But I can't even remember where
+I was.
+Deck two. On the other hand --
+I remember everything about the
+time I got my first pet... a
+Circassian cat. I was eight. I
+remember how funny he looked...
+how excited I was... it's as if
+it happened last week.
+Perhaps you remember the pleasant
+memories and forget the unpleasant
+ones?
+Well, not really. Sometimes the
+bad memories are the most intense
+of all.
+It would seem there is no
+predictable pattern to Human
+memory.
+It would seem.
+This "library" of ours has been
+in the planning stages for years
+-- a collection of the retrieved
+memories of races from many
+different star systems --
+What my son means to say is --
+we think of ourselves as
+"archaeologists of the mind." We
+believe that the history of a
+world is contained in the personal
+experiences of its people.
+Rather like the ancient oral
+historians of Earth.
+Exactly. The library we propose
+will be a vast storehouse of these
+individual memories.
+Sounds like quite a project...
+how long will it take to finish
+your studies on Kaldra?
+Many months. We have been working
+for years, and have surveyed only
+eleven planets in eight star
+systems.
+But it's our way of life. We
+wouldn't want to do anything else.
+Captain, Mister Tarmin gave us
+a demonstration of his abilities
+this afternoon. It's fascinating.
+Perhaps you'd like to resurrect
+some memories...
+I'd be happy to probe your
+recollections, Captain. Most
+people find it an enjoyable
+experience.
+I'm sure. However, I don't think
+I'm a particularly good candidate
+--
+I'm sure you'd be ideal. And you
+must have some intriguing
+memories...
+We won't be on your ship for long.
+This might be your last
+opportunity...
+Yes, well...
+Tarmin, you mustn't influence
+people. They must come to you
+willingly.
+I have found... over the years...
+that there are many who want the
+experience of memory retrieval...
+but who need some encouragement
+in order to come forward.
+You, Mister Worf? I would love
+to explore Klingon memories.
+Klingons do not allow themselves
+to be "probed."
+There is nothing to fear...
+Father...
+I am not fearful.
+Commander LaForge... you?
+I don't think so. Thanks anyway.
+I have rarely encountered such
+squeamish people! Doctor
+Crusher... Commander Riker... ?
+Mister Tarmin, are all Ullians
+able to read memories?
+No, my dear. The technique
+requires special training. It
+is a serious commitment.
+It takes years of study. Tarmin
+is the most proficient of our
+group.
+Once Jev spent two days with a
+contingent of elderly Gentons.
+He couldn't get a thing from them.
+I worked with them for one hour
+and recovered a missing fragment
+of the Gentonian trade wars.
+Excuse me.
+Exactly how long will it be before
+we reach Kaldra, Captain?
+Mister Data?
+Four days, eleven hours, sir.
+Jev...
+I'm sorry. I'm being rude.
+No, not at all...
+My father finds it amusing to
+demean me in public. I reach the
+point where I don't want to hear
+any more.
+It's not easy having an
+overbearing parent. Believe me,
+I know how you feel.
+Oh, yes... I was told you were
+an empath.
+I can't read Ullians. But, I
+do know a certain Betazoid mother
+who is a great deal like your
+father.
+Deck eight. I've learned to
+remind myself that my mother and
+I are two separate individuals.
+Deck sixteen. And have you had
+much success with this approach,
+Counselor?
+No... but I keep reminding myself.
+Good night.
+Good night, Counselor. And thank
+you.
+Have you stopped thinking about
+us?
+Hot chocolate.
+Have you stopped thinking about
+us?
+Will...
+We have to talk about this...
+Imzadi... we can't... not when
+we're serving on the same ship...
+Have you stopped thinking about
+us? Just answer that...
+I can't stop thinking about you...
+No... don't...
+Have you stopped thinking about
+us?
+Will... we mustn't do this...
+No, Will --
+Imzadi...
+No, don't...
+I can't stop thinking about
+you...
+Imzadi...
+Don't do this... !
+Have you stopped thinking about
+us?
+No... no... no...
+Captain's log, stardate 45430.9.
+Counselor Troi has fallen into
+a deep coma. After a thorough
+examination, Doctor Crusher has
+been unable to find any sign of
+illness or infection.
+Any change, Doctor?
+No. I'm still getting unusual
+neurotransmitter readings in the
+diencephalon... but they might
+be a result of the coma...
+Can you bring her out of it?
+I've tried standard revival
+techniques... she doesn't
+respond. Until I know what caused
+this, I don't want to try anything
+more extreme.
+Do we know what she was doing when
+this happened?
+No. She was found in her quarters
+this morning when she didn't show
+up for an appointment.
+She was dressed for bed... but
+the bed wasn't slept in.
+Who was the last person to speak
+with her?
+She left the dinner last night
+with one of the Ullians.
+I'll talk to him.
+I'll check the biofilter readings
+from the Ullians' transporter logs.
+It's possible they could still be
+carrying some harmful organism.
+Commander, ask if they would
+consent to examinations -- just
+to be certain.
+May I join you?
+Commander... of course...
+Something's wrong...
+Counselor Troi is ill.
+I'm sorry to hear it...
+More than ill... she's in a coma.
+Doctor Crusher doesn't know what's
+causing it or how to treat her.
+When did it happen?
+Apparently some time last night.
+That's why I wanted to talk to
+you... you may have been the last
+person to see her. Did you go
+with her into her quarters?
+Are you suggesting I behaved
+improperly, Commander?
+Not at all... I'm just trying to
+trace her steps.
+We talked briefly -- in a
+turbolift. She got off at deck
+eight. I did not go with her.
+Jev -- I'm not accusing you of
+anything.
+Did she mention feeling ill?
+No. She seemed fine.
+She has a wonderful sense of
+humor.
+If you have no objection, Doctor
+Crusher would like to examine you
+and your group...
+To what end?
+She'd like to eliminate the
+possibility that one of you might
+be carrying some organism that
+was harmful to Deanna.
+I'm not implying that you've done
+anything intentional. I am just
+trying to get to the bottom of
+a mystery...
+We have nothing to hide. If you
+wish to spend time examining us...
+Fine. Thank you.
+Deanna... I don't know if you can
+hear me.
+I've heard doctors say that even
+when someone's in a coma, they
+may be able to hear when people
+talk to them... that it might
+even help stimulate the brain
+and speed the healing...
+In fact, I think you did that for
+me once, when I was in pretty
+bad shape...
+So I just thought... maybe it
+would help to hear a friendly
+voice...
+... even if you don't know you're
+hearing it.
+We've been busy mapping the
+sector... it's pretty routine.
+So far the most unusual thing
+we've seen is a binary star
+system... I finished that
+personnel review we were working
+on... you can check it over when
+you...
+... wake up.
+I miss you. So don't stay away
+too long, okay?
+Will... ?
+Will... I promise I'll let you
+know the minute she regains
+consciousness.
+I know...
+There's nothing you can do here.
+You're going to wear yourself
+out...
+Right...
+It's late... go to bed.
+That's an order.
+Keller is still in there!
+Out, out, out! Let's go!
+Antimatter injection breach.
+Evacuate immediately.
+Ensign Keller, can you hear me?
+Yes, sir...
+Come on, move it!
+Commander, I need to bring that
+door down!
+Keller, can you get to a Jeffries
+Tube?
+Ensign Keller, answer me.
+You killed her.
+Keller is still in there!
+Commander, radiation levels are
+critical -- we've gotta seal it
+off.
+She was right behind me!
+Bring down the door!
+Out, out out! Let's go!
+Keller is still in there.
+Keller is still in there.
+Riker to transporter room three.
+Prepare to beam Ensign Keller out
+of the engine room.
+I can't lock onto her signal,
+Commander.
+Keller is still in there.
+Keller is still in there.
+You killed her.
+Ensign Keller, answer me.
+You killed her.
+I've gotta get the isolation door
+down!
+Keller is still in there.
+Bring down the door!
+You killed her.
+You killed her.
+You killed her.
+I need that door down!
+Keller is still in there.
+You killed her.
+Bridge to Commander Riker...
+Commander, do you read me?
+Picard to Commander Riker, answer
+please.
+Computer, locate Commander Riker.
+Commander Riker is in his
+quarters.
+On my way, sir.
+Medical log, stardate 45431.7.
+Commander Riker is the second
+officer who has fallen into an
+unexplained coma. I have examined
+the Ullians and ruled out the
+possibility that they carry a
+harmful organism.
+I compared Deanna's brain scan
+to one I took during her last
+physical. There is a
+difference... this time there's
+a trace of electropathic activity.
+And Commander Riker?
+I found the same pattern. If I
+didn't know better, I'd think they
+had Iresine Syndrome. It's the
+only medical condition that would
+produce that pattern.
+What is Iresine Syndrome?
+A very rare neurological disorder
+first diagnosed in the
+twenty-third century. It's
+characterized by an identical
+electropathic residue.
+Then why discount the possibility
+that it's responsible for their
+comas?
+Iresine is always accompanied by
+a severely decreased histamine
+count. Both Will and Deanna show
+normal levels.
+I've asked Commander LaForge to
+conduct a shipwide diagnostic
+for any other agents which could
+produce that electropathic
+pattern.
+Counselor Troi and Commander Riker
+were in perfect health -- until
+the Ullians got here.
+It would be wise to quarantine
+the aliens.
+I believe it's premature to take
+that kind of action. We have no
+real evidence linking these comas
+to the Ullians.
+That's true. But there is
+something curious...
+The electropathic residue I
+discovered is located in the
+thalamus. That's the area of the
+cerebral cortex which involves
+memory function.
+I've been accused of putting
+people to sleep with one too many
+stories, Captain... but this is
+the first time it's been suggested
+that I might be responsible for
+someone's coma.
+I mean no disrespect, sir. But
+we are faced with an alarming
+situation...
+Why do you suspect us, Captain?
+Suspect is perhaps too strong a
+word. I am simply trying to
+determine what has caused two of
+my officers to fall into comas.
+You've already examined us...
+we aren't carrying anything
+harmful...
+But in further study of the
+victims, I noticed some abnormal
+patterns in the area of the brain
+which involves memory.
+In light of your particular
+telepathic abilities, it does
+raise the question...
+Captain... it's not our wish to
+obstruct you. What would you
+like?
+If I could do further examinations
+tomorrow... perhaps monitor you
+during a memory probe...
+Scrutiny does not frighten us.
+We will be happy to cooperate,
+Doctor.
+Thank you. I'll contact you
+tomorrow morning.
+You're the only person on board
+who's undergone a memory probe
+by the Ullians. I'd like to do
+a neurological work-up... see
+if I can detect any residual
+effect.
+I'm happy to help...
+Doctor Martin will monitor your
+vital signs while I do the scan.
+Have you had any unusual symptoms
+since the probe? Headaches?
+Dizziness?
+No, nothing like that. It was
+a wonderful experience...
+Electrical activity is normal...
+CPK levels are normal... the
+hippocampus is stable... and the
+thalamus...
+... the thalamus is normal.
+There's no indication at all of
+the electropathic residue.
+Is that good?
+You're fine, Keiko. But we're
+no closer to solving this mystery.
+Computer, locate the electropathic
+pattern described in medical
+database four-delta-one.
+Electropathic pattern located.
+Okay, we're gonna track down any
+possible cause of that brain
+pattern. First, what are the
+medical conditions that might
+account for it?
+Iresine Syndrome is a cause of
+the electropathic pattern.
+Right. And Doctor Crusher's
+already eliminated that. How many
+nonmedical forces or substances
+might cause the pattern?
+There are twenty-two nonmedical
+agents.
+Okay. And how many of those are
+present on the Enterprise?
+None is present on the Enterprise.
+Are the ship's sensors calibrated
+to detect all those agents?
+All agents are scanned by the
+sensors.
+Okay. Let's start with the
+chemical substances. Name them.
+Ferrazene, hylanatine, dardilion,
+chrysimite, and manzene.
+Ferrazene has a complex molecular
+structure... it breaks down into
+bilenium and tarrisite. Do the
+sensors scan for those?
+Ship's sensors scan for both
+compounds.
+And are they present on the
+Enterprise?
+Bilenium and tarrisite are not
+present.
+Do any of the substances break
+down into by-products that are
+not scanned for?
+Dardilion contains the byproduct
+nilizene. Sensors do not
+routinely scan for that substance.
+Well, this isn't a routine
+situation. Scan for nilizene.
+There is no nilizene on the
+Enterprise.
+Why did I know you were going to
+say that?
+Okay. Let's move on to
+nonchemical agents.
+Anything more I can do for you?
+No, thanks. I was just doing some
+reading on Iresine Syndrome. If
+a new strain has developed, that
+might explain the normal histamine
+count.
+Any luck?
+Not so far.
+Okay. I'll see you tomorrow.
+You shouldn't remember him like
+this.
+You don't have to do this...
+It's important to me. I have to
+see him.
+It's good of you to come with me.
+It's the least I can do...
+You shouldn't remember him like
+this.
+I have to face the fact that he's
+gone.
+I have to see him.
+You shouldn't remember him like
+this...
+It's good of you to come with me.
+It's the least I can do...
+You don't have to do this...
+It's important to me.
+You shouldn't remember him like
+this...
+It's the least I can do...
+I've spent two hours having a cozy
+chat with the computer. I've
+checked everything I can think
+of -- any possible agent that
+might cause that electropathic
+pattern.
+I would assume from the tone of
+your voice that you were
+unsuccessful.
+Didn't find a thing.
+And the Doctor's not gonna like
+hearing that --
+Emergency medical team to Doctor
+Crusher's office immediately.
+Doctor Crusher had me working on
+a shipwide diagnostic. I'd gone
+to give her the results when I
+found her.
+Did your scans provide any
+insights into these comas?
+None. I checked and
+cross-checked... they were just
+dead ends.
+We seem to have eliminated all
+known factors that could have
+caused the comas -- except for
+the Ullians.
+Mister Data, I want you to
+investigate those eleven planets
+the Ullians have visited. See
+if there have been any reports
+of unexplained comas.
+Yes, Captain.
+In the meantime, we must consider
+restricting them to their
+quarters. As a precautionary
+measure...
+If one of them is behind this...
+will keeping telepaths in their
+quarters prevent it from happening
+again?
+What else can we do? Station a
+guard? Set up a force field?
+I don't know if those would be
+any more effective...
+Sickbay to Captain Picard.
+Picard here...
+Sir... Counselor Troi has regained
+consciousness.
+I'm on my way.
+It's like waking up from a
+nightmare... but not remembering
+what it was about.
+What's the last thing you do
+remember?
+My hair... I was brushing my hair.
+And then... ?
+I don't know... just... waking
+up here...
+Why do I feel so frightened? What
+happened to me?
+We were hoping you could tell us.
+How long have I been here?
+Three days.
+Three days... ?
+You were the first. The next day
+Commander Riker fell into a
+similar coma... and last night
+-- Doctor Crusher.
+What is going on here... ?
+We aren't certain.
+It may be... that there is some
+unusual effect produced by the
+Ullians' telepathic activity.
+I'm going to talk to them. In
+the meantime, you're to stay here
+and recuperate. And if you
+remember anything about what
+happened to you... let me know
+immediately.
+What are you suggesting, Captain?
+That you voluntarily confine
+yourself to quarters. At least
+until we unravel this mystery.
+We're to be prisoners?
+Father...
+Please don't think of it that way.
+We have done everything we can
+think of to explain these comas.
+We've performed physical
+examinations and neurological
+scans... we have conducted a
+shipwide diagnostic, looking for
+viruses and parasites and
+infestations...
+We have investigated every
+possible cause we can imagine.
+And we have found nothing --
+nothing -- to explain the comas.
+The only variable we cannot
+eliminate... is your presence
+on this ship.
+In light of these efforts, I ask
+you to understand my request.
+And to honor it.
+Captain... our history indicates
+that we do not adversely affect
+the people we contact.
+I know that.
+Then... are you implying an
+intentional assault?
+I am simply trying to consider
+all possibilities.
+Surely you would give us the
+chance to prove that we are
+innocent?
+If that is possible, of course.
+Then... I would propose doing a
+memory probe of Counselor Troi.
+You've said she doesn't remember
+what happened to her before she
+lapsed into unconsciousness. I
+could retrieve that memory...
+There's a possibility it could
+explain the coma -- and prove us
+innocent.
+I'm sorry. But I cannot subject
+the Counselor to a potentially
+dangerous procedure.
+And I will not be a party to any
+of these proceedings.
+Jev is making a reasonable
+request, Captain. If we're to
+be accused, surely we're entitled
+to a defense.
+Tarmin did a memory probe on
+another of your crew... Has she
+suffered any ill effects?
+No...
+And neither will Counselor Troi.
+Please... have as many people
+present as you like to guarantee
+her safety... but give us this
+chance to vindicate ourselves.
+I will discuss the matter with
+the Counselor.
+Well, that's it for Melina Two.
+No unexplained comas during the
+time the Ullians were working
+there. We're striking out
+everywhere.
+We have yet to receive
+transmissions from the two planets
+of the Nel system. Perhaps they
+will show different results.
+Maybe...
+Or maybe... we're not checking
+for the right thing.
+Please clarify.
+We didn't look into the comas
+that were explained.
+Why would we do that?
+Remember what Doctor Crusher said
+right after Counselor Troi became
+unconscious? That it looked
+exactly like Iresine syndrome
+except for the histamine count?
+Yes.
+Maybe not every medical facility
+is as careful as Doctor Crusher.
+Maybe it's easier to give a quick
+diagnosis to something than to
+keep hunting for the real cause.
+You are checking for instances
+of Iresine Syndrome...
+Right... and correlating them with
+visits by the Ullians --
+-- and there we are.
+Two cases of Iresine Syndrome on
+Hurada Three -- right at the time
+Tarmin and his group was there.
+Let's try the other planets. I
+think we may have something.
+Counselor, I want to reiterate...
+if you have any doubts about this
+procedure, you don't have to
+go through with it.
+I want to do it, Captain.
+Something awful happened to me...
+and I can't even remember what
+it was.
+Very well.
+Counselor... what's the last thing
+you remember that night?
+Brushing my hair...
+Would you get your hairbrush?
+Tell me about brushing your
+hair... do you do it every night?
+Yes... when I'm ready for bed...
+What is it?
+Someone... touching my hair...
+Someone's with you in the room?
+No... I'm alone. No one's there.
+I get some hot chocolate...
+Something's happening...
+I'm alone in my quarters... and
+I'm remembering something from
+a few years ago...
+Go back... into that memory...
+you said someone was touching
+your hair... ?
+Yes... and...
+It's Will Riker... that's right...
+I was thinking of him...
+Remembering a time when you were
+with him...
+Yes... after a poker game...
+It's a pleasant memory... stay
+with it...
+... but now he's hurting me...
+no...
+You're frightened...
+I want him to stop...
+It's not Will... somebody's taken
+his place...
+Someone else is there? Who is
+it?
+No... no... he shouldn't be
+there... why is he there? No...
+no... he's hurting me...
+Can you see his face... ?
+Yes...
+Imzadi...
+No... stop... you're hurting me...
+Who is it? Who's doing this to
+you?
+It's Tarmin... it's your father!
+Captain's log, stardate 45433.2.
+We have set a course for Starbase
+Four-forty, where the Ullians will
+disembark and return to their home
+planet.
+Inad and I have contacted our home
+planet. If you want to prosecute
+my father, the authorities there
+will support you.
+I'm not sure we have any legal
+basis for prosecution... memory
+invasion simply isn't a crime
+we've ever had to contend with.
+According to what I've just
+learned... it was a practice that
+was abolished on our world
+centuries ago.
+What would motivate someone like
+your father to commit such an act?
+I don't know. A perverse source
+of pleasure... a way to exercise
+control over another... ?
+Your father claims -- quite
+strenuously -- that he is
+innocent.
+My father has never been one to
+admit that he's wrong.
+But it's hard to believe he would
+be capable of this.
+This must be very hard for you.
+I am told... that the punishment
+for this crime is quite severe.
+We are monitoring his telepathic
+activity. You have my assurance
+that he won't assault anyone
+else.
+I am sorry for this, Captain.
+Picard to Data.
+Yes, Captain.
+How's your search coming?
+We have uncovered several cases,
+sir, but we have not yet completed
+our search.
+We'll want to inform the medical
+personnel on those planets that
+we have discovered the true nature
+of the comas. I'm sure they would
+appreciate knowing what really
+happened.
+We will keep searching, sir.
+We just got the transmission from
+the Nel system. No mention of
+Iresine Syndrome... but there are
+two unexplained comas on one
+planet... none on the other.
+And were the Ullians present?
+Checking their mission logs...
+That's funny...
+What is it?
+On stardates 45321 and 45323, when
+the comas occurred... Tarmin was
+on his home planet.
+He wasn't anywhere near the Nel
+system.
+Come in.
+Hello, Jev.
+We'll be reaching the starbase
+soon. I wanted to say good-bye...
+and to apologize again for my
+father.
+There's no need... you're not
+responsible for what he did.
+Before all this happened... I had
+hoped we might become friends.
+We still can...
+After what he's put you through?
+Maybe you can forget... I'm not
+sure I can.
+You are so lovely...
+I have to go. Good-bye.
+Jev... you're upset. Would you
+like to talk?
+No...
+You'd feel better if you did...
+Why do you have to be so nice...
+So lovely...
+What... what's happening... ?
+It's happening again...
+You are so beautiful... so
+fragile...
+It was you... it was always you...
+Have you stopped thinking about
+us?
+No...
+Imzadi...
+Imzadi...
+No -- no --
+No -- I won't let you!
+Let go of her!
+Counselor, are you hurt?
+No... why... why did you come
+here? How did you know?
+We discovered two instances of
+unexplained comas on Nel Three
+while the Ullians were there...
+but Tarmin was not part of the
+group. A closer examination
+revealed that only one Ullian was
+present at all incidents of coma
+-- Jev.
+Captain's log, stardate 45435.8.
+Doctor Crusher and Commander Riker
+regained consciousness while we
+were en route to the Ullian home
+world. The slow process of their
+recovery has begun.
+I have asked that the finest
+physicians on my world meet with
+you all upon our return... to help
+you in your healing process.
+They have been in contact with
+us already. Thank you...
+It has been three centuries since
+anyone was treated for this...
+this form of rape. But there are
+medical records from that era...
+It was a time of great violence
+among my people... a time we
+thought we had left far behind.
+That this could happen now...
+is unimaginable.
+Earth was once a violent planet,
+too. At times, the chaos seemed
+to threaten the very fabric of
+life.
+Like you, we have evolved. We've
+learned to find better ways to
+handle our conflicts.
+But no one would deny that a seed
+of violence remains in every one
+of us. The potential for it is
+always there. We must learn to
+recognize it... because that
+violence is capable of consuming
+each of us. Just as it consumed
+your son.
