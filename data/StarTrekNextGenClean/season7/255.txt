@@ -1,1048 +1,1048 @@
-			Geordi... Have you found it yet?
-			Not yet...
-			Starting to get fumes... Ammonia,
-			fluorine, potassium cyanide...
-			I can feel the heat from here.
-			There it is!
-			How far?
-			About ten meters. Along the ODN
-			line. It's hot -- over two
-			thousand degrees.
-			I'm going in.
-			Geordi, wait.
-			We're okay... I've activated the
-			emergency supression system.
-			It's under control.
-			All his vital functions are
-			completely normal.
-			The interface unit is operating
-			within expected parameters.
-			Why did he start coughing when he
-			went through the gasses?
-			Psychosomatic response.
-			I feel like I'm actually here...
-			I mean there -- in the Jefferies
-			tube. I saw the smoke and I
-			couldn't help coughing.
-			No one else has reported so
-			complete a sensory experience.
-			The interface is perfect for
-			Geordi because his VISOR inputs
-			allow the probe to transmit
-			information directly into his
-			cerebral cortex.
-			It looks like this is going to
-			work. Let's get the probe out of
-			the Jefferies tube and into the
-			launch bay before we reach Marijne
-			Seven.
-			Will do...
-			Something's wrong. I'm having
-			trouble controlling my left leg.
-			What is it?
-			The probe is designed to respond
-			to the movements Geordi intends to
-			make -- when his brain sends a
-			message to move his leg, the
-			interface moves the probe instead.
-			Apparently the gain on the tactile
-			sensors is too low; I will
-			increase the input.
-			There it goes.
-			I'm on my way down.
-			Why the body-suit?
-			It provides tactile sensations so
-			that Geordi will feel as if he is
-			in the same environment as the
-			probe.
-			What's wrong?
-			Nothing...
-			I just saw my reflection in a
-			panel.
-			I forgot what a handsome guy I am.
-			Captain's Log, Stardate 47215.5.
-			We are responding to a distress
-			call from the science vessel
-			Raman, which is apparently trapped
-			inside the turbulent atmosphere of
-			an unusual gas giant planet. We
-			will use an experimental interface
-			probe in our attempt to rescue it.
-			I have reviewed the vessel's
-			mission plans. The Raman was to
-			descend to the lower atmosphere,
-			eleven thousand kilometers below
-			its current position...
-			The crew was to sample the
-			atmosphere at that level, and then
-			return to a safer orbit.
-			Something must have happened down
-			there. Maybe the shields failed,
-			or they had an inversion reaction
-			in the nacelles.
-			Any life signs?
-			Our bio-sensors are useless --
-			there's too much interference in
-			the atmosphere.
-			The crew might still be alive.
-			But we'll never be able to tell
-			from up here.
-			Will the probe be able to transmit
-			through the interference?
-			The probe sends information via a
-			focused particle beam that should
-			be able to cut through the
-			interference.
-			But we may have to operate the
-			interface at near tolerance
-			levels.
-			Will your nervous system be able
-			to handle that much sensory input?
-			We've tested the interface at up
-			to seventy percent of tolerance.
-			There shouldn't be a problem going
-			higher -- the safety override will
-			kick in at ninety-eight percent
-			tolerance and disengage the
-			interface.
-			Captain, I am receiving a
-			transmission from Starfleet
-			Command -- Admiral Holt.
-			In my Ready Room.
-			The seven people on that ship are
-			our first priority. Is the probe
-			ready for launch?
-			Yes, Sir.
-			Send it directly to the aft
-			section of the Raman, through the
-			secondary air lock. That'll put
-			it one bulkhead away from the
-			Bridge.
-			I'll interface with the probe as
-			soon as it's in place and take it
-			in the rest of the way.
-			Make it so.
-			Onscreen.
-			Hello, Marcus.
-			Jean-Luc.
-			How's life on DS-Three?
-			We're hosting this year's palio.
-			The Ferengi have already been
-			accused of trying to bribe the
-			Breen pilot into throwing the
-			race...
-			Nothing unusual about that.
-			Nothing at all...
-			I wish I could say I was just
-			calling to catch up on things.
-			Nine days ago, the Hera left here
-			on a routine courier mission. We
-			were in contact with them for five
-			of those days. Then the ship
-			disappeared without a trace.
-			The Hera?
-			I'm afraid so.
-			The Excelsior and the Noble have
-			spent the last seventy-two hours
-			retracing its course. Nothing.
-			I'm going to keep them at it for
-			seventy-two more.
-			But to be honest, I don't think
-			another week would make any
-			difference.
-			I'll tell Commander LaForge...
-			Mister Data, I need a word with
-			Commander LaForge.
-			Yes, Sir.
-			I will be on the Bridge.
-			I've just spoken to Starfleet.
-			The Hera is missing.
-			Missing... ?
-			What about my mother... ?
-			Captain LaForge has disappeared
-			along with the rest of her crew...
-			-- I saw your father last week and
-			your sister about ten days before
-			that. I decided I missed my
-			favorite son...
-			Your only son, Mom...
-			You're going to have to see the
-			Hera again. We've got a lot of
-			new faces on board. Including a
-			chief engineer who juices up the
-			nacelles every chance she gets.
-			I think she's the best technician
-			in the fleet.
-			Okay, second best.
-			Come in...
-			I didn't mean to interrupt.
-			Don't worry about it.
-			Maybe you should meet her. We're
-			going to be in the same sector
-			next week. Take a shuttle over
-			and I'll introduce you.
-			Mom's always trying to find me a
-			wife.
-			But if you're too busy, I'll see
-			you at your father's birthday
-			party. Remember, if you talk to
-			him -- it's a surprise.
-			This came in about three weeks
-			ago.
-			I never got back to her...
-			Geordi, the probe has entered the
-			planet's atmosphere. I'm ready to
-			move it inside the ship.
-			If you want to take a couple of
-			days off, I'll run the interface.
-			The interface is calibrated
-			specifically for my VISOR inputs.
-			You'd need at least ten hours to
-			convert it. Those crewmen down
-			there can't wait...
-			The interface doesn't have to be
-			fully compatible. I could use it
-			right now. I wouldn't have the
-			control you'd have, but it would
-			still work.
-			Forget it. I'm the best one for
-			the job, and there's no reason not
-			to go ahead as planned.
-			The Hera is reason enough.
-			The Hera is missing. That's all.
-			Until I hear something more, my
-			mother might just as well have
-			taken the crew on an unscheduled
-			holiday.
-			Let's go.
-			Sir, the probe is through the
-			airlock and in position aboard the
-			Raman.
-			Picard to Commander Data. Report.
-			We are ready to bring the
-			interface on line.
-			Proceed.
-			Activating the remote sensors...
-			Initiating interface... now.
-			Vital signs normal... How do you
-			feel, Geordi?
-			Fine...
-			Do you have visual contact?
-			Not yet...
-			Increase the input signal, Data.
-			I'm not seeing anything...
-			Acknowledged.
-			I can see. But no colors.
-			Increasing signal strength of
-			seventy-five percent of tolerance.
-			That's better.
-			Your pulse has gone up...
-			It might take your nervous system
-			a little while to get used to this
-			input level.
-			I'm excited, that's all. This is
-			like being on a roller coaster.
-			Or a first date... Everything's
-			okay.
-			I'll be the judge of that, Geordi.
-			If your heart rate goes too high,
-			we'll disconnect you.
-			Understood. But don't pull the
-			plug yet...
-			It's a mess in here. There must
-			be a hull breach somewhere. I'm
-			picking up atmospheric gasses
-			inside the corridor -- methane and
-			ammonia primarily.
-			I'm heading toward the Bridge.
-			It's getting worse the closer I
-			get. The break in the hull might
-			be on the Bridge itself.
-			I found somebody!
-			What is your position?
-			About twelve meters up the main
-			corridor! A section of the
-			bulkhead collapsed on top of him.
-			I can't move it. I need more
-			power to the tractor beams.
-			Go to eighty percent of tolerance --
-			no higher.
-			He looks pretty bad.
-			He's dead.
-			Data, the door halfway down the
-			left corridor... what's it lead
-			to?
-			A magnetic storage bay.
-			If there was a breach on the
-			Bridge, that would be the safest
-			place to go.
-			Data, I need a phaser burst. Wide
-			focus, level four intensity.
-			I've found them!
-			They're dead... all of them.
-			There's a fire in here...
-			Data! Disconnect him!
-			What happened?
-			I don't know... My hands...
-			They're burned...
-			How did this happen?
-			There was some kind of energy
-			discharge in the interface suit.
-			Shouldn't the safety over-rides
-			have prevented that?
-			Yes... but I have a theory why
-			they didn't.
-			The tolerance levels on the
-			interface were set extremely high.
-			I think Geordi's neural response
-			to the input was so strong that it
-			created a feedback loop.
-			The sensors that were transmitting
-			the sensation of heat to my hands
-			must've overloaded.
-			I know it seems hard to believe,
-			but the probe was sending huge
-			amounts of sensory data directly
-			into Geordi's brain. The
-			tolerance levels on the interface
-			were set extremely high.
-			The Raman's crew is dead. I'd
-			like to retrieve their vessel, but
-			not if it means risking Geordi's
-			safety.
-			If we turn down the sensory input
-			from the probe, I should be fine.
-			Seven people lost their lives down
-			there... we should at least
-			retrieve the data they were
-			collecting. Otherwise their
-			deaths won't have any meaning.
-			Doctor?
-			If we operate the interface at
-			lower input levels, I'd say the
-			risk is acceptable.
-			Alright.
-			Picard to Riker.
-			Riker, here.
-			The Raman's crew is dead. I'd
-			like to retrieve their vessel, but
-			not if it means risking Geordi's
-			safety.
-			If we turn down the sensory input
-			from the probe, I should be fine.
-			Seven people lost their lives down
-			there... we should at least
-			retrieve the data they were
-			collecting.
-			Doctor?
-			If we operate the interface at
-			lower input levels, I'd say the
-			risk is acceptable.
-			Alright.
-			Picard to Riker.
-			Riker, here.
-			I've decided to proceed with the
-			probe.
-			We'll have to take it into the
-			Raman's auxiliary control room --
-			the Bridge is too badly damaged.
-			How long before you can get it
-			into position?
-			A few hours -- we're going to have
-			to cut through a bulkhead.
-			Acknowledged.
-			Looks like you'll have some time
-			to recuperate.
-			There's something I need to do
-			anyway.
-			How are you, Dad?
-			As well as expected, given the
-			circumstances. Are you okay?
-			Yeah...
-			I talked to your sister this
-			morning. She said she'd get in
-			touch with you in a few days.
-			Right now she's pretty upset.
-			The service for the Hera will
-			probably be on Vulcan -- most of
-			the crew was from there. But your
-			sister and I want to have a
-			private ceremony --
-			-- Dad. Don't you think
-			everybody's jumping the gun here?
-			Last I heard, two starships were
-			still out there looking. They've
-			found no debris, no residual warp
-			distortion --
-			-- And no ship.
-			Not yet. That doesn't mean they
-			won't.
-			Starfleet is considering the Hera
-			lost. The search isn't much more
-			than a formality at this point.
-			Geordi, your mother's gone...
-			You can think that if you want.
-			But until I see some hard
-			evidence, I'm not going to give up
-			hope.
-			All right, Geordi. Call me if you
-			need anything...
-			Come in.
-			Hey, Data. Still working?
-			No. I have completed the
-			adjustments on the interface. I
-			am now waiting for Commander Riker
-			to finish moving the probe.
-			Do you wish to be comforted?
-			No... I was just passing by.
-			Wondered what you were up to.
-			I am using the time to catch up on
-			my study of poetry.
-			Data, there's nothing on the
-			screen.
-			That is not entirely correct.
-			While it is true the display is
-			currently blank, this emptiness
-			has a poetic meaning. So it
-			cannot be considered "nothing" as
-			such.
-			Says who?
-			The ancient Doosodarians. Much of
-			their poetry contained such
-			"lacunae" or empty spaces. Often
-			these pauses measured several days
-			in length, during which poet and
-			audience were encouraged to fully
-			acknowledge the emptiness of the
-			experience.
-			I remember some lectures at
-			Starfleet academy that seemed like
-			that.
-			Are you certain you do not wish to
-			talk about your mother?
-			Why do you ask that?
-			You are no doubt feeling emotional
-			distress as a result of her
-			disappearance. Though you claimed
-			to be "just passing by," that is
-			most likely an excuse to start a
-			conversation about this
-			uncomfortable subject. Am I
-			correct?
-			Well, no. Sometimes "just passing
-			by" means "just passing by."
-			Then I apologize for my premature
-			assumption.
-			This particular poem has a lacuna
-			of forty-seven minutes. You may
-			experience the emptiness with me
-			if you wish.
-			Thanks...
-			Data, maybe you gave up too fast.
-			I do not understand.
-			When I said "just passing by"
-			means "just passing by" -- I
-			didn't really mean it.
-			My initial assumption was correct.
-			You do wish to speak of your
-			mother.
-			Am I crazy to think she's still
-			alive?
-			Your sanity is not in question.
-			However, your evaluation of the
-			available information is...
-			biased.
-			She's the captain of a starship!
-			She's gotten herself into and out
-			of impossible situations before.
-			Why should this be any different?
-			Disappearances fitting the profile
-			of the Hera have rarely ended with
-			the safe recovery of ship and
-			crew.
-			That makes me feel better.
-			I'm sorry, Data. I didn't mean to
-			snap at you.
-			I am not offended. You are upset
-			and your reactions are not
-			surprising.
-			I guess I am a little... on edge.
-			It's just that... If she really is
-			dead...
-			I don't know what I'm going to
-			do...
-			We're receiving the probe's
-			telemetry.
-			The input levels are currently at
-			fifty-three percent of tolerance.
-			That's too low, Data. I won't be
-			able to do anything down there.
-			I want to start with as wide a
-			margin of safety as possible. We
-			can adjust upward as needed.
-			Ready?
-			Go ahead.
-			Initiating interface...
-			I can't see anything.
-			I am increasing input now...
-			That's better... but I need
-			more...
-			Is this level sufficient?
-			Geordi?
-			Geordi, can you hear me?
-			Mom...
-			Mom, is it you?
-			Is it you... ?
-			I forgot! All you're seeing is a
-			probe. Yes, it's me. I'm on the
-			Enterprise. I'm interfaced with
-			this probe.
-			Geordi. Who are you talking to?
-			What are you seeing?
-			But is it really you?
-			Yes, Geordi. It's me.
-			How can it be... ? How is it
-			possible --
-			There's no time to explain. We
-			have to go down...
-			Down where?
-			The surface.
-			Geordi. Report.
-			Hang on, Doctor...
-			Why? Why do we have to go to the
-			surface?
-			We're dying.
-			"We?" Your ship? The Hera is
-			down there?
-			Geordi, we're disconnecting you
-			right now...
-			No. Wait...
-			We need your help. I need your
-			help... Geordi...
-			The cut-off has been automatically
-			activated.
-			He's in neural shock --
-			The sensory overload didn't cause
-			any permanent damage -- but I
-			wouldn't want to expose his
-			nervous system to that much
-			stimulus again.
-			Is there any indication of what
-			caused the hallucination?
-			His brain functions are normal --
-			I told you, I wasn't
-			hallucinating.
-			Geordi, I have analyzed the
-			probe's sensor logs -- there are
-			no readings that would indicate
-			the presence of a living human on
-			board the Raman.
-			She wasn't actually there. Her
-			ship is on the surface.
-			Then you believe you saw some kind
-			of... transmission?
-			Somehow she managed to contact me.
-			We have no indication of a
-			transmission of any kind.
-			Maybe I'm the only one who could
-			detect it -- because I was
-			interfaced with the probe.
-			The probe does allow Geordi to
-			sense quantum fluctuations,
-			subspace anomalies, and other
-			phenomena not perceptible to other
-			kinds of sensors.
-			Granted. But why would he
-			perceive his mother visually, as
-			if she were standing in the room?
-			I'm not sure... I do know that our
-			brains aren't designed to process
-			the kind of sensory information
-			Geordi was getting. When the
-			brain receives something it can't
-			understand, it interprets the
-			input as best it can -- sometimes
-			as a sound or smell, sometimes
-			visually.
-			You see?
-			Geordi, that doesn't mean you're
-			mother was really communicating
-			with you. I'm just trying to
-			explain why you might've thought
-			she was.
-			I'm telling you, my mother's ship
-			is trapped down there -- they need
-			our help.
-			The Hera's last reported location
-			was over three hundred light years
-			away. How could it have ended up
-			here?
-			If the Hera is on the surface, its
-			hull could not possibly withstand
-			the pressure of the atmosphere.
-			Just let me go back so we can be
-			sure.
-			I don't recommend he use the
-			interface again -- the sensory
-			overload nearly killed him.
-			I'll be all right.
-			I'm sorry, Geordi. But I won't
-			risk your life.
-			Mister Data, find another way to
-			salvage the Raman. I want to hear
-			an alternate plan in two hours.
-			Yes, Captain.
-			In the meantime, I'd like you to
-			talk with Counselor Troi. She's
-			expecting you.
-			Aye, Sir...
-			What's your mother like, Geordi?
-			Counselor, if you think I'm going
-			to start talking about my
-			childhood, you're way off.
-			That's not what I asked.
-			No, I guess not.
-			She was --
-			She is... brilliant, funny...
-			really perceptive. She knows
-			people. Knows what they're all
-			about even before they open their
-			mouths. She's always been like
-			that. A good judge of character.
-			When did you see her last?
-			Seven months ago, when she first
-			took command of the Hera. I went
-			to a party she had for her crew...
-			The Enterprise and the Hera were
-			in the same sector three weeks
-			ago. She wanted to see me. We
-			were both pretty busy though...
-			I guess I could have made the
-			time. But I didn't think... I
-			mean I just didn't think...
-			You didn't think it would be your
-			last chance to see her...
-			You don't know that! None of us
-			does!
-			I'm going to suggest something.
-			Call it a theory. Alright?
-			Alright...
-			You're very worried about the
-			disappearance of your mother...
-			and guilty over not seeing her
-			when you had the chance. So
-			you're unwilling even to consider
-			that she might be dead. This need
-			to believe she's alive is so
-			strong, it manifested itself as a
-			physical image.
-			But she told me she's trapped on
-			the planet! She's in danger! If
-			this was some kind of wish
-			fulfillment, don't you think I'd
-			fantasize her being safe and
-			sound?
-			No. Because that would end the
-			fantasy -- you'd know it wasn't
-			true. The more involved and
-			complicated and unending your
-			story is, the longer you can
-			believe your mother is still
-			alive.
-			That's your theory, Counselor.
-			I've got a different one.
-			I have been exploring the
-			possibility of using a tractor
-			beam to pull the Raman from the
-			atmosphere. However, there is so
-			much interference that it prevents
-			a positive lock.
-			If we could set up some sort of
-			relay system...
-			That is my conclusion as well,
-			Commander. Two shuttlecraft,
-			staggered between the Enterprise
-			and the Raman, with their shields
-			adjusted to refocus the tractor
-			beam.
-			Can we get those shuttles close
-			enough without putting them in
-			danger?
-			Mister LaForge.
-			I suppose so.
-			Yes. As long as you keep them
-			above the troposphere, they'll be
-			alright.
-			In that case --
-			What about the Hera?
-			We'll be leaving my mother and her
-			crew stranded on the planet. We
-			have to save them.
-			Commander --
-			-- I've been thinking about
-			this...
-			A few weeks ago I got a message
-			from my mother. She said she had
-			a new chief engineer who was
-			always experimenting with the warp
-			drive.
-			Well, I've seen the Hera -- it
-			uses trionic initiators in the
-			warp coil. They have a history of
-			strange side effects -- especially
-			if you start playing around with
-			them.
-			There have been reports of warp
-			bubbles and other subspace
-			deformations.
-			So what if that's what happened?
-			Not a warp bubble, but a subspace
-			funnel.
-			Connecting two points through
-			subspace.
-			The Hera could have accidentally
-			created a distortion that emptied
-			out right here, on Marijne Seven.
-			Why here?
-			The Hera passed near this planet
-			just ten days ago. There's a lot
-			of subspace distortion in the
-			atmosphere -- the ship might've
-			picked up some residual traces
-			that directed the funnel back
-			here.
-			And the Hera is still in one
-			piece, down on the surface?
-			Maybe it's surrounded by some kind
-			of subspace field that's keeping
-			it together. But who knows for
-			how long?
-			Do you have any evidence to
-			support this... hypothesis?
-			I did get some strange subspace
-			readings when I was interfaced
-			with the probe.
-			Geordi, that could be anything.
-			I talked to her. She asked me to
-			take the Raman closer to the
-			planet.
-			Is any of this possible?
-			Yes.
-			There.
-			However, I believe it is...
-			unlikely.
-			How unlikely?
-			Nearly impossible, Sir.
-			Proceed with the shuttle plan.
-			Captain --
-			-- Mister LaForge. Stay here for
-			a moment.
-			Geordi, I'm not unsympathetic
-			about what you're going through.
-			But I want you to consider my
-			position as well.
-			Yes, Sir.
-			Your mother's disappearance...
-			It's... a tragic thing...
-			But I can't risk your safety on
-			the basis of a dubious hypothesis.
-			If there's even one chance in a
-			million I'm right and she's
-			alive...
-			I'm sorry, Geordi. I've made my
-			decision.
-			I understand, Sir.
-			I suspected you would decide to
-			operate the interface alone.
-			You did?
-			I am familiar enough with your
-			behavior patterns to predict
-			certain... decisions.
-			I guess you know me pretty well...
-			You are disobeying the Captain.
-			I can't just sit back and do
-			nothing when my mother might be
-			down on that planet.
-			I can not allow you to endanger
-			your well being.
-			If we leave here without knowing
-			for sure...
-			I'll have to live with it for the
-			rest of my life... wondering... if
-			I left her to die... I couldn't
-			take that, Data... I couldn't...
-			That's why I have to do this.
-			I could have you confined to
-			quarters for the duration of the
-			mission.
-			If you want to do that to me,
-			Data, then go ahead. Because
-			nothing less is going to stop me
-			from trying to save my mother.
-			What are you doing?
-			I will monitor the interface and
-			attempt to keep you safe.
-			I can not have you confined to
-			quarters for something you have
-			not yet done.
-			Data, we could both end up in a
-			lot of trouble for this.
-			There is a high degree of
-			probability that you are right.
-			Thanks, Data.
-			However, I have a request.
-			What's that?
-			I would ask you to consider the
-			possibility that what you see is
-			not real.
-			I will. I promise.
-			I am establishing the interface...
-			Mom... ?
-			Hello, Geordi...
-			How did you get here?
-			I'm not really with you, Geordi.
-			I'm on my ship, on the surface.
-			We were pulled into a warp funnel.
-			That's just what I thought!
-			How are we communicating?
-			We found a way to send a subspace
-			signal that could cut through the
-			atmospheric interference.
-			Geordi, are you seeing the image
-			of your mother... ?
-			Yes, and she just confirmed
-			everything I've been saying.
-			I am reading some unusual subspace
-			energy in your vicinity -- similar
-			to what the probe sensors recorded
-			the first time you encountered
-			your mother.
-			That's how she's communicating
-			with me. It's the only kind of
-			signal they could send that would
-			get through the interference.
-			We need your help.
-			I've been thinking about this --
-			I'm going to take the Raman into
-			a low stationary orbit and
-			initiate an inverse warp cascade.
-			Why?
-			The subspace distortion from the
-			cascade should reverse the warp
-			funnel -- your ship will end up
-			right where it started.
-			Geordi, the atmosphere becomes
-			increasingly turbulent the farther
-			down you go -- you may not be able
-			to bring the Raman close enough to
-			the Hera before being destroyed.
-			I have to try, Data.
-			We're running out of time.
-			Shields back on line... we're
-			starting our descent...
-			Thank god...
-			Thank... god...
-			That you're alive -- that I was
-			right about all this.
-			I can't wait to call Dad. He and
-			Ariana had given up...
-			We're going home...
-			Eventually, yeah.
-			Data -- everything's fading in and
-			out.
-			I'm losing the interface.
-			The probe is descending out of
-			range.
-			You're going to have to turn up
-			the input gain to maintain my
-			connection.
-			It is already at seventy-five
-			percent of tolerance.
-			You can take it all the way up to
-			a hundred if you increase it
-			slowly enough -- give my nervous
-			system time to adapt.
-			That is theoretically true. But
-			even at this input level you have
-			already experienced dangerous
-			neural feedback.
-			Data, there are over three hundred
-			people on board the Hera. We're
-			the only chance they've got.
-			I will increase the gain
-			incrementally as you descend.
-			It's working.
-			When we are ready to disconnect
-			the interface, we must allow
-			sufficient time to lower the input
-			levels -- otherwise your nervous
-			system would go into shock from
-			the sudden drop in input.
-			Once I initiate the warp cascade
-			we can start dropping the gain.
-			We'll be in sensor range of your
-			ship within a few minutes.
-			I'm sorry I didn't get over to see
-			you a few weeks ago.
-			You were... too busy with work.
-			I'm sorry; it won't happen again.
-			Captain, the Raman is descending
-			toward the planet.
-			Geordi...
-			Geordi, we are now at ninety
-			percent of tolerance.
-			My calculations show that you will
-			reach one hundred percent of
-			tolerance before you are in range
-			of the Hera.
-			Then we're going to have to go
-			beyond tolerance.
-			That is not advisable. You must
-			cease your descent.
-			Geordi, don't stop... please.
-			Data, I'm taking this ship down.
-			If you don't boost the gain past
-			tolerance levels, I'll lose the
-			interface when we go out of range
-			and my nervous system will go into
-			shock.
-			You are putting me in a very
-			difficult position. Please cease
-			your descent.
-			I won't do it... so you'd better
-			increase the tolerance...
-			Disengaging safety systems...
-			going to full tolerance levels...
-			now.
-			Thanks, Data.
-			We're getting close...
-			Thank god...
-			LaForge.
-			Yes, Captain?
-			Stop your descent and prepare to
-			disengage the interface.
-			I'm sorry, sir. But I can't do
-			that.
-			Damn it, Geordi -- you're going to
-			kill yourself...
-			If I come back now, my mother and
-			her entire crew will die.
-			I'm scanning for your ship...
-			I'm not getting anything.
-			We're still too far away...
-			Not really. I should be picking
-			something up by now.
-			I'm not finding anything... No
-			warp funnel... No ship... There's
-			nothing there.
-			His neural synapses are
-			overloading.
-			He can't survive this...
-			Geordi -- what's happening to you?
-			Geordi!
-			Reverse tractors -- Reverse --
-			Reversing tractor beams...
-			What are you?
-			You are killing us... We must go
-			down.
-			Geordi... Report.
-			You're trapped... ?
-			Is there any way we can disconnect
-			him?
-			If we cut him off abruptly, he'll
-			go into neural shock.
-			How can we lower the input
-			gradually and still get him out
-			before it's too late?
-			Perhaps we can deceive his neural
-			receptors.
-			Deceive them?
-			By feeding them the sensory
-			information recorded from his
-			earlier experiences with the
-			probe.
-			We could disconnect the interface
-			and still maintain the input
-			levels.
-			We could then lower them in a
-			controlled manner.
-			Like a decompression tank.
-			Let's try it.
-			Captain. I have to take the ship
-			into the lower atmosphere...
-			Explain.
-			As I understand it... when the
-			Raman got close to the planet,
-			they accidentally picked up some
-			lifeforms that live in the lower
-			atmosphere. Subspace beings of
-			some kind -- intelligent. When
-			the ship went back into a higher
-			orbit, the beings were trapped.
-			How do you know all this?
-			One of them is able to communicate
-			with me. It must have read my
-			thoughts through the probe
-			interface and took the form of my
-			Mother -- to try to talk me into
-			taking the ship closer to the
-			surface.
-			Were these beings responsible for
-			the death of the Raman's crew?
-			Yes, but I don't think it was on
-			purpose. They probably tried to
-			communicate with them the same way
-			they're communicating with me --
-			by directly accessing their
-			thoughts. That must've been fatal
-			to the crew... I guess the
-			interface protected me.
-			I have to take them back -- they
-			can't survive so far up in the
-			atmosphere.
-			I'll turn the ship around and come
-			back as soon as we're --
-			LaForge! What happened?
-			The atmosphere is getting more
-			turbulent. It's overloading the
-			systems.
-			I'm having trouble keeping the
-			shields up.
-			Geordi...
-			We're safe now...
-			Good bye...
-			I'm losing power...
-			Total shield failure in eight
-			seconds...
-			Are you ready to switch inputs?
-			Almost.
-			Shields are failing...
-			Switching inputs!
-			Is it working?
-			His vital signs are stabilizing.
-			He's going to make it.
-			Captain's Log, supplemental. We
-			have succeeded in disengaging
-			Mister LaForge from the interface
-			and are en route to Starbase four-nine-five.
-			You disobeyed my direct order, and
-			you put yourself in grave danger.
-			I'm not happy.
-			It's my fault, sir. Data was just --
-			I'll deal with Data at another
-			time. Meanwhile, I'll have to
-			write this incident into your
-			permanent record.
-			Yes, sir.
-			Geordi...
-			I'm very sorry you didn't find
-			your mother.
-			Thank you, sir.
-			When I was down there... it was so
-			real. It's funny, but in a way...
-			I feel like I got a chance to say
-			goodbye...
-			You're trapped?
-			Caught on the ship...
-			You killed the Raman's crew?
-			What do you want?
+Geordi... Have you found it yet?
+Not yet...
+Starting to get fumes... Ammonia,
+fluorine, potassium cyanide...
+I can feel the heat from here.
+There it is!
+How far?
+About ten meters. Along the ODN
+line. It's hot -- over two
+thousand degrees.
+I'm going in.
+Geordi, wait.
+We're okay... I've activated the
+emergency supression system.
+It's under control.
+All his vital functions are
+completely normal.
+The interface unit is operating
+within expected parameters.
+Why did he start coughing when he
+went through the gasses?
+Psychosomatic response.
+I feel like I'm actually here...
+I mean there -- in the Jefferies
+tube. I saw the smoke and I
+couldn't help coughing.
+No one else has reported so
+complete a sensory experience.
+The interface is perfect for
+Geordi because his VISOR inputs
+allow the probe to transmit
+information directly into his
+cerebral cortex.
+It looks like this is going to
+work. Let's get the probe out of
+the Jefferies tube and into the
+launch bay before we reach Marijne
+Seven.
+Will do...
+Something's wrong. I'm having
+trouble controlling my left leg.
+What is it?
+The probe is designed to respond
+to the movements Geordi intends to
+make -- when his brain sends a
+message to move his leg, the
+interface moves the probe instead.
+Apparently the gain on the tactile
+sensors is too low; I will
+increase the input.
+There it goes.
+I'm on my way down.
+Why the body-suit?
+It provides tactile sensations so
+that Geordi will feel as if he is
+in the same environment as the
+probe.
+What's wrong?
+Nothing...
+I just saw my reflection in a
+panel.
+I forgot what a handsome guy I am.
+Captain's Log, Stardate 47215.5.
+We are responding to a distress
+call from the science vessel
+Raman, which is apparently trapped
+inside the turbulent atmosphere of
+an unusual gas giant planet. We
+will use an experimental interface
+probe in our attempt to rescue it.
+I have reviewed the vessel's
+mission plans. The Raman was to
+descend to the lower atmosphere,
+eleven thousand kilometers below
+its current position...
+The crew was to sample the
+atmosphere at that level, and then
+return to a safer orbit.
+Something must have happened down
+there. Maybe the shields failed,
+or they had an inversion reaction
+in the nacelles.
+Any life signs?
+Our bio-sensors are useless --
+there's too much interference in
+the atmosphere.
+The crew might still be alive.
+But we'll never be able to tell
+from up here.
+Will the probe be able to transmit
+through the interference?
+The probe sends information via a
+focused particle beam that should
+be able to cut through the
+interference.
+But we may have to operate the
+interface at near tolerance
+levels.
+Will your nervous system be able
+to handle that much sensory input?
+We've tested the interface at up
+to seventy percent of tolerance.
+There shouldn't be a problem going
+higher -- the safety override will
+kick in at ninety-eight percent
+tolerance and disengage the
+interface.
+Captain, I am receiving a
+transmission from Starfleet
+Command -- Admiral Holt.
+In my Ready Room.
+The seven people on that ship are
+our first priority. Is the probe
+ready for launch?
+Yes, Sir.
+Send it directly to the aft
+section of the Raman, through the
+secondary air lock. That'll put
+it one bulkhead away from the
+Bridge.
+I'll interface with the probe as
+soon as it's in place and take it
+in the rest of the way.
+Make it so.
+Onscreen.
+Hello, Marcus.
+Jean-Luc.
+How's life on DS-Three?
+We're hosting this year's palio.
+The Ferengi have already been
+accused of trying to bribe the
+Breen pilot into throwing the
+race...
+Nothing unusual about that.
+Nothing at all...
+I wish I could say I was just
+calling to catch up on things.
+Nine days ago, the Hera left here
+on a routine courier mission. We
+were in contact with them for five
+of those days. Then the ship
+disappeared without a trace.
+The Hera?
+I'm afraid so.
+The Excelsior and the Noble have
+spent the last seventy-two hours
+retracing its course. Nothing.
+I'm going to keep them at it for
+seventy-two more.
+But to be honest, I don't think
+another week would make any
+difference.
+I'll tell Commander LaForge...
+Mister Data, I need a word with
+Commander LaForge.
+Yes, Sir.
+I will be on the Bridge.
+I've just spoken to Starfleet.
+The Hera is missing.
+Missing... ?
+What about my mother... ?
+Captain LaForge has disappeared
+along with the rest of her crew...
+-- I saw your father last week and
+your sister about ten days before
+that. I decided I missed my
+favorite son...
+Your only son, Mom...
+You're going to have to see the
+Hera again. We've got a lot of
+new faces on board. Including a
+chief engineer who juices up the
+nacelles every chance she gets.
+I think she's the best technician
+in the fleet.
+Okay, second best.
+Come in...
+I didn't mean to interrupt.
+Don't worry about it.
+Maybe you should meet her. We're
+going to be in the same sector
+next week. Take a shuttle over
+and I'll introduce you.
+Mom's always trying to find me a
+wife.
+But if you're too busy, I'll see
+you at your father's birthday
+party. Remember, if you talk to
+him -- it's a surprise.
+This came in about three weeks
+ago.
+I never got back to her...
+Geordi, the probe has entered the
+planet's atmosphere. I'm ready to
+move it inside the ship.
+If you want to take a couple of
+days off, I'll run the interface.
+The interface is calibrated
+specifically for my VISOR inputs.
+You'd need at least ten hours to
+convert it. Those crewmen down
+there can't wait...
+The interface doesn't have to be
+fully compatible. I could use it
+right now. I wouldn't have the
+control you'd have, but it would
+still work.
+Forget it. I'm the best one for
+the job, and there's no reason not
+to go ahead as planned.
+The Hera is reason enough.
+The Hera is missing. That's all.
+Until I hear something more, my
+mother might just as well have
+taken the crew on an unscheduled
+holiday.
+Let's go.
+Sir, the probe is through the
+airlock and in position aboard the
+Raman.
+Picard to Commander Data. Report.
+We are ready to bring the
+interface on line.
+Proceed.
+Activating the remote sensors...
+Initiating interface... now.
+Vital signs normal... How do you
+feel, Geordi?
+Fine...
+Do you have visual contact?
+Not yet...
+Increase the input signal, Data.
+I'm not seeing anything...
+Acknowledged.
+I can see. But no colors.
+Increasing signal strength of
+seventy-five percent of tolerance.
+That's better.
+Your pulse has gone up...
+It might take your nervous system
+a little while to get used to this
+input level.
+I'm excited, that's all. This is
+like being on a roller coaster.
+Or a first date... Everything's
+okay.
+I'll be the judge of that, Geordi.
+If your heart rate goes too high,
+we'll disconnect you.
+Understood. But don't pull the
+plug yet...
+It's a mess in here. There must
+be a hull breach somewhere. I'm
+picking up atmospheric gasses
+inside the corridor -- methane and
+ammonia primarily.
+I'm heading toward the Bridge.
+It's getting worse the closer I
+get. The break in the hull might
+be on the Bridge itself.
+I found somebody!
+What is your position?
+About twelve meters up the main
+corridor! A section of the
+bulkhead collapsed on top of him.
+I can't move it. I need more
+power to the tractor beams.
+Go to eighty percent of tolerance --
+no higher.
+He looks pretty bad.
+He's dead.
+Data, the door halfway down the
+left corridor... what's it lead
+to?
+A magnetic storage bay.
+If there was a breach on the
+Bridge, that would be the safest
+place to go.
+Data, I need a phaser burst. Wide
+focus, level four intensity.
+I've found them!
+They're dead... all of them.
+There's a fire in here...
+Data! Disconnect him!
+What happened?
+I don't know... My hands...
+They're burned...
+How did this happen?
+There was some kind of energy
+discharge in the interface suit.
+Shouldn't the safety over-rides
+have prevented that?
+Yes... but I have a theory why
+they didn't.
+The tolerance levels on the
+interface were set extremely high.
+I think Geordi's neural response
+to the input was so strong that it
+created a feedback loop.
+The sensors that were transmitting
+the sensation of heat to my hands
+must've overloaded.
+I know it seems hard to believe,
+but the probe was sending huge
+amounts of sensory data directly
+into Geordi's brain. The
+tolerance levels on the interface
+were set extremely high.
+The Raman's crew is dead. I'd
+like to retrieve their vessel, but
+not if it means risking Geordi's
+safety.
+If we turn down the sensory input
+from the probe, I should be fine.
+Seven people lost their lives down
+there... we should at least
+retrieve the data they were
+collecting. Otherwise their
+deaths won't have any meaning.
+Doctor?
+If we operate the interface at
+lower input levels, I'd say the
+risk is acceptable.
+Alright.
+Picard to Riker.
+Riker, here.
+The Raman's crew is dead. I'd
+like to retrieve their vessel, but
+not if it means risking Geordi's
+safety.
+If we turn down the sensory input
+from the probe, I should be fine.
+Seven people lost their lives down
+there... we should at least
+retrieve the data they were
+collecting.
+Doctor?
+If we operate the interface at
+lower input levels, I'd say the
+risk is acceptable.
+Alright.
+Picard to Riker.
+Riker, here.
+I've decided to proceed with the
+probe.
+We'll have to take it into the
+Raman's auxiliary control room --
+the Bridge is too badly damaged.
+How long before you can get it
+into position?
+A few hours -- we're going to have
+to cut through a bulkhead.
+Acknowledged.
+Looks like you'll have some time
+to recuperate.
+There's something I need to do
+anyway.
+How are you, Dad?
+As well as expected, given the
+circumstances. Are you okay?
+Yeah...
+I talked to your sister this
+morning. She said she'd get in
+touch with you in a few days.
+Right now she's pretty upset.
+The service for the Hera will
+probably be on Vulcan -- most of
+the crew was from there. But your
+sister and I want to have a
+private ceremony --
+-- Dad. Don't you think
+everybody's jumping the gun here?
+Last I heard, two starships were
+still out there looking. They've
+found no debris, no residual warp
+distortion --
+-- And no ship.
+Not yet. That doesn't mean they
+won't.
+Starfleet is considering the Hera
+lost. The search isn't much more
+than a formality at this point.
+Geordi, your mother's gone...
+You can think that if you want.
+But until I see some hard
+evidence, I'm not going to give up
+hope.
+All right, Geordi. Call me if you
+need anything...
+Come in.
+Hey, Data. Still working?
+No. I have completed the
+adjustments on the interface. I
+am now waiting for Commander Riker
+to finish moving the probe.
+Do you wish to be comforted?
+No... I was just passing by.
+Wondered what you were up to.
+I am using the time to catch up on
+my study of poetry.
+Data, there's nothing on the
+screen.
+That is not entirely correct.
+While it is true the display is
+currently blank, this emptiness
+has a poetic meaning. So it
+cannot be considered "nothing" as
+such.
+Says who?
+The ancient Doosodarians. Much of
+their poetry contained such
+"lacunae" or empty spaces. Often
+these pauses measured several days
+in length, during which poet and
+audience were encouraged to fully
+acknowledge the emptiness of the
+experience.
+I remember some lectures at
+Starfleet academy that seemed like
+that.
+Are you certain you do not wish to
+talk about your mother?
+Why do you ask that?
+You are no doubt feeling emotional
+distress as a result of her
+disappearance. Though you claimed
+to be "just passing by," that is
+most likely an excuse to start a
+conversation about this
+uncomfortable subject. Am I
+correct?
+Well, no. Sometimes "just passing
+by" means "just passing by."
+Then I apologize for my premature
+assumption.
+This particular poem has a lacuna
+of forty-seven minutes. You may
+experience the emptiness with me
+if you wish.
+Thanks...
+Data, maybe you gave up too fast.
+I do not understand.
+When I said "just passing by"
+means "just passing by" -- I
+didn't really mean it.
+My initial assumption was correct.
+You do wish to speak of your
+mother.
+Am I crazy to think she's still
+alive?
+Your sanity is not in question.
+However, your evaluation of the
+available information is...
+biased.
+She's the captain of a starship!
+She's gotten herself into and out
+of impossible situations before.
+Why should this be any different?
+Disappearances fitting the profile
+of the Hera have rarely ended with
+the safe recovery of ship and
+crew.
+That makes me feel better.
+I'm sorry, Data. I didn't mean to
+snap at you.
+I am not offended. You are upset
+and your reactions are not
+surprising.
+I guess I am a little... on edge.
+It's just that... If she really is
+dead...
+I don't know what I'm going to
+do...
+We're receiving the probe's
+telemetry.
+The input levels are currently at
+fifty-three percent of tolerance.
+That's too low, Data. I won't be
+able to do anything down there.
+I want to start with as wide a
+margin of safety as possible. We
+can adjust upward as needed.
+Ready?
+Go ahead.
+Initiating interface...
+I can't see anything.
+I am increasing input now...
+That's better... but I need
+more...
+Is this level sufficient?
+Geordi?
+Geordi, can you hear me?
+Mom...
+Mom, is it you?
+Is it you... ?
+I forgot! All you're seeing is a
+probe. Yes, it's me. I'm on the
+Enterprise. I'm interfaced with
+this probe.
+Geordi. Who are you talking to?
+What are you seeing?
+But is it really you?
+Yes, Geordi. It's me.
+How can it be... ? How is it
+possible --
+There's no time to explain. We
+have to go down...
+Down where?
+The surface.
+Geordi. Report.
+Hang on, Doctor...
+Why? Why do we have to go to the
+surface?
+We're dying.
+"We?" Your ship? The Hera is
+down there?
+Geordi, we're disconnecting you
+right now...
+No. Wait...
+We need your help. I need your
+help... Geordi...
+The cut-off has been automatically
+activated.
+He's in neural shock --
+The sensory overload didn't cause
+any permanent damage -- but I
+wouldn't want to expose his
+nervous system to that much
+stimulus again.
+Is there any indication of what
+caused the hallucination?
+His brain functions are normal --
+I told you, I wasn't
+hallucinating.
+Geordi, I have analyzed the
+probe's sensor logs -- there are
+no readings that would indicate
+the presence of a living human on
+board the Raman.
+She wasn't actually there. Her
+ship is on the surface.
+Then you believe you saw some kind
+of... transmission?
+Somehow she managed to contact me.
+We have no indication of a
+transmission of any kind.
+Maybe I'm the only one who could
+detect it -- because I was
+interfaced with the probe.
+The probe does allow Geordi to
+sense quantum fluctuations,
+subspace anomalies, and other
+phenomena not perceptible to other
+kinds of sensors.
+Granted. But why would he
+perceive his mother visually, as
+if she were standing in the room?
+I'm not sure... I do know that our
+brains aren't designed to process
+the kind of sensory information
+Geordi was getting. When the
+brain receives something it can't
+understand, it interprets the
+input as best it can -- sometimes
+as a sound or smell, sometimes
+visually.
+You see?
+Geordi, that doesn't mean you're
+mother was really communicating
+with you. I'm just trying to
+explain why you might've thought
+she was.
+I'm telling you, my mother's ship
+is trapped down there -- they need
+our help.
+The Hera's last reported location
+was over three hundred light years
+away. How could it have ended up
+here?
+If the Hera is on the surface, its
+hull could not possibly withstand
+the pressure of the atmosphere.
+Just let me go back so we can be
+sure.
+I don't recommend he use the
+interface again -- the sensory
+overload nearly killed him.
+I'll be all right.
+I'm sorry, Geordi. But I won't
+risk your life.
+Mister Data, find another way to
+salvage the Raman. I want to hear
+an alternate plan in two hours.
+Yes, Captain.
+In the meantime, I'd like you to
+talk with Counselor Troi. She's
+expecting you.
+Aye, Sir...
+What's your mother like, Geordi?
+Counselor, if you think I'm going
+to start talking about my
+childhood, you're way off.
+That's not what I asked.
+No, I guess not.
+She was --
+She is... brilliant, funny...
+really perceptive. She knows
+people. Knows what they're all
+about even before they open their
+mouths. She's always been like
+that. A good judge of character.
+When did you see her last?
+Seven months ago, when she first
+took command of the Hera. I went
+to a party she had for her crew...
+The Enterprise and the Hera were
+in the same sector three weeks
+ago. She wanted to see me. We
+were both pretty busy though...
+I guess I could have made the
+time. But I didn't think... I
+mean I just didn't think...
+You didn't think it would be your
+last chance to see her...
+You don't know that! None of us
+does!
+I'm going to suggest something.
+Call it a theory. Alright?
+Alright...
+You're very worried about the
+disappearance of your mother...
+and guilty over not seeing her
+when you had the chance. So
+you're unwilling even to consider
+that she might be dead. This need
+to believe she's alive is so
+strong, it manifested itself as a
+physical image.
+But she told me she's trapped on
+the planet! She's in danger! If
+this was some kind of wish
+fulfillment, don't you think I'd
+fantasize her being safe and
+sound?
+No. Because that would end the
+fantasy -- you'd know it wasn't
+true. The more involved and
+complicated and unending your
+story is, the longer you can
+believe your mother is still
+alive.
+That's your theory, Counselor.
+I've got a different one.
+I have been exploring the
+possibility of using a tractor
+beam to pull the Raman from the
+atmosphere. However, there is so
+much interference that it prevents
+a positive lock.
+If we could set up some sort of
+relay system...
+That is my conclusion as well,
+Commander. Two shuttlecraft,
+staggered between the Enterprise
+and the Raman, with their shields
+adjusted to refocus the tractor
+beam.
+Can we get those shuttles close
+enough without putting them in
+danger?
+Mister LaForge.
+I suppose so.
+Yes. As long as you keep them
+above the troposphere, they'll be
+alright.
+In that case --
+What about the Hera?
+We'll be leaving my mother and her
+crew stranded on the planet. We
+have to save them.
+Commander --
+-- I've been thinking about
+this...
+A few weeks ago I got a message
+from my mother. She said she had
+a new chief engineer who was
+always experimenting with the warp
+drive.
+Well, I've seen the Hera -- it
+uses trionic initiators in the
+warp coil. They have a history of
+strange side effects -- especially
+if you start playing around with
+them.
+There have been reports of warp
+bubbles and other subspace
+deformations.
+So what if that's what happened?
+Not a warp bubble, but a subspace
+funnel.
+Connecting two points through
+subspace.
+The Hera could have accidentally
+created a distortion that emptied
+out right here, on Marijne Seven.
+Why here?
+The Hera passed near this planet
+just ten days ago. There's a lot
+of subspace distortion in the
+atmosphere -- the ship might've
+picked up some residual traces
+that directed the funnel back
+here.
+And the Hera is still in one
+piece, down on the surface?
+Maybe it's surrounded by some kind
+of subspace field that's keeping
+it together. But who knows for
+how long?
+Do you have any evidence to
+support this... hypothesis?
+I did get some strange subspace
+readings when I was interfaced
+with the probe.
+Geordi, that could be anything.
+I talked to her. She asked me to
+take the Raman closer to the
+planet.
+Is any of this possible?
+Yes.
+There.
+However, I believe it is...
+unlikely.
+How unlikely?
+Nearly impossible, Sir.
+Proceed with the shuttle plan.
+Captain --
+-- Mister LaForge. Stay here for
+a moment.
+Geordi, I'm not unsympathetic
+about what you're going through.
+But I want you to consider my
+position as well.
+Yes, Sir.
+Your mother's disappearance...
+It's... a tragic thing...
+But I can't risk your safety on
+the basis of a dubious hypothesis.
+If there's even one chance in a
+million I'm right and she's
+alive...
+I'm sorry, Geordi. I've made my
+decision.
+I understand, Sir.
+I suspected you would decide to
+operate the interface alone.
+You did?
+I am familiar enough with your
+behavior patterns to predict
+certain... decisions.
+I guess you know me pretty well...
+You are disobeying the Captain.
+I can't just sit back and do
+nothing when my mother might be
+down on that planet.
+I can not allow you to endanger
+your well being.
+If we leave here without knowing
+for sure...
+I'll have to live with it for the
+rest of my life... wondering... if
+I left her to die... I couldn't
+take that, Data... I couldn't...
+That's why I have to do this.
+I could have you confined to
+quarters for the duration of the
+mission.
+If you want to do that to me,
+Data, then go ahead. Because
+nothing less is going to stop me
+from trying to save my mother.
+What are you doing?
+I will monitor the interface and
+attempt to keep you safe.
+I can not have you confined to
+quarters for something you have
+not yet done.
+Data, we could both end up in a
+lot of trouble for this.
+There is a high degree of
+probability that you are right.
+Thanks, Data.
+However, I have a request.
+What's that?
+I would ask you to consider the
+possibility that what you see is
+not real.
+I will. I promise.
+I am establishing the interface...
+Mom... ?
+Hello, Geordi...
+How did you get here?
+I'm not really with you, Geordi.
+I'm on my ship, on the surface.
+We were pulled into a warp funnel.
+That's just what I thought!
+How are we communicating?
+We found a way to send a subspace
+signal that could cut through the
+atmospheric interference.
+Geordi, are you seeing the image
+of your mother... ?
+Yes, and she just confirmed
+everything I've been saying.
+I am reading some unusual subspace
+energy in your vicinity -- similar
+to what the probe sensors recorded
+the first time you encountered
+your mother.
+That's how she's communicating
+with me. It's the only kind of
+signal they could send that would
+get through the interference.
+We need your help.
+I've been thinking about this --
+I'm going to take the Raman into
+a low stationary orbit and
+initiate an inverse warp cascade.
+Why?
+The subspace distortion from the
+cascade should reverse the warp
+funnel -- your ship will end up
+right where it started.
+Geordi, the atmosphere becomes
+increasingly turbulent the farther
+down you go -- you may not be able
+to bring the Raman close enough to
+the Hera before being destroyed.
+I have to try, Data.
+We're running out of time.
+Shields back on line... we're
+starting our descent...
+Thank god...
+Thank... god...
+That you're alive -- that I was
+right about all this.
+I can't wait to call Dad. He and
+Ariana had given up...
+We're going home...
+Eventually, yeah.
+Data -- everything's fading in and
+out.
+I'm losing the interface.
+The probe is descending out of
+range.
+You're going to have to turn up
+the input gain to maintain my
+connection.
+It is already at seventy-five
+percent of tolerance.
+You can take it all the way up to
+a hundred if you increase it
+slowly enough -- give my nervous
+system time to adapt.
+That is theoretically true. But
+even at this input level you have
+already experienced dangerous
+neural feedback.
+Data, there are over three hundred
+people on board the Hera. We're
+the only chance they've got.
+I will increase the gain
+incrementally as you descend.
+It's working.
+When we are ready to disconnect
+the interface, we must allow
+sufficient time to lower the input
+levels -- otherwise your nervous
+system would go into shock from
+the sudden drop in input.
+Once I initiate the warp cascade
+we can start dropping the gain.
+We'll be in sensor range of your
+ship within a few minutes.
+I'm sorry I didn't get over to see
+you a few weeks ago.
+You were... too busy with work.
+I'm sorry; it won't happen again.
+Captain, the Raman is descending
+toward the planet.
+Geordi...
+Geordi, we are now at ninety
+percent of tolerance.
+My calculations show that you will
+reach one hundred percent of
+tolerance before you are in range
+of the Hera.
+Then we're going to have to go
+beyond tolerance.
+That is not advisable. You must
+cease your descent.
+Geordi, don't stop... please.
+Data, I'm taking this ship down.
+If you don't boost the gain past
+tolerance levels, I'll lose the
+interface when we go out of range
+and my nervous system will go into
+shock.
+You are putting me in a very
+difficult position. Please cease
+your descent.
+I won't do it... so you'd better
+increase the tolerance...
+Disengaging safety systems...
+going to full tolerance levels...
+now.
+Thanks, Data.
+We're getting close...
+Thank god...
+LaForge.
+Yes, Captain?
+Stop your descent and prepare to
+disengage the interface.
+I'm sorry, sir. But I can't do
+that.
+Damn it, Geordi -- you're going to
+kill yourself...
+If I come back now, my mother and
+her entire crew will die.
+I'm scanning for your ship...
+I'm not getting anything.
+We're still too far away...
+Not really. I should be picking
+something up by now.
+I'm not finding anything... No
+warp funnel... No ship... There's
+nothing there.
+His neural synapses are
+overloading.
+He can't survive this...
+Geordi -- what's happening to you?
+Geordi!
+Reverse tractors -- Reverse --
+Reversing tractor beams...
+What are you?
+You are killing us... We must go
+down.
+Geordi... Report.
+You're trapped... ?
+Is there any way we can disconnect
+him?
+If we cut him off abruptly, he'll
+go into neural shock.
+How can we lower the input
+gradually and still get him out
+before it's too late?
+Perhaps we can deceive his neural
+receptors.
+Deceive them?
+By feeding them the sensory
+information recorded from his
+earlier experiences with the
+probe.
+We could disconnect the interface
+and still maintain the input
+levels.
+We could then lower them in a
+controlled manner.
+Like a decompression tank.
+Let's try it.
+Captain. I have to take the ship
+into the lower atmosphere...
+Explain.
+As I understand it... when the
+Raman got close to the planet,
+they accidentally picked up some
+lifeforms that live in the lower
+atmosphere. Subspace beings of
+some kind -- intelligent. When
+the ship went back into a higher
+orbit, the beings were trapped.
+How do you know all this?
+One of them is able to communicate
+with me. It must have read my
+thoughts through the probe
+interface and took the form of my
+Mother -- to try to talk me into
+taking the ship closer to the
+surface.
+Were these beings responsible for
+the death of the Raman's crew?
+Yes, but I don't think it was on
+purpose. They probably tried to
+communicate with them the same way
+they're communicating with me --
+by directly accessing their
+thoughts. That must've been fatal
+to the crew... I guess the
+interface protected me.
+I have to take them back -- they
+can't survive so far up in the
+atmosphere.
+I'll turn the ship around and come
+back as soon as we're --
+LaForge! What happened?
+The atmosphere is getting more
+turbulent. It's overloading the
+systems.
+I'm having trouble keeping the
+shields up.
+Geordi...
+We're safe now...
+Good bye...
+I'm losing power...
+Total shield failure in eight
+seconds...
+Are you ready to switch inputs?
+Almost.
+Shields are failing...
+Switching inputs!
+Is it working?
+His vital signs are stabilizing.
+He's going to make it.
+Captain's Log, supplemental. We
+have succeeded in disengaging
+Mister LaForge from the interface
+and are en route to Starbase four-nine-five.
+You disobeyed my direct order, and
+you put yourself in grave danger.
+I'm not happy.
+It's my fault, sir. Data was just --
+I'll deal with Data at another
+time. Meanwhile, I'll have to
+write this incident into your
+permanent record.
+Yes, sir.
+Geordi...
+I'm very sorry you didn't find
+your mother.
+Thank you, sir.
+When I was down there... it was so
+real. It's funny, but in a way...
+I feel like I got a chance to say
+goodbye...
+You're trapped?
+Caught on the ship...
+You killed the Raman's crew?
+What do you want?
