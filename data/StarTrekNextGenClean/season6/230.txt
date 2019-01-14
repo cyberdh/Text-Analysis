@@ -1,1083 +1,1083 @@
-			I have identified the signal,
-			Captain. It is from the U.S.S.
-			Jenolan, a Federation transport
-			ship reported missing in this
-			sector seventy-five years ago.
-			Code one alpha zero. Ship in
-			distress.
-			Bring us out of warp, Ensign.
-			All stop.
-			Aye, sir.
-			Report.
-			We have entered a massive
-			gravitational field.
-			There are no stars or other
-			stellar bodies listed on our
-			navigational charts. However,
-			sensors indicate the presence of
-			an extremely strong gravitational
-			source in this vicinity.
-			Can you localize the source of
-			the gravity field?
-			Sensors?
-			I am having difficulty scanning
-			the object. However, it would
-			appear to be approximately two
-			hundred million kilometers in
-			diameter.
-			That's nearly the size of Earth's
-			orbit around the sun.
-			Why didn't we detect it before
-			now?
-			The object's enormous mass is
-			causing a great deal of
-			gravimetric interference. That
-			might have prevented our sensors
-			from detecting the object before
-			we dropped out of warp.
-			Mister Data, could this be a...
-			Dyson Sphere?
-			This object does fit the general
-			parameters of Dyson's theory.
-			A Dyson Sphere?
-			There is no comparative data,
-			Captain. However, this object
-			does fit the general parameters
-			of Dyson's theory.
-			A Dyson Sphere?
-			It's a very old theory, Number
-			One. I'm not surprised you
-			haven't heard of it. A twentieth
-			century physicist, Freeman Dyson,
-			postulated that an enormous hollow
-			sphere could be constructed around
-			a star. This would have the
-			advantage of harnessing all the
-			radiant energy of the star. A
-			population living on the interior
-			surface would therefore have a
-			virtually inexhaustible source
-			of power.
-			Are you saying there might be
-			people living in there?
-			Possibly a great number of people,
-			Commander. The interior surface
-			area of a sphere this size would
-			be equivalent to more than two
-			hundred fifty million class M
-			planets.
-			Sir. I have located the distress
-			signal. It is coming from a point
-			on the northern hemisphere.
-			Ensign Rager, take us into
-			synchronous orbit above that
-			position.
-			We are holding relative position
-			at thirty thousand kilometers
-			above the surface.
-			I have found the Jenolan,
-			Captain. It has impacted on the
-			surface of the sphere.
-			There are no life signs.
-			However, there are several small
-			power emanations... and life
-			support is still functioning at
-			minimal levels.
-			Bridge to Engineering. Geordi,
-			meet me in Transporter Room Three.
-			Mister Worf.
-			The air's pretty stale.
-			Life support is barely operating.
-			See if you can increase the oxygen
-			level.
-			Commander.
-			The Transporter is still
-			on-line... it's being fed power
-			from the auxiliary systems.
-			The rematerialization subroutine
-			has been disabled.
-			That's not all... the phase
-			inducers are connected to the
-			emitter array... the override
-			is completely gone... and the
-			pattern buffer's been locked into
-			a continuous diagnostic cycle.
-			This doesn't make any sense...
-			locking the unit in a diagnostic
-			mode just sends inert matter
-			through the pattern buffer. Why
-			would anyone want to --
-			There's a pattern still in the
-			buffer.
-			It's completely intact... less
-			than point zero zero three
-			percent signal degradation. How
-			is that possible?
-			I don't know... but I've never
-			seen a transporter system
-			jury-rigged like this.
-			Could someone... survive in a
-			Transporter buffer for
-			seventy-five years?
-			I know a way to find out.
-			Thank you, Lads.
-			We've got to get Franklin out of
-			there.
-			Someone else's pattern is still
-			in the buffer?
-			Aye. Matt Franklin. We went
-			in together.
-			Something's wrong... one of the
-			inducers has failed...
-			Boost the gain on the matter
-			stream.
-			Come on, Franklin... I know
-			you're still in there...
-			It's no use... his pattern's been
-			degraded by fifty-three percent...
-			he's gone.
-			I'm sorry.
-			So am I... he was a good lad...
-			I'm Commander William Riker from
-			the starship Enterprise.
-			The Enterprise... I shoulda known.
-			And I'll bet it was Jim Kirk
-			himself who hauled the old girl
-			out of mothballs to come looking
-			for me.
-			Captain Montgomery Scott. How
-			long have I been missing?
-			Well...
-			Sir.
-			I have restored life support.
-			The oxygen levels will return
-			to normal shortly.
-			Captain Scott... Lieutenant Worf.
-			Lieutenant?
-			Yes.
-			Captain Scott... perhaps there
-			are a few things we should talk
-			about.
-			We should probably get you to
-			Sickbay. Doctor Crusher will be
-			able to...
-			You've changed the resonator
-			array... only three phase
-			inverters...
-			Geordi, I think our guest is going
-			to have a lot of engineering
-			questions...
-			I'll take care of him, sir.
-			What have ye done to the duotronic
-			enhancers?
-			Those were replaced with isolinear
-			chips about forty years ago. It's
-			a lot more efficient now.
-			Uh... be careful there. That's
-			an EPS power tap.
-			Ah.
-			You were saying earlier that you
-			were on your way to the Norpin
-			Colony when you had a warp engine
-			failure...
-			That's right. We had an overload
-			in one of the plasma transfer
-			conduits. The Captain brought
-			us out of warp... we hit some
-			gravimetric interference and then
-			there it was, as big as life...
-			Is that a conduit interface?
-			Yeah. Uh, big as life... the
-			Dyson Sphere, right?
-			Aye. An actual Dyson Sphere.
-			Can you imagine the engineering
-			skills needed to even design such
-			a structure...
-			I know... it's pretty amazing.
-			What happened when you first
-			approached it?
-			We began a standard survey of the
-			surface. We were just completing
-			the initial orbital scan when our
-			aft power coils suddenly exploded.
-			The ship got caught in the
-			sphere's gravity well... and down
-			we went.
-			Franklin and I were the only ones
-			to survive the crash...
-			What made you think of using the
-			Transporter pattern buffer to stay
-			alive?
-			We didna have enough supplies to
-			wait for a rescue... so I had to
-			think of something.
-			But locking it into a diagnostic
-			cycle to keep the signal from
-			degrading... and cross connecting
-			the phase inducers to provide
-			a regenerative power source...
-			it's brilliant.
-			I'm afraid it was only fifty
-			percent brilliant... Ensign
-			Franklin deserved better.
-			I think you're going to like the
-			twenty-fourth century, Mister
-			Scott. We've made some pretty
-			incredible advances in the last
-			eighty years.
-			Aye... from what I can see you've
-			got a fine ship here, Mister La
-			Forge... a real beauty. In fact,
-			I must admit to being a little
-			overwhelmed.
-			Wait until you see the Holodeck.
-			You've had a hairline fracture
-			of the humerus.
-			It'll ache for a few days, but
-			it should be fine.
-			Thank you.
-			Well, I'll say this for your
-			Enterprise... the doctors are a
-			fair sight prettier.
-			I'm Captain Jean-Luc Picard.
-			Welcome aboard the Enterprise,
-			Captain Scott.
-			Thank you, sir -- and call me
-			Scotty.
-			How are you feeling?
-			I don't know. How am I feeling?
-			Other than a couple of bumps and
-			bruises, I'd say you feel fine
-			for a man of a hundred and
-			forty-seven.
-			I don't feel a day over a hundred
-			and twenty.
-			I must say I was more than a
-			little surprised when Commander
-			Riker informed me you were aboard
-			the Jenolan. Our records didn't
-			list you as one of their crew.
-			I wasn't actually a member of the
-			crew. I was just a... passenger.
-			I was heading for Norpin Five to
-			settle down and enjoy my...
-			retirement.
-			I see. Well, I would very much
-			enjoy the opportunity to discuss
-			your career at some point.
-			History is one of my hobbies and
-			I'm sure you have some fascinating
-			insights into the events of your
-			time.
-			I'd be happy to.
-			Good. I look forward to it.
-			Commander, we need to begin a full
-			spectrographic analysis of the
-			Dyson Sphere.
-			I'll get right on it, sir.
-			Again, welcome aboard, Captain.
-			I have to get back to Engineering
-			to start that analysis.
-			Engineering. I thought you'd
-			never ask.
-			Captain... The first thing
-			you're going to do is get some
-			rest. You've had quite a shock
-			to your system and I don't want
-			you to push yourself too hard.
-			We're pretty busy right now,
-			anyway, Captain Scott. But I'd
-			be happy to give you a tour of
-			Engineering a little later, when
-			the doctor says it's okay.
-			Aye.
-			I'll have someone show you to
-			your quarters.
-			... this is the food replicator...
-			and your computer terminal.
-			Good Lord, man... where have you
-			put me?
-			These are standard guest quarters,
-			sir. I can try to find something
-			bigger if you want.
-			Bigger? In my day, even an
-			Admiral wouldna had such quarters
-			on a starship. I remember a time
-			when we had to transport the
-			Dohlman of Elaas. You never heard
-			anyone whine and complain about
-			quarters like that...
-			The Holodecks, Ten Forward, and
-			the gymnasium are all at your
-			disposal. The computer can tell
-			you how to find them. Until we
-			issue you a combadge, just use
-			one of these panels if you need
-			anything.
-			You know... these quarters remind
-			me of a hotel room I once had on
-			Argelius... oh, now there was a
-			planet... everything a man could
-			want -- right at his fingertips.
-			'Course on my first visit, I ran
-			into a wee bit of trouble...
-			Uh, excuse me, sir... but I have
-			to return to duty.
-			Ah... well then. Thank you.
-			I want you to shut down the warp
-			engines and recalibrate the aft
-			sensors while I work on the
-			lateral array.
-			Aye, sir.
-			Can I help you, sir?
-			I don't think so Lass, but I'll
-			let you know if you can.
-			Sir, this area is restricted to
-			authorized --
-			I'll handle it, Bartel.
-			Captain Scott, this... really
-			isn't a good time --
-			We're in Engineering. Call me
-			Scotty.
-			Scotty... this really isn't a good
-			time for a tour. We're running
-			a phase seven survey of the Dyson
-			Sphere.
-			I'm not here for a tour, Lad.
-			I'm here to help.
-			That's... very kind. But I think
-			we can handle it...
-			Sensor readings indicate the
-			presence of a G-type star at the
-			center of the sphere. There also
-			appears to be a class-M atmosphere
-			clinging to the interior surface.
-			Is there any indication that the
-			sphere is inhabited?
-			Not as yet, sir. Our preliminary
-			data indicates it is still capable
-			of supporting life, but we have
-			been unable to find definite signs
-			of current habitation.
-			Send out a series of class four
-			probes to survey the far side of
-			the sphere. Perhaps we'll have
-			more luck with them.
-			Aye, sir.
-			Adjust the frequency
-			stabilization on the main
-			deflector dish. It's out of synch
-			with the aft sensors.
-			Laddie, ye need to phase-lock the
-			warp fields within three percent
-			or they'll become unstable.
-			What?
-			Here. The warp field is --
-			We use a multi-phase
-			auto-containment field now...
-			it's meant to operate above three
-			percent.
-			Ah. Well... that would make all
-			the difference.
-			We can re-start the engines in
-			ten minutes, Commander.
-			Thank you.
-			I remember a time when the old
-			Enterprise was spiralling in
-			toward Psi two thousand... the
-			Captain wanted to try a cold start
-			of the warp engines. I told him
-			that without a proper phase-lock
-			it would take at least thirty
-			minutes...
-			Huh? Oh, thanks.
-			"You canna change the laws of
-			physics" I said... but of course
-			he wouldn't listen so we had to
-			come up with a new engine start-up
-			routine...
-			Do you know that your dilithium
-			crystals are about to fracture?
-			We recomposite the crystals while
-			they're still inside the
-			articulation frame. I'd like
-			to explain everything, but the
-			Captain wants this
-			spectrographic-analysis done by
-			thirteen hundred hours.
-			Would you mind a little advice?
-			Starship captains are like
-			children. They want everything
-			right now and they want it their
-			way... the secret is to give them
-			what they need, not what they
-			want.
-			I told him I'd have that analysis
-			done in an hour.
-			And how long will it really take
-			you?
-			An hour.
-			Ye didna tell him how long it was
-			really going to take you?
-			Of course I did.
-			Oh... Laddie. You've got a lot
-			to learn if you want them to think
-			of you as a miracle worker.
-			You've got to --
-			Look, sir. I've tried to be
-			patient, I've tried to be polite.
-			But I've got a job to do here.
-			And you're... in the way.
-			I was driving starships while your
-			great grandfather was still in
-			diapers. I'd think you'd be
-			grateful for a little help.
-			Then I'll leave ye to work, Mister
-			LaForge.
-			... "in the way"... used to be
-			Engineers had a little respect
-			for each other... used to matter
-			if a man --
-			What do you want?
-			Is this a bad time?
-			Oh... uh, no.
-			Captain Montgomery Scott at your
-			service. What can I do for you?
-			Deanna Troi, ship's counselor...
-			and actually I'm here to see if
-			there's anything I can do for you.
-			Why... thank you, Lass. But I'm
-			set for now. The quarters are
-			more than adequate... the
-			replicator is a wonder...
-			I'm glad you're comfortable.
-			But I was actually more interested
-			in how you feel.
-			How I feel?
-			Yes. It would be perfectly normal
-			to feel disoriented, confused or
-			even frightened following the kind
-			of extraordinary experience you've
-			just had.
-			I suppose it's been... a little
-			bewildering, yes.
-			I'm sure you have a lot of
-			questions about what's happened
-			over the last seventy-five
-			years... if you'd like, I could
-			help you access some of our
-			historical records... maybe you
-			could discover what happened to
-			your family... or friends.
-			I'm... not ready for that just
-			yet. It's a hard thing to realize
-			that everyone ye once knew is
-			probably...
-			Pardon me for asking... but what
-			exactly is a... Ship's Counselor?
-			I'm here to take care of the
-			emotional well-being of our crew.
-			And of our guests.
-			And you're an officer?
-			Yes. They started assigning
-			Counselors to starships about
-			forty years ago when they realized
-			that the pressures of extended
-			space travel --
-			You're a psychologist.
-			Among other things.
-			LaForge sent you here, didn't
-			he? I may be old, but I'm not
-			crazy.
-			Geordi didn't send me and I know
-			you're not crazy.
-			You're damned right I'm not. And
-			I don't need a ship's counselor,
-			or a psychologist, or whatever
-			else you are.
-			I know what I need and it's not
-			here.
-			May I help you, sir?
-			Aye, Lad. Scotch. Neat.
-			Thank you.
-			What in blazes is this?
-			Didn't you order Scotch?
-			Lad, I was drinking scotch about
-			a hundred years before you were
-			born and I can tell you that
-			whatever this is, it is definitely
-			not scotch.
-			I believe I may be of some
-			assistance. Captain Scott is
-			unaware of the existence of
-			synthehol.
-			Synthehol?
-			Yes. It is an alcohol substitute
-			which is now normally served
-			aboard starships. It simulates
-			the appearance, smell, and taste
-			of alcohol, but the intoxicating
-			affects can be easily dismissed.
-			You're not quite... human are you?
-			No, sir. I am an android. My
-			name is Commander Data.
-			Synthetic scotch and synthetic
-			commanders...
-			I believe Guinan does keep a
-			limited supply of non-syntheholic
-			products. Perhaps one of them
-			would be to your liking.
-			What is it?
-			It is green.
-			Please enter program.
-			The android at the bar said you
-			could show me my old ship... so
-			lemme see it.
-			Insufficient data. Please
-			specify parameters.
-			The Enterprise. Show me the
-			Bridge of the Enterprise, you
-			chattering piece of...
-			There have been five Federation
-			ships with that name. Please
-			specify by registry number.
-			NCC-One-Seven-Oh-One. No bloody
-			A, B, C, or, D.
-			Program complete. Enter when
-			ready.
-			Here's to you, Lads...
-			I hope I'm not interrupting, but
-			I was just coming off duty and
-			wanted to see how you were doing.
-			Not at all, not at all. Have a
-			drink with me, Captain.
-			I'm not sure what it is, exactly,
-			but I'd be careful if I were you.
-			It has a real...
-			Aldeberan whiskey.
-			Who do you think gave it to
-			Guinan?
-			Constitution class...
-			Aye. You're familiar with it?
-			There's one at the fleet museum.
-			This is your Enterprise?
-			One of them... I actually served
-			on two. This was the first...
-			she was also the first ship I ever
-			served on as Chief Engineer.
-			You know, I served aboard eleven
-			ships in my career... freighters,
-			cruisers, starships,... but this
-			is the only one I ever think
-			about... the only one I miss.
-			The first ship I ever served
-			aboard as Captain was called the
-			Stargazer... it was an overworked,
-			underpowered vessel that was
-			always on the verge of flying
-			apart at the seams. In every
-			measurable way, my Enterprise is
-			a superior ship.
-			And yet... there are times I miss
-			that cramped little Bridge very
-			much.
-			It's like the first time you fall
-			in love... you don't ever love
-			a woman quite the way you did that
-			first one.
-			To the Enterprise and the
-			Stargazer... old girlfriends we'll
-			never see again.
-			What do you think of the
-			Enterprise-D?
-			She's a beauty... with a good
-			crew...
-			But... ?
-			When I was here, I could tell you
-			the speed we were traveling by
-			the feel of the deckplates. On
-			your ship... I'm in the way.
-			Seventy-five years is a long time.
-			If you'd like to study some of
-			the technical --
-			I'm not eighteen. I can't start
-			over again like a raw cadet.
-			There comes a time when a man
-			finds that he can't fall in love
-			again... when he knows that it's
-			time to stop.
-			I don't belong on your ship...
-			I belong on this one. This was
-			my home. This is where I had a
-			purpose. But this isn't real...
-			it's just a computer-generated
-			fantasy. And I'm just an old man
-			trying to hide in it.
-			Computer, shut this bloody thing
-			off. It's time I acted my age.
-			Come.
-			Mister LaForge, I understand that
-			the Jenolen conducted an extensive
-			survey of the Dyson sphere before
-			it crashed. Have we been able
-			to access those records?
-			We tried to download their memory
-			core, but it was pretty heavily
-			damaged in the crash. We haven't
-			been able to get much out of it.
-			Perhaps Captain Scott could be
-			of use in accessing that material.
-			It's possible. He would know
-			those systems better than any of
-			us. I'll have Lieutenant Bartel
-			beam down with him.
-			Commander. I'd like you to
-			accompany Mister Scott.
-			Me, sir?
-			This is not an order, Geordi, it
-			is a request... one which you are
-			free to decline.
-			One of the most important things
-			in a man's life is the need to
-			feel useful. Mister Scott is a
-			Starfleet officer... I would like
-			him to feel useful again.
-			I'll go with him, Captain.
-			Thank you.
-			Commander, I believe I have found
-			something on the sphere which
-			could be a communications device.
-			There is an antenna array
-			approximately four hundred
-			thousand kilometers south of our
-			present position. It is emitting
-			low-intensity subspace signals.
-			Can we open a channel?
-			Not from our present orbit,
-			Commander. The array is currently
-			directed away from us.
-			Prepare to take us to an orbit
-			above those coordinates.
-			Captain Picard to the Bridge,
-			please.
-			Are you feeling all right?
-			Never get drunk unless you're
-			willing to pay for it the next
-			day. I'll manage.
-			Okay.
-			Energize.
-			Sensors indicate that the large
-			circle is a portal or airlock,
-			possibly leading to the interior
-			of the sphere.
-			You said you found a
-			communications array?
-			Yes, sir. It is located on the
-			periphery of the hatch.
-			This looks like the front door...
-			should we ring the bell?
-			Mister Worf, open a channel to
-			that array.
-			Aye, sir.
-			Captain! I'm reading intense
-			graviton emissions on the surface
-			of --
-			Some type of tractor beam has
-			locked onto us.
-			Helm, get us out of here!
-			We've lost main power... auxiliary
-			power down to twenty percent.
-			We are being pulled inside.
-			Auxiliary power failing.
-			The resonance frequency of the
-			tractor beams is incompatible with
-			our power systems. Warp and
-			impulse engine relays have been
-			overloaded. I am attempting to
-			compensate.
-			The tractor beams have released
-			us, sir.
-			Hold position here until we can
-			get our bearings.
-			Full sensor sweep, Mister Data.
-			Where are we?
-			We are approximately ninety
-			million kilometers from the star's
-			photosphere.
-			I am reading a great deal of
-			surface instability. It may
-			be--
-			Sir. The inertial motion from
-			the tractor beams is still carrying
-			us forward. The impulse engines
-			are off-line and I can't stop
-			our momentum. We're falling
-			directly into the star.
-			The primary computer database
-			should be on-line now. Give it
-			a try.
-			Okay... I've got three access
-			lines to the central core...
-			still nothing.
-			Bunch of old useless, garbage...
-			What?
-			I said it's old, Mister LaForge.
-			It can't handle the interface of
-			your power converter.
-			This equipment was designed for
-			a different era... now it's just
-			a lot of junk.
-			I don't know... looks like some
-			of it has held together pretty
-			well.
-			It's a century out of date. It's
-			just...
-			Obsolete.
-			That's interesting... because I
-			was just thinking that a lot of
-			these systems haven't changed much
-			in seventy-five years.
-			This Transporter is almost
-			identical to the ones we use on
-			the Enterprise.
-			The subspace radio and sensors
-			operate on the same basic
-			principles, and impulse engine
-			design hasn't changed much in two
-			hundred years. If it weren't for
-			the structural damage, this ship
-			could still be in service today.
-			Maybe so... but when they can
-			build a ship like your Enterprise,
-			who'd want to pilot an old bucket
-			like this?
-			I don't know... if this ship were
-			operational I bet it would
-			run circles around the Enterprise
-			at impulse speeds.
-			Just because something's old
-			doesn't mean you throw it away.
-			We used to have something called
-			a dynamic mode converter... you
-			wouldna have something like that
-			on your Enterprise would ye?
-			I haven't seen one of those in
-			a long time... but I might have
-			something similar.
-			LaForge to Enterprise.
-			LaForge to Enterprise, come in
-			please.
-			Interference?
-			No...
-			They're gone.
-			We will enter the sun's
-			photosphere in three minutes.
-			Maneuvering thrusters?
-			I've got thirty percent power...
-			it won't be enough to stop us.
-			No. But it may be enough to turn
-			us into orbit and hold our
-			distance from the photosphere.
-			Port thrusters ahead full,
-			starboard back full.
-			Our flight path is changing...
-			right ten point seven degrees...
-			insufficient to clear the
-			photosphere.
-			Lieutenant Bartel, divert all
-			power from auxiliary relay systems
-			to the maneuvering thrusters.
-			Our angular deflection is
-			increasing. Now at fifteen
-			degrees... eighteen... turn
-			now twenty point one degrees.
-			We're in orbit, Captain. Our
-			altitude is one hundred fifty
-			thousand kilometers.
-			I'll see about getting main power
-			back on-line.
-			Very well.
-			Mister Data, begin a scan of the
-			interior surface for life forms.
-			I want to know who brought us in
-			here and why.
-			Aye, sir.
-			I can't find them anywhere in
-			orbit.
-			They could've crashed into the
-			sphere like the Jenolen.
-			No, we'd be picking up background
-			radiation if they'd gone down.
-			There's another possibility...
-			they could be inside the sphere.
-			Maybe.
-			Whatever's happened, we've got
-			to find them. If we can get these
-			engines back on-line, we could
-			track them by their impulse ion
-			trail.
-			Are ye daft? The main drive
-			assembly's shot, the inducers
-			are melted, and the power
-			couplings are wrecked... we'd
-			need a week just to get started.
-			But we don't have a week, so
-			there's no sense crying about it.
-			Come on, let's see what we can
-			do with your power converter.
-			The sphere appears to be
-			abandoned.
-			Our sensors show that the star
-			is extremely unstable. It is
-			experiencing severe bursts of
-			radiation and matter expulsions.
-			That would explain why they
-			abandoned it.
-			But if there's no one still
-			living here, how were we brought
-			inside?
-			I believe we triggered a series
-			of automatic piloting beams which
-			were designed to guide ships into
-			the sphere.
-			Sir. Sensors show a large
-			magnetic disturbance on the
-			star's surface.
-			It is a solar flare, Captain.
-			Magnitude: twelve. Class: B.
-			Shields?
-			Shields are up... but only at
-			twenty-three percent.
-			The star has entered a period of
-			increased activity. Our sensors
-			indicate that solar flares will
-			continue to grow. In three hours,
-			our shields will no longer be
-			be sufficient to protect us.
-			Shunt the deuterium from the main
-			cryo pump to the auxiliary tank.
-			The tank can't handle that much
-			pressure.
-			Where'd you get that idea?
-			It's in the impulse engine
-			specifications.
-			Regulation forty-two slash
-			fifteen... "Pressure Variances
-			in IRC Tank Storage"?
-			Right.
-			Forget it. I wrote it.
-			A good engineer is always a wee
-			bit conservative... at least on
-			paper. Just by-pass the secondary
-			cut-off valve and boost the
-			flow... it'll work.
-			Well, if we've done our jobs
-			properly, the engines should be
-			coming back on line... about...
-			now.
-			You were right... the auxiliary
-			tank is holding.
-			The Bridge is yours, Commander.
-			Hey, you're the senior officer
-			here.
-			I may be a captain by rank, but...
-			I've never wanted to be anything
-			else but an engineer. Take the
-			Conn, Geordi.
-			All right.
-			Shields still holding... but down
-			another fifteen percent.
-			Riker to Captain.
-			Go ahead Number One.
-			We've restored helm control...
-			and you have partial impulse
-			power.
-			Good. Stand-by.
-			Can we use the phasers to open
-			a hole in the sphere?
-			No, sir. The exterior shell is
-			composed of carbon-neutronium.
-			Our weapons would be ineffective.
-			Mister Data, we need to find a
-			way out of here. Begin scanning
-			for another hatch or portal that
-			might still be open.
-			The interior surface area is over
-			ten to the sixteenth square
-			kilometers. It will take seven
-			hours to completely scan the
-			surface.
-			I will endeavor to speed up the
-			process.
-			The Enterprise ion trail leads
-			right to this point.
-			It looks like some kind of doorway.
-			I'll bet you two bottles of scotch
-			that they're inside the sphere...
-			and that they went in right
-			through that hatch.
-			No bet here. The question is,
-			how?
-			Look at the momentum distribution
-			of the ions... it would take an
-			impulse engine at full reverse
-			to put out a signature like that.
-			So they didn't go in willingly.
-			This looks like some kind of
-			communications array.
-			Aye. We found hundreds of them
-			when we did our initial survey
-			seventy-five years ago.
-			Did you try hailing them?
-			Sure. That was standard
-			procedure in my day. We did it
-			right before we crashed.
-			Hailing is standard procedure
-			today, too...
-			Scotty, what if these aren't
-			communications arrays... what
-			if they're access terminals...
-			which are triggered by subspace
-			signals on certain frequencies...
-			Frequencies like our standard
-			ship's hail.
-			Exactly. When the Enterprise
-			saw this terminal they probably
-			did the same thing you did
-			seventy-five years ago -- opened
-			a channel. Only this time it
-			triggered something which
-			activated that hatch and pulled
-			the ship inside the sphere.
-			A nice bit of reasoning, Lad...
-			very nice indeed.
-			We could trigger the hatch, but
-			we'd probably be pulled in like
-			they were.
-			Maybe all we need to do is get
-			our foot in the door.
-			If we trigger the hatch with a
-			subspace transmission, we might
-			not be pulled inside if we keep
-			our distance from the sphere --
-			say a half million kilometers.
-			Then, when the hatch starts to
-			close again, we move in, and use
-			the Jenolen to jam the hatch open
-			and hope the Enterprise can
-			escape.
-			You can't be serious. That hatch
-			is huge. It could crush this ship
-			like an egg.
-			The shields will hold Lad, don't
-			you worry about that. I know how
-			to get a few extra gigawatts out
-			of these babies.
-			Scotty. This is crazy. I am not
-			going to let you---
-			Geordi. I've spent my whole life
-			figuring out how to make crazy
-			things work.
-			I'm telling you... one engineer
-			to another... I can do this.
-			All right. Let's do it.
-			We're at five hundred thousand
-			kilometers.
-			Engines're ready.
-			Okay. Here we go.
-			Come on... there's nothing out
-			here... give it up.
-			I still can't open a channel to
-			the Enterprise... there's too much
-			interference. We'll have to to
-			wait until we're right in the
-			doorway.
-			That's it. Let's go! Full
-			impulse.
-			Sir. There is an audio message
-			from Commander LaForge.
-			This is LaForge, do you read me,
-			Enterprise?
-			We read you, go ahead Commander.
-			Understood.
-			Set a course.
-			The plasma intercooler's gone.
-			The engines are overheating.
-			I've lost helm control...
-			LaForge to Enterprise. Captain,
-			we won't be able to move this ship
-			out of the way when you get
-			here... you're going to have to
-			destroy it in order to escape.
-			How long will it take us to reach
-			them?
-			With impulse engines operating
-			at sixty percent power, it will
-			take one minute forty seconds.
-			I can't hold her together much
-			longer... we've got about two
-			minutes before the engines go
-			critical.
-			Bridge to Transporter Room Three.
-			Stand by to beam two from the
-			Jenolen as soon as we're in range.
-			Photon torpedoes loaded.
-			It's coming apart, Lad. I can't
-			do anything else.
-			We are within transporter range.
-			Bridge to Transporter Room.
-			Energize.
-			Fire torpedoes.
-			There now. That wasn't so bad,
-			was it?
-			So, this alien space 'baby'--
-			which was about the size of a
-			four-story building -- really
-			thought the Enterprise was its
-			mother.
-			You're pulling an old man's leg.
-			No, really. It was 'suckling'
-			power directly from the ship's
-			fusion reactors... so Doctor
-			Brahms and I changed the power
-			frequency from twenty-one
-			centimeters to point-oh-two
-			centimeters...
-			You soured the milk.
-			That's right.
-			Enjoy these times, Geordi. You're
-			the chief engineer of a
-			starship... it's a time of your
-			life that'll never come again...
-			and once it's gone... it's gone.
-			I thought you were going to buy
-			me a drink in Ten Forward.
-			I have a better idea.
-			You're giving me one of your
-			shuttles?
-			Call it... an extended loan.
-			Since you lost your ship while
-			saving ours, it seemed only fair.
-			It's not much to look at...
-			Lad, every woman has her own
-			charms... ye just have to know
-			where to look.
-			It's a little slow, but it'll get
-			you to the Norpin colony... if
-			that's really where you want to
-			go.
-			The Norpin Colony is where old
-			men go to retire... maybe I'll
-			end up there someday... but not
-			just yet.
-			Bon voyage, Mister Scott.
-			Thank you, sir. For everything.
-			They're a good crew.
-			Yeah.
-			And she's a fine ship... a credit
-			to her name.
-			But I've always found that a ship
-			is only as good as the Engineer
-			who takes care of her... and from
-			what I can see... the Enterprise
-			is in good hands.
+I have identified the signal,
+Captain. It is from the U.S.S.
+Jenolan, a Federation transport
+ship reported missing in this
+sector seventy-five years ago.
+Code one alpha zero. Ship in
+distress.
+Bring us out of warp, Ensign.
+All stop.
+Aye, sir.
+Report.
+We have entered a massive
+gravitational field.
+There are no stars or other
+stellar bodies listed on our
+navigational charts. However,
+sensors indicate the presence of
+an extremely strong gravitational
+source in this vicinity.
+Can you localize the source of
+the gravity field?
+Sensors?
+I am having difficulty scanning
+the object. However, it would
+appear to be approximately two
+hundred million kilometers in
+diameter.
+That's nearly the size of Earth's
+orbit around the sun.
+Why didn't we detect it before
+now?
+The object's enormous mass is
+causing a great deal of
+gravimetric interference. That
+might have prevented our sensors
+from detecting the object before
+we dropped out of warp.
+Mister Data, could this be a...
+Dyson Sphere?
+This object does fit the general
+parameters of Dyson's theory.
+A Dyson Sphere?
+There is no comparative data,
+Captain. However, this object
+does fit the general parameters
+of Dyson's theory.
+A Dyson Sphere?
+It's a very old theory, Number
+One. I'm not surprised you
+haven't heard of it. A twentieth
+century physicist, Freeman Dyson,
+postulated that an enormous hollow
+sphere could be constructed around
+a star. This would have the
+advantage of harnessing all the
+radiant energy of the star. A
+population living on the interior
+surface would therefore have a
+virtually inexhaustible source
+of power.
+Are you saying there might be
+people living in there?
+Possibly a great number of people,
+Commander. The interior surface
+area of a sphere this size would
+be equivalent to more than two
+hundred fifty million class M
+planets.
+Sir. I have located the distress
+signal. It is coming from a point
+on the northern hemisphere.
+Ensign Rager, take us into
+synchronous orbit above that
+position.
+We are holding relative position
+at thirty thousand kilometers
+above the surface.
+I have found the Jenolan,
+Captain. It has impacted on the
+surface of the sphere.
+There are no life signs.
+However, there are several small
+power emanations... and life
+support is still functioning at
+minimal levels.
+Bridge to Engineering. Geordi,
+meet me in Transporter Room Three.
+Mister Worf.
+The air's pretty stale.
+Life support is barely operating.
+See if you can increase the oxygen
+level.
+Commander.
+The Transporter is still
+on-line... it's being fed power
+from the auxiliary systems.
+The rematerialization subroutine
+has been disabled.
+That's not all... the phase
+inducers are connected to the
+emitter array... the override
+is completely gone... and the
+pattern buffer's been locked into
+a continuous diagnostic cycle.
+This doesn't make any sense...
+locking the unit in a diagnostic
+mode just sends inert matter
+through the pattern buffer. Why
+would anyone want to --
+There's a pattern still in the
+buffer.
+It's completely intact... less
+than point zero zero three
+percent signal degradation. How
+is that possible?
+I don't know... but I've never
+seen a transporter system
+jury-rigged like this.
+Could someone... survive in a
+Transporter buffer for
+seventy-five years?
+I know a way to find out.
+Thank you, Lads.
+We've got to get Franklin out of
+there.
+Someone else's pattern is still
+in the buffer?
+Aye. Matt Franklin. We went
+in together.
+Something's wrong... one of the
+inducers has failed...
+Boost the gain on the matter
+stream.
+Come on, Franklin... I know
+you're still in there...
+It's no use... his pattern's been
+degraded by fifty-three percent...
+he's gone.
+I'm sorry.
+So am I... he was a good lad...
+I'm Commander William Riker from
+the starship Enterprise.
+The Enterprise... I shoulda known.
+And I'll bet it was Jim Kirk
+himself who hauled the old girl
+out of mothballs to come looking
+for me.
+Captain Montgomery Scott. How
+long have I been missing?
+Well...
+Sir.
+I have restored life support.
+The oxygen levels will return
+to normal shortly.
+Captain Scott... Lieutenant Worf.
+Lieutenant?
+Yes.
+Captain Scott... perhaps there
+are a few things we should talk
+about.
+We should probably get you to
+Sickbay. Doctor Crusher will be
+able to...
+You've changed the resonator
+array... only three phase
+inverters...
+Geordi, I think our guest is going
+to have a lot of engineering
+questions...
+I'll take care of him, sir.
+What have ye done to the duotronic
+enhancers?
+Those were replaced with isolinear
+chips about forty years ago. It's
+a lot more efficient now.
+Uh... be careful there. That's
+an EPS power tap.
+Ah.
+You were saying earlier that you
+were on your way to the Norpin
+Colony when you had a warp engine
+failure...
+That's right. We had an overload
+in one of the plasma transfer
+conduits. The Captain brought
+us out of warp... we hit some
+gravimetric interference and then
+there it was, as big as life...
+Is that a conduit interface?
+Yeah. Uh, big as life... the
+Dyson Sphere, right?
+Aye. An actual Dyson Sphere.
+Can you imagine the engineering
+skills needed to even design such
+a structure...
+I know... it's pretty amazing.
+What happened when you first
+approached it?
+We began a standard survey of the
+surface. We were just completing
+the initial orbital scan when our
+aft power coils suddenly exploded.
+The ship got caught in the
+sphere's gravity well... and down
+we went.
+Franklin and I were the only ones
+to survive the crash...
+What made you think of using the
+Transporter pattern buffer to stay
+alive?
+We didna have enough supplies to
+wait for a rescue... so I had to
+think of something.
+But locking it into a diagnostic
+cycle to keep the signal from
+degrading... and cross connecting
+the phase inducers to provide
+a regenerative power source...
+it's brilliant.
+I'm afraid it was only fifty
+percent brilliant... Ensign
+Franklin deserved better.
+I think you're going to like the
+twenty-fourth century, Mister
+Scott. We've made some pretty
+incredible advances in the last
+eighty years.
+Aye... from what I can see you've
+got a fine ship here, Mister La
+Forge... a real beauty. In fact,
+I must admit to being a little
+overwhelmed.
+Wait until you see the Holodeck.
+You've had a hairline fracture
+of the humerus.
+It'll ache for a few days, but
+it should be fine.
+Thank you.
+Well, I'll say this for your
+Enterprise... the doctors are a
+fair sight prettier.
+I'm Captain Jean-Luc Picard.
+Welcome aboard the Enterprise,
+Captain Scott.
+Thank you, sir -- and call me
+Scotty.
+How are you feeling?
+I don't know. How am I feeling?
+Other than a couple of bumps and
+bruises, I'd say you feel fine
+for a man of a hundred and
+forty-seven.
+I don't feel a day over a hundred
+and twenty.
+I must say I was more than a
+little surprised when Commander
+Riker informed me you were aboard
+the Jenolan. Our records didn't
+list you as one of their crew.
+I wasn't actually a member of the
+crew. I was just a... passenger.
+I was heading for Norpin Five to
+settle down and enjoy my...
+retirement.
+I see. Well, I would very much
+enjoy the opportunity to discuss
+your career at some point.
+History is one of my hobbies and
+I'm sure you have some fascinating
+insights into the events of your
+time.
+I'd be happy to.
+Good. I look forward to it.
+Commander, we need to begin a full
+spectrographic analysis of the
+Dyson Sphere.
+I'll get right on it, sir.
+Again, welcome aboard, Captain.
+I have to get back to Engineering
+to start that analysis.
+Engineering. I thought you'd
+never ask.
+Captain... The first thing
+you're going to do is get some
+rest. You've had quite a shock
+to your system and I don't want
+you to push yourself too hard.
+We're pretty busy right now,
+anyway, Captain Scott. But I'd
+be happy to give you a tour of
+Engineering a little later, when
+the doctor says it's okay.
+Aye.
+I'll have someone show you to
+your quarters.
+... this is the food replicator...
+and your computer terminal.
+Good Lord, man... where have you
+put me?
+These are standard guest quarters,
+sir. I can try to find something
+bigger if you want.
+Bigger? In my day, even an
+Admiral wouldna had such quarters
+on a starship. I remember a time
+when we had to transport the
+Dohlman of Elaas. You never heard
+anyone whine and complain about
+quarters like that...
+The Holodecks, Ten Forward, and
+the gymnasium are all at your
+disposal. The computer can tell
+you how to find them. Until we
+issue you a combadge, just use
+one of these panels if you need
+anything.
+You know... these quarters remind
+me of a hotel room I once had on
+Argelius... oh, now there was a
+planet... everything a man could
+want -- right at his fingertips.
+'Course on my first visit, I ran
+into a wee bit of trouble...
+Uh, excuse me, sir... but I have
+to return to duty.
+Ah... well then. Thank you.
+I want you to shut down the warp
+engines and recalibrate the aft
+sensors while I work on the
+lateral array.
+Aye, sir.
+Can I help you, sir?
+I don't think so Lass, but I'll
+let you know if you can.
+Sir, this area is restricted to
+authorized --
+I'll handle it, Bartel.
+Captain Scott, this... really
+isn't a good time --
+We're in Engineering. Call me
+Scotty.
+Scotty... this really isn't a good
+time for a tour. We're running
+a phase seven survey of the Dyson
+Sphere.
+I'm not here for a tour, Lad.
+I'm here to help.
+That's... very kind. But I think
+we can handle it...
+Sensor readings indicate the
+presence of a G-type star at the
+center of the sphere. There also
+appears to be a class-M atmosphere
+clinging to the interior surface.
+Is there any indication that the
+sphere is inhabited?
+Not as yet, sir. Our preliminary
+data indicates it is still capable
+of supporting life, but we have
+been unable to find definite signs
+of current habitation.
+Send out a series of class four
+probes to survey the far side of
+the sphere. Perhaps we'll have
+more luck with them.
+Aye, sir.
+Adjust the frequency
+stabilization on the main
+deflector dish. It's out of synch
+with the aft sensors.
+Laddie, ye need to phase-lock the
+warp fields within three percent
+or they'll become unstable.
+What?
+Here. The warp field is --
+We use a multi-phase
+auto-containment field now...
+it's meant to operate above three
+percent.
+Ah. Well... that would make all
+the difference.
+We can re-start the engines in
+ten minutes, Commander.
+Thank you.
+I remember a time when the old
+Enterprise was spiralling in
+toward Psi two thousand... the
+Captain wanted to try a cold start
+of the warp engines. I told him
+that without a proper phase-lock
+it would take at least thirty
+minutes...
+Huh? Oh, thanks.
+"You canna change the laws of
+physics" I said... but of course
+he wouldn't listen so we had to
+come up with a new engine start-up
+routine...
+Do you know that your dilithium
+crystals are about to fracture?
+We recomposite the crystals while
+they're still inside the
+articulation frame. I'd like
+to explain everything, but the
+Captain wants this
+spectrographic-analysis done by
+thirteen hundred hours.
+Would you mind a little advice?
+Starship captains are like
+children. They want everything
+right now and they want it their
+way... the secret is to give them
+what they need, not what they
+want.
+I told him I'd have that analysis
+done in an hour.
+And how long will it really take
+you?
+An hour.
+Ye didna tell him how long it was
+really going to take you?
+Of course I did.
+Oh... Laddie. You've got a lot
+to learn if you want them to think
+of you as a miracle worker.
+You've got to --
+Look, sir. I've tried to be
+patient, I've tried to be polite.
+But I've got a job to do here.
+And you're... in the way.
+I was driving starships while your
+great grandfather was still in
+diapers. I'd think you'd be
+grateful for a little help.
+Then I'll leave ye to work, Mister
+LaForge.
+... "in the way"... used to be
+Engineers had a little respect
+for each other... used to matter
+if a man --
+What do you want?
+Is this a bad time?
+Oh... uh, no.
+Captain Montgomery Scott at your
+service. What can I do for you?
+Deanna Troi, ship's counselor...
+and actually I'm here to see if
+there's anything I can do for you.
+Why... thank you, Lass. But I'm
+set for now. The quarters are
+more than adequate... the
+replicator is a wonder...
+I'm glad you're comfortable.
+But I was actually more interested
+in how you feel.
+How I feel?
+Yes. It would be perfectly normal
+to feel disoriented, confused or
+even frightened following the kind
+of extraordinary experience you've
+just had.
+I suppose it's been... a little
+bewildering, yes.
+I'm sure you have a lot of
+questions about what's happened
+over the last seventy-five
+years... if you'd like, I could
+help you access some of our
+historical records... maybe you
+could discover what happened to
+your family... or friends.
+I'm... not ready for that just
+yet. It's a hard thing to realize
+that everyone ye once knew is
+probably...
+Pardon me for asking... but what
+exactly is a... Ship's Counselor?
+I'm here to take care of the
+emotional well-being of our crew.
+And of our guests.
+And you're an officer?
+Yes. They started assigning
+Counselors to starships about
+forty years ago when they realized
+that the pressures of extended
+space travel --
+You're a psychologist.
+Among other things.
+LaForge sent you here, didn't
+he? I may be old, but I'm not
+crazy.
+Geordi didn't send me and I know
+you're not crazy.
+You're damned right I'm not. And
+I don't need a ship's counselor,
+or a psychologist, or whatever
+else you are.
+I know what I need and it's not
+here.
+May I help you, sir?
+Aye, Lad. Scotch. Neat.
+Thank you.
+What in blazes is this?
+Didn't you order Scotch?
+Lad, I was drinking scotch about
+a hundred years before you were
+born and I can tell you that
+whatever this is, it is definitely
+not scotch.
+I believe I may be of some
+assistance. Captain Scott is
+unaware of the existence of
+synthehol.
+Synthehol?
+Yes. It is an alcohol substitute
+which is now normally served
+aboard starships. It simulates
+the appearance, smell, and taste
+of alcohol, but the intoxicating
+affects can be easily dismissed.
+You're not quite... human are you?
+No, sir. I am an android. My
+name is Commander Data.
+Synthetic scotch and synthetic
+commanders...
+I believe Guinan does keep a
+limited supply of non-syntheholic
+products. Perhaps one of them
+would be to your liking.
+What is it?
+It is green.
+Please enter program.
+The android at the bar said you
+could show me my old ship... so
+lemme see it.
+Insufficient data. Please
+specify parameters.
+The Enterprise. Show me the
+Bridge of the Enterprise, you
+chattering piece of...
+There have been five Federation
+ships with that name. Please
+specify by registry number.
+NCC-One-Seven-Oh-One. No bloody
+A, B, C, or, D.
+Program complete. Enter when
+ready.
+Here's to you, Lads...
+I hope I'm not interrupting, but
+I was just coming off duty and
+wanted to see how you were doing.
+Not at all, not at all. Have a
+drink with me, Captain.
+I'm not sure what it is, exactly,
+but I'd be careful if I were you.
+It has a real...
+Aldeberan whiskey.
+Who do you think gave it to
+Guinan?
+Constitution class...
+Aye. You're familiar with it?
+There's one at the fleet museum.
+This is your Enterprise?
+One of them... I actually served
+on two. This was the first...
+she was also the first ship I ever
+served on as Chief Engineer.
+You know, I served aboard eleven
+ships in my career... freighters,
+cruisers, starships,... but this
+is the only one I ever think
+about... the only one I miss.
+The first ship I ever served
+aboard as Captain was called the
+Stargazer... it was an overworked,
+underpowered vessel that was
+always on the verge of flying
+apart at the seams. In every
+measurable way, my Enterprise is
+a superior ship.
+And yet... there are times I miss
+that cramped little Bridge very
+much.
+It's like the first time you fall
+in love... you don't ever love
+a woman quite the way you did that
+first one.
+To the Enterprise and the
+Stargazer... old girlfriends we'll
+never see again.
+What do you think of the
+Enterprise-D?
+She's a beauty... with a good
+crew...
+But... ?
+When I was here, I could tell you
+the speed we were traveling by
+the feel of the deckplates. On
+your ship... I'm in the way.
+Seventy-five years is a long time.
+If you'd like to study some of
+the technical --
+I'm not eighteen. I can't start
+over again like a raw cadet.
+There comes a time when a man
+finds that he can't fall in love
+again... when he knows that it's
+time to stop.
+I don't belong on your ship...
+I belong on this one. This was
+my home. This is where I had a
+purpose. But this isn't real...
+it's just a computer-generated
+fantasy. And I'm just an old man
+trying to hide in it.
+Computer, shut this bloody thing
+off. It's time I acted my age.
+Come.
+Mister LaForge, I understand that
+the Jenolen conducted an extensive
+survey of the Dyson sphere before
+it crashed. Have we been able
+to access those records?
+We tried to download their memory
+core, but it was pretty heavily
+damaged in the crash. We haven't
+been able to get much out of it.
+Perhaps Captain Scott could be
+of use in accessing that material.
+It's possible. He would know
+those systems better than any of
+us. I'll have Lieutenant Bartel
+beam down with him.
+Commander. I'd like you to
+accompany Mister Scott.
+Me, sir?
+This is not an order, Geordi, it
+is a request... one which you are
+free to decline.
+One of the most important things
+in a man's life is the need to
+feel useful. Mister Scott is a
+Starfleet officer... I would like
+him to feel useful again.
+I'll go with him, Captain.
+Thank you.
+Commander, I believe I have found
+something on the sphere which
+could be a communications device.
+There is an antenna array
+approximately four hundred
+thousand kilometers south of our
+present position. It is emitting
+low-intensity subspace signals.
+Can we open a channel?
+Not from our present orbit,
+Commander. The array is currently
+directed away from us.
+Prepare to take us to an orbit
+above those coordinates.
+Captain Picard to the Bridge,
+please.
+Are you feeling all right?
+Never get drunk unless you're
+willing to pay for it the next
+day. I'll manage.
+Okay.
+Energize.
+Sensors indicate that the large
+circle is a portal or airlock,
+possibly leading to the interior
+of the sphere.
+You said you found a
+communications array?
+Yes, sir. It is located on the
+periphery of the hatch.
+This looks like the front door...
+should we ring the bell?
+Mister Worf, open a channel to
+that array.
+Aye, sir.
+Captain! I'm reading intense
+graviton emissions on the surface
+of --
+Some type of tractor beam has
+locked onto us.
+Helm, get us out of here!
+We've lost main power... auxiliary
+power down to twenty percent.
+We are being pulled inside.
+Auxiliary power failing.
+The resonance frequency of the
+tractor beams is incompatible with
+our power systems. Warp and
+impulse engine relays have been
+overloaded. I am attempting to
+compensate.
+The tractor beams have released
+us, sir.
+Hold position here until we can
+get our bearings.
+Full sensor sweep, Mister Data.
+Where are we?
+We are approximately ninety
+million kilometers from the star's
+photosphere.
+I am reading a great deal of
+surface instability. It may
+be--
+Sir. The inertial motion from
+the tractor beams is still carrying
+us forward. The impulse engines
+are off-line and I can't stop
+our momentum. We're falling
+directly into the star.
+The primary computer database
+should be on-line now. Give it
+a try.
+Okay... I've got three access
+lines to the central core...
+still nothing.
+Bunch of old useless, garbage...
+What?
+I said it's old, Mister LaForge.
+It can't handle the interface of
+your power converter.
+This equipment was designed for
+a different era... now it's just
+a lot of junk.
+I don't know... looks like some
+of it has held together pretty
+well.
+It's a century out of date. It's
+just...
+Obsolete.
+That's interesting... because I
+was just thinking that a lot of
+these systems haven't changed much
+in seventy-five years.
+This Transporter is almost
+identical to the ones we use on
+the Enterprise.
+The subspace radio and sensors
+operate on the same basic
+principles, and impulse engine
+design hasn't changed much in two
+hundred years. If it weren't for
+the structural damage, this ship
+could still be in service today.
+Maybe so... but when they can
+build a ship like your Enterprise,
+who'd want to pilot an old bucket
+like this?
+I don't know... if this ship were
+operational I bet it would
+run circles around the Enterprise
+at impulse speeds.
+Just because something's old
+doesn't mean you throw it away.
+We used to have something called
+a dynamic mode converter... you
+wouldna have something like that
+on your Enterprise would ye?
+I haven't seen one of those in
+a long time... but I might have
+something similar.
+LaForge to Enterprise.
+LaForge to Enterprise, come in
+please.
+Interference?
+No...
+They're gone.
+We will enter the sun's
+photosphere in three minutes.
+Maneuvering thrusters?
+I've got thirty percent power...
+it won't be enough to stop us.
+No. But it may be enough to turn
+us into orbit and hold our
+distance from the photosphere.
+Port thrusters ahead full,
+starboard back full.
+Our flight path is changing...
+right ten point seven degrees...
+insufficient to clear the
+photosphere.
+Lieutenant Bartel, divert all
+power from auxiliary relay systems
+to the maneuvering thrusters.
+Our angular deflection is
+increasing. Now at fifteen
+degrees... eighteen... turn
+now twenty point one degrees.
+We're in orbit, Captain. Our
+altitude is one hundred fifty
+thousand kilometers.
+I'll see about getting main power
+back on-line.
+Very well.
+Mister Data, begin a scan of the
+interior surface for life forms.
+I want to know who brought us in
+here and why.
+Aye, sir.
+I can't find them anywhere in
+orbit.
+They could've crashed into the
+sphere like the Jenolen.
+No, we'd be picking up background
+radiation if they'd gone down.
+There's another possibility...
+they could be inside the sphere.
+Maybe.
+Whatever's happened, we've got
+to find them. If we can get these
+engines back on-line, we could
+track them by their impulse ion
+trail.
+Are ye daft? The main drive
+assembly's shot, the inducers
+are melted, and the power
+couplings are wrecked... we'd
+need a week just to get started.
+But we don't have a week, so
+there's no sense crying about it.
+Come on, let's see what we can
+do with your power converter.
+The sphere appears to be
+abandoned.
+Our sensors show that the star
+is extremely unstable. It is
+experiencing severe bursts of
+radiation and matter expulsions.
+That would explain why they
+abandoned it.
+But if there's no one still
+living here, how were we brought
+inside?
+I believe we triggered a series
+of automatic piloting beams which
+were designed to guide ships into
+the sphere.
+Sir. Sensors show a large
+magnetic disturbance on the
+star's surface.
+It is a solar flare, Captain.
+Magnitude: twelve. Class: B.
+Shields?
+Shields are up... but only at
+twenty-three percent.
+The star has entered a period of
+increased activity. Our sensors
+indicate that solar flares will
+continue to grow. In three hours,
+our shields will no longer be
+be sufficient to protect us.
+Shunt the deuterium from the main
+cryo pump to the auxiliary tank.
+The tank can't handle that much
+pressure.
+Where'd you get that idea?
+It's in the impulse engine
+specifications.
+Regulation forty-two slash
+fifteen... "Pressure Variances
+in IRC Tank Storage"?
+Right.
+Forget it. I wrote it.
+A good engineer is always a wee
+bit conservative... at least on
+paper. Just by-pass the secondary
+cut-off valve and boost the
+flow... it'll work.
+Well, if we've done our jobs
+properly, the engines should be
+coming back on line... about...
+now.
+You were right... the auxiliary
+tank is holding.
+The Bridge is yours, Commander.
+Hey, you're the senior officer
+here.
+I may be a captain by rank, but...
+I've never wanted to be anything
+else but an engineer. Take the
+Conn, Geordi.
+All right.
+Shields still holding... but down
+another fifteen percent.
+Riker to Captain.
+Go ahead Number One.
+We've restored helm control...
+and you have partial impulse
+power.
+Good. Stand-by.
+Can we use the phasers to open
+a hole in the sphere?
+No, sir. The exterior shell is
+composed of carbon-neutronium.
+Our weapons would be ineffective.
+Mister Data, we need to find a
+way out of here. Begin scanning
+for another hatch or portal that
+might still be open.
+The interior surface area is over
+ten to the sixteenth square
+kilometers. It will take seven
+hours to completely scan the
+surface.
+I will endeavor to speed up the
+process.
+The Enterprise ion trail leads
+right to this point.
+It looks like some kind of doorway.
+I'll bet you two bottles of scotch
+that they're inside the sphere...
+and that they went in right
+through that hatch.
+No bet here. The question is,
+how?
+Look at the momentum distribution
+of the ions... it would take an
+impulse engine at full reverse
+to put out a signature like that.
+So they didn't go in willingly.
+This looks like some kind of
+communications array.
+Aye. We found hundreds of them
+when we did our initial survey
+seventy-five years ago.
+Did you try hailing them?
+Sure. That was standard
+procedure in my day. We did it
+right before we crashed.
+Hailing is standard procedure
+today, too...
+Scotty, what if these aren't
+communications arrays... what
+if they're access terminals...
+which are triggered by subspace
+signals on certain frequencies...
+Frequencies like our standard
+ship's hail.
+Exactly. When the Enterprise
+saw this terminal they probably
+did the same thing you did
+seventy-five years ago -- opened
+a channel. Only this time it
+triggered something which
+activated that hatch and pulled
+the ship inside the sphere.
+A nice bit of reasoning, Lad...
+very nice indeed.
+We could trigger the hatch, but
+we'd probably be pulled in like
+they were.
+Maybe all we need to do is get
+our foot in the door.
+If we trigger the hatch with a
+subspace transmission, we might
+not be pulled inside if we keep
+our distance from the sphere --
+say a half million kilometers.
+Then, when the hatch starts to
+close again, we move in, and use
+the Jenolen to jam the hatch open
+and hope the Enterprise can
+escape.
+You can't be serious. That hatch
+is huge. It could crush this ship
+like an egg.
+The shields will hold Lad, don't
+you worry about that. I know how
+to get a few extra gigawatts out
+of these babies.
+Scotty. This is crazy. I am not
+going to let you---
+Geordi. I've spent my whole life
+figuring out how to make crazy
+things work.
+I'm telling you... one engineer
+to another... I can do this.
+All right. Let's do it.
+We're at five hundred thousand
+kilometers.
+Engines're ready.
+Okay. Here we go.
+Come on... there's nothing out
+here... give it up.
+I still can't open a channel to
+the Enterprise... there's too much
+interference. We'll have to to
+wait until we're right in the
+doorway.
+That's it. Let's go! Full
+impulse.
+Sir. There is an audio message
+from Commander LaForge.
+This is LaForge, do you read me,
+Enterprise?
+We read you, go ahead Commander.
+Understood.
+Set a course.
+The plasma intercooler's gone.
+The engines are overheating.
+I've lost helm control...
+LaForge to Enterprise. Captain,
+we won't be able to move this ship
+out of the way when you get
+here... you're going to have to
+destroy it in order to escape.
+How long will it take us to reach
+them?
+With impulse engines operating
+at sixty percent power, it will
+take one minute forty seconds.
+I can't hold her together much
+longer... we've got about two
+minutes before the engines go
+critical.
+Bridge to Transporter Room Three.
+Stand by to beam two from the
+Jenolen as soon as we're in range.
+Photon torpedoes loaded.
+It's coming apart, Lad. I can't
+do anything else.
+We are within transporter range.
+Bridge to Transporter Room.
+Energize.
+Fire torpedoes.
+There now. That wasn't so bad,
+was it?
+So, this alien space 'baby'--
+which was about the size of a
+four-story building -- really
+thought the Enterprise was its
+mother.
+You're pulling an old man's leg.
+No, really. It was 'suckling'
+power directly from the ship's
+fusion reactors... so Doctor
+Brahms and I changed the power
+frequency from twenty-one
+centimeters to point-oh-two
+centimeters...
+You soured the milk.
+That's right.
+Enjoy these times, Geordi. You're
+the chief engineer of a
+starship... it's a time of your
+life that'll never come again...
+and once it's gone... it's gone.
+I thought you were going to buy
+me a drink in Ten Forward.
+I have a better idea.
+You're giving me one of your
+shuttles?
+Call it... an extended loan.
+Since you lost your ship while
+saving ours, it seemed only fair.
+It's not much to look at...
+Lad, every woman has her own
+charms... ye just have to know
+where to look.
+It's a little slow, but it'll get
+you to the Norpin colony... if
+that's really where you want to
+go.
+The Norpin Colony is where old
+men go to retire... maybe I'll
+end up there someday... but not
+just yet.
+Bon voyage, Mister Scott.
+Thank you, sir. For everything.
+They're a good crew.
+Yeah.
+And she's a fine ship... a credit
+to her name.
+But I've always found that a ship
+is only as good as the Engineer
+who takes care of her... and from
+what I can see... the Enterprise
+is in good hands.
