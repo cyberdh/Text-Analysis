@@ -1,1027 +1,1027 @@
-			Captain's log, stardate 41194.6.
-			We are in pursuit of a starship
-			of Ferengi design. Our mission
-			is...
-			... to intercept and recover a T-9
-			energy converter which the Ferengi
-			stole from an unmanned monitor
-			post on Gamma Tauri IV -- a theft
-			which automatic scanners recorded,
-			providing us...
-			... with the long awaited
-			opportunity to make close contact
-			with a Ferengi vessel. If we
-			succeed in this chase, it
-			will be Starfleet's first look
-			at a life form... which discounting
-			rumor, we know almost nothing
-			about.
-			There she is!
-			Enlarge.
-			What is their course?
-			They are now angling through that
-			solar system, Captain.
-			Identify.
-			Listed as Delphi Ardu, sir.
-			Eleven planets, unexplored.
-			Stay with them, LaForge.
-			Sensors read a power surge on
-			their last maneuver, Captain.
-			They are dropping to sub-warp
-			speed... !
-			Reduce to impulse power... !
-			Sensor fluctuations in the energy
-			readings from it, Captain.
-			Possibility: a malfunction in
-			their engines, sir.
-			Breaks my heart.
-			In visual range, Captain.
-			Fully enlarge!
-			Hello, stranger!
-			Very impressive design.
-			Anything on that design, Data?
-			Nothing specific, sir. As you
-			know, Ferengi technology is
-			estimated to be generally equal
-			to our own...
-			Which does not mean identical,
-			however...
-			Correct, sir. We are no doubt
-			advanced in some areas, they in
-			others...
-			They show another power surge,
-			sir.
-			They are firing on us!
-			Damage report!
-			Shields holding!
-			Mostly electromagnetic, sir.
-			Fusion generator and batteries
-			down by...
-			Our impulse engines are surging!
-			They're firing again.
-			Deflector shield power weakening,
-			Captain.
-			Phasers ready, sir. Photon
-			torpedoes ready...
-			Shall we return their fire,
-			sir... ?
-			Negative, Number One. They are
-			reacting to close pursuit.
-			Fall back a bit but stay with
-			them.
-			They are slowing too, sir.
-			They may be turning to fight!
-			Open hailing freq...
-			Why are we gaining on them? Don't
-			anticipate...
-			I'm not, sir! Something's wrong...
-			Sir, something is dragging us
-			forward.
-			Yes, I read it, too. Lieutenant
-			Yar, what do your sensors show?
-			Not certain, sir. I'm getting very
-			confusing readings.
-			Captain, this shouldn't be. Our
-			ship's power systems are failing!
-			Deflector shields failing, phasers
-			going inoperative, sir...
-			Something is completely
-			immobilizing us, Captain!
-			Immobilized by the damn Ferengi?!
-			I need more information! Identify
-			what they are using!
-			Obviously we've underestimated
-			their technology, Captain...
-			Considerably. It appears the
-			Ferengi have us right where they
-			want us -- in their sights.
-			Are we searching all frequencies?
-			Any sign of any kind of message?
-			Negative, sir.
-			Weapon report, Lieutenant Worf.
-			I have phasers and torpedoes
-			armed, but I show insufficient
-			power to fire them.
-			Engineering, give me status on
-			power recovery.
-			Engineering, come in.
-			Why aren't they answering?
-			Go below, Lieutenant. Get me a
-			full report from Engineering.
-			Aye, sir.
-			It seems impossible they could
-			be draining all power from all
-			systems.
-			Counselor?
-			I'm sensing nothing from them
-			Captain. Which could mean they
-			can shield their thoughts and
-			emotions from others.
-			Which still makes it our move.
-			Sir, they may know as little about
-			us as we do about them.
-			Except that they know they've got
-			us in deep trouble.
-			If so, the question becomes how
-			will they use that knowledge?
-			Is there any hard information on
-			them in any file, Data?
-			None, sir. Only hearsay and
-			thirdhand reports, most of which
-			conflict.
-			Which rumors do not conflict?
-			That the Ferengi are... well, the
-			best description may be "traders."
-			What kind of "traders"?
-			A more accurate comparison modern
-			scholars have drawn from Earth
-			history cites the ocean-going
-			"Yankee Traders" of eighteenth
-			and nineteenth century America,
-			sir.
-			From the history of my forebears?
-			"Yankee Traders?"
-			Who sail, in this case the
-			galaxy, in search of mercantile
-			and territorial opportunity.
-			And are those scholars saying
-			the Ferengi may not be too
-			different from us?
-			Hardly, sir. I believe this
-			analogy refers to the nefarious
-			capitalist manner in which the
-			Ferengi are known to conduct their
-			affairs of commerce.
-			"Never give a sucker an even
-			break."
-			And what does that mean, Data?
-			I'm not sure, sir. That entry was
-			only identified as "slang", terms
-			or expressions which typify
-			everyday language of...
-			I know what slang is, Data. I just
-			haven't heard of that particular
-			saying.
-			But "Yankee Traders"...
-			I like the sound of that. Has a
-			nice historical ring to it.
-			Engineering?
-			Join LaForge "down below", Number
-			One. Without our warp capacity,
-			we're just one big floating
-			target.
-			Aye, sir.
-			What other pertinent meaning do
-			you draw from this analogy,
-			"Yankee Traders?"
-			Well, I doubt if they wear red,
-			white and blue, sir. Or look
-			anything like Uncle Sam.
-			Uncle who?
-			What have bright, primal colors
-			got to do with it?
-			Yes, I understand the allusion.
-			Colors that once identified
-			nations during the time when they
-			competed against each other. Red,
-			white and blue for the United
-			States...
-			Whereas the French oddly used the
-			same colors in the order of blue,
-			white, and red...
-			... and the German nation black,
-			red and gold; the Italians green,
-			white and red; the British...
-			Enough, Data!
-			Sir, it was you who...
-			We're discussing the Ferengi,
-			Data!
-			Mon Dieu, I wish I knew what they
-			will do next...
-			Given what is occurring to our
-			vessel, Captain, their weapons
-			could be vastly superior to ours.
-			Yes, Data. That seems a
-			reasonable assumption.
-			Engineering?!
-			Bottom line, LaForge.
-			Not good, sir. The Ferengi
-			forcefield that holds this ship
-			compensates...
-			Almost as fast as we increase
-			power.
-			Almost?
-			There's a point-three-hundred,
-			seventy-two millisecond delay
-			between use of our power and the
-			neutralizing counter-force of the
-			Ferengi...
-			We push and they push back in
-			equal force, sir.
-			And what is our acceleration delay
-			between slow-reverse impulse and
-			top warp speed?
-			Point-three-hundred millisecond.
-			I know what you're thinking. Shift
-			down and then blow hard into warp
-			nine, yes? Come back fighting,
-			whooey!
-			Can we do it, Geordi?
-			Ask me after it's done, sir.
-			I want a slow reverse-power
-			drop-off over five minutes...
-			We'll show them what this baby
-			can do, sir.
-			Give me everything you've got.
-			Aye, aye, sir.
-			... and with a sudden, abrupt power
-			surge to high warp speed, Captain,
-			I believe we can break loose from
-			the Ferengi forcefield.
-			I wish I knew how they are doing
-			this to us.
-			I wonder what they're thinking
-			over there.
-			That's easy. They're wondering
-			what we are thinking... and what
-			we might do next.
-			I say fight, sir. There is
-			nothing shameful in falling before
-			a superior enemy.
-			And nothing shameful about a
-			strategic retreat, either.
-			All systems ready, Captain. And
-			communication's restored to
-			Engineering.
-			Excellent, LaForge.
-			Let's throw them off guard.
-			Lieutenant Yar. Open hailing
-			frequencies.
-			Hailing frequencies open, sir.
-			At least, I won't begin with
-			weakness.
-			Attention Ferengi starship! This
-			is Captain Jean-Luc Picard of the
-			USS Enterprise. In the name of
-			the United Federation of Planets,
-			I demand you return the T-9 energy
-			converter you removed from Gamma
-			Tauri IV.
-			Send in all language forms.
-			All language forms, sir.
-			Sometimes, Riker, the best way
-			to win a fight is not to be there.
-			Yes, sir. "He will triumph who
-			knows when to fight and when not
-			to fight."
-			Glad the Academy still teaches
-			the strategy of Sun Tzu...
-			Let's hope that delay proves out,
-			LaForge.
-			Point-three-hundred milliseconds,
-			sir.
-			We'll blast full power into warp
-			nine. Ready?
-			All systems ready, Captain.
-			Countdown to three. Stand by on
-			phasers.
-			One. Set warp to nine.
-			Two. Divert shield power to main
-			engines...
-			Three!
-			Merde.
-			Shields up.
-			Captain? I think you better see
-			this...
-			What's wrong?
-			In my opinion, someone is reading
-			every file, every "bit" of
-			information stored in the
-			Enterprise memory banks...
-			They can do that?
-			And more, perhaps.
-			Doctor Crusher to the bridge.
-			Conference evaluation.
-			If I may recommend something,
-			Captain, with our attention on
-			the Ferengi vessel, we have
-			ignored the planet.
-			Consult the charts on this
-			planet, Data. See what we have
-			on it in the library.
-			No response on hailing
-			frequencies?
-			We had no response.
-			So, while we still have some power
-			left, it is time for difficult
-			decisions.
-			While we cannot have a democracy
-			aboard, I value your considered
-			opinions.
-			I say put all available power into
-			a full-out combined phaser and
-			photon torpedo salvo. Destroy
-			their ability to sustain this
-			forcefield, sir.
-			Yes! Hit them hard and hit them
-			fast.
-			Impractical and provocative.
-			Assuming even that we have the
-			power to support that tactic.
-			But Captain, firing on us was not
-			an act of war?
-			The facts are that the Ferengi
-			did fire at us, but we were
-			chasing them. Since then, they've
-			only searched our computers,
-			trying to learn who and what we
-			are.
-			Your point, Counselor?
-			Let's talk to them.
-			That has been tried; no response.
-			But did we tell them anything they
-			wanted to hear?
-			Any other observations?
-			Thank you all for your advice and
-			counsel. Now if you will excuse
-			me, I'd like to be left alone with
-			Commander Riker.
-			As my first officer, I assume you
-			fully realize our situation.
-			Although the final decision must
-			be mine, this is your opportunity
-			to speak your mind.
-			I believe we have covered all
-			available alternatives, Captain,
-			but...
-			Are there any other options you
-			wish to analyze?
-			The only one left needs no
-			conversation, Number One. And it
-			is the only one we must avoid.
-			Sir?
-			Total annihilation.
-			Open hailing frequencies.
-			Open, Captain.
-			Attention, Ferengi starship! This
-			is Captain Picard. It is obvious
-			we have a situation here that
-			needs resolving... And we are
-			willing to do whatever is
-			reasonable and necessary. I would
-			like... I would appreciate...
-			your presenting your terms to us.
-			Captain's log, stardate 41194.8. It
-			is with a heavy heart that I have
-			offered to meet...
-			... whatever reasonable and
-			necessary terms are demanded by
-			the Ferengi. I fear for my people
-			and my vessel in the event the
-			unknown Ferengi ask the
-			unreasonable. How...
-			... can I oppose even unreasonable
-			demands?
-			It's moving, sir.
-			We ask to surrender and now they
-			fire on us?
-			Ready torpedoes, sir? There's
-			enough power for a couple of them.
-			Ready. But hold at ready,
-			Lieutenant.
-			Open hailing frequencies.
-			Hailing frequencies open, sir.
-			Ferengi vessel, we are awaiting
-			your response.
-			Suggest first strike, sir. Our
-			shields now only have sixty-three
-			seconds of power available before
-			lowering.
-			If the Ferengi ship's sensors can
-			read us, sir, they will be waiting
-			until we are most vulnerable...
-			Captain, I'm afraid I agree.
-			Since they haven't bothered to
-			answer us...
-			I'll wait a bit more, Number One.
-			Fifty seconds...
-			Patience. Patience...
-			The quicker we can come to terms,
-			the better, NCC 1701-D.
-			Who is speaking?
-			I am Taar. DaiMon of the Ferengi.
-			You wished to discuss surrender,
-			Captain Picard?
-			What I actually said, DaiMon,
-			is...
-			UNCONDITIONAL...
-			... Surrender, I warn you, is...
-			Totally unacceptable!!
-			We will die to the last one of
-			us before such dishonor!
-			Hailing frequency off, sir.
-			Something has seized their ship
-			too. They're in the same predicament
-			as us.
-			Launch a sensor probe. Set it
-			to search for the source of this
-			"something" that's holding us both.
-			Back to hailing fequencies, fast.
-			... and so I regret DaiMon Taar
-			that I can no longer negotiate
-			unless it is conducted visually.
-			Your complete message not
-			received, Enterprise. But visual
-			communication is against our
-			custom.
-			And it is against Starfleet orders
-			to accept a surrender otherwise.
-			Do you withdraw your surrender
-			offer?
-			You give us no choice, Enterprise.
-			May we have a visual on you too?
-			Agreed, DaiMon Taar. You should
-			be able to view us now.
-			Do you have us on your screen?
-			We... are now viewing you.
-			I do not know how your twisted
-			alien culture has paralyzed our
-			vessel but I concede your
-			'Enterprise' is superior.
-			We will return your worthless T-9
-			device and we offer the life of
-			our second officers as required
-			by the Ferengi code.
-			I am relieved we have no such code
-			involving our second officers.
-			Is this to your satisfaction,
-			Picard Captain?
-			Your offer may be inadequate, but
-			I will discuss it with my staff.
-			Stand by for further communications.
-			Matthews! Pola! You know this
-			area is off-limits.
-			Boys will be boys, Captain.
-			Have you launched the probe?
-			Yes, sir. We'll get readings
-			soon.
-			If we're not holding the Ferengi
-			and they're not holding us... then
-			who the hell is?
-			Next, you wanted to show us
-			something?
-			As requested, Captain,
-			library-computer information on
-			this planet.
-			It has been charted only, from
-			long range scans. It is Class
-			M, but with no indications of life
-			forms, sentient or otherwise.
-			However, you may find this of
-			interest...
-			Resolving it into our language...
-			A space federation of some sort.
-			But I've never heard the word
-			"Tkon."
-			Understandable. It has been
-			extinct six hundred thousand
-			of... of our years.
-			According to... legend, these
-			planets... were outposts... of that
-			empire...
-			Data. What are you doing?
-			Apologies, Captain. I seem to have
-			reached an odd functional impass.
-			I am, ah...
-			Stuck.
-			Then get unstuck and continue your
-			briefing.
-			Yes, sir. That is what I am trying
-			to do...
-			But the solution eludes me.
-			My hero.
-			Continue, Commander. Now!
-			Intriguing.
-			Again, only legend, but it
-			describes the Empire as impossibly
-			huge and powerful.
-			Surrounded by stars whose planets
-			formed its defensive system?
-			Correct, sir. Outposts. And the
-			planet below was possibly one of
-			them...
-			Excuse the interruption, Captain,
-			but this may be worth it. We're
-			now receiving a signal from the
-			probe.
-			We'll take it here, please.
-			Incredible!
-			That's our mysterious "something,"
-			Captain. It is a forcefield of
-			some kind...
-			Reaching up from the planet
-			surface. What enormous power!
-			How does the legend describe the
-			end of the Tkon Empire?
-			By their Sun going supernova, sir.
-			Could this planet have escaped
-			that?
-			This planet, Gamma Tauri IV,
-			could have been the most distant
-			outpost, sir, in theory. But
-			since it shows no life form readings...
-			We'll have to look it over, Number
-			One. Stand by with an away team.
-			And if the Ferengi also realize
-			the forcefield emanates from the
-			planet, sir?
-			That's a complication. We may
-			have to ask them to join us in
-			this.
-			Team up with the Ferengi, sir?
-			We were ordered to learn what we
-			can about them. Do you know of
-			a better way than that?
-			Captain's log, supplemental. In
-			orbit of the mysterious planet
-			Gamma Tauri IV in the Delphi Ardu
-			star system, whose unexplained
-			forcefield has seized us with a
-			power almost beyond imagination.
-			If...
-			... there is a solution to this,
-			it almost certainly will involve
-			cooperation from the Ferengi...
-			a life form which seems as unknown
-			and mysterious as the planet we
-			orbit.
-			Ship's power drain is critical,
-			Captain. I must now shut down
-			our shields to maintain life
-			support systems.
-			Understood, Lieutenant. Open
-			hailing frequencies.
-			Hailing frequencies open, sir.
-			Ferengi vessel from Enterprise,
-			this is Captain Picard. Come in.
-			Your alien images again shock us.
-			DaiMon Tarr, regarding your
-			surrender to us, the facts are
-			somewhat different...
-			Our own probe has already shown
-			us your trickery, hu-man.
-			We withdraw our surrender.
-			Agreed, DaiMon. May this may be
-			a far more productive
-			relationship.
-			I prefer a profitable one, hu-man.
-			"Yankee Traders."
-			Explain. What means this
-			"yangeetraters"?
-			He heard that?
-			It... acknowledges your interest
-			in profit, DaiMon Taar. Is that
-			an incorrect assumption?
-			We seek only what is equitable.
-			What do you seek? Why did you
-			begin by attacking us?
-			We did not attack. We gave chase
-			in order to recover a
-			Federation-owned energy device
-			which...
-			... which we know is ours. Your
-			barbarous Federation chose to
-			place it on one of our planets!
-			On the contrary, Gamma Tauri IV
-			is recognized by all civilized
-			members of...
-			The Ferengi are not uncivilized,
-			hu-man! Is that what you
-			suggest?!
-			All I am trying to say is you have
-			taken a device clearly not your
-			own from...
-			Are you now calling us thieves?!
-			Certainly not. And I have no wish
-			to argue issues of territory or
-			property, when our mutual problem
-			remains. Like it or not...
-			We are both trapped by the power
-			draining forcefield of this
-			planet.
-			On that matter, there can be no
-			argument.
-			Might I propose a swap?
-			And... what is a "szwop"?
-			An exchange, a trade...
-			Yes, trade, hu-man. What is your
-			offer?
-			We will give you what we know
-			about the planet, and in trade,
-			you will give us your information.
-			Ridiculous. How will we know you
-			have not cheated us?
-			We must trust each other, Taar.
-			Amusing, hu-man. But impractical.
-			Then may I propose we both
-			cooperate in a joint examination
-			of the planet surface?
-			And what profit is in this, Picard
-			Captain?
-			The profit, DaiMon Tarr, lies in
-			saving all our lives.
-			We will agree to this. But I warn
-			you now, any further trickery on
-			your part will be met with no
-			mercy. Understood?
-			Understood.
-			If you care to join us, we have
-			a well-proven transporter
-			device which...
-			We have a matter-energy device
-			of our own. We will beam a
-			science team of three to whatever
-			coordinates you propose.
-			Excellent. We will transmit that
-			information shortly. Enterprise
-			out.
-			Hailing frequencies off.
-			I'll log that as "promising," at
-			least.
-			I wonder, Captain. Ordinarily,
-			I don't believe in distrust at
-			first sight... but this may be
-			an exception.
-			Especially in view of the fact
-			the image he transmitted was
-			likely distorted somehow, sir.
-			I felt the same thing, Captain.
-			He was hiding something.
-			With this power drain I see no
-			reason to delay, sir.
-			I'd like some additional help
-			on this. Can you spare Worf?
-			Take him. And be careful, Number
-			One.
-			With this power drain, we may have
-			trouble communicating with you,
-			sir.
-			Understood. Anything else?
-			Due to this forcefield, there is
-			presently no way... to beam you
-			back, sir.
-			You had to ask.
-			Understood.
-			Energize!
-			Tasha? Data? Geordi? Worf?!
-			Anybody?!
-			Very intriguing, sir.
-			What are you doing up there?
-			I assume a problem of program
-			coordinates due to the energy
-			field around the ship, sir.
-			Are we alone?
-			Unfortunately.
-			What do you make of these?
-			Crystalline, quite inert.
-			"Nothing to write home about."
-			Excuse me?
-			That is slang, sir.
-			I did use it correctly, did I not?
-			Let's find the others...
-			... they can't be too far.
-			Actually, the forces responsible
-			for this effect would create a
-			random...
-			... transporter distribution
-			inversely proportional to the
-			density of...
-			Who's that?
-			What?
-			That!
-			Geordi!
-			Geordi?! Are you conscious?
-			Do I look conscious?
-			No. What are you doing?
-			Trying to relax, sir. My foot's
-			caught...
-			Up there. I materialized upside
-			down about ten meters above the
-			surface.
-			Tricorder is useless here, sir.
-			Communications are gone, too.
-			It is fortunate you did not break
-			anyth...
-			Who's that?!
-			Who are you?
-			Captain's log, supplemental. It
-			is now six hours since our away
-			team beamed down to the planet
-			surface. On the Enterprise...
-			... our condition is rapidly
-			worsening. Ordinarily, with
-			reserve power alone, we could
-			maintain life support for several
-			months. But the force holding
-			us...
-			... has closed down all engines
-			and is draining our reserve power
-			too... Equally impossible, our
-			oxygen level is also dropping.
-			It's getting much...
-			... much colder, sir.
-			How far down is it likely to go?
-			A lot. Even in orbital space it
-			gets past minus two hundred
-			degrees.
-			We won't have to worry past...
-			... minus seventy or so.
-			Feels like that right now.
-			If he moves, kill him.
-			Letek, has what we've done broken
-			our agreement with their captain?
-			We will accuse the hu-mans of
-			preparing to ambush us. It will
-			be our word against theirs and
-			who is more trustworthy, Mordoc?
-			Hmmm. Looks like gold...
-			... tastes like gold.
-			It is gold!
-			Accursed planet! What
-			pandemonium!
-			Nothing compared to what my
-			captain will do...
-			... when he learns you've broken
-			our landing party agreement.
-			What part of the agreement?
-			You appeared and attacked us.
-			Are you one of their assassins?
-			I am Commander Riker, first
-			officer of the USS Enterprise.
-			Stop now unless you want our
-			vessel to retaliate...
-			I've got this one!
-			Careful, Commander, they're much
-			stronger than...
-			PYGMY CRETINS... !
-			Kill them.
-			Hideous monsters!
-			NOOO-O-O!!
-			That's much better, now over
-			there...
-			Is this a female?
-			A hu-man... female, Letek?
-			Then it is true. You work with
-			females, arm them, and force them
-			to wear clothing?
-			How sickening.
-			I should visit... the family
-			decks...again...
-			I've diverted... all reserve...
-			power there. They'll... last
-			longest.
-			Is there anything else we can do,
-			Doctor?
-			Where is... your son Wesley?
-			I gave him... something. He'll
-			have a... terrible headache if we
-			live.
-			You shouldn't have.
-			Shouldn't have?
-			He's my son. I love him...
-			He has the... right to meet...
-			death awake.
-			That is... a male perspective!
-			What?
-			What did you say, Jean-Luc?
-			I said... rubbish!
-			Stop! Hold it right there!
-			Set for stun!
-			Already set.
-			What is going on?!
-			What is this?!
-			How intriguing.
-			I believe we can deduce these
-			crystalline tree-shapes to be
-			energy collectors.
-			Along the same principle that is
-			draining energy from our ships.
-			But the Ferengi weapons were
-			working when we arrived here...
-			Which means something new has
-			happened...
-			Commander!
-			BE YOU BARBARIANS?! SPEAK!
-			WHO MEETS THE CHALLENGE?
-			I'm beginning to understand
-			what...
-			... these "eyes" have been showing
-			me. Patterns of force everywhere.
-			This entire planet has been made
-			into... well, a power accumulator.
-			And that?
-			... is the whole point of this
-			place. I can "see" the planet's
-			power emanating from...
-			WHO WILL IT BE?
-			Riker.
-			YOU HAVE AWAKENED PORTAL
-			SIX-THREE. DO YOU PETITION TO
-			ENTER THE EMPIRE?
-			Who asks the question?
-			I AM THE PORTAL, GUARDIAN OF THE
-			TKON EMPIRE.
-			Why should we petition for entry
-			to an empire that no longer
-			exists?
-			Biped...extraordinary.
-			Why do you attempt deception?
-			The empire is forever.
-			Your empire fell prey to a
-			supernova...
-			Nonsense!
-			Data. Please repeat the file...
-			It is a matter of record, Portal,
-			in the Age of Makto, the central
-			star of the Tkon Empire
-			destabilized and...
-			But the Age of Makto is an eon
-			in the future to come...
-			In fact, there have been many ages
-			which have come and passed since
-			Makto...
-			This is the Age of Bastu!
-			I am afraid not, as by the Tkon
-			use of galactic motionary startime
-			charts, after Bastu, there has
-			been Cimi, Xora, Makto, Ozari,
-			Fendor...
-			ENOUGH!
-			This is absurd! That is over seven
-			baktun of time! How can this be?
-			You must have been asleep,
-			Portal, for hundreds of
-			thousands of our years...
-			Deception is the way of these
-			hu-mans. We Ferengi will gladly
-			make a petition.
-			We invite their petition.
-			Excellent idea, sir.
-			I can't wait to hear it...
-			Speak.
-			We... our petition is that we be
-			allowed to... serve the Tkon
-			Empire...
-			... at no profit! Return control
-			of our starship to us and we will
-			happily destroy both the hu-man
-			criminals and their vessel which
-			attacked us without provocation.
-			They came to loot your empire,
-			but we intercepted them!
-			You have attempted deceit. Next
-			you cannot answer these accusations.
-			Do you give yourself up for
-			judgment?
-			Yes. If you believe those
-			accusations, you should act on
-			them.
-			And there is even more! We can
-			prove the hu-mans are destroyers
-			of legal commerce ... also that
-			they selfishly withhold vital
-			technology from backward worlds...
-			... and necessary defensive
-			weapons, too. We Ferengi are now
-			challenge this hu-man madness...
-			I admit we restrict advanced
-			technology to all...
-			You see! They are demented; their
-			values are insane. You cannot
-			believe the business opportunities
-			they destroy...
-			Proof of their barbarism -- they
-			adorn themselves with gold, a
-			despicable use of rare metal...
-			And they shamelessly clothe their
-			females...
-			Inviting others to unclothe
-			them... the very depth of
-			perversion...
-			Paws off, Ferengi.
-			No female, hu-man or Ferengi, can
-			order Mordoc around! Submit!
-			Just try it, shorty.
-			At ease, Lieutenant!
-			I wouldn't mess with Lieutenant
-			Yar if I were you...
-			But maybe they'd like to find out
-			the hard way, eh, Number One?
-			Seems their style.
-			Would you like to hear more?
-			If you desire.
-			They should add also that
-			Starfleet has refused to prevent
-			several civilizations from
-			falling; we have sometimes let
-			the violent and strong overcome
-			the weak...
-			They admit their crimes! Hear
-			them; they admit the evil which
-			they... !
-			BARBARIAN!
-			Yes, you show wisdom...
-			BARBARIANS, ALL!
-			But this one first. In the
-			fashion the Empire has always
-			challenged savages...
-			No! For battle, come to me...
-			You have a single chance for life.
-			One only. What is the answer to
-			my challenge?
-			There is more! Self-determination
-			of all peoples...
-			You are being tested, Riker! WHAT
-			IS THE ANSWER?
-			How do you know my name?
-			Ahhh. You are of immovable mind,
-			Riker. One totally committed to
-			facing any fate with composure...
-			But what is the answer to my
-			challenge?
-			Fear is the true enemy, the only
-			enemy.
-			You are a noble being. And unlike
-			these little ones who close their
-			minds, your mind holds interesting
-			thoughts.
-			"Know your enemy and know
-			yourself, and victory will always
-			be yours." Why that thought? And
-			who is this "Sun Tzu" you revere?
-			An old Chinese philosopher from
-			ancient Earth history...
-			You must tell me more of this
-			wisdom so much like our own.
-			Gladly. First, our starship. Can
-			you release it?
-			It is released.
-			All power is restored.
-			Not a hell of a lot too soon,
-			Jean...Captain.
-			I admit I had my doubts as your
-			ships battled each other...
-			They tried to kill us!
-			In overt acts of belligerance.
-			Normally, I would have destroyed
-			all of you and your ships, but
-			something confused me.
-			Which was?
-			First you wanted to murder each
-			other, then you were willing to
-			help each other.
-			What of our vessel? We knew the
-			same answer...
-			The truth is I gave those words
-			to this hu-man.
-			What of them? Shall I destroy
-			them?
-			Then they would learn nothing.
-			Admirable conclusion. But what
-			makes you think they will ever
-			learn, Riker?
-			Is this a test also?
-			In life, one is always tested.
-			I find them very much as we were
-			a few hundred years ago... but
-			with the technology we have now.
-			They're very dangerous...
-			Untrue! We seek friendship with
-			you...
-			But we can hardly hate what we
-			once were. They may grow and
-			learn...
-			... And learn ways of destroying
-			you.
-			Our values require us to face that
-			possibility. What of you? With
-			your empire gone... ?
-			Even without the empire, the
-			uncivilized must be tested.
-			I shall sleep... until needed
-			again.
-			What happened?
-			Something to write home about.
-			"Something to write home about?"
-			Data, that's very human.
-			The T-9 energy converter was
-			beamed aboard and secured, sir.
-			I commend your performance, Number
-			One.
-			I do have a request, sir.
-			Permission to beam a box of Data's
-			Chinese finger puzzles over to
-			the Ferengi.
-			A "thank you" for all they tried
-			to do.
-			Make it so.
+Captain's log, stardate 41194.6.
+We are in pursuit of a starship
+of Ferengi design. Our mission
+is...
+... to intercept and recover a T-9
+energy converter which the Ferengi
+stole from an unmanned monitor
+post on Gamma Tauri IV -- a theft
+which automatic scanners recorded,
+providing us...
+... with the long awaited
+opportunity to make close contact
+with a Ferengi vessel. If we
+succeed in this chase, it
+will be Starfleet's first look
+at a life form... which discounting
+rumor, we know almost nothing
+about.
+There she is!
+Enlarge.
+What is their course?
+They are now angling through that
+solar system, Captain.
+Identify.
+Listed as Delphi Ardu, sir.
+Eleven planets, unexplored.
+Stay with them, LaForge.
+Sensors read a power surge on
+their last maneuver, Captain.
+They are dropping to sub-warp
+speed... !
+Reduce to impulse power... !
+Sensor fluctuations in the energy
+readings from it, Captain.
+Possibility: a malfunction in
+their engines, sir.
+Breaks my heart.
+In visual range, Captain.
+Fully enlarge!
+Hello, stranger!
+Very impressive design.
+Anything on that design, Data?
+Nothing specific, sir. As you
+know, Ferengi technology is
+estimated to be generally equal
+to our own...
+Which does not mean identical,
+however...
+Correct, sir. We are no doubt
+advanced in some areas, they in
+others...
+They show another power surge,
+sir.
+They are firing on us!
+Damage report!
+Shields holding!
+Mostly electromagnetic, sir.
+Fusion generator and batteries
+down by...
+Our impulse engines are surging!
+They're firing again.
+Deflector shield power weakening,
+Captain.
+Phasers ready, sir. Photon
+torpedoes ready...
+Shall we return their fire,
+sir... ?
+Negative, Number One. They are
+reacting to close pursuit.
+Fall back a bit but stay with
+them.
+They are slowing too, sir.
+They may be turning to fight!
+Open hailing freq...
+Why are we gaining on them? Don't
+anticipate...
+I'm not, sir! Something's wrong...
+Sir, something is dragging us
+forward.
+Yes, I read it, too. Lieutenant
+Yar, what do your sensors show?
+Not certain, sir. I'm getting very
+confusing readings.
+Captain, this shouldn't be. Our
+ship's power systems are failing!
+Deflector shields failing, phasers
+going inoperative, sir...
+Something is completely
+immobilizing us, Captain!
+Immobilized by the damn Ferengi?!
+I need more information! Identify
+what they are using!
+Obviously we've underestimated
+their technology, Captain...
+Considerably. It appears the
+Ferengi have us right where they
+want us -- in their sights.
+Are we searching all frequencies?
+Any sign of any kind of message?
+Negative, sir.
+Weapon report, Lieutenant Worf.
+I have phasers and torpedoes
+armed, but I show insufficient
+power to fire them.
+Engineering, give me status on
+power recovery.
+Engineering, come in.
+Why aren't they answering?
+Go below, Lieutenant. Get me a
+full report from Engineering.
+Aye, sir.
+It seems impossible they could
+be draining all power from all
+systems.
+Counselor?
+I'm sensing nothing from them
+Captain. Which could mean they
+can shield their thoughts and
+emotions from others.
+Which still makes it our move.
+Sir, they may know as little about
+us as we do about them.
+Except that they know they've got
+us in deep trouble.
+If so, the question becomes how
+will they use that knowledge?
+Is there any hard information on
+them in any file, Data?
+None, sir. Only hearsay and
+thirdhand reports, most of which
+conflict.
+Which rumors do not conflict?
+That the Ferengi are... well, the
+best description may be "traders."
+What kind of "traders"?
+A more accurate comparison modern
+scholars have drawn from Earth
+history cites the ocean-going
+"Yankee Traders" of eighteenth
+and nineteenth century America,
+sir.
+From the history of my forebears?
+"Yankee Traders?"
+Who sail, in this case the
+galaxy, in search of mercantile
+and territorial opportunity.
+And are those scholars saying
+the Ferengi may not be too
+different from us?
+Hardly, sir. I believe this
+analogy refers to the nefarious
+capitalist manner in which the
+Ferengi are known to conduct their
+affairs of commerce.
+"Never give a sucker an even
+break."
+And what does that mean, Data?
+I'm not sure, sir. That entry was
+only identified as "slang", terms
+or expressions which typify
+everyday language of...
+I know what slang is, Data. I just
+haven't heard of that particular
+saying.
+But "Yankee Traders"...
+I like the sound of that. Has a
+nice historical ring to it.
+Engineering?
+Join LaForge "down below", Number
+One. Without our warp capacity,
+we're just one big floating
+target.
+Aye, sir.
+What other pertinent meaning do
+you draw from this analogy,
+"Yankee Traders?"
+Well, I doubt if they wear red,
+white and blue, sir. Or look
+anything like Uncle Sam.
+Uncle who?
+What have bright, primal colors
+got to do with it?
+Yes, I understand the allusion.
+Colors that once identified
+nations during the time when they
+competed against each other. Red,
+white and blue for the United
+States...
+Whereas the French oddly used the
+same colors in the order of blue,
+white, and red...
+... and the German nation black,
+red and gold; the Italians green,
+white and red; the British...
+Enough, Data!
+Sir, it was you who...
+We're discussing the Ferengi,
+Data!
+Mon Dieu, I wish I knew what they
+will do next...
+Given what is occurring to our
+vessel, Captain, their weapons
+could be vastly superior to ours.
+Yes, Data. That seems a
+reasonable assumption.
+Engineering?!
+Bottom line, LaForge.
+Not good, sir. The Ferengi
+forcefield that holds this ship
+compensates...
+Almost as fast as we increase
+power.
+Almost?
+There's a point-three-hundred,
+seventy-two millisecond delay
+between use of our power and the
+neutralizing counter-force of the
+Ferengi...
+We push and they push back in
+equal force, sir.
+And what is our acceleration delay
+between slow-reverse impulse and
+top warp speed?
+Point-three-hundred millisecond.
+I know what you're thinking. Shift
+down and then blow hard into warp
+nine, yes? Come back fighting,
+whooey!
+Can we do it, Geordi?
+Ask me after it's done, sir.
+I want a slow reverse-power
+drop-off over five minutes...
+We'll show them what this baby
+can do, sir.
+Give me everything you've got.
+Aye, aye, sir.
+... and with a sudden, abrupt power
+surge to high warp speed, Captain,
+I believe we can break loose from
+the Ferengi forcefield.
+I wish I knew how they are doing
+this to us.
+I wonder what they're thinking
+over there.
+That's easy. They're wondering
+what we are thinking... and what
+we might do next.
+I say fight, sir. There is
+nothing shameful in falling before
+a superior enemy.
+And nothing shameful about a
+strategic retreat, either.
+All systems ready, Captain. And
+communication's restored to
+Engineering.
+Excellent, LaForge.
+Let's throw them off guard.
+Lieutenant Yar. Open hailing
+frequencies.
+Hailing frequencies open, sir.
+At least, I won't begin with
+weakness.
+Attention Ferengi starship! This
+is Captain Jean-Luc Picard of the
+USS Enterprise. In the name of
+the United Federation of Planets,
+I demand you return the T-9 energy
+converter you removed from Gamma
+Tauri IV.
+Send in all language forms.
+All language forms, sir.
+Sometimes, Riker, the best way
+to win a fight is not to be there.
+Yes, sir. "He will triumph who
+knows when to fight and when not
+to fight."
+Glad the Academy still teaches
+the strategy of Sun Tzu...
+Let's hope that delay proves out,
+LaForge.
+Point-three-hundred milliseconds,
+sir.
+We'll blast full power into warp
+nine. Ready?
+All systems ready, Captain.
+Countdown to three. Stand by on
+phasers.
+One. Set warp to nine.
+Two. Divert shield power to main
+engines...
+Three!
+Merde.
+Shields up.
+Captain? I think you better see
+this...
+What's wrong?
+In my opinion, someone is reading
+every file, every "bit" of
+information stored in the
+Enterprise memory banks...
+They can do that?
+And more, perhaps.
+Doctor Crusher to the bridge.
+Conference evaluation.
+If I may recommend something,
+Captain, with our attention on
+the Ferengi vessel, we have
+ignored the planet.
+Consult the charts on this
+planet, Data. See what we have
+on it in the library.
+No response on hailing
+frequencies?
+We had no response.
+So, while we still have some power
+left, it is time for difficult
+decisions.
+While we cannot have a democracy
+aboard, I value your considered
+opinions.
+I say put all available power into
+a full-out combined phaser and
+photon torpedo salvo. Destroy
+their ability to sustain this
+forcefield, sir.
+Yes! Hit them hard and hit them
+fast.
+Impractical and provocative.
+Assuming even that we have the
+power to support that tactic.
+But Captain, firing on us was not
+an act of war?
+The facts are that the Ferengi
+did fire at us, but we were
+chasing them. Since then, they've
+only searched our computers,
+trying to learn who and what we
+are.
+Your point, Counselor?
+Let's talk to them.
+That has been tried; no response.
+But did we tell them anything they
+wanted to hear?
+Any other observations?
+Thank you all for your advice and
+counsel. Now if you will excuse
+me, I'd like to be left alone with
+Commander Riker.
+As my first officer, I assume you
+fully realize our situation.
+Although the final decision must
+be mine, this is your opportunity
+to speak your mind.
+I believe we have covered all
+available alternatives, Captain,
+but...
+Are there any other options you
+wish to analyze?
+The only one left needs no
+conversation, Number One. And it
+is the only one we must avoid.
+Sir?
+Total annihilation.
+Open hailing frequencies.
+Open, Captain.
+Attention, Ferengi starship! This
+is Captain Picard. It is obvious
+we have a situation here that
+needs resolving... And we are
+willing to do whatever is
+reasonable and necessary. I would
+like... I would appreciate...
+your presenting your terms to us.
+Captain's log, stardate 41194.8. It
+is with a heavy heart that I have
+offered to meet...
+... whatever reasonable and
+necessary terms are demanded by
+the Ferengi. I fear for my people
+and my vessel in the event the
+unknown Ferengi ask the
+unreasonable. How...
+... can I oppose even unreasonable
+demands?
+It's moving, sir.
+We ask to surrender and now they
+fire on us?
+Ready torpedoes, sir? There's
+enough power for a couple of them.
+Ready. But hold at ready,
+Lieutenant.
+Open hailing frequencies.
+Hailing frequencies open, sir.
+Ferengi vessel, we are awaiting
+your response.
+Suggest first strike, sir. Our
+shields now only have sixty-three
+seconds of power available before
+lowering.
+If the Ferengi ship's sensors can
+read us, sir, they will be waiting
+until we are most vulnerable...
+Captain, I'm afraid I agree.
+Since they haven't bothered to
+answer us...
+I'll wait a bit more, Number One.
+Fifty seconds...
+Patience. Patience...
+The quicker we can come to terms,
+the better, NCC 1701-D.
+Who is speaking?
+I am Taar. DaiMon of the Ferengi.
+You wished to discuss surrender,
+Captain Picard?
+What I actually said, DaiMon,
+is...
+UNCONDITIONAL...
+... Surrender, I warn you, is...
+Totally unacceptable!!
+We will die to the last one of
+us before such dishonor!
+Hailing frequency off, sir.
+Something has seized their ship
+too. They're in the same predicament
+as us.
+Launch a sensor probe. Set it
+to search for the source of this
+"something" that's holding us both.
+Back to hailing fequencies, fast.
+... and so I regret DaiMon Taar
+that I can no longer negotiate
+unless it is conducted visually.
+Your complete message not
+received, Enterprise. But visual
+communication is against our
+custom.
+And it is against Starfleet orders
+to accept a surrender otherwise.
+Do you withdraw your surrender
+offer?
+You give us no choice, Enterprise.
+May we have a visual on you too?
+Agreed, DaiMon Taar. You should
+be able to view us now.
+Do you have us on your screen?
+We... are now viewing you.
+I do not know how your twisted
+alien culture has paralyzed our
+vessel but I concede your
+'Enterprise' is superior.
+We will return your worthless T-9
+device and we offer the life of
+our second officers as required
+by the Ferengi code.
+I am relieved we have no such code
+involving our second officers.
+Is this to your satisfaction,
+Picard Captain?
+Your offer may be inadequate, but
+I will discuss it with my staff.
+Stand by for further communications.
+Matthews! Pola! You know this
+area is off-limits.
+Boys will be boys, Captain.
+Have you launched the probe?
+Yes, sir. We'll get readings
+soon.
+If we're not holding the Ferengi
+and they're not holding us... then
+who the hell is?
+Next, you wanted to show us
+something?
+As requested, Captain,
+library-computer information on
+this planet.
+It has been charted only, from
+long range scans. It is Class
+M, but with no indications of life
+forms, sentient or otherwise.
+However, you may find this of
+interest...
+Resolving it into our language...
+A space federation of some sort.
+But I've never heard the word
+"Tkon."
+Understandable. It has been
+extinct six hundred thousand
+of... of our years.
+According to... legend, these
+planets... were outposts... of that
+empire...
+Data. What are you doing?
+Apologies, Captain. I seem to have
+reached an odd functional impass.
+I am, ah...
+Stuck.
+Then get unstuck and continue your
+briefing.
+Yes, sir. That is what I am trying
+to do...
+But the solution eludes me.
+My hero.
+Continue, Commander. Now!
+Intriguing.
+Again, only legend, but it
+describes the Empire as impossibly
+huge and powerful.
+Surrounded by stars whose planets
+formed its defensive system?
+Correct, sir. Outposts. And the
+planet below was possibly one of
+them...
+Excuse the interruption, Captain,
+but this may be worth it. We're
+now receiving a signal from the
+probe.
+We'll take it here, please.
+Incredible!
+That's our mysterious "something,"
+Captain. It is a forcefield of
+some kind...
+Reaching up from the planet
+surface. What enormous power!
+How does the legend describe the
+end of the Tkon Empire?
+By their Sun going supernova, sir.
+Could this planet have escaped
+that?
+This planet, Gamma Tauri IV,
+could have been the most distant
+outpost, sir, in theory. But
+since it shows no life form readings...
+We'll have to look it over, Number
+One. Stand by with an away team.
+And if the Ferengi also realize
+the forcefield emanates from the
+planet, sir?
+That's a complication. We may
+have to ask them to join us in
+this.
+Team up with the Ferengi, sir?
+We were ordered to learn what we
+can about them. Do you know of
+a better way than that?
+Captain's log, supplemental. In
+orbit of the mysterious planet
+Gamma Tauri IV in the Delphi Ardu
+star system, whose unexplained
+forcefield has seized us with a
+power almost beyond imagination.
+If...
+... there is a solution to this,
+it almost certainly will involve
+cooperation from the Ferengi...
+a life form which seems as unknown
+and mysterious as the planet we
+orbit.
+Ship's power drain is critical,
+Captain. I must now shut down
+our shields to maintain life
+support systems.
+Understood, Lieutenant. Open
+hailing frequencies.
+Hailing frequencies open, sir.
+Ferengi vessel from Enterprise,
+this is Captain Picard. Come in.
+Your alien images again shock us.
+DaiMon Tarr, regarding your
+surrender to us, the facts are
+somewhat different...
+Our own probe has already shown
+us your trickery, hu-man.
+We withdraw our surrender.
+Agreed, DaiMon. May this may be
+a far more productive
+relationship.
+I prefer a profitable one, hu-man.
+"Yankee Traders."
+Explain. What means this
+"yangeetraters"?
+He heard that?
+It... acknowledges your interest
+in profit, DaiMon Taar. Is that
+an incorrect assumption?
+We seek only what is equitable.
+What do you seek? Why did you
+begin by attacking us?
+We did not attack. We gave chase
+in order to recover a
+Federation-owned energy device
+which...
+... which we know is ours. Your
+barbarous Federation chose to
+place it on one of our planets!
+On the contrary, Gamma Tauri IV
+is recognized by all civilized
+members of...
+The Ferengi are not uncivilized,
+hu-man! Is that what you
+suggest?!
+All I am trying to say is you have
+taken a device clearly not your
+own from...
+Are you now calling us thieves?!
+Certainly not. And I have no wish
+to argue issues of territory or
+property, when our mutual problem
+remains. Like it or not...
+We are both trapped by the power
+draining forcefield of this
+planet.
+On that matter, there can be no
+argument.
+Might I propose a swap?
+And... what is a "szwop"?
+An exchange, a trade...
+Yes, trade, hu-man. What is your
+offer?
+We will give you what we know
+about the planet, and in trade,
+you will give us your information.
+Ridiculous. How will we know you
+have not cheated us?
+We must trust each other, Taar.
+Amusing, hu-man. But impractical.
+Then may I propose we both
+cooperate in a joint examination
+of the planet surface?
+And what profit is in this, Picard
+Captain?
+The profit, DaiMon Tarr, lies in
+saving all our lives.
+We will agree to this. But I warn
+you now, any further trickery on
+your part will be met with no
+mercy. Understood?
+Understood.
+If you care to join us, we have
+a well-proven transporter
+device which...
+We have a matter-energy device
+of our own. We will beam a
+science team of three to whatever
+coordinates you propose.
+Excellent. We will transmit that
+information shortly. Enterprise
+out.
+Hailing frequencies off.
+I'll log that as "promising," at
+least.
+I wonder, Captain. Ordinarily,
+I don't believe in distrust at
+first sight... but this may be
+an exception.
+Especially in view of the fact
+the image he transmitted was
+likely distorted somehow, sir.
+I felt the same thing, Captain.
+He was hiding something.
+With this power drain I see no
+reason to delay, sir.
+I'd like some additional help
+on this. Can you spare Worf?
+Take him. And be careful, Number
+One.
+With this power drain, we may have
+trouble communicating with you,
+sir.
+Understood. Anything else?
+Due to this forcefield, there is
+presently no way... to beam you
+back, sir.
+You had to ask.
+Understood.
+Energize!
+Tasha? Data? Geordi? Worf?!
+Anybody?!
+Very intriguing, sir.
+What are you doing up there?
+I assume a problem of program
+coordinates due to the energy
+field around the ship, sir.
+Are we alone?
+Unfortunately.
+What do you make of these?
+Crystalline, quite inert.
+"Nothing to write home about."
+Excuse me?
+That is slang, sir.
+I did use it correctly, did I not?
+Let's find the others...
+... they can't be too far.
+Actually, the forces responsible
+for this effect would create a
+random...
+... transporter distribution
+inversely proportional to the
+density of...
+Who's that?
+What?
+That!
+Geordi!
+Geordi?! Are you conscious?
+Do I look conscious?
+No. What are you doing?
+Trying to relax, sir. My foot's
+caught...
+Up there. I materialized upside
+down about ten meters above the
+surface.
+Tricorder is useless here, sir.
+Communications are gone, too.
+It is fortunate you did not break
+anyth...
+Who's that?!
+Who are you?
+Captain's log, supplemental. It
+is now six hours since our away
+team beamed down to the planet
+surface. On the Enterprise...
+... our condition is rapidly
+worsening. Ordinarily, with
+reserve power alone, we could
+maintain life support for several
+months. But the force holding
+us...
+... has closed down all engines
+and is draining our reserve power
+too... Equally impossible, our
+oxygen level is also dropping.
+It's getting much...
+... much colder, sir.
+How far down is it likely to go?
+A lot. Even in orbital space it
+gets past minus two hundred
+degrees.
+We won't have to worry past...
+... minus seventy or so.
+Feels like that right now.
+If he moves, kill him.
+Letek, has what we've done broken
+our agreement with their captain?
+We will accuse the hu-mans of
+preparing to ambush us. It will
+be our word against theirs and
+who is more trustworthy, Mordoc?
+Hmmm. Looks like gold...
+... tastes like gold.
+It is gold!
+Accursed planet! What
+pandemonium!
+Nothing compared to what my
+captain will do...
+... when he learns you've broken
+our landing party agreement.
+What part of the agreement?
+You appeared and attacked us.
+Are you one of their assassins?
+I am Commander Riker, first
+officer of the USS Enterprise.
+Stop now unless you want our
+vessel to retaliate...
+I've got this one!
+Careful, Commander, they're much
+stronger than...
+PYGMY CRETINS... !
+Kill them.
+Hideous monsters!
+NOOO-O-O!!
+That's much better, now over
+there...
+Is this a female?
+A hu-man... female, Letek?
+Then it is true. You work with
+females, arm them, and force them
+to wear clothing?
+How sickening.
+I should visit... the family
+decks...again...
+I've diverted... all reserve...
+power there. They'll... last
+longest.
+Is there anything else we can do,
+Doctor?
+Where is... your son Wesley?
+I gave him... something. He'll
+have a... terrible headache if we
+live.
+You shouldn't have.
+Shouldn't have?
+He's my son. I love him...
+He has the... right to meet...
+death awake.
+That is... a male perspective!
+What?
+What did you say, Jean-Luc?
+I said... rubbish!
+Stop! Hold it right there!
+Set for stun!
+Already set.
+What is going on?!
+What is this?!
+How intriguing.
+I believe we can deduce these
+crystalline tree-shapes to be
+energy collectors.
+Along the same principle that is
+draining energy from our ships.
+But the Ferengi weapons were
+working when we arrived here...
+Which means something new has
+happened...
+Commander!
+BE YOU BARBARIANS?! SPEAK!
+WHO MEETS THE CHALLENGE?
+I'm beginning to understand
+what...
+... these "eyes" have been showing
+me. Patterns of force everywhere.
+This entire planet has been made
+into... well, a power accumulator.
+And that?
+... is the whole point of this
+place. I can "see" the planet's
+power emanating from...
+WHO WILL IT BE?
+Riker.
+YOU HAVE AWAKENED PORTAL
+SIX-THREE. DO YOU PETITION TO
+ENTER THE EMPIRE?
+Who asks the question?
+I AM THE PORTAL, GUARDIAN OF THE
+TKON EMPIRE.
+Why should we petition for entry
+to an empire that no longer
+exists?
+Biped...extraordinary.
+Why do you attempt deception?
+The empire is forever.
+Your empire fell prey to a
+supernova...
+Nonsense!
+Data. Please repeat the file...
+It is a matter of record, Portal,
+in the Age of Makto, the central
+star of the Tkon Empire
+destabilized and...
+But the Age of Makto is an eon
+in the future to come...
+In fact, there have been many ages
+which have come and passed since
+Makto...
+This is the Age of Bastu!
+I am afraid not, as by the Tkon
+use of galactic motionary startime
+charts, after Bastu, there has
+been Cimi, Xora, Makto, Ozari,
+Fendor...
+ENOUGH!
+This is absurd! That is over seven
+baktun of time! How can this be?
+You must have been asleep,
+Portal, for hundreds of
+thousands of our years...
+Deception is the way of these
+hu-mans. We Ferengi will gladly
+make a petition.
+We invite their petition.
+Excellent idea, sir.
+I can't wait to hear it...
+Speak.
+We... our petition is that we be
+allowed to... serve the Tkon
+Empire...
+... at no profit! Return control
+of our starship to us and we will
+happily destroy both the hu-man
+criminals and their vessel which
+attacked us without provocation.
+They came to loot your empire,
+but we intercepted them!
+You have attempted deceit. Next
+you cannot answer these accusations.
+Do you give yourself up for
+judgment?
+Yes. If you believe those
+accusations, you should act on
+them.
+And there is even more! We can
+prove the hu-mans are destroyers
+of legal commerce ... also that
+they selfishly withhold vital
+technology from backward worlds...
+... and necessary defensive
+weapons, too. We Ferengi are now
+challenge this hu-man madness...
+I admit we restrict advanced
+technology to all...
+You see! They are demented; their
+values are insane. You cannot
+believe the business opportunities
+they destroy...
+Proof of their barbarism -- they
+adorn themselves with gold, a
+despicable use of rare metal...
+And they shamelessly clothe their
+females...
+Inviting others to unclothe
+them... the very depth of
+perversion...
+Paws off, Ferengi.
+No female, hu-man or Ferengi, can
+order Mordoc around! Submit!
+Just try it, shorty.
+At ease, Lieutenant!
+I wouldn't mess with Lieutenant
+Yar if I were you...
+But maybe they'd like to find out
+the hard way, eh, Number One?
+Seems their style.
+Would you like to hear more?
+If you desire.
+They should add also that
+Starfleet has refused to prevent
+several civilizations from
+falling; we have sometimes let
+the violent and strong overcome
+the weak...
+They admit their crimes! Hear
+them; they admit the evil which
+they... !
+BARBARIAN!
+Yes, you show wisdom...
+BARBARIANS, ALL!
+But this one first. In the
+fashion the Empire has always
+challenged savages...
+No! For battle, come to me...
+You have a single chance for life.
+One only. What is the answer to
+my challenge?
+There is more! Self-determination
+of all peoples...
+You are being tested, Riker! WHAT
+IS THE ANSWER?
+How do you know my name?
+Ahhh. You are of immovable mind,
+Riker. One totally committed to
+facing any fate with composure...
+But what is the answer to my
+challenge?
+Fear is the true enemy, the only
+enemy.
+You are a noble being. And unlike
+these little ones who close their
+minds, your mind holds interesting
+thoughts.
+"Know your enemy and know
+yourself, and victory will always
+be yours." Why that thought? And
+who is this "Sun Tzu" you revere?
+An old Chinese philosopher from
+ancient Earth history...
+You must tell me more of this
+wisdom so much like our own.
+Gladly. First, our starship. Can
+you release it?
+It is released.
+All power is restored.
+Not a hell of a lot too soon,
+Jean...Captain.
+I admit I had my doubts as your
+ships battled each other...
+They tried to kill us!
+In overt acts of belligerance.
+Normally, I would have destroyed
+all of you and your ships, but
+something confused me.
+Which was?
+First you wanted to murder each
+other, then you were willing to
+help each other.
+What of our vessel? We knew the
+same answer...
+The truth is I gave those words
+to this hu-man.
+What of them? Shall I destroy
+them?
+Then they would learn nothing.
+Admirable conclusion. But what
+makes you think they will ever
+learn, Riker?
+Is this a test also?
+In life, one is always tested.
+I find them very much as we were
+a few hundred years ago... but
+with the technology we have now.
+They're very dangerous...
+Untrue! We seek friendship with
+you...
+But we can hardly hate what we
+once were. They may grow and
+learn...
+... And learn ways of destroying
+you.
+Our values require us to face that
+possibility. What of you? With
+your empire gone... ?
+Even without the empire, the
+uncivilized must be tested.
+I shall sleep... until needed
+again.
+What happened?
+Something to write home about.
+"Something to write home about?"
+Data, that's very human.
+The T-9 energy converter was
+beamed aboard and secured, sir.
+I commend your performance, Number
+One.
+I do have a request, sir.
+Permission to beam a box of Data's
+Chinese finger puzzles over to
+the Ferengi.
+A "thank you" for all they tried
+to do.
+Make it so.

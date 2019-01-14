@@ -1,943 +1,943 @@
-			Captain's log, Stardate 43489.2.
-			We have arrived at Angosia, a
-			planet that is eager for
-			membership in the Federation.
-			I'm greatly impressed with what
-			I've seen so far, Prime Minister.
-			Then I hope it will reflect
-			favorably in your report, Captain.
-			It's a tribute to your people to
-			have recovered so rapidly from
-			the Tarsian War.
-			It is indeed.
-			We are not warriors. We believe
-			reason can settle disputes. But
-			not every culture agrees with our
-			position.
-			An unfortunate reality.
-			The development of the mind, the
-			cultivation of the intellect --
-			these are the pursuits to which
-			the Angosians have dedicated
-			themselves for centuries.
-			I'm sorry to interrupt, Prime
-			Minister. There's a problem.
-			May I see you a moment?
-			Excuse me, gentlemen.
-			I think they'll make a fine
-			addition to the Federation, Number
-			One...
-			I'm not sure I'd want to live
-			here. A little stuffy for my
-			taste.
-			A prisoner has escaped from the
-			penal colony on Lunar Five.
-			Two guards are dead. The prisoner
-			has taken a transport vessel.
-			Do you have means of pursuit?
-			The tracking station was
-			sabotaged. The entire base is
-			in chaos. We have ordered ships
-			from the surface to follow him,
-			but to be honest, our civilian
-			pilots are not trained to handle
-			this...
-			With your permission, sir... ?
-			Mister Data, a stolen transport
-			vessel has departed from Lunar
-			Five. Have you picked it up on
-			sensors?
-			Yes, Commander.
-			Good. Detain the vessel and
-			quarantine the pilot.
-			Is he armed?
-			Yes. And he's very dangerous,
-			Captain. Lunar Five is our
-			maximum security facility.
-			Did you hear that, Data?
-			Yes, Commander, we will use
-			extreme caution.
-			Keep us informed. Riker out.
-			On screen, sir...
-			Specifications on the vessel,
-			Mister Worf.
-			No warp drive. Minimal weaponry.
-			Heading, Ensign Crusher.
-			Three-one-nine mark
-			two-five-zero.
-			Vessel's speed increasing to
-			point-two impulse. He's seen us,
-			Data.
-			The ship's drive section...
-			What happened to the rest of his
-			ship?
-			Scan the drive section for life
-			form readings.
-			None.
-			Mister Crusher, bring us around
-			to the back side of the asteroid.
-			Sensors indicate wreckage on the
-			asteroid's surface.
-			No life signs.
-			Apparently, he did not survive.
-			Data, the drive section...
-			where'd it go?
-			There's no sign of it on its
-			previous heading. Someone must
-			be at the helm.
-			Status report, Mister Data?
-			I am afraid the prisoner has eluded
-			us, sir.
-			We followed procedures precisely.
-			Scanners indicated no life forms
-			present in the drive section.
-			I cannot explain how he escaped.
-			Incoming message from the Angosian
-			prime minister.
-			On screen.
-			We've identified the prisoner,
-			Captain. His name is Roga Danar.
-			His criminal record is too long
-			to go into. But you must be aware
-			that he is given to bouts of
-			uncontrollable violence.
-			We appreciate the warning, Prime
-			Minister. We will keep you posted
-			on our progress.
-			Mister LaForge, how far and how
-			fast can that transport ship
-			travel?
-			Without warp drive, there's no
-			way it could be outside our range
-			by now.
-			We've been sweeping the area
-			constantly, Commander. There's
-			nothing within sensor range.
-			A cloaking device?
-			The Angosians have no cloaking
-			technology...
-			Unless he's borrowing one...
-			If he's hanging over the planet's
-			pole, its magnetic field could
-			confuse the sensors.
-			I believe I can recalibrate our
-			sensors to read through the
-			electromagnetic interference over
-			the poles, Commander.
-			Realign for polar orbit.
-			Aye, sir.
-			There he is, Commander. You were
-			correct.
-			The fellow knows all the tricks,
-			doesn't he...
-			There are still no life form
-			readings coming from the vessel.
-			It could be the magnetic
-			interference, Data.
-			I have compensated. There are no
-			readings.
-			We'll have our answer shortly.
-			Lock on tractor beam, Mister La
-			Forge.
-			Tractor beam locking on.
-			Sir, the vessel is coming about.
-			Is he out of his mind?
-			Sensors detect a massive power
-			build up in his aft thrusters.
-			On Main Viewer, Mister Worf.
-			He's making a suicide run.
-			Shields have been automatically
-			activated. Tractor beam
-			disengaged.
-			He's bounced off our shields.
-			That's one trick I didn't even
-			know about...
-			Ensign Crusher, fix coordinates
-			of that vessel. We'll transport
-			the whole thing to a shuttlebay
-			if we have to.
-			I do not think that will be
-			necessary, Captain. He is no
-			longer in the drive section.
-			I anticipated this diversionary
-			tactic based on his pattern to
-			date. We are picking up a
-			cylindrical object approximately
-			seven meters in length and three
-			meters in diameter.
-			On screen, Captain.
-			An escape pod.
-			This guy is incredible.
-			Yet there are still no life form
-			readings.
-			Transporter Room Four, prepare
-			to beam aboard anything that's
-			large enough to be a humanoid
-			adult from inside that pod.
-			Security to Transporter Room Four.
-			We are holding the contents in
-			stasis pending arrival of
-			security. An illicit weapon has
-			been detected in the transport
-			beam, sir. It's been rendered
-			inoperable.
-			Let's greet our guest.
-			Just stay where you are.
-			What the hell...
-			Take him to the detention cell.
-			Set phasers on kill.
-			We need a few hours to get the
-			containment field on Lunar Five
-			operational before we pick him
-			up. The damage he caused during
-			his escape was considerable.
-			We will await your signal.
-			I appreciate your patience. Our
-			prison psychologist has
-			recommended you keep Danar fully
-			sedated until he's ready for
-			transport.
-			He's in our highest security
-			detention area... there shouldn't
-			be any more problems...
-			Do not relax your security for
-			one moment, Captain. He is
-			extremely violent and cunning,
-			as you already know, Commander
-			Riker. I'm so pleased to learn
-			your injuries are not serious.
-			My most sincere apologies...
-			None required, Prime Minister.
-			I will send a transport vessel
-			to retrieve him as soon as
-			possible. Nayrok out.
-			Have you run a diagnostic on the
-			sensors, Data?
-			Yes, Commander. There is nothing
-			wrong with the ship's sensors.
-			The reason that we did not sense
-			any life signs aboard the escape
-			vessel is because the prisoner
-			has no life signs.
-			Computer, identify the occupant
-			in the detention cell.
-			The detention cell is vacant at
-			this time.
-			Can he be some sort of android?
-			Our sensors can identify
-			artificial lifeforms, Captain.
-			Apparently, he is capable of
-			deceiving the sensors.
-			Are you all right?
-			What is this ship?
-			You are on board the USS
-			Enterprise.
-			A war vessel?
-			A Federation starship.
-			Federation...
-			We were orbiting Angosia when you
-			escaped from Lunar Five.
-			It seems I am a victim of my own
-			bad timing.
-			And you are the keeper of this
-			jail?
-			I am Deanna Troi. Ship's
-			counselor.
-			"Counselor". Too bad. I'd rather
-			you were a jailer to keep me
-			company during my return trip.
-			I assume that we are returning
-			to Lunar Five...
-			That terrifies you, doesn't it?
-			I have just killed two men to get
-			out of there, Counselor.
-			I am fully capable of killing you
-			too. A terrifying thought, isn't
-			it? Even to me.
-			Do they mistreat you there?
-			Not at all. I am comfortable,
-			well fed and housed.
-			The Angosians take good care of
-			their... prisoners. I am simply
-			not allowed to ever leave.
-			Do you visit all the prisoners,
-			Counselor? Are you a specialist
-			in criminal behavior? Or am I
-			just an interesting specimen that
-			landed on your ship like an insect
-			to be studied under your
-			microscope...
-			Why do you have such anger toward
-			me?
-			A girl with long dark hair broke
-			my heart long ago... out of
-			bitterness and rejection, I
-			turned to crime...
-			How about this one -- my mother
-			abandoned me when I was born and
-			I never had the guidance a wild
-			young man needs...
-			Why are you doing this?
-			Playing games? Isn't that what
-			you do, Counselor? Isn't that
-			what all of you mind control
-			experts do?
-			I am not a mind control expert.
-			I came because I sensed you were
-			in pain.
-			And now, what do you sense?
-			The pain is gone.
-			Interesting, isn't it?
-			There is a duality in the man...
-			hard to describe... he is aware
-			of his crimes... in fact, they
-			deeply trouble him...
-			Counselor...
-			He is intelligent... a thoughtful
-			man. Typically Angosian. I know
-			what he's done, but when I am
-			with him, I cannot believe he is
-			randomly and deliberately
-			violent... in fact, inherantly,
-			he has a non-violent
-			personality...
-			Counselor, it took five men to
-			restrain him... and he took apart
-			half of the Transporter Room in
-			the process.
-			I am not opening the door for him,
-			Captain.
-			I can only tell you I sense
-			something very unusual about this
-			man. Something that is not
-			inherent to a criminal
-			personality...
-			Your dedication to helping others
-			in pain is admirable, Counselor.
-			But in a few hours, I will turn
-			him over to the Angosians... and
-			be glad to do so.
-			I understand.
-			Data, do we have a link up to the
-			Angosian central computer?
-			Yes, Counselor... we are copying
-			records for Federation inspection
-			pursuant to their application for
-			admittance.
-			Can I see a police record on Roga
-			Danar?
-			There is no police record,
-			Counselor.
-			But that's impossible. He's been
-			in prison.
-			Lunar Five is a military prison
-			facility...
-			Military... he's a soldier... ?
-			That may provide an explanation
-			for the tactics he was able to
-			use against us when we tried to
-			capture him...
-			It doesn't say what he was
-			arrested for. Call up his
-			military record.
-			He served in many campaigns during
-			the Tarsian War, received two
-			promotions, to the rank of
-			Subhadar... a very honorable tour
-			of duty...
-			What was this man's crime?
-			I've learned you are a soldier.
-			I was a soldier.
-			Why were you put in prison?
-			Obviously, because I am a threat
-			to society.
-			There is no police record. What
-			did you do?
-			Everything they asked me to do.
-			That's why I became such a
-			threat.
-			I don't understand.
-			Why are you bothering to try,
-			Counselor?
-			I want to help if I can.
-			Unlock the door.
-			Why does a non-violent man commit
-			acts of excessive violence?
-			You can learn to do it if you have
-			to.
-			Did you have to?
-			It was war.
-			This started in the war...
-			It started the day I volunteered,
-			Counselor... the day training
-			began... the day I met my first
-			instructor. He called himself
-			a "counselor" too.
-			Roga Danar was an idealistic young
-			man who answered his people's call
-			to service. He joined the
-			military to fight for the Angosian
-			way of life. He didn't realize
-			that by doing so... he would
-			forever have to give up that way
-			of life. He's not the same man
-			who left home to go to war. He's
-			been through intense psychological
-			manipulation as well as
-			biochemical modifications.
-			At Troi's request I examined
-			him... his cellular structure
-			has been been significantly
-			altered... They used a
-			combination of cryptobiolin,
-			triclenidil, macrospentol... and
-			a few things I don't even
-			recognize.
-			Was he a prisoner of war? Who
-			did this to him?
-			His own government.
-			He has been programmed to be the
-			perfect soldier. He can be
-			absolutely normal, but whenever
-			a danger is perceived, the
-			programming clicks in and takes
-			over. Intelligence, memory,
-			strength, reflexes -- all become
-			enhanced. He is conditioned to
-			survive at any cost.
-			One of the new substances in his
-			cellular structure even shields
-			electrical impulses.
-			That would explain why our sensors
-			did not detect him.
-			Why was this man assigned to the
-			Lunar Five facility?
-			He committed no crime. He says
-			he was ordered there... with
-			others like him. The first
-			soldiers who had returned to
-			Angosia had trouble. The rules
-			changed too quickly. A lost
-			temper could result in murder.
-			Counselor, did no one try to
-			adjust their progam?
-			They were simply exiled to Lunar
-			Five.
-			What do you want...
-			Am I disturbing you?
-			Yes.
-			Then I will leave.
-			Wait. I'd rather talk to someone.
-			I'm sorry.
-			Why do you have yellow eyes?
-			Simply a lack of pigmentation.
-			I am an android. You and I have
-			something in common.
-			We do?
-			Yes. We have both been
-			programmed.
-			Ah, you have been talking with
-			Counselor Troi.
-			It is not at all the same,
-			android.
-			I do not mean to belittle your
-			condition. I understand your
-			dilemma. But I am curious. My
-			program can be altered and
-			changed. Yours cannot?
-			The man I once was is still inside
-			me... but this conditioning has
-			been imposed... woven together
-			with my thoughts and feelings and
-			responses. How do you separate
-			the program from the man?
-			Without further analysis of your
-			condition by Counselor Troi or
-			Doctor Crusher, I cannot say.
-			But it would seem possible.
-			Doctors. Angosian doctors did
-			this to me. If it could be
-			undone, wouldn't they undo it?
-			I cannot answer that.
-			Nor can I... and I ask the
-			question every moment of every
-			day.
-			Captain, what he is telling you
-			is full of half-truths... he is
-			a prisoner, what do you expect
-			him to say about us?
-			Then, perhaps you'd clarify it
-			for me...
-			These soldiers were resettled on
-			Lunar Five... it was to be their
-			colony...
-			Their Gulag...
-			I beg your pardon?
-			Was it a forced "resettlement"?
-			It was for their own protection
-			as well as that of others. Most
-			of them are quite happy there...
-			we have gone to great lengths to
-			give them a fine quality of
-			life...
-			Even the most comfortable prison
-			is a prison, Prime Minister.
-			A few agitators like Danar forced
-			us to add security...
-			Prime Minister, my medical team
-			has suggested there may be
-			treatment alternatives...
-			Captain, I assure you all
-			alternatives have been explored.
-			And this discussion is now
-			treading upon matters of Angosian
-			security. This is not your
-			concern.
-			I have dispatched a ship to
-			rendezvous with you and transport
-			the prisoner back to Lunar Five.
-			On behalf of Angosia, I thank the
-			Federation for its assistance in
-			retrieving our citizen.
-			Were you built for combat,
-			android?
-			No. But my program does include
-			military strategy... that is how
-			I was finally able to anticipate
-			your last tactic and capture you.
-			You did that? Perhaps you would
-			be better at combat than you
-			think.
-			I am not programmed to kill.
-			My improved reflexes have allowed
-			me to kill eighty-four times.
-			And my improved memory lets me
-			remember the face of each of those
-			eighty-four. Can you understand
-			how that feels?
-			I am incapable of any feeling.
-			Then I envy you.
-			Roga, this is Captain Picard
-			Captain...
-			Mister Danar, I am going to
-			transfer you back to Angosian
-			security. They are en route and
-			will arrive shortly. I came to
-			tell you that I have no choice.
-			The prime minister has insisted
-			and we have no right to refuse.
-			And you would be foolish if you
-			even considered it, Captain...
-			because they are very correct.
-			I am dangerous. I have no place
-			in a civilized society.
-			I do not believe that.
-			Nor do I.
-			I respect my officers' judgement,
-			Danar. I wish I could help
-			further. If a way appears to me,
-			I will.
-			I appreciate your telling me
-			face-to-face.
-			I felt you deserved that much.
-			You deserve to know that I must
-			use whatever means I can to
-			escape.
-			Captain, the Angosian transport
-			vessel has arrived.
-			Inform them the transfer will take
-			place shortly. Picard out.
-			Mister Data, to the bridge
-			please...
-			Take care of yourself, android.
-			I enjoyed our talk.
-			Good-bye, Roga.
-			Perhaps when this planet becomes
-			a member of the Federation, we
-			will be able...
-			I will not be here to see it,
-			Counselor. Because even with this
-			overwhelming demand to survive
-			that they've built into my soul...
-			I would rather die than return
-			to Lunar Five.
-			Captain Picard, we're ready to
-			receive the prisoner. Now
-			transmitting the coordinates of
-			our holding cell.
-			Coordinates received, sir.
-			Stand by for transport. Picard
-			out.
-			Mister Worf, have all security
-			precautions been taken?
-			Release of the force field and
-			activation of the transporter
-			will be virtually simultaneous,
-			Captain... There will only be
-			a point-one second interval
-			between them.
-			Even Danar can't move that fast.
-			There will be a full security
-			contingent present. Phasers will
-			be set on kill.
-			Proceed.
-			Transporter Room One to Lieutenant
-			Worf. We're ready.
-			Proceed.
-			Energizing...
-			Roga, don't, you'll be killed...
-			I'm losing him... what the
-			hell... ?
-			Security personnel, full alert.
-			Shut down all shuttlebays,
-			transporters, and turbolifts.
-			Captain, a phaser is missing.
-			We must assume that he's armed.
-			Sound general quarters. Clear
-			corridors of all non-essential
-			personnel. I don't want him
-			taking any hostages.
-			General quarters sounded, sir.
-			Raise security containment fields
-			immediately on decks thirty-four,
-			thirty-five, and thirty-six.
-			Data... put the turbolifts back
-			on line. If Danar sees they're
-			operating, he may try to use one.
-			Soon as he does, we have him.
-			Sir, unauthorized access of
-			turbolift dive on deck thirty-four.
-			He took the bait.
-			Data -- override its destination
-			and divert that turbolift to a
-			position near Lieutenant Worf's
-			current location.
-			We're in position.
-			Four seconds to arrival.
-			Phaser on overload! Seal this
-			deck --
-			Captain, the overload's been
-			averted.
-			Ingenious.
-			Drop force field on deck
-			thirty-six.
-			Sir, containment field down on
-			deck thirty-six.
-			How the hell did he manage that?
-			He's headed for Engineering.
-			Riker to LaForge.
-			Engineering -- respond.
-			Sir -- someone in Engineering is
-			attempting to override the
-			security system lockout.
-			Riker to Worf. He's in
-			Engineering...
-			Acknowledged, Commander.
-			Data -- I want you to stall
-			Danar. Allow him to think he's
-			succeeding.
-			As he bypasses each subsystem,
-			I can reroute it without his
-			knowledge.
-			Make it so.
-			Danar is extremely adept, sir.
-			I am not certain which security
-			measure he is attempting to
-			circumvent.
-			Sir, Danar has succeeded in
-			restoring power to Shuttlebay Two.
-			I have overridden Danar's bypass;
-			Shuttlebay Two is once again
-			inactive.
-			Very good, Mister Data. And now
-			we know where he's headed.
-			He surprised us... came out of
-			nowhere. I didn't know anyone
-			could move that fast...
-			Lieutenant, I am reading an open
-			access panel... K-twelve, deck
-			thirty.
-			Acknowledged.
-			Danar must have climbed the
-			reactor core and gotten into a
-			Jefferies tube. He could be
-			anywhere.
-			We believe he is attempting to
-			reach Shuttlebay Two.
-			That's twenty-five decks up from
-			here... quite a climb... but I
-			wouldn't put it past him...
-			There is a full contingent of
-			security waiting at all
-			shuttlebays.
-			You want my advice... double it.
-			Reading another open access
-			panel...
-			Security team to Jefferies tube
-			J-four, deck fifteen.
-			Security acknowledges. On our
-			way.
-			Deck fifteen. Only a few decks
-			below the shuttlebay.
-			Captain, I find it highly unlikely
-			that Danar is attempting to reach
-			Shuttlebay Two.
-			Explain.
-			In our previous encounter, Danar
-			employed a strategy of
-			misdirection in an attempt to gain
-			his objective.
-			And you believe he's using the
-			same tactic now.
-			He is aware that our sensors are
-			unable to track him. Yet he seems
-			to be purposely leaving a trail
-			for us to follow.
-			And where do you think he's
-			headed.
-			I am afraid his true destination
-			remains a mystery.
-			Captain, readings now indicate
-			an open access panel... Jeffries
-			tube N-eleven, deck thirty-eight.
-			He doubled back on us.
-			The cargo bays?
-			Advise personnel on deck
-			thirty-eight to stay out of all
-			Cargo Bays.
-			They would appear to be empty,
-			sir.
-			Good. I want you to flood them
-			with Anastazine.
-			Sensors show Anestazine
-			concentration of seventy parts
-			per million within the cargo
-			bays.
-			That should have put our boy to
-			sleep.
-			Restore normal environmental
-			conditions, Mister Data.
-			Move in security teams, Mister
-			Worf.
-			Acknowledged.
-			Worf to bridge. We have found no
-			sign of the intruder. But there is
-			a pressure suit missing from Cargo
-			Bay Three.
-			A pressure suit...
-			Could be he's planning to enter
-			Shuttlebay Two from outside the
-			Enterprise... bypassing the
-			security guards.
-			Mister Worf --
-			Post security guards at all
-			emergency airlocks on decks
-			thirty-seven through thirty-nine...
-			Aye, sir. I'll also cover the
-			photon torpedo launchers... Danar
-			may attempt to leave the ship that
-			way. Worf out.
-			You are cunning, Danar... you must
-			have Klingon blood. But the
-			battle is over.
-			My battle is never over.
-			Worf to bridge. I have Danar...
-			Explosion in Jefferies Tube
-			section T-nine-five. All external
-			sensors are inoperative.
-			Go to backup systems.
-			Unable to transfer control...
-			Worf to bridge. Danar has
-			escaped. He used a phaser to
-			power the cargo transporter.
-			Coordinates indicate he beamed
-			aboard the Angosian transport
-			ship.
-			Data, can you verify that?
-			Negative. External sensors are
-			still nonfunctioning.
-			Then we have no way to track him.
-			That was his plan all along.
-			First officer's log, supplemental.
-			We are continuing to repair damage
-			to the ship's sensors following
-			the escape of the Angosian
-			prisoner Danar. He is still at
-			large.
-			Engineering, I'm getting readings
-			at Tactical, are we back up...
-			That's affirmative, Commander.
-			Sweep the area, Mister Worf...
-			Captain, the prime minister is
-			hailing us, priority one...
-			On screen.
-			Yes, Prime Minister.
-			Captain, I've just been informed
-			that Roga Danar has attacked the
-			penal colony on Lunar Five...
-			Attacked it... ?
-			In our own police shuttle.
-			Several of my people are wounded.
-			Hundreds of prisoners are rioting.
-			Some of them have escaped with
-			Danar. We have reports they are
-			headed for the capitol city...
-			Captain, we are not suited to
-			handle situations like this...
-			that's why we created them...
-			We'll send an away team, Prime
-			Minister... Picard out.
-			Counselor Troi, Mister Data,
-			Lieutenant Worf... you will
-			accompany me to the planet...
-			My understanding is that these
-			men were programmed to survive,
-			is that correct?
-			Yes, Captain.
-			And they will not kill unless
-			their survival is at stake?
-			It is against their nature to do
-			so, Captain.
-			Then let us hope they do not
-			believe their survival is at
-			stake.
-			Mister Worf, you are personally
-			responsible for the captain's
-			safety.
-			I understand, Commander.
-			I do not expect them to listen
-			to reason... I loathe the idea
-			of a violent confrontation, but
-			we must be prepared...
-			This is all you've brought... ?
-			Where are your security men... ?
-			We're not here to fight your wars,
-			Prime Minister...
-			They've been seen moving toward
-			the center of the city... people
-			are scared, Captain... don't you
-			understand... ? They're dangerous.
-			You are dangerous. They are only
-			victims.
-			You made them what they are. You
-			asked them to defend your way of
-			life... then you discarded them.
-			They were not happy here...
-			They were not welcome here.
-			It was the will of the people to
-			resettle them...
-			Nobody was pleased with the
-			solution, Captain... but we had
-			to act for the greater good...
-			Prime Minister, if you have the
-			skills to create a master
-			soldier, can you not contradict
-			the effect... ?
-			The chemicals can be removed from
-			their systems. But we're not
-			convinced the psychological
-			conditioning can be entirely
-			reversed.
-			Have you tried?
-			We've studied it thoroughly...
-			even before the training began,
-			we knew there would be problems
-			reversing it. It was a risk we
-			had to take.
-			Did you reveal that "risk" to the
-			men who volunteered for service?
-			We were helping them to survive the,
-			war, don't you understand? They
-			needed these skills...
-			They are your sons, your brothers.
-			And you have turned your backs on
-			them.
-			There are methods of treatment...
-			until you try them, you can't know
-			if they will work. Even a partial
-			recovery would give them some
-			peace...
-			It was the will of the people...
-			To allow them to suffer?
-			There was a referendum. The
-			people weighed the costs involved.
-			They chose the resettlement
-			solution.
-			Besides, we may need to use them
-			again some day.
-			Unless you are prepared to die,
-			I'd suggest you put that down.
-			Do as he says.
-			Shoot us. Destroy us. Do what
-			you have to do. But, by God, you
-			will no longer ignore us.
-			Danar, it appears to me that you
-			are deliberately attempting to
-			provoke a response... so you may
-			justify your own attack on men
-			who do not wish to fight...
-			Cowards...
-			Yes...
-			But you are not programmed to
-			murder cowards... and if they will
-			not fight back, what will you
-			do?
-			We will not go back...
-			You are programmed to survive...
-			you can survive at the Lunar Five
-			settlement...
-			Survival is not enough... to exist
-			is not enough...
-			Roga, tell them what you want.
-			We want our lives back. We want
-			to come home.
-			I'm not prepared to negotiate
-			under a threat, Danar... but if
-			you will put down your arms and
-			return peacefully to Lunar Five...
-			I would be willing...
-			Mister Prime Minister. Our
-			respects, sir. But you'll have
-			to force us... or try to.
-			Captain, you must do something,
-			call your ship...
-			You're quite right, Prime
-			Minister.
-			Enterprise, prepare to beam the
-			away team back.
-			At your command, Captain.
-			You can't leave us like this,
-			Picard.
-			We have everything we need for
-			our report. Your prisoner has
-			been returned to you. You have
-			a decision to make... either try
-			to force them back or welcome them
-			home. In your own words, this
-			is not our affair. We cannot
-			interfere with the natural course
-			of your society's development and
-			I'd say it's likely to develop
-			significantly during the next
-			several minutes.
-			It's been an interesting stay.
-			When you are ready for membership
-			in the Federation, we will be
-			pleased to reconsider your
-			application.
-			Four to beam up, Mister Riker.
-			Success, Captain?
-			Number One, note in your report
-			that if the government of Angosia
-			survives the night, we will offer
-			Federation assistance in the
-			efforts to reprogram their
-			veterans.
-			And if the government doesn't
-			survive?
-			I have a feeling they will choose
-			to.
-			Mister Crusher, set coordinates
-			for the starbase at Lya Three.
-			Coordinates set, Captain.
-			Engage.
+Captain's log, Stardate 43489.2.
+We have arrived at Angosia, a
+planet that is eager for
+membership in the Federation.
+I'm greatly impressed with what
+I've seen so far, Prime Minister.
+Then I hope it will reflect
+favorably in your report, Captain.
+It's a tribute to your people to
+have recovered so rapidly from
+the Tarsian War.
+It is indeed.
+We are not warriors. We believe
+reason can settle disputes. But
+not every culture agrees with our
+position.
+An unfortunate reality.
+The development of the mind, the
+cultivation of the intellect --
+these are the pursuits to which
+the Angosians have dedicated
+themselves for centuries.
+I'm sorry to interrupt, Prime
+Minister. There's a problem.
+May I see you a moment?
+Excuse me, gentlemen.
+I think they'll make a fine
+addition to the Federation, Number
+One...
+I'm not sure I'd want to live
+here. A little stuffy for my
+taste.
+A prisoner has escaped from the
+penal colony on Lunar Five.
+Two guards are dead. The prisoner
+has taken a transport vessel.
+Do you have means of pursuit?
+The tracking station was
+sabotaged. The entire base is
+in chaos. We have ordered ships
+from the surface to follow him,
+but to be honest, our civilian
+pilots are not trained to handle
+this...
+With your permission, sir... ?
+Mister Data, a stolen transport
+vessel has departed from Lunar
+Five. Have you picked it up on
+sensors?
+Yes, Commander.
+Good. Detain the vessel and
+quarantine the pilot.
+Is he armed?
+Yes. And he's very dangerous,
+Captain. Lunar Five is our
+maximum security facility.
+Did you hear that, Data?
+Yes, Commander, we will use
+extreme caution.
+Keep us informed. Riker out.
+On screen, sir...
+Specifications on the vessel,
+Mister Worf.
+No warp drive. Minimal weaponry.
+Heading, Ensign Crusher.
+Three-one-nine mark
+two-five-zero.
+Vessel's speed increasing to
+point-two impulse. He's seen us,
+Data.
+The ship's drive section...
+What happened to the rest of his
+ship?
+Scan the drive section for life
+form readings.
+None.
+Mister Crusher, bring us around
+to the back side of the asteroid.
+Sensors indicate wreckage on the
+asteroid's surface.
+No life signs.
+Apparently, he did not survive.
+Data, the drive section...
+where'd it go?
+There's no sign of it on its
+previous heading. Someone must
+be at the helm.
+Status report, Mister Data?
+I am afraid the prisoner has eluded
+us, sir.
+We followed procedures precisely.
+Scanners indicated no life forms
+present in the drive section.
+I cannot explain how he escaped.
+Incoming message from the Angosian
+prime minister.
+On screen.
+We've identified the prisoner,
+Captain. His name is Roga Danar.
+His criminal record is too long
+to go into. But you must be aware
+that he is given to bouts of
+uncontrollable violence.
+We appreciate the warning, Prime
+Minister. We will keep you posted
+on our progress.
+Mister LaForge, how far and how
+fast can that transport ship
+travel?
+Without warp drive, there's no
+way it could be outside our range
+by now.
+We've been sweeping the area
+constantly, Commander. There's
+nothing within sensor range.
+A cloaking device?
+The Angosians have no cloaking
+technology...
+Unless he's borrowing one...
+If he's hanging over the planet's
+pole, its magnetic field could
+confuse the sensors.
+I believe I can recalibrate our
+sensors to read through the
+electromagnetic interference over
+the poles, Commander.
+Realign for polar orbit.
+Aye, sir.
+There he is, Commander. You were
+correct.
+The fellow knows all the tricks,
+doesn't he...
+There are still no life form
+readings coming from the vessel.
+It could be the magnetic
+interference, Data.
+I have compensated. There are no
+readings.
+We'll have our answer shortly.
+Lock on tractor beam, Mister La
+Forge.
+Tractor beam locking on.
+Sir, the vessel is coming about.
+Is he out of his mind?
+Sensors detect a massive power
+build up in his aft thrusters.
+On Main Viewer, Mister Worf.
+He's making a suicide run.
+Shields have been automatically
+activated. Tractor beam
+disengaged.
+He's bounced off our shields.
+That's one trick I didn't even
+know about...
+Ensign Crusher, fix coordinates
+of that vessel. We'll transport
+the whole thing to a shuttlebay
+if we have to.
+I do not think that will be
+necessary, Captain. He is no
+longer in the drive section.
+I anticipated this diversionary
+tactic based on his pattern to
+date. We are picking up a
+cylindrical object approximately
+seven meters in length and three
+meters in diameter.
+On screen, Captain.
+An escape pod.
+This guy is incredible.
+Yet there are still no life form
+readings.
+Transporter Room Four, prepare
+to beam aboard anything that's
+large enough to be a humanoid
+adult from inside that pod.
+Security to Transporter Room Four.
+We are holding the contents in
+stasis pending arrival of
+security. An illicit weapon has
+been detected in the transport
+beam, sir. It's been rendered
+inoperable.
+Let's greet our guest.
+Just stay where you are.
+What the hell...
+Take him to the detention cell.
+Set phasers on kill.
+We need a few hours to get the
+containment field on Lunar Five
+operational before we pick him
+up. The damage he caused during
+his escape was considerable.
+We will await your signal.
+I appreciate your patience. Our
+prison psychologist has
+recommended you keep Danar fully
+sedated until he's ready for
+transport.
+He's in our highest security
+detention area... there shouldn't
+be any more problems...
+Do not relax your security for
+one moment, Captain. He is
+extremely violent and cunning,
+as you already know, Commander
+Riker. I'm so pleased to learn
+your injuries are not serious.
+My most sincere apologies...
+None required, Prime Minister.
+I will send a transport vessel
+to retrieve him as soon as
+possible. Nayrok out.
+Have you run a diagnostic on the
+sensors, Data?
+Yes, Commander. There is nothing
+wrong with the ship's sensors.
+The reason that we did not sense
+any life signs aboard the escape
+vessel is because the prisoner
+has no life signs.
+Computer, identify the occupant
+in the detention cell.
+The detention cell is vacant at
+this time.
+Can he be some sort of android?
+Our sensors can identify
+artificial lifeforms, Captain.
+Apparently, he is capable of
+deceiving the sensors.
+Are you all right?
+What is this ship?
+You are on board the USS
+Enterprise.
+A war vessel?
+A Federation starship.
+Federation...
+We were orbiting Angosia when you
+escaped from Lunar Five.
+It seems I am a victim of my own
+bad timing.
+And you are the keeper of this
+jail?
+I am Deanna Troi. Ship's
+counselor.
+"Counselor". Too bad. I'd rather
+you were a jailer to keep me
+company during my return trip.
+I assume that we are returning
+to Lunar Five...
+That terrifies you, doesn't it?
+I have just killed two men to get
+out of there, Counselor.
+I am fully capable of killing you
+too. A terrifying thought, isn't
+it? Even to me.
+Do they mistreat you there?
+Not at all. I am comfortable,
+well fed and housed.
+The Angosians take good care of
+their... prisoners. I am simply
+not allowed to ever leave.
+Do you visit all the prisoners,
+Counselor? Are you a specialist
+in criminal behavior? Or am I
+just an interesting specimen that
+landed on your ship like an insect
+to be studied under your
+microscope...
+Why do you have such anger toward
+me?
+A girl with long dark hair broke
+my heart long ago... out of
+bitterness and rejection, I
+turned to crime...
+How about this one -- my mother
+abandoned me when I was born and
+I never had the guidance a wild
+young man needs...
+Why are you doing this?
+Playing games? Isn't that what
+you do, Counselor? Isn't that
+what all of you mind control
+experts do?
+I am not a mind control expert.
+I came because I sensed you were
+in pain.
+And now, what do you sense?
+The pain is gone.
+Interesting, isn't it?
+There is a duality in the man...
+hard to describe... he is aware
+of his crimes... in fact, they
+deeply trouble him...
+Counselor...
+He is intelligent... a thoughtful
+man. Typically Angosian. I know
+what he's done, but when I am
+with him, I cannot believe he is
+randomly and deliberately
+violent... in fact, inherantly,
+he has a non-violent
+personality...
+Counselor, it took five men to
+restrain him... and he took apart
+half of the Transporter Room in
+the process.
+I am not opening the door for him,
+Captain.
+I can only tell you I sense
+something very unusual about this
+man. Something that is not
+inherent to a criminal
+personality...
+Your dedication to helping others
+in pain is admirable, Counselor.
+But in a few hours, I will turn
+him over to the Angosians... and
+be glad to do so.
+I understand.
+Data, do we have a link up to the
+Angosian central computer?
+Yes, Counselor... we are copying
+records for Federation inspection
+pursuant to their application for
+admittance.
+Can I see a police record on Roga
+Danar?
+There is no police record,
+Counselor.
+But that's impossible. He's been
+in prison.
+Lunar Five is a military prison
+facility...
+Military... he's a soldier... ?
+That may provide an explanation
+for the tactics he was able to
+use against us when we tried to
+capture him...
+It doesn't say what he was
+arrested for. Call up his
+military record.
+He served in many campaigns during
+the Tarsian War, received two
+promotions, to the rank of
+Subhadar... a very honorable tour
+of duty...
+What was this man's crime?
+I've learned you are a soldier.
+I was a soldier.
+Why were you put in prison?
+Obviously, because I am a threat
+to society.
+There is no police record. What
+did you do?
+Everything they asked me to do.
+That's why I became such a
+threat.
+I don't understand.
+Why are you bothering to try,
+Counselor?
+I want to help if I can.
+Unlock the door.
+Why does a non-violent man commit
+acts of excessive violence?
+You can learn to do it if you have
+to.
+Did you have to?
+It was war.
+This started in the war...
+It started the day I volunteered,
+Counselor... the day training
+began... the day I met my first
+instructor. He called himself
+a "counselor" too.
+Roga Danar was an idealistic young
+man who answered his people's call
+to service. He joined the
+military to fight for the Angosian
+way of life. He didn't realize
+that by doing so... he would
+forever have to give up that way
+of life. He's not the same man
+who left home to go to war. He's
+been through intense psychological
+manipulation as well as
+biochemical modifications.
+At Troi's request I examined
+him... his cellular structure
+has been been significantly
+altered... They used a
+combination of cryptobiolin,
+triclenidil, macrospentol... and
+a few things I don't even
+recognize.
+Was he a prisoner of war? Who
+did this to him?
+His own government.
+He has been programmed to be the
+perfect soldier. He can be
+absolutely normal, but whenever
+a danger is perceived, the
+programming clicks in and takes
+over. Intelligence, memory,
+strength, reflexes -- all become
+enhanced. He is conditioned to
+survive at any cost.
+One of the new substances in his
+cellular structure even shields
+electrical impulses.
+That would explain why our sensors
+did not detect him.
+Why was this man assigned to the
+Lunar Five facility?
+He committed no crime. He says
+he was ordered there... with
+others like him. The first
+soldiers who had returned to
+Angosia had trouble. The rules
+changed too quickly. A lost
+temper could result in murder.
+Counselor, did no one try to
+adjust their progam?
+They were simply exiled to Lunar
+Five.
+What do you want...
+Am I disturbing you?
+Yes.
+Then I will leave.
+Wait. I'd rather talk to someone.
+I'm sorry.
+Why do you have yellow eyes?
+Simply a lack of pigmentation.
+I am an android. You and I have
+something in common.
+We do?
+Yes. We have both been
+programmed.
+Ah, you have been talking with
+Counselor Troi.
+It is not at all the same,
+android.
+I do not mean to belittle your
+condition. I understand your
+dilemma. But I am curious. My
+program can be altered and
+changed. Yours cannot?
+The man I once was is still inside
+me... but this conditioning has
+been imposed... woven together
+with my thoughts and feelings and
+responses. How do you separate
+the program from the man?
+Without further analysis of your
+condition by Counselor Troi or
+Doctor Crusher, I cannot say.
+But it would seem possible.
+Doctors. Angosian doctors did
+this to me. If it could be
+undone, wouldn't they undo it?
+I cannot answer that.
+Nor can I... and I ask the
+question every moment of every
+day.
+Captain, what he is telling you
+is full of half-truths... he is
+a prisoner, what do you expect
+him to say about us?
+Then, perhaps you'd clarify it
+for me...
+These soldiers were resettled on
+Lunar Five... it was to be their
+colony...
+Their Gulag...
+I beg your pardon?
+Was it a forced "resettlement"?
+It was for their own protection
+as well as that of others. Most
+of them are quite happy there...
+we have gone to great lengths to
+give them a fine quality of
+life...
+Even the most comfortable prison
+is a prison, Prime Minister.
+A few agitators like Danar forced
+us to add security...
+Prime Minister, my medical team
+has suggested there may be
+treatment alternatives...
+Captain, I assure you all
+alternatives have been explored.
+And this discussion is now
+treading upon matters of Angosian
+security. This is not your
+concern.
+I have dispatched a ship to
+rendezvous with you and transport
+the prisoner back to Lunar Five.
+On behalf of Angosia, I thank the
+Federation for its assistance in
+retrieving our citizen.
+Were you built for combat,
+android?
+No. But my program does include
+military strategy... that is how
+I was finally able to anticipate
+your last tactic and capture you.
+You did that? Perhaps you would
+be better at combat than you
+think.
+I am not programmed to kill.
+My improved reflexes have allowed
+me to kill eighty-four times.
+And my improved memory lets me
+remember the face of each of those
+eighty-four. Can you understand
+how that feels?
+I am incapable of any feeling.
+Then I envy you.
+Roga, this is Captain Picard
+Captain...
+Mister Danar, I am going to
+transfer you back to Angosian
+security. They are en route and
+will arrive shortly. I came to
+tell you that I have no choice.
+The prime minister has insisted
+and we have no right to refuse.
+And you would be foolish if you
+even considered it, Captain...
+because they are very correct.
+I am dangerous. I have no place
+in a civilized society.
+I do not believe that.
+Nor do I.
+I respect my officers' judgement,
+Danar. I wish I could help
+further. If a way appears to me,
+I will.
+I appreciate your telling me
+face-to-face.
+I felt you deserved that much.
+You deserve to know that I must
+use whatever means I can to
+escape.
+Captain, the Angosian transport
+vessel has arrived.
+Inform them the transfer will take
+place shortly. Picard out.
+Mister Data, to the bridge
+please...
+Take care of yourself, android.
+I enjoyed our talk.
+Good-bye, Roga.
+Perhaps when this planet becomes
+a member of the Federation, we
+will be able...
+I will not be here to see it,
+Counselor. Because even with this
+overwhelming demand to survive
+that they've built into my soul...
+I would rather die than return
+to Lunar Five.
+Captain Picard, we're ready to
+receive the prisoner. Now
+transmitting the coordinates of
+our holding cell.
+Coordinates received, sir.
+Stand by for transport. Picard
+out.
+Mister Worf, have all security
+precautions been taken?
+Release of the force field and
+activation of the transporter
+will be virtually simultaneous,
+Captain... There will only be
+a point-one second interval
+between them.
+Even Danar can't move that fast.
+There will be a full security
+contingent present. Phasers will
+be set on kill.
+Proceed.
+Transporter Room One to Lieutenant
+Worf. We're ready.
+Proceed.
+Energizing...
+Roga, don't, you'll be killed...
+I'm losing him... what the
+hell... ?
+Security personnel, full alert.
+Shut down all shuttlebays,
+transporters, and turbolifts.
+Captain, a phaser is missing.
+We must assume that he's armed.
+Sound general quarters. Clear
+corridors of all non-essential
+personnel. I don't want him
+taking any hostages.
+General quarters sounded, sir.
+Raise security containment fields
+immediately on decks thirty-four,
+thirty-five, and thirty-six.
+Data... put the turbolifts back
+on line. If Danar sees they're
+operating, he may try to use one.
+Soon as he does, we have him.
+Sir, unauthorized access of
+turbolift dive on deck thirty-four.
+He took the bait.
+Data -- override its destination
+and divert that turbolift to a
+position near Lieutenant Worf's
+current location.
+We're in position.
+Four seconds to arrival.
+Phaser on overload! Seal this
+deck --
+Captain, the overload's been
+averted.
+Ingenious.
+Drop force field on deck
+thirty-six.
+Sir, containment field down on
+deck thirty-six.
+How the hell did he manage that?
+He's headed for Engineering.
+Riker to LaForge.
+Engineering -- respond.
+Sir -- someone in Engineering is
+attempting to override the
+security system lockout.
+Riker to Worf. He's in
+Engineering...
+Acknowledged, Commander.
+Data -- I want you to stall
+Danar. Allow him to think he's
+succeeding.
+As he bypasses each subsystem,
+I can reroute it without his
+knowledge.
+Make it so.
+Danar is extremely adept, sir.
+I am not certain which security
+measure he is attempting to
+circumvent.
+Sir, Danar has succeeded in
+restoring power to Shuttlebay Two.
+I have overridden Danar's bypass;
+Shuttlebay Two is once again
+inactive.
+Very good, Mister Data. And now
+we know where he's headed.
+He surprised us... came out of
+nowhere. I didn't know anyone
+could move that fast...
+Lieutenant, I am reading an open
+access panel... K-twelve, deck
+thirty.
+Acknowledged.
+Danar must have climbed the
+reactor core and gotten into a
+Jefferies tube. He could be
+anywhere.
+We believe he is attempting to
+reach Shuttlebay Two.
+That's twenty-five decks up from
+here... quite a climb... but I
+wouldn't put it past him...
+There is a full contingent of
+security waiting at all
+shuttlebays.
+You want my advice... double it.
+Reading another open access
+panel...
+Security team to Jefferies tube
+J-four, deck fifteen.
+Security acknowledges. On our
+way.
+Deck fifteen. Only a few decks
+below the shuttlebay.
+Captain, I find it highly unlikely
+that Danar is attempting to reach
+Shuttlebay Two.
+Explain.
+In our previous encounter, Danar
+employed a strategy of
+misdirection in an attempt to gain
+his objective.
+And you believe he's using the
+same tactic now.
+He is aware that our sensors are
+unable to track him. Yet he seems
+to be purposely leaving a trail
+for us to follow.
+And where do you think he's
+headed.
+I am afraid his true destination
+remains a mystery.
+Captain, readings now indicate
+an open access panel... Jeffries
+tube N-eleven, deck thirty-eight.
+He doubled back on us.
+The cargo bays?
+Advise personnel on deck
+thirty-eight to stay out of all
+Cargo Bays.
+They would appear to be empty,
+sir.
+Good. I want you to flood them
+with Anastazine.
+Sensors show Anestazine
+concentration of seventy parts
+per million within the cargo
+bays.
+That should have put our boy to
+sleep.
+Restore normal environmental
+conditions, Mister Data.
+Move in security teams, Mister
+Worf.
+Acknowledged.
+Worf to bridge. We have found no
+sign of the intruder. But there is
+a pressure suit missing from Cargo
+Bay Three.
+A pressure suit...
+Could be he's planning to enter
+Shuttlebay Two from outside the
+Enterprise... bypassing the
+security guards.
+Mister Worf --
+Post security guards at all
+emergency airlocks on decks
+thirty-seven through thirty-nine...
+Aye, sir. I'll also cover the
+photon torpedo launchers... Danar
+may attempt to leave the ship that
+way. Worf out.
+You are cunning, Danar... you must
+have Klingon blood. But the
+battle is over.
+My battle is never over.
+Worf to bridge. I have Danar...
+Explosion in Jefferies Tube
+section T-nine-five. All external
+sensors are inoperative.
+Go to backup systems.
+Unable to transfer control...
+Worf to bridge. Danar has
+escaped. He used a phaser to
+power the cargo transporter.
+Coordinates indicate he beamed
+aboard the Angosian transport
+ship.
+Data, can you verify that?
+Negative. External sensors are
+still nonfunctioning.
+Then we have no way to track him.
+That was his plan all along.
+First officer's log, supplemental.
+We are continuing to repair damage
+to the ship's sensors following
+the escape of the Angosian
+prisoner Danar. He is still at
+large.
+Engineering, I'm getting readings
+at Tactical, are we back up...
+That's affirmative, Commander.
+Sweep the area, Mister Worf...
+Captain, the prime minister is
+hailing us, priority one...
+On screen.
+Yes, Prime Minister.
+Captain, I've just been informed
+that Roga Danar has attacked the
+penal colony on Lunar Five...
+Attacked it... ?
+In our own police shuttle.
+Several of my people are wounded.
+Hundreds of prisoners are rioting.
+Some of them have escaped with
+Danar. We have reports they are
+headed for the capitol city...
+Captain, we are not suited to
+handle situations like this...
+that's why we created them...
+We'll send an away team, Prime
+Minister... Picard out.
+Counselor Troi, Mister Data,
+Lieutenant Worf... you will
+accompany me to the planet...
+My understanding is that these
+men were programmed to survive,
+is that correct?
+Yes, Captain.
+And they will not kill unless
+their survival is at stake?
+It is against their nature to do
+so, Captain.
+Then let us hope they do not
+believe their survival is at
+stake.
+Mister Worf, you are personally
+responsible for the captain's
+safety.
+I understand, Commander.
+I do not expect them to listen
+to reason... I loathe the idea
+of a violent confrontation, but
+we must be prepared...
+This is all you've brought... ?
+Where are your security men... ?
+We're not here to fight your wars,
+Prime Minister...
+They've been seen moving toward
+the center of the city... people
+are scared, Captain... don't you
+understand... ? They're dangerous.
+You are dangerous. They are only
+victims.
+You made them what they are. You
+asked them to defend your way of
+life... then you discarded them.
+They were not happy here...
+They were not welcome here.
+It was the will of the people to
+resettle them...
+Nobody was pleased with the
+solution, Captain... but we had
+to act for the greater good...
+Prime Minister, if you have the
+skills to create a master
+soldier, can you not contradict
+the effect... ?
+The chemicals can be removed from
+their systems. But we're not
+convinced the psychological
+conditioning can be entirely
+reversed.
+Have you tried?
+We've studied it thoroughly...
+even before the training began,
+we knew there would be problems
+reversing it. It was a risk we
+had to take.
+Did you reveal that "risk" to the
+men who volunteered for service?
+We were helping them to survive the,
+war, don't you understand? They
+needed these skills...
+They are your sons, your brothers.
+And you have turned your backs on
+them.
+There are methods of treatment...
+until you try them, you can't know
+if they will work. Even a partial
+recovery would give them some
+peace...
+It was the will of the people...
+To allow them to suffer?
+There was a referendum. The
+people weighed the costs involved.
+They chose the resettlement
+solution.
+Besides, we may need to use them
+again some day.
+Unless you are prepared to die,
+I'd suggest you put that down.
+Do as he says.
+Shoot us. Destroy us. Do what
+you have to do. But, by God, you
+will no longer ignore us.
+Danar, it appears to me that you
+are deliberately attempting to
+provoke a response... so you may
+justify your own attack on men
+who do not wish to fight...
+Cowards...
+Yes...
+But you are not programmed to
+murder cowards... and if they will
+not fight back, what will you
+do?
+We will not go back...
+You are programmed to survive...
+you can survive at the Lunar Five
+settlement...
+Survival is not enough... to exist
+is not enough...
+Roga, tell them what you want.
+We want our lives back. We want
+to come home.
+I'm not prepared to negotiate
+under a threat, Danar... but if
+you will put down your arms and
+return peacefully to Lunar Five...
+I would be willing...
+Mister Prime Minister. Our
+respects, sir. But you'll have
+to force us... or try to.
+Captain, you must do something,
+call your ship...
+You're quite right, Prime
+Minister.
+Enterprise, prepare to beam the
+away team back.
+At your command, Captain.
+You can't leave us like this,
+Picard.
+We have everything we need for
+our report. Your prisoner has
+been returned to you. You have
+a decision to make... either try
+to force them back or welcome them
+home. In your own words, this
+is not our affair. We cannot
+interfere with the natural course
+of your society's development and
+I'd say it's likely to develop
+significantly during the next
+several minutes.
+It's been an interesting stay.
+When you are ready for membership
+in the Federation, we will be
+pleased to reconsider your
+application.
+Four to beam up, Mister Riker.
+Success, Captain?
+Number One, note in your report
+that if the government of Angosia
+survives the night, we will offer
+Federation assistance in the
+efforts to reprogram their
+veterans.
+And if the government doesn't
+survive?
+I have a feeling they will choose
+to.
+Mister Crusher, set coordinates
+for the starbase at Lya Three.
+Coordinates set, Captain.
+Engage.

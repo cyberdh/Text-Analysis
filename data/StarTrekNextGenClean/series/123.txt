@@ -1,1031 +1,1031 @@
-			All hands, this is the captain.
-			The sun in the Delos system is
-			undergoing large-scale magnetic
-			field changes, producing violent,
-			gigantic flares.
-			We will be studying this star
-			at close range. Even though we
-			will be running with full
-			deflectors, the closeness of the
-			event and its severity are going
-			to create problems.
-			Intense magnetic fields have a
-			disruptive effect on electrical
-			systems. We can therefore expect
-			an interruption of communications,
-			and potential temporary loss of
-			other systems. As a precaution,
-			we are now going to Yellow
-			Alert...
-			Stay sharp, everyone.
-			Engineering, this is Ops. Bring
-			all systems on line and direct
-			full power to the shields.
-			All sections secure.
-			Lieutenant LaForge?
-			Course set.
-			Half impulse.
-			Half impulse, aye.
-			On Main Viewer.
-			Mask out the photosphere.
-			Magnify. Quadrant one-seven,
-			sector four-zero-three.
-			I've never seen anything like
-			this before. The violence of
-			these eruptions is awesome.
-			And humbling, Number One.
-			Reading an unusual number of
-			sunspots and eruptive prominences,
-			sir. The magnetic field is
-			extremely irregular.
-			Captain, deflectors are being hit
-			by a huge burst of X-rays.
-			Wow -- look!
-			Sir, my console seems to be
-			overloading.
-			The X-ray burst is disrupting
-			systems, Captain. I'm adjusting
-			deflectors to compensate.
-			Increase power to forward deflectors.
-			Status report.
-			All systems operational, sir.
-			Captain. The level of tension
-			on the ship is mounting.
-			Understandable. Data?
-			If we are to investigate this
-			unusual solar activity -- we must
-			get closer.
-			Mister LaForge, move us closer.
-			We'll be pushing our deflectors
-			to the limit, but we'll get a good
-			look at this phenomenon.
-			Captain, I have intercepted what
-			seems to be a distress signal.
-			Let me hear it.
-			This... (garbled) -- this is
-			... (garbled) -- on the freighter
-			Sanction... (garbled) ... and
-			unable to... (garbled) .... Need
-			help.
-			The transmission is from a
-			freighter in orbit around the
-			fourth planet of the system.
-			However, the receiving station
-			is on the third planet.
-			Open hailing frequency.
-			Hailing frequencies open.
-			Unidentified freighter, this is
-			the USS Enterprise. May we be
-			of assistance?
-			Whoever you are, YES!
-			(garbled) .... cannot maintain...
-			(garbled) ... if you can help...
-			Can't you enhance the image?
-			Too much interference.
-			Set a course to intersect with
-			the freighter. Warp two.
-			Aye, sir.
-			Maintain Yellow Alert.
-			Can't control... (garbled) ... ship
-			is losing orbit... (garbled) ...
-			heading into atmosphere...
-			without help, we'll burn up.
-			It is a freighter -- very old.
-			Captain, our sensors are being
-			severely affected by the sun
-			flares.
-			Helm -- get us in as close as
-			possible to the freighter's
-			orbit.
-			Aye, sir.
-			There are six life forms aboard
-			the freighter.
-			Captain, the freighter's orbit
-			is decaying.
-			How long until it loses integrity?
-			A matter of minutes.
-			Unidentified freighter, this is
-			the USS Enterprise.
-			Enterprise, this is the Aurelian
-			freighter... Sanction.
-			Put this on the Main Viewer.
-			The visual transmission is still
-			breaking up.
-			Freighter, this is the Enterprise.
-			What is your situation?
-			... (garbled) ... We are...
-			Get us off here.
-			Please -- help us.
-			This is the Enterprise -- with
-			all this interference it is
-			difficult to copy your
-			transmission -- if you all talk
-			at once... it is impossible. Now
-			-- please -- say again. What is
-			your situation?
-			I am T'Jon -- the captain of the
-			Sanction.
-			At last.
-			How can we help?
-			We have lost -- I don't know...
-			something -- and I am no longer
-			able to maintain this orbit, nor
-			am I able to use main thrusters.
-			Everything's just kind of... you
-			know... dead, I guess. It's
-			all... you know... shut down.
-			That's very vague. What's the
-			computer analysis?
-			The computer's not working very
-			well.
-			Data... can you tap into their
-			computer and clarify the
-			situation?
-			I will attempt it.
-			Captain, the tractor beam is
-			available, if you want it.
-			At least we can pull them out of
-			orbit before they enter the
-			atmosphere.
-			Yes. Captain T'Jon -- we are
-			going to lock on our tractor beam
-			and pull you out of orbit.
-			Hey -- that's great.
-			The solar flares are interfering
-			with the tractor beam, Captain.
-			I am unable to lock on.
-			Captain, the freighter's orbit
-			continues to deteriorate.
-			Captain T'Jon, we are unable to
-			attach our tractor beam because
-			of the intense solar activity.
-			I understand.
-			Thanks for trying.
-			Captain, I have determined what
-			is malfunctioning on the
-			freighter.
-			Enterprise to Sanction. We have
-			analyzed your problem.
-			Great.
-			Your ship's design uses an
-			electromagnetic coil to constrict
-			the exhaust flow. That coil is
-			misaligned.
-			Have you the necessary tools to
-			realign the coil?
-			I don't think so.
-			Captain, I believe we can provide
-			the freighter with a temporary
-			substitute. Ship's stores contain
-			a coil of the proper type.
-			Can we beam it over?
-			Yes.
-			Captain T'Jon, we will beam over
-			a replacement coil.
-			That's great... and that will fix
-			us up?
-			Well, once it's installed.
-			Right.
-			... And how do we do that?
-			What's the matter with these
-			people? How can he be the captain
-			of the vessel and be ignorant of
-			its simplest functions?
-			If this weren't so serious it
-			would make you laugh.
-			Captain T'Jon -- how long have
-			you been in command of the
-			freighter?
-			Seven years. This is my
-			twenty-sixth voyage to Brekka.
-			And you don't know how to align
-			a control coil?
-			It's never come up.
-			Is there anyone on board who can
-			do it?
-			Hold on a minute... I'll ask.
-			Sorry -- nobody here knows
-			anything about it.
-			I'll beam over with a team.
-			Captain -- I strongly recommend
-			against anyone from this ship
-			beaming over. The solar
-			interference is too great.
-			The freighter has entered the
-			planet's atmosphere.
-			Disintegration is imminent.
-			We are running out of options.
-			Let's get them off there.
-			Captain T'Jon. Prepare to beam
-			over.
-			If you think that's best.
-			Unless you have another option
-			-- yes, I "think that's best."
-			Whatever you say.
-			I can't maintain a positive lock.
-			An unusual E-M burst. Readings
-			off scale.
-			Freighter Sanction, this is the
-			Enterprise. We are having
-			difficulty getting a fix.
-			Have them go to their own
-			Transporter Room. It will be
-			tricky, but perhaps I can link
-			the two transporters in series
-			and get them over with the
-			increased power.
-			It's worth a try.
-			Captain T'Jon -- go immediately
-			to your Transporter Room.
-			Contact me from there.
-			Right, Enterprise -- we'll call
-			you from there... but, if you
-			can't get us with your
-			transporter, what makes you think
-			ours will do the job?
-			I'm going to interconnect them.
-			I didn't know you could do that.
-			Hurry -- we're running out of
-			time.
-			We're on the way.
-			I don't think they're going to
-			make it.
-			Captain T'Jon doesn't seem to
-			care one way or the other.
-			Worf -- how much time do we have?
-			One minute, twenty-eight seconds.
-			Captain T'Jon -- are you there?
-			Yeah. We're in the transporter
-			room.
-			Great. Activate your transporter.
-			Set coordinates nine -- seven --
-			zero -- three... mark two...
-			six... eight.
-			Did you say... two -- eight --
-			six... or eight -- eight -- six.
-			TWO -- SIX -- EIGHT.
-			Got it.
-			The hull temperature of the
-			freighter is passing three
-			thousand degrees.
-			What's the holdup, Number One?
-			We are establishing the link now.
-			We are ready.
-			Then all six of you get on the
-			transporter platform -- on my
-			signal, energize.
-			I've got their initial transporter
-			signal. Interlock complete.
-			Energize on my mark. Four --
-			three -- two -- one -- energize.
-			Did you get them off?
-			No. They stayed on the freighter
-			-- and sent their cargo.
-			Cargo!? Are those people crazy?
-			What could possibly be that
-			important?
-			Sir -- the freighter is
-			disintegrating.
-			Captain, the freighter is entering
-			the atmosphere. Her hull
-			temperature is building.
-			Number One -- I don't understand
-			these people. Their lives are
-			in danger and they're sending over
-			cargo?
-			Unbelievable.
-			We're losing the freighter.
-			You've got to beam those people
-			over now.
-			Clear that cargo. Beam it to a
-			hold.
-			Aye, sir.
-			Freighter Sanction... this is the
-			Enterprise, get on the transporter
-			pad and...
-			Forget it. Just lock on to any
-			life forms you can find and get
-			them over.
-			Trying, sir.
-			The freighter is going down.
-			Transporter Room! You're out of
-			time.
-			Reading six life forms...
-			But I can't get a solid lock.
-			We've no choice. Energize.
-			You said SIX - where are...
-			... the other two?
-			The lock didn't hold, sir.
-			Re-establish.
-			It's too late.
-			Number One!?
-			Two are lost, sir. But we saved
-			four.
-			I am Commander William Riker of
-			the USS Enterprise.
-			I'm sorry. We were unable to
-			rescue the other two.
-			Were they with you...
-			... or with you?
-			With us.
-			We did everything we could, if
-			you had come instead of the cargo,
-			you could have all made it.
-			The cargo... Where is it?
-			You did save it, didn't you?
-			Yes, we did. It's in one of our
-			cargo holds. You act like it's
-			more important than your comrades.
-			May we see it?
-			Thank you. It's just we thought
-			we had lost it.
-			Careful with your choice of words,
-			T'Jon. It's ours, not yours.
-			We paid a fair price for it!
-			You offered a fair price, but we
-			have not received it.
-			You accepted our goods in trade!
-			Then where are they? Tell me!
-			That's not our problem!
-			No more than the barrel is your
-			property. It's as simple as this.
-			The goods were never delivered;
-			they were destroyed with your
-			ship.
-			Hence the deal was incomplete;
-			hence possession of the Felicium
-			remains ours!
-			We need it.
-			Commander, I request you transport
-			my associate --
-			-- and myself down to our planet,
-			with our merchandise.
-			Yes, get them out of here! But
-			the barrel stays.
-			There's no reasoning with you.
-			Langor, you expect too much from
-			them. You always have and you
-			are always disappointed.
-			You didn't pay -- so it's not
-			yours.
-			Damn you, Sobi --
-			Stop this! Now!
-			Security to Cargo Bay Eleven!
-			Behave yourselves, Gentlemen.
-			Escort our "visitors" to the
-			Observation Lounge.
-			A natural electrical charge... ?
-			Formidable.
-			Yes, and a difficult weapon to
-			confiscate.
-			We have to resolve this. There
-			isn't much time.
-			What can you offer?
-			Everything we had went down with
-			the Sanction.
-			Then it is going to be difficult
-			to accommodate you.
-			Solar flares are increasing in
-			magnitude, sir. Deflectors are
-			shaky, but holding.
-			Maintain.
-			And our rather combative guests,
-			Number One?
-			Waiting for you in the
-			Observation Lounge, sir.
-			Data, what can you tell me about
-			the inhabitants of this system?
-			Not very much, sir. The only
-			recorded contact with the Delos
-			system was over two hundred years
-			ago. A scout ship reported two
-			inhabited planets, both
-			technologically just on the edge
-			of acquiring space travel.
-			Odd that in two centuries, neither
-			civilization advanced further.
-			Sir, I find it strange that none
-			of our visitors feel much remorse
-			about the two freighter passengers
-			who perished... yet their barrel
-			of cargo is a source of great
-			anxiety to them.
-			Yes, let us pay a call and get
-			some answers. Counselor, Number
-			One, Mister Data...
-			Captain, may I present Sobi and
-			Langor from the planet Brekka,
-			which we are now orbiting. And
-			T'Jon and Romas... from the
-			neighboring planet, Ornara.
-			I am sorry we could not save your
-			ship.
-			You could have repaired it.
-			Yes.
-			We have only two left. Neither
-			works. They are critical to our
-			survival. Could you fix them?
-			Mister Data?
-			Our computer downloaded the
-			specifications for the magnetic
-			coils the freighters depend on,
-			sir. Assuming the malfunction
-			is similar... suitable
-			replacements can be fabricated.
-			Instruct Engineering to proceed.
-			Aye, sir.
-			Now, as for our cargo...
-			Our cargo, Captain.
-			Wrong, Sobi --
-			My first officer has said
-			ownership of the cargo is in
-			dispute. This is a question which
-			must be settled by whatever legal
-			mechanisms exist between your
-			societies.
-			Captain Picard, you don't
-			understand. This is a matter of
-			life and death.
-			Why is that? What is the cargo?
-			Medicine.
-			Indeed.
-			Our home planet is in desperate
-			need, Captain. Ornara suffers
-			from a lethal plague.
-			The cargo you have impounded
-			represents the only hope of life
-			for our people.
-			Is that right?
-			Yes.
-			You must think us heartless
-			brutes, Captain, but look at our
-			side of it. The plant which
-			yields the medicine Felicium grows
-			only in remote areas of our home
-			planet Brekka.
-			It must be painstakingly
-			cultivated, harvested, and
-			purified... a complex and
-			expensive process.
-			That single shipment of Felicium
-			represents an enormous investment.
-			We can't just give it away!
-			We paid for it.
-			We are asking only for what is
-			ours.
-			That is your viewpoint. Ours,
-			of course, differs.
-			You are going to hold to that
-			position.
-			I am constrained to abide by the
-			terms of our agreement.
-			Then you condemn us to death!
-			Romas --
-			You disgust me! If you saw the
-			suffering the plague has brought,
-			would you still be so heartless?
-			We are going to get to find out,
-			when you see what the plague does
-			to us.
-			Romas -- you and T'Jon carry the
-			disease?
-			Yes. Every Ornaran does.
-			Then you may have brought it
-			aboard my ship!
-			Was there a medical scan during
-			transport?
-			Unverified -- the solar flares may
-			have caused a malfunction in the
-			biofilters --
-			Red Alert! Medical emergency --
-			decks twelve and thirteen. Doctor
-			Crusher to the Observation Lounge
-			immediately!
-			You find us well, I trust?
-			As far as I can tell. Your
-			physiology is somewhat different
-			but I detect no dangerous virus
-			or bacteria.
-			I assure you we are in perfect
-			health.
-			We're not! We need our medicine.
-			Our medicine.
-			We paid for it -- it's ours now!
-			Enough!
-			Of course you are right, Doctor.
-			Could we leave now?
-			I see no reason why not.
-			Escort them to their quarters.
-			Captain, could I talk with you
-			please... in private.
-			Not right now.
-			What have you learned?
-			The Brekkians are free of
-			infection. The Ornarans have all
-			the symptoms of a disease -- but
-			I can't find a cause.
-			Perhaps the transporter filtered
-			it out when they were beamed
-			aboard?
-			There's no record of it. Then
-			again, the solar flare activity
-			may have caused a transporter
-			malfunction.
-			Are they going to die?
-			The physiology is somewhat
-			different from ours, so I need
-			to check further, but... my
-			instinct says no.
-			Do you think we are in danger from
-			this plague?
-			Again, I don't think so, but I
-			need more time to know for sure.
-			There are some missing pieces to
-			the puzzle, don't you feel that
-			too?
-			What's missing here is a little
-			humanity.
-			Are we losing our professional
-			detachment, Doctor?
-			Perhaps. As Captain, I think you
-			should know that I am developing
-			a very active dislike of the
-			Brekkians.
-			Understandable.
-			Captain, you must give us back
-			our cargo.
-			I can't do that.
-			Why not? It belongs to us.
-			And the Brekkians insist it is
-			theirs.
-			They lie!
-			Maybe so, but it's not for me to
-			decide.
-			We need some now... NOW! I don't
-			care if it's your 'decision' or
-			not... get us some!
-			Captain, what's happening to us,
-			is happening to thousands more
-			on Ornara. Please understand the
-			magnitude of the problem.
-			Your people don't need it --
-			-- they don't need it... our
-			people do!
-			If you don't give it to us, you
-			will be party to murder... not
-			only us, but an entire
-			civilization!
-			Sorry, I did not mean to insult
-			you. I'm feeling very shaky.
-			We cannot hold out much longer!
-			No, Captain -- I think they should
-			have it. They believe it will
-			help them. That in itself might
-			control their symptoms.
-			I'll talk with the Brekkians.
-			Thank you, Captain. I appreciate
-			anything you can do.
-			May I say, Captain, how impressed
-			we are with your ship and its
-			facilities.
-			Thank you.
-			And its crew. Everyone is so
-			efficient and professional.
-			I am glad you are comfortable.
-			I've come to seek your agreement
-			to an Ornaran request.
-			We cannot --
-			Wait. Let the Captain speak.
-			We want to be reasonable.
-			The Ornarans are quite ill and
-			are insistent that they need
-			Felicium.
-			That is not surprising.
-			Then would you object to allowing
-			them enough Felicium for their
-			immediate needs?
-			Captain, we Brekkians are in
-			business -- we are not in the
-			habit of giving away what has not
-			been paid for.
-			You would let them die rather than
-			share the medicine?
-			We want to be fair, Captain. We
-			agree to permitting them two
-			dosages for immediate use.
-			No charge.
-			I'll have our medical officer
-			handle it.
-			I trust you won't mind if we are
-			present while you open the cargo,
-			Captain.
-			Point-zero-one milliliters is the
-			proper individual dosage.
-			A very potent substance.
-			We've perfected our distillation
-			process over the years. In my
-			grandfather's day, the same amount
-			of Felicium would have filled five
-			rooms this size, Captain.
-			No doubt you have applied your
-			technology from other industries
-			to the refinement of this product.
-			We have no other industry.
-			None at all?
-			We don't need any. The Ornarans
-			provide us everything we need --
-			in exchange for this.
-			Fascinating. Your society
-			dedicated exclusively to the
-			production of a single product.
-			A product for which you have no
-			use for, but which the Ornarans
-			can't live without.
-			One of the little ironies of life,
-			Captain.
-			But one we'd be fools not to take
-			advantage of. It is mutually
-			beneficial.
-			The Ornarans provide us with the
-			necessities of life and we provide
-			them with the necessities of
-			living. It is a fair exchange.
-			A most interesting relationship.
-			Excuse me... I'll take this to
-			Sickbay.
-			Can I help?
-			No.
-			Hurry up!
-			You are feeling better?
-			Yes. Thank you. I'm fine now.
-			Report, Doctor Crusher.
-			I may not know Felicium's full
-			effect on Ornaran physiology.
-			But I know how to interpret
-			physical reactions.
-			Are the Ornarans recovering?
-			Both T'Jon and Romas are fine...
-			in fact, too fine.
-			Felicium is a narcotic.
-			Then T'Jon, Romas -- indeed every
-			Ornaran --
-			-- is a drug addict.
-			It's a fascinating little tale
-			we've run into of disease -- rescue
-			-- commerce -- and interdependence
-			between two worlds.
-			You have piqued my interest,
-			Number One -- please continue.
-			Mister Data.
-			Beginning several thousand years
-			ago, the two worlds took different
-			paths. Ornara became technically
-			sophisticated, Brekka did not.
-			Then two hundred years ago Ornara
-			was stricken by a devastating
-			plague.
-			Their advanced technology could
-			offer no solution.
-			Somehow, and there is limited
-			information on this point, the
-			cure was found in a plant which
-			is indigenous to only Brekka, and
-			which resisted all attempts at
-			cultivation on Ornara.
-			In any case a trading situation
-			quickly developed, which still
-			exists.
-			The Ornarans acquire the Felicium
-			from the Brekkians, and in
-			exchange, the Ornarans provide
-			the Brekkians with foods and
-			staples.
-			A nice arrangement for the
-			Brekkians.
-			And for the Ornarans -- without
-			the medicine they would all die.
-			No they wouldn't. Captain, here
-			are the results of my analysis.
-			Felicium is definitely a powerful
-			and addictive narcotic. What's
-			more, despite what the Ornarans
-			have been saying, it's not a
-			medicine. It was a medicine, and
-			it did cure the plague, two
-			hundred years ago.
-			And they no longer need it.
-			The plague is irrelevant now: it
-			doesn't exist... and it's not
-			going to recur.
-			The Ornarans have no medical need
-			for Felicium.
-			No, but their physical and
-			psychological need is very real.
-			What are you going to do?
-			Based on what we know so far...
-			there is nothing I can do.
-			And you don't think drug addiction
-			and exploitation is sufficient
-			cause?
-			This situation has existed for
-			a very long time. Those two
-			societies are intertwined in a
-			symbiotic relationship.
-			With one society profiting at the
-			expense of the other.
-			That's how you see it.
-			I can synthesize a non-addictive
-			substitute which will ease their
-			withdrawal symptoms.
-			No. We can't do that either.
-			I know this. You can't let them
-			have the Felicium.
-			Why? Because it goes against our
-			moral sensibilities? Our mission
-			is not to force Federation or
-			Earth values on others in the
-			galaxy.
-			In this case... you're wrong,
-			Captain. One hundred percent
-			wrong.
-			Captain, I am receiving a call
-			from Ornara.
-			Patch it in here.
-			The signal's ragged, but I think
-			I can put it on the Viewscreen.
-			I am Margan. Are my people on
-			board your ship?
-			Some of them, yes.
-			May I speak with them?
-			Yes.
-			Lieutenant Yar, have the Ornarans
-			brought in... no, wait, I don't
-			want them to have access to the
-			bridge.
-			We will contact you in a few
-			minutes.
-			I will take this in the guest
-			quarters.
-			I can understand how this could
-			happen to the Ornarans... What
-			I can't understand is why anyone
-			would voluntarily become dependent
-			upon a chemical.
-			Yet, the voluntary addiction to
-			drugs is a recurrent theme in many
-			cultures.
-			As in the twenty-first century...
-			when Earth governments used
-			narcotics to control the military.
-			Or look at the twentieth century.
-			The dangers of drug abuse were
-			well known, yet their use was
-			commonplace.
-			Why?
-			That is what I do not understand.
-			No one wants to become dependent.
-			That happens later.
-			But it does happen. So why do
-			people even start?
-			Oh, lots of reasons... My home
-			planet was a place of great
-			poverty and violence. For some,
-			the only escape was through drugs.
-			I fail to comprehend how a
-			chemical substance can provide
-			an escape.
-			It doesn't. But it makes you
-			think it does.
-			You have to understand -- drugs
-			can make you feel good.
-			They put you on top of the world.
-			You're happy... Sure of yourself.
-			In control. A lot of people never
-			feel that otherwise.
-			But it is artificial.
-			It doesn't feel artificial. It
-			feels natural, good, and mind
-			expanding.
-			Until the drug wears off. Then
-			you pay the price. Once you come
-			down, you're lower than when you
-			started. So you take the drug
-			again -- and it kicks you back
-			up. But not as high this time.
-			So you take more.
-			But each peak gets lower and
-			the valleys get deeper. Before
-			you know it -- you're taking the
-			drug not to feel good but to keep
-			from feeling bad.
-			And that's the trap.
-			You think the drug expands your
-			universe -- but it actually
-			shrinks it. Shrinks it to where
-			you and the drug are all that's
-			left.
-			Pretty soon, all you care about
-			is getting your next dosage.
-			You'll lie, cheat, steal --
-			anything to get that fix.
-			Certainly by then you would
-			realize the danger.
-			That's the worst of it. You don't
-			care. The drug is your salvation
-			-- your survival. Nothing else
-			is important.
-			I guess I just don't understand.
-			Wesley, I hope you never do.
-			Lieutenant Yar, we are ready in
-			the guest quarters.
-			T'Jon. Have you got it?
-			Well, it's here, but...
-			You've got to get it to us.
-			T'Jon... please... We're dying
-			here. You don't know... this is
-			the worst it's ever been.
-			I'm doing everything I can.
-			See... what happened was...
-			Stop. I can't listen. T'Jon...
-			we need the medicine. So, many
-			people... so much suffering.
-			You've got to get it to us. I
-			can't... I can't go on. Help,
-			T'Jon... please.
-			I'm sorry.
-			Take us to our planet - leave us
-			there with our medicine or this
-			person dies.
-			Don't you see -- I have no choice.
-			We were sent to bring back the
-			Felicium. The suffering on my
-			planet is too great. People are
-			dying. It doesn't matter any more
-			whether we are entitled to the
-			Felicium... we have to have it.
-			Let him go.
-			Take us there now -- or give us
-			a shuttle -- but we must have the
-			medicine... if you refuse, this
-			person dies.
-			I will not be coerced.
-			I'll do it. I'll kill him.
-			No you won't. You're not a killer
-			and neither am I.
-			Help us... please... help us.
-			I'm not sure that I can.
-			Captain Picard, we couldn't help
-			overhearing. Could I see you for
-			a moment?
-			Come with me, Doctor. This could
-			be interesting.
-			We have thought about this a great
-			deal.
-			Both of us feel deeply about what
-			is happening on Ornara.
-			Although this is going to cause
-			hardship to us and to our people,
-			we have decided to give the
-			Felicium to them.
-			They can pay for it when they are
-			able.
-			We don't want to cause any
-			suffering.
-			I wonder why I expected this.
-			Pardon?
-			It's the other shoe.
-			The Ornarans are not aware, are
-			they?
-			Of what?
-			That the plague which nearly
-			destroyed Ornara... infected your
-			world as well.
-			You don't know that for sure.
-			It had to.
-			But somehow, one of your ancestors
-			realized that your desire for the
-			drug continued after the disease
-			had been cured. They made the
-			connection and were able to end
-			their addiction.
-			But these same wonderful people
-			also realized that their neighbors
-			never found out. Their need for
-			the drug grew to the point it is
-			now. Your sole source of support
-			comes from providing the narcotic.
-			And the refinement process of
-			which you are so proud was a way
-			to make Felicium even more
-			addicting... and tighten your
-			grip on the Ornarans even further.
-			Are you going to tell them?
-			No. I can't tell them. You see,
-			I am bound by the rules of the
-			United Federation of Planets,
-			which say I am not to interfere
-			in other worlds, other cultures.
-			To tell them any of this would
-			be interfering and would violate
-			the Prime Directive.
-			You're talking to us about it...
-			Telling you things you already
-			know... which changes nothing.
-			Jean-Luc. I can synthesize
-			something which will alleviate
-			their suffering and make
-			withdrawal painless.
-			That won't be necessary, because
-			if I understand the captain, he
-			is going to allow the Ornarans
-			to have the Felicium.
-			Yes, I am.
-			You can't do that. Some things
-			go beyond words on a page. These
-			Brekkians have knowingly enslaved
-			others. They have caused untold
-			suffering and hardship, just so
-			their pitiful lives could be
-			easier. At least don't give the
-			Ornarans more drugs.
-			It is not for me to make any of
-			these decisions.
-			You are absolutely right, Captain.
-			Captain, we've arrived at Ornara
-			and assumed standard orbit.
-			Acknowledged. Thank you.
-			Forgive me for doing what I must.
-			I'm beaming you down to your
-			world... with your Felicium.
-			Good. I knew it would work out
-			this way.
-			You've made the only humanitarian
-			decision, Captain.
-			Langor and I will beam down to
-			Ornara with you.
-			We'll work out payment terms for
-			the Felicium.
-			On behalf of my people, I extend
-			thanks for your benevolent
-			attitude.
-			And I also thank you, Captain,
-			for doing the right thing.
-			Your gift of these coils will
-			ensure that our freighters will
-			continue to work.
-			No.
-			No.
-			I will not supply you with spare
-			parts for your freighters. If
-			you want them repaired, you'll
-			have to do that yourself.
-			In a short time our freighters
-			will be inoperable.
-			Quite possibly.
-			But we depend on those freighters!
-			We must have those parts.
-			If you withhold those coils,
-			you're disrupting the stability
-			of both our planets --
-			-- and interfering with a trade
-			arrangement that has lasted for
-			generations! What of this Prime
-			Directive of yours?
-			Nothing in the Prime Directive
-			compels me to help you.
-			You're an executioner, Captain.
-			You want our world to perish.
-			No. That's not what I want.
-			But without our freighters, there
-			will be no more shipments of
-			Felicium! We will die!
-			You must trust in yourselves.
-			There are... other options.
-			And you must understand that my
-			oath as a Starfleet officer gives
-			me no choice in the matter.
-			Transporter Room. Lock onto our
-			guests and their cargo and beam
-			them down to Ornara.
-			Captain, I hope you realize what
-			you've done to us.
-			Of that, you can be sure.
-			Good luck.
-			When the Felicium runs out, the
-			people of Ornara will suffer
-			horrible withdrawal pains.
-			No doubt.
-			We could have made their burden
-			easier.
-			Only in the short run. Painful
-			as it will be, the people of
-			Ornara -- and the people of Brekka
-			-- must shape their own destinies.
-			It sounds so... heartless.
-			Doctor, it was not an easy
-			decision.
-			I just hope it was the right one.
-			Mister LaForge, take us out of
-			orbit.
-			Aye, sir. Course laid in.
-			Engage.
+All hands, this is the captain.
+The sun in the Delos system is
+undergoing large-scale magnetic
+field changes, producing violent,
+gigantic flares.
+We will be studying this star
+at close range. Even though we
+will be running with full
+deflectors, the closeness of the
+event and its severity are going
+to create problems.
+Intense magnetic fields have a
+disruptive effect on electrical
+systems. We can therefore expect
+an interruption of communications,
+and potential temporary loss of
+other systems. As a precaution,
+we are now going to Yellow
+Alert...
+Stay sharp, everyone.
+Engineering, this is Ops. Bring
+all systems on line and direct
+full power to the shields.
+All sections secure.
+Lieutenant LaForge?
+Course set.
+Half impulse.
+Half impulse, aye.
+On Main Viewer.
+Mask out the photosphere.
+Magnify. Quadrant one-seven,
+sector four-zero-three.
+I've never seen anything like
+this before. The violence of
+these eruptions is awesome.
+And humbling, Number One.
+Reading an unusual number of
+sunspots and eruptive prominences,
+sir. The magnetic field is
+extremely irregular.
+Captain, deflectors are being hit
+by a huge burst of X-rays.
+Wow -- look!
+Sir, my console seems to be
+overloading.
+The X-ray burst is disrupting
+systems, Captain. I'm adjusting
+deflectors to compensate.
+Increase power to forward deflectors.
+Status report.
+All systems operational, sir.
+Captain. The level of tension
+on the ship is mounting.
+Understandable. Data?
+If we are to investigate this
+unusual solar activity -- we must
+get closer.
+Mister LaForge, move us closer.
+We'll be pushing our deflectors
+to the limit, but we'll get a good
+look at this phenomenon.
+Captain, I have intercepted what
+seems to be a distress signal.
+Let me hear it.
+This... (garbled) -- this is
+... (garbled) -- on the freighter
+Sanction... (garbled) ... and
+unable to... (garbled) .... Need
+help.
+The transmission is from a
+freighter in orbit around the
+fourth planet of the system.
+However, the receiving station
+is on the third planet.
+Open hailing frequency.
+Hailing frequencies open.
+Unidentified freighter, this is
+the USS Enterprise. May we be
+of assistance?
+Whoever you are, YES!
+(garbled) .... cannot maintain...
+(garbled) ... if you can help...
+Can't you enhance the image?
+Too much interference.
+Set a course to intersect with
+the freighter. Warp two.
+Aye, sir.
+Maintain Yellow Alert.
+Can't control... (garbled) ... ship
+is losing orbit... (garbled) ...
+heading into atmosphere...
+without help, we'll burn up.
+It is a freighter -- very old.
+Captain, our sensors are being
+severely affected by the sun
+flares.
+Helm -- get us in as close as
+possible to the freighter's
+orbit.
+Aye, sir.
+There are six life forms aboard
+the freighter.
+Captain, the freighter's orbit
+is decaying.
+How long until it loses integrity?
+A matter of minutes.
+Unidentified freighter, this is
+the USS Enterprise.
+Enterprise, this is the Aurelian
+freighter... Sanction.
+Put this on the Main Viewer.
+The visual transmission is still
+breaking up.
+Freighter, this is the Enterprise.
+What is your situation?
+... (garbled) ... We are...
+Get us off here.
+Please -- help us.
+This is the Enterprise -- with
+all this interference it is
+difficult to copy your
+transmission -- if you all talk
+at once... it is impossible. Now
+-- please -- say again. What is
+your situation?
+I am T'Jon -- the captain of the
+Sanction.
+At last.
+How can we help?
+We have lost -- I don't know...
+something -- and I am no longer
+able to maintain this orbit, nor
+am I able to use main thrusters.
+Everything's just kind of... you
+know... dead, I guess. It's
+all... you know... shut down.
+That's very vague. What's the
+computer analysis?
+The computer's not working very
+well.
+Data... can you tap into their
+computer and clarify the
+situation?
+I will attempt it.
+Captain, the tractor beam is
+available, if you want it.
+At least we can pull them out of
+orbit before they enter the
+atmosphere.
+Yes. Captain T'Jon -- we are
+going to lock on our tractor beam
+and pull you out of orbit.
+Hey -- that's great.
+The solar flares are interfering
+with the tractor beam, Captain.
+I am unable to lock on.
+Captain, the freighter's orbit
+continues to deteriorate.
+Captain T'Jon, we are unable to
+attach our tractor beam because
+of the intense solar activity.
+I understand.
+Thanks for trying.
+Captain, I have determined what
+is malfunctioning on the
+freighter.
+Enterprise to Sanction. We have
+analyzed your problem.
+Great.
+Your ship's design uses an
+electromagnetic coil to constrict
+the exhaust flow. That coil is
+misaligned.
+Have you the necessary tools to
+realign the coil?
+I don't think so.
+Captain, I believe we can provide
+the freighter with a temporary
+substitute. Ship's stores contain
+a coil of the proper type.
+Can we beam it over?
+Yes.
+Captain T'Jon, we will beam over
+a replacement coil.
+That's great... and that will fix
+us up?
+Well, once it's installed.
+Right.
+... And how do we do that?
+What's the matter with these
+people? How can he be the captain
+of the vessel and be ignorant of
+its simplest functions?
+If this weren't so serious it
+would make you laugh.
+Captain T'Jon -- how long have
+you been in command of the
+freighter?
+Seven years. This is my
+twenty-sixth voyage to Brekka.
+And you don't know how to align
+a control coil?
+It's never come up.
+Is there anyone on board who can
+do it?
+Hold on a minute... I'll ask.
+Sorry -- nobody here knows
+anything about it.
+I'll beam over with a team.
+Captain -- I strongly recommend
+against anyone from this ship
+beaming over. The solar
+interference is too great.
+The freighter has entered the
+planet's atmosphere.
+Disintegration is imminent.
+We are running out of options.
+Let's get them off there.
+Captain T'Jon. Prepare to beam
+over.
+If you think that's best.
+Unless you have another option
+-- yes, I "think that's best."
+Whatever you say.
+I can't maintain a positive lock.
+An unusual E-M burst. Readings
+off scale.
+Freighter Sanction, this is the
+Enterprise. We are having
+difficulty getting a fix.
+Have them go to their own
+Transporter Room. It will be
+tricky, but perhaps I can link
+the two transporters in series
+and get them over with the
+increased power.
+It's worth a try.
+Captain T'Jon -- go immediately
+to your Transporter Room.
+Contact me from there.
+Right, Enterprise -- we'll call
+you from there... but, if you
+can't get us with your
+transporter, what makes you think
+ours will do the job?
+I'm going to interconnect them.
+I didn't know you could do that.
+Hurry -- we're running out of
+time.
+We're on the way.
+I don't think they're going to
+make it.
+Captain T'Jon doesn't seem to
+care one way or the other.
+Worf -- how much time do we have?
+One minute, twenty-eight seconds.
+Captain T'Jon -- are you there?
+Yeah. We're in the transporter
+room.
+Great. Activate your transporter.
+Set coordinates nine -- seven --
+zero -- three... mark two...
+six... eight.
+Did you say... two -- eight --
+six... or eight -- eight -- six.
+TWO -- SIX -- EIGHT.
+Got it.
+The hull temperature of the
+freighter is passing three
+thousand degrees.
+What's the holdup, Number One?
+We are establishing the link now.
+We are ready.
+Then all six of you get on the
+transporter platform -- on my
+signal, energize.
+I've got their initial transporter
+signal. Interlock complete.
+Energize on my mark. Four --
+three -- two -- one -- energize.
+Did you get them off?
+No. They stayed on the freighter
+-- and sent their cargo.
+Cargo!? Are those people crazy?
+What could possibly be that
+important?
+Sir -- the freighter is
+disintegrating.
+Captain, the freighter is entering
+the atmosphere. Her hull
+temperature is building.
+Number One -- I don't understand
+these people. Their lives are
+in danger and they're sending over
+cargo?
+Unbelievable.
+We're losing the freighter.
+You've got to beam those people
+over now.
+Clear that cargo. Beam it to a
+hold.
+Aye, sir.
+Freighter Sanction... this is the
+Enterprise, get on the transporter
+pad and...
+Forget it. Just lock on to any
+life forms you can find and get
+them over.
+Trying, sir.
+The freighter is going down.
+Transporter Room! You're out of
+time.
+Reading six life forms...
+But I can't get a solid lock.
+We've no choice. Energize.
+You said SIX - where are...
+... the other two?
+The lock didn't hold, sir.
+Re-establish.
+It's too late.
+Number One!?
+Two are lost, sir. But we saved
+four.
+I am Commander William Riker of
+the USS Enterprise.
+I'm sorry. We were unable to
+rescue the other two.
+Were they with you...
+... or with you?
+With us.
+We did everything we could, if
+you had come instead of the cargo,
+you could have all made it.
+The cargo... Where is it?
+You did save it, didn't you?
+Yes, we did. It's in one of our
+cargo holds. You act like it's
+more important than your comrades.
+May we see it?
+Thank you. It's just we thought
+we had lost it.
+Careful with your choice of words,
+T'Jon. It's ours, not yours.
+We paid a fair price for it!
+You offered a fair price, but we
+have not received it.
+You accepted our goods in trade!
+Then where are they? Tell me!
+That's not our problem!
+No more than the barrel is your
+property. It's as simple as this.
+The goods were never delivered;
+they were destroyed with your
+ship.
+Hence the deal was incomplete;
+hence possession of the Felicium
+remains ours!
+We need it.
+Commander, I request you transport
+my associate --
+-- and myself down to our planet,
+with our merchandise.
+Yes, get them out of here! But
+the barrel stays.
+There's no reasoning with you.
+Langor, you expect too much from
+them. You always have and you
+are always disappointed.
+You didn't pay -- so it's not
+yours.
+Damn you, Sobi --
+Stop this! Now!
+Security to Cargo Bay Eleven!
+Behave yourselves, Gentlemen.
+Escort our "visitors" to the
+Observation Lounge.
+A natural electrical charge... ?
+Formidable.
+Yes, and a difficult weapon to
+confiscate.
+We have to resolve this. There
+isn't much time.
+What can you offer?
+Everything we had went down with
+the Sanction.
+Then it is going to be difficult
+to accommodate you.
+Solar flares are increasing in
+magnitude, sir. Deflectors are
+shaky, but holding.
+Maintain.
+And our rather combative guests,
+Number One?
+Waiting for you in the
+Observation Lounge, sir.
+Data, what can you tell me about
+the inhabitants of this system?
+Not very much, sir. The only
+recorded contact with the Delos
+system was over two hundred years
+ago. A scout ship reported two
+inhabited planets, both
+technologically just on the edge
+of acquiring space travel.
+Odd that in two centuries, neither
+civilization advanced further.
+Sir, I find it strange that none
+of our visitors feel much remorse
+about the two freighter passengers
+who perished... yet their barrel
+of cargo is a source of great
+anxiety to them.
+Yes, let us pay a call and get
+some answers. Counselor, Number
+One, Mister Data...
+Captain, may I present Sobi and
+Langor from the planet Brekka,
+which we are now orbiting. And
+T'Jon and Romas... from the
+neighboring planet, Ornara.
+I am sorry we could not save your
+ship.
+You could have repaired it.
+Yes.
+We have only two left. Neither
+works. They are critical to our
+survival. Could you fix them?
+Mister Data?
+Our computer downloaded the
+specifications for the magnetic
+coils the freighters depend on,
+sir. Assuming the malfunction
+is similar... suitable
+replacements can be fabricated.
+Instruct Engineering to proceed.
+Aye, sir.
+Now, as for our cargo...
+Our cargo, Captain.
+Wrong, Sobi --
+My first officer has said
+ownership of the cargo is in
+dispute. This is a question which
+must be settled by whatever legal
+mechanisms exist between your
+societies.
+Captain Picard, you don't
+understand. This is a matter of
+life and death.
+Why is that? What is the cargo?
+Medicine.
+Indeed.
+Our home planet is in desperate
+need, Captain. Ornara suffers
+from a lethal plague.
+The cargo you have impounded
+represents the only hope of life
+for our people.
+Is that right?
+Yes.
+You must think us heartless
+brutes, Captain, but look at our
+side of it. The plant which
+yields the medicine Felicium grows
+only in remote areas of our home
+planet Brekka.
+It must be painstakingly
+cultivated, harvested, and
+purified... a complex and
+expensive process.
+That single shipment of Felicium
+represents an enormous investment.
+We can't just give it away!
+We paid for it.
+We are asking only for what is
+ours.
+That is your viewpoint. Ours,
+of course, differs.
+You are going to hold to that
+position.
+I am constrained to abide by the
+terms of our agreement.
+Then you condemn us to death!
+Romas --
+You disgust me! If you saw the
+suffering the plague has brought,
+would you still be so heartless?
+We are going to get to find out,
+when you see what the plague does
+to us.
+Romas -- you and T'Jon carry the
+disease?
+Yes. Every Ornaran does.
+Then you may have brought it
+aboard my ship!
+Was there a medical scan during
+transport?
+Unverified -- the solar flares may
+have caused a malfunction in the
+biofilters --
+Red Alert! Medical emergency --
+decks twelve and thirteen. Doctor
+Crusher to the Observation Lounge
+immediately!
+You find us well, I trust?
+As far as I can tell. Your
+physiology is somewhat different
+but I detect no dangerous virus
+or bacteria.
+I assure you we are in perfect
+health.
+We're not! We need our medicine.
+Our medicine.
+We paid for it -- it's ours now!
+Enough!
+Of course you are right, Doctor.
+Could we leave now?
+I see no reason why not.
+Escort them to their quarters.
+Captain, could I talk with you
+please... in private.
+Not right now.
+What have you learned?
+The Brekkians are free of
+infection. The Ornarans have all
+the symptoms of a disease -- but
+I can't find a cause.
+Perhaps the transporter filtered
+it out when they were beamed
+aboard?
+There's no record of it. Then
+again, the solar flare activity
+may have caused a transporter
+malfunction.
+Are they going to die?
+The physiology is somewhat
+different from ours, so I need
+to check further, but... my
+instinct says no.
+Do you think we are in danger from
+this plague?
+Again, I don't think so, but I
+need more time to know for sure.
+There are some missing pieces to
+the puzzle, don't you feel that
+too?
+What's missing here is a little
+humanity.
+Are we losing our professional
+detachment, Doctor?
+Perhaps. As Captain, I think you
+should know that I am developing
+a very active dislike of the
+Brekkians.
+Understandable.
+Captain, you must give us back
+our cargo.
+I can't do that.
+Why not? It belongs to us.
+And the Brekkians insist it is
+theirs.
+They lie!
+Maybe so, but it's not for me to
+decide.
+We need some now... NOW! I don't
+care if it's your 'decision' or
+not... get us some!
+Captain, what's happening to us,
+is happening to thousands more
+on Ornara. Please understand the
+magnitude of the problem.
+Your people don't need it --
+-- they don't need it... our
+people do!
+If you don't give it to us, you
+will be party to murder... not
+only us, but an entire
+civilization!
+Sorry, I did not mean to insult
+you. I'm feeling very shaky.
+We cannot hold out much longer!
+No, Captain -- I think they should
+have it. They believe it will
+help them. That in itself might
+control their symptoms.
+I'll talk with the Brekkians.
+Thank you, Captain. I appreciate
+anything you can do.
+May I say, Captain, how impressed
+we are with your ship and its
+facilities.
+Thank you.
+And its crew. Everyone is so
+efficient and professional.
+I am glad you are comfortable.
+I've come to seek your agreement
+to an Ornaran request.
+We cannot --
+Wait. Let the Captain speak.
+We want to be reasonable.
+The Ornarans are quite ill and
+are insistent that they need
+Felicium.
+That is not surprising.
+Then would you object to allowing
+them enough Felicium for their
+immediate needs?
+Captain, we Brekkians are in
+business -- we are not in the
+habit of giving away what has not
+been paid for.
+You would let them die rather than
+share the medicine?
+We want to be fair, Captain. We
+agree to permitting them two
+dosages for immediate use.
+No charge.
+I'll have our medical officer
+handle it.
+I trust you won't mind if we are
+present while you open the cargo,
+Captain.
+Point-zero-one milliliters is the
+proper individual dosage.
+A very potent substance.
+We've perfected our distillation
+process over the years. In my
+grandfather's day, the same amount
+of Felicium would have filled five
+rooms this size, Captain.
+No doubt you have applied your
+technology from other industries
+to the refinement of this product.
+We have no other industry.
+None at all?
+We don't need any. The Ornarans
+provide us everything we need --
+in exchange for this.
+Fascinating. Your society
+dedicated exclusively to the
+production of a single product.
+A product for which you have no
+use for, but which the Ornarans
+can't live without.
+One of the little ironies of life,
+Captain.
+But one we'd be fools not to take
+advantage of. It is mutually
+beneficial.
+The Ornarans provide us with the
+necessities of life and we provide
+them with the necessities of
+living. It is a fair exchange.
+A most interesting relationship.
+Excuse me... I'll take this to
+Sickbay.
+Can I help?
+No.
+Hurry up!
+You are feeling better?
+Yes. Thank you. I'm fine now.
+Report, Doctor Crusher.
+I may not know Felicium's full
+effect on Ornaran physiology.
+But I know how to interpret
+physical reactions.
+Are the Ornarans recovering?
+Both T'Jon and Romas are fine...
+in fact, too fine.
+Felicium is a narcotic.
+Then T'Jon, Romas -- indeed every
+Ornaran --
+-- is a drug addict.
+It's a fascinating little tale
+we've run into of disease -- rescue
+-- commerce -- and interdependence
+between two worlds.
+You have piqued my interest,
+Number One -- please continue.
+Mister Data.
+Beginning several thousand years
+ago, the two worlds took different
+paths. Ornara became technically
+sophisticated, Brekka did not.
+Then two hundred years ago Ornara
+was stricken by a devastating
+plague.
+Their advanced technology could
+offer no solution.
+Somehow, and there is limited
+information on this point, the
+cure was found in a plant which
+is indigenous to only Brekka, and
+which resisted all attempts at
+cultivation on Ornara.
+In any case a trading situation
+quickly developed, which still
+exists.
+The Ornarans acquire the Felicium
+from the Brekkians, and in
+exchange, the Ornarans provide
+the Brekkians with foods and
+staples.
+A nice arrangement for the
+Brekkians.
+And for the Ornarans -- without
+the medicine they would all die.
+No they wouldn't. Captain, here
+are the results of my analysis.
+Felicium is definitely a powerful
+and addictive narcotic. What's
+more, despite what the Ornarans
+have been saying, it's not a
+medicine. It was a medicine, and
+it did cure the plague, two
+hundred years ago.
+And they no longer need it.
+The plague is irrelevant now: it
+doesn't exist... and it's not
+going to recur.
+The Ornarans have no medical need
+for Felicium.
+No, but their physical and
+psychological need is very real.
+What are you going to do?
+Based on what we know so far...
+there is nothing I can do.
+And you don't think drug addiction
+and exploitation is sufficient
+cause?
+This situation has existed for
+a very long time. Those two
+societies are intertwined in a
+symbiotic relationship.
+With one society profiting at the
+expense of the other.
+That's how you see it.
+I can synthesize a non-addictive
+substitute which will ease their
+withdrawal symptoms.
+No. We can't do that either.
+I know this. You can't let them
+have the Felicium.
+Why? Because it goes against our
+moral sensibilities? Our mission
+is not to force Federation or
+Earth values on others in the
+galaxy.
+In this case... you're wrong,
+Captain. One hundred percent
+wrong.
+Captain, I am receiving a call
+from Ornara.
+Patch it in here.
+The signal's ragged, but I think
+I can put it on the Viewscreen.
+I am Margan. Are my people on
+board your ship?
+Some of them, yes.
+May I speak with them?
+Yes.
+Lieutenant Yar, have the Ornarans
+brought in... no, wait, I don't
+want them to have access to the
+bridge.
+We will contact you in a few
+minutes.
+I will take this in the guest
+quarters.
+I can understand how this could
+happen to the Ornarans... What
+I can't understand is why anyone
+would voluntarily become dependent
+upon a chemical.
+Yet, the voluntary addiction to
+drugs is a recurrent theme in many
+cultures.
+As in the twenty-first century...
+when Earth governments used
+narcotics to control the military.
+Or look at the twentieth century.
+The dangers of drug abuse were
+well known, yet their use was
+commonplace.
+Why?
+That is what I do not understand.
+No one wants to become dependent.
+That happens later.
+But it does happen. So why do
+people even start?
+Oh, lots of reasons... My home
+planet was a place of great
+poverty and violence. For some,
+the only escape was through drugs.
+I fail to comprehend how a
+chemical substance can provide
+an escape.
+It doesn't. But it makes you
+think it does.
+You have to understand -- drugs
+can make you feel good.
+They put you on top of the world.
+You're happy... Sure of yourself.
+In control. A lot of people never
+feel that otherwise.
+But it is artificial.
+It doesn't feel artificial. It
+feels natural, good, and mind
+expanding.
+Until the drug wears off. Then
+you pay the price. Once you come
+down, you're lower than when you
+started. So you take the drug
+again -- and it kicks you back
+up. But not as high this time.
+So you take more.
+But each peak gets lower and
+the valleys get deeper. Before
+you know it -- you're taking the
+drug not to feel good but to keep
+from feeling bad.
+And that's the trap.
+You think the drug expands your
+universe -- but it actually
+shrinks it. Shrinks it to where
+you and the drug are all that's
+left.
+Pretty soon, all you care about
+is getting your next dosage.
+You'll lie, cheat, steal --
+anything to get that fix.
+Certainly by then you would
+realize the danger.
+That's the worst of it. You don't
+care. The drug is your salvation
+-- your survival. Nothing else
+is important.
+I guess I just don't understand.
+Wesley, I hope you never do.
+Lieutenant Yar, we are ready in
+the guest quarters.
+T'Jon. Have you got it?
+Well, it's here, but...
+You've got to get it to us.
+T'Jon... please... We're dying
+here. You don't know... this is
+the worst it's ever been.
+I'm doing everything I can.
+See... what happened was...
+Stop. I can't listen. T'Jon...
+we need the medicine. So, many
+people... so much suffering.
+You've got to get it to us. I
+can't... I can't go on. Help,
+T'Jon... please.
+I'm sorry.
+Take us to our planet - leave us
+there with our medicine or this
+person dies.
+Don't you see -- I have no choice.
+We were sent to bring back the
+Felicium. The suffering on my
+planet is too great. People are
+dying. It doesn't matter any more
+whether we are entitled to the
+Felicium... we have to have it.
+Let him go.
+Take us there now -- or give us
+a shuttle -- but we must have the
+medicine... if you refuse, this
+person dies.
+I will not be coerced.
+I'll do it. I'll kill him.
+No you won't. You're not a killer
+and neither am I.
+Help us... please... help us.
+I'm not sure that I can.
+Captain Picard, we couldn't help
+overhearing. Could I see you for
+a moment?
+Come with me, Doctor. This could
+be interesting.
+We have thought about this a great
+deal.
+Both of us feel deeply about what
+is happening on Ornara.
+Although this is going to cause
+hardship to us and to our people,
+we have decided to give the
+Felicium to them.
+They can pay for it when they are
+able.
+We don't want to cause any
+suffering.
+I wonder why I expected this.
+Pardon?
+It's the other shoe.
+The Ornarans are not aware, are
+they?
+Of what?
+That the plague which nearly
+destroyed Ornara... infected your
+world as well.
+You don't know that for sure.
+It had to.
+But somehow, one of your ancestors
+realized that your desire for the
+drug continued after the disease
+had been cured. They made the
+connection and were able to end
+their addiction.
+But these same wonderful people
+also realized that their neighbors
+never found out. Their need for
+the drug grew to the point it is
+now. Your sole source of support
+comes from providing the narcotic.
+And the refinement process of
+which you are so proud was a way
+to make Felicium even more
+addicting... and tighten your
+grip on the Ornarans even further.
+Are you going to tell them?
+No. I can't tell them. You see,
+I am bound by the rules of the
+United Federation of Planets,
+which say I am not to interfere
+in other worlds, other cultures.
+To tell them any of this would
+be interfering and would violate
+the Prime Directive.
+You're talking to us about it...
+Telling you things you already
+know... which changes nothing.
+Jean-Luc. I can synthesize
+something which will alleviate
+their suffering and make
+withdrawal painless.
+That won't be necessary, because
+if I understand the captain, he
+is going to allow the Ornarans
+to have the Felicium.
+Yes, I am.
+You can't do that. Some things
+go beyond words on a page. These
+Brekkians have knowingly enslaved
+others. They have caused untold
+suffering and hardship, just so
+their pitiful lives could be
+easier. At least don't give the
+Ornarans more drugs.
+It is not for me to make any of
+these decisions.
+You are absolutely right, Captain.
+Captain, we've arrived at Ornara
+and assumed standard orbit.
+Acknowledged. Thank you.
+Forgive me for doing what I must.
+I'm beaming you down to your
+world... with your Felicium.
+Good. I knew it would work out
+this way.
+You've made the only humanitarian
+decision, Captain.
+Langor and I will beam down to
+Ornara with you.
+We'll work out payment terms for
+the Felicium.
+On behalf of my people, I extend
+thanks for your benevolent
+attitude.
+And I also thank you, Captain,
+for doing the right thing.
+Your gift of these coils will
+ensure that our freighters will
+continue to work.
+No.
+No.
+I will not supply you with spare
+parts for your freighters. If
+you want them repaired, you'll
+have to do that yourself.
+In a short time our freighters
+will be inoperable.
+Quite possibly.
+But we depend on those freighters!
+We must have those parts.
+If you withhold those coils,
+you're disrupting the stability
+of both our planets --
+-- and interfering with a trade
+arrangement that has lasted for
+generations! What of this Prime
+Directive of yours?
+Nothing in the Prime Directive
+compels me to help you.
+You're an executioner, Captain.
+You want our world to perish.
+No. That's not what I want.
+But without our freighters, there
+will be no more shipments of
+Felicium! We will die!
+You must trust in yourselves.
+There are... other options.
+And you must understand that my
+oath as a Starfleet officer gives
+me no choice in the matter.
+Transporter Room. Lock onto our
+guests and their cargo and beam
+them down to Ornara.
+Captain, I hope you realize what
+you've done to us.
+Of that, you can be sure.
+Good luck.
+When the Felicium runs out, the
+people of Ornara will suffer
+horrible withdrawal pains.
+No doubt.
+We could have made their burden
+easier.
+Only in the short run. Painful
+as it will be, the people of
+Ornara -- and the people of Brekka
+-- must shape their own destinies.
+It sounds so... heartless.
+Doctor, it was not an easy
+decision.
+I just hope it was the right one.
+Mister LaForge, take us out of
+orbit.
+Aye, sir. Course laid in.
+Engage.
