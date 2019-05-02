@@ -1,3 +1,9 @@
+import sys
+import os
+sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-packages")
+os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
+
+          
 from nltk.corpus import stopwords
 import os
 import string
@@ -9,11 +15,32 @@ import re
 import math
 
 
-stop_words = stopwords.words('english')
-stop_words.extend(['good','come', 'would'])
+homePath = os.environ['HOME']
+dataHome = os.path.join(homePath, 'Text-Analysis-DavidBranchV2', 'data', 'shakespeareFolger')
+dataResults = os.path.join(homePath, 'Text-Analysis-DavidBranchV2', 'Output')
 
+singleDoc = False
+nltkStop = True
+customStop = True
+stopWords = []
 
-def textClean(text, stopWordsList = None):
+# NLTK Stop words
+if nltkStop is True:
+    stopWords.extend(stopwords.words('english'))
+
+    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come'])
+
+#print(" ".join(stopwords.fileids()))
+
+if customStop is True:
+    stopWordsFilepath = os.path.join(homePath, "IntroTextAnalysis", "data", "earlyModernStopword.txt")
+
+    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+        stopWordsCustom = [x.strip() for x in stopfile.readlines()]
+
+    stopWords.extend(stopWordsCustom)
+    
+def textClean(text):
     
     text = text.strip().lower()
     
@@ -26,11 +53,7 @@ def textClean(text, stopWordsList = None):
     tokens = [t for t in tokens if not t.isdigit()]
     
     # built-in stop words list
-    tokens = [t for t in tokens if t not in stop_words]
-    
-    # custom stop words list
-    if stopWordsList is not None:
-        tokens = [t for t in tokens if t not in stopWordsList]
+    tokens = [t for t in tokens if t not in stopWords]
         
     # remove punctuation
     puncts = list(string.punctuation)
@@ -41,6 +64,7 @@ def textClean(text, stopWordsList = None):
     return tokens
 
 
+    
 """
 Get sorted frequency in descending order
 """
@@ -54,8 +78,7 @@ def getFreq(tokens):
     # sorted frequency in descending order
     return sorted(freq.items(), key = operator.itemgetter(1), reverse = True)
 
-
-def plotTopTen(sortedFreq, title, fontParas, imgFilepath, dpi):
+def plotTopTen(sortedFreq, title, imgFilepath, dpi):
     
     topn = 15
 
@@ -75,8 +98,7 @@ def plotTopTen(sortedFreq, title, fontParas, imgFilepath, dpi):
                                                              'darkorchid', 'darkred', 'darkorange', 
                                                              'gold', 'darkgreen'])
     
-    for k in fontParas:
-        plt.rcParams[k] = fontParas[k]
+
         
     plt.xticks(x_pos, [w[0] for w in topNWords])
     plt.xticks(rotation = 45)
@@ -100,19 +122,17 @@ def plotTopTen(sortedFreq, title, fontParas, imgFilepath, dpi):
     plt.savefig(imgFilepath, format = 'png', dpi = dpi, bbox_inches = 'tight')
     
     plt.show()
-
-
-
-def getTokensFromSingleText(textFilepath, stopWordsList):
     
-    with open(textFilepath, "r") as f:
+    
+def getTokensFromSingleText(textFilepath):
+    
+    with open(textFilepath, "r", encoding = 'utf-8') as f:
         text = f.read()
 
-    return textClean(text, stopWordsList)
+    return textClean(text)
 
 
-
-def getTokensFromScan(corpusRoot, stopWordsList):
+def getTokensFromScan(corpusRoot):
     
     tokens = []
     
@@ -126,74 +146,45 @@ def getTokensFromScan(corpusRoot, stopWordsList):
             
             textFilepath = os.path.join(root, filename)
             
-            with open(textFilepath, "r") as f:
+            with open(textFilepath, "r", encoding = "utf-8") as f:
                 text = f.read()
-                tokens.extend(textClean(text, stopWordsList))
+                tokens.extend(textClean(text))
                 
                 print('Finished tokenizing text {}\n'.format(textFilepath))
     
     return tokens
 
 
+if singleDoc is True:
+    # Use case one, analyze top 10 most frequent words from a single text
 
-# load custom stop words list
+    textFilepath = os.path.join(dataHome, 'Hamlet.txt')
 
-dataHome = '/N/u/klosteda/Carbonate/Text-Analysis/data'
+    # get tokens
+    tokens = getTokensFromSingleText(textFilepath)
 
-corpusRoot = os.path.join(dataHome, 'StarTrekNextGenClean/season1')
+    # get frequency
+    freq = getFreq(tokens)
 
-stopWordsFilepath = os.path.join(dataHome, 'nltkStopword.txt')
+    title = 'Top 10 Words, Hamlet'
 
-with open(stopWordsFilepath, "r") as f:
-    stopWordsList = f.readlines()
-            
-stopWordsList = [w.strip().lower() for w in stopWordsList]
+    imgFilepath = os.path.join(dataResults, 'hamletTopTenPlainText.png')
 
+    dpi = 300
 
+    plotTopTen(freq, title, imgFilepath, dpi)
+else:
+    # Use case two, analyze top 10 most frequent words from a corpus root
 
+    tokens = getTokensFromScan(dataHome)
 
-# Use case one, analyze top 10 most frequent words from a single text
+    # get frequency
+    freq = getFreq(tokens)
 
-textFilepath = os.path.join(corpusRoot, '102.txt')
+    title = 'Top 10 Words, Shakespeare'
 
-# get tokens
-tokens = getTokensFromSingleText(textFilepath, stopWordsList)
+    imgFilepath = os.path.join(dataResults, 'starTrekTopTenPlainText.png')
 
-# get frequency
-freq = getFreq(tokens)
+    dpi = 300
 
-title = 'Top 10 Words, Star Trek'
-
-# a dictionary that specifies font related parameters as key-value pairs
-
-fontParas = {'font.sans-serif' : 'Arial', 'font.family' : 'sans-serif'}
-
-imgFilepath = '/N/u/klosteda/Carbonate/Text-Analysis/Output/starTrek102TopTenPlainText.png'
-
-dpi = 300
-
-plotTopTen(freq, title, fontParas, imgFilepath, dpi)
-
-
-
-
-"""
-# Use case two, analyze top 10 most frequent words from a corpus root
-
-tokens = getTokensFromScan(corpusRoot, stopWordsList)
-
-# get frequency
-freq = getFreq(tokens)
-
-title = 'Top 10 Words, Star Trek: Next Generation'
-
-# a dictionary that specifies font related parameters as key-value pairs
-
-fontParas = {'font.sans-serif' : 'Arial', 'font.family' : 'sans-serif'}
-
-imgFilepath = '/N/u/klosteda/Carbonate/Text-Analysis/Output/starTrekTopTenPlainText.png'
-
-dpi = 300
-
-plotTopTen(freq, title, fontParas, imgFilepath, dpi)
-"""
+    plotTopTen(freq, title, imgFilepath, dpi)
