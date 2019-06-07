@@ -5,7 +5,7 @@ Already familiar Python and don't really need any help? Then go ahead and dive r
 
 For those who are new to Python and need a little assistance, please see our introductory Jupyter Notebooks in [Python notebooks](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_notebooks). These notebooks go into more detail about the code and what it does.
 
-# More Advanced Topics
+## More Advanced Topics
 If you are interested in sentiment analysis and then see our Jupyter Notebooks on [sentiment analysis](https://github.com/cyberdh/Text-Analysis/tree/master/VADERSentimentAnalysis) adapted from VADER (1). 
 
 If your are interested in topic modeling, then find our notebooks on [LDA](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/LDA), [LSA](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/LSA), and [word vectors](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/Word2Vec). 
