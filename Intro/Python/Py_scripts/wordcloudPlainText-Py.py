@@ -1,5 +1,11 @@
-from nltk.corpus import stopwords
+# Points to Cyber DH Python Environment
+import sys
 import os
+sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-packages")
+os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
+
+# Import remaining packages
+from nltk.corpus import stopwords
 import string
 from collections import defaultdict
 import wordcloud
@@ -7,16 +13,44 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 import re
-import operator
 
 
 
-stop_words = stopwords.words('english')
-stop_words.extend(['good','come', 'would'])
+# File paths saved as variables for use later in code
+homePath = os.environ['HOME']
+dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
+dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
+corpusRoot = os.path.join(dataHome, "shakespeareFolger")
+
+# Variables for use later in the code. If you wish to see nltk stopword languages, remove '#' from in front of print.
+singleDoc = False
+nltkStop = True
+customStop = True
+stopLang = 'english'
+stopWords = []
+
+#print(" ".join(stopwords.fileids()))
 
 
+# NLTK Stop words
+if nltkStop is True:
+    stopWords.extend(stopwords.words(stopLang))
 
-def textClean(text, stopWordsList = None):
+    stopWords.extend(['would', 'said', 'says', 'also', 'lord', 'good', 'come'])
+
+
+# Custom stop words
+if customStop is True:
+    stopWordsFilepath = os.path.join(dataHome, "earlyModernStopword.txt")
+
+    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+        stopWordsCustom = [x.strip() for x in stopfile.readlines()]
+
+    stopWords.extend(stopWordsCustom)
+
+
+# Text cleaning function
+def textClean(text):
     
     text = text.strip().lower()
     
@@ -29,11 +63,7 @@ def textClean(text, stopWordsList = None):
     tokens = [t for t in tokens if not t.isdigit()]
     
     # built-in stop words list
-    tokens = [t for t in tokens if t not in stop_words]
-    
-    # custom stop words list
-    if stopWordsList is not None:
-        tokens = [t for t in tokens if t not in stopWordsList]
+    tokens = [t for t in tokens if t not in stopWords]
         
     # remove punctuation
     puncts = list(string.punctuation)
@@ -43,9 +73,7 @@ def textClean(text, stopWordsList = None):
 
     return tokens
 
-
-
-
+# Function for ploting wordcloud
 def plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath = None):
 
     freq = defaultdict(int)
@@ -66,7 +94,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath = None):
     wc.fit_words(freq)
 
     # show
-    plt.figure(figsize = (20, 10))
+    plt.figure(figsize = (60, 20))
     plt.imshow(wc, interpolation = 'bilinear')
     plt.axis("off")
 
@@ -76,24 +104,22 @@ def plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath = None):
     plt.savefig(wcImgFilepath, format = 'png', dpi = dpi, bbox_inches = 'tight')
     
     plt.show()
-    
-    
 
 
-def drawWordCloudFromSingleText(textFilepath, stopWordsList, wcImgFilepath, dpi, 
+# Function for creating a wordcloud from a single text
+def drawWordCloudFromSingleText(textFilepath, wcImgFilepath, dpi, 
                                 maxWordCnt, maskFilepath = None):
     
-    with open(textFilepath, "r") as f:
+    with open(textFilepath, "r", encoding="UTF-8") as f:
         text = f.read()
 
-    tokens = textClean(text, stopWordsList)
+    tokens = textClean(text)
     
     plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
 
 
-
-
-def drawWordCloudFromScan(corpusRoot, stopWordsList, wcImgFilepath, dpi, 
+# Function for creating a wordcloud from multiple texts
+def drawWordCloudFromScan(corpusRoot, wcImgFilepath, dpi, 
                           maxWordCnt, maskFilepath = None):
    
     tokens = []
@@ -110,60 +136,48 @@ def drawWordCloudFromScan(corpusRoot, stopWordsList, wcImgFilepath, dpi,
             
             with open(textFilepath, "r") as f:
                 text = f.read()
-                tokens.extend(textClean(text, stopWordsList))
-                
-                print('Finished tokenizing text {}\n'.format(textFilepath))
+                tokens.extend(textClean(text))
     
     plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
 
 
-
-# load custom stop words list
-
-dataHome = '/N/u/klosteda/Carbonate/Text-Analysis/data'
-
-corpusRoot = os.path.join(dataHome, 'StarTrekNextGenClean','season1')
-
-stopWordsFilepath = os.path.join(dataHome,'earlyModernStopword.txt' )
-
-with open(stopWordsFilepath, "r") as f:
-    stopWordsList = f.readlines()
-            
-stopWordsList = [w.strip().lower() for w in stopWordsList]
-
-
-
-
-# Use case one, draw word cloud from a single text
-
-textFilepath = os.path.join(corpusRoot, '102.txt')
-
-# filepath to save word cloud image
-wcImgFilepath = '/N/u/klosteda/Carbonate/Text-Analysis/Output/starTrek102TopTenPy.png'
-
+#Variables
+document = "Hamlet.txt"
+wcOutputFile = "wordcloud.png"
 dpi = 300
-
-# As an option, user can provision a mask related to the text theme
-maskFilepath = '/N/u/klosteda/Carbonate/Text-Analysis/data/wordcloudMasks/StarTrek.png'
-
 maxWordCnt = 500
+useMask = True
+maskPath = os.path.join(dataHome,'wordcloudMasks','Shakespeare.png')
 
-drawWordCloudFromSingleText(textFilepath, stopWordsList, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
 
+if singleDoc is True:
+    # Use case one, draw word cloud from a single text
 
+    textFilepath = os.path.join(corpusRoot, document)
 
-"""
-# Use case two, draw word cloud from a corpus root
+    # filepath to save word cloud image
+    wcImgFilepath = os.path.join(dataResults, wcOutputFile)
 
-# filepath to save word cloud image
-wcImgFilepath = '/N/u/klosteda/Carbonate/Text-Analysis/Output/starTrekTopTenPy.png'
+    # As an option, user can provision a mask related to the text theme
+    if useMask is True:
+        
+        drawWordCloudFromSingleText(textFilepath, wcImgFilepath, dpi, maxWordCnt, maskFilepath = maskPath)
+    else:
+        maskFilepath = None
+        
+        drawWordCloudFromSingleText(textFilepath, wcImgFilepath, dpi, maxWordCnt, maskFilepath = maskFilepath)
+else:
+    # Use case two, draw word cloud from a corpus root
 
-dpi = 300
+    # filepath to save word cloud image
+    wcImgFilepath = os.path.join(dataResults, wcOutputFile)
 
-# As an option, user can provision a mask related to the text theme
-maskFilepath = '/N/u/klosteda/Carbonate/Text-Analysis/data/wordcloudMasks/StarTrek.png'
+    # As an option, user can provision a mask related to the text theme
+    if useMask is True:
+        
+        drawWordCloudFromScan(corpusRoot, wcImgFilepath, dpi, maxWordCnt, maskFilepath = maskPath)
+    else:
+        maskFilepath = None
+        
+        drawWordCloudFromScan(corpusRoot, wcImgFilepath, dpi, maxWordCnt, maskFilepath = maskFilepath)
 
-maxWordCnt = 500
-
-drawWordCloudFromScan(corpusRoot, stopWordsList, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
-"""
