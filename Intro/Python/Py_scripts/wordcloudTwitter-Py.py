@@ -16,6 +16,8 @@ import re
 import csv
 import json
 import pandas as pd
+import glob
+import zipfile
 
 
 # Set needed variables. Remove '#' from in front of print if you want to see
@@ -35,7 +37,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV", "parkland")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -81,6 +83,16 @@ def textClean(text):
     tokens = [t for t in tokens if t not in puncts]
 
     return tokens
+
+# unzip files
+direct = dataRoot
+allZipFiles = glob.glob(os.path.join(dataRoot, "*.zip"))
+for item in allZipFiles:
+    fileName = os.path.splitext(direct)[0]
+    zipRef = zipfile.ZipFile(item, "r")
+    zipRef.extractall(fileName)
+    zipRef.close()
+    os.remove(item)
 
 # Function for plotting wordcloud
 def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
@@ -185,6 +197,7 @@ def drawWordCloudFromScan(dataRoot, textColIndex, encoding, errors,
 
 
 # ### Plot Wordcloud
+#Variables
 #Variables
 document = "neverAgain" + fileType
 wcOutputFile = "wordcloud.png"
