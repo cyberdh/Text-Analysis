@@ -1,3 +1,13 @@
+# NOTE: This chunk of code is only for use with Research Desktop. You will get an error if you try to run this code on your personal device!!
+
+import sys
+import os
+sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-packages")
+os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
+
+
+# Include necessary packages for notebook 
+
 from nltk.corpus import PlaintextCorpusReader
 from nltk.corpus import stopwords
 from nltk import word_tokenize
@@ -5,164 +15,184 @@ import string
 import re
 import os
 import csv
+import json
+import glob
 import math
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.stats import rankdata
 from ggplot import *
+import zipfile
 
 
-"""
-Check if a token has all ASCII characters
-"""
-def isAsciiToken(token):
+# Set needed variables
+
+fileType = ".json"
+singleDoc = False
+interestedWords = ['gop', 'blame', 'trump']
+freqDict = {}
+
+#print(" ".join(stopwords.fileids()))
+
+
+# File paths
+
+homePath = os.environ['HOME']
+dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
+dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
+if fileType == ".csv":
+    dataRoot = os.path.join(dataHome, "twitter", "CSV", "parkland")
+else:
+    dataRoot = os.path.join(dataHome, "twitter", "JSON")
+
+
+# Unzip files
+
+direct = dataRoot
+allZipFiles = glob.glob(os.path.join(dataRoot,"*.zip"))
+for item in allZipFiles:
+    fileName = os.path.splitext(direct)[0]
+    zipRef = zipfile.ZipFile(item, "r")
+    zipRef.extractall(fileName)
+    zipRef.close()
+    os.remove(item)
+
+
+# Functions
+
+# Read a .csv file
+
+if fileType == ".csv":
+    def readTweets(filepath, textColIndex, encoding = 'utf-8'):
+
+        with open(filepath, encoding = encoding) as f:
+
+            reader = csv.reader(f, delimiter = ',', quotechar = '"')
+
+            content = []
+            for row in reader: 
+                content.append(row[textColIndex])
+
+            # skip header
+            return content[1 : ]
+
+
+# Read a .json file
+
+if fileType == ".json":
+    def readTweets(filepath, textColIndex, encoding = 'utf-8', errors = 'ignore'):
+        
+        with open(filepath, encoding = encoding, errors = errors) as jsonData:
+            data = []
+            for line in jsonData:
+                data.append(json.loads(line))
+        jData = pd.DataFrame(data)
+        jData['created_at']=pd.to_datetime(jData.created_at)
+        jData = jData.sort_values(by='created_at')
+        content = jData[textColIndex].tolist()
+
+        return content[1 : ]
+
+
+# Text Cleaning
+
+def clean(text):
     
-    return all(ord(c) < 128 for c in token)
-
-
-"""
-Remove non-ascii tokens
-"""
-def removeNonAsciiToken(tokens):
+    text = text.strip().lower()
     
-    # remove non-ascii tokens
-    tokens = [x for x in tokens if isAsciiToken(x)]
+    tweets = re.sub(r"http\S+", "", text)
     
+    tokens = re.split(r'\W+', tweets )
+    
+    # remove empty string
+    tokens = [t for t in tokens if t]
+        
+    # remove punctuation
+    puncts = list(string.punctuation)
+    puncts.append('--')
+
+    tokens = [t for t in tokens if t not in puncts]
+
     return tokens
 
 
-def readCSV(filepath, textColIndex, encoding = 'utf-8'):
-    
-    with open(filepath, encoding = encoding) as f:
-        
-        reader = csv.reader(f, delimiter = ',', quotechar = '"')
-        
-        content = []
-        for row in reader: 
-            content.append(row[textColIndex])
-         
-        # skip header
-        return content[1 : ]
-    
-    
-"""
-Remove URLs
-"""
-def removeURL(tokens):
-    
-    p = re.compile(r'^https?://.*$')
-    
-    tokens = [t for t in tokens if re.match(p, t) is None]
-    
-    return tokens 
-
-
-def allPuncChar(token):
-    
-    for c in token:
-        
-        if c not in string.punctuation:
-            return False
-        
-    return True
-
-
-def clean(words, customStopWordsList = None):
-    ################
-    # cleanup
-    ################
-
-    # to lower case
-    words = [w.lower() for w in words]
-
-
-    # remove stop words
-
-    # step 1: custom list
-  
-    if customStopWordsList is not None:
-        words = [w for w in words if w not in customStopWordsList]
-
-
-    # step 2: built in list
-    builtinList = set(stopwords.words('english')) # convert from list to set for fast lookup
-    words = [w for w in words if w not in builtinList]
-
-    # remove punctuations
-    words = [w for w in words if not allPuncChar(w)]
-
-
-    # remove numbers
-    words = [w for w in words if not w.isnumeric()]
-    
-    # remove urls
-    words = removeURL(words)
-    
-    # remove non ascii tokens
-    words = removeNonAsciiToken(words)
-        
-    return words
-
-
-root = '/N/u/klosteda/Carbonate/Text-Analysis/data/twitter/parkland'
-
-tweetFile = 'neverAgain.csv'
-
-filepath = os.path.join(root, tweetFile)
-
-textColIndex = 2
+# Read in the tweets
+# Variables
+tweetFile = 'parkland' + fileType
+textColIndex = 'text'
 encoding = 'ISO-8859-1'
+numTweetsPerChunk = 1000
 
-tweets = readCSV(filepath, textColIndex, encoding)
+# If...else statement
 
-print('Read {} tweets'.format(len(tweets)))
-
-numTweetsPerBlock = 1000
-
-numberBlocks = int(math.ceil(len(tweets) / numTweetsPerBlock))
-
-print('Tweets per block: {}, # blocks is {}'.format(numTweetsPerBlock, numberBlocks))
-
-blocks = []
-
-for i in range(numberBlocks - 1):
+if singleDoc is True:
     
-    blocks.append(tweets[i * numTweetsPerBlock : (i + 1) * numTweetsPerBlock])
-    
-blocks.append(tweets[(i + 1) * numTweetsPerBlock : ])
+    filepath = os.path.join(dataRoot, tweetFile)
+
+    tweets = readTweets(filepath, textColIndex, encoding)
+
+    print('Read {} tweets'.format(len(tweets)))
+
+    numberChunks = int(math.ceil(len(tweets) / numTweetsPerChunk))
+
+    print('Tweets per chunk: {}, # chunks is {}'.format(numTweetsPerChunk, numberChunks))
+
+    chunks = []
+
+    for i in range(numberChunks - 1):
+
+        chunks.append(tweets[i * numTweetsPerChunk : (i + 1) * numTweetsPerChunk])
+
+    chunks.append(tweets[(i + 1) * numTweetsPerChunk : ])
+else:
+    tweets = []
+    for root, subdirs, files in os.walk(dataRoot):
+        
+        for filename in files:
+            
+            # skip hidden file
+            if filename.startswith('.'):
+                continue
+            
+            dataFilepath = os.path.join(dataRoot, filename)
+            
+            content = readTweets(dataFilepath, textColIndex, encoding)
+            tweets.extend(content)
+            
+            
+            print('Read {} tweets'.format(len(tweets)))
+
+            numberChunks = int(math.ceil(len(tweets) / numTweetsPerChunk))
+
+            print('Tweets per chunk: {}, # chunks is {}'.format(numTweetsPerChunk, numberChunks))
+
+            chunks = []
+
+            for i in range(numberChunks - 1):
+
+                chunks.append(tweets[i * numTweetsPerChunk : (i + 1) * numTweetsPerChunk])
+
+            chunks.append(tweets[(i + 1) * numTweetsPerChunk : ])
 
 
-
-# load custom stop words list
-filepath = "/N/u/klosteda/Carbonate/Text-Analysis/data/earlyModernStopword.txt"
-
-with open(filepath) as f:
-    lines = f.read().splitlines()
-
-lines = [l.strip() for l in lines]
-lines.extend(['amp','rt', 'dont'])
-
-customStopWordsList = set(lines) # convert from list to set for fast lookup
+# Clean chunks
 
 tokenBlocks = []
 
-for b in blocks:
+for c in chunks:
     
-    text = ' '.join(b)
+    blocks = ''.join(c)
     
-    tokens = word_tokenize(text)
+    words = word_tokenize(blocks)
     
-    tokenBlocks.append(clean(tokens, customStopWordsList))
-    
+    words = clean(str(words))
+    tokenBlocks.append(words)
 
+
+# Count words in each chunk
 
 # calculate frequency
-
-interestedWords = ['nra', 'gop', 'msdstrong']
-
-freqDict = {}
-
 for w in interestedWords:
     
     freqDict[w] = np.zeros(len(tokenBlocks)).tolist()
@@ -173,7 +203,9 @@ for idx, block in enumerate(tokenBlocks):
         
         if token in freqDict:
             freqDict[token][idx] += 1
-                    
+
+
+# Emulate R's stat_steamgraph in 'ggTimeSeries' package
 
 def composeDataframe(freqDict, debug = False):
 
@@ -252,21 +284,29 @@ def composeDataframe(freqDict, debug = False):
     return df
 
 
+# Now we apply the `composeDataframe` function from above
 
 df = composeDataframe(freqDict)
 
 
+# Plot the Streamgraph
 
-p = ggplot(df, aes(x = 'SeqNum', ymin = 'ymin', ymax = 'ymax', y = 'Freq', group = 'Term', fill = 'Term')) +\
-    geom_ribbon() + \
-    theme(axis_text_x = element_text(angle = 45, hjust = 1)) + \
-    scale_fill_brewer(type = 'qual', palette = 'Dark2') + \
-    xlab(element_text(text = "Segments of 1000 Tweets", size = 16, vjust = -0.02)) + \
-    ylab(element_text(text = "Frequency", size = 16)) + \
-    scale_x_continuous(breaks = list(range(1, len(tokenBlocks) + 1))) + \
-    ggtitle(element_text(text = "Streamgraph of 3 words in tweets containing #neveragain", size = 16))
+# Variables
+streamTwitterOutput = "streamgraphTwitter.svg"
+width = 14
+height = 8
+dpi = 300
+color = 'Dark2'
+fontSz = 16
+angle = 45
+hjust = 1
+vjust = -0.02
+xlabel = "Tweets in chunks of 1000"
+title = "Streamgraph of 3 words in tweets containing #governmentshutdown"
+
+# Plot
+p = ggplot(df, aes(x = 'SeqNum', ymin = 'ymin', ymax = 'ymax', y = 'Freq', group = 'Term', fill = 'Term')) +    geom_ribbon() +     theme(axis_text_x = element_text(angle = angle, hjust = hjust)) +     scale_fill_brewer(type = 'qual', palette = color) +     xlab(element_text(text = xlabel, size = fontSz, vjust = vjust)) +     ylab(element_text(text = "Frequency", size = fontSz)) +     scale_x_continuous(breaks = list(range(1, len(tokenBlocks) + 1))) +     ggtitle(element_text(text = title, size = fontSz))
 p.make()
-plt.savefig("/N/u/klosteda/Carbonate/Text-Analysis/Output/streamgraphNeverAgainPy.png", width = 14, height = 8, dpi = 800)
+plt.savefig(os.path.join(dataResults,streamTwitterOutput), width = width, height = height, dpi = dpi)
 
 plt.show()
-
