@@ -5,7 +5,6 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
           
 from nltk.corpus import stopwords
-import os
 import string
 from collections import defaultdict
 import operator
@@ -22,15 +21,16 @@ dataResults = os.path.join(homePath, 'Text-Analysis-DavidBranchV2', 'Output')
 singleDoc = False
 nltkStop = True
 customStop = True
+stopLang = 'english'
 stopWords = []
 
+#print(" ".join(stopwords.fileids()))
 # NLTK Stop words
 if nltkStop is True:
-    stopWords.extend(stopwords.words('english'))
+    stopWords.extend(stopwords.words(stopLang))
 
     stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come'])
 
-#print(" ".join(stopwords.fileids()))
 
 if customStop is True:
     stopWordsFilepath = os.path.join(homePath, "IntroTextAnalysis", "data", "earlyModernStopword.txt")
@@ -80,7 +80,7 @@ def getFreq(tokens):
 
 def plotTopTen(sortedFreq, title, imgFilepath, dpi):
     
-    topn = 15
+    topn = n
 
     for t in sortedFreq[0 : topn]:
         
@@ -93,20 +93,17 @@ def plotTopTen(sortedFreq, title, imgFilepath, dpi):
 
     plt.rcdefaults()
 
-    plt.bar(x_pos, cnts, align = 'center', alpha = 0.5, color = ['red', 
-                                                             'orange', 'yellow', 'green', 'blue',
-                                                             'darkorchid', 'darkred', 'darkorange', 
-                                                             'gold', 'darkgreen'])
+    plt.bar(x_pos, cnts, align = 'center', alpha = 0.5, color = color)
     
 
         
     plt.xticks(x_pos, [w[0] for w in topNWords])
-    plt.xticks(rotation = 45)
+    plt.xticks(rotation = angle)
         
     xlabel = plt.xlabel('Words')
-    xlabel.set_color('red')
+    xlabel.set_color(labCol)
     ylabel = plt.ylabel('Frequency')
-    ylabel.set_color('red')
+    ylabel.set_color(labCol)
     
     high = max(cnts)
     low = 0
@@ -119,7 +116,7 @@ def plotTopTen(sortedFreq, title, imgFilepath, dpi):
 
     plt.title(title)
  
-    plt.savefig(imgFilepath, format = 'png', dpi = dpi, bbox_inches = 'tight')
+    plt.savefig(imgFilepath, format = fmt, dpi = dpi, bbox_inches = 'tight')
     
     plt.show()
     
@@ -154,11 +151,21 @@ def getTokensFromScan(corpusRoot):
     
     return tokens
 
+# Variables
+n = 10
+singleDocName = 'Hamlet.txt'
+outputFile = "topTenPlainText.svg"
+fmt = 'svg'
+dpi = 300
+angle = 45
+title = 'Top 10 Words, Shakespeare'
+color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
+labCol = 'red'
 
 if singleDoc is True:
     # Use case one, analyze top 10 most frequent words from a single text
 
-    textFilepath = os.path.join(dataHome, 'Hamlet.txt')
+    textFilepath = os.path.join(dataHome, singleDocName)
 
     # get tokens
     tokens = getTokensFromSingleText(textFilepath)
@@ -166,11 +173,7 @@ if singleDoc is True:
     # get frequency
     freq = getFreq(tokens)
 
-    title = 'Top 10 Words, Hamlet'
-
-    imgFilepath = os.path.join(dataResults, 'hamletTopTenPlainText.png')
-
-    dpi = 300
+    imgFilepath = os.path.join(dataResults, outputFile)
 
     plotTopTen(freq, title, imgFilepath, dpi)
 else:
@@ -181,10 +184,7 @@ else:
     # get frequency
     freq = getFreq(tokens)
 
-    title = 'Top 10 Words, Shakespeare'
-
-    imgFilepath = os.path.join(dataResults, 'starTrekTopTenPlainText.png')
-
-    dpi = 300
+    imgFilepath = os.path.join(dataResults, outputFile)
 
     plotTopTen(freq, title, imgFilepath, dpi)
+

@@ -15,12 +15,10 @@ import re
 import string
 import pandas as pd
 from collections import Counter, defaultdict
-import wordcloud
-from wordcloud import STOPWORDS
-from PIL import Image
 import numpy as np
 import operator
 import glob
+import math
 import matplotlib.pyplot as plt
 
 get_ipython().magic('matplotlib inline')
@@ -35,7 +33,8 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 # Set needed variables
 
-data = "*.txt"
+data = "*"
+fileType = ".txt"
 nltkStop = True
 customStop = True
 ng = 2
@@ -53,7 +52,7 @@ ngramList = []
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
 
-    stopWords.extend(['would', 'said', 'says', 'also'])
+    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come', 'let'])
 
 
 # Add own stopword list
@@ -97,7 +96,7 @@ def textClean(text):
 
 # Reading in the Text
 
-for path in glob.glob(os.path.join(dataHome, data)):
+for path in glob.glob(os.path.join(dataHome, data + fileType)):
     with open(path, "r") as file:
          # skip hidden file
         if path.startswith('.'):
@@ -123,59 +122,70 @@ if ng == 3:
     nGrams = blob.ngrams(n=3)
 
 
-# Convert ngrams to a list
+# Converting ngrams to a list.
 
 for wlist in nGrams:
    ngramList.append(' '.join(wlist))
 
 
-# Now we make our dataframe. 
+# Now we make our dataframe.
+
 df = pd.DataFrame(ngramList)
-df = df.replace(' ', '_', regex=True)
 dfCounts = df[0].value_counts()
 countsDF = pd.DataFrame(dfCounts)
 countsDF.reset_index(inplace = True)
 df_C = countsDF.rename(columns={'index':'ngrams',0:'freq'})
-df_C.set_index(df_C['ngrams'], inplace = True)
 df_C['ngrams'] = df_C['ngrams'].astype(str)
 dfNG = df_C.sort_values('freq', ascending = False)
 
 
-# Now lets see what our dataframe looks like. 
-dfNG.head(10)
+# Now lets see what our dataframe looks like.
+df_C.head(10)
 
 
-# Plot our wordcloud
+# Plot our bargraph
 
 # Variables
-useMask = True
-maskPath = os.path.join(homePath, 'Text-Analysis-master','data','wordcloudMasks')
-mask = np.array(Image.open(os.path.join(maskPath, "Shakespeare.png")))
-maxWrdCnt = 500
-bgColor = "black"
-color = "Dark2"
-figureSz = (80,40)
-wcOutputFile = "ngramWordCloud.png"
-imgFmt = "png"
+n = 10
+outputFile = "ngramTopTenPlainText.svg"
+fmt = 'svg'
 dpi = 300
+angle = 60
+title = 'Top 10 Ngrams, Shakespeare'
+color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
+labCol = 'red'
+ngramStop = ["love love", "know know", "fie fie", "ha ha"]
 
 # Ngram Stopwords
-stopwords = ["ngrams","good_lord","come_come"]
-text = dfNG[~dfNG['ngrams'].isin(stopwords)]
+text = dfNG[~dfNG['ngrams'].isin(ngramStop)]
+dfTN = text[0:n]
 
-# Wordcloud aesthetics
-if useMask is True:    
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = mask).generate_from_frequencies(text['freq'])
-else:
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = None).generate_from_frequencies(text['freq'])
+# Plot
+plt.rcdefaults()
 
-# show
-plt.figure(figsize = figureSz)
-plt.imshow(wc, interpolation = 'bilinear')
-plt.axis("off")
-plt.tight_layout()
+plt.bar(dfTN['ngrams'], dfTN['freq'], align = 'center', alpha = 0.5, color = color)
     
-# save graph as an image to file
-plt.savefig(os.path.join(dataResults, wcOutputFile), format = imgFmt, dpi = dpi, bbox_inches = 'tight')
+
+        
+plt.xticks(dfTN['ngrams'])
+plt.xticks(rotation = angle)
+        
+xlabel = plt.xlabel('Ngrams')
+xlabel.set_color(labCol)
+ylabel = plt.ylabel('Frequency')
+ylabel.set_color(labCol)
+    
+high = max(dfTN['freq'])
+low = 0
+    
+plt.ylim(low, math.ceil(high + 0.1 * (high - low)))
+    
+for xpos, count in zip(dfTN['ngrams'], dfTN['freq']):
+    
+    plt.text(x = xpos, y = count + 1, s = str(count), ha = 'center', va = 'bottom')
+
+plt.title(title)
+ 
+plt.savefig(os.path.join(dataResults, outputFile), format = fmt, dpi = dpi, bbox_inches = 'tight')
     
 plt.show()

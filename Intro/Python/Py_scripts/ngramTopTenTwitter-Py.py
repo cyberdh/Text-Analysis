@@ -15,15 +15,13 @@ import re
 import string
 import pandas as pd
 from collections import Counter, defaultdict
-import wordcloud
-from wordcloud import STOPWORDS
-from PIL import Image
 import numpy as np
 import operator
 import glob
 import csv
 import json
 import zipfile
+import math
 
 import matplotlib.pyplot as plt
 
@@ -33,8 +31,7 @@ get_ipython().magic('matplotlib inline')
 # Set needed variables
 
 source = "*"
-fileType = ".json"
-singleDoc = True
+fileType = ".csv"
 nltkStop = True
 customStop = False
 ng = 2
@@ -63,7 +60,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['amp','rt', 'xo_karmin_ox', 'neveragain', 'ð', 'â', 'ï', 'emma4change', 'governmentshutdown'])
+    stopWords.extend(['amp','rt', 'xo_karmin_ox', 'neveragain', 'ð', 'â', 'ï', 'emma4change', 'could', 'us'])
 
 
 # Add own stopword list
@@ -78,8 +75,6 @@ if customStop is True:
 
 
 # Functions
-
-# Text Cleaning
 
 def textClean(text):
     
@@ -122,8 +117,8 @@ for item in allZipFiles:
 # Reading in .csv files
 
 if fileType == ".csv":
-    all_files = glob.glob(os.path.join(dataRoot,source + fileType))     
-    df_all = (pd.read_csv(f) for f in all_files)
+    all_files = glob.glob(os.path.join(dataRoot, source + fileType))     
+    df_all = (pd.read_csv(f, encoding ='ISO-8859-1') for f in all_files)
     cc_df = pd.concat(df_all, ignore_index=True)
     cc_df = pd.DataFrame(cc_df, dtype = 'str')
     tweets = cc_df['text'].values.tolist()
@@ -172,14 +167,12 @@ for wlist in nGrams:
    ngramList.append(' '.join(wlist))
 
 
-# Now we make our dataframe.
+# Make dataframe. 
 df = pd.DataFrame(ngramList)
-df = df.replace(' ', '_', regex=True)
 dfCounts = df[0].value_counts()
 countsDF = pd.DataFrame(dfCounts)
 countsDF.reset_index(inplace = True)
 df_C = countsDF.rename(columns={'index':'ngrams',0:'freq'})
-df_C.set_index(df_C['ngrams'], inplace = True)
 df_C['ngrams'] = df_C['ngrams'].astype(str)
 dfNG = df_C.sort_values('freq', ascending = False)
 
@@ -188,37 +181,49 @@ dfNG = df_C.sort_values('freq', ascending = False)
 dfNG.head(10)
 
 
-# Plot our wordcloud
+# Plot our bargraph
 
 # Variables
-useMask = True
-maskPath = os.path.join(homePath, 'Text-Analysis-master','data','wordcloudMasks')
-mask = np.array(Image.open(os.path.join(maskPath, "USA.png")))
-maxWrdCnt = 500
-bgColor = "black"
-color = "Dark2"
-figureSz = (80,40)
-wcOutputFile = "twitterNgramWordCloud.png"
-imgFmt = "png"
+n = 10
+outputFile = "ngramTopTenTwitter.svg"
+fmt = 'svg'
 dpi = 300
+angle = 70
+title = 'Top 10 Ngrams, Shakespeare'
+color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
+labCol = 'red'
+ngramStop = ["parkland shooter","parkland students", "kidding forgetting", "forgetting come"]
 
 # Ngram Stopwords
-stopwords = ["ngrams","good_lord","come_come"]
-text = dfNG[~dfNG['ngrams'].isin(stopwords)]
+text = dfNG[~dfNG['ngrams'].isin(ngramStop)]
+dfTN = text[0:n]
 
-# Wordcloud aesthetics
-if useMask is True:    
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = mask).generate_from_frequencies(text['freq'])
-else:
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = None).generate_from_frequencies(text['freq'])
+# Plot
+plt.rcdefaults()
 
-# show
-plt.figure(figsize = figureSz)
-plt.imshow(wc, interpolation = 'bilinear')
-plt.axis("off")
-plt.tight_layout()
+plt.bar(dfTN['ngrams'], dfTN['freq'], align = 'center', alpha = 0.5, color = color)
     
-# save graph as an image to file
-plt.savefig(os.path.join(dataResults, wcOutputFile), format = imgFmt, dpi = dpi, bbox_inches = 'tight')
+
+        
+plt.xticks(dfTN['ngrams'])
+plt.xticks(rotation = angle)
+        
+xlabel = plt.xlabel('Ngrams')
+xlabel.set_color(labCol)
+ylabel = plt.ylabel('Frequency')
+ylabel.set_color(labCol)
+    
+high = max(dfTN['freq'])
+low = 0
+    
+plt.ylim(low, math.ceil(high + 0.1 * (high - low)))
+    
+for xpos, count in zip(dfTN['ngrams'], dfTN['freq']):
+    
+    plt.text(x = xpos, y = count + 1, s = str(count), ha = 'center', va = 'bottom')
+
+plt.title(title)
+ 
+plt.savefig(os.path.join(dataResults, outputFile), format = fmt, dpi = dpi, bbox_inches = 'tight')
     
 plt.show()
