@@ -1,15 +1,15 @@
 # About this repo:
 Welcome to the Text-Analysis repository for Cyberinfrastructure for Digital Humanities. 
 
-Already familiar with Python and don't really need any help? Then go ahead and dive right in with our introductory [Python](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_scripts) scripts. They have minimal directions and are ready to go.
+Already familiar with Python and don't really need any help? Then go ahead and dive right in with our introductory Python [WordFrequencies](https://github.com/cyberdh/Text-Analysis/tree/master/WordFrequencies) scripts. Once in the WordFrequencies folder choose the algorithm/output you want (ngrams, streamgraphs, wordClouds, mostFrequentWords) then choose the scripts folder. They have minimal directions and are ready to go.
 
-For those who are new to Python and need a little assistance, please see our introductory Jupyter Notebooks in [Python notebooks](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_notebooks). These notebooks go into more detail about the code and what it does with sample output.
+For those who are new to Python and need a little assistance, please see our introductory Jupyter Notebooks in [WordFrequencies](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_notebooks). As with the scripts, first choose the algorithm/output you want then choose the notebooks folder. These notebooks go into more detail about the code and what it does with sample output.
 
 We have notebooks and scripts for: 
 * text preparation
 * wordclouds (plain text and twitter)
 * ngram wordclouds (plain text and twitter)
-* top ten words (plain text)
+* top ten words (plain text and twitter)
 * streamgraphs (plain text and twitter)
 
 ## More Advanced Topics
