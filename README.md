@@ -3,7 +3,7 @@ Welcome to the Text-Analysis repository for Cyberinfrastructure for Digital Huma
 
 Already familiar with Python and don't really need any help? Then go ahead and dive right in with our introductory Python [word frequency](https://github.com/cyberdh/Text-Analysis/tree/master/WordFrequencies) scripts. Once in the WordFrequencies folder choose the algorithm/output you want (ngrams, streamgraphs, wordClouds, mostFrequentWords) then choose the scripts folder. They have minimal directions and are ready to go.
 
-For those who are new to Python and need a little assistance, please see our introductory Jupyter Notebooks in the [WordFrequencies](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_notebooks) folder. As with the scripts, first choose the algorithm/output you want then choose the notebooks folder. These notebooks go into more detail about the code and what it does with sample output.
+For those who are new to Python and need a little assistance, please see our introductory Jupyter Notebooks in the [WordFrequencies](https://github.com/cyberdh/Text-Analysis/tree/master/WordFrequencies) folder. As with the scripts, first choose the algorithm/output you want then choose the notebooks folder. These notebooks go into more detail about the code and what it does with sample output.
 
 We have notebooks and scripts for: 
 * text preparation
