@@ -87,21 +87,21 @@ def plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath = None):
         mask = None
     
 
-    wc = wordcloud.WordCloud(background_color = "white", max_words = maxWordCnt, mask = mask, colormap = 'Dark2')
+    wc = wordcloud.WordCloud(background_color = bgc, max_words = maxWordCnt, mask = mask, colormap = cm, min_font_size=minFont)
     
 
     # generate word cloud
     wc.fit_words(freq)
 
     # show
-    plt.figure(figsize = (60, 20))
+    plt.figure(figsize = figSz)
     plt.imshow(wc, interpolation = 'bilinear')
     plt.axis("off")
 
     plt.tight_layout()
     
     # save graph as a png image to file
-    plt.savefig(wcImgFilepath, format = 'png', dpi = dpi, bbox_inches = 'tight')
+    plt.savefig(wcImgFilepath, format = fmt, dpi = dpi, bbox_inches = 'tight')
     
     plt.show()
 
@@ -144,8 +144,13 @@ def drawWordCloudFromScan(corpusRoot, wcImgFilepath, dpi,
 #Variables
 document = "Hamlet.txt"
 wcOutputFile = "wordcloud.png"
+fmt = "png"
+bgc = "white"
+cm = "Dark2"
 dpi = 300
 maxWordCnt = 500
+minFont = 14
+figSz = (60, 20)
 useMask = True
 maskPath = os.path.join(dataHome,'wordcloudMasks','Shakespeare.png')
 
