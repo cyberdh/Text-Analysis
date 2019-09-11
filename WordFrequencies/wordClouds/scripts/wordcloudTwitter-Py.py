@@ -107,7 +107,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
     else:
         mask = None
 
-    wc = wordcloud.WordCloud(background_color = "white", max_words = maxWordCnt, mask = mask, colormap = 'Dark2')
+    wc = wordcloud.WordCloud(background_color = bgc, max_words = maxWordCnt, mask = mask, colormap = cm, min_font_size=minFont)
     
 
     # generate word cloud
@@ -117,7 +117,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
     wc.to_file(wcImgFilepath)
 
     # show
-    plt.figure(figsize = (60, 20))
+    plt.figure(figsize = figSz)
     plt.imshow(wc, interpolation = 'bilinear')
     
     plt.axis("off")
@@ -125,7 +125,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
     plt.tight_layout()
     
     # save graph as a png image to file
-    plt.savefig(wcImgFilepath, format = 'png', dpi = dpi, bbox_inches = 'tight')
+    plt.savefig(wcImgFilepath, format = fmt, dpi = dpi, bbox_inches = 'tight')
     plt.show()
 
 # Function to read in .csv file
@@ -196,16 +196,21 @@ def drawWordCloudFromScan(dataRoot, textColIndex, encoding, errors,
     plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
 
 
-# ### Plot Wordcloud
+# Plot Wordcloud
 #Variables
-#Variables
+
 document = "neverAgain" + fileType
 wcOutputFile = "wordcloud.png"
+fmt = "png"
 textColIndex = 2
 encoding = 'utf-8'
 errors = 'ignore'
+bgc = "white"
+cm = "Dark2"
 dpi = 300
 maxWordCnt = 500
+minFont = 12
+figSz = (60,20)
 useMask = True
 maskPath = os.path.join(dataHome,'wordcloudMasks','USA.png')
 
