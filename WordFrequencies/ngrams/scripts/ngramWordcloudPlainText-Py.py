@@ -154,6 +154,7 @@ mask = np.array(Image.open(os.path.join(maskPath, "Shakespeare.png")))
 maxWrdCnt = 500
 bgColor = "black"
 color = "Dark2"
+minFont = 12
 figureSz = (80,40)
 wcOutputFile = "ngramWordCloud.png"
 imgFmt = "png"
@@ -165,9 +166,9 @@ text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
 if useMask is True:    
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = mask).generate_from_frequencies(text['freq'])
+    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = mask, min_font_size = minFont).generate_from_frequencies(text['freq'])
 else:
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = None).generate_from_frequencies(text['freq'])
+    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = None, min_font_size = minFont).generate_from_frequencies(text['freq'])
 
 # show
 plt.figure(figsize = figureSz)
