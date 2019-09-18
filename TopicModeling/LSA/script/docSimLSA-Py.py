@@ -72,6 +72,8 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 nltkStop = True
 customStop = True
+stem = True
+lowerCase = True
 language = 'english'
 stopWords = []
 tokenDict = {}
@@ -100,23 +102,30 @@ if customStop is True:
 
 # Dictionary and stemmer
 
-stemmer = SnowballStemmer(language)
-#print(" ".join(SnowballStemmer.languages))
+if stem is True:
+    stemmer = SnowballStemmer(language)
+    #print(" ".join(SnowballStemmer.languages))
 
 
 # Functions
 # Stemming and tokenization functions
 
-def stemTokens(tokens, stemmer):
-    stemmed = []
-    for item in tokens:
-        stemmed.append(stemmer.stem(item))
-    return stemmed
+if stem is True:
+    def stemTokens(tokens, stemmer):
+        stemmed = []
+        for item in tokens:
+            stemmed.append(stemmer.stem(item))
+        return stemmed
 
-def tokenize(text):
-    tokens = nltk.word_tokenize(text)
-    stems = stemTokens(tokens, stemmer)
-    return stems
+    def tokenize(text):
+        tokens = nltk.word_tokenize(text)
+        stems = stemTokens(tokens, stemmer)
+        return stems
+
+else:
+    def tokenize(text):
+        tokens = nltk.word_tokenize(text)
+        return tokens
 
 
 # Read in documents
@@ -128,9 +137,13 @@ for subdir, dirs, files in os.walk(dataHome):
         filePath = subdir + os.path.sep + file
         with open(filePath, 'r', encoding = 'ISO-8859-1') as textFile:
             text = textFile.read()
-            lowers = text.lower()
-            noPunctuation = lowers.translate(str.maketrans('','', string.punctuation))
-            tokenDict[file] = noPunctuation
+            if lowerCase is True:
+                lowers = text.lower()
+                noPunctuation = lowers.translate(str.maketrans('','', string.punctuation))
+                tokenDict[file] = noPunctuation
+            else:
+                noPunctuation = text.translate(str.maketrans('','', string.punctuation))
+                tokenDict[file] = noPunctuation
 
 
 # Let's check and see if our dictionary now has our data.
