@@ -1,12 +1,29 @@
 # About this repo:
 Welcome to the Text-Analysis repository for Cyberinfrastructure for Digital Humanities. 
 
-Already familiar with R and/or Python and don't really need any help? Then go ahead and dive right in with our [R](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/R/R_scripts) or [Python](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_scripts) scripts. They have minimal directions and are ready to go.
+Already familiar with Python and don't really need any help? Then go ahead and dive right in with our introductory Python [word frequency](https://github.com/cyberdh/Text-Analysis/tree/master/WordFrequencies) scripts. Once in the WordFrequencies folder choose the algorithm/output you want (ngrams, streamgraphs, wordClouds, mostFrequentWords) then choose the scripts folder. They have minimal directions and are ready to go.
 
-For those who are new to R and/or Python and need a little assistance, please see our Jupyter Notebooks in both [R notebooks](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/R/R_notebooks) and [Python notebooks](https://github.com/cyberdh/Text-Analysis/tree/master/Intro/Python/Py_notebooks). These notebooks go into more detail about the code and what it does.
+For those who are new to Python and need a little assistance, please see our introductory Jupyter Notebooks in the [WordFrequencies](https://github.com/cyberdh/Text-Analysis/tree/master/WordFrequencies) folder. As with the scripts, first choose the algorithm/output you want then choose the notebooks folder. These notebooks go into more detail about the code and what it does with sample output.
 
-If you are interested in sentiment analysis and ONLY sentiment analysis, then see our Jupyter Notebooks on [sentiment analysis](https://github.com/cyberdh/Text-Analysis/tree/master/VADERSentimentAnalysis). These are only available in Python.
+We have notebooks and scripts for: 
+* text preparation
+* wordclouds (plain text and twitter)
+* ngram wordclouds (plain text and twitter)
+* top ten words (plain text and twitter)
+* streamgraphs (plain text and twitter)
 
-If your are interested in topic modeling, then find our notebooks on [LDA](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/LDA), [LSA](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/LSA), and [word vectors](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/Word2Vec). Our topic modeling is only available in Python.
+## More Advanced Topics
 
-#### Please note: The code in this repo is intended for use on Carbonate, the supercomputer at Indiana University, via Research Desktop (RED). Carbonate is a Linux system and uses R version 3.3.1 or 3.4.4 and Python 2.7 or 3.6 and so some of this code may need to be altered if you are using a different version of either R or Python on another computer. The Python code in this repo is all Python 3.
+### Sentiment Analysis
+Jupyter Notebooks for [sentiment analysis](https://github.com/cyberdh/Text-Analysis/tree/master/VADERSentimentAnalysis) using Twitter adapted from VADER (1). 
+
+(1). Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
+
+### Topic Modeling 
+Jupyter Notebooks using
+* [LDA](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/LDA)
+* [LSA](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/LSA)
+* [word vectors](https://github.com/cyberdh/Text-Analysis/tree/master/TopicModeling/Word2Vec) 
+
+
+#### Please note: The code in this repo is set up for use on Carbonate, the supercomputer at Indiana University, via Research Desktop (ReD). Carbonate is a Linux system and uses Python 2.7 or 3.6 and so some of this code may need to be altered if you are using a different version of Python on another computer. The Python code in this repo is all Python 3.
