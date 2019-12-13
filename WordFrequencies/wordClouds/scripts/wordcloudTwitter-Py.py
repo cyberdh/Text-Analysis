@@ -9,9 +9,7 @@ from nltk.corpus import stopwords
 import string
 from collections import defaultdict
 import wordcloud
-from PIL import Image
 import matplotlib.pyplot as plt
-import numpy as np
 import re
 import csv
 import json
@@ -20,17 +18,13 @@ import glob
 import zipfile
 
 
-# Set needed variables. Remove '#' from in front of print if you want to see
-# nltk stopword languages
+# Set needed variables. 
 fileType = ".csv"
 singleDoc = True
 nltkStop = True
 customStop = False
 stopLang = "english"
 stopWords = []
-
-#print(" ".join(stopwords.fileids()))
-
 
 # File paths saved as variables for later use.
 homePath = os.environ['HOME']
@@ -51,7 +45,7 @@ if nltkStop is True:
 
 # Add own stopword list
 if customStop is True:
-    stopWordsFilepath = os.path.join(dataHome, "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(dataHome, "twitterStopword.txt")
 
     with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
@@ -95,19 +89,14 @@ for item in allZipFiles:
     os.remove(item)
 
 # Function for plotting wordcloud
-def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
+def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt):
 
     freq = defaultdict(int)
 
     for t in tokens:
         freq[t] += 1
-        
-    if maskFilepath is not None:
-        mask = np.array(Image.open(maskFilepath))
-    else:
-        mask = None
 
-    wc = wordcloud.WordCloud(background_color = bgc, max_words = maxWordCnt, mask = mask, colormap = cm, min_font_size=minFont)
+    wc = wordcloud.WordCloud(background_color = bgc, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
     
 
     # generate word cloud
@@ -159,8 +148,8 @@ if fileType == ".json":
 
 
 # Function to create wordcloud from a single file
-def drawWordCloudFromSingleFile(dataFilepath, textColIndex, encoding, errors, 
-                               wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
+def drawWordCloudFile(dataFilepath, textColIndex, encoding, errors, 
+                               wcImgFilepath, dpi,  maxWordCnt):
     
     content = readTweets(dataFilepath, textColIndex, encoding, errors)
     
@@ -168,12 +157,12 @@ def drawWordCloudFromSingleFile(dataFilepath, textColIndex, encoding, errors,
     
     tokens = textClean(text)
     
-    plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
+    plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt)
     
 
 # Function to create wordcloud from multiple files
-def drawWordCloudFromScan(dataRoot, textColIndex, encoding, errors, 
-                             wcImgFilepath, dpi,  maxWordCnt, maskFilepath = None):
+def drawWordCloudDirectory(dataRoot, textColIndex, encoding, errors, 
+                             wcImgFilepath, dpi,  maxWordCnt):
    
     tokens = []
     
@@ -193,7 +182,7 @@ def drawWordCloudFromScan(dataRoot, textColIndex, encoding, errors,
                 
             print('Finished tokenizing text {}\n'.format(dataFilepath))
     
-    plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt, maskFilepath)
+    plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt)
 
 
 # Plot Wordcloud
@@ -211,9 +200,6 @@ dpi = 300
 maxWordCnt = 500
 minFont = 12
 figSz = (60,20)
-useMask = True
-maskPath = os.path.join(dataHome,'wordcloudMasks','USA.png')
-
 
 if singleDoc is True:
     # Use case one, draw word cloud from a single text
@@ -223,30 +209,16 @@ if singleDoc is True:
     # filepath to save word cloud image
     wcImgFilepath = os.path.join(dataResults, wcOutputFile)
 
-    # As an option, user can provision a mask related to the text theme
-    if useMask is True:
-        
-        drawWordCloudFromSingleFile(dataFilepath, textColIndex, encoding, errors, 
-                               wcImgFilepath, dpi,  maxWordCnt, maskFilepath = maskPath)
-    else:
-        maskFilepath = None
-        
-        drawWordCloudFromSingleFile(dataFilepath, textColIndex, encoding, errors, 
-                               wcImgFilepath, dpi,  maxWordCnt, maskFilepath = maskFilepath)
+    # Plot wordcloud from single file  
+    drawWordCloudFile(dataFilepath, textColIndex, encoding, errors, 
+                               wcImgFilepath, dpi,  maxWordCnt)
 else:
     # Use case two, draw word cloud from a corpus root
 
     # filepath to save word cloud image
     wcImgFilepath = os.path.join(dataResults, wcOutputFile)
 
-    # As an option, user can provision a mask related to the text theme
-    if useMask is True:
-        
-        drawWordCloudFromScan(dataRoot, textColIndex, encoding, errors, 
-                             wcImgFilepath, dpi,  maxWordCnt, maskFilepath = maskPath)
-    else:
-        maskFilepath = None
-        
-        drawWordCloudFromScan(dataRoot, textColIndex, encoding, errors, 
-                             wcImgFilepath, dpi,  maxWordCnt, maskFilepath = maskFilepath)
+    # Plot wordlcoud from directory
+    drawWordCloudDirectory(dataRoot, textColIndex, encoding, errors, 
+                             wcImgFilepath, dpi,  maxWordCnt)
 
