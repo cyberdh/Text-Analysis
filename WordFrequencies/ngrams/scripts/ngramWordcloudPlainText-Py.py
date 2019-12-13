@@ -10,31 +10,20 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 from textblob import TextBlob
 from nltk.corpus import stopwords
-import nltk
 import re
 import string
 import pandas as pd
-from collections import Counter, defaultdict
 import wordcloud
-from wordcloud import STOPWORDS
-from PIL import Image
-import numpy as np
-import operator
 import glob
 import matplotlib.pyplot as plt
 
-get_ipython().magic('matplotlib inline')
-
-
 # File paths
-
 homePath = os.environ["HOME"]
-dataHome = os.path.join(homePath, "Text-Analysis-master", "data", "shakespeareDated")
+dataHome = os.path.join(homePath, "Text-Analysis-master", "data", "shakespeareFolger")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 
 # Set needed variables
-
 data = "*.txt"
 nltkStop = True
 customStop = True
@@ -44,8 +33,6 @@ stopWords = []
 cleanText = []
 ngramList = []
 
-#print(" ".join(stopwords.fileids()))
-
 
 # Stopwords
 
@@ -53,13 +40,13 @@ ngramList = []
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
 
-    stopWords.extend(['would', 'said', 'says', 'also'])
+    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come', 'let'])
 
 
 # Add own stopword list
 
 if customStop is True:
-    stopWordsFilepath = os.path.join(homePath, "Text-Analysis-DavidBranchV2", "data", "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
     with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
@@ -148,14 +135,11 @@ dfNG.head(10)
 # Plot our wordcloud
 
 # Variables
-useMask = True
-maskPath = os.path.join(homePath, 'Text-Analysis-master','data','wordcloudMasks')
-mask = np.array(Image.open(os.path.join(maskPath, "Shakespeare.png")))
 maxWrdCnt = 500
 bgColor = "black"
 color = "Dark2"
 minFont = 12
-figureSz = (80,40)
+figureSz = (10,5)
 wcOutputFile = "ngramWordCloud.png"
 imgFmt = "png"
 dpi = 300
@@ -165,10 +149,7 @@ stopwords = ["ngrams","good_lord","come_come"]
 text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
-if useMask is True:    
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = mask, min_font_size = minFont).generate_from_frequencies(text['freq'])
-else:
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = None, min_font_size = minFont).generate_from_frequencies(text['freq'])
+wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, min_font_size = minFont).generate_from_frequencies(text['freq'])
 
 # show
 plt.figure(figsize = figureSz)
