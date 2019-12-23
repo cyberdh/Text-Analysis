@@ -1,5 +1,5 @@
 # About this repo:
-Welcome to the Text-Analysis repository for Cyberinfrastructure for Digital Humanities. 
+Welcome to the Text-Analysis repository for Cyberinfrastructure for Digital Humanities and Creative Activities. To get started you'll need to click the green clone or download button and choose download. This should download the repository as a .zip file to the folder of your choice. Whether you're on Research Desktop (ReD) here at Indiana University (IU) or on your own system, you will want to download and open the respository in your home directory. On ReD this is your Carbonate folder. It is marked on the Desktop as "username's home" and the folder is embossed with a little house. On Mac the home directory is usually in Users/yourUserName and on a PC it is usually the C: drive.
 
 Already familiar with Python and don't really need any help? Then go ahead and dive right in with our introductory Python [word frequency](https://github.com/cyberdh/Text-Analysis/tree/master/WordFrequencies) scripts. Once in the WordFrequencies folder choose the algorithm/output you want (ngrams, streamgraphs, wordClouds, mostFrequentWords) then choose the scripts folder. They have minimal directions and are ready to go.
 
