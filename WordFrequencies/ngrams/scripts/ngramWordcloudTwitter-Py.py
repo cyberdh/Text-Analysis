@@ -5,49 +5,31 @@ import os
 sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-packages")
 os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
-
 # Include necessary packages for notebook 
-
 from textblob import TextBlob
 from nltk.corpus import stopwords
-import nltk
 import re
 import string
 import pandas as pd
-from collections import Counter, defaultdict
 import wordcloud
-from wordcloud import STOPWORDS
-from PIL import Image
-import numpy as np
-import operator
 import glob
-import csv
 import json
 import zipfile
-
 import matplotlib.pyplot as plt
 
-get_ipython().magic('matplotlib inline')
-
-
 # Set needed variables
-
 source = "*"
 fileType = ".json"
 singleDoc = True
 nltkStop = True
-customStop = False
+customStop = True
 ng = 2
 stopLang = "english"
 stopWords = []
 cleanText = []
 ngramList = []
 
-#print(" ".join(stopwords.fileids()))
-
-
 # File paths
-
 homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
@@ -56,31 +38,24 @@ if fileType == ".csv":
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
-
 # Stopwords
-
 # NLTK Stop words
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['amp','rt', 'xo_karmin_ox', 'neveragain', 'ð', 'â', 'ï', 'emma4change', 'governmentshutdown'])
-
+    stopWords.extend(['governmentshutdown'])
 
 # Add own stopword list
-
 if customStop is True:
-    stopWordsFilepath = os.path.join(dataHome, "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(dataHome, "twitterStopword.txt")
 
     with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
 
-
 # Functions
-
 # Text Cleaning
-
 def textClean(text):
     
     text = text.strip().lower()
@@ -106,9 +81,7 @@ def textClean(text):
 
     return tokens
 
-
 # Unzip files
-
 direct = dataRoot
 allZipFiles = glob.glob(os.path.join(dataRoot, "*.zip"))
 for item in allZipFiles:
@@ -118,9 +91,7 @@ for item in allZipFiles:
     zipRef.close()
     os.remove(item)
 
-
 # Reading in .csv files
-
 if fileType == ".csv":
     all_files = glob.glob(os.path.join(dataRoot,source + fileType))     
     df_all = (pd.read_csv(f) for f in all_files)
@@ -132,9 +103,7 @@ if fileType == ".csv":
 
     print('Finished tokenizing text {}\n'.format(all_files))
 
-
 # Reading in JSON files
-
 if fileType == ".json":
     for filename in glob.glob(os.path.join(dataRoot, source + fileType)):
         with open(filename, 'r', encoding = "utf-8") as jsonData:
@@ -148,16 +117,11 @@ if fileType == ".json":
 
     print('Finished tokenizing text {}\n'.format(filename))
 
-
 # Convert text to a str object so we can find ngrams later.
-
 cleanText = ' '.join(cleanTokens)
 
-
 # Find Ngrams
-
 blob = TextBlob(cleanText)
-
 if ng == 1: 
     nGrams = blob.ngrams(n=1)
 if ng == 2:
@@ -165,12 +129,9 @@ if ng == 2:
 if ng == 3:
     nGrams = blob.ngrams(n=3)
 
-
 # Convert ngrams to a list
-
 for wlist in nGrams:
    ngramList.append(' '.join(wlist))
-
 
 # Now we make our dataframe.
 df = pd.DataFrame(ngramList)
@@ -183,35 +144,26 @@ df_C.set_index(df_C['ngrams'], inplace = True)
 df_C['ngrams'] = df_C['ngrams'].astype(str)
 dfNG = df_C.sort_values('freq', ascending = False)
 
-
 # Now lets see what our dataframe looks like.
 dfNG.head(10)
 
-
 # Plot our wordcloud
-
 # Variables
-useMask = True
-maskPath = os.path.join(homePath, 'Text-Analysis-master','data','wordcloudMasks')
-mask = np.array(Image.open(os.path.join(maskPath, "USA.png")))
 maxWrdCnt = 500
 bgColor = "black"
 color = "Dark2"
 minFont = 12
-figureSz = (80,40)
+figureSz = (20,10)
 wcOutputFile = "twitterNgramWordCloud.png"
 imgFmt = "png"
 dpi = 300
 
 # Ngram Stopwords
-stopwords = ["ngrams","good_lord","come_come"]
+stopwords = ["ngrams","government_shutdown"]
 text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
-if useMask is True:    
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = mask, min_font_size = minFont).generate_from_frequencies(text['freq'])
-else:
-    wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, mask = None, min_font_size = minFont).generate_from_frequencies(text['freq'])
+wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, min_font_size = minFont).generate_from_frequencies(text['freq'])
 
 # show
 plt.figure(figsize = figureSz)
