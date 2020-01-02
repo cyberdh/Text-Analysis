@@ -25,6 +25,8 @@ nltkStop = True
 customStop = True
 ng = 2
 stopLang = "english"
+encoding = "utf-8"
+errors = "ignore"
 stopWords = []
 cleanText = []
 ngramList = []
@@ -49,7 +51,7 @@ if nltkStop is True:
 if customStop is True:
     stopWordsFilepath = os.path.join(dataHome, "twitterStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -94,7 +96,7 @@ for item in allZipFiles:
 # Reading in .csv files
 if fileType == ".csv":
     all_files = glob.glob(os.path.join(dataRoot,source + fileType))     
-    df_all = (pd.read_csv(f) for f in all_files)
+    df_all = (pd.read_csv(f, engine = "python") for f in all_files)
     cc_df = pd.concat(df_all, ignore_index=True)
     cc_df = pd.DataFrame(cc_df, dtype = 'str')
     tweets = cc_df['text'].values.tolist()
@@ -106,7 +108,7 @@ if fileType == ".csv":
 # Reading in JSON files
 if fileType == ".json":
     for filename in glob.glob(os.path.join(dataRoot, source + fileType)):
-        with open(filename, 'r', encoding = "utf-8") as jsonData:
+        with open(filename, 'r', encoding = encoding, errors = errors) as jsonData:
             tweets = []
             for line in jsonData:
                 tweets.append(json.loads(line))
