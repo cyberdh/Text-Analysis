@@ -22,7 +22,7 @@ import zipfile
 fileType = ".csv"
 singleDoc = True
 nltkStop = True
-customStop = False
+customStop = True
 stopLang = "english"
 stopWords = []
 
@@ -40,7 +40,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['amp','rt', 'xo_karmin_ox', 'neveragain', 'ð', 'â', 'ï', 'emma4change'])
+    stopWords.extend(['xo_karmin_ox', 'neveragain', 'davidhogg111', 'emma4change'])
 
 
 # Add own stopword list
@@ -199,7 +199,7 @@ cm = "Dark2"
 dpi = 300
 maxWordCnt = 500
 minFont = 12
-figSz = (60,20)
+figSz = (10,5)
 
 if singleDoc is True:
     # Use case one, draw word cloud from a single text
