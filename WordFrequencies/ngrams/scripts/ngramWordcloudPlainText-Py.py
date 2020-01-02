@@ -29,6 +29,8 @@ nltkStop = True
 customStop = True
 ng = 2
 stopLang = 'english'
+encoding = "UTF-8"
+errors = "ignore"
 stopWords = []
 cleanText = []
 ngramList = []
@@ -48,7 +50,7 @@ if nltkStop is True:
 if customStop is True:
     stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -85,7 +87,7 @@ def textClean(text):
 # Reading in the Text
 
 for path in glob.glob(os.path.join(dataHome, data)):
-    with open(path, "r") as file:
+    with open(path, "r", encoding = encoding, errors = errors) as file:
          # skip hidden file
         if path.startswith('.'):
             continue
@@ -145,7 +147,7 @@ imgFmt = "png"
 dpi = 300
 
 # Ngram Stopwords
-stopwords = ["ngrams","good_lord","come_come"]
+stopwords = ["ngrams","love_love","ha_ha", "fie_fie", "know_know"]
 text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
