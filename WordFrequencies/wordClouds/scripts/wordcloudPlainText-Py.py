@@ -23,6 +23,8 @@ singleDoc = False
 nltkStop = True
 customStop = True
 stopLang = 'english'
+encoding = "UTF-8"
+errors = "ignore"
 stopWords = []
 
 # NLTK Stop words
@@ -93,7 +95,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt):
 def drawWordCloudSingleText(textFilepath, wcImgFilepath, dpi, 
                                 maxWordCnt):
     
-    with open(textFilepath, "r", encoding="UTF-8") as f:
+    with open(textFilepath, "r", encoding=encoding, errors = errors) as f:
         text = f.read()
 
     tokens = textClean(text)
@@ -116,7 +118,7 @@ def drawWordCloudCorpus(corpusRoot, wcImgFilepath, dpi,
             
             textFilepath = os.path.join(root, filename)
             
-            with open(textFilepath, "r") as f:
+            with open(textFilepath, "r", encoding = encoding, errors = errors) as f:
                 text = f.read()
                 tokens.extend(textClean(text))
     
@@ -131,7 +133,7 @@ cm = "Dark2"
 dpi = 300
 maxWordCnt = 500
 minFont = 10
-figSz = (40, 20)
+figSz = (10, 5)
 
 if singleDoc is True:
     # Use case one, draw word cloud from a single text

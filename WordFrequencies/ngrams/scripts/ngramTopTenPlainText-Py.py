@@ -10,24 +10,18 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 from textblob import TextBlob
 from nltk.corpus import stopwords
-import nltk
 import re
 import string
 import pandas as pd
-from collections import Counter, defaultdict
-import numpy as np
-import operator
 import glob
 import math
 import matplotlib.pyplot as plt
-
-get_ipython().magic('matplotlib inline')
 
 
 # File paths
 
 homePath = os.environ["HOME"]
-dataHome = os.path.join(homePath, "Text-Analysis-master", "data", "shakespeareDated")
+dataHome = os.path.join(homePath, "Text-Analysis-master", "data", "shakespeareFolger")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 
@@ -39,11 +33,11 @@ nltkStop = True
 customStop = True
 ng = 2
 stopLang = 'english'
+encoding = "UTF-8"
+errors = "ignore"
 stopWords = []
 cleanText = []
 ngramList = []
-
-#print(" ".join(stopwords.fileids()))
 
 
 # Stopwords
@@ -58,9 +52,9 @@ if nltkStop is True:
 # Add own stopword list
 
 if customStop is True:
-    stopWordsFilepath = os.path.join(homePath, "Text-Analysis-DavidBranchV2", "data", "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -97,7 +91,7 @@ def textClean(text):
 # Reading in the Text
 
 for path in glob.glob(os.path.join(dataHome, data + fileType)):
-    with open(path, "r") as file:
+    with open(path, "r", encoding = encoding, errors = errors) as file:
          # skip hidden file
         if path.startswith('.'):
             continue
@@ -131,6 +125,7 @@ for wlist in nGrams:
 # Now we make our dataframe.
 
 df = pd.DataFrame(ngramList)
+print(df)
 dfCounts = df[0].value_counts()
 countsDF = pd.DataFrame(dfCounts)
 countsDF.reset_index(inplace = True)

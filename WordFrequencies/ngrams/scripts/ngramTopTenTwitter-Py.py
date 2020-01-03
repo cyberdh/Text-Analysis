@@ -10,32 +10,25 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 from textblob import TextBlob
 from nltk.corpus import stopwords
-import nltk
 import re
 import string
 import pandas as pd
-from collections import Counter, defaultdict
-import numpy as np
-import operator
 import glob
-import csv
 import json
 import zipfile
 import math
 
 import matplotlib.pyplot as plt
 
-get_ipython().magic('matplotlib inline')
-
-
 # Set needed variables
-
 source = "*"
 fileType = ".csv"
 nltkStop = True
-customStop = False
+customStop = True
 ng = 2
 stopLang = "english"
+encoding = "UTF-8"
+errors = "ignore"
 stopWords = []
 cleanText = []
 ngramList = []
@@ -60,15 +53,15 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['amp','rt', 'xo_karmin_ox', 'neveragain', 'ð', 'â', 'ï', 'emma4change', 'could', 'us'])
+    stopWords.extend(['xo_karmin_ox', 'neveragain', 'davidhogg111', 'emma4change'])
 
 
 # Add own stopword list
 
 if customStop is True:
-    stopWordsFilepath = os.path.join(dataHome, "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(dataHome, "twitterStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding, errors = errors) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -118,7 +111,7 @@ for item in allZipFiles:
 
 if fileType == ".csv":
     all_files = glob.glob(os.path.join(dataRoot, source + fileType))     
-    df_all = (pd.read_csv(f, encoding ='ISO-8859-1') for f in all_files)
+    df_all = (pd.read_csv(f, engine="python") for f in all_files)
     cc_df = pd.concat(df_all, ignore_index=True)
     cc_df = pd.DataFrame(cc_df, dtype = 'str')
     tweets = cc_df['text'].values.tolist()
@@ -132,7 +125,7 @@ if fileType == ".csv":
 
 if fileType == ".json":
     for filename in glob.glob(os.path.join(dataRoot, source + fileType)):
-        with open(filename, 'r', encoding = "utf-8") as jsonData:
+        with open(filename, 'r', encoding = encoding, errors = errors) as jsonData:
             tweets = []
             for line in jsonData:
                 tweets.append(json.loads(line))
@@ -188,24 +181,25 @@ n = 10
 outputFile = "ngramTopTenTwitter.svg"
 fmt = 'svg'
 dpi = 300
-angle = 70
+angle = 85
 title = 'Top 10 Ngrams, Shakespeare'
 color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
 labCol = 'red'
-ngramStop = ["parkland shooter","parkland students", "kidding forgetting", "forgetting come"]
+ngramStop = ["parkland shooter","parkland students", "kidding forgetting", "forgetting come", "2a nra"]
 
 # Ngram Stopwords
 text = dfNG[~dfNG['ngrams'].isin(ngramStop)]
 dfTN = text[0:n]
 
+
 # Plot
 plt.rcdefaults()
 
-plt.bar(dfTN['ngrams'], dfTN['freq'], align = 'center', alpha = 0.5, color = color)
+plt.bar(dfTN["ngrams"], dfTN["freq"], align = 'center', alpha = 0.5, color = color)
     
 
         
-plt.xticks(dfTN['ngrams'])
+plt.xticks(n, dfTN['ngrams'])
 plt.xticks(rotation = angle)
         
 xlabel = plt.xlabel('Ngrams')
