@@ -15,27 +15,28 @@ import math
 
 
 homePath = os.environ['HOME']
-dataHome = os.path.join(homePath, 'Text-Analysis-DavidBranchV2', 'data', 'shakespeareFolger')
-dataResults = os.path.join(homePath, 'Text-Analysis-DavidBranchV2', 'Output')
+dataHome = os.path.join(homePath, 'Text-Analysis-master', 'data', 'shakespeareFolger')
+dataResults = os.path.join(homePath, 'Text-Analysis-master', 'Output')
 
-singleDoc = False
+singleDoc = True
 nltkStop = True
 customStop = True
 stopLang = 'english'
+encoding = "utf-8"
+errors = "ignore"
 stopWords = []
 
-#print(" ".join(stopwords.fileids()))
 # NLTK Stop words
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
 
-    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come'])
+    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come', 'let', 'say', 'speak', 'know', 'hamlet'])
 
 
 if customStop is True:
-    stopWordsFilepath = os.path.join(homePath, "IntroTextAnalysis", "data", "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -92,6 +93,8 @@ def plotTopTen(sortedFreq, title, imgFilepath, dpi):
     cnts = [w[1] for w in topNWords]
 
     plt.rcdefaults()
+    
+    plt.figure(dpi=dpi, figsize = figSz)
 
     plt.bar(x_pos, cnts, align = 'center', alpha = 0.5, color = color)
     
@@ -123,7 +126,7 @@ def plotTopTen(sortedFreq, title, imgFilepath, dpi):
     
 def getTokensFromSingleText(textFilepath):
     
-    with open(textFilepath, "r", encoding = 'utf-8') as f:
+    with open(textFilepath, "r", encoding = encoding, errors = errors) as f:
         text = f.read()
 
     return textClean(text)
@@ -143,7 +146,7 @@ def getTokensFromScan(corpusRoot):
             
             textFilepath = os.path.join(root, filename)
             
-            with open(textFilepath, "r", encoding = "utf-8") as f:
+            with open(textFilepath, "r", encoding = encoding, errors = errors) as f:
                 text = f.read()
                 tokens.extend(textClean(text))
                 
@@ -157,8 +160,9 @@ singleDocName = 'Hamlet.txt'
 outputFile = "topTenPlainText.svg"
 fmt = 'svg'
 dpi = 300
+figSz = (4,2)
 angle = 45
-title = 'Top 10 Words, Shakespeare'
+title = 'Top 10 Words, Hamlet'
 color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
 labCol = 'red'
 
