@@ -16,8 +16,8 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 import re
-import csv
-import json
+#import csv
+#import json
 import pandas as pd
 import glob
 import zipfile
@@ -25,14 +25,13 @@ import zipfile
 
 # Set needed variables
 
-fileType = ".csv"
-singleDoc = False
+fileType = ".json"
+singleDoc = True
 nltkStop = True
-customStop = False
+customStop = True
 stopLang = "english"
+encoding = "utf-8"
 stopWords = []
-
-#print(" ".join(stopwords.fileids()))
 
 
 # File paths
@@ -41,7 +40,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "parkland")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -52,15 +51,15 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['amp','rt', 'xo_karmin_ox', 'neveragain', 'ð', 'â', 'ï', 'emma4change', 'nra', 'parkland'])
+    stopWords.extend(["iran", "wwiii", "soleimani", "com", "pic", "twitter", "u"])
 
 
 # Add own stopword list
 
 if customStop is True:
-    stopWordsFilepath = os.path.join(dataHome, "earlyModernStopword.txt")
+    stopWordsFilepath = os.path.join(dataHome, "twitterStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -106,36 +105,17 @@ for item in allZipFiles:
     os.remove(item)
 
 
-# Read a .csv file
+# Read in data
 
-if fileType == ".csv":
-    def readTweets(filepath, textColIndex, encoding = 'utf-8', errors = 'ignore'):
-
-        with open(filepath, encoding = encoding, errors = errors) as f:
-
-            reader = csv.reader(f, delimiter = ',', quotechar = '"')
-
-            content = []
-            for row in reader: 
-                content.append(row[textColIndex])
-
-            # skip header
-            return content[1 : ]
-
-
-# Read a .json file
-
-if fileType == ".json":
-    def readTweets(filepath, textColIndex, encoding = 'utf-8', errors = 'ignore'):
-        
-        with open(filepath, encoding = encoding, errors = errors) as jsonData:
-            tweets = []
-            for line in jsonData:
-                tweets.append(json.loads(line))
-        tweet = pd.DataFrame(tweets)
-        content = tweet[textColIndex].tolist()
-
-        return content[1 : ]
+def readTweets(filepath, textColIndex, encoding = encoding):
+    if fileType == ".csv":
+        tweet = pd.read_csv(filepath, index_col=None, header =0, encoding = encoding, lineterminator='\n')
+    else:
+        tweet = pd.read_json(filepath, encoding = encoding)
+    
+    content = tweet[textColIndex].tolist()
+    
+    return content[1 : ]
 
 
 # Frequency count
@@ -167,6 +147,8 @@ def plotTopTen(sortedFreq, title, imgFilepath, dpi):
     cnts = [w[1] for w in topNWords]
 
     plt.rcdefaults()
+    
+    plt.figure(dpi=dpi, figsize = figSz)
 
     plt.bar(x_pos, cnts, align = 'center', alpha = 0.5, color = color)
     
@@ -202,7 +184,7 @@ def getTokensFromSingleText(dataFilepath, textColIndex, encoding):
     
     content = readTweets(dataFilepath, textColIndex, encoding)
     
-    text = '\n'.join(content)
+    text = '\n'.join(map(str, content))
 
     return textClean(text)
 
@@ -224,7 +206,7 @@ def getTokensFromScan(dataRoot, textColIndex, encoding):
             dataFilepath = os.path.join(root, filename)
             
             content = readTweets(dataFilepath, textColIndex, encoding)
-            text = '\n'.join(content)
+            text = '\n'.join(map(str, content))
             tokens.extend(textClean(text))
                 
             print('Finished tokenizing text {}\n'.format(dataFilepath))
@@ -235,14 +217,14 @@ def getTokensFromScan(dataRoot, textColIndex, encoding):
 # Plot Top Ten
 # Variables
 n = 10
-textColIndex = 2
-encoding = 'utf-8'
-singleDocName = 'neverAgain' + fileType
+textColIndex = "text"
+singleDocName = 'iranTweets' + fileType
 outputFile = "topTenTwitter.svg"
 fmt = 'svg'
 dpi = 300
+figSz = (6,3)
 angle = 60
-title = 'Top 10 Words, #neveragain, #parkland, #nra'
+title = 'Top 10 Words, #Iran'
 color = ['crimson','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
 labCol = 'crimson'
 
