@@ -19,7 +19,7 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 corpusRoot = os.path.join(dataHome, "shakespeareFolger")
 
 # Variables for use later in the code.
-singleDoc = False
+singleDoc = True
 nltkStop = True
 customStop = True
 stopLang = 'english'
@@ -31,13 +31,13 @@ stopWords = []
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
 
-    stopWords.extend(['would', 'said', 'says', 'say', 'also', 'lord', 'good', 'come', 'let', 'speak', 'ay', 'hast'])
+    stopWords.extend(['would', 'said', 'says', 'say', 'also', 'lord', 'good', 'come', 'let', 'speak', 'ay', 'hast', 'hamlet'])
 
 # Custom stop words
 if customStop is True:
     stopWordsFilepath = os.path.join(dataHome, "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -74,7 +74,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi, maxWordCnt):
     for t in tokens:
         freq[t] += 1
     
-    wc = wordcloud.WordCloud(background_color = bgc, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
+    wc = wordcloud.WordCloud(width = width, height = height, background_color = bgc, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
     
     # generate word cloud
     wc.fit_words(freq)
@@ -128,9 +128,11 @@ def drawWordCloudCorpus(corpusRoot, wcImgFilepath, dpi,
 document = "Hamlet.txt"
 wcOutputFile = "wordcloud.png"
 fmt = "png"
+width = 800
+height = 400
 bgc = "white"
 cm = "Dark2"
-dpi = 300
+dpi = 1200
 maxWordCnt = 500
 minFont = 10
 figSz = (10, 5)
