@@ -11,19 +11,19 @@ from collections import defaultdict
 import wordcloud
 import matplotlib.pyplot as plt
 import re
-import csv
-import json
 import pandas as pd
 import glob
 import zipfile
 
 
 # Set needed variables. 
-fileType = ".csv"
+fileType = ".json"
 singleDoc = True
 nltkStop = True
 customStop = True
 stopLang = "english"
+encoding = "utf-8"
+errors = "ignore"
 stopWords = []
 
 # File paths saved as variables for later use.
@@ -31,7 +31,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "parkland")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -40,7 +40,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['xo_karmin_ox', 'neveragain', 'davidhogg111', 'emma4change'])
+    stopWords.extend(['pic', 'com', 'iran', 'twitter'])
 
 
 # Add own stopword list
@@ -96,7 +96,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt):
     for t in tokens:
         freq[t] += 1
 
-    wc = wordcloud.WordCloud(background_color = bgc, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
+    wc = wordcloud.WordCloud(background_color = bgc, width = width, height = height, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
     
 
     # generate word cloud
@@ -117,34 +117,16 @@ def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt):
     plt.savefig(wcImgFilepath, format = fmt, dpi = dpi, bbox_inches = 'tight')
     plt.show()
 
-# Function to read in .csv file
-if fileType == ".csv":
-    def readTweets(filepath, textColIndex, encoding = 'utf-8', errors = 'ignore'):
-
-        with open(filepath, encoding = encoding, errors = errors) as f:
-
-            reader = csv.reader(f, delimiter = ',', quotechar = '"')
-
-            content = []
-            for row in reader: 
-                content.append(row[textColIndex])
-
-            # skip header
-            return content[1 : ]
-
-
-# Function to read in .json file
-if fileType == ".json":
-    def readTweets(filepath, textColIndex, encoding = 'utf-8', errors = 'ignore'):
-        
-        with open(filepath, encoding = encoding, errors = errors) as jsonData:
-            tweets = []
-            for line in jsonData:
-                tweets.append(json.loads(line))
-        tweet = pd.DataFrame(tweets)
-        content = tweet[textColIndex].tolist()
-
-        return content[1 : ]
+# Function to read in a file
+def readTweets(filepath, textColIndex, encoding = encoding, errors = errors):
+    if fileType == ".csv":
+        tweet = pd.read_csv(filepath, encoding = encoding)
+    else:
+        tweet = pd.read_json(filepath, encoding = encoding)
+    
+    content = tweet[textColIndex].tolist()
+    
+    return content[1 : ]
 
 
 # Function to create wordcloud from a single file
@@ -188,15 +170,15 @@ def drawWordCloudDirectory(dataRoot, textColIndex, encoding, errors,
 # Plot Wordcloud
 #Variables
 
-document = "neverAgain" + fileType
+document = "iranTweets" + fileType
 wcOutputFile = "wordcloud.png"
 fmt = "png"
-textColIndex = 2
-encoding = 'utf-8'
-errors = 'ignore'
+width = 800
+height = 400
+textColIndex = "text"
 bgc = "white"
 cm = "Dark2"
-dpi = 300
+dpi = 1200
 maxWordCnt = 500
 minFont = 12
 figSz = (10,5)
