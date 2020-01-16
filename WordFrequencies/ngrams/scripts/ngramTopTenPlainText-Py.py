@@ -27,7 +27,7 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 # Set needed variables
 
-data = "*"
+data = "Hamlet"
 fileType = ".txt"
 nltkStop = True
 customStop = True
@@ -46,7 +46,7 @@ ngramList = []
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
 
-    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come', 'let'])
+    stopWords.extend(['would', 'said', 'says', 'also', 'good', 'lord', 'come', 'let', 'hamlet'])
 
 
 # Add own stopword list
@@ -145,6 +145,7 @@ n = 10
 outputFile = "ngramTopTenPlainText.svg"
 fmt = 'svg'
 dpi = 300
+figSz = (4,2)
 angle = 60
 title = 'Top 10 Ngrams, Shakespeare'
 color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
@@ -157,6 +158,8 @@ dfTN = text[0:n]
 
 # Plot
 plt.rcdefaults()
+
+plt.figure(dpi = dpi, figsize = figSz)
 
 plt.bar(dfTN['ngrams'], dfTN['freq'], align = 'center', alpha = 0.5, color = color)
     
@@ -177,7 +180,7 @@ plt.ylim(low, math.ceil(high + 0.1 * (high - low)))
     
 for xpos, count in zip(dfTN['ngrams'], dfTN['freq']):
     
-    plt.text(x = xpos, y = count + 1, s = str(count), ha = 'center', va = 'bottom')
+    plt.text(x = xpos, y = count + 0.5, s = str(count), ha = 'center', va = 'top')
 
 plt.title(title)
  
