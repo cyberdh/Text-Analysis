@@ -24,7 +24,7 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 
 # Set needed variables
-data = "*.txt"
+data = "Hamlet.txt"
 nltkStop = True
 customStop = True
 ng = 2
@@ -140,18 +140,20 @@ dfNG.head(10)
 maxWrdCnt = 500
 bgColor = "black"
 color = "Dark2"
-minFont = 12
+minFont = 10
+width = 800
+height = 400
 figureSz = (10,5)
 wcOutputFile = "ngramWordCloud.png"
 imgFmt = "png"
 dpi = 300
 
 # Ngram Stopwords
-stopwords = ["ngrams","love_love","ha_ha", "fie_fie", "know_know"]
+stopwords = ["ngrams","love_love","ha_ha", "fie_fie", "know_know", "hamlet_hamlet", "god_god", "life_life"]
 text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
-wc = wordcloud.WordCloud(background_color = bgColor, max_words = maxWrdCnt, colormap = color, min_font_size = minFont).generate_from_frequencies(text['freq'])
+wc = wordcloud.WordCloud(background_color = bgColor, width = width, height = height, max_words = maxWrdCnt, colormap = color, min_font_size = minFont).generate_from_frequencies(text['freq'])
 
 # show
 plt.figure(figsize = figureSz)
