@@ -14,18 +14,17 @@ import re
 import string
 import pandas as pd
 import glob
-import json
 import zipfile
 import math
-
 import matplotlib.pyplot as plt
 
 # Set needed variables
 source = "*"
-fileType = ".csv"
+fileType = ".json"
 nltkStop = True
 customStop = True
 ng = 2
+textColIndex = "text"
 stopLang = "english"
 encoding = "UTF-8"
 errors = "ignore"
@@ -33,7 +32,6 @@ stopWords = []
 cleanText = []
 ngramList = []
 
-#print(" ".join(stopwords.fileids()))
 
 
 # File paths
@@ -42,7 +40,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "parkland")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -53,7 +51,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['xo_karmin_ox', 'neveragain', 'davidhogg111', 'emma4change'])
+    stopWords.extend(['pic', 'com', 'iran', 'twitter', 'worldwar3', 'wwiii', 'worldwarthree', 'na', 'gon', 'worldwariii'])
 
 
 # Add own stopword list
@@ -107,34 +105,26 @@ for item in allZipFiles:
     os.remove(item)
 
 
-# Reading in .csv files
+# Reading in data
 
 if fileType == ".csv":
-    all_files = glob.glob(os.path.join(dataRoot, source + fileType))     
-    df_all = (pd.read_csv(f, engine="python") for f in all_files)
-    cc_df = pd.concat(df_all, ignore_index=True)
-    cc_df = pd.DataFrame(cc_df, dtype = 'str')
-    tweets = cc_df['text'].values.tolist()
-    content = '\n'.join(tweets)
-    cleanTokens = textClean(content)
-
-    print('Finished tokenizing text {}\n'.format(all_files))
-
-
-# Reading in JSON files
-
+    filenames = glob.glob(os.path.join(dataRoot, source + fileType))     
+    df = (pd.read_csv(file, engine = "python") for file in filenames)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf, dtype = 'str')
+    tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
-    for filename in glob.glob(os.path.join(dataRoot, source + fileType)):
-        with open(filename, 'r', encoding = encoding, errors = errors) as jsonData:
-            tweets = []
-            for line in jsonData:
-                tweets.append(json.loads(line))
-    df = pd.DataFrame(tweets)
-    data = df['text'].tolist()
-    content = '\n'.join(data)
-    cleanTokens = textClean(content)
+    filenames = glob.glob(os.path.join(dataRoot, source+fileType))
+    df = (pd.read_json(file, encoding = encoding) for file in filenames)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf, dtype = 'str')
+    tweets = cdf[textColIndex].values.tolist()
+    
+    
+content = '\n'.join(tweets)
+cleanTokens = textClean(content)
 
-    print('Finished tokenizing text {}\n'.format(filename))
+print('Finished tokenizing text {}\n'.format(filenames))
 
 
 # Convert text to a str object so we can find ngrams later.
@@ -181,11 +171,12 @@ n = 10
 outputFile = "ngramTopTenTwitter.svg"
 fmt = 'svg'
 dpi = 300
+figSz = (4,2)
 angle = 85
 title = 'Top 10 Ngrams, Shakespeare'
 color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
 labCol = 'red'
-ngramStop = ["parkland shooter","parkland students", "kidding forgetting", "forgetting come", "2a nra"]
+ngramStop = ["gon na", "wan na", "got ta", "soleimani soleimani"]
 
 # Ngram Stopwords
 text = dfNG[~dfNG['ngrams'].isin(ngramStop)]
@@ -194,6 +185,8 @@ dfTN = text[0:n]
 
 # Plot
 plt.rcdefaults()
+
+plt.figure(dpi=dpi, figsize = figSz)
 
 plt.bar(dfTN["ngrams"], dfTN["freq"], align = 'center', alpha = 0.5, color = color)
     
