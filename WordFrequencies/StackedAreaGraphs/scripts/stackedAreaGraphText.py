@@ -13,11 +13,11 @@ from nltk.corpus import stopwords
 import string
 import math
 import numpy as np
-import matplotlib.pyplot as plt
-from os.path import join, isfile, splitext
+from os.path import isfile, splitext
 import pandas as pd
 from scipy.stats import rankdata
-from ggplot import *
+import plotly as py
+import plotly.express as px
 
 
 # File paths
@@ -29,15 +29,16 @@ dataResults = os.path.join(homePath, 'Text-Analysis-master', 'Output')
 
 # Set needed variables
 
-singleDoc = False
+singleDoc = True
 nltkStop = True
 customStop = True
 stopLang = 'english'
+encoding = "utf-8"
+textFile = 'Hamlet.txt'
+chunkSize = 300
 stopWords = []
-interestedWords = ['night', 'death', 'love']
+interestedWords = ["love", "father", "mother"]
 freqDict = {}
-
-#print(" ".join(stopwords.fileids()))
 
 
 # Stopwords
@@ -54,7 +55,7 @@ if nltkStop is True:
 if customStop is True:
     stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -97,13 +98,9 @@ def clean(words):
 
 
 # Read in the corpus
-
-textFile = 'RomeoAndJuliet.txt'
-chunkSize = 250
-
 if singleDoc is True:
 
-    doc = PlaintextCorpusReader(dataHome, textFile)
+    doc = PlaintextCorpusReader(dataHome, textFile, encoding = encoding)
 
     # get tokens
     text = doc.words()
@@ -130,7 +127,7 @@ else:
 
     for filename in filenames:
 
-        doc = PlaintextCorpusReader(dataHome, filename, encoding = 'ISO-8859-1')
+        doc = PlaintextCorpusReader(dataHome, filename, encoding = encoding)
 
         # get tokens
         text = doc.words()
@@ -255,30 +252,37 @@ else:
     print(dfU)
 
 
-# Plot the Streamgraph
-
-# Variables
-streamOutput = "streamgraph.svg"
-width = 14
-height = 8
-dpi = 300
-color = 'Dark2'
-fontSz = 16
+# Plot the Stacked Area Graph
+high = max(df["Freq"])*2
+#Variables
+outputFile = "areaStackHamlet.html"
+colorScheme = px.colors.qualitative.Set1
+if singleDoc == True:
+    xlabel = "Chunk"
+else:
+    xlabel = "Document"
+ylabel = "Frequency"
+mainTitle = "Comparison of selected words in Shakespeare's Hamlet"
+yRange = [0, high]
 angle = 45
-hjust = 1
-vjust = -0.02
-xlabel = "Plays"
-title = "Streamgraph of 3 words across Shakespeare"
 
 # Plot
-get_ipython().magic('matplotlib inline')
-p = ggplot(df, aes(x = "SeqNum", ymin = 'ymin', ymax = 'ymax', y = 'Freq', group = 'Term', fill = 'Term')) +    geom_ribbon() +    theme(axis_text_x = element_text(angle=angle, hjust = hjust)) +    scale_fill_brewer(type = 'qual', palette = color) +    xlab(element_text(text = xlabel, size = fontSz, vjust = vjust)) +    ylab(element_text(text = "Frequency", size = fontSz)) +    scale_x_continuous(breaks = list(range(1, len(words) + 1))) +     ggtitle(element_text(text = title, size = fontSz))
-
+if singleDoc is True:
+    fig = px.area(df, x="SeqNum", y="Freq", color = "Term", color_discrete_sequence=colorScheme, line_group = "Term", 
+                  labels = {"SeqNum":xlabel,"Freq":ylabel, "Term":""}, title=mainTitle, category_orders={"Term":interestedWords})
+    fig.update_layout(title={'y':0.95, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'},
+    xaxis = dict(
+        tickmode = 'linear',
+        tick0 = 0,
+        dtick = 1))
+    fig.update_yaxes(range=yRange)
+    fig.update_xaxes(tickangle=angle)
+else:
+    fig = px.area(df, x="SeqLabel", y="Freq", color = "Term", color_discrete_sequence=colorScheme, line_group = "Term", 
+                  labels = {"SeqLabel":xlabel,"Freq":ylabel, "Term":""}, title=mainTitle, category_orders={"Term":interestedWords})
+    fig.update_layout(title={'y':0.95, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'})
+    fig.update_yaxes(range=yRange)
+    fig.update_xaxes(tickangle=angle)
     
-p.make()
-plt.savefig(os.path.join(dataResults, streamOutput), width = width, height = height, dpi = dpi)
-
-plt.show()
-
-if singleDoc is False:
-    print(dfU)
+py.offline.plot(fig, filename=os.path.join(dataResults, outputFile))
+fig.show()

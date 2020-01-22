@@ -8,41 +8,39 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 # Include necessary packages for notebook 
 
-from nltk.corpus import PlaintextCorpusReader
-from nltk.corpus import stopwords
+#from nltk.corpus import PlaintextCorpusReader
+#from nltk.corpus import stopwords
 from nltk import word_tokenize
 import string
 import re
-import os
-import csv
-import json
 import glob
 import math
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.stats import rankdata
-from ggplot import *
+import plotly as py
+import plotly.express as px
 import zipfile
 
 
 # Set needed variables
 
 fileType = ".json"
-singleDoc = False
-interestedWords = ['gop', 'blame', 'trump']
+singleDoc = True
+textColIndex = "text"
+encoding = "utf-8"
+tweetFile = "iranTweets" + fileType
+numTweetsPerChunk = 1000
+interestedWords = ["war", "trump", "america"]
 freqDict = {}
-
-#print(" ".join(stopwords.fileids()))
 
 
 # File paths
-
 homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "parkland")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -58,45 +56,20 @@ for item in allZipFiles:
     zipRef.close()
     os.remove(item)
 
-
 # Functions
 
-# Read a .csv file
-
-if fileType == ".csv":
-    def readTweets(filepath, textColIndex, encoding = 'utf-8'):
-
-        with open(filepath, encoding = encoding) as f:
-
-            reader = csv.reader(f, delimiter = ',', quotechar = '"')
-
-            content = []
-            for row in reader: 
-                content.append(row[textColIndex])
-
-            # skip header
-            return content[1 : ]
-
-
-# Read a .json file
-
-if fileType == ".json":
-    def readTweets(filepath, textColIndex, encoding = 'utf-8', errors = 'ignore'):
-        
-        with open(filepath, encoding = encoding, errors = errors) as jsonData:
-            data = []
-            for line in jsonData:
-                data.append(json.loads(line))
-        jData = pd.DataFrame(data)
-        jData['created_at']=pd.to_datetime(jData.created_at)
-        jData = jData.sort_values(by='created_at')
-        content = jData[textColIndex].tolist()
-
-        return content[1 : ]
-
+# Read in data
+def readTweets(filepath, textColIndex, encoding = encoding):
+    if fileType == ".csv":
+        tweet = pd.read_csv(filepath, index_col=None, header =0, encoding = encoding, lineterminator='\n')
+    else:
+        tweet = pd.read_json(filepath, encoding = encoding)
+    
+    content = tweet[textColIndex].tolist()
+    
+    return content[1 : ]
 
 # Text Cleaning
-
 def clean(text):
     
     text = text.strip().lower()
@@ -116,16 +89,8 @@ def clean(text):
 
     return tokens
 
-
 # Read in the tweets
-# Variables
-tweetFile = 'parkland' + fileType
-textColIndex = 'text'
-encoding = 'ISO-8859-1'
-numTweetsPerChunk = 1000
-
 # If...else statement
-
 if singleDoc is True:
     
     filepath = os.path.join(dataRoot, tweetFile)
@@ -182,7 +147,7 @@ tokenBlocks = []
 
 for c in chunks:
     
-    blocks = ''.join(c)
+    blocks = ''.join(map(str, c))
     
     words = word_tokenize(blocks)
     
@@ -291,22 +256,32 @@ df = composeDataframe(freqDict)
 
 # Plot the Streamgraph
 
-# Variables
-streamTwitterOutput = "streamgraphTwitter.svg"
-width = 14
-height = 8
-dpi = 300
-color = 'Dark2'
-fontSz = 16
+#Variables
+outputFile = "areaStackTwitter.html"
+colorScheme = px.colors.qualitative.Set1
+xlabel = "Chunk"
+ylabel = "Frequency"
+mainTitle = "Comparison of selected words in Tweets containing #Iran from 01/02/2020-01/04/2020"
+yRange = [0, max(df["Freq"]*len(interestedWords))]
 angle = 45
-hjust = 1
-vjust = -0.02
-xlabel = "Tweets in chunks of 1000"
-title = "Streamgraph of 3 words in tweets containing #governmentshutdown"
 
 # Plot
-p = ggplot(df, aes(x = 'SeqNum', ymin = 'ymin', ymax = 'ymax', y = 'Freq', group = 'Term', fill = 'Term')) +    geom_ribbon() +     theme(axis_text_x = element_text(angle = angle, hjust = hjust)) +     scale_fill_brewer(type = 'qual', palette = color) +     xlab(element_text(text = xlabel, size = fontSz, vjust = vjust)) +     ylab(element_text(text = "Frequency", size = fontSz)) +     scale_x_continuous(breaks = list(range(1, len(tokenBlocks) + 1))) +     ggtitle(element_text(text = title, size = fontSz))
-p.make()
-plt.savefig(os.path.join(dataResults,streamTwitterOutput), width = width, height = height, dpi = dpi)
-
-plt.show()
+if singleDoc is True:
+    fig = px.area(df, x="SeqNum", y="Freq", color = "Term", color_discrete_sequence=colorScheme, line_group = "Term", 
+                  labels = {"SeqNum":xlabel,"Freq":ylabel, "Term":""}, title=mainTitle, category_orders={"Term":interestedWords})
+    fig.update_layout(title={'y':0.95, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'},
+    xaxis = dict(
+        tickmode = 'linear',
+        tick0 = 0,
+        dtick = 1))
+    fig.update_yaxes(range=yRange)
+    fig.update_xaxes(tickangle=angle)
+else:
+    fig = px.area(df, x="SeqNum", y="Freq", color = "Term", color_discrete_sequence=colorScheme, line_group = "Term", 
+                  labels = {"SeqNum":xlabel,"Freq":ylabel, "Term":""}, title=mainTitle, category_orders={"Term":interestedWords})
+    fig.update_layout(title={'y':0.95, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'})
+    fig.update_yaxes(range=yRange)
+    fig.update_xaxes(tickangle=angle)
+    
+py.offline.plot(fig, filename=os.path.join(dataResults, outputFile))
+fig.show()
