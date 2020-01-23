@@ -24,24 +24,13 @@ import os
 sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-packages")
 os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
-
 # Include necessary packages for notebook 
-
-import sklearn
-# import all of the scikit learn stuff
-
 from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.preprocessing import Normalizer
-from sklearn import metrics
-from sklearn.cluster import KMeans, MiniBatchKMeans
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import warnings
 import numpy as np
-import re
-from os.path import join, isfile, splitext
 import string
 import nltk
 from nltk.stem import SnowballStemmer
@@ -69,12 +58,13 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 
 # Set needed variables
-
 nltkStop = True
 customStop = True
 stem = True
 lowerCase = True
 language = 'english'
+encoding = 'utf-8'
+errors = 'ignore'
 stopWords = []
 tokenDict = {}
 
@@ -94,7 +84,7 @@ if nltkStop is True:
 if customStop is True:
     stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as f:
+    with open(stopWordsFilepath, "r",encoding = encoding, errors = errors) as f:
         stopWordsList = [x.strip() for x in f.readlines()]
 
     stopWords.extend(stopWordsList)
@@ -135,7 +125,7 @@ for subdir, dirs, files in os.walk(dataHome):
         if file.startswith('.'):
                 continue
         filePath = subdir + os.path.sep + file
-        with open(filePath, 'r', encoding = 'ISO-8859-1') as textFile:
+        with open(filePath, 'r', encoding = encoding, errors = errors) as textFile:
             text = textFile.read()
             if lowerCase is True:
                 lowers = text.lower()
@@ -161,7 +151,7 @@ testDF = testDF.sort_index(axis = 0)
 
 # Now let's take a look at our data frame.
 
-testDF.iloc[:10, 7640:7650]
+print(testDF.iloc[:10, 7640:7650])
 
 # Get words that correspond to each column
 vectorizer.get_feature_names()
@@ -177,29 +167,30 @@ cosineSim = cosine_similarity(dtmLsa)
 # Save as a data frame
 
 csvFileName = "docSimilarityMatrix.csv"
-colorChoice = 'RdYlGn'
 
 df = pd.DataFrame(cosineSim, index = tokenDict.keys(), columns=tokenDict.keys())
 dfS = df[sorted(df)]
 sortedDf = dfS.sort_index(axis = 0)
+np.fill_diagonal(sortedDf.values, np.nan)
 sortedDf.to_csv(os.path.join(dataResults, csvFileName))
-colorDf = sortedDf.style.background_gradient(cmap=colorChoice)
-colorDf
+sortedDf
 
 
 # Plot Heatmap
 
 #Variables
 heatmapFileName = 'DocSimHeatmap.svg'
-dpi = 300
+dpi = 600
 colorScheme = 'RdYlGn'
-fontScale = 5
+fontScale = 1
 
 # Plot
 figureSize = len(sortedDf)
 sns.set(rc={'figure.figsize':(figureSize + 10, figureSize)}, font_scale = fontScale)
 ax = sns.heatmap(sortedDf, cmap = colorScheme)
 ax.figure.savefig(os.path.join(dataResults, heatmapFileName), dpi = dpi, bbox_inches='tight')
+plt.yticks(rotation=0)
+plt.xticks(rotation=90)
 plt.show()
 
 
