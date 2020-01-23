@@ -12,10 +12,10 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pandas as pd
-import numpy as np
+#import numpy as np
 import os
-import csv
-import json
+#import csv
+#import json
 import glob
 import zipfile
 import matplotlib.pyplot as plt
@@ -25,9 +25,10 @@ import math
 
 # Variables
 
-source = "*"
+source = "iranTweets"
 fileType = ".json"
-tweets = []
+textColIndex = "text"
+encoding = "utf-8"
 scores = []
 total = 0
 numberOfTweets = 0
@@ -49,8 +50,8 @@ vader = SentimentIntensityAnalyzer()
 # Unzip files
 
 if fileType == ".csv":
-    direct = os.path.join(dataHome, "CSV", "parkland")
-    allZipFiles = glob.glob(os.path.join(dataHome, "CSV", "parkland","*.zip"))
+    direct = os.path.join(dataHome, "CSV", "Iran")
+    allZipFiles = glob.glob(os.path.join(dataHome, "CSV", "Iran","*.zip"))
     for item in allZipFiles:
             fileName = os.path.splitext(direct)[0]
             zipRef = zipfile.ZipFile(item, "r")
@@ -68,24 +69,20 @@ else:
             os.remove(item)
 
 
-# Reading in JSON files
-
-if fileType == ".json":
-    for filename in glob.glob(os.path.join(dataHome, "JSON", source+fileType)):
-        with open(filename, encoding = 'utf-8') as json_data:
-            for line in json_data:
-                data = json.loads(line)
-                tweets.append(data['text'])
-
-
-# Reading in .csv files
+# Reading in .csv and JSON files
 
 if fileType == ".csv":
-    all_files = glob.glob(os.path.join(dataHome, "CSV", "parkland",source + fileType))     
-    df_all = (pd.read_csv(f, encoding = 'ISO-8859-1') for f in all_files)
-    cc_df = pd.concat(df_all, ignore_index=True)
-    cc_df = pd.DataFrame(cc_df, dtype = 'str')
-    tweets = cc_df['text'].values.tolist()
+    allFiles = glob.glob(os.path.join(dataHome, "CSV", "Iran", source + fileType))     
+    df = (pd.read_csv(f, engine = "python") for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf)
+    tweets = cdf[textColIndex].values.tolist()
+if fileType == ".json":
+    allFiles = glob.glob(os.path.join(dataHome, "JSON", source + fileType))     
+    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf)
+    tweets = cdf[textColIndex].values.tolist()
 
 
 # Now we check to see if we have pulled our tweets from our dataset. We are just checking the first 10 tweets.
@@ -176,17 +173,16 @@ vaderBarOutput = 'vaderBarGraph.png'
 fmt = 'png'
 dpi = 300
 color = ['red']
-figSz = (20,10)
-fontLabel = 30
-fontTick = 25
-fontPct = 15
+figSz = (10,5)
+fontLabel = 18
+fontTick = 10
+fontPct = 8
 labelX = 'Sentiment Score'
 labelY = 'Number of Tweets'
-labelTitle = 'Government Shutdown VADER Overall Analysis: December 22, 2018 - January 23, 2019\n'
+labelTitle = 'Iran VADER Overall Analysis: January 01, 2020 - January 04, 2020\n'
 rotate = 45
 
 # Plot graph   
-get_ipython().magic('matplotlib inline')
 cres = Counter(res)
 resdf = pd.DataFrame.from_dict(cres, orient='index').reset_index()
 resdf = resdf.rename(columns={'index':'score', 0:'count'})
@@ -203,10 +199,10 @@ fig.set_ylim(0,2000 + max(res.values()))
 rects = fig.patches
 
 # vertical line for 0
-zeroLine = plt.axvline(x = 10, color = 'black', linewidth = 4)
+zeroLine = plt.axvline(x = 10, color = 'black', linewidth = 2)
 
 # vertical line for mean
-meanLine = plt.axvline(x = mean+10, color = 'purple', linestyle = 'dashed', linewidth = 3)
+meanLine = plt.axvline(x = mean+10, color = 'purple', linestyle = 'dashed', linewidth = 2)
 
 plt.legend((zeroLine, meanLine), ['zero line', 'mean line'], prop={'size' : fontLabel}, loc = 'upper right')
 
