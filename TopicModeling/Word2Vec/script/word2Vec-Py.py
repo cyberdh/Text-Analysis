@@ -20,28 +20,16 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 # Include necessary packages for notebook 
 
 import re
-from os.path import join, isfile, splitext
-import string
-import nltk
 from nltk.corpus import stopwords
 import glob
-import numpy as np
 import pandas as pd
 import warnings
 from pprint import pprint
 import spacy
-from sklearn.decomposition import PCA
-get_ipython().magic('matplotlib notebook')
-import matplotlib.pyplot as plt
-plt.style.use('ggplot')
 from collections import Counter
 
 import gensim
-import gensim.corpora as corpora
-import gensim.downloader as api
 from gensim.utils import simple_preprocess
-from gensim.models import CoherenceModel
-from gensim.models import doc2vec
 from gensim.models.phrases import Phrases, Phraser
 
 
@@ -66,27 +54,26 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 
 # Set needed variables
 
-source = "*"
+source = "1599Hamlet"
 fileType = ".txt"
-docLevel = True
+docLevel = False
 nltkStop = True
-customStop = False
+customStop = True
 spacyLem = True
 stopLang = 'english'
 lemLang = 'en'
+encoding = "utf-8"
+errors = "ignore"
+textColIndex = "text"
 stopWords = []
 docs = []
-tweets = []
-
-#print(" ".join(stopwords.fileids()))
-
 
 # Stopwords
 # NLTK Stop words
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
 
-    stopWords.extend(['would', 'said', 'says', 'also', 'let', 'not'])
+    stopWords.extend(['would', 'said', 'says', 'also', 'let', 'not', 'know', 'come', 'good'])
 
 
 # Add own stopword list
@@ -94,7 +81,7 @@ if nltkStop is True:
 if customStop is True:
     stopWordsFilepath = os.path.join(homePath, "Text-Analysis-master", "data", "earlyModernStopword.txt")
 
-    with open(stopWordsFilepath, "r",encoding = 'utf-8') as stopfile:
+    with open(stopWordsFilepath, "r",encoding = encoding, errors = errors) as stopfile:
         stopWordsCustom = [x.strip() for x in stopfile.readlines()]
 
     stopWords.extend(stopWordsCustom)
@@ -105,7 +92,7 @@ if customStop is True:
 if fileType == ".txt":
     paths = glob.glob(os.path.join(dataHome, "shakespeareDated",source + fileType))
     for path in paths:
-        with open(path, "r", encoding = 'ISO-8859-1') as file:
+        with open(path, "r", encoding = encoding, errors = errors) as file:
              # skip hidden file
             if path.startswith('.'):
                 continue
@@ -119,25 +106,19 @@ if fileType == ".txt":
                     docs.append(stripLine.split())
 
 
-# Reading in .csv files
-
+# Reading in .csv and .json files
 if fileType == ".csv":
-    all_files = glob.glob(os.path.join(dataHome, "twitter", source + fileType))     
-    df_all = (pd.read_csv(f) for f in all_files)
-    cc_df = pd.concat(df_all, ignore_index=True)
-    cc_df = pd.DataFrame(cc_df, dtype = 'str')
-    tweets = cc_df['text'].values.tolist()
-
-
-# Reading in JSON files
-
+    allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", "Iran", source + fileType))     
+    df = (pd.read_csv(f, engine = "python") for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf, dtype = 'str')
+    tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
-    for filename in glob.glob(os.path.join(dataHome, "twitter", "JSON", source + fileType)):
-        with open(filename, 'r', encoding = "utf-8") as jsonData:
-            for line in jsonData:
-                tweets.append(json.loads(line))
-    df = pd.DataFrame(tweets)
-    tweets = df['text'].tolist()
+    allFiles = glob.glob(os.path.join(dataHome, "twitter", "JSON", source + fileType))     
+    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf, dtype = 'str')
+    tweets = cdf[textColIndex].values.tolist()
 
 
 # Data variable
@@ -152,7 +133,7 @@ else:
         # Remove new line characters
         data = [re.sub('\s+', ' ', sent) for sent in data]
 
-pprint(data[:1])
+print(len(data))
 
 
 # Tokenizing
@@ -163,7 +144,11 @@ def sentToWords(sentences):
 
 dataWords = list(sentToWords(data))
 
-print(dataWords[:1])
+if docLevel is True:
+    for i in dataWords:
+        print(i[:1])
+else:
+    print(dataWords[:1])
 
 
 # Find Bigrams and Trigrams
@@ -256,9 +241,10 @@ else:
 
 from collections import Counter
 count = Counter(tokens)
+sortList = sorted(count.items(), key=lambda x:x[1], reverse = True)
 print(sum(count.values()))
 print(len(count))
-print(count.most_common(1000))
+print(sortList[150])
 
 
 # Build vocabulary and train the model
@@ -267,9 +253,9 @@ print(count.most_common(1000))
 
 model = gensim.models.Word2Vec(
     texts,
-    size=100,
+    size=50,
     window=10,
-    min_count=60,
+    min_count=12,
     workers=1,
     sg = 1,
     seed = 42)
@@ -279,56 +265,19 @@ model.train(texts, total_examples=len(texts), epochs=10)
 # Let's find some word relationships
 
 w2vCSVfile = 'word2vec.csv'
-w1 = "woman"
+w1 = "hamlet"
 topn = 30
 
 wtv = model.wv.most_similar(positive=[w1], topn = topn)
 df = pd.DataFrame(wtv)
 df.to_csv(os.path.join(dataResults, w2vCSVfile))
-dfG = df[:10]
-dfG
+print(df.head(10))
 
 
 # Here we can compare two words to each other.
 
-model.wv.similarity(w1 = 'king', w2 = 'queen')
-
-
-# Now convert our results in the `df` variable from above to a list
-
-dfLst = df[0].tolist()
-dfLst.append(w1)
-
-
-# Here we create a function that uses Principal Component Analysis (PCA) for dimensionality reduction.
-
-# Variables
-pcaScatterPlot = "pcaScatterPlot.svg"
-color = 'crimson'
-
-# Function
-def display_pca_scatterplot(model, words=None, sample=0):
-    if words == None:
-        if sample > 0:
-            words = np.random.choice(list(model.wv.vocab.keys()), sample)
-        else:
-            words = [ word for word in model.wv.vocab ]
-        
-    word_vectors = np.array([model[w] for w in words])
-
-    twodim = PCA().fit_transform(word_vectors)[:,:2]
-    
-    plt.figure(figsize=(9,9))
-    plt.scatter(twodim[:,0], twodim[:,1], edgecolors='k', c=color)
-    for word, (x,y) in zip(words, twodim):
-        plt.text(x+0.05, y+0.05, word)
-        plt.savefig(os.path.join(dataResults, pcaScatterPlot))
-
-
-# Now we apply the function to our `model` from above and the list we made from our `df` variable. 
-# Note however that the graph is interactive. You can zoom in by clicking the button with the square on it and the dragging over the section of the graph you wish to zoom in on. You can then click the save button to save the zoomed in version of the graph.
-
-display_pca_scatterplot(model, dfLst)
+sim = model.wv.similarity('ophelia', 'hamlet')
+print(sim)
 
 
 # ## VOILA!!
