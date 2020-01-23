@@ -11,26 +11,27 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 import pandas as pd
 import re
-import json
+#import json
 import glob
 import nltk
 import matplotlib.pyplot as plt
-import numpy as np
+#import numpy as np
 from collections import Counter
+import zipfile
 
 
 # Variables
 
-source = "*"
-fileType = ".csv"
+source = "iranTweets"
+fileType = ".json"
 negColHead = 'Neg'
 posColHead = 'Pos'
 tweetColHead = 'text'
-remNegWords = ['gun']
+encoding = "utf-8"
+remNegWords = []
 negAdds = []
-remPosWords = ['trump', 'right']
+remPosWords = ['3']
 posAdds = []
-tweets = []
 
 
 # File paths
@@ -81,8 +82,8 @@ posTokens = set(posTokens)
 # Unzip files
 
 if fileType == ".csv":
-    direct = os.path.join(dataHome, "CSV", "parkland")
-    allZipFiles = glob.glob(os.path.join(dataHome, "CSV", "parkland","*.zip"))
+    direct = os.path.join(dataHome, "CSV", "Iran")
+    allZipFiles = glob.glob(os.path.join(dataHome, "CSV", "Iran","*.zip"))
     for item in allZipFiles:
             fileName = os.path.splitext(direct)[0]
             zipRef = zipfile.ZipFile(item, "r")
@@ -100,33 +101,21 @@ else:
             os.remove(item)
 
 
-# Here we get tweets if in JSON format
-
-if fileType == ".json":
-
-    for filename in glob.glob(os.path.join(dataHome, "JSON", source + fileType)):
-        with open(filename, encoding = 'utf-8') as json_data:
-            for line in json_data:
-                tweets.append(json.loads(line))
-    df = pd.DataFrame(tweets)
-    df[tweetColHead] = df[tweetColHead].str.replace('[^\x00-\x7F]','')
-    df[tweetColHead] = df[tweetColHead].str.replace('[^\w\s]','')
-    tweetsTokens = df[tweetColHead].tolist()            
-    print(len(df)) 
-
-
-# Here we get the tweets if in .csv file
+# Reading in .csv and .json file(s)
 
 if fileType == ".csv":
-    all_files = glob.glob(os.path.join(dataHome, "CSV", "parkland", source + fileType))     
-
-    df_all = (pd.read_csv(f, encoding  = 'ISO-8859-1') for f in all_files)
-    cc_df   = pd.concat(df_all, ignore_index=True)
-    tweetsText = pd.DataFrame(cc_df)
-    tweetsText[tweetColHead] = tweetsText[tweetColHead].str.replace('[^\x00-\x7F]','')
-    tweetsText[tweetColHead] = tweetsText[tweetColHead].str.replace('[^\w\s]','')
-    tweetsTokens = tweetsText[tweetColHead].tolist()
-    print(len(tweetsTokens))
+    allFiles = glob.glob(os.path.join(dataHome, "CSV", "Iran", source + fileType))     
+    df = (pd.read_csv(f, engine = "python") for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf, dtype = 'str')
+    tweetsTokens = cdf[tweetColHead].values.tolist()
+if fileType == ".json":
+    allFiles = glob.glob(os.path.join(dataHome, "JSON", source + fileType))     
+    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf, dtype = 'str')
+    tweetsTokens = cdf[tweetColHead].values.tolist()    
+print(len(tweetsTokens)) 
 
 
 # Functions
@@ -229,7 +218,7 @@ for idx, score in enumerate(scores):
         if numPosTweets >= numberWanted:
             break
 
-print(posiTweetList)
+#print(posiTweetList)
 
 
 # Gathering negative tweets
@@ -253,7 +242,7 @@ for idx, score in enumerate(scores):
             break
         
 
-print(negaTweetList)
+#print(negaTweetList)
 
 
 # Testing a tweet
@@ -267,14 +256,14 @@ print(res['score'])
 
 tweet2Process = input("What tweet do you want to process? ")
 res = calculator(tweet2Process, posTokens, negTokens)
-print("Positive words: " + str(res['posWordsList'][:10]))
-print("Negative words: " + str(res['negWordsList'][:10]))
+#print("Positive words: " + str(res['posWordsList'][:10]))
+#print("Negative words: " + str(res['negWordsList'][:10]))
 
 
 # Gathering and plotting all positive and negative words
 
-print("Positive words: " + str(len(posWordsList)))
-print("Negative words: " + str(len(negWordsList)))
+#print("Positive words: " + str(len(posWordsList)))
+#print("Negative words: " + str(len(negWordsList)))
 
 
 # Count number of times positive words occur
@@ -308,22 +297,21 @@ freqDF = pd.concat([posdf, negdf], ignore_index=True)
 # Variables
 posWordFile = "posWordsVader.svg"
 posFmt = "svg"
-posdpi = 300
+posdpi = 600
 posclr = ['darkgreen']
-postitle = 'Top 25 Positive Words, #governmentshutdown: VADER'
+postitle = 'Top 25 Positive Words, #Iran: VADER'
+pFigSz = (8,4)
+pFntSz = 8
 
-#plot graph
-get_ipython().magic('matplotlib inline')
-
-fig = posdf.plot(x= 'word',kind='barh', align='center', color = posclr)
-fig.set_ylabel('Words')
-fig.set_xlabel('Frequency')
-fig.set_title(postitle)
+fig = posdf.plot(x= 'word',kind='barh', align='center', color = posclr, figsize = pFigSz, fontsize = pFntSz)
+fig.set_ylabel('Words', fontsize = pFntSz)
+fig.set_xlabel('Frequency', fontsize = pFntSz)
+fig.set_title(postitle, fontweight='bold',fontsize = pFntSz)
 fig.set_ylim(fig.get_ylim()[::-1])
-fig.set_xlim(0,1000 + max(freqDF['freq']))
+fig.set_xlim(0,1500 + max(freqDF['freq']))
 
 for i, v in enumerate(posdf['freq']):
-    fig.text(v + 3, i + .25, str(v), color='black', fontweight='bold')
+    fig.text(v + 3, i + .25, str(v), color='black', fontweight='bold', fontsize = pFntSz )
     
 plt.savefig(os.path.join(dataResults, posWordFile), format= posFmt, dpi=posdpi, bbox_inches='tight',)
 plt.show()
@@ -334,21 +322,24 @@ plt.show()
 # Variables
 negWordFile = "negWordsVader.svg"
 negFmt = "svg"
-negdpi = 300
+negdpi = 600
 negclr = ['darkred']
-negtitle = 'Top 25 Negative Words, #governmentshutdown: VADER'
-
+negtitle = 'Top 25 Negative Words, #Iran: VADER'
+nFigSz = (8,4)
+nFntSz = 8
 
 # plot
-fig = negdf.plot(x= 'word',kind='barh', align='center', color = negclr)
-fig.set_ylabel('Words')
-fig.set_xlabel('Frequency')
-fig.set_title(negtitle)
+
+fig = negdf.plot(x= 'word',kind='barh', align='center', color = negclr, figsize = nFigSz, fontsize = nFntSz)
+fig.set_ylabel('Words', fontsize = nFntSz)
+fig.set_xlabel('Frequency', fontsize = nFntSz)
+fig.set_title(negtitle, fontweight = 'bold', fontsize = nFntSz)
 fig.set_ylim(fig.get_ylim()[::-1])
-fig.set_xlim(0,1000 + max(freqDF['freq']))
+fig.set_xlim(0,1500 + max(freqDF['freq']))
 
 for i, v in enumerate(negdf['freq']):
-    fig.text(v + 3, i + .25, str(v), color='black', fontweight='bold')
+    fig.text(v + 3, i + .25, str(v), color='black', fontweight='bold', fontsize = nFntSz)
+
     
 
 plt.savefig(os.path.join(dataResults, negWordFile), format=negFmt, dpi=negdpi, bbox_inches='tight',)
