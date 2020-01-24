@@ -171,7 +171,7 @@ n = 10
 outputFile = "ngramTopTenTwitter.svg"
 fmt = 'svg'
 dpi = 300
-figSz = (4,2)
+figSz = (8,4)
 angle = 85
 title = 'Top 10 Ngrams, Shakespeare'
 color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
@@ -192,7 +192,7 @@ plt.bar(dfTN["ngrams"], dfTN["freq"], align = 'center', alpha = 0.5, color = col
     
 
         
-plt.xticks(n, dfTN['ngrams'])
+plt.xticks(dfTN['ngrams'])
 plt.xticks(rotation = angle)
         
 xlabel = plt.xlabel('Ngrams')
