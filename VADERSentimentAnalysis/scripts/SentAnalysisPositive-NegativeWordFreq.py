@@ -11,11 +11,9 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 import pandas as pd
 import re
-#import json
 import glob
 import nltk
 import matplotlib.pyplot as plt
-#import numpy as np
 from collections import Counter
 import zipfile
 
