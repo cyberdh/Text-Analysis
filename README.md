@@ -10,7 +10,7 @@ We have notebooks and scripts for:
 * wordclouds (plain text and twitter)
 * ngram wordclouds (plain text and twitter)
 * top ten words (plain text and twitter)
-* streamgraphs (plain text and twitter)
+* stacked area graphs (plain text and twitter)
 
 ## More Advanced Topics
 
