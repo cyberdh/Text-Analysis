@@ -14,7 +14,7 @@ We have notebooks and scripts for:
 
 ## More Advanced Topics
 
-#### Please not: These topics utilize two separate notebooks for each. One notebook for cleaning/acquiring the data and another notebook for visual representation using the data provided by the other notebook. This has been done to help you save time by not having to re-run the data through the algorithm(s) everytime you simply want to make a change to the visualizations. In addition, this improves reproducibility of the results, especially for the topic modeling.
+#### Please not: These topics utilize two separate notebooks for each tool/algorithm within the topics. One notebook is for cleaning/acquiring the data and another notebook is for visual representation using the data provided by the other notebook. This has been done to help you save time by not having to re-run the data through the algorithm(s) everytime you simply want to make a change to the visualizations. In addition, this improves reproducibility of the results, especially for the topic modeling.
 
 ### Sentiment Analysis
 Jupyter Notebooks for [sentiment analysis](https://github.com/cyberdh/Text-Analysis/tree/master/VADERSentimentAnalysis) using Twitter adapted from VADER (1). 
