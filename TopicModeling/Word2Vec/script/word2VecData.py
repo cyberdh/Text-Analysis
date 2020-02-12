@@ -97,7 +97,7 @@ if fileType == ".txt":
 
 # Reading in .csv and .json files
 if fileType == ".csv":
-    allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", "Iran", source + fileType))     
+    allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", source + fileType))     
     df = (pd.read_csv(f, engine = "python") for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
