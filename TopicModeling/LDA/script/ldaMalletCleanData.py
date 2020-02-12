@@ -52,7 +52,7 @@ cleanModel = os.path.join(cleanDataPath, "ldaModel")
 origData = os.path.join(cleanDataPath, "ldaDataOrig")
 
 # Set needed variables
-source = "1599Hamlet"
+source = "Hamlet"
 fileType = ".txt"
 docLevel = False
 nltkStop = True
@@ -85,7 +85,7 @@ if customStop is True:
 
 # Reading in .txt files
 if fileType == ".txt":
-    paths = glob.glob(os.path.join(dataHome, "shakespeareDated", source + fileType))
+    paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
     for path in paths:
         with open(path, "r", encoding = encoding, errors = errors) as file:
              # skip hidden file
@@ -102,7 +102,7 @@ if fileType == ".txt":
 
 # Reading in .csv and .json files
 if fileType == ".csv":
-    allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", "Iran", source + fileType))     
+    allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", source + fileType))     
     df = (pd.read_csv(f, engine = "python") for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')

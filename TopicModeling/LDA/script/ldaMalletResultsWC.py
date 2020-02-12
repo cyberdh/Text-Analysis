@@ -42,7 +42,7 @@ origData = os.path.join(dataCleaned, "ldaDataOrig")
 
 # Set Variables
 docLevel = False
-paths = glob.glob(os.path.join(dataHome, "shakespeareDated", "*.txt"))
+paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", "*.txt"))
 
 # Load cleaned data
 id2word = corpora.dictionary.Dictionary.load(cleanDict)
