@@ -19,7 +19,7 @@ import math
 import matplotlib.pyplot as plt
 
 # Set needed variables
-source = "*"
+source = "coronaVirusFeb01-082020"
 fileType = ".json"
 nltkStop = True
 customStop = True
@@ -40,7 +40,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -51,7 +51,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['pic', 'com', 'iran', 'twitter', 'worldwar3', 'wwiii', 'worldwarthree', 'na', 'gon', 'worldwariii'])
+    stopWords.extend(['pic', 'com', 'coronavirus', 'twitter'])
 
 
 # Add own stopword list
@@ -173,10 +173,10 @@ fmt = 'svg'
 dpi = 300
 figSz = (8,4)
 angle = 85
-title = 'Top 10 Ngrams, Shakespeare'
+title = 'Top 10 Ngrams, Coronavirus'
 color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
 labCol = 'red'
-ngramStop = ["gon na", "wan na", "got ta", "soleimani soleimani"]
+ngramStop = ["via youtube"]
 
 # Ngram Stopwords
 text = dfNG[~dfNG['ngrams'].isin(ngramStop)]

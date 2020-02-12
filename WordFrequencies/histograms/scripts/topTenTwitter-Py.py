@@ -40,7 +40,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -51,7 +51,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(["iran", "wwiii", "soleimani", "com", "pic", "twitter", "u"])
+    stopWords.extend(["coronavirus", "com", "pic", "twitter"])
 
 
 # Add own stopword list
@@ -218,13 +218,13 @@ def getTokensFromScan(dataRoot, textColIndex, encoding):
 # Variables
 n = 10
 textColIndex = "text"
-singleDocName = 'iranTweets' + fileType
+singleDocName = 'coronaVirusFeb01-082020' + fileType
 outputFile = "topTenTwitter.svg"
 fmt = 'svg'
 dpi = 300
 figSz = (6,3)
 angle = 60
-title = 'Top 10 Words, #Iran'
+title = 'Top 10 Words, #Coronavirus'
 color = ['crimson','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
 labCol = 'crimson'
 

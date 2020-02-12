@@ -17,7 +17,7 @@ import zipfile
 import matplotlib.pyplot as plt
 
 # Set needed variables
-source = "iranTweets"
+source = "coronaVirusFeb01-082020"
 fileType = ".json"
 singleDoc = True
 nltkStop = True
@@ -36,7 +36,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -45,7 +45,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['pic', 'com', 'iran', 'twitter', 'worldwar3', 'wwiii', 'worldwarthree', 'worldwariii'])
+    stopWords.extend(['pic', 'com', 'coronavirus', 'twitter'])
 
 # Add own stopword list
 if customStop is True:
@@ -157,7 +157,7 @@ imgFmt = "png"
 dpi = 600
 
 # Ngram Stopwords
-stopwords = ["gon_na", "wan_na", "got_ta", "soleimani_soleimani", "soleimani_قاسم_سليماني"]
+stopwords = ["via_youtube"]
 text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
