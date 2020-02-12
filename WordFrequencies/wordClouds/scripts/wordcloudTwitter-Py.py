@@ -31,7 +31,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -40,7 +40,7 @@ else:
 if nltkStop is True:
     stopWords.extend(stopwords.words(stopLang))
     
-    stopWords.extend(['pic', 'com', 'iran', 'twitter'])
+    stopWords.extend(['pic', 'com', 'coronavirus', 'twitter'])
 
 
 # Add own stopword list
@@ -170,7 +170,7 @@ def drawWordCloudDirectory(dataRoot, textColIndex, encoding, errors,
 # Plot Wordcloud
 #Variables
 
-document = "iranTweets" + fileType
+document = "coronaVirusFeb01-082020" + fileType
 wcOutputFile = "wordcloud.png"
 fmt = "png"
 width = 800
