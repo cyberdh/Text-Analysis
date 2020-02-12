@@ -68,7 +68,7 @@ fontTick = 10
 fontPct = 8
 labelX = 'Sentiment Score'
 labelY = 'Number of Tweets'
-labelTitle = 'Iran VADER Overall Analysis: January 01, 2020 - January 04, 2020\n'
+labelTitle = 'Coronavirus VADER Overall Analysis: February 01, 2020 - February 07, 2020\n'
 rotate = 45
 
 # Plot graph   

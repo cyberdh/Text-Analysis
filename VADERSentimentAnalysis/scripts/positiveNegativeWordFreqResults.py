@@ -50,7 +50,7 @@ posWordFile = "posWordsVader.svg"
 posFmt = "svg"
 posdpi = 600
 posclr = ['darkgreen']
-postitle = 'Top 25 Positive Words, #Iran: VADER'
+postitle = 'Top 25 Positive Words, #Coronavirus: VADER'
 pFigSz = (8,4)
 pFntSz = 8
 
@@ -74,7 +74,7 @@ negWordFile = "negWordsVader.svg"
 negFmt = "svg"
 negdpi = 600
 negclr = ['darkred']
-negtitle = 'Top 25 Negative Words, #Iran: VADER'
+negtitle = 'Top 25 Negative Words, #Coronavirus: VADER'
 nFigSz = (8,4)
 nFntSz = 8
 
