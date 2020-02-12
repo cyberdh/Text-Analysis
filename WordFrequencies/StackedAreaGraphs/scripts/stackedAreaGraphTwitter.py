@@ -29,9 +29,9 @@ fileType = ".json"
 singleDoc = True
 textColIndex = "text"
 encoding = "utf-8"
-tweetFile = "iranTweets" + fileType
+tweetFile = "coronaVirusFeb01-082020" + fileType
 numTweetsPerChunk = 1000
-interestedWords = ["war", "trump", "america"]
+interestedWords = ["infected", "people", "quarantine", "wuhan"]
 freqDict = {}
 
 
@@ -40,7 +40,7 @@ homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter", "CSV", "Iran")
+    dataRoot = os.path.join(dataHome, "twitter", "CSV")
 else:
     dataRoot = os.path.join(dataHome, "twitter", "JSON")
 
@@ -261,7 +261,7 @@ outputFile = "areaStackTwitter.html"
 colorScheme = px.colors.qualitative.Set1
 xlabel = "Chunk"
 ylabel = "Frequency"
-mainTitle = "Comparison of selected words in Tweets containing #Iran from 01/02/2020-01/04/2020"
+mainTitle = "Comparison of selected words in Tweets containing #Coronavirus from 02/01/2020-02/07/2020"
 yRange = [0, max(df["Freq"]*len(interestedWords))]
 angle = 45
 
