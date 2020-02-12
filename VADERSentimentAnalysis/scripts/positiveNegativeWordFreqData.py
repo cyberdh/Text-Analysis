@@ -22,7 +22,7 @@ import zipfile
 
 
 # Variables
-source = "iranTweets"
+source = "coronaVirusFeb01-082020"
 fileType = ".json"
 negColHead = 'Neg'
 posColHead = 'Pos'
@@ -78,8 +78,8 @@ posTokens = set(posTokens)
 
 # Unzip files
 if fileType == ".csv":
-    direct = os.path.join(dataHome, "CSV", "Iran")
-    allZipFiles = glob.glob(os.path.join(dataHome, "CSV", "Iran","*.zip"))
+    direct = os.path.join(dataHome, "CSV")
+    allZipFiles = glob.glob(os.path.join(dataHome, "CSV","*.zip"))
     for item in allZipFiles:
             fileName = os.path.splitext(direct)[0]
             zipRef = zipfile.ZipFile(item, "r")
@@ -99,7 +99,7 @@ else:
 
 # Reading in .csv and .json files
 if fileType == ".csv":
-    allFiles = glob.glob(os.path.join(dataHome, "CSV", "Iran", source + fileType))     
+    allFiles = glob.glob(os.path.join(dataHome, "CSV", source + fileType))     
     df = (pd.read_csv(f, engine = "python") for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
