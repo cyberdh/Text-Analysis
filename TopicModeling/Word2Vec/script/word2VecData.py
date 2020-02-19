@@ -20,6 +20,7 @@ import warnings
 from pprint import pprint
 import spacy
 from collections import Counter
+import itertools as it
 
 import gensim
 from gensim.utils import simple_preprocess
@@ -47,6 +48,7 @@ cleanModel = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "Wo
 source = "Hamlet"
 fileType = ".txt"
 docLevel = False
+n = 100
 nltkStop = True
 customStop = True
 spacyLem = True
@@ -112,7 +114,12 @@ if fileType == ".json":
 
 # Data variable
 if len(docs) > 0:
-    data = docs
+    if docLevel is True:
+        data = docs
+    else:
+        data = []
+        for i in list(it.zip_longest(*(iter(docs),)*n)):
+            data.append(i)
 else:
     if len(tweets) > 0:
         data = tweets
@@ -134,13 +141,16 @@ if docLevel is True:
     for i in dataWords:
         print(i[:1])
 else:
-    print(dataWords[:1])
+    print(len(dataWords))
 
 
 # Find Bigrams and Trigrams
+#Variables
+minCount = 5
+tHold = 100
 # Build the bigram and trigram models
-bigram = Phrases(dataWords, min_count=5, threshold=100) # higher threshold fewer phrases.
-trigram = Phrases(bigram[dataWords], threshold=100)  
+bigram = Phrases(dataWords, min_count=minCount, threshold=tHold) # higher threshold fewer phrases.
+trigram = Phrases(bigram[dataWords], threshold=tHold)  
 
 # Removes model state from Phrases thereby reducing memory use.
 bigramMod = Phraser(bigram)
@@ -236,7 +246,7 @@ model = gensim.models.Word2Vec(
     min_count=12,
     sg = 1,
     seed = 42,
-    iter=10)
+    iter=50)
 model.train(texts, total_examples=len(texts), epochs=model.iter)
 model.save(os.path.join(homePath, cleanModel))
 
