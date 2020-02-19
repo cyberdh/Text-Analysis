@@ -17,6 +17,7 @@ from pprint import pprint
 from collections import Counter
 import matplotlib.pyplot as plt
 import pickle
+import itertools as it
 
 # Gensim
 import gensim
@@ -55,6 +56,7 @@ origData = os.path.join(cleanDataPath, "ldaDataOrig")
 source = "Hamlet"
 fileType = ".txt"
 docLevel = False
+n = 100
 nltkStop = True
 customStop = True
 spacyLem = True
@@ -116,7 +118,12 @@ if fileType == ".json":
 
 # Data variable
 if len(docs) > 0:
-    data = docs
+    if docLevel is True:
+        data = docs
+    else:
+        data = []
+        for i in list(it.zip_longest(*(iter(docs),)*n)):
+            data.append(i)
 else:
     if len(tweets) > 0:
         data = tweets
@@ -138,12 +145,16 @@ if docLevel is True:
     for i in dataWords:
         print(i[:1])
 else:
-    print(dataWords[:1])
+    print(len(dataWords))
 
 # Find Bigrams and Trigrams
+# Variables
+minCount = 5
+tHold = 100
+
 # Build the bigram and trigram models
-bigram = Phrases(dataWords, min_count=5, threshold=100) # higher threshold fewer phrases.
-trigram = Phrases(bigram[dataWords], threshold=100)  
+bigram = Phrases(dataWords, min_count=minCount, threshold=tHold) # higher threshold fewer phrases.
+trigram = Phrases(bigram[dataWords], threshold=tHold)  
 
 # Removes model state from Phrases thereby reducing memory use.
 bigramMod = Phraser(bigram)
@@ -238,7 +249,7 @@ for i in hReadable:
 
 # USING MALLET
 # Variables
-nTopics = 20
+nTopics = 10
 workers = 1
 nIter = 1000
 seed = 42
