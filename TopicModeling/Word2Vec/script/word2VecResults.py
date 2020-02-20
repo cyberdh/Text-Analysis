@@ -29,17 +29,16 @@ dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 model = Word2Vec.load(cleanModel)
 
 # Compare two words to each other.
-ws1="hamlet"
-ws2="madness"
+ws1="man"
+ws2="woman"
 wordSim = model.wv.similarity(ws1, ws2)
 print("Similarity score between {} and {} is {}".format(ws1, ws2, wordSim))
 
 # Let's find some word relationships
 w2vCSVfile = 'word2vec.csv'
-w1 = "lord"
-w2 = "woman"
-w3 = "king"
-w4 = "man"
+w1 = "woman"
+w2 = "king"
+w3 = "man"
 topn = 200
 
 wtv = model.wv.most_similar(positive=[w1], topn = topn)

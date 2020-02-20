@@ -18,6 +18,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import pickle
 import itertools as it
+import zipfile
 
 # Gensim
 import gensim
@@ -45,7 +46,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 homePath = os.environ["HOME"]
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
-malletPath = os.path.join(homePath, "mallet-2.0.8", "bin", "mallet") # update this path
+malletPath = os.path.join(dataHome,"mallet-2.0.8", "bin", "mallet") # update this path
 cleanDataPath = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData")
 cleanData = os.path.join(cleanDataPath, "ldaDataClean")
 cleanDict = os.path.join(cleanDataPath, "ldaDict")
@@ -53,9 +54,9 @@ cleanModel = os.path.join(cleanDataPath, "ldaModel")
 origData = os.path.join(cleanDataPath, "ldaDataOrig")
 
 # Set needed variables
-source = "Hamlet"
+source = "*"
 fileType = ".txt"
-docLevel = False
+docLevel = True
 n = 100
 nltkStop = True
 customStop = True
@@ -84,7 +85,28 @@ if customStop is True:
 
     stopWords.extend(stopWordsCustom)
 
-
+# Unzip files
+if fileType == ".csv":
+    dataRoot = os.path.join(dataHome, "twitter","CSV")
+    direct = dataRoot
+    allZipFiles = glob.glob(os.path.join(dataRoot,"*.zip"))
+    for item in allZipFiles:
+        fileName = os.path.splitext(direct)[0]
+        zipRef = zipfile.ZipFile(item, "r")
+        zipRef.extractall(fileName)
+        zipRef.close()
+        os.remove(item)
+if fileType == ".json":
+    dataRoot = os.path.join(dataHome, "twitter","JSON")
+    direct = dataRoot
+    allZipFiles = glob.glob(os.path.join(dataHome, "twitter","JSON","*.zip"))
+    for item in allZipFiles:
+        fileName = os.path.splitext(direct)[0]
+        zipRef = zipfile.ZipFile(item, "r")
+        zipRef.extractall(fileName)
+        zipRef.close()
+        os.remove(item)
+        
 # Reading in .txt files
 if fileType == ".txt":
     paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
@@ -141,11 +163,7 @@ def sentToWords(sentences):
 
 dataWords = list(sentToWords(data))
 
-if docLevel is True:
-    for i in dataWords:
-        print(i[:1])
-else:
-    print(len(dataWords))
+print(len(dataWords))
 
 # Find Bigrams and Trigrams
 # Variables
@@ -249,7 +267,7 @@ for i in hReadable:
 
 # USING MALLET
 # Variables
-nTopics = 10
+nTopics = 20
 workers = 1
 nIter = 1000
 seed = 42
