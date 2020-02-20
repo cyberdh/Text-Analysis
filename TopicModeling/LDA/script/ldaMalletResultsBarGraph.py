@@ -41,7 +41,7 @@ cleanModel = os.path.join(dataCleaned, "ldaModel")
 origData = os.path.join(dataCleaned, "ldaDataOrig")
 
 # Set Variables
-docLevel = False
+docLevel = True
 paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", "*.txt"))
 
 # Load cleaned data
