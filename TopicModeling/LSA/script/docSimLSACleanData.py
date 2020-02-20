@@ -20,8 +20,8 @@ import warnings
 import numpy as np
 import string
 import nltk
-from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
+import spacy
 
 # This will ignore deprecation and future warnings. 
 # Suppress warnings from pandas library
@@ -41,9 +41,10 @@ cleanedData = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "L
 # Set needed variables
 nltkStop = True
 customStop = True
-stem = True
+lem = True
 lowerCase = True
 language = 'english'
+lemLang = "en"
 encoding = 'utf-8'
 errors = 'ignore'
 stopWords = []
@@ -65,23 +66,18 @@ if customStop is True:
 
     stopWords.extend(stopWordsList)
 
-# Dictionary and stemmer
-if stem is True:
-    stemmer = SnowballStemmer(language)
 
 
 # Functions
-if stem is True:
-    def stemTokens(tokens, stemmer):
-        stemmed = []
-        for item in tokens:
-            stemmed.append(stemmer.stem(item))
-        return stemmed
-
+if lem is True:
+    nlp = spacy.load(lemLang, diasble=["parser","ner"])
+    def tokenFilter(token):
+        return not (token.is_space)
+    
     def tokenize(text):
-        tokens = nltk.word_tokenize(text)
-        stems = stemTokens(tokens, stemmer)
-        return stems
+        for doc in nlp.pipe([text]):
+            tokens = [token.lemma_ for token in doc if tokenFilter(token)]
+        return tokens
 
 else:
     def tokenize(text):
@@ -118,7 +114,7 @@ testDF = testDF.sort_index(axis = 0)
 
 
 # Now let's take a look at our data frame where the rows are the documents and the columns are the terms. 
-testDF.iloc[:10, 7640:7650]
+testDF.iloc[:10, 7440:7450]
 
 # Get words that correspond to each column
 vectGFN = vectorizer.get_feature_names()
