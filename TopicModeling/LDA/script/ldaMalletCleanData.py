@@ -19,6 +19,7 @@ import matplotlib.pyplot as plt
 import pickle
 import itertools as it
 import zipfile
+import tarfile
 
 # Gensim
 import gensim
@@ -106,6 +107,12 @@ if fileType == ".json":
         zipRef.extractall(fileName)
         zipRef.close()
         os.remove(item)
+
+fname = "mallet-2.0.8.tar.gz"
+if fname.endswith(".tar.gz"):
+    tar = tarfile.open(os.path.join(dataHome, fname), "r:gz")
+    tar.extractall(dataHome)
+    tar.close
         
 # Reading in .txt files
 if fileType == ".txt":
