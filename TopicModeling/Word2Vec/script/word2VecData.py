@@ -45,9 +45,9 @@ cleanModel = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "Wo
 
 
 # Set needed variables
-source = "Hamlet"
+source = "*"
 fileType = ".txt"
-docLevel = False
+docLevel = True
 n = 100
 nltkStop = True
 customStop = True
@@ -137,11 +137,7 @@ def sentToWords(sentences):
 
 dataWords = list(sentToWords(data))
 
-if docLevel is True:
-    for i in dataWords:
-        print(i[:1])
-else:
-    print(len(dataWords))
+print(len(dataWords))
 
 
 # Find Bigrams and Trigrams
@@ -233,7 +229,7 @@ count = Counter(tokens)
 sortList = sorted(count.items(), key=lambda x:x[1], reverse = True)
 print(sum(count.values()))
 print(len(count))
-print(sortList[150])
+print(sortList[1500])
 
 
 # Build vocabulary and train the model
@@ -246,7 +242,7 @@ model = gensim.models.Word2Vec(
     min_count=12,
     sg = 1,
     seed = 42,
-    iter=50)
+    iter=150)
 model.train(texts, total_examples=len(texts), epochs=model.iter)
 model.save(os.path.join(homePath, cleanModel))
 
