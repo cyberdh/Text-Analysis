@@ -107,12 +107,16 @@ if fileType == ".json":
         zipRef.extractall(fileName)
         zipRef.close()
         os.remove(item)
-
-fname = "mallet-2.0.8.tar.gz"
-if fname.endswith(".tar.gz"):
-    tar = tarfile.open(os.path.join(dataHome, fname), "r:gz")
-    tar.extractall(dataHome)
-    tar.close
+        
+if not glob.glob(os.path.join(dataHome, "*.tar.gz")):
+    None
+else:
+    fname = "mallet-2.0.8.tar.gz"
+    if fname.endswith(".tar.gz"):
+        tar = tarfile.open(os.path.join(dataHome, fname), "r:gz")
+        tar.extractall(dataHome)
+        tar.close()
+        os.remove(os.path.join(dataHome, fname))
         
 # Reading in .txt files
 if fileType == ".txt":
