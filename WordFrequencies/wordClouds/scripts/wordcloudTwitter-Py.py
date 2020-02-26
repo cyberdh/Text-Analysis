@@ -21,7 +21,7 @@ fileType = ".json"
 singleDoc = True
 nltkStop = True
 customStop = True
-stopLang = "english"
+stopLang = stopwords.fileids()
 encoding = "utf-8"
 errors = "ignore"
 stopWords = []
@@ -96,7 +96,7 @@ def plotWordCloud(tokens, wcImgFilepath, dpi,  maxWordCnt):
     for t in tokens:
         freq[t] += 1
 
-    wc = wordcloud.WordCloud(background_color = bgc, width = width, height = height, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
+    wc = wordcloud.WordCloud(font_path = "/usr/share/fonts/thai-scalable/Waree.ttf",background_color = bgc, width = width, height = height, max_words = maxWordCnt, colormap = cm, min_font_size=minFont)
     
 
     # generate word cloud
@@ -122,7 +122,7 @@ def readTweets(filepath, textColIndex, encoding = encoding, errors = errors):
     if fileType == ".csv":
         tweet = pd.read_csv(filepath, encoding = encoding)
     else:
-        tweet = pd.read_json(filepath, encoding = encoding)
+        tweet = pd.read_json(filepath, encoding = encoding, lines = True)
     
     content = tweet[textColIndex].tolist()
     
@@ -170,7 +170,7 @@ def drawWordCloudDirectory(dataRoot, textColIndex, encoding, errors,
 # Plot Wordcloud
 #Variables
 
-document = "coronaVirusFeb01-082020" + fileType
+document = "coronaVirus01-21Jan2020" + fileType
 wcOutputFile = "wordcloud.png"
 fmt = "png"
 width = 800

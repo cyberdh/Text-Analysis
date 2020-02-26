@@ -22,7 +22,7 @@ import zipfile
 
 
 # Variables
-source = "coronaVirusFeb01-082020"
+source = "coronaVirus01-21Jan2020"
 fileType = ".json"
 negColHead = 'Neg'
 posColHead = 'Pos'
@@ -106,7 +106,7 @@ if fileType == ".csv":
     tweetsTokens = cdf[tweetColHead].values.tolist()
 if fileType == ".json":
     allFiles = glob.glob(os.path.join(dataHome, "JSON", source + fileType))     
-    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    df = (pd.read_json(f, encoding = encoding, lines = True) for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
     tweetsTokens = cdf[tweetColHead].values.tolist()    
@@ -229,20 +229,6 @@ for idx, score in enumerate(scores):
 
 #print(negaTweetList)
 
-
-# Testing a tweet
-
-
-tweetToCalc = input("What is the tweet to calculate? ")
-res = calculator(tweetToCalc, posTokens, negTokens)
-print(res['score'])
-
-
-
-tweet2Process = input("What tweet do you want to process? ")
-res = calculator(tweet2Process, posTokens, negTokens)
-print("Positive words: " + str(res['posWordsList'][:10]))
-print("Negative words: " + str(res['negWordsList'][:10]))
 
 
 # Gathering all positive and negative words

@@ -17,14 +17,14 @@ import zipfile
 import matplotlib.pyplot as plt
 
 # Set needed variables
-source = "coronaVirusFeb01-082020"
+source = "coronaVirus01-21Jan2020"
 fileType = ".json"
 singleDoc = True
 nltkStop = True
 customStop = True
 ng = 2
 textColIndex = "text"
-stopLang = "english"
+stopLang = stopwords.fileids()
 encoding = "utf-8"
 errors = "ignore"
 stopWords = []
@@ -102,7 +102,7 @@ if fileType == ".csv":
     tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
     filenames = glob.glob(os.path.join(dataRoot, source+fileType))
-    dfAll = (pd.read_json(file, encoding = "utf-8") for file in filenames)
+    dfAll = (pd.read_json(file, encoding = encoding, lines = True) for file in filenames)
     cdf = pd.concat(dfAll, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
     tweets = cdf[textColIndex].values.tolist()
@@ -161,7 +161,7 @@ stopwords = ["via_youtube"]
 text = dfNG[~dfNG['ngrams'].isin(stopwords)]
 
 # Wordcloud aesthetics
-wc = wordcloud.WordCloud(background_color = bgColor, width = width, height = height, max_words = maxWrdCnt, colormap = color, min_font_size = minFont).generate_from_frequencies(text['freq'])
+wc = wordcloud.WordCloud(font_path = "/usr/share/fonts/thai-scalable/Waree.ttf",background_color = bgColor, width = width, height = height, max_words = maxWrdCnt, colormap = color, min_font_size = minFont).generate_from_frequencies(text['freq'])
 
 # show
 plt.figure(dpi = dpi, figsize = figureSz)
