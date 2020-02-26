@@ -19,13 +19,13 @@ import math
 import matplotlib.pyplot as plt
 
 # Set needed variables
-source = "coronaVirusFeb01-082020"
+source = "coronaVirus01-21Jan2020"
 fileType = ".json"
 nltkStop = True
 customStop = True
 ng = 2
 textColIndex = "text"
-stopLang = "english"
+stopLang = stopwords.fileids()
 encoding = "UTF-8"
 errors = "ignore"
 stopWords = []
@@ -115,7 +115,7 @@ if fileType == ".csv":
     tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
     filenames = glob.glob(os.path.join(dataRoot, source+fileType))
-    df = (pd.read_json(file, encoding = encoding) for file in filenames)
+    df = (pd.read_json(file, encoding = encoding, lines = True) for file in filenames)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
     tweets = cdf[textColIndex].values.tolist()
