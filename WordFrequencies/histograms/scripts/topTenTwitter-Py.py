@@ -16,8 +16,6 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 import re
-#import csv
-#import json
 import pandas as pd
 import glob
 import zipfile
@@ -29,7 +27,7 @@ fileType = ".json"
 singleDoc = True
 nltkStop = True
 customStop = True
-stopLang = "english"
+stopLang = stopwords.fileids()
 encoding = "utf-8"
 stopWords = []
 
@@ -111,7 +109,7 @@ def readTweets(filepath, textColIndex, encoding = encoding):
     if fileType == ".csv":
         tweet = pd.read_csv(filepath, index_col=None, header =0, encoding = encoding, lineterminator='\n')
     else:
-        tweet = pd.read_json(filepath, encoding = encoding)
+        tweet = pd.read_json(filepath, encoding = encoding, lines = True)
     
     content = tweet[textColIndex].tolist()
     
@@ -218,7 +216,7 @@ def getTokensFromScan(dataRoot, textColIndex, encoding):
 # Variables
 n = 10
 textColIndex = "text"
-singleDocName = 'coronaVirusFeb01-082020' + fileType
+singleDocName = 'coronaVirus01-21Jan2020' + fileType
 outputFile = "topTenTwitter.svg"
 fmt = 'svg'
 dpi = 300
