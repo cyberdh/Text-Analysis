@@ -29,9 +29,9 @@ fileType = ".json"
 singleDoc = True
 textColIndex = "text"
 encoding = "utf-8"
-tweetFile = "coronaVirusFeb01-082020" + fileType
+tweetFile = "coronaVirus01-21Jan2020" + fileType
 numTweetsPerChunk = 1000
-interestedWords = ["infected", "people", "quarantine", "wuhan"]
+interestedWords = ["movie", "outbreak", "wuhan"]
 freqDict = {}
 
 
@@ -63,7 +63,7 @@ def readTweets(filepath, textColIndex, encoding = encoding):
     if fileType == ".csv":
         tweet = pd.read_csv(filepath, index_col=None, header =0, encoding = encoding, lineterminator='\n')
     else:
-        tweet = pd.read_json(filepath, encoding = encoding)
+        tweet = pd.read_json(filepath, encoding = encoding, lines = True)
     
     content = tweet[textColIndex].tolist()
     
@@ -261,7 +261,7 @@ outputFile = "areaStackTwitter.html"
 colorScheme = px.colors.qualitative.Set1
 xlabel = "Chunk"
 ylabel = "Frequency"
-mainTitle = "Comparison of selected words in Tweets containing #Coronavirus from 02/01/2020-02/07/2020"
+mainTitle = "Comparison of selected words in Tweets containing #Coronavirus from 01/01/2020 - 01/21/2020"
 yRange = [0, max(df["Freq"]*len(interestedWords))]
 angle = 45
 
