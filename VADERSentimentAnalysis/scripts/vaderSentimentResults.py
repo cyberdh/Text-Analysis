@@ -91,7 +91,7 @@ rects = fig.patches
 zeroLine = plt.axvline(x = 10, color = 'black', linewidth = 2)
 
 # vertical line for mean
-meanLine = plt.axvline(x = mean+10, color = 'purple', linestyle = 'dashed', linewidth = 2)
+meanLine = plt.axvline(x = mean*10+10, color = 'purple', linestyle = 'dashed', linewidth = 2)
 
 plt.legend((zeroLine, meanLine), ['zero line', 'mean line'], prop={'size' : fontLabel}, loc = 'upper right')
 

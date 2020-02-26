@@ -19,7 +19,7 @@ import glob
 import zipfile
 
 # Variables
-source = "coronaVirusFeb01-082020"
+source = "coronaVirus01-21Jan2020"
 fileType = ".json"
 textColIndex = "text"
 encoding = "utf-8"
@@ -66,7 +66,7 @@ if fileType == ".csv":
     tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
     allFiles = glob.glob(os.path.join(dataHome, "JSON", source + fileType))     
-    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    df = (pd.read_json(f, encoding = encoding, lines = True) for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf)
     tweets = cdf[textColIndex].values.tolist()
