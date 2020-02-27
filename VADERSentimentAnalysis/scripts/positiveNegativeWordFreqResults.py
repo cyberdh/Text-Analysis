@@ -27,7 +27,9 @@ dataResults = os.path.join(homePath, 'Text-Analysis-master', 'Output')
 pdf = pd.read_csv(os.path.join(dataClean, "posWords.csv"))
 positdf = pd.DataFrame(pdf)
 del positdf["Unnamed: 0"]
-posdf = positdf[:25]
+stopwords = []
+poWordDF = positdf[~positdf["word"].isin(stopwords)]
+posdf = poWordDF[:25]
 posdf.head(10)
 
 
@@ -35,8 +37,9 @@ posdf.head(10)
 ndf = pd.read_csv(os.path.join(dataClean, "negWords.csv"))
 negadf = pd.DataFrame(ndf)
 del negadf["Unnamed: 0"]
-negadf = negadf.sort_values('freq', ascending = False)
-negdf = negadf[:25]
+stopwords = []
+neWordDF = negadf[~negadf["word"].isin(stopwords)]
+negdf = neWordDF[:25]
 negdf.head(10)
 
 

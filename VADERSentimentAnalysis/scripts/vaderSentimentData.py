@@ -22,6 +22,10 @@ import zipfile
 source = "coronaVirus01-21Jan2020"
 fileType = ".json"
 textColIndex = "text"
+remove = True
+remWords = ["novel", "ha", "l", "gt"]
+add = True
+newWords = {"virus": -1.7, "outbreak": -0.6, "epidemic": -2.3, "pandemic": -3.1, "quarantine": -2.6}
 encoding = "utf-8"
 errors = "ignore"
 scores = []
@@ -33,9 +37,6 @@ totalSquared = 0
 homePath = os.environ['HOME']
 dataHome = os.path.join(homePath, "Text-Analysis-master","data","twitter")
 dataClean = os.path.join(homePath,"Text-Analysis-master","VADERSentimentAnalysis", "cleanedData")
-
-# Shorten SentimentIntensityAnalyzer Function
-vader = SentimentIntensityAnalyzer()
 
 # Unzip files
 if fileType == ".csv":
@@ -77,6 +78,19 @@ print(rtDF.head(10))
 
 # Create labels
 res = {"-1":0, "-.9":0, "-.8":0, "-.7":0, "-.6":0, "-.5":0, "-.4":0, "-.3":0, "-.2":0, "-.1":0, "0":0, ".1":0, ".2":0,".3":0, ".4":0, ".5":0, ".6":0, ".7":0, ".8":0, ".9":0, "1":0}
+
+# Shorten SentimentIntensityAnalyzer Function
+vader = SentimentIntensityAnalyzer()
+
+if remove == True:
+    map(vader.lexicon.pop, remWords)
+else:
+    None
+    
+if add == True:
+    vader.lexicon.update(newWords)
+else:
+    None
 
 # Apply the Vader sentiment analyzer
 for index, row in rtDF.iterrows():
