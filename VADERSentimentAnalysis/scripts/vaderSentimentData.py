@@ -39,16 +39,7 @@ dataHome = os.path.join(homePath, "Text-Analysis-master","data","twitter")
 dataClean = os.path.join(homePath,"Text-Analysis-master","VADERSentimentAnalysis", "cleanedData")
 
 # Unzip files
-if fileType == ".csv":
-    direct = os.path.join(dataHome, "CSV")
-    allZipFiles = glob.glob(os.path.join(dataHome, "CSV","*.zip"))
-    for item in allZipFiles:
-            fileName = os.path.splitext(direct)[0]
-            zipRef = zipfile.ZipFile(item, "r")
-            zipRef.extractall(fileName)
-            zipRef.close()
-            os.remove(item)
-else:
+if fileType == ".json":
     direct = os.path.join(dataHome, "JSON")
     allZipFiles = glob.glob(os.path.join(dataHome, "JSON","*.zip"))
     for item in allZipFiles:
@@ -57,17 +48,27 @@ else:
             zipRef.extractall(fileName)
             zipRef.close()
             os.remove(item)
+else:
+    direct = os.path.join(dataHome, "CSV")
+    allZipFiles = glob.glob(os.path.join(dataHome, "CSV","*.zip"))
+    for item in allZipFiles:
+            fileName = os.path.splitext(direct)[0]
+            zipRef = zipfile.ZipFile(item, "r")
+            zipRef.extractall(fileName)
+            zipRef.close()
+            os.remove(item)
+    
 
 # Reading in .csv and .json files
-if fileType == ".csv":
-    allFiles = glob.glob(os.path.join(dataHome, "CSV", source + fileType))     
-    df = (pd.read_csv(f, engine = "python") for f in allFiles)
-    cdf = pd.concat(df, ignore_index=True)
-    cdf = pd.DataFrame(cdf)
-    tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
     allFiles = glob.glob(os.path.join(dataHome, "JSON", source + fileType))     
     df = (pd.read_json(f, encoding = encoding, lines = True) for f in allFiles)
+    cdf = pd.concat(df, ignore_index=True)
+    cdf = pd.DataFrame(cdf)
+    tweets = cdf[textColIndex].values.tolist()
+if fileType == ".csv":
+    allFiles = glob.glob(os.path.join(dataHome, "CSV", source + fileType))     
+    df = (pd.read_csv(f, engine = "python") for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf)
     tweets = cdf[textColIndex].values.tolist()
@@ -83,7 +84,7 @@ res = {"-1":0, "-.9":0, "-.8":0, "-.7":0, "-.6":0, "-.5":0, "-.4":0, "-.3":0, "-
 vader = SentimentIntensityAnalyzer()
 
 if remove == True:
-    map(vader.lexicon.pop, remWords)
+    [vader.lexicon.pop(x) for x in remWords]
 else:
     None
     
