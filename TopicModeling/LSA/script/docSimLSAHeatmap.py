@@ -14,8 +14,8 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 # Include necessary packages for notebook 
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+import plotly.graph_objs as go
+import plotly as py
 
 
 # Getting your data
@@ -37,16 +37,18 @@ sdf
 
 # Plot Heatmap
 #Variables
-heatmapFileName = 'DocSimHeatmap.svg'
-dpi = 300
+heatmapFileName = 'DocSimHeatmap.html'
 colorScheme = 'RdYlGn'
-fontScale = 1
+wide = 1000
+tall = 1000
+mainTitle = "Document Similarity of Shakespeare's Plays"
 
 # Plot
-figureSize = len(sdf)
-sns.set(rc={'figure.figsize':(figureSize + 10, figureSize)}, font_scale = fontScale)
-ax = sns.heatmap(sdf, cmap = colorScheme)
-ax.figure.savefig(os.path.join(dataResults, heatmapFileName), dpi = dpi, bbox_inches='tight')
-plt.yticks(rotation=0)
-plt.xticks(rotation=90)
-plt.show()
+fig = go.Figure(data = go.Heatmap(z=sdf, x = sdf.index, y = sdf.columns, type = 'heatmap', colorscale = colorScheme,
+                                  hovertemplate = "<b>Document Left</b>: %{y}<br>" + "<b>Document Bottom</b>: %{x}<br>" + "<b>Similarity Score</b>: %{z}",
+                                  name = "Document Similarity"))
+
+fig.update_layout(title={"text": mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},
+                  autosize = False, width = wide, height = tall)
+py.offline.plot(fig, filename=os.path.join(dataResults, heatmapFileName))
+fig.show()
