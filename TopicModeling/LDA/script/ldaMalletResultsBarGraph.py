@@ -13,10 +13,11 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 #Import packages
 import pandas as pd
 import glob
-import seaborn as sns
-import matplotlib.pyplot as plt
 from gensim import corpora, models
 import pickle
+import plotly as py
+import plotly.graph_objs as go
+from plotly.subplots import make_subplots
 
 # Import warning
 import logging
@@ -69,7 +70,7 @@ def formatTopicsSentences(ldamodel=optimalModel, corpus=corpus, texts=data):
             if j == 0:  # => dominant topic
                 wp = ldamodel.show_topic(topicNum)
                 topicKeywords = ", ".join([word for word, prop in wp])
-                sentTopicsDf = sentTopicsDf.append(pd.Series([int(topicNum), round(propTopic,4), topicKeywords]), ignore_index=True)
+                sentTopicsDf = sentTopicsDf.append(pd.Series([int(topicNum+1), round(propTopic,4), topicKeywords]), ignore_index=True)
             else:
                 break
     sentTopicsDf.columns = ['Dominant_Topic', 'Perc_Contribution', 'Topic_Keywords']
@@ -155,7 +156,7 @@ dfDominantTopics
 if docLevel is True:
     #Variables
     docTopicsCSV = 'docTopics.csv'
-    sortOrder = ['topic_0','Filenames']
+    sortOrder = ['Topic 1','Filenames']
     
     docTopics = []
     for i in range(len(texts)):
@@ -177,65 +178,81 @@ if docLevel is True:
 
     rng = range(0, (numCols) + 1)
 
-    newCols = ['Filenames'] + ['topic_' + str(i) for i in rng]
+    newCols = ['Filenames'] + ['Topic ' + str(i+1) for i in rng]
 
     # ensure the length of the new columns list is equal to the length of df's columns
     docTopicsDf.columns = newCols[:numCols]
 
     sortedDf = docTopicsDf.sort_values(sortOrder, ascending = False)
-    sortedDf.to_csv(os.path.join(dataResults, docTopicsCSV))
-
-    sortedDf
+    sortedDF = sortedDf.set_index("Filenames")
+    sortedDF = sortedDF.mul(100)
+    sortedDF.to_csv(os.path.join(dataResults, docTopicsCSV))
+    sortedDf.head(len(sortedDf))
 else:
     None
 
 # Plot a stacked bar graph
 if docLevel is True:
-    
     #Variables
-    graphName = 'stackedBarGraphLDA.png'
-    boxSize = (1.01,.5,.35,.5)
-    colorScheme = "tab20"
-    topN = min(10, len(sortedDf))
-    colors = plt.cm.get_cmap(colorScheme)
-    sortedDfSh = sortedDf[:topN]
+    graphName = 'stackedBarGraphLDA.html'
+    wide = 900
+    tall = 700
+    mainTitle = "Weight of Each Topic in Each Document"
+    
+    #Add row to dataframe
+    pd.options.mode.chained_assignment = None
+    topicKWlist = []
+    for k in dfDominantTopics["Topic_Keywords"]:
+        topicKWlist.append(k)
+    sortedDfSh = sortedDF
     sortedDfSh = sortedDfSh.iloc[::-1]
-    ax = sortedDfSh.plot(kind='barh', figsize = (10,2*topN), stacked = True, colormap = colors)
-    ax.set_yticklabels(sortedDfSh['Filenames'], rotation=0)
-    ax.tick_params(axis = 'y', which = 'major',labelsize = 24)
-    lgd = ax.legend(bbox_to_anchor = boxSize, fontsize = 24)
-    ax.figure.savefig(os.path.join(dataResults, graphName), dpi = 300, bbox_inches='tight')
-    plt.show()
+    dfLength = len(sortedDfSh)
+    sortedDfSh.loc["Keywords", :] = topicKWlist
+    
+    # Plot
+    fig = go.Figure(go.Bar(name = "Topic 1", x = sortedDfSh["Topic 1"], y = sortedDfSh.index[:dfLength], orientation = "h",
+                           hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords","Topic 1"], 
+                           hoverlabel={"namelength":-1}))
+    for i in sortedDfSh.iloc[:, 1:]:
+        fig.add_trace(go.Bar(name = str(i), x = sortedDfSh[i], y = sortedDfSh.index[:dfLength], orientation = "h", hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords",i], hoverlabel={"namelength":-1}))
+        fig.update_layout(title = {"text":mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},barmode = "stack", width = wide, height = tall, hoverlabel_font_color = "black", coloraxis={"colorscale":"spectral"})
+    py.offline.iplot(fig, filename=os.path.join(dataResults, graphName))
+    fig.show()
 else:
     None
 
 # Plot horizontal bargraph
 k = len(sentTopicsSorteddfMallet['Topic_Num'])
-if k % 2 == 0:
-    num = 2
-else:
-    num = 5
-# Variables
-outputFile = "topicsBarGraphHamlet.png"
-dpi=300
-imgFmt="png"
-labSz=.5
-figSz=(100,70)
-nrows = k/num
-ncols = num
-colPal = "colorblind"
-xlimit = 0,0.4
 
-fiz = plt.figure(dpi = dpi, figsize=figSz)
-for i in range(k):
-    sns.set(font_scale=labSz)
+# Variables
+outputFile = "topicsBarGraph"
+imgFmt=".html"
+wide = 500
+tall = 300
+fontSz = 10
+colPal = "spectral"
+titleGraph = "Top 10 Words by Weight for Topic "
+titleMain = "Top 10 Words by Weight per Topic"
+
+# get xaxis range limit
+xmax = []
+for n in range(k):
+    dfX=pd.DataFrame(optimalModel.show_topic(n), columns=['term','prob']).set_index('term')
+    xmax.append(max(dfX["prob"]))
+xlimit = [0, max(xmax)+.01]
+
+#Plot graphs
+for i in range(k): 
     df=pd.DataFrame(optimalModel.show_topic(i), columns=['term','prob']).set_index('term')
-    plt.subplot(nrows,ncols,i+1)
-    plt.title('topic '+str(i+1))
-    sns.barplot(x='prob', y=df.index, data=df, label='Hamlet', palette=colPal)
-    plt.xlabel('weight')
-    sns.plt.xlim(xlimit) 
-plt.savefig(os.path.join(dataResults, outputFile), format = imgFmt, dpi = dpi, bbox_inches = 'tight')
-plt.show()
+    figure = make_subplots(subplot_titles = ["Top 10 Words: Topic "+str(i + 1)])
+    figure.add_trace(go.Bar(name = "Topic "+str(i+1),x=df["prob"], y=df.index, orientation = "h", 
+                            marker=dict(color=list(range(1,len(df.index))), coloraxis = "coloraxis"), 
+                            hovertemplate = "<b>Word</b>: %{y}<br>"+"<b>Weight</b>: %{x}"))
+    figure.update_layout(width = wide, height = tall, coloraxis={"colorscale":colPal,"showscale":False}, 
+                         showlegend=False, font={"size":fontSz})
+    figure.update_yaxes(autorange="reversed")
+    figure.update_xaxes(range=xlimit)
+    py.offline.iplot(figure, filename=os.path.join(dataResults, outputFile+"Topic"+str(i)+imgFmt))
+    fig.show()
 
 # Ackowledgements: This algorithm was adapted from the blog "Machine Learning Plus". Reference: Machine Learning Plus. Topic Modeling with Gensim (Python). Retrieved from https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/ on November 5, 2018.
