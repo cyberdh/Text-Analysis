@@ -13,10 +13,12 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 #Import packages
 import pandas as pd
 import glob
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import plotly as py
+import plotly.graph_objs as go
 from gensim import corpora, models
 import pickle
+from wordcloud import WordCloud
 
 # Import warning
 import logging
@@ -69,7 +71,7 @@ def formatTopicsSentences(ldamodel=optimalModel, corpus=corpus, texts=data):
             if j == 0:  # => dominant topic
                 wp = ldamodel.show_topic(topicNum)
                 topicKeywords = ", ".join([word for word, prop in wp])
-                sentTopicsDf = sentTopicsDf.append(pd.Series([int(topicNum), round(propTopic,4), topicKeywords]), ignore_index=True)
+                sentTopicsDf = sentTopicsDf.append(pd.Series([int(topicNum+1), round(propTopic,4), topicKeywords]), ignore_index=True)
             else:
                 break
     sentTopicsDf.columns = ['Dominant_Topic', 'Perc_Contribution', 'Topic_Keywords']
@@ -153,17 +155,16 @@ dfDominantTopics
 
 # Distribution of each topic across each chunk
 if docLevel is True:
+    from IPython.display import display, HTML
     #Variables
     docTopicsCSV = 'docTopics.csv'
-    sortOrder = ['topic_0','Filenames']
+    sortOrder = ['Topic 1','Filenames']
     
     docTopics = []
     for i in range(len(texts)):
         docTopics.append(optimalModel[corpus[i]])
 
-
     topicSeriesDf = pd.DataFrame([[y[1] for y in  x] for x in docTopics])
-
 
     txtPaths = pd.Series(os.path.basename(pathName) for pathName in paths)
 
@@ -177,35 +178,45 @@ if docLevel is True:
 
     rng = range(0, (numCols) + 1)
 
-    newCols = ['Filenames'] + ['topic_' + str(i) for i in rng]
+    newCols = ['Filenames'] + ['Topic ' + str(i+1) for i in rng]
 
     # ensure the length of the new columns list is equal to the length of df's columns
     docTopicsDf.columns = newCols[:numCols]
 
     sortedDf = docTopicsDf.sort_values(sortOrder, ascending = False)
-    sortedDf.to_csv(os.path.join(dataResults, docTopicsCSV))
-
-    sortedDf
+    sortedDF = sortedDf.set_index("Filenames")
+    sortedDF = sortedDF.mul(100)
+    sortedDF.to_csv(os.path.join(dataResults, docTopicsCSV))
+    sortedDF.head(len(sortedDF))
 else:
     None
 
 # Plot a stacked bar graph
 if docLevel is True:
-    
     #Variables
-    graphName = 'stackedBarGraphLDA.png'
-    boxSize = (1.01,.5,.35,.5)
-    colorScheme = "tab20"
-    topN = min(10, len(sortedDf))
-    colors = plt.cm.get_cmap(colorScheme)
-    sortedDfSh = sortedDf[:topN]
+    graphName = 'stackedBarGraphLDA.html'
+    wide = 800
+    tall = 700
+    mainTitle = "Weight of Each Topic in Each Document"
+    
+    #Add row to dataframe
+    pd.options.mode.chained_assignment = None
+    topicKWlist = []
+    for k in dfDominantTopics["Topic_Keywords"]:
+        topicKWlist.append(k)
+    sortedDfSh = sortedDF
     sortedDfSh = sortedDfSh.iloc[::-1]
-    ax = sortedDfSh.plot(kind='barh', figsize = (10,2*topN), stacked = True, colormap = colors)
-    ax.set_yticklabels(sortedDfSh['Filenames'], rotation=0)
-    ax.tick_params(axis = 'y', which = 'major',labelsize = 24)
-    lgd = ax.legend(bbox_to_anchor = boxSize, fontsize = 24)
-    ax.figure.savefig(os.path.join(dataResults, graphName), dpi = 300, bbox_inches='tight')
-    plt.show()
+    dfLength = len(sortedDfSh)
+    sortedDfSh.loc["Keywords", :] = topicKWlist
+    
+    # Plot
+    fig = go.Figure(go.Bar(name = "Topic 1", x = sortedDfSh["Topic 1"], y = sortedDfSh.index[:dfLength], orientation = "h",
+                           hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords","Topic 1"], 
+                           hoverlabel={"namelength":-1}))
+    for i in sortedDfSh.iloc[:, 1:]:
+        fig.add_trace(go.Bar(name = str(i), x = sortedDfSh[i], y = sortedDfSh.index[:dfLength], orientation = "h", hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords",i], hoverlabel={"namelength":-1}))
+        fig.update_layout(title = {"text":mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},barmode = "stack", width = wide, height = tall, hoverlabel_font_color = "black", coloraxis={"colorscale":"spectral"})
+    py.offline.iplot(fig, filename=os.path.join(dataResults, graphName)) 
 else:
     None
 
