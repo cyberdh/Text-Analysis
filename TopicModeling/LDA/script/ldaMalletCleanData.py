@@ -48,7 +48,7 @@ homePath = os.environ["HOME"]
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 malletPath = os.path.join(dataHome,"mallet-2.0.8", "bin", "mallet") # update this path
-cleanDataPath = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData")
+cleanDataPath = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData", "malletModel")
 cleanData = os.path.join(cleanDataPath, "ldaDataClean")
 cleanDict = os.path.join(cleanDataPath, "ldaDict")
 cleanModel = os.path.join(cleanDataPath, "ldaModel")
@@ -283,7 +283,7 @@ workers = 1
 nIter = 1000
 seed = 42
 
-ldamallet = LdaMallet(malletPath, corpus=corpus, num_topics=nTopics, id2word=id2word, workers = workers, iterations = nIter, random_seed = seed)
+ldamallet = LdaMallet(malletPath, corpus=corpus, num_topics=nTopics, id2word=id2word, workers = workers, prefix = cleanDataPath,iterations = nIter, random_seed = seed)
 
 # Show Topics
 pprint(ldamallet.show_topics(formatted=False)[:3])
