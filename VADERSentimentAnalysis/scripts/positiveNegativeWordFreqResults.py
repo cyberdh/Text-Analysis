@@ -14,7 +14,8 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 # Include necessary packages 
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly as py
+import plotly.express as px
 
 
 # File paths
@@ -49,55 +50,56 @@ freqDF = pd.concat([posdf, negdf], ignore_index=True)
 
 # Plot positive words 
 # Variables
-posWordFile = "posWordsVader.svg"
-posFmt = "svg"
-posdpi = 600
-posclr = ['darkgreen']
-postitle = 'Top 25 Positive Words, #Coronavirus: VADER'
-pFigSz = (8,4)
-pFntSz = 8
+posWordFile = "posWordsVader"
+posFmt = ".html"
+pFntClr = "black"
+pFntSz = 10
+posclr = ["darkgreen"]
+pXlabel = "Frequency"
+pYlabel = "Word"
+postitle = 'Top 25 Positive Words, #Coronavirus: January 01-21, 2020; VADER'
+pWide = 800
+pTall = 500
+pXlimit = [0, 1000+max(freqDF['freq'])]
 
-fig = posdf.plot(x= 'word',kind='barh', align='center', color = posclr, figsize = pFigSz, fontsize = pFntSz)
-fig.set_ylabel('Words', fontsize = pFntSz)
-fig.set_xlabel('Frequency', fontsize = pFntSz)
-fig.set_title(postitle, fontweight='bold',fontsize = pFntSz)
-fig.set_ylim(fig.get_ylim()[::-1])
-fig.set_xlim(0,1500 + max(freqDF['freq']))
+# Plot
+figP = px.bar(posdf, x="freq", y="word", orientation="h", 
+              title=postitle, color_discrete_sequence = posclr, 
+              labels = {"freq":pXlabel,"word":pYlabel})
+figP.update_layout(width = pWide, height = pTall, title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'}, 
+                  font={"color": pFntClr, "size":pFntSz})
+figP.update_yaxes(autorange = "reversed")
+figP.update_xaxes(range = pXlimit)
 
-for i, v in enumerate(posdf['freq']):
-    fig.text(v + 3, i + .25, str(v), color='black', fontweight='bold', fontsize = pFntSz )
-    
-plt.savefig(os.path.join(dataResults, posWordFile), format= posFmt, dpi=posdpi, bbox_inches='tight',)
-plt.show()
+py.offline.plot(figP, filename = os.path.join(dataResults, posWordFile + posFmt), auto_open=False)
+figP.show()
 
 
 # Plot negative words
 # Variables
-negWordFile = "negWordsVader.svg"
-negFmt = "svg"
-negdpi = 600
-negclr = ['darkred']
-negtitle = 'Top 25 Negative Words, #Coronavirus: VADER'
-nFigSz = (8,4)
-nFntSz = 8
+negWordFile = "negWordsVader"
+negFmt = ".html"
+nFntClr = "black"
+nFntSz = 10
+negclr = ["crimson"]
+nXlabel = "Frequency"
+nYlabel = "Word"
+negtitle = 'Top 25 Negative Words, #Coronavirus: January 01-21, 2020; VADER'
+nWide = 800
+nTall = 500
+nXlimit = [0, 1000+max(freqDF['freq'])]
 
-# plot
+# Plot
+figN = px.bar(negdf, x="freq", y="word", orientation="h", 
+              title=negtitle, color_discrete_sequence = negclr, 
+              labels = {"freq":nXlabel,"word":nYlabel})
+figN.update_layout(width = nWide, height = nTall, title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'}, 
+                  font={"color": nFntClr, "size":nFntSz})
+figN.update_yaxes(autorange = "reversed")
+figN.update_xaxes(range = nXlimit)
 
-fig = negdf.plot(x= 'word',kind='barh', align='center', color = negclr, figsize = nFigSz, fontsize = nFntSz)
-fig.set_ylabel('Words', fontsize = nFntSz)
-fig.set_xlabel('Frequency', fontsize = nFntSz)
-fig.set_title(negtitle, fontweight = 'bold', fontsize = nFntSz)
-fig.set_ylim(fig.get_ylim()[::-1])
-fig.set_xlim(0,1500 + max(freqDF['freq']))
-
-for i, v in enumerate(negdf['freq']):
-    fig.text(v + 3, i + .25, str(v), color='black', fontweight='bold', fontsize = nFntSz)
-
-    
-
-plt.savefig(os.path.join(dataResults, negWordFile), format=negFmt, dpi=negdpi, bbox_inches='tight',)
-
-plt.show()
+py.offline.plot(figN, filename = os.path.join(dataResults, negWordFile + negFmt), auto_open=False)
+figN.show()
 
 
 # ## VOILA!!

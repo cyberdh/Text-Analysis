@@ -35,7 +35,7 @@ warnings.filterwarnings("ignore",category=RuntimeWarning)
 # File paths
 homePath = os.environ["HOME"]
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
-dataCleaned = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData")
+dataCleaned = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData", "malletModel")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 cleanDict = os.path.join(dataCleaned, "ldaDict")
 cleanData = os.path.join(dataCleaned, "ldaDataClean")
@@ -155,14 +155,13 @@ dfDominantTopics
 
 # Distribution of each topic across each chunk
 if docLevel is True:
-    from IPython.display import display, HTML
     #Variables
     docTopicsCSV = 'docTopics.csv'
     sortOrder = ['Topic 1','Filenames']
     
     docTopics = []
-    for i in range(len(texts)):
-        docTopics.append(optimalModel[corpus[i]])
+    for m in optimalModel[corpus]:
+        docTopics.append(m)
 
     topicSeriesDf = pd.DataFrame([[y[1] for y in  x] for x in docTopics])
 
@@ -216,7 +215,8 @@ if docLevel is True:
     for i in sortedDfSh.iloc[:, 1:]:
         fig.add_trace(go.Bar(name = str(i), x = sortedDfSh[i], y = sortedDfSh.index[:dfLength], orientation = "h", hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords",i], hoverlabel={"namelength":-1}))
         fig.update_layout(title = {"text":mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},barmode = "stack", width = wide, height = tall, hoverlabel_font_color = "black", coloraxis={"colorscale":"spectral"})
-    py.offline.iplot(fig, filename=os.path.join(dataResults, graphName)) 
+    py.offline.plot(fig, filename=os.path.join(dataResults, graphName), auto_open = False)
+    fig.show()
 else:
     None
 
@@ -227,7 +227,7 @@ width = 800
 height = 400
 bgc = "black"
 cm = "Dark2"
-dpi = 1200
+dpi = 600
 maxWordCnt = 500
 minFont = 10
 figSz = (10, 5)

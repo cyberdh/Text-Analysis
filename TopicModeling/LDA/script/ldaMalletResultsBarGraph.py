@@ -34,7 +34,7 @@ warnings.filterwarnings("ignore",category=RuntimeWarning)
 # File paths
 homePath = os.environ["HOME"]
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
-dataCleaned = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData")
+dataCleaned = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData", "malletModel")
 dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
 cleanDict = os.path.join(dataCleaned, "ldaDict")
 cleanData = os.path.join(dataCleaned, "ldaDataClean")
@@ -159,8 +159,8 @@ if docLevel is True:
     sortOrder = ['Topic 1','Filenames']
     
     docTopics = []
-    for i in range(len(texts)):
-        docTopics.append(optimalModel[corpus[i]])
+    for m in optimalModel[corpus]:
+        docTopics.append(m)
 
 
     topicSeriesDf = pd.DataFrame([[y[1] for y in  x] for x in docTopics])
@@ -169,7 +169,6 @@ if docLevel is True:
     txtPaths = pd.Series(os.path.basename(pathName) for pathName in paths)
 
     textPath = pd.Series(txtPaths)
-    contents = pd.Series(texts)
     docTopicDis = pd.concat([textPath, topicSeriesDf], axis=1)
 
     docTopicsDf = docTopicDis.reset_index(drop = True)
@@ -216,7 +215,7 @@ if docLevel is True:
     for i in sortedDfSh.iloc[:, 1:]:
         fig.add_trace(go.Bar(name = str(i), x = sortedDfSh[i], y = sortedDfSh.index[:dfLength], orientation = "h", hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords",i], hoverlabel={"namelength":-1}))
         fig.update_layout(title = {"text":mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},barmode = "stack", width = wide, height = tall, hoverlabel_font_color = "black", coloraxis={"colorscale":"spectral"})
-    py.offline.iplot(fig, filename=os.path.join(dataResults, graphName))
+    py.offline.plot(fig, filename=os.path.join(dataResults, graphName), auto_open=False)
     fig.show()
 else:
     None
@@ -231,8 +230,7 @@ wide = 500
 tall = 300
 fontSz = 10
 colPal = "spectral"
-titleGraph = "Top 10 Words by Weight for Topic "
-titleMain = "Top 10 Words by Weight per Topic"
+titleGraph = "Top 10 Words: Topic "
 
 # get xaxis range limit
 xmax = []
@@ -244,7 +242,7 @@ xlimit = [0, max(xmax)+.01]
 #Plot graphs
 for i in range(k): 
     df=pd.DataFrame(optimalModel.show_topic(i), columns=['term','prob']).set_index('term')
-    figure = make_subplots(subplot_titles = ["Top 10 Words: Topic "+str(i + 1)])
+    figure = make_subplots(subplot_titles = [titleGraph + str(i + 1)])
     figure.add_trace(go.Bar(name = "Topic "+str(i+1),x=df["prob"], y=df.index, orientation = "h", 
                             marker=dict(color=list(range(1,len(df.index))), coloraxis = "coloraxis"), 
                             hovertemplate = "<b>Word</b>: %{y}<br>"+"<b>Weight</b>: %{x}"))
@@ -252,7 +250,7 @@ for i in range(k):
                          showlegend=False, font={"size":fontSz})
     figure.update_yaxes(autorange="reversed")
     figure.update_xaxes(range=xlimit)
-    py.offline.iplot(figure, filename=os.path.join(dataResults, outputFile+"Topic"+str(i)+imgFmt))
+    py.offline.plot(figure, filename=os.path.join(dataResults, outputFile+"Topic"+str(i)+imgFmt), auto_open = False)
     fig.show()
 
 # Ackowledgements: This algorithm was adapted from the blog "Machine Learning Plus". Reference: Machine Learning Plus. Topic Modeling with Gensim (Python). Retrieved from https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/ on November 5, 2018.
