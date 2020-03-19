@@ -15,8 +15,9 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 # Include necessary packages 
 import pickle
 import pandas as pd
-import os
-import matplotlib.pyplot as plt
+import plotly as py
+import plotly.express as px
+import plotly.graph_objs as go
 from collections import Counter
 import math
 
@@ -46,7 +47,7 @@ print(res)
 # Calcualte the `mean` and the standard deviation (`std`) of sentiment scores.
 mean = total / numberOfTweets
 std = math.sqrt(totalSquared / numberOfTweets) - mean**2
-
+rmean = round(mean,2)
 
 # Save the results of the `mean`, `std`, and `numberOfTweets` as a text file. 
 with open(os.path.join(dataResults, 'VADERCombinedRawData.txt'), 'w') as write_file:
@@ -55,60 +56,44 @@ with open(os.path.join(dataResults, 'VADERCombinedRawData.txt'), 'w') as write_f
     write_file.write("\nStandard Deviation: " + str(std))
     write_file.write("\nNumber of Tweets: " +str(numberOfTweets))
 
-
-# Plot the graph
-# Variables
-vaderBarOutput = 'vaderBarGraph.png'
-fmt = 'png'
-dpi = 300
-color = ['red']
-figSz = (10,5)
-fontLabel = 18
-fontTick = 10
-fontPct = 8
-labelX = 'Sentiment Score'
-labelY = 'Number of Tweets'
-labelTitle = 'Coronavirus VADER Overall Analysis: February 01, 2020 - February 07, 2020\n'
-rotate = 45
-
-# Plot graph   
+# Create data frame
 cres = Counter(res)
 resdf = pd.DataFrame.from_dict(cres, orient='index').reset_index()
 resdf = resdf.rename(columns={'index':'score', 0:'count'})
 total = resdf['count'].sum()
-
-print(resdf)
-
-fig = resdf.plot(x='score',kind='bar', align = 'center', color = color, grid = True, legend = None, figsize=figSz)
-fig.set_ylabel(labelY, fontsize = fontLabel)
-fig.set_xlabel(labelX, fontsize = fontLabel)
-fig.set_title(labelTitle + 'Mean = {0:.2f}'.format(mean) + ', ' + 'Std = {0:.2f}'.format(std) +', ' + "Number of Tweets = {:,}".format(numberOfTweets),fontsize = fontLabel)
-fig.set_ylim(0,2000 + max(res.values()))
-
-rects = fig.patches
-
-# vertical line for 0
-zeroLine = plt.axvline(x = 10, color = 'black', linewidth = 2)
-
-# vertical line for mean
-meanLine = plt.axvline(x = mean*10+10, color = 'purple', linestyle = 'dashed', linewidth = 2)
-
-plt.legend((zeroLine, meanLine), ['zero line', 'mean line'], prop={'size' : fontLabel}, loc = 'upper right')
-
-# Now make some labels
-
-plt.tick_params(axis = 'both', which = 'major', labelsize = fontTick)
-
-labels =round((resdf['count']/total) * 100, 2).astype(str)+'%'
-
-for rect, label in zip(rects, labels):
-    height = rect.get_height()
-    fig.text(rect.get_x() + rect.get_width()/2, height + 5, label, ha='left', fontsize = fontPct, va='bottom', rotation = rotate)
+pct = []
+for i in resdf["count"]:
+    pct.append(round((i/total) * 100, 2).astype(str)+'%')
+resdf["pct"] = pct
     
-plt.savefig(os.path.join(dataResults,vaderBarOutput), format=fmt, dpi=dpi, bbox_inches='tight')
+print(resdf.head(21))
 
-plt.show()
+# Plot the graph
+# Variables
+vaderBarOutput = 'vaderBarGraph'
+fmt = '.html'
+mainColor = ["crimson"]
+fontColor = "black"
+zeroColor = "black"
+meanColor = "mediumpurple"
+wide = 750
+tall = 550
+labelX = 'Sentiment Score'
+labelY = 'Number of Tweets'
+labelTitle = 'Coronavirus VADER Overall Analysis: January 01-21, 2020<br>'+ 'Mean = {0:.2f}'.format(mean) + ', ' + 'Std = {0:.2f}'.format(std) +', ' + "Number of Tweets = {:,}".format(numberOfTweets)
+rotate = -45
+yMax = 2000 + max(res.values())
 
+# Plot
+fig = px.bar(resdf, x="score", y="count", text = "pct", title=labelTitle, color_discrete_sequence = mainColor, labels = {"score":labelX,"count":labelY})
+fig.update_traces(texttemplate='%{text}', textposition='outside', textangle=rotate)
+fig.update_layout(title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'}, font={"color": fontColor}, width = wide, height = tall)
+fig.add_trace(go.Scatter(x = [0,0], y = [0,yMax], mode = "lines", name = "Zero", showlegend = True, marker_color = zeroColor))
+fig.add_trace(go.Scatter(x = [rmean,rmean], y = [0,yMax], mode = "lines", name = "Mean", showlegend = True, marker_color = meanColor))
+fig.update_xaxes(layer = "below traces", dtick=.1, tickangle = rotate)
+fig.update_yaxes(range = [0,yMax])
+py.offline.plot(fig, filename=os.path.join(dataResults, vaderBarOutput + fmt), auto_open = False)
+fig.show()
 
 # ## VOILA!!
 
