@@ -12,9 +12,9 @@ from nltk.corpus import stopwords
 import string
 from collections import defaultdict
 import operator
+import plotly as py
+import plotly.express as px
 import math
-import matplotlib.pyplot as plt
-import numpy as np
 import re
 import pandas as pd
 import glob
@@ -131,49 +131,25 @@ def getFreq(tokens):
 
 # Plot Graph Function
 
-def plotTopTen(sortedFreq, title, imgFilepath, dpi):
+def plotTopTen(sortedFreq, title, imgFilepath):
     
     topn = n
-
-    for t in sortedFreq[0 : topn]:
-        
-        print('{} : {}'.format(t[0], t[1]))
     
-    topNWords = [w for w in sortedFreq[0 : topn]]
-
-    x_pos = np.arange(len(topNWords))
-    cnts = [w[1] for w in topNWords]
-
-    plt.rcdefaults()
+    df = pd.DataFrame(sortedFreq[0 : topn], columns = ["Words", "Count"])
     
-    plt.figure(dpi=dpi, figsize = figSz)
-
-    plt.bar(x_pos, cnts, align = 'center', alpha = 0.5, color = color)
-    
-
-        
-    plt.xticks(x_pos, [w[0] for w in topNWords])
-    plt.xticks(rotation = angle)
-        
-    xlabel = plt.xlabel('Words')
-    xlabel.set_color(labCol)
-    ylabel = plt.ylabel('Frequency')
-    ylabel.set_color(labCol)
-    
-    high = max(cnts)
+    high = max(df["Count"])
     low = 0
     
-    plt.ylim(low, math.ceil(high + 0.1 * (high - low)))
+    fig = px.bar(df, x = "Words", y = "Count", text = "Count", color = "Words", 
+                 title = title, color_discrete_sequence=colors,
+                labels = {"Words":Xlabel,"Count":Ylabel})
+    fig.update_layout(title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'}, 
+                      font={"color": labCol}, width = wide, height = tall, showlegend=False)
+    fig.update_xaxes(tickangle = angle)
+    fig.update_yaxes(range = [low,math.ceil(high + 0.1 * (high - low))])
     
-    for xpos, count in zip(x_pos, cnts):
-    
-        plt.text(x = xpos, y = count + 1, s = str(count), ha = 'center', va = 'bottom')
-
-    plt.title(title)
- 
-    plt.savefig(imgFilepath, format = fmt, dpi = dpi, bbox_inches = 'tight')
-    
-    plt.show()
+    py.offline.plot(fig, filename=imgFilepath, auto_open = False)
+    fig.show()
 
 
 # Pull from a single file
@@ -217,13 +193,15 @@ def getTokensFromScan(dataRoot, textColIndex, encoding):
 n = 10
 textColIndex = "text"
 singleDocName = 'coronaVirus01-21Jan2020' + fileType
-outputFile = "topTenTwitter.svg"
-fmt = 'svg'
-dpi = 300
-figSz = (6,3)
-angle = 60
-title = 'Top 10 Words, #Coronavirus'
-color = ['crimson','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
+outputFile = "topTenTwitter"
+fmt = '.html'
+Xlabel = "Word"
+Ylabel = "Count"
+wide = 750
+tall = 550
+angle = -45
+title = 'Top 10 Words, #Coronavirus<br>January 1-22, 2020'
+colors = px.colors.qualitative.Dark24
 labCol = 'crimson'
 
 if singleDoc is True:
@@ -237,9 +215,9 @@ if singleDoc is True:
     # get frequency
     freq = getFreq(tokens)
 
-    imgFilepath = os.path.join(dataResults, outputFile)
+    imgFilepath = os.path.join(dataResults, outputFile + fmt)
 
-    plotTopTen(freq, title, imgFilepath, dpi)
+    plotTopTen(freq, title, imgFilepath)
 else:
     # Use case two, analyze top 10 most frequent words from a corpus root
 
@@ -248,6 +226,7 @@ else:
     # get frequency
     freq = getFreq(tokens)
 
-    imgFilepath = os.path.join(dataResults, outputFile)
+    imgFilepath = os.path.join(dataResults, outputFile + fmt)
 
-    plotTopTen(freq, title, imgFilepath, dpi)
+    plotTopTen(freq, title, imgFilepath)
+
