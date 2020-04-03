@@ -15,7 +15,8 @@ import string
 import pandas as pd
 import glob
 import math
-import matplotlib.pyplot as plt
+import plotly as py
+import plotly.express as px
 
 
 # File paths
@@ -125,65 +126,50 @@ for wlist in nGrams:
 # Now we make our dataframe.
 
 df = pd.DataFrame(ngramList)
-print(df)
 dfCounts = df[0].value_counts()
 countsDF = pd.DataFrame(dfCounts)
 countsDF.reset_index(inplace = True)
 df_C = countsDF.rename(columns={'index':'ngrams',0:'freq'})
 df_C['ngrams'] = df_C['ngrams'].astype(str)
 dfNG = df_C.sort_values('freq', ascending = False)
-
+dfNG["Pct"] = ((dfNG["freq"]/dfNG["freq"].sum())*100).round(3)
+dfNG["Pct"] = dfNG["Pct"].astype(str) + "%"
 
 # Now lets see what our dataframe looks like.
-df_C.head(10)
-
+print(dfNG[:10])
 
 # Plot our bargraph
 
 # Variables
 n = 10
-outputFile = "ngramTopTenPlainText.svg"
-fmt = 'svg'
-dpi = 300
-figSz = (4,2)
-angle = 60
-title = 'Top 10 Ngrams, Shakespeare'
-color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
-labCol = 'red'
+outputFile = "ngramTopTenPlainText"
+fmt = '.html'
+Xlabel = "Ngram"
+Ylabel = "Count"
+Zlabel = "Percent"
+wide = 750
+tall = 550
+angle = -45
+title = 'Top 10 Words, Hamlet'
+colors = px.colors.qualitative.Dark24
+labCol = "crimson"
 ngramStop = ["love love", "know know", "fie fie", "ha ha"]
 
 # Ngram Stopwords
 text = dfNG[~dfNG['ngrams'].isin(ngramStop)]
 dfTN = text[0:n]
 
-# Plot
-plt.rcdefaults()
-
-plt.figure(dpi = dpi, figsize = figSz)
-
-plt.bar(dfTN['ngrams'], dfTN['freq'], align = 'center', alpha = 0.5, color = color)
-    
-
-        
-plt.xticks(dfTN['ngrams'])
-plt.xticks(rotation = angle)
-        
-xlabel = plt.xlabel('Ngrams')
-xlabel.set_color(labCol)
-ylabel = plt.ylabel('Frequency')
-ylabel.set_color(labCol)
-    
-high = max(dfTN['freq'])
+high = max(dfTN["freq"])
 low = 0
+# Plot
+fig = px.bar(dfTN, x = "ngrams", y = "freq", hover_data=[dfTN["Pct"]],text = "freq", color = "ngrams",
+             title = title, color_discrete_sequence=colors,
+             labels = {"ngrams":Xlabel,"freq":Ylabel,"Pct":Zlabel})
+fig.update_layout(title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'},
+                  font={"color": labCol}, width = wide, height = tall, 
+                  showlegend=False)
+fig.update_xaxes(tickangle = angle)
+fig.update_yaxes(range = [low,math.ceil(high + 0.1 * (high - low))])
     
-plt.ylim(low, math.ceil(high + 0.1 * (high - low)))
-    
-for xpos, count in zip(dfTN['ngrams'], dfTN['freq']):
-    
-    plt.text(x = xpos, y = count + 0.5, s = str(count), ha = 'center', va = 'top')
-
-plt.title(title)
- 
-plt.savefig(os.path.join(dataResults, outputFile), format = fmt, dpi = dpi, bbox_inches = 'tight')
-    
-plt.show()
+py.offline.plot(fig, filename=os.path.join(dataResults, outputFile + fmt), auto_open = False)
+fig.show()

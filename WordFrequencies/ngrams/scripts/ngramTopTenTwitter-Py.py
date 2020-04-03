@@ -16,7 +16,8 @@ import pandas as pd
 import glob
 import zipfile
 import math
-import matplotlib.pyplot as plt
+import plotly as py
+import plotly.express as px
 
 # Set needed variables
 source = "coronaVirus01-21Jan2020"
@@ -158,59 +159,46 @@ countsDF.reset_index(inplace = True)
 df_C = countsDF.rename(columns={'index':'ngrams',0:'freq'})
 df_C['ngrams'] = df_C['ngrams'].astype(str)
 dfNG = df_C.sort_values('freq', ascending = False)
-
+dfNG["Pct"] = ((dfNG["freq"]/dfNG["freq"].sum())*100).round(3)
+dfNG["Pct"] = dfNG["Pct"].astype(str) + "%"
 
 # Now lets see what our dataframe looks like.
-dfNG.head(10)
+print(dfNG[:10])
 
 
 # Plot our bargraph
 
 # Variables
 n = 10
-outputFile = "ngramTopTenTwitter.svg"
-fmt = 'svg'
-dpi = 300
-figSz = (8,4)
-angle = 85
+outputFile = "ngramTopTenTwitter"
+fmt = '.html'
+Xlabel = "Ngram"
+Ylabel = "Count"
+Zlabel = "Percent"
+wide = 750
+tall = 550
+angle = -45
 title = 'Top 10 Ngrams, Coronavirus'
-color = ['red','orange', 'yellow', 'green', 'blue','darkorchid', 'darkred', 'darkorange','gold', 'darkgreen']
-labCol = 'red'
+colors = px.colors.qualitative.Dark24
+labCol = "crimson"
 ngramStop = ["via youtube"]
 
 # Ngram Stopwords
 text = dfNG[~dfNG['ngrams'].isin(ngramStop)]
 dfTN = text[0:n]
 
+high = max(dfTN["freq"])
+low = 0
 
 # Plot
-plt.rcdefaults()
-
-plt.figure(dpi=dpi, figsize = figSz)
-
-plt.bar(dfTN["ngrams"], dfTN["freq"], align = 'center', alpha = 0.5, color = color)
+fig = px.bar(dfTN, x = "ngrams", y = "freq", hover_data=[dfTN["Pct"]],text = "freq", color = "ngrams",
+             title = title, color_discrete_sequence=colors,
+             labels = {"ngrams":Xlabel,"freq":Ylabel,"Pct":Zlabel})
+fig.update_layout(title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'},
+                  font={"color": labCol}, width = wide, height = tall, 
+                  showlegend=False)
+fig.update_xaxes(tickangle = angle)
+fig.update_yaxes(range = [low,math.ceil(high + 0.1 * (high - low))])
     
-
-        
-plt.xticks(dfTN['ngrams'])
-plt.xticks(rotation = angle)
-        
-xlabel = plt.xlabel('Ngrams')
-xlabel.set_color(labCol)
-ylabel = plt.ylabel('Frequency')
-ylabel.set_color(labCol)
-    
-high = max(dfTN['freq'])
-low = 0
-    
-plt.ylim(low, math.ceil(high + 0.1 * (high - low)))
-    
-for xpos, count in zip(dfTN['ngrams'], dfTN['freq']):
-    
-    plt.text(x = xpos, y = count + 1, s = str(count), ha = 'center', va = 'bottom')
-
-plt.title(title)
- 
-plt.savefig(os.path.join(dataResults, outputFile), format = fmt, dpi = dpi, bbox_inches = 'tight')
-    
-plt.show()
+py.offline.plot(fig, filename=os.path.join(dataResults, outputFile + fmt), auto_open = False)
+fig.show()
