@@ -83,15 +83,17 @@ def getFreq(tokens):
 def plotTopTen(sortedFreq, title, imgFilepath):
     
     topn = n
-    
-    df = pd.DataFrame(sortedFreq[0 : topn], columns = ["Words", "Count"])
+    df = pd.DataFrame(sortedFreq, columns = ["Words", "Count"])
+    df["Pct"] = ((df["Count"]/df["Count"].sum())*100).round(3)
+    df["Pct"] = df["Pct"].astype(str) + "%"
+    dfPct = df[0 : topn]
     
     high = max(df["Count"])
     low = 0
     
-    fig = px.bar(df, x = "Words", y = "Count", text = "Count", color = "Words", 
+    fig = px.bar(dfPct, x = "Words", y = "Count",hover_data=[dfPct["Pct"]],text = "Count", color = "Words", 
                  title = title, color_discrete_sequence=colors,
-                labels = {"Words":Xlabel,"Count":Ylabel})
+                labels = {"Words":Xlabel,"Count":Ylabel,"Pct":Zlabel})
     fig.update_layout(title={'y':0.90, 'x':0.5, 'xanchor': 'center', 'yanchor':'top'}, 
                       font={"color": labCol}, width = wide, height = tall, showlegend=False)
     fig.update_xaxes(tickangle = angle)
@@ -138,6 +140,7 @@ outputFile = "topTenPlainText"
 fmt = '.html'
 Xlabel = "Word"
 Ylabel = "Count"
+Zlabel = "Percent"
 wide = 750
 tall = 550
 angle = -45
