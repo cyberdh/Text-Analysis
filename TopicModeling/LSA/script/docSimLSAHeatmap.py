@@ -41,6 +41,8 @@ heatmapFileName = 'DocSimHeatmap.html'
 colorScheme = 'RdYlGn'
 wide = 1000
 tall = 1000
+tickFntSz = 10
+titleFntSz = 20
 mainTitle = "Document Similarity of Shakespeare's Plays"
 
 # Plot
@@ -48,7 +50,7 @@ fig = go.Figure(data = go.Heatmap(z=sdf, x = sdf.index, y = sdf.columns, type = 
                                   hovertemplate = "<b>Document Left</b>: %{y}<br>" + "<b>Document Bottom</b>: %{x}<br>" + "<b>Similarity Score</b>: %{z}",
                                   name = "Document Similarity"))
 
-fig.update_layout(title={"text": mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},
-                  autosize = False, width = wide, height = tall)
+fig.update_layout(title={"text": mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},titlefont = {"size":titleFntSz},
+                  autosize = False, width = wide, height = tall, xaxis = dict(tickfont = dict(size = tickFntSz)), yaxis = dict(tickfont=dict(size=tickFntSz)))
 py.offline.plot(fig, filename=os.path.join(dataResults, heatmapFileName))
 fig.show()
