@@ -11,6 +11,7 @@ sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-package
 os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 #Import packages
+import re
 import pandas as pd
 import glob
 import matplotlib.pyplot as plt
@@ -189,19 +190,31 @@ if docLevel is True:
     sortedDF.head(len(sortedDF))
 else:
     None
+    
+if docLevel is True:
+    x = optimalModel.show_topics(num_topics = -1)
+    topicWords = {}
+    for topic,word in x:
+        topicWords[topic]=re.sub('[^A-Za-z ]+', '', word)
+    tWords = topicWords.values()
+    print(tWords)
+else:
+    None
 
 # Plot a stacked bar graph
 if docLevel is True:
+    import plotly.express as px
     #Variables
     graphName = 'stackedBarGraphLDA.html'
-    wide = 800
+    wide = 900
     tall = 700
     mainTitle = "Weight of Each Topic in Each Document"
+    palette = px.colors.qualitative.Alphabet
     
     #Add row to dataframe
     pd.options.mode.chained_assignment = None
     topicKWlist = []
-    for k in dfDominantTopics["Topic_Keywords"]:
+    for k in tWords:
         topicKWlist.append(k)
     sortedDfSh = sortedDF
     sortedDfSh = sortedDfSh.iloc[::-1]
@@ -214,7 +227,7 @@ if docLevel is True:
                            hoverlabel={"namelength":-1}))
     for i in sortedDfSh.iloc[:, 1:]:
         fig.add_trace(go.Bar(name = str(i), x = sortedDfSh[i], y = sortedDfSh.index[:dfLength], orientation = "h", hovertemplate = "<b>Document</b>: %{y}<br>"+"<b>Pct</b>: %{x}%<br>"+"<b>Keywords</b>: " + sortedDfSh.loc["Keywords",i], hoverlabel={"namelength":-1}))
-        fig.update_layout(title = {"text":mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},barmode = "stack", width = wide, height = tall, hoverlabel_font_color = "black", coloraxis={"colorscale":"spectral"})
+        fig.update_layout(title = {"text":mainTitle, 'y':0.95, 'x':0.55, 'xanchor': 'center', 'yanchor':'top'},barmode = "stack", width = wide, height = tall, hoverlabel_font_color = "black", colorway = palette)
     py.offline.plot(fig, filename=os.path.join(dataResults, graphName), auto_open = False)
     fig.show()
 else:
