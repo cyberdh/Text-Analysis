@@ -35,7 +35,7 @@ wordSim = model.wv.similarity(ws1, ws2)
 print("Similarity score between {} and {} is {}".format(ws1, ws2, wordSim))
 
 # Let's find some word relationships
-w2vCSVfile = 'word2vec.csv'
+w2vCSVfile = 'wordEmbedCoSim.csv.csv'
 w1 = "woman"
 w2 = "king"
 w3 = "man"
@@ -54,7 +54,7 @@ minFont = 10
 width = 800
 height = 400
 figureSz = (20,10)
-wcOutputFile = "word2vecWordCloud.png"
+wcOutputFile = "wordEmbedWordCloud.png"
 imgFmt = "png"
 dpi = 600
 
