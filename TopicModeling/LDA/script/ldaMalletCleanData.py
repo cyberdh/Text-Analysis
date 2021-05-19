@@ -46,25 +46,27 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 # File paths
 homePath = os.environ["HOME"]
 dataHome = os.path.join(homePath, "Text-Analysis-master", "data")
-dataResults = os.path.join(homePath, "Text-Analysis-master", "Output")
+csvPath = os.path.join(dataHome, "twitter", "CSV")
+jsonPath = os.path.join(dataHome, "twitter", "JSON")
 malletPath = os.path.join(dataHome,"mallet-2.0.8", "bin", "mallet") # update this path
 cleanDataPath = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedData", "malletModel")
 cleanData = os.path.join(cleanDataPath, "ldaDataClean")
 cleanDict = os.path.join(cleanDataPath, "ldaDict")
 cleanModel = os.path.join(cleanDataPath, "ldaModel")
 origData = os.path.join(cleanDataPath, "ldaDataOrig")
+cleanDF = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "LDA", "cleanedCSV")
 
 # Set needed variables
 source = "*"
 fileType = ".txt"
-docLevel = True
+chunkLevel = "files"
 n = 100
 nltkStop = True
 customStop = True
 spacyLem = True
-coherence = False
-stopLang = 'english'
-lemLang = 'en'
+coherence = True
+stopLang = "english"
+lemLang = "en"
 encoding = "utf-8"
 errors = "ignore"
 textColIndex = "text"
@@ -88,27 +90,23 @@ if customStop is True:
 
 # Unzip files
 if fileType == ".csv":
-    dataRoot = os.path.join(dataHome, "twitter","CSV")
-    direct = dataRoot
-    allZipFiles = glob.glob(os.path.join(dataRoot,"*.zip"))
+    allZipFiles = glob.glob(os.path.join(csvPath,"*.zip"))
     for item in allZipFiles:
-        fileName = os.path.splitext(direct)[0]
+        fileName = os.path.splitext(csvPath)[0]
         zipRef = zipfile.ZipFile(item, "r")
         zipRef.extractall(fileName)
         zipRef.close()
         os.remove(item)
 if fileType == ".json":
-    dataRoot = os.path.join(dataHome, "twitter","JSON")
-    direct = dataRoot
-    allZipFiles = glob.glob(os.path.join(dataHome, "twitter","JSON","*.zip"))
+    allZipFiles = glob.glob(os.path.join(jsonPath,"*.zip"))
     for item in allZipFiles:
-        fileName = os.path.splitext(direct)[0]
+        fileName = os.path.splitext(jsonPath)[0]
         zipRef = zipfile.ZipFile(item, "r")
         zipRef.extractall(fileName)
         zipRef.close()
         os.remove(item)
-        
-if not glob.glob(os.path.join(dataHome, "*.tar.gz")):
+
+if not glob.glob(os.path.join(dataHome,"*.tar.gz")):
     None
 else:
     fname = "mallet-2.0.8.tar.gz"
@@ -120,50 +118,89 @@ else:
         
 # Reading in .txt files
 if fileType == ".txt":
-    paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
-    for path in paths:
-        with open(path, "r", encoding = encoding, errors = errors) as file:
-             # skip hidden file
-            if path.startswith('.'):
-                continue
-            if docLevel is True:
+    if chunkLevel == "files":
+        paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
+        for path in paths:
+            with open(path, "r", encoding = encoding, errors = errors) as file:
+                 # skip hidden file
+                if path.startswith('.'):
+                    continue
                 docs.append(file.read().strip('\n').splitlines())
-            else:
+                
+    elif chunkLevel == "lines":
+        paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
+        for path in paths:
+            with open(path, "r", encoding = encoding, errors = errors) as file:
+                 # skip hidden file
+                if path.startswith('.'):
+                    continue
                 for line in file:
                     stripLine = line.strip()
                     if len(stripLine) == 0:
                         continue
                     docs.append(stripLine.split())
+    elif chunkLevel == "direct":
+        folderTextCSV = "folderText.csv"
+        paths = []
+        txt = []
+        dataPath = os.path.join(dataHome, "starTrek")
+        for folder in sorted(os.listdir(dataPath)):
+            if not os.path.isdir(os.path.join(dataPath, folder)):
+                continue
+            for file in sorted(os.listdir(os.path.join(dataPath, folder))):
+                paths.append(((dataPath, folder, file)))
+        df = pd.DataFrame(paths, columns = ["Root", "Folder", "File"])
+        df["Paths"] = df["Root"].astype(str) +"/" + df["Folder"].astype(str) + "/" + df["File"].astype(str)
+        for path in df["Paths"]:
+            if not path.endswith(".txt"):
+                continue
+            with open(path, "r", encoding = encoding, errors = errors) as f:
+                t = f.read().strip().split()
+                txt.append(t)
+        df["Text"] = pd.Series(txt)
+        df["Text"] = ["".join(map(str, l)) for l in df["Text"].astype(str)]
+        d = {'Text':'merge'}
+        dfText = df.groupby(['Folder'])["Text"].apply(lambda x: ' '.join(x)).reset_index()
+        
+        docs.extend(dfText["Text"].tolist())
+        dfText.to_csv(os.path.join(cleanDF, folderTextCSV))
+    else:
+        None
+else:
+    None
 
 # Reading in .csv and .json files
 if fileType == ".csv":
-    allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", source + fileType))     
+    allFiles = glob.glob(os.path.join(csvPath, source + fileType))     
     df = (pd.read_csv(f, engine = "python") for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
     tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
-    allFiles = glob.glob(os.path.join(dataHome, "twitter", "JSON", source + fileType))     
-    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    allFiles = glob.glob(os.path.join(jsonPath, source + fileType))     
+    df = (pd.read_json(f, encoding = encoding, lines = True) for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
     tweets = cdf[textColIndex].values.tolist()
 
 # Data variable
 if len(docs) > 0:
-    if docLevel is True:
+    if chunkLevel == "files" or "direct":
         data = docs
-    else:
+    elif chunkLevel == "lines":
         data = []
         for i in list(it.zip_longest(*(iter(docs),)*n)):
             data.append(i)
+    else:
+        None
+elif len(tweets) > 0:
+    data = tweets
+    # Remove Urls
+    data = [re.sub(r'http\S+', '', sent) for sent in data]
+    # Remove new line characters
+    data = [re.sub('\s+', ' ', sent) for sent in data]
 else:
-    if len(tweets) > 0:
-        data = tweets
-        # Remove Urls
-        data = [re.sub(r'http\S+', '', sent) for sent in data]
-        # Remove new line characters
-        data = [re.sub('\s+', ' ', sent) for sent in data]
+    None
 print(len(data))
 
 
@@ -177,6 +214,7 @@ dataWords = list(sentToWords(data))
 print(len(dataWords))
 
 # Find Bigrams and Trigrams
+# Variables
 # Variables
 minCount = 5
 tHold = 100
@@ -210,14 +248,14 @@ def makeTrigrams(texts):
 
 
 if spacyLem is True:
-    def lemmatization(texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']):
+    def lemmatization(texts):
         """https://spacy.io/api/annotation"""
         textsOut = []
         lemmaPOS = []
         for sent in texts:
             doc = nlp(" ".join(sent)) 
-            textsOut.append([token.lemma_ for token in doc if token.pos_ in allowed_postags])
-            lemmaPOS.append([token.text and token.lemma_ and token.pos_ for token in doc if token.pos_ in allowed_postags])
+            textsOut.append([token.lemma_ for token in doc if token.lemma_ != '-PRON-'])
+            lemmaPOS.append([token.text and token.lemma_ and token.pos_ for token in doc])
         return textsOut
         print(lemmaPOS[:10])
 
@@ -231,9 +269,9 @@ if spacyLem is True:
     # Initialize spacy language model, eliminating the parser and ner components
     nlp = spacy.load(lemLang, disable=['parser', 'ner'])
     
-    # Do lemmatization tagging only noun, adj, vb, adv
-    allowed_postags = ['NOUN', 'ADJ', 'VERB', 'ADV']
-    dataLemmatized = lemmatization(dataWordsNgrams, allowed_postags=allowed_postags)
+    # Do lemmatization tagging
+    
+    dataLemmatized = lemmatization(dataWordsNgrams)
     lemmaPOS = []
     for sent in dataLemmatized:
         lemmaNLP = nlp(" ".join(sent))
@@ -278,32 +316,12 @@ for i in hReadable:
 
 # USING MALLET
 # Variables
-nTopics = 20
-workers = 1
-nIter = 1000
-seed = 42
-
-ldamallet = LdaMallet(malletPath, corpus=corpus, num_topics=nTopics, id2word=id2word, workers = workers, prefix = cleanDataPath,iterations = nIter, random_seed = seed)
-
-# Show Topics
-pprint(ldamallet.show_topics(formatted=False)[:3])
 if coherence is True:
-    if spacyLem is True:
-        # Compute Coherence Score
-        coherenceModelLdamallet = CoherenceModel(model=ldamallet, texts=dataLemmatized, dictionary=id2word, coherence='c_v')
-        coherenceLdamallet = coherenceModelLdamallet.get_coherence()
-    else:
-        # Compute Coherence Score
-        coherenceModelLdamallet = CoherenceModel(model=ldamallet, texts=dataWordsNgrams, dictionary=id2word, coherence='c_v')
-        coherenceLdamallet = coherenceModelLdamallet.get_coherence()
-    
-    print('\nCoherence Score: ', coherenceLdamallet)
-else:
-    None
-
-# FIND OPTIMAL NUMBER OF TOPICS
-if coherence is True:
-    def computeCoherenceValues(dictionary, corpus, texts, limit, start=20, step=10):
+    #Variables
+    start = 10
+    lmt = 81
+    steps = 10
+    def computeCoherenceValues(dictionary, corpus, texts, limit, start=start, step=steps):
         """
         Compute c_v coherence for various number of topics
 
@@ -321,8 +339,9 @@ if coherence is True:
         """
         coherenceValues = []
         modelList = []
+        
         for numTopics in range(start, limit, step):
-            model = gensim.models.wrappers.LdaMallet(malletPath, corpus=corpus, num_topics=numTopics, id2word=id2word)
+            model = gensim.models.wrappers.LdaMallet(malletPath, corpus=corpus, num_topics=numTopics, id2word=id2word, iterations = 1000, workers = 1, prefix=cleanDataPath, optimize_interval = 10, random_seed = 42)
             modelList.append(model)
             coherenceModel = CoherenceModel(model=model, texts=texts, dictionary=dictionary, coherence='c_v')
             coherenceValues.append(coherenceModel.get_coherence())
@@ -333,20 +352,17 @@ else:
 
 # Can take a long time to run.
 if coherence is True:
-    nt = 20
-    lmt = 81
-    steps = 10
     if spacyLem is True:
-        modelList, coherenceValues = computeCoherenceValues(dictionary=id2word, corpus=corpus, texts=dataLemmatized, start=nt, limit=lmt, step=steps)
+        modelList, coherenceValues = computeCoherenceValues(dictionary=id2word, corpus=corpus, texts=dataLemmatized, start=start, limit=lmt, step=steps)
     else:
-        modelList, coherenceValues = computeCoherenceValues(dictionary=id2word, corpus=corpus, texts=dataWordsNgrams, start=nt, limit=lmt, step=steps)
+        modelList, coherenceValues = computeCoherenceValues(dictionary=id2word, corpus=corpus, texts=dataWordsNgrams, start=start, limit=lmt, step=steps)
 else:
     None
 
 # Plot line graph showing coherence values
 if coherence is True:
     # Show graph
-    limit=lmt; start=nt; step=steps;
+    limit=lmt; start=start; step=steps;
     x = range(start, limit, step)
     plt.plot(x, coherenceValues)
     plt.xlabel("Num Topics")
@@ -359,21 +375,40 @@ else:
 # list the coherence score for each number of topics we have selected. 
 if coherence is True:
     # Print the coherence scores
+    cval = coherenceValues
+    maxCoVal = cval.index(max(cval))
+    mcv = round(maxCoVal, 4)
+    
     for m, cv in zip(x, coherenceValues):
         print("Num Topics =", m, " has Coherence Value of", round(cv, 4))
+    print(" ")
+    print("Optimal Number of Topics is", x[mcv])
+    
+        
 else:
     None
 
 # Choose optimal number of topics
 if coherence is True:
-    modelNum = 0
+    #Variables
+    nTopics = x[mcv]
+    workers = 1
+    nIter = 1000
+    optInt = 10
+    seed = 42
+    
     # Select the model and print the topics
-    optimalModel = modelList[modelNum]
-    modelTopics = optimalModel.show_topics(formatted=False)
+    optimalModel = LdaMallet(malletPath, corpus=corpus, num_topics=nTopics, id2word=id2word, iterations = nIter, workers = workers, prefix=cleanDataPath, optimize_interval = optInt, random_seed = seed, topic_threshold=0)
     pprint(optimalModel.print_topics(num_words=10)[:3])
 else:
-    optimalModel = ldamallet
-    modelTopics = optimalModel.show_topics(formatted=False)
+    # Variables
+    nTopics = 20
+    workers = 1
+    nIter = 1000
+    optInt = 10
+    seed = 42
+
+    optimalModel = LdaMallet(malletPath, corpus=corpus, num_topics=nTopics, id2word=id2word, workers = workers, prefix = cleanDataPath, iterations = nIter, optimize_interval = optInt, random_seed = seed,topic_threshold=0)
     pprint(optimalModel.print_topics(num_words=10)[:3])
 
 
