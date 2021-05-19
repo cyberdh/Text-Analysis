@@ -12,9 +12,11 @@ sys.path.insert(0,"/N/u/cyberdh/Carbonate/dhPyEnviron/lib/python3.6/site-package
 os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 
 # Include necessary packages for notebook 
-from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
+#from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity
+#from scipy.sparse.linalg import svds
 import pandas as pd
 import warnings
 import numpy as np
@@ -43,10 +45,13 @@ nltkStop = True
 customStop = True
 lem = True
 lowerCase = True
+removeDigits = True
 language = 'english'
 lemLang = "en"
 encoding = 'utf-8'
 errors = 'ignore'
+singleDocs = False
+nComp = True
 stopWords = []
 tokenDict = {}
 
@@ -71,6 +76,7 @@ if customStop is True:
 # Functions
 if lem is True:
     nlp = spacy.load(lemLang, diasble=["parser","ner"])
+    nlp.max_length=2500000
     def tokenFilter(token):
         return not (token.is_space)
     
@@ -86,20 +92,67 @@ else:
 
 
 # Read in documents
-for subdir, dirs, files in os.walk(dataHome):
-    for file in files:
-        if file.startswith('.'):
-                continue
-        filePath = subdir + os.path.sep + file
-        with open(filePath, 'r', encoding = encoding, errors = errors) as textFile:
-            text = textFile.read()
-            if lowerCase is True:
-                lowers = text.lower()
+if singleDocs is True:
+    for subdir, dirs, files in os.walk(dataHome):
+        for file in files:
+            if file.startswith('.'):
+                    continue
+            filePath = subdir + os.path.sep + file
+            with open(filePath, 'r', encoding = encoding, errors = errors) as textFile:
+                text = textFile.read()
+                if lowerCase and removeDigits is True:
+                    lowers = text.lower()
+                    noPunctuation = lowers.translate(str.maketrans('','', string.punctuation))
+                    noDigits = noPunctuation.translate(str.maketrans('','', string.digits))
+                    tokenDict[file] = noDigits
+                elif lowerCase == True and removeDigits == False:
+                    lowers = text.lower()
+                    noPunctuation = lowers.translate(str.maketrans('','', string.punctuation))
+                    tokenDict[file] = noPunctuation
+                elif lowerCase == False and removeDigits == True:
+                    noPunctuation = text.translate(str.maketrans('','', string.punctuation))
+                    noDigits = noPunctuation.translate(str.maketrans('','', string.digits))
+                    tokenDict[file] = noDigits
+                else:
+                    noPunctuation = text.translate(str.maketrans('','', string.punctuation))
+                    tokenDict[file] = noPunctuation
+else:
+    data = []
+    text = []
+    for folder in sorted(os.listdir(dataHome)):
+        if not os.path.isdir(os.path.join(dataHome, folder)):
+            continue
+        for file in sorted(os.listdir(os.path.join(dataHome, folder))):
+            data.append(((dataHome,folder,file)))
+    df = pd.DataFrame(data, columns = ["Root", "Folder", "File"])
+    df["Paths"] = df["Root"].astype(str) + "/" + df["Folder"].astype(str) + "/" + df["File"].astype(str)
+    for path in df["Paths"]:
+        if not path.endswith(".txt"):
+            continue
+        with open(path, "r", encoding=encoding, errors = errors) as f:
+            t = f.read().strip().split()
+            if lowerCase and removeDigits is True:
+                lowers = ' '.join(t).lower()
                 noPunctuation = lowers.translate(str.maketrans('','', string.punctuation))
-                tokenDict[file] = noPunctuation
+                noDigits = noPunctuation.translate(str.maketrans('','', string.digits))
+                text.append(noDigits)
+            elif lowerCase == True and removeDigits == False:
+                lowers = ' '.join(t).lower()
+                noPunctuation = lowers.translate(str.maketrans('','', string.punctuation))
+                text.append(noPunctuation)
+            elif lowerCase == False and removeDigits == True:
+                noPunctuation = ' '.join(t).translate(str.maketrans('','', string.punctuation))
+                noDigits = noPunctuation.translate(str.maketrans('','', string.digits))
+                text.append(noDigits)
             else:
                 noPunctuation = text.translate(str.maketrans('','', string.punctuation))
-                tokenDict[file] = noPunctuation
+                text.append(noPunctuation)
+    df["Text"] = pd.Series(text)
+    df["Text"] = ["".join(map(str, l)) for l in df["Text"].astype(str)]
+    d = {'Text':'merge'}
+    dfText = df.groupby(["Folder"])["Text"].apply(lambda x: ' '.join(x)).reset_index()
+    
+    tokenDict = dict(zip(dfText["Folder"], dfText["Text"]))
 
 
 # Let's check and see if our dictionary now has our data. 
@@ -107,14 +160,8 @@ print(list(tokenDict.keys())[0:10])
 
 
 # Tfidf Vectorizer
-vectorizer = TfidfVectorizer(tokenizer = tokenize, stop_words=stopWords)
+vectorizer = TfidfVectorizer(tokenizer = tokenize, stop_words = stopWords)
 dtm = vectorizer.fit_transform(tokenDict.values())
-testDF = pd.DataFrame(dtm.toarray(), index=tokenDict.keys(), columns = vectorizer.get_feature_names())
-testDF = testDF.sort_index(axis = 0)
-
-
-# Now let's take a look at our data frame where the rows are the documents and the columns are the terms. 
-testDF.iloc[:10, 7440:7450]
 
 # Get words that correspond to each column
 vectGFN = vectorizer.get_feature_names()
@@ -122,11 +169,37 @@ print(vectGFN[:20])
 
 
 # Run SVD and Cosine Similarity
-lsa = TruncatedSVD(n_components = 100, n_iter = 1000, random_state = 42)
-dtmLsa = lsa.fit_transform(dtm)
-cosineSim = cosine_similarity(dtmLsa)
+if nComp is True:
+    tsvd = TruncatedSVD(n_components=dtm.shape[1]-1)
+    tsvd.fit(dtm)
+    tsvdVarRatios = tsvd.explained_variance_ratio_
 
+    def selectNcomponents(var_ratio, goal_var: float) -> int:
+        total_variance = 0.0
+        n_components = 0
+        for explained_variance in var_ratio:
+            total_variance += explained_variance
+            n_components += 1
+            if total_variance >= goal_var:
+                break
+        return n_components
+else:
+    None
 
+if nComp is True:
+    nc = selectNcomponents(tsvdVarRatios, 0.95)
+    print(nc)
+else:
+    None
+
+if nComp is True:
+    lsa = TruncatedSVD(n_components = nc, n_iter = 1000, random_state = 42)
+    dtmLsa = lsa.fit_transform(dtm)
+    cosineSim = cosine_similarity(dtmLsa)
+else:
+    lsa = TruncatedSVD(n_components = dtm.shape[0], n_iter = 1000, random_state = 42)
+    dtmLsa = lsa.fit_transform(dtm)
+    cosineSim = cosine_similarity(dtmLsa)
 # Save as .csv file
 csvFileName = "docSimilarityMatrix.csv"
 
