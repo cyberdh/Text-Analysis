@@ -7,7 +7,12 @@ os.environ["NLTK_DATA"] = "/N/u/cyberdh/Carbonate/dhPyEnviron/nltk_data"
 from nltk.corpus import stopwords
 import string
 from collections import defaultdict
+import numpy.core.multiarray
 import pandas as pd
+import gensim
+from gensim.models.phrases import Phrases, Phraser
+from gensim.utils import simple_preprocess
+import spacy
 import operator
 import plotly as py
 import plotly.express as px
@@ -16,13 +21,17 @@ import math
 
 
 homePath = os.environ['HOME']
-dataHome = os.path.join(homePath, 'Text-Analysis-master', 'data', 'shakespeareFolger')
+dataHome = os.path.join(homePath, 'Text-Analysis-master', 'data')
+corpusRoot = os.path.join(dataHome, 'shakespeareFolger')
+directRoot = os.path.join(dataHome, 'starTrek')
 dataResults = os.path.join(homePath, 'Text-Analysis-master', 'Output')
 
-singleDoc = True
+corpusLevel = "lines"
 nltkStop = True
 customStop = True
+spacyLem = True
 stopLang = 'english'
+lemLang = "en"
 encoding = "utf-8"
 errors = "ignore"
 stopWords = []
@@ -42,30 +51,65 @@ if customStop is True:
 
     stopWords.extend(stopWordsCustom)
     
-def textClean(text):
+def sentToWords(sentences):
+    for sentence in sentences:
+        yield(gensim.utils.simple_preprocess(str(sentence), deacc=True))  # deacc=True removes punctuations
+
+minCount = 5
+tHold = 100
+
+def get2gramPhrases(tokens):
+    # Build the bigram and trigram models
+    bigram = Phrases(tokens, min_count=minCount, threshold=tHold) # higher threshold fewer phrases.  
+
+    # Removes model state from Phrases thereby reducing memory use.
+    bigramMod = Phraser(bigram)
     
-    text = text.strip().lower()
+    return bigramMod
+
+def get3gramPhrases(tokens):
+    bigram = Phrases(tokens, min_count=minCount, threshold=tHold) # higher threshold fewer phrases.
+    trigram = Phrases(bigram[tokens], threshold=tHold)
     
-    tokens = re.split(r'\W+', text)
-    
-    # remove empty string
-    tokens = [t for t in tokens if t]
-    
-    # remove digits
-    tokens = [t for t in tokens if not t.isdigit()]
-    
-    # built-in stop words list
-    tokens = [t for t in tokens if t not in stopWords]
+    trigramMod = Phraser(trigram)
+    return trigramMod
+
+def removeStopwords(texts):
+    return [[word for word in simple_preprocess(str(doc)) if word not in stopWords] for doc in texts]
+
+def makeBigrams(tokens):
+    bigrams = get2gramPhrases(tokens)
+    return [bigrams[doc] for doc in tokens]
+
+def makeTrigrams(tokens):
+    bigrams = get2gramPhrases(tokens)
+    trigrams = get3gramPhrases(tokens)
+    return [trigrams[bigrams[doc]] for doc in tokens]
+
+def makeLemma(tokens):
+    dataWordsNgrams = makeTrigrams(tokens)
+
+    if spacyLem is True:
+        def lemmatization(tokens):
+            """https://spacy.io/api/annotation"""
+            textsOut = []
+            for sent in tokens:
+                doc = nlp(" ".join(sent)) 
+                textsOut.append([token.lemma_ for token in doc if token.lemma_ != '-PRON-'])
+            return textsOut
         
-    # remove punctuation
-    puncts = list(string.punctuation)
-    puncts.append('--')
-
-    tokens = [t for t in tokens if t not in puncts]
-
-    return tokens
-
-
+        # Initialize spacy language model, eliminating the parser and ner components
+        nlp = spacy.load(lemLang, disable=['parser', 'ner'])
+    
+        # Do lemmatization
+       
+        dataLemmatized = lemmatization(dataWordsNgrams)
+       
+        return dataLemmatized
+    
+    else:
+        
+        return dataWordsNgrams
     
 """
 Get sorted frequency in descending order
@@ -103,17 +147,26 @@ def plotTopTen(sortedFreq, title, imgFilepath):
     fig.show()
     
     
-def getTokensFromSingleText(textFilepath):
-    
+def getTokensFrom1File(textFilepath):
+    docs=[]
     with open(textFilepath, "r", encoding = encoding, errors = errors) as f:
-        text = f.read()
+        for line in f:
+            stripLine = line.strip()
+            if len(stripLine) == 0:
+                continue
+            docs.append(stripLine.split())
 
-    return textClean(text)
-
-
-def getTokensFromScan(corpusRoot):
+    words = list(sentToWords(docs))
+    stop = removeStopwords(words)
+    lemma = makeLemma(stop)
+    tokens = [item for sublist in lemma for item in sublist]
     
-    tokens = []
+    return tokens
+
+
+def getTokensFromManyFiles(corpusRoot):
+    
+    docs = []
     
     for root, subdirs, files in os.walk(corpusRoot):
         
@@ -126,10 +179,36 @@ def getTokensFromScan(corpusRoot):
             textFilepath = os.path.join(root, filename)
             
             with open(textFilepath, "r", encoding = encoding, errors = errors) as f:
-                text = f.read()
-                tokens.extend(textClean(text))
-                
-                print('Finished tokenizing text {}\n'.format(textFilepath))
+                docs.append(f.read().strip('\n').splitlines())
+        
+        words = list(sentToWords(docs))
+        stop = removeStopwords(words)
+        lemma = makeLemma(stop)
+        tokens = [item for sublist in lemma for item in sublist]
+    return tokens
+
+def getTokensFromDirect(directRoot):
+    paths = []
+    docs = []
+   
+    dataPath = os.path.join(directRoot)
+    for folder in sorted(os.listdir(dataPath)):
+        if not os.path.isdir(os.path.join(dataPath, folder)):
+            continue
+        for file in sorted(os.listdir(os.path.join(dataPath, folder))):
+            paths.append(((dataPath, folder, file)))
+    df = pd.DataFrame(paths, columns = ["Root", "Folder", "File"])
+    df["Paths"] = df["Root"].astype(str) +"/" + df["Folder"].astype(str) + "/" + df["File"].astype(str)
+    for path in df["Paths"]:
+        if not path.endswith(".txt"):
+            continue
+        with open(path, "r", encoding = encoding, errors = errors) as f:
+            docs.extend(f.read().strip().split())
+    
+    words = list(sentToWords(docs))
+    stop = removeStopwords(words)
+    lemma = makeLemma(stop)
+    tokens = [item for sublist in lemma for item in sublist]
     
     return tokens
 
@@ -148,13 +227,13 @@ title = 'Top 10 Words, Hamlet'
 colors = px.colors.qualitative.Dark24
 labCol = "crimson"
 
-if singleDoc is True:
+if corpusLevel == "lines":
     # Use case one, analyze top 10 most frequent words from a single text
 
-    textFilepath = os.path.join(dataHome, singleDocName)
+    textFilepath = os.path.join(corpusRoot, singleDocName)
 
     # get tokens
-    tokens = getTokensFromSingleText(textFilepath)
+    tokens = getTokensFrom1File(textFilepath)
 
     # get frequency
     freq = getFreq(tokens)
@@ -162,10 +241,10 @@ if singleDoc is True:
     imgFilepath = os.path.join(dataResults, outputFile + fmt)
 
     plotTopTen(freq, title, imgFilepath)
-else:
+elif corpusLevel == "files":
     # Use case two, analyze top 10 most frequent words from a corpus root
 
-    tokens = getTokensFromScan(dataHome)
+    tokens = getTokensFromManyFiles(corpusRoot)
 
     # get frequency
     freq = getFreq(tokens)
@@ -173,5 +252,14 @@ else:
     imgFilepath = os.path.join(dataResults, outputFile +fmt)
 
     plotTopTen(freq, title, imgFilepath)
+elif corpusLevel == "direct":
+    tokens = getTokensFromDirect(directRoot)
 
+    # get frequency
+    freq = getFreq(tokens)
 
+    imgFilepath = os.path.join(dataResults, outputFile +fmt)
+
+    plotTopTen(freq, title, imgFilepath)
+else:
+    None
