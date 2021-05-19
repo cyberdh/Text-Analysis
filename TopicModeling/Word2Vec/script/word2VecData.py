@@ -45,9 +45,9 @@ cleanModel = os.path.join(homePath, "Text-Analysis-master", "TopicModeling", "Wo
 
 
 # Set needed variables
-source = "*"
+source = "Hamlet"
 fileType = ".txt"
-docLevel = True
+chunkLevel = "lines"
 n = 100
 nltkStop = True
 customStop = True
@@ -81,23 +81,81 @@ if customStop is True:
 
 # Reading in .txt files
 if fileType == ".txt":
-    paths = glob.glob(os.path.join(dataHome, "shakespeareFolger",source + fileType))
-    for path in paths:
-        with open(path, "r", encoding = encoding, errors = errors) as file:
-             # skip hidden file
-            if path.startswith('.'):
-                continue
-            if docLevel is True:
+    if chunkLevel == "files":
+        paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
+        for path in paths:
+            with open(path, "r", encoding = encoding, errors = errors) as file:
+                 # skip hidden file
+                if path.startswith('.'):
+                    continue
                 docs.append(file.read().strip('\n').splitlines())
-            else:
+                
+    elif chunkLevel == "lines":
+        paths = glob.glob(os.path.join(dataHome, "shakespeareFolger", source + fileType))
+        for path in paths:
+            with open(path, "r", encoding = encoding, errors = errors) as file:
+                 # skip hidden file
+                if path.startswith('.'):
+                    continue
                 for line in file:
                     stripLine = line.strip()
                     if len(stripLine) == 0:
                         continue
                     docs.append(stripLine.split())
+    elif chunkLevel == "direct":
+    
+        paths = []
+        txt = []
+        dataPath = os.path.join(dataHome, "starTrek")
+        for folder in sorted(os.listdir(dataPath)):
+            if not os.path.isdir(os.path.join(dataPath, folder)):
+                continue
+            for file in sorted(os.listdir(os.path.join(dataPath, folder))):
+                paths.append(((dataPath, folder, file)))
+        df = pd.DataFrame(paths, columns = ["Root", "Folder", "File"])
+        df["Paths"] = df["Root"].astype(str) +"/" + df["Folder"].astype(str) + "/" + df["File"].astype(str)
+        for path in df["Paths"]:
+            if not path.endswith(".txt"):
+                continue
+            with open(path, "r", encoding = encoding, errors = errors) as f:
+                t = f.read().strip().split()
+                txt.append(t)
+        df["Text"] = pd.Series(txt)
+        df["Text"] = ["".join(map(str, l)) for l in df["Text"].astype(str)]
+        d = {'Text':'merge'}
+        dfText = df.groupby(['Folder'])["Text"].apply(lambda x: ' '.join(x)).reset_index()
+        
+        docs.extend(dfText["Text"].tolist())
+        
+    else:
+        None
+else:
+    None
 
 
 # Reading in .csv and .json files
+if fileType == ".csv":
+    allZipFiles = glob.glob(os.path.join(csvPath,"*.zip"))
+    for item in allZipFiles:
+        fileName = os.path.splitext(csvPath)[0]
+        zipRef = zipfile.ZipFile(item, "r")
+        zipRef.extractall(fileName)
+        zipRef.close()
+        os.remove(item)
+elif fileType == ".json":
+    allZipFiles = glob.glob(os.path.join(jsonPath,"*.zip"))
+    for item in allZipFiles:
+        fileName = os.path.splitext(jsonPath)[0]
+        zipRef = zipfile.ZipFile(item, "r")
+        zipRef.extractall(fileName)
+        zipRef.close()
+        os.remove(item)
+
+elif not glob.glob(os.path.join(dataHome,"*.tar.gz")):
+    None
+else:
+    None
+
 if fileType == ".csv":
     allFiles = glob.glob(os.path.join(dataHome, "twitter", "CSV", source + fileType))     
     df = (pd.read_csv(f, engine = "python") for f in allFiles)
@@ -106,27 +164,29 @@ if fileType == ".csv":
     tweets = cdf[textColIndex].values.tolist()
 if fileType == ".json":
     allFiles = glob.glob(os.path.join(dataHome, "twitter", "JSON", source + fileType))     
-    df = (pd.read_json(f, encoding = encoding) for f in allFiles)
+    df = (pd.read_json(f, encoding = encoding, lines = True) for f in allFiles)
     cdf = pd.concat(df, ignore_index=True)
     cdf = pd.DataFrame(cdf, dtype = 'str')
     tweets = cdf[textColIndex].values.tolist()
 
-
 # Data variable
 if len(docs) > 0:
-    if docLevel is True:
+    if chunkLevel == "files" or "direct":
         data = docs
-    else:
+    elif chunkLevel == "lines":
         data = []
         for i in list(it.zip_longest(*(iter(docs),)*n)):
             data.append(i)
+    else:
+        None
+elif len(tweets) > 0:
+    data = tweets
+    # Remove Urls
+    data = [re.sub(r'http\S+', '', sent) for sent in data]
+    # Remove new line characters
+    data = [re.sub('\s+', ' ', sent) for sent in data]
 else:
-    if len(tweets) > 0:
-        data = tweets
-        # Remove Urls
-        data = [re.sub(r'http\S+', '', sent) for sent in data]
-        # Remove new line characters
-        data = [re.sub('\s+', ' ', sent) for sent in data]
+    None
 print(len(data))
 
 
@@ -216,6 +276,8 @@ print(Counter(dataNgrams))
 
 
 # Getting Information
+minWrdCnt = 5
+
 if spacyLem is True:
     # Create Corpus
     texts = dataLemmatized
@@ -227,9 +289,19 @@ else:
 
 count = Counter(tokens)
 sortList = sorted(count.items(), key=lambda x:x[1], reverse = True)
-print(sum(count.values()))
-print(len(count))
-print(sortList[1500])
+wordCount = sum(count.values())
+uniqueWords = len(count)
+minWrdCntLst = [i for i,j in enumerate(sortList) if j[1] == minWrdCnt]
+minWrdCntMaxIdx = max(minWrdCntLst)
+numTotalWordsKeep = sum(n for _,n in sortList[:minWrdCntMaxIdx])
+keepUniqueWordsPct = "{:.0%}".format((minWrdCntMaxIdx+1)/uniqueWords)
+keepTotalWordsPct = "{:.0%}".format(numTotalWordsKeep/wordCount)
+print("Total number of words = {}".format(wordCount))
+print("Total number of unique words = {}".format(uniqueWords+1))
+print("If minimum word count is {} then {} total words will be kept.".format(minWrdCnt,numTotalWordsKeep))
+print("If minimum word count is {} then {} unique words will be kept.".format(minWrdCnt,minWrdCntMaxIdx+1))
+print("First word to be kept and the number of times it appears: {}".format(sortList[minWrdCntMaxIdx]))
+print("If minimum word count is {} you will keep {} of unique words and {} of total words.".format(minWrdCnt,keepUniqueWordsPct,keepTotalWordsPct))
 
 
 # Build vocabulary and train the model
@@ -237,9 +309,9 @@ print(sortList[1500])
 # build vocabulary and train and save model
 model = gensim.models.Word2Vec(
     texts,
-    size=100,
+    size=200,
     window=5,
-    min_count=12,
+    min_count=minWrdCnt,
     sg = 1,
     seed = 42,
     iter=150)
